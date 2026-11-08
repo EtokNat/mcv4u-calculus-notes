@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="MCV4U · Calculus and Vectors">
+  <title>Derivatives of Exponential and Trigonometric Functions — MCV4U</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css" id="theme">
+  <link rel="stylesheet" href="slides.css">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- =========================================================
+     1. TITLE
+========================================================= -->
+<section id="title-slide" class="title-slide">
+  <h1 class="title">Derivatives of Exponential<br>and Trigonometric Functions</h1>
+  <p class="subtitle">MCV4U · Calculus and Vectors</p>
+  <p class="author">Lesson 3 · following Product/Quotient and the Chain Rule</p>
+</section>
+
+<!-- =========================================================
+     2. PREREQUISITES
+========================================================= -->
+<section>
+  <h2>What you should already know</h2>
+  <ul>
+    <li class="fragment">The <strong>power rule</strong>, <strong>product rule</strong>, and <strong>chain rule</strong>.</li>
+    <li class="fragment">The Ministry's <strong>\(f\cdot g^{-1}\)</strong> method for rationals.</li>
+    <li class="fragment"><strong>Angles are in radians</strong> throughout — this matters for the derivative formulas.</li>
+  </ul>
+</section>
+
+<!-- =========================================================
+     3. WHERE THIS LESSON SITS
+========================================================= -->
+<section>
+  <h2>Where this lesson sits</h2>
+  <p>So far we have treated \(\dfrac{d}{dx}\sin x = \cos x\) as a given.</p>
+  <p class="fragment">Today we <strong>establish</strong> that fact, extend it to \(\cos\), \(\tan\), and the family \(\sin,\cos,\tan,\cot,\sec,\csc\).</p>
+  <p class="fragment">Then we do the same for the <strong>exponential</strong> family: \(e^{x}\) and \(a^{x}\).</p>
+  <p class="fragment">Finally we <strong>combine</strong> them with the chain rule — things like \(e^{\sin x}\) and \(\sin(3x^{2}+1)\).</p>
+</section>
+
+<!-- =========================================================
+     4. PART 1 DIVIDER
+========================================================= -->
+<section>
+  <h2 class="divider">Part 1 — Trigonometric Derivatives</h2>
+</section>
+
+<!-- =========================================================
+     5. CORE TRIG — INTUITION
+========================================================= -->
+<section>
+  <h2>Why these rules?</h2>
+  <p>Graph \(y=\sin x\) and read off its slope at many points.</p>
+  <p class="fragment">The slope-vs-\(x\) plot you get is <strong>identical to \(y = \cos x\)</strong>.</p>
+  <p class="fragment">Do the same for \(y=\cos x\). The slope plot is \(-\sin x\).</p>
+  <p class="fragment">(The formal proof uses \(\lim_{h\to 0}\dfrac{\sin h}{h}=1\). Ontario does not require it.)</p>
+</section>
+
+<!-- =========================================================
+     6. CORE TRIG — RULES
+========================================================= -->
+<section>
+  <h2>The two core rules</h2>
+  <div class="rulebox">
+    <p>\[\dfrac{d}{dx}\sin x = \cos x\]</p>
+    <p class="fragment">\[\dfrac{d}{dx}\cos x = -\sin x\]</p>
+  </div>
+  <p class="fragment"><strong>Memory hook:</strong> \(\cos\) has a minus sign — same letter count as "minus".</p>
+</section>
+
+<!-- =========================================================
+     7. DERIVED TRIG DERIVATIVES
+========================================================= -->
+<section>
+  <h2>The other four follow from these</h2>
+  <p>From the quotient/reciprocal structure:</p>
+  <div class="rulebox" style="font-size: 0.95em;">
+    <p>\[\dfrac{d}{dx}\tan x = \sec^{2}x\]</p>
+    <p class="fragment">\[\dfrac{d}{dx}\cot x = -\csc^{2}x\]</p>
+    <p class="fragment">\[\dfrac{d}{dx}\sec x = \sec x\,\tan x\]</p>
+    <p class="fragment">\[\dfrac{d}{dx}\csc x = -\csc x\,\cot x\]</p>
+  </div>
+  <p class="fragment"><em>We derived \(\tan\) in the Product &amp; Quotient lesson. The others come out the same way.</em></p>
+</section>
+
+<!-- =========================================================
+     8. EXAMPLE 1: sin(3x)
+========================================================= -->
+<section>
+  <h2>Example 1 — \(y = \sin(3x)\)</h2>
+  <p>Differentiate.</p>
+  <p class="fragment"><strong>Step 1.</strong> It's a composite: outside = \(\sin\), inside = \(3x\).</p>
+  <p class="fragment"><strong>Step 2.</strong> Chain rule template:
+  \(\dfrac{d}{dx}f(g(x)) = f'(g(x))\cdot g'(x).\)</p>
+  <p class="fragment"><strong>Step 3.</strong> \(f'(\sin) = \cos\), so \(f'(g(x)) = \cos(3x)\).</p>
+  <p class="fragment"><strong>Step 4.</strong> \(g'(x) = 3\).</p>
+  <p class="fragment"><strong>Step 5.</strong> Multiply: \(y' = \cos(3x)\cdot 3\).</p>
+  <div class="fragment answer"><strong>\(y' = 3\cos(3x).\)</strong></div>
+</section>
+
+<!-- =========================================================
+     9. EXAMPLE 2: cos(2x+1)
+========================================================= -->
+<section>
+  <h2>Example 2 — \(y = \cos(2x+1)\)</h2>
+  <p class="fragment"><strong>Step 1.</strong> Outside = \(\cos\), inside = \(2x+1\).</p>
+  <p class="fragment"><strong>Step 2.</strong> Derivative of outside (keeping inside): \(-\sin(2x+1)\).</p>
+  <p class="fragment"><strong>Step 3.</strong> Derivative of inside: \(2\).</p>
+  <p class="fragment"><strong>Step 4.</strong> Multiply: \(y' = -\sin(2x+1)\cdot 2\).</p>
+  <div class="fragment answer"><strong>\(y' = -2\sin(2x+1).\)</strong></div>
+</section>
+
+<!-- =========================================================
+     10. EXAMPLE 3: x^2 sin x
+========================================================= -->
+<section>
+  <h2>Example 3 — \(y = x^{2}\sin x\)</h2>
+  <p>Not a composite — it's a <strong>product</strong>.</p>
+  <p class="fragment"><strong>Step 1.</strong> Let \(u = x^{2}\), \(v = \sin x\).</p>
+  <p class="fragment"><strong>Step 2.</strong> \(u' = 2x\), \(v' = \cos x\).</p>
+  <p class="fragment"><strong>Step 3.</strong> Product rule: \(y' = u'v + uv'\).</p>
+  <p class="fragment"><strong>Step 4.</strong> \(y' = (2x)(\sin x) + (x^{2})(\cos x)\).</p>
+  <div class="fragment answer"><strong>\(y' = 2x\sin x + x^{2}\cos x.\)</strong></div>
+</section>
+
+<!-- =========================================================
+     11. PART 2 DIVIDER
+========================================================= -->
+<section>
+  <h2 class="divider">Part 2 — Exponential Derivatives</h2>
+</section>
+
+<!-- =========================================================
+     12. THE KEY INSIGHT
+========================================================= -->
+<section>
+  <h2>The key insight</h2>
+  <p>For \(f(x) = a^{x}\) with \(a &gt; 0\), \(a \ne 1\):</p>
+  <p class="fragment"><strong>The slope at every point is proportional to the function value itself.</strong></p>
+  <p class="fragment">\[f'(x) = k\cdot f(x)\]</p>
+  <p class="fragment">The constant \(k\) depends on the base \(a\).</p>
+  <p class="fragment">Big question: <em>what base makes \(k = 1\)?</em></p>
+</section>
+
+<!-- =========================================================
+     13. INTRODUCING e
+========================================================= -->
+<section>
+  <h2>Introducing \(e\)</h2>
+  <p class="fragment">The base for which \(f'(x) = f(x)\) exactly is called <strong>\(e\)</strong>.</p>
+  <p class="fragment">\(e \approx 2.71828\ldots\) — an irrational number, like \(\pi\).</p>
+  <div class="fragment rulebox">
+    <p>\[\dfrac{d}{dx}e^{x} = e^{x}\]</p>
+  </div>
+  <p class="fragment"><em>The slope of \(y = e^{x}\) at any point equals the height of the curve there.</em></p>
+</section>
+
+<!-- =========================================================
+     14. GENERAL EXPONENTIAL RULE
+========================================================= -->
+<section>
+  <h2>The general rule</h2>
+  <p>For any positive base \(a \ne 1\):</p>
+  <div class="rulebox">
+    <p>\[\dfrac{d}{dx}a^{x} = a^{x}\ln a\]</p>
+  </div>
+  <p class="fragment">The \(e\)-case is just the special case \(a = e\).</p>
+  <p class="fragment">Because \(\ln e = 1\), we get \(\dfrac{d}{dx}e^{x} = e^{x}\cdot 1 = e^{x}.\) ✓</p>
+</section>
+
+<!-- =========================================================
+     15. EXAMPLE 4: e^(x^2)
+========================================================= -->
+<section>
+  <h2>Example 4 — \(y = e^{x^{2}}\)</h2>
+  <p>Differentiate.</p>
+  <p class="fragment"><strong>Step 1.</strong> Composite: outside = \(e^{(\cdot)}\), inside = \(x^{2}\).</p>
+  <p class="fragment"><strong>Step 2.</strong> Derivative of outside (keeping inside): \(e^{x^{2}}\).</p>
+  <p class="fragment"><strong>Step 3.</strong> Derivative of inside: \(2x\).</p>
+  <p class="fragment"><strong>Step 4.</strong> Multiply: \(y' = e^{x^{2}}\cdot 2x\).</p>
+  <div class="fragment answer"><strong>\(y' = 2x\,e^{x^{2}}.\)</strong></div>
+</section>
+
+<!-- =========================================================
+     16. EXAMPLE 5: x e^x
+========================================================= -->
+<section>
+  <h2>Example 5 — \(y = x\,e^{x}\)</h2>
+  <p>A product.</p>
+  <p class="fragment"><strong>Step 1.</strong> \(u = x\), \(v = e^{x}\).</p>
+  <p class="fragment"><strong>Step 2.</strong> \(u' = 1\), \(v' = e^{x}\).</p>
+  <p class="fragment"><strong>Step 3.</strong> Product rule: \(y' = u'v + uv'\).</p>
+  <p class="fragment"><strong>Step 4.</strong> \(y' = (1)e^{x} + x\,e^{x}\).</p>
+  <p class="fragment"><strong>Step 5.</strong> Factor out \(e^{x}\).</p>
+  <div class="fragment answer"><strong>\(y' = (1+x)\,e^{x}.\)</strong></div>
+</section>
+
+<!-- =========================================================
+     17. EXAMPLE 6: 2^x
+========================================================= -->
+<section>
+  <h2>Example 6 — \(y = 2^{x}\)</h2>
+  <p>A straight application of \(\dfrac{d}{dx}a^{x} = a^{x}\ln a\).</p>
+  <p class="fragment">Set \(a = 2\).</p>
+  <div class="fragment answer"><strong>\(y' = 2^{x}\ln 2.\)</strong></div>
+  <p class="fragment"><em>Numerically:</em> \(\ln 2 \approx 0.693\), so at \(x = 0\) the slope is about \(0.693\).</p>
+</section>
+
+<!-- =========================================================
+     18. EXAMPLE 7: e^(sin x) — combining both parts
+========================================================= -->
+<section>
+  <h2>Example 7 — \(y = e^{\sin x}\)</h2>
+  <p>This is where <strong>Part 1 meets Part 2</strong>.</p>
+  <p class="fragment"><strong>Step 1.</strong> Composite: outside = \(e^{(\cdot)}\), inside = \(\sin x\).</p>
+  <p class="fragment"><strong>Step 2.</strong> Derivative of outside (keeping inside): \(e^{\sin x}\).</p>
+  <p class="fragment"><strong>Step 3.</strong> Derivative of inside: \(\cos x\).</p>
+  <p class="fragment"><strong>Step 4.</strong> Multiply: \(y' = e^{\sin x}\cdot \cos x\).</p>
+  <div class="fragment answer"><strong>\(y' = \cos x\,e^{\sin x}.\)</strong></div>
+</section>
+
+<!-- =========================================================
+     19. SUMMARY
+========================================================= -->
+<section>
+  <h2>Summary — every rule in one place</h2>
+  <table>
+    <thead><tr><th>Function</th><th>Derivative</th></tr></thead>
+    <tbody>
+      <tr><td>\(\sin x\)</td><td>\(\cos x\)</td></tr>
+      <tr><td>\(\cos x\)</td><td>\(-\sin x\)</td></tr>
+      <tr><td>\(\tan x\)</td><td>\(\sec^{2} x\)</td></tr>
+      <tr><td>\(\cot x\)</td><td>\(-\csc^{2} x\)</td></tr>
+      <tr><td>\(\sec x\)</td><td>\(\sec x\,\tan x\)</td></tr>
+      <tr><td>\(\csc x\)</td><td>\(-\csc x\,\cot x\)</td></tr>
+      <tr><td>\(e^{x}\)</td><td>\(e^{x}\)</td></tr>
+      <tr><td>\(a^{x}\)</td><td>\(a^{x}\ln a\)</td></tr>
+    </tbody>
+  </table>
+  <p class="fragment"><em>With chain rule: replace \(x\) by \(g(x)\) inside and multiply by \(g'(x)\).</em></p>
+</section>
+
+<!-- =========================================================
+     20. CLASS TASK BANNER
+========================================================= -->
+<section>
+  <h2 class="task">Class task</h2>
+  <p>Work each problem in your book. Answers reveal on click.</p>
+</section>
+
+<!-- =========================================================
+     21. C1: sin(x^2)
+========================================================= -->
+<section>
+  <h2>C1 — Differentiate \(y = \sin(x^{2})\)</h2>
+  <div class="fragment answer"><strong>\(y' = 2x\cos(x^{2}).\)</strong></div>
+</section>
+
+<!-- =========================================================
+     22. C2: e^(3x) cos x
+========================================================= -->
+<section>
+  <h2>C2 — Differentiate \(y = e^{3x}\cos x\)</h2>
+  <div class="fragment answer"><strong>\(y' = e^{3x}\bigl(3\cos x - \sin x\bigr).\)</strong></div>
+</section>
+
+<!-- =========================================================
+     23. HOMEWORK BANNER
+========================================================= -->
+<section>
+  <h2 class="homework">Homework</h2>
+  <p>Bring written answers to the next session. Cover each answer before attempting the question.</p>
+</section>
+
+<!-- =========================================================
+     24. H1: cos(5x+1)
+========================================================= -->
+<section>
+  <h2>H1 — Differentiate \(y = \cos(5x+1)\)</h2>
+  <div class="fragment answer"><strong>\(y' = -5\sin(5x+1).\)</strong></div>
+</section>
+
+<!-- =========================================================
+     25. H2: e^(-2x) at x=0
+========================================================= -->
+<section>
+  <h2>H2 — For \(y = e^{-2x}\), find \(y'(0)\)</h2>
+  <div class="fragment answer"><strong>\(y'(0) = -2.\)</strong></div>
+</section>
+
+<!-- =========================================================
+     26. H3: tan(3x)
+========================================================= -->
+<section>
+  <h2>H3 — Differentiate \(y = \tan(3x)\)</h2>
+  <div class="fragment answer"><strong>\(y' = 3\sec^{2}(3x).\)</strong></div>
+</section>
+
+<!-- =========================================================
+     27. H4: e^x / x
+========================================================= -->
+<section>
+  <h2>H4 — Differentiate \(y = \dfrac{e^{x}}{x}\)</h2>
+  <p>Write it as \(e^{x}\cdot x^{-1}\) and use the product rule.</p>
+  <div class="fragment answer"><strong>\(y' = \dfrac{(x-1)\,e^{x}}{x^{2}}.\)</strong></div>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/math/math.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+
+<script>
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    slideNumber: 'c/t',
+    hash: true,
+    history: true,
+    fragments: true,
+    center: true,
+    transition: 'slide',
+    width: 1280,
+    height: 900,
+    margin: 0.04,
+    math: {
+      mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+      config: 'TeX-AMS_HTML-full',
+      tex2jax: {
+        inlineMath: [['\\(','\\)']],
+        displayMath: [['\\[','\\]']],
+        balanceBraces: true,
+        processEscapes: false,
+        processRefs: true,
+        processEnvironments: true,
+        preview: 'TeX',
+        skipTags: ['script','noscript','style','textarea','pre','code'],
+        ignoreClass: 'tex2jax_ignore',
+        processClass: 'tex2jax_process'
+      }
+    },
+    plugins: [ RevealMath.MathJax3, RevealNotes ]
+  });
+</script>
+</body>
+</html>

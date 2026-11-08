@@ -1,0 +1,158 @@
+/* MCV4U Calculus — presentation style
+   Matches the Grade 10 physics deck: clean, bold, high-contrast.
+   Sized to fit a 1280x900 logical slide. */
+
+.reveal {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif;
+  font-weight: 700;
+  color: #0a1626;
+}
+
+.reveal .slides section {
+  text-align: left;
+  padding: 0 2%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.reveal .slides section::-webkit-scrollbar { width: 8px; }
+.reveal .slides section::-webkit-scrollbar-thumb { background: rgba(11, 79, 140, .3); border-radius: 4px; }
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  font-weight: 900;
+  color: #0b4f8c;
+  text-transform: none;
+  letter-spacing: -0.005em;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+.reveal h1 { font-size: 2em; }
+.reveal h2 { font-size: 1.45em; }
+.reveal h3 { font-size: 1.1em; color: #0a3a66; }
+
+.reveal section.title-slide { text-align: center; }
+.reveal section.title-slide h1.title { font-size: 2.3em; color: #0b4f8c; }
+.reveal section.title-slide p.subtitle { font-size: 1.2em; font-weight: 800; color: #0a3a66; }
+.reveal section.title-slide p.author { font-size: 0.95em; color: #444; font-weight: 700; }
+
+.reveal p, .reveal li { font-weight: 700; line-height: 1.3; font-size: 0.9em; }
+.reveal strong { font-weight: 900; color: #000; }
+.reveal em { font-weight: 700; font-style: italic; color: #333; }
+
+.reveal ul, .reveal ol { margin: 0.3em 0 0.3em 1em; }
+.reveal li { margin-bottom: 0.3em; }
+
+.reveal blockquote {
+  background: #eef3ff;
+  border-left: 6px solid #0044cc;
+  padding: 0.5em 0.9em;
+  margin: 0.4em auto;
+  font-weight: 800;
+  font-size: 1em;
+  text-align: left;
+  border-radius: 4px;
+  color: #0a1626;
+  max-width: 90%;
+}
+
+.reveal table {
+  font-size: 0.72em;
+  font-weight: 700;
+  border-collapse: collapse;
+  margin: 0.4em auto;
+}
+.reveal table th, .reveal table td {
+  border: 1px solid #334;
+  padding: 0.3em 0.55em;
+}
+.reveal table th { background: #0b4f8c; color: #fff; font-weight: 900; }
+.reveal table tr:nth-child(even) { background: #f3f6fb; }
+
+.reveal pre, .reveal code {
+  background: #f3f3f3;
+  font-family: "Liberation Mono", Menlo, monospace;
+  font-weight: 700;
+}
+
+.reveal img {
+  max-height: 340px;
+  max-width: 85%;
+  display: block;
+  margin: 0.3em auto;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* MathJax equations — bigger and bold */
+.reveal mjx-container { font-size: 1.1em !important; }
+.reveal mjx-container[display="true"] { margin: 0.5em 0 !important; }
+
+/* Part divider slide — big centred headline */
+.reveal h2.divider {
+  text-align: center;
+  font-size: 2.4em;
+  color: #0b4f8c;
+  padding: 0.5em 0;
+  border-top: 4px solid #0b4f8c;
+  border-bottom: 4px solid #0b4f8c;
+  margin: 2em auto;
+}
+
+/* Class task / Homework banner headings */
+.reveal h2.task,
+.reveal h2.homework {
+  color: #fff;
+  padding: 0.3em 0.7em;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.7em;
+  margin-bottom: 0.5em;
+}
+.reveal h2.task { background: #0b4f8c; }
+.reveal h2.homework { background: #a3310f; }
+
+/* Rule box — the yellow emphasis boxes for key derivatives */
+.reveal .rulebox {
+  background: #fff8db;
+  border: 2px solid #c88a1a;
+  border-radius: 6px;
+  padding: 0.6em 1em;
+  margin: 0.6em auto;
+  font-size: 1.05em;
+  max-width: 85%;
+}
+.reveal .rulebox strong { color: #7a4a00; }
+
+/* Answer reveal — green */
+.reveal .answer {
+  background: #e7f5ea;
+  border-left: 6px solid #2f8a42;
+  padding: 0.5em 0.9em;
+  margin: 0.4em auto;
+  font-weight: 800;
+  border-radius: 4px;
+  max-width: 90%;
+}
+.reveal .answer strong { color: #1b5a28; }
+
+/* Tip box — blue informational box */
+.reveal .tipbox {
+  background: #eef3ff;
+  border-left: 6px solid #0b4f8c;
+  padding: 0.5em 0.9em;
+  margin: 0.4em auto;
+  border-radius: 4px;
+  max-width: 90%;
+}
+
+/* Fragment visual: slightly larger step reveal with soft highlight */
+.reveal .fragment.step {
+  background: rgba(255, 240, 150, 0.0);
+  padding: 2px 6px;
+  border-radius: 3px;
+  transition: background-color 0.35s ease;
+}
+.reveal .fragment.step.visible {
+  background: rgba(255, 240, 150, 0.35);
+}
