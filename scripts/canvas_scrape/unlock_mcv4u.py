@@ -271,8 +271,8 @@ async def process_item(page, item, state):
     return result
 
 async def main():
-    only_mod = int(os.environ.get("ONLY_MODULE", "0"))
-    stop_at  = int(os.environ.get("STOP_AT", "0"))
+    only_mod = int(os.environ.get("ONLY_MODULE") or "0")
+    stop_at  = int(os.environ.get("STOP_AT") or "0")
     state = load_state()
     print(f"Output root: {ROOT}", flush=True)
     print(f"Previous completions: {len(state['done'])}", flush=True)
