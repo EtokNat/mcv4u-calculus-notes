@@ -2,6 +2,11 @@ name: canvas-probe-h5p
 
 on:
   workflow_dispatch:
+    inputs:
+      probe:
+        description: "Probe script to run: h5p_submit or pages_api"
+        required: false
+        default: "pages_api"
 
 jobs:
   probe:
@@ -22,19 +27,19 @@ jobs:
         env:
           BRONSTON_USER: ${{ secrets.BRONSTON_USER }}
           BRONSTON_PASS: ${{ secrets.BRONSTON_PASS }}
-          OUT_ROOT: ${{ github.workspace }}/h5p_probe
+          OUT_ROOT: ${{ github.workspace }}/probe_out
         run: |
-          python scripts/canvas_scrape/probe_h5p_submit.py 2>&1 | tee probe.log
+          python scripts/canvas_scrape/probe_${{ inputs.probe }}.py 2>&1 | tee probe.log
         continue-on-error: true
       - name: Package
         if: always()
-        run: tar czf h5p_probe.tgz h5p_probe/ probe.log || true
+        run: tar czf probe_out.tgz probe_out/ probe.log || true
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: h5p_probe
+          name: probe_out
           path: |
-            h5p_probe.tgz
+            probe_out.tgz
             probe.log
           retention-days: 7
           if-no-files-found: warn
