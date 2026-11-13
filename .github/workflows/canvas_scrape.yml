@@ -1,0 +1,63 @@
+name: canvas-scrape
+
+on:
+  workflow_dispatch:
+    inputs:
+      only_module:
+        description: "Canvas module id to restrict to (blank = all modules)"
+        required: false
+        default: ""
+      stop_at:
+        description: "Stop after N items (blank = no limit)"
+        required: false
+        default: ""
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright requests
+          python -m playwright install chromium
+          python -m playwright install-deps chromium
+
+      - name: Run MCV4U unlocker
+        env:
+          BRONSTON_USER: ${{ secrets.BRONSTON_USER }}
+          BRONSTON_PASS: ${{ secrets.BRONSTON_PASS }}
+          ONLY_MODULE: ${{ inputs.only_module }}
+          STOP_AT: ${{ inputs.stop_at }}
+          OUT_ROOT: ${{ github.workspace }}/mcv4u_scrape
+        run: |
+          python scripts/canvas_scrape/unlock_mcv4u.py 2>&1 | tee unlock.log
+          # Don't fail the job even if the script exits non-zero —
+          # we still want the partial artifact for triage
+        continue-on-error: true
+
+      - name: Package scrape
+        if: always()
+        run: |
+          tar czf mcv4u_scrape.tgz mcv4u_scrape/ unlock.log || true
+          ls -la mcv4u_scrape.tgz unlock.log || true
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mcv4u_scrape
+          path: |
+            mcv4u_scrape.tgz
+            unlock.log
+          retention-days: 7
+          if-no-files-found: warn
