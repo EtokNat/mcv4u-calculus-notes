@@ -13,6 +13,25 @@
     .mini-grid { display: flex; gap: 1em; align-items: center; justify-content: center; }
     .mini-grid svg { background: #fafbff; border: 1px solid #ccd; border-radius: 4px; }
     .svg-caption { text-align: center; font-size: .85em; font-weight: 700; color: #0a3a66; margin-top: .2em; }
+
+    /* Strand B: bolden all MathJax output for visibility.
+       MathJax ships with its own glyph fonts that don't have true bold weights,
+       so we combine font-weight with a sub-pixel text-shadow trick that reliably
+       thickens every rendered glyph in CHTML and SVG output. */
+    .reveal mjx-container,
+    .reveal mjx-math,
+    .reveal mjx-container * {
+      font-weight: 700 !important;
+    }
+    .reveal mjx-container {
+      text-shadow:
+        0 0 0.5px currentColor,
+        0 0 0.5px currentColor;
+    }
+    .reveal mjx-container[jax="SVG"] svg * {
+      stroke: currentColor;
+      stroke-width: 0.4;
+    }
   </style>
 </head>
 <body>
