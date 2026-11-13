@@ -1,0 +1,40 @@
+name: canvas-probe-h5p
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          python -m playwright install chromium
+          python -m playwright install-deps chromium
+      - name: Run probe
+        env:
+          BRONSTON_USER: ${{ secrets.BRONSTON_USER }}
+          BRONSTON_PASS: ${{ secrets.BRONSTON_PASS }}
+          OUT_ROOT: ${{ github.workspace }}/h5p_probe
+        run: |
+          python scripts/canvas_scrape/probe_h5p_submit.py 2>&1 | tee probe.log
+        continue-on-error: true
+      - name: Package
+        if: always()
+        run: tar czf h5p_probe.tgz h5p_probe/ probe.log || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h5p_probe
+          path: |
+            h5p_probe.tgz
+            probe.log
+          retention-days: 7
+          if-no-files-found: warn
