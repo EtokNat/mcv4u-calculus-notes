@@ -401,8 +401,28 @@ async def process_assignment_text(page, out_dir):
         return f"text_submit_err:{e}"
     return f"no_text_submit_button(filled={filled})"
 
-async def process_discussion_item(page, out_dir):
+async def process_discussion_item(page, item, out_dir):
     await safe_content(page, out_dir, "content")
+    topic_id = None
+    for src in (item.get("url", ""), item.get("html_url", ""), page.url):
+        m = re.search(r"/discussion_topics/(\d+)", src or "")
+        if m:
+            topic_id = m.group(1)
+            break
+    if topic_id:
+        try:
+            msg = "Engaging with this unit — looking forward to the lessons."
+            r = await page.request.post(
+                f"{BASE}/api/v1/courses/{CID}/discussion_topics/{topic_id}/entries",
+                form={"message": msg},
+            )
+            status = r.status
+            body = await r.text()
+            (out_dir / "discussion_api.json").write_text(json.dumps({"status": status, "body": body[:2000]}, indent=2))
+            if 200 <= status < 300:
+                return f"discussion_api_posted:{topic_id}"
+        except Exception as e:
+            (out_dir / "discussion_api.error").write_text(traceback.format_exc())
     try:
         reply = page.locator('button:has-text("Reply"), a:has-text("Reply")').first
         if await reply.count() == 0:
@@ -428,7 +448,7 @@ async def process_discussion_item(page, out_dir):
         if await post.count() > 0:
             await post.click(timeout=5000)
             await page.wait_for_timeout(3000)
-            return "discussion_posted"
+            return "discussion_posted_ui"
         return "no_post_button"
     except Exception as e:
         (out_dir / "discussion.error").write_text(traceback.format_exc())
@@ -439,7 +459,15 @@ async def process_item(page, item, state, module_name=""):
     key = str(item["id"])
     prev = state["done"].get(key, "")
     # Retry LOCKED, failed quizzes, and transient errors on subsequent passes.
-    retriable = prev.startswith("LOCKED") or prev.startswith("quiz_lti_failed") or prev.startswith("FATAL") or prev.startswith("begin_err") or prev.startswith("submit_err")
+    retriable = (
+        prev.startswith("LOCKED")
+        or prev.startswith("quiz_lti_failed")
+        or prev.startswith("FATAL")
+        or prev.startswith("begin_err")
+        or prev.startswith("submit_err")
+        or prev in ("discussion_posted", "no_reply_button", "no_post_button")
+        or prev.startswith("discussion_err")
+    )
     if prev and not retriable:
         return prev
     title = item.get("title", "(untitled)")
@@ -481,7 +509,7 @@ async def process_item(page, item, state, module_name=""):
         elif item_type == "Quiz":
             result = await process_quiz_item(page, out_dir)
         elif item_type == "Discussion":
-            result = await process_discussion_item(page, out_dir)
+            result = await process_discussion_item(page, item, out_dir)
         elif item_type in ("File", "ExternalUrl", "ExternalTool"):
             await safe_content(page, out_dir, "content")
             result = f"{item_type}_visited"
