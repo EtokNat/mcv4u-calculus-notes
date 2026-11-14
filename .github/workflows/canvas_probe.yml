@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       probe:
-        description: "Probe script to run: h5p_submit or pages_api"
+        description: "Probe script to run (e.g. h5p_submit, pages_api, lti_launch, via_xapi)"
         required: false
-        default: "pages_api"
+        default: "via_xapi"
 
 jobs:
   probe:
