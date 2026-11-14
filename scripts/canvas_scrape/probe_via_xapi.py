@@ -57,25 +57,56 @@ async def h5p_integration_from_frame(page):
                 continue
     return None, None
 
-async def post_statement(ctx, endpoint, payload, tag):
-    """POST xAPI statement using the authenticated context (cookies attached)."""
-    r = await ctx.request.post(
-        endpoint,
-        headers={"Content-Type": "application/json"},
-        data=json.dumps(payload),
-    )
-    try:
-        body = await r.json()
-    except Exception:
-        body = {"_raw": (await r.text())[:1000]}
-    (OUT / f"{tag}.json").write_text(json.dumps({
-        "endpoint": endpoint,
-        "payload": payload,
-        "status": r.status,
-        "response": body,
-    }, indent=2, default=str))
-    print(f"  POST {tag}: HTTP {r.status}", flush=True)
-    return r.status, body
+async def post_statement(ctx, endpoint, payload, tag, frame=None):
+    """POST xAPI statement. If a frame is given, run the fetch INSIDE the frame so
+    partitioned third-party cookies travel with the request (CHIPS-compatible)."""
+    if frame is not None:
+        try:
+            result = await frame.evaluate(
+                """async ({endpoint, payload}) => {
+                    try {
+                        const r = await fetch(endpoint, {
+                            method: 'POST',
+                            headers: {'Content-Type': 'application/json'},
+                            credentials: 'include',
+                            body: JSON.stringify(payload),
+                        });
+                        const text = await r.text();
+                        let json = null;
+                        try { json = JSON.parse(text); } catch(_) {}
+                        return {status: r.status, text: text.slice(0, 2000), json};
+                    } catch (e) { return {error: String(e)}; }
+                }""",
+                {"endpoint": endpoint, "payload": payload},
+            )
+        except Exception as e:
+            result = {"error": str(e)}
+        (OUT / f"{tag}.json").write_text(json.dumps({
+            "endpoint": endpoint,
+            "payload": payload,
+            "result": result,
+            "via": "frame.evaluate(fetch)",
+        }, indent=2, default=str))
+        print(f"  POST {tag} (in-frame): {result.get('status') or result.get('error')}", flush=True)
+        return result.get("status"), result
+    else:
+        r = await ctx.request.post(
+            endpoint,
+            headers={"Content-Type": "application/json"},
+            data=json.dumps(payload),
+        )
+        try:
+            body = await r.json()
+        except Exception:
+            body = {"_raw": (await r.text())[:1000]}
+        (OUT / f"{tag}.json").write_text(json.dumps({
+            "endpoint": endpoint,
+            "payload": payload,
+            "status": r.status,
+            "response": body,
+        }, indent=2, default=str))
+        print(f"  POST {tag}: HTTP {r.status}", flush=True)
+        return r.status, body
 
 async def main():
     async with async_playwright() as p:
@@ -133,7 +164,7 @@ async def main():
             "context": {"contextActivities": {"category": [{"id": "http://h5p.org/libraries/H5P.InteractiveVideo-1.28"}]}},
             "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         }
-        await post_statement(ctx, xapi_url, stmt_completed, "attempt1_completed")
+        await post_statement(ctx, xapi_url, stmt_completed, "attempt1_completed", frame=frame)
 
         await submission_state(page, "after_completed")
 
@@ -141,7 +172,7 @@ async def main():
         stmt_answered = dict(stmt_completed)
         stmt_answered["verb"] = {"id": "http://adlnet.gov/expapi/verbs/answered",
                                  "display": {"en-US": "answered"}}
-        await post_statement(ctx, xapi_url, stmt_answered, "attempt2_answered")
+        await post_statement(ctx, xapi_url, stmt_answered, "attempt2_answered", frame=frame)
         await submission_state(page, "after_answered")
 
         # Statement C: via /attempts endpoint
@@ -152,7 +183,7 @@ async def main():
             "duration": "PT2M33S",
             "statement": stmt_completed,
         }
-        await post_statement(ctx, result_url, attempt_payload, "attempt3_attempts_endpoint")
+        await post_statement(ctx, result_url, attempt_payload, "attempt3_attempts_endpoint", frame=frame)
         await submission_state(page, "after_attempts")
 
         # Re-visit the module item URL to see if the completion propagated
