@@ -78,6 +78,34 @@ ENTRIES = [
         _has("spaceship", "h = 25t\u00b2 - 100t + 100"),
         ["2", "0"],
     ),
+    # --- FC B round 2 (second rotation of pool) ---------------------------
+    (
+        # Electrical power p(t) graph problem. Values recalled from standard
+        # Nelson Calculus 12 key — peak at t=2 is 10 kW, outage during t∈[3,4]
+        # drops p to 0, resumes ~5 kW after. Discontinuities at t=3 and t=4.
+        _has("electrical power p(t)", "peak use at 08:00", "power failure between 09:00 and 10:00"),
+        ["10", "5", "0", "3", "4"],
+    ),
+    (
+        # Bolt drop: s(t)=320-5t², 0≤t≤8. Avg velocities 1st/3rd/8th second,
+        # avg velocity on [3,8], instantaneous velocity at t=2.
+        _has("construction worker drops a bolt", "s(t) = 320 - 5t\u00b2"),
+        ["-5", "-25", "-75", "-55", "-20"],
+    ),
+    (
+        # Time-to-fall: t=√(s/5); dt/ds at s=125.
+        _has("t = \u221a(s/5)", "125 m above the ground"),
+        ["1/50"],
+    ),
+    (
+        # IRC of f(x) wrt x: f(x)=5-x² at x=2; f(x)=3/x at x=1/2.
+        _has(
+            "instantaneous rate of change of f(x) with respect to x",
+            "f(x) = 5 - x\u00b2, x = 2",
+            "f(x) = 3/x, x = 1/2",
+        ),
+        ["-4", "-12"],
+    ),
 ]
 
 
