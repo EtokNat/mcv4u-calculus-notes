@@ -16,6 +16,10 @@ Optional env vars:
 import os, re, sys, json, time, asyncio, pathlib, traceback
 from playwright.async_api import async_playwright, TimeoutError as PWTimeout
 
+HERE = pathlib.Path(__file__).parent
+sys.path.insert(0, str(HERE))
+from solve_formative import solve_question  # noqa: E402
+
 USER = os.environ["BRONSTON_USER"]
 PASS = os.environ["BRONSTON_PASS"]
 BASE = "https://bronston.instructure.com"
@@ -23,16 +27,23 @@ CID  = os.environ.get("CID", "616")
 ROOT = pathlib.Path(os.environ.get("OUT_ROOT", "./mcv4u_scrape")).resolve()
 UNLOCKED = ROOT / f"course_{CID}" / "unlocked_items"
 UNLOCKED.mkdir(parents=True, exist_ok=True)
+BANK = ROOT / "question_bank"
+BANK.mkdir(parents=True, exist_ok=True)
 STATE_FILE = ROOT / "unlock_state.json"
 HEADLESS = os.environ.get("HEADLESS", "1") != "0"
+RETRY_PER_QUIZ = int(os.environ.get("RETRY_PER_QUIZ", "5"))
+MAX_PASSES = int(os.environ.get("MAX_PASSES", "6"))
 
 def slug(s):
     return re.sub(r'[^A-Za-z0-9._-]+', '_', str(s))[:100]
 
 def load_state():
     if STATE_FILE.exists():
-        return json.loads(STATE_FILE.read_text())
-    return {"done": {}, "errors": {}}
+        s = json.loads(STATE_FILE.read_text())
+        s.setdefault("bank_hashes", [])
+        s.setdefault("quiz_scores", {})
+        return s
+    return {"done": {}, "errors": {}, "bank_hashes": [], "quiz_scores": {}}
 
 def save_state(st):
     STATE_FILE.write_text(json.dumps(st, indent=2))
@@ -85,6 +96,144 @@ async def process_page_item(page, out_dir):
     except Exception:
         pass
     return "page_viewed"
+
+async def submission_state(page, aid):
+    try:
+        r = await page.request.get(f"{BASE}/api/v1/courses/{CID}/assignments/{aid}/submissions/self")
+        return await r.json()
+    except Exception:
+        return {}
+
+def write_bank(module_name, quiz_title, questions_meta, state):
+    unit_dir = BANK / slug(module_name)
+    unit_dir.mkdir(parents=True, exist_ok=True)
+    f = unit_dir / f"{slug(quiz_title)}.md"
+    existing = f.read_text() if f.exists() else f"# {quiz_title}\n\n**Unit:** {module_name}\n\n"
+    new_entries = []
+    for q in questions_meta:
+        if not q.get("ok"):
+            continue
+        h = str(hash(q["prompt"].strip()))
+        if h in state["bank_hashes"]:
+            continue
+        state["bank_hashes"].append(h)
+        new_entries.append(q)
+    if new_entries:
+        with f.open("w") as out:
+            out.write(existing)
+            for q in new_entries:
+                out.write(f"\n---\n\n## {q.get('pattern') or 'question'} ({q['num_blanks']} blanks)\n\n")
+                out.write("**Prompt:**\n\n```\n" + q["prompt"].strip() + "\n```\n\n")
+                out.write("**Answers:** " + ", ".join(f"`{a}`" for a in q["answers"]) + "\n")
+
+async def _attempt_learnosity(page, aid, out_dir, tag):
+    """Single attempt at a Learnosity-rendered quiz. Returns (score, meta)."""
+    await page.goto(f"{BASE}/courses/{CID}/assignments/{aid}/launch",
+                    wait_until="domcontentloaded", timeout=30000)
+    await page.wait_for_timeout(5000)
+    try:
+        await page.locator('[data-automation="sdk-start-resume-button"]').first.click(timeout=15000)
+    except Exception:
+        try:
+            await page.get_by_role("button", name=re.compile("Begin|Resume|Start|Take", re.I)).first.click(timeout=8000)
+        except Exception as e:
+            print(f"    [{tag}] start-click: {e}", flush=True)
+    await page.wait_for_timeout(10000)
+    try:
+        await page.wait_for_selector('[data-automation="sdk-item-wrapper"]', timeout=30000)
+    except Exception as e:
+        print(f"    [{tag}] wait-items: {e}", flush=True)
+        return None, []
+    await page.wait_for_timeout(3000)
+    questions = await page.evaluate("""() => {
+        const wrappers = Array.from(document.querySelectorAll('[data-automation="sdk-item-wrapper"]'));
+        return wrappers.map((w, i) => {
+            const promptEl = w.querySelector('[data-automation="sdk-take-item-question"]');
+            const inputs = Array.from(w.querySelectorAll('input[type="text"]'));
+            return {
+                idx: i,
+                prompt: (promptEl?.innerText || w.innerText || '').slice(0, 3000),
+                input_ids: inputs.map(el => el.id),
+            };
+        });
+    }""")
+    print(f"    [{tag}] {len(questions)} questions", flush=True)
+    meta = []
+    for q in questions:
+        n = len(q["input_ids"])
+        res = solve_question(q["prompt"], n)
+        meta.append({
+            "idx": q["idx"], "prompt": q["prompt"], "num_blanks": n,
+            "pattern": res.get("pattern"), "ok": res.get("ok"),
+            "answers": res.get("answers"), "reason": res.get("reason"),
+        })
+        if res.get("ok"):
+            for input_id, ans in zip(q["input_ids"], res["answers"]):
+                try:
+                    await page.locator(f"#{input_id}").fill(str(ans), timeout=5000)
+                except Exception as e:
+                    print(f"      fill err {input_id}={ans}: {e}", flush=True)
+        else:
+            print(f"      Q{q['idx']+1} UNSOLVED pattern={res.get('pattern')} reason={res.get('reason')}", flush=True)
+    try:
+        await page.locator('[data-automation="sdk-submit-button"]').first.click(timeout=10000)
+        await page.wait_for_timeout(3000)
+        for label in ["Submit", "Yes", "Confirm", "OK"]:
+            try:
+                btn = page.get_by_role("button", name=label, exact=False)
+                if await btn.count() > 0:
+                    await btn.first.click(timeout=3000)
+                    await page.wait_for_timeout(2000)
+                    break
+            except Exception:
+                continue
+    except Exception as e:
+        print(f"    [{tag}] submit err: {e}", flush=True)
+    await page.wait_for_timeout(8000)
+    best = None
+    for _ in range(8):
+        await page.wait_for_timeout(3000)
+        s = await submission_state(page, aid)
+        sc = s.get("score")
+        if sc is not None:
+            best = sc
+            break
+    return best, meta
+
+async def process_quiz_lti(page, item, out_dir, state, module_name):
+    """New-Quiz (Learnosity) item: retry until passing min_score."""
+    aid_m = re.search(r'/assignments/(\d+)', item.get("url", "") or "")
+    if not aid_m:
+        return "quiz_lti_no_aid"
+    aid = int(aid_m.group(1))
+    cr = item.get("completion_requirement") or {}
+    min_score = cr.get("min_score") or 60
+    title = item.get("title", f"quiz_{aid}")
+    (out_dir / "quiz_lti.json").write_text(json.dumps({"aid": aid, "min_score": min_score}, indent=2))
+    # Already passed?
+    s = await submission_state(page, aid)
+    if (s.get("score") or -1) >= min_score:
+        state["quiz_scores"][str(item["id"])] = s.get("score")
+        return f"quiz_lti_already_passed:{s.get('score')}"
+    best_score = -1.0
+    best_meta = []
+    for retry in range(1, RETRY_PER_QUIZ + 1):
+        try:
+            score, meta = await _attempt_learnosity(page, aid, out_dir, f"{item['id']}#r{retry}")
+        except Exception as e:
+            print(f"    attempt exc: {e}", flush=True)
+            score, meta = None, []
+        if meta:
+            best_meta = meta
+        if score is not None and score > best_score:
+            best_score = score
+        print(f"    [r{retry}] score={score} best={best_score}", flush=True)
+        if score is not None and score >= min_score:
+            break
+    write_bank(module_name, title, best_meta, state)
+    state["quiz_scores"][str(item["id"])] = best_score
+    (out_dir / "attempts_meta.json").write_text(json.dumps(best_meta, indent=2, default=str))
+    return f"quiz_lti_passed:{best_score}" if best_score >= min_score else f"quiz_lti_failed:{best_score}"
 
 async def process_quiz_item(page, out_dir):
     """New Quizzes (Learnosity): click Begin, dump all questions on one page, submit."""
@@ -285,11 +434,14 @@ async def process_discussion_item(page, out_dir):
         (out_dir / "discussion.error").write_text(traceback.format_exc())
         return f"discussion_err:{e}"
 
-async def process_item(page, item, state):
+async def process_item(page, item, state, module_name=""):
     """Hardened: any failure sets a state entry and never silently drops the loop."""
     key = str(item["id"])
-    if key in state["done"] and not state["done"][key].startswith("LOCKED"):
-        return state["done"][key]
+    prev = state["done"].get(key, "")
+    # Retry LOCKED, failed quizzes, and transient errors on subsequent passes.
+    retriable = prev.startswith("LOCKED") or prev.startswith("quiz_lti_failed") or prev.startswith("FATAL") or prev.startswith("begin_err") or prev.startswith("submit_err")
+    if prev and not retriable:
+        return prev
     title = item.get("title", "(untitled)")
     item_type = item.get("type", "")
     print(f"  [{item_type}] {title} (id={item['id']})", flush=True)
@@ -318,7 +470,9 @@ async def process_item(page, item, state):
         elif item_type == "Page":
             result = await process_page_item(page, out_dir)
         elif item_type == "Assignment":
-            if "/taking/" in final_url:
+            if item.get("quiz_lti"):
+                result = await process_quiz_lti(page, item, out_dir, state, module_name)
+            elif "/taking/" in final_url:
                 result = await process_quiz_item(page, out_dir)
             elif "Submitting an external tool" in body_text or "external_tool" in body_text.lower():
                 result = await process_h5p_assignment(page, out_dir)
@@ -341,6 +495,20 @@ async def process_item(page, item, state):
     print(f"    -> {result}", flush=True)
     return result
 
+def pending_terminal(result):
+    """A result is 'terminal' (no further retry needed) when it isn't LOCKED, a transient error, or a failed quiz."""
+    if not result:
+        return False
+    if result.startswith("LOCKED"):
+        return False
+    if result.startswith("quiz_lti_failed"):
+        return False
+    if result.startswith("FATAL"):
+        return False
+    if result.startswith("begin_err") or result.startswith("submit_err"):
+        return False
+    return True
+
 async def main():
     only_mod = int(os.environ.get("ONLY_MODULE") or "0")
     stop_at  = int(os.environ.get("STOP_AT") or "0")
@@ -353,22 +521,35 @@ async def main():
         page = await ctx.new_page()
         print("Logging in...", flush=True)
         await login(page)
-        print("Fetching modules...", flush=True)
-        modules = await get_modules(page)
-        modules.sort(key=lambda m: m.get("position", 0))
-        count = 0
-        for m in modules:
-            if only_mod and m["id"] != only_mod:
-                continue
-            print(f"\n## Module {m.get('position')}: {m.get('name')} (id={m['id']})", flush=True)
-            for it in (m.get("items") or []):
-                await process_item(page, it, state)
-                count += 1
-                if stop_at and count >= stop_at:
-                    print(f"\nReached STOP_AT={stop_at}, exiting.", flush=True)
-                    await browser.close()
-                    return
-                await asyncio.sleep(1)
+
+        last_locked = None
+        for pass_num in range(1, MAX_PASSES + 1):
+            print(f"\n######## PASS {pass_num}/{MAX_PASSES} ########", flush=True)
+            print("Fetching modules...", flush=True)
+            modules = await get_modules(page)
+            modules.sort(key=lambda m: m.get("position", 0))
+            pass_count = 0
+            for m in modules:
+                if only_mod and m["id"] != only_mod:
+                    continue
+                mname = m.get("name", f"module_{m['id']}")
+                print(f"\n## Module {m.get('position')}: {mname} (id={m['id']})", flush=True)
+                for it in (m.get("items") or []):
+                    await process_item(page, it, state, module_name=mname)
+                    pass_count += 1
+                    if stop_at and pass_count >= stop_at:
+                        print(f"\nReached STOP_AT={stop_at}, exiting pass.", flush=True)
+                        break
+                    await asyncio.sleep(1)
+                if stop_at and pass_count >= stop_at:
+                    break
+            locked_now = sum(1 for v in state["done"].values() if v.startswith("LOCKED"))
+            terminal_now = sum(1 for v in state["done"].values() if pending_terminal(v))
+            print(f"\n=== After pass {pass_num}: terminal={terminal_now}, LOCKED={locked_now} ===", flush=True)
+            if last_locked is not None and locked_now >= last_locked:
+                print("No new unlocks this pass; stopping.", flush=True)
+                break
+            last_locked = locked_now
         await browser.close()
     print("\nDone.", flush=True)
 
