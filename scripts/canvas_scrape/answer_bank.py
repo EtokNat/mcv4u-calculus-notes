@@ -114,6 +114,59 @@ ENTRIES = [
         _has("s(t) = -5t\u00b2 + 180", "At what velocity will the object hit the ground"),
         ["-5", "-15", "-40", "-60"],
     ),
+    # --- Formative Check C — Sections 1.5 & 1.6 (limits, continuity) -----
+    (
+        # Q1: lim(x→4) f(x)=3. a. [f(x)]³ = 27. b. ([f(x)]²-x²)/(f(x)+x) = -1.
+        # c. √(3f(x)-2x) = √1 = 1.
+        _has("lim(x\u21924) f(x) = 3", "[f(x)]\u00b3", "\u221a(3f(x) - 2x)"),
+        ["27", "-1", "1"],
+    ),
+    (
+        # Q2: Direct substitution limits.
+        # a. 6/6=1; b. 1-1+1=1; c. (3+1/3)²=100/9;
+        # d. 8π³+2π³-5π³=5π³; e. √4=2; f. √[(-6)/(-2)]=√3.
+        _has("lim(x\u21922) 3x/(x\u00b2 + 2)", "lim(x\u2192-3) \u221a[(x - 3)/(2x + 4)]"),
+        ["1", "1", "100/9", "5\u03c0\u00b3", "2", "\u221a3"],
+    ),
+    (
+        # Q3: a. (-8)/(-4)=2; b. 2/√2=√2.
+        _has("graphing calculator", "lim(x\u2192-2) x\u00b3/(x - 2)", "lim(x\u21921) 2x/\u221a(x\u00b2 + 1)"),
+        ["2", "\u221a2"],
+    ),
+    (
+        # Q4: Rationalize. Numerator × conj gives −x/(√(x+1)+√(2x+1));
+        # denominator × conj gives x/(√(3x+4)+√(2x+4)). Ratio → −4/2 = −2.
+        _has("lim(x\u21920) [\u221a(x + 1) - \u221a(2x + 1)]", "[\u221a(3x + 4) - \u221a(2x + 4)]"),
+        ["-2"],
+    ),
+    (
+        # Q5: a=1 from 5a+3=8; then 25+5b+1=8 → b=-18/5.
+        _has("ax + 3, if x > 5", "x\u00b2 + bx + a, if x < 5"),
+        ["1", "-18/5"],
+    ),
+    (
+        # Q6: f(0)=6 forces b=6; then 4a+b=2 → a=-1.
+        _has("-x, if -3 \u2264 x \u2264 -2", "ax\u00b2 + b, if -2 < x < 0", "6, if x = 0"),
+        ["-1", "6"],
+    ),
+    (
+        # Q7: lim g = 6 = 2+√k → k=16.
+        _has("g(x) = {x + 3, if x \u2260 3; 2 + \u221ak, if x = 3}", "if g(x) is continuous"),
+        ["16"],
+    ),
+    (
+        # Q8: Zeros of denominators / piecewise jumps.
+        # a. x=3; b. x=0; c. x=0;
+        # d. x²-9=0 → x=-3 and x=3;
+        # e. x²+x-6=0 → x=-3 and x=2;
+        # f. jump at x=3.
+        _has(
+            "Find the value(s) of x at which each function is discontinuous",
+            "f(x) = (9 - x\u00b2)/(x - 3)",
+            "h(x) = {-x, if x \u2264 3; 1 - x, if x > 3}",
+        ),
+        ["3", "0", "0", "-3", "3", "-3", "2", "3"],
+    ),
 ]
 
 
