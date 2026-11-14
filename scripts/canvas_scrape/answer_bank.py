@@ -106,6 +106,14 @@ ENTRIES = [
         ),
         ["-4", "-12"],
     ),
+    (
+        # Falling object: s(t) = -5t² + 180.
+        # a. Avg vel over [0,1] = -5; over [1,2] = -15.
+        # b. v(4) = -10(4) = -40.
+        # c. Hits ground at s=0 → t=6, v(6) = -60.
+        _has("s(t) = -5t\u00b2 + 180", "At what velocity will the object hit the ground"),
+        ["-5", "-15", "-40", "-60"],
+    ),
 ]
 
 
