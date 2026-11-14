@@ -362,6 +362,14 @@ def classify(prompt: str):
     return None
 
 def solve_question(prompt: str, num_blanks: int):
+    # Hand-crafted answer bank takes precedence over SymPy pattern matching.
+    try:
+        from answer_bank import lookup as _bank_lookup
+        bank = _bank_lookup(prompt, num_blanks)
+        if bank.get("ok"):
+            return bank
+    except Exception:
+        pass
     pattern = classify(prompt)
     parts = split_sub_parts(prompt)
     if not pattern:
@@ -388,6 +396,10 @@ def solve_question(prompt: str, num_blanks: int):
         if len(answers) != num_blanks:
             return {"ok": False, "pattern": pattern, "reason": f"count_mismatch ({len(answers)} vs {num_blanks})",
                     "answers": answers}
+        # Guard: any ERR:* sentinel in answers means the solver gave up — don't ship them.
+        bad = [a for a in answers if isinstance(a, str) and a.startswith("ERR:")]
+        if bad:
+            return {"ok": False, "pattern": pattern, "reason": f"err_sentinel:{bad[0]}", "answers": answers}
         return {"ok": True, "pattern": pattern, "answers": answers}
     except Exception as ex:
         return {"ok": False, "pattern": pattern, "reason": f"exc:{ex}"}
