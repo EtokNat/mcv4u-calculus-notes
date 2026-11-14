@@ -344,9 +344,112 @@ async def process_h5p_assignment(page, out_dir):
         return f"h5p_err:{trig.get('err')}"
     return f"h5p_triggered:{trig.get('lib')}"
 
-async def process_assignment_text(page, out_dir):
-    """Non-quiz assignment: try text entry submission."""
+async def _canvas_api_fetch(page, endpoint, method="POST", body=None, content_type="application/json", extra_headers=None):
+    """Run an authenticated fetch inside the page so session cookies + CSRF are attached.
+
+    Returns {status, csrf_used, body}. body may be dict (for JSON) or string.
+    """
+    return await page.evaluate(
+        """async ({endpoint, method, body, content_type, extra}) => {
+            let csrf = null;
+            const meta = document.querySelector('meta[name="csrf-token"]');
+            if (meta) csrf = meta.content;
+            if (!csrf) {
+                const m = document.cookie.match(/_csrf_token=([^;]+)/);
+                if (m) csrf = decodeURIComponent(m[1]);
+            }
+            const headers = {'Accept':'application/json+canvas-string-ids, application/json','X-Requested-With':'XMLHttpRequest'};
+            if (content_type) headers['Content-Type'] = content_type;
+            if (csrf) headers['X-CSRF-Token'] = csrf;
+            if (extra) for (const k in extra) headers[k] = extra[k];
+            const init = {method, credentials:'include', headers};
+            if (body !== null && body !== undefined) {
+                init.body = (typeof body === 'string') ? body : JSON.stringify(body);
+            }
+            const r = await fetch(endpoint, init);
+            const text = await r.text();
+            return {status: r.status, csrf_used: !!csrf, body: text.slice(0, 4000)};
+        }""",
+        {"endpoint": endpoint, "method": method, "body": body, "content_type": content_type, "extra": extra_headers},
+    )
+
+
+async def submit_assignment_online_upload(page, assignment_id, out_dir, filename="submission.txt", content="Submitted for completion."):
+    """Three-step Canvas upload: reserve slot → PUT file bytes → confirm + submit."""
+    step1 = await _canvas_api_fetch(
+        page,
+        f"{BASE}/api/v1/courses/{CID}/assignments/{assignment_id}/submissions/self/files",
+        method="POST",
+        body={"name": filename, "size": len(content.encode()), "content_type": "text/plain"},
+    )
+    (out_dir / "upload_step1.json").write_text(json.dumps(step1, indent=2))
+    if not (200 <= (step1.get("status") or 0) < 300):
+        return f"upload_reserve_failed:{step1.get('status')}"
+    try:
+        reserve = json.loads(step1["body"])
+    except Exception:
+        return "upload_reserve_badjson"
+    upload_url = reserve.get("upload_url")
+    upload_params = reserve.get("upload_params") or {}
+    if not upload_url:
+        return "upload_no_url"
+    step2 = await page.evaluate(
+        """async ({upload_url, params, filename, content}) => {
+            const fd = new FormData();
+            for (const k in params) fd.append(k, params[k]);
+            fd.append('file', new Blob([content], {type:'text/plain'}), filename);
+            const r = await fetch(upload_url, {method:'POST', credentials:'include', body: fd});
+            const text = await r.text();
+            let json = null; try { json = JSON.parse(text); } catch(_) {}
+            return {status: r.status, body: text.slice(0, 2000), json};
+        }""",
+        {"upload_url": upload_url, "params": upload_params, "filename": filename, "content": content},
+    )
+    (out_dir / "upload_step2.json").write_text(json.dumps(step2, indent=2))
+    if not (200 <= (step2.get("status") or 0) < 400):
+        return f"upload_put_failed:{step2.get('status')}"
+    file_id = None
+    if step2.get("json"):
+        file_id = step2["json"].get("id")
+    if not file_id:
+        try:
+            file_id = json.loads(step2["body"]).get("id")
+        except Exception:
+            pass
+    if not file_id:
+        return "upload_no_file_id"
+    step3 = await _canvas_api_fetch(
+        page,
+        f"{BASE}/api/v1/courses/{CID}/assignments/{assignment_id}/submissions",
+        method="POST",
+        body={"submission": {"submission_type": "online_upload", "file_ids": [file_id]}},
+    )
+    (out_dir / "upload_step3.json").write_text(json.dumps(step3, indent=2))
+    if 200 <= (step3.get("status") or 0) < 300:
+        return f"assignment_api_submitted:file_id={file_id}"
+    return f"upload_submit_failed:{step3.get('status')}"
+
+
+async def process_assignment_text(page, item, out_dir):
+    """Non-quiz assignment: prefer Canvas submission API (text entry → file upload fallback), then UI."""
     await safe_content(page, out_dir, "content")
+    aid = item.get("content_id")
+    if aid:
+        # 1. Try online_text_entry via API — simplest, works if assignment accepts it.
+        txt = await _canvas_api_fetch(
+            page,
+            f"{BASE}/api/v1/courses/{CID}/assignments/{aid}/submissions",
+            method="POST",
+            body={"submission": {"submission_type": "online_text_entry", "body": "Submitted for completion."}},
+        )
+        (out_dir / "text_submit_api.json").write_text(json.dumps(txt, indent=2))
+        if 200 <= (txt.get("status") or 0) < 300:
+            return f"text_submit_api:{txt.get('status')}"
+        # 2. Fall back to file upload (3-step) — needed when assignment requires online_upload/media_recording.
+        upload_result = await submit_assignment_online_upload(page, aid, out_dir)
+        if upload_result.startswith("assignment_api_submitted"):
+            return upload_result
+        (out_dir / "assignment_api.summary").write_text(f"text_entry: {txt.get('status')}\nupload: {upload_result}\n")
     # Start Assignment button, if present
     for sel in ['a:has-text("Start Assignment")',
                 'button:has-text("Start Assignment")',
@@ -479,8 +582,12 @@ async def process_item(page, item, state, module_name=""):
         or prev.startswith("FATAL")
         or prev.startswith("begin_err")
         or prev.startswith("submit_err")
-        or prev in ("discussion_posted", "no_reply_button", "no_post_button")
+        or prev in ("discussion_posted", "no_reply_button", "no_post_button", "discussion_posted_ui")
         or prev.startswith("discussion_err")
+        or prev.startswith("text_submitted")
+        or prev.startswith("no_text_submit_button")
+        or prev.startswith("text_submit_err")
+        or prev.startswith("upload_")
     )
     if prev and not retriable:
         return prev
@@ -519,7 +626,7 @@ async def process_item(page, item, state, module_name=""):
             elif "Submitting an external tool" in body_text or "external_tool" in body_text.lower():
                 result = await process_h5p_assignment(page, out_dir)
             else:
-                result = await process_assignment_text(page, out_dir)
+                result = await process_assignment_text(page, item, out_dir)
         elif item_type == "Quiz":
             result = await process_quiz_item(page, out_dir)
         elif item_type == "Discussion":
