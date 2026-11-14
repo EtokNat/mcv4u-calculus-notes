@@ -73,13 +73,18 @@ async def main():
                         wait_until="domcontentloaded", timeout=30000)
         await page.wait_for_timeout(5000)
 
-        # Click Begin
+        # Click Begin / Resume / Start (whichever button is present)
         try:
-            await page.get_by_role("button", name="Begin", exact=False).first.click(timeout=10000)
-            print("  clicked Begin", flush=True)
+            await page.locator('[data-automation="sdk-start-resume-button"]').first.click(timeout=15000)
+            print("  clicked start-resume-button", flush=True)
         except Exception as e:
-            print(f"  Begin click err (may already be past it): {e}", flush=True)
-        await page.wait_for_timeout(8000)
+            print(f"  start-resume err: {e}", flush=True)
+            try:
+                await page.get_by_role("button", name=re.compile("Begin|Resume|Start|Take", re.I)).first.click(timeout=8000)
+                print("  clicked by role regex", flush=True)
+            except Exception as e2:
+                print(f"  role click err: {e2}", flush=True)
+        await page.wait_for_timeout(10000)
 
         # Wait for the 8 question wrappers
         try:
