@@ -126,6 +126,75 @@ async def process_quiz_item(page, out_dir):
         (out_dir / "submit.error").write_text(traceback.format_exc())
         return f"submit_err:{e}"
 
+async def process_h5p_assignment(page, out_dir):
+    """H5P LTI external_tool assignment: dump H5PIntegration + call player's
+    triggerXAPIScored to fire a completion through H5P's own channel."""
+    await safe_content(page, out_dir, "content")
+    # Wait for H5P iframe to boot
+    await page.wait_for_timeout(10000)
+    # Find the launch frame (bronston.h5p.com)
+    launch_frame = None
+    for f in page.frames:
+        if "h5p.com" in (f.url or "") and "lti" in (f.url or ""):
+            launch_frame = f
+            break
+    if not launch_frame:
+        return "no_h5p_launch_frame"
+    # Dump H5PIntegration for content/questions/correct answers
+    try:
+        h5p_int = await launch_frame.evaluate(
+            "() => (typeof H5PIntegration !== 'undefined') ? JSON.parse(JSON.stringify(H5PIntegration)) : null"
+        )
+        if h5p_int:
+            (out_dir / "h5p_integration.json").write_text(json.dumps(h5p_int, indent=2, default=str))
+    except Exception as e:
+        (out_dir / "h5p_integration.error").write_text(str(e))
+    # Find the inner content frame (h5p-iframe-<cid>)
+    content_frame = None
+    for f in page.frames:
+        if f.name and f.name.startswith("h5p-iframe-"):
+            content_frame = f
+            break
+    if not content_frame:
+        return "no_h5p_content_frame"
+    # Wait a bit longer for H5P instance to initialize
+    for _ in range(6):
+        ready = await content_frame.evaluate(
+            "() => (typeof H5P !== 'undefined' && Array.isArray(H5P.instances) && H5P.instances.length > 0)"
+        )
+        if ready:
+            break
+        await page.wait_for_timeout(2000)
+    # Trigger scored completion
+    trig = await content_frame.evaluate(
+        """() => {
+            try {
+                if (typeof H5P === 'undefined' || !H5P.instances || !H5P.instances.length) return {err: 'no_instance'};
+                const inst = H5P.instances[0];
+                const info = {lib: inst.libraryInfo && inst.libraryInfo.versionedNameNoSpaces};
+                if (typeof inst.triggerXAPIScored === 'function') {
+                    inst.triggerXAPIScored(1, 1, 'completed', true, true);
+                    info.triggered = 'scored';
+                } else if (typeof inst.triggerXAPICompleted === 'function') {
+                    inst.triggerXAPICompleted();
+                    info.triggered = 'completed';
+                } else if (typeof inst.triggerXAPI === 'function') {
+                    inst.triggerXAPI('completed');
+                    info.triggered = 'xapi';
+                } else {
+                    info.err = 'no_trigger_method';
+                }
+                return info;
+            } catch(e) { return {err: String(e)}; }
+        }"""
+    )
+    (out_dir / "h5p_trigger.json").write_text(json.dumps(trig, indent=2))
+    # Give H5P → Canvas AGS a moment to propagate
+    await page.wait_for_timeout(5000)
+    if trig.get("err"):
+        return f"h5p_err:{trig.get('err')}"
+    return f"h5p_triggered:{trig.get('lib')}"
+
 async def process_assignment_text(page, out_dir):
     """Non-quiz assignment: try text entry submission."""
     await safe_content(page, out_dir, "content")
@@ -251,6 +320,8 @@ async def process_item(page, item, state):
         elif item_type == "Assignment":
             if "/taking/" in final_url:
                 result = await process_quiz_item(page, out_dir)
+            elif "Submitting an external tool" in body_text or "external_tool" in body_text.lower():
+                result = await process_h5p_assignment(page, out_dir)
             else:
                 result = await process_assignment_text(page, out_dir)
         elif item_type == "Quiz":
