@@ -182,7 +182,7 @@ def extract_function(body: str):
     for var_name, sym in [('x', x), ('t', t), ('p', p)]:
         pat = re.compile(
             rf'(?:y|f\s*\(\s*{var_name}\s*\)|[A-Z]\s*\(\s*{var_name}\s*\))\s*=\s*(.+?)'
-            rf'(?:,|\.(?:\s|$)|\n|;|\s+at\s+|\s+for\s+|\s+when\s+|\s+and\s+|$)',
+            rf'(?:,|\.(?:\s|$)|\n|;|\s+at\s+|\s+for\s+|\s+when\s+|\s+where\s+|\s+and\s+|$)',
             re.IGNORECASE,
         )
         m = pat.search(s)
@@ -227,6 +227,33 @@ def solve_tangent_at(parts):
         except Exception as ex:
             out.append(f"ERR:{ex}")
     return out
+
+def solve_tangent_parallel_line(parts, prompt):
+    """Find (x, y) on curve f(x) = ... where tangent is parallel to line y = mx + b (or y = mx).
+    Returns [x_val, y_val] — matches the typical 2-blank layout."""
+    e, sym, vname = extract_function(prompt)
+    if e is None:
+        return ["ERR:no_function" for _ in parts]
+    # Extract line slope
+    m_line = re.search(r'parallel to the line\s+y\s*=\s*([^.\n]+?)(?:[.\n]|$)', prompt)
+    if not m_line:
+        return ["ERR:no_line" for _ in parts]
+    try:
+        line_expr = sympify(to_sympy_str(m_line.group(1).strip()))
+        slope = diff(line_expr, sym)
+    except Exception as ex:
+        return [f"ERR:{ex}" for _ in parts]
+    try:
+        d = diff(e, sym)
+        from sympy import solve as sym_solve
+        x_sols = sym_solve(d - slope, sym)
+        if not x_sols:
+            return ["ERR:no_solution" for _ in parts]
+        xv = x_sols[0]
+        yv = e.subs(sym, xv)
+        return [format_answer(xv), format_answer(yv)]
+    except Exception as ex:
+        return [f"ERR:{ex}" for _ in parts]
 
 def solve_secant(parts, prompt):
     """Secant slope on f(x) between x=a and x=b."""
@@ -317,13 +344,14 @@ def solve_piecewise(parts, prompt):
 # ---------- top-level dispatch ----------
 
 PATTERNS = [
-    ("radical_conjugate",  r'product.+radical.+conjugate'),
-    ("slope_pair_points",  r'slope of the line through.+pair.+points'),
-    ("slope_secant",       r'slope of the secant'),
-    ("slope_perpendicular",r'slope of a line perpendicular'),
-    ("slope_piecewise",    r'slope of the graph of f\(x\)\s*=\s*\{'),
-    ("slope_tangent",      r'slope of the (?:tangent|graph)'),
-    ("rate_of_change",     r'circulation|rate|how fast|projected'),
+    ("radical_conjugate",     r'product.+radical.+conjugate'),
+    ("slope_pair_points",     r'slope of the line through.+pair.+points'),
+    ("slope_secant",          r'slope of the secant'),
+    ("slope_perpendicular",   r'slope of a line perpendicular'),
+    ("tangent_parallel_line", r'tangent is parallel to the line'),
+    ("slope_piecewise",       r'slope of the graph of f\(x\)\s*=\s*\{'),
+    ("slope_tangent",         r'slope of the (?:tangent|graph)'),
+    ("rate_of_change",        r'circulation|rate|how fast|projected'),
 ]
 
 def classify(prompt: str):
@@ -348,6 +376,8 @@ def solve_question(prompt: str, num_blanks: int):
             answers = solve_secant(parts, prompt)
         elif pattern == "slope_perpendicular":
             answers = solve_perpendicular(parts)
+        elif pattern == "tangent_parallel_line":
+            answers = solve_tangent_parallel_line(parts, prompt)
         elif pattern == "slope_piecewise":
             answers = solve_piecewise(parts, prompt)
         elif pattern in ("slope_tangent", "rate_of_change"):
@@ -373,6 +403,7 @@ if __name__ == "__main__":
         ("It is projected that, t years from now, the circulation of a local newspaper will be C(t) = 100t² + 400t + 5000. Find how fast the circulation is increasing after 6 months. Hint: Find the slope of the tangent when t = 0.5.", 1, ["500"]),
         ("Calculate the slope of the tangent to each curve at the given point or value of x.\n\na. f(x) = x² + 3x - 5, (-3, -5) \nQuestion Blank 1 of 4\n\nb. y = 1/x, x = 1/3 \nQuestion Blank 2 of 4\n\nc. y = 4/(x - 2), (6, 1) \nQuestion Blank 3 of 4\n\nd. f(x) = √(x + 4), x = 5 \nQuestion Blank 4 of 4", 4, ["-3","-9","-1/4","1/6"]),
         ("Determine the slope of the tangent to each curve at the given value of x.\n\na. y = 3x², x = -2 \nQuestion Blank 1 of 3\n\nb. y = x² - x, x = 3 \nQuestion Blank 2 of 3\n\nc. y = x³, x = -2 \nQuestion Blank 3 of 3", 3, ["-12","5","12"]),
+        ("Find the coordinates of the point on the curve f(x) = 3x² - 4x where the tangent is parallel to the line y = 8x.\n\nx = \nQuestion Blank 1 of 2\n\ny = \nQuestion Blank 2 of 2", 2, ["2","4"]),
     ]
     for prompt, n, expected in tests:
         r = solve_question(prompt, n)

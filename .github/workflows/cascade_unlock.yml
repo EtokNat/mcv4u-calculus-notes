@@ -1,0 +1,43 @@
+name: cascade-unlock
+
+on:
+  workflow_dispatch:
+    inputs:
+      stop_after:
+        description: "Stop after N quiz attempts (0 = all)"
+        default: "0"
+      retry_per_quiz:
+        description: "Max retries per quiz"
+        default: "5"
+
+jobs:
+  cascade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install playwright sympy
+          python -m playwright install chromium
+          python -m playwright install-deps chromium
+      - env:
+          BRONSTON_USER: ${{ secrets.BRONSTON_USER }}
+          BRONSTON_PASS: ${{ secrets.BRONSTON_PASS }}
+          OUT_ROOT: ${{ github.workspace }}/cascade
+          STOP_AFTER: ${{ inputs.stop_after }}
+          RETRY_PER_QUIZ: ${{ inputs.retry_per_quiz }}
+        run: python scripts/canvas_scrape/cascade_unlock.py 2>&1 | tee cascade.log
+        continue-on-error: true
+      - if: always()
+        run: tar czf cascade.tgz cascade/ cascade.log || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cascade
+          path: |
+            cascade.tgz
+            cascade.log
+          retention-days: 7
