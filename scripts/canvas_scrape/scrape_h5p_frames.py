@@ -64,7 +64,7 @@ async def paginate(page, url):
     return out
 
 async def capture_frame(frame, out_dir, name):
-    """Dump cross-origin iframe content: URL, HTML, text."""
+    """Dump cross-origin iframe content: URL, HTML, text, media, H5PIntegration."""
     meta = {"name": frame.name, "url": frame.url}
     (out_dir / f"{name}.meta.json").write_text(json.dumps(meta, indent=2))
     try:
@@ -77,13 +77,12 @@ async def capture_frame(frame, out_dir, name):
         (out_dir / f"{name}.txt").write_text(txt)
     except Exception as e:
         (out_dir / f"{name}.txt.error").write_text(str(e))
-    # Grab any <img> / <video> / <source> URLs inside the frame
     try:
         media = await frame.evaluate("""
             () => {
                 const urls = [];
-                document.querySelectorAll('img, video, source, iframe').forEach(el => {
-                    const src = el.src || el.getAttribute('data-src');
+                document.querySelectorAll('img, video, source, iframe, audio, a[href]').forEach(el => {
+                    const src = el.src || el.href || el.getAttribute('data-src');
                     if (src) urls.push({tag: el.tagName, src});
                 });
                 return urls;
@@ -92,6 +91,29 @@ async def capture_frame(frame, out_dir, name):
         (out_dir / f"{name}.media.json").write_text(json.dumps(media, indent=2))
     except Exception as e:
         (out_dir / f"{name}.media.error").write_text(str(e))
+    # H5PIntegration — the content JSON with questions/answers/video metadata
+    try:
+        h5p_int = await frame.evaluate("""
+            () => {
+                if (typeof H5PIntegration === 'undefined') return null;
+                try { return JSON.parse(JSON.stringify(H5PIntegration)); }
+                catch(e) { return {_err: String(e)}; }
+            }
+        """)
+        if h5p_int:
+            (out_dir / f"{name}.h5pintegration.json").write_text(json.dumps(h5p_int, indent=2, default=str))
+    except Exception as e:
+        (out_dir / f"{name}.h5pintegration.error").write_text(str(e))
+    # Pull every <script type="application/json"> payload (H5P often ships content.json inline)
+    try:
+        payloads = await frame.evaluate("""
+            () => Array.from(document.querySelectorAll('script[type="application/json"], script[data-h5p]'))
+                      .map(s => ({id: s.id, type: s.type, text: s.textContent.slice(0, 500000)}))
+        """)
+        if payloads:
+            (out_dir / f"{name}.jsonscripts.json").write_text(json.dumps(payloads, indent=2))
+    except Exception:
+        pass
 
 async def scrape_assignment(page, assn, state):
     key = str(assn["id"])
