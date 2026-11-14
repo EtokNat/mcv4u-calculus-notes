@@ -1,0 +1,40 @@
+name: submit-formative-a-test
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          python -m playwright install chromium
+          python -m playwright install-deps chromium
+      - name: Run probe-submit
+        env:
+          BRONSTON_USER: ${{ secrets.BRONSTON_USER }}
+          BRONSTON_PASS: ${{ secrets.BRONSTON_PASS }}
+          OUT_ROOT: ${{ github.workspace }}/submit_fa
+        run: |
+          python scripts/canvas_scrape/submit_formative_a.py 2>&1 | tee submit_fa.log
+        continue-on-error: true
+      - name: Package
+        if: always()
+        run: tar czf submit_fa.tgz submit_fa/ submit_fa.log || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: submit_fa
+          path: |
+            submit_fa.tgz
+            submit_fa.log
+          retention-days: 7
+          if-no-files-found: warn
