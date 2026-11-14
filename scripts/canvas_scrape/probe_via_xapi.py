@@ -203,6 +203,49 @@ async def main():
         await post_statement(ctx, result_url, attempt_payload, "attempt3_attempts_endpoint", frame=frame)
         await submission_state(page, "after_attempts")
 
+        # Attempt D: use the H5P player's own trigger methods from inside the content iframe.
+        # The actual H5P content lives in a nested srcdoc iframe named like h5p-iframe-<cid>.
+        content_frame = None
+        for f in page.frames:
+            if f.name and f.name.startswith("h5p-iframe-"):
+                content_frame = f
+                break
+        if content_frame:
+            print(f"  found content frame: {content_frame.name}", flush=True)
+            try:
+                trigger_result = await content_frame.evaluate(
+                    """() => {
+                        try {
+                            const info = {};
+                            info.has_H5P = typeof H5P !== 'undefined';
+                            info.has_instances = info.has_H5P && Array.isArray(H5P.instances);
+                            info.instance_count = info.has_instances ? H5P.instances.length : 0;
+                            if (!info.has_instances || info.instance_count === 0) return info;
+                            const inst = H5P.instances[0];
+                            info.lib = inst && inst.libraryInfo && inst.libraryInfo.versionedNameNoSpaces;
+                            info.has_triggerXAPIScored = typeof inst.triggerXAPIScored === 'function';
+                            info.has_triggerXAPICompleted = typeof inst.triggerXAPICompleted === 'function';
+                            if (info.has_triggerXAPIScored) {
+                                inst.triggerXAPIScored(1, 1, 'completed', true, true);
+                                info.triggered = 'scored';
+                            } else if (typeof inst.triggerXAPI === 'function') {
+                                inst.triggerXAPI('completed');
+                                info.triggered = 'completed';
+                            }
+                            return info;
+                        } catch(e) { return {err: String(e), stack: String(e.stack||'')}; }
+                    }"""
+                )
+                (OUT / "attempt4_player_trigger.json").write_text(json.dumps(trigger_result, indent=2))
+                print(f"  player trigger: {trigger_result}", flush=True)
+                await page.wait_for_timeout(5000)
+                await submission_state(page, "after_player_trigger")
+            except Exception as e:
+                (OUT / "attempt4_err.txt").write_text(str(e))
+                print(f"  player trigger err: {e}", flush=True)
+        else:
+            print("  no h5p content frame found for player trigger", flush=True)
+
         # Re-visit the module item URL to see if the completion propagated
         try:
             r = await page.request.get(f"{BASE}/api/v1/courses/{CID}/modules/3177/items?include[]=content_details")
