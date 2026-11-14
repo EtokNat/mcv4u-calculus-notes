@@ -59,22 +59,39 @@ async def h5p_integration_from_frame(page):
 
 async def post_statement(ctx, endpoint, payload, tag, frame=None):
     """POST xAPI statement. If a frame is given, run the fetch INSIDE the frame so
-    partitioned third-party cookies travel with the request (CHIPS-compatible)."""
+    partitioned third-party cookies travel with the request (CHIPS-compatible).
+    Also pulls authenticity_token from the frame's bootstrap data as X-CSRF-Token."""
     if frame is not None:
         try:
             result = await frame.evaluate(
                 """async ({endpoint, payload}) => {
                     try {
+                        // Hunt for authenticity_token in several locations
+                        let csrf = null;
+                        const meta = document.querySelector('meta[name="csrf-token"]');
+                        if (meta) csrf = meta.content;
+                        if (!csrf) {
+                            // Try to pull from inline <script> JSON blobs
+                            for (const s of document.querySelectorAll('script')) {
+                                const m = (s.textContent||'').match(/"authenticity_token"\\s*:\\s*"([^"]+)"/);
+                                if (m) { csrf = m[1]; break; }
+                            }
+                        }
+                        const headers = {'Content-Type': 'application/json'};
+                        if (csrf) {
+                            headers['X-CSRF-Token'] = csrf;
+                            headers['X-Requested-With'] = 'XMLHttpRequest';
+                        }
                         const r = await fetch(endpoint, {
                             method: 'POST',
-                            headers: {'Content-Type': 'application/json'},
+                            headers,
                             credentials: 'include',
                             body: JSON.stringify(payload),
                         });
                         const text = await r.text();
                         let json = null;
                         try { json = JSON.parse(text); } catch(_) {}
-                        return {status: r.status, text: text.slice(0, 2000), json};
+                        return {status: r.status, csrf_used: !!csrf, text: text.slice(0, 2000), json};
                     } catch (e) { return {error: String(e)}; }
                 }""",
                 {"endpoint": endpoint, "payload": payload},
