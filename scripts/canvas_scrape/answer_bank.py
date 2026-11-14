@@ -155,6 +155,28 @@ ENTRIES = [
         ["16"],
     ),
     (
+        # FC C round-2 Q3: Change of variable limits.
+        # a. ∛x→2 at x=8: 1/(u²+2u+4)=1/12
+        # b. u=∛x, x→27: -(u²+3u+9)=-27
+        # c. 1/(1+1+1+1+1+1)=1/6
+        # d. 1/(u+1)=1/2
+        # e. √x→2: 1/(u²+2u+4)=1/12
+        # f. (x+8)^(1/3)→2: 1/12
+        _has("Evaluate the limit by using a change of variable", "lim(x\u21928) (\u00b3\u221ax - 2)/(x - 8)"),
+        ["1/12", "-27", "1/6", "1/2", "1/12", "1/12"],
+    ),
+    (
+        # FC C round-2 Q4: Mixed limit techniques.
+        # a. 2(x+3)|x=3 = 12
+        # b. (2x+3)/(3x-1)|x=2 = 7/5
+        # c. √(x-1)+2|x=5 = 4
+        # d. (x²-x+1)/((x-1)(x²+1))|x=-1 = 3/-4 = -3/4
+        # e. 1/(x+3)|x=3 = 1/6
+        # f. (x+8)^(1/3) via change of variable: 1/12
+        _has("Evaluate the following limits", "lim(x\u21923) (4x\u00b2 - 36)/(2x - 6)"),
+        ["12", "7/5", "4", "-3/4", "1/6", "1/12"],
+    ),
+    (
         # Q8: Zeros of denominators / piecewise jumps.
         # a. x=3; b. x=0; c. x=0;
         # d. x²-9=0 → x=-3 and x=3;

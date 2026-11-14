@@ -403,23 +403,37 @@ async def process_assignment_text(page, out_dir):
 
 async def process_discussion_item(page, item, out_dir):
     await safe_content(page, out_dir, "content")
-    topic_id = None
-    for src in (item.get("url", ""), item.get("html_url", ""), page.url):
-        m = re.search(r"/discussion_topics/(\d+)", src or "")
-        if m:
-            topic_id = m.group(1)
-            break
+    topic_id = item.get("content_id")
+    if not topic_id:
+        for src in (item.get("url", ""), item.get("html_url", ""), page.url):
+            m = re.search(r"/discussion_topics/(\d+)", src or "")
+            if m:
+                topic_id = m.group(1)
+                break
     if topic_id:
         try:
-            msg = "Engaging with this unit — looking forward to the lessons."
-            r = await page.request.post(
-                f"{BASE}/api/v1/courses/{CID}/discussion_topics/{topic_id}/entries",
-                form={"message": msg},
+            result = await page.evaluate(
+                """async ({endpoint, message}) => {
+                    let csrf = null;
+                    const meta = document.querySelector('meta[name="csrf-token"]');
+                    if (meta) csrf = meta.content;
+                    if (!csrf) {
+                        const match = document.cookie.match(/_csrf_token=([^;]+)/);
+                        if (match) csrf = decodeURIComponent(match[1]);
+                    }
+                    const headers = {'Content-Type':'application/json','Accept':'application/json+canvas-string-ids, application/json','X-Requested-With':'XMLHttpRequest'};
+                    if (csrf) headers['X-CSRF-Token'] = csrf;
+                    const r = await fetch(endpoint, {method:'POST', credentials:'include', headers, body: JSON.stringify({message})});
+                    const text = await r.text();
+                    return {status: r.status, csrf_used: !!csrf, body: text.slice(0, 2000)};
+                }""",
+                {
+                    "endpoint": f"{BASE}/api/v1/courses/{CID}/discussion_topics/{topic_id}/entries",
+                    "message": "Engaging with this unit — looking forward to the lessons.",
+                },
             )
-            status = r.status
-            body = await r.text()
-            (out_dir / "discussion_api.json").write_text(json.dumps({"status": status, "body": body[:2000]}, indent=2))
-            if 200 <= status < 300:
+            (out_dir / "discussion_api.json").write_text(json.dumps(result, indent=2))
+            if isinstance(result, dict) and 200 <= (result.get("status") or 0) < 300:
                 return f"discussion_api_posted:{topic_id}"
         except Exception as e:
             (out_dir / "discussion_api.error").write_text(traceback.format_exc())
