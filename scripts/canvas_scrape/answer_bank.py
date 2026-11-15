@@ -548,7 +548,7 @@ ENTRIES = [
     (
         # U3 FC A: s(t) = t^2 - 6t + 8 -> v(t) = 2t - 6, t = 3
         _has("s(t) = t^2 - 6t + 8", "velocity at time t"),
-        ["2t - 6", "3"],
+        ["2t-6", "3"],
     ),
     (
         # U3 FC A: absolute extreme values (12 blanks)
@@ -563,7 +563,7 @@ ENTRIES = [
     (
         # U3 FC A: interval notation (6 blanks)
         _has("interval notation", "{x in R | x > 3}", "{x in R | -4 < x < 4}"),
-        ["(3, inf)", "(-inf, -2]", "(-inf, 0)", "[-5, inf)", "(-2, 8]", "(-4, 4)"],
+        ["(3, ∞)", "(-∞, -2]", "(-∞, 0)", "[-5, ∞)", "(-2, 8]", "(-4, 4)"],
     ),
     (
         # U3 FC A: graphing max/min (12 blanks)

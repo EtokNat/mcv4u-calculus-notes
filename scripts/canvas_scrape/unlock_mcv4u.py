@@ -251,7 +251,7 @@ def write_bank(module_name, quiz_title, questions_meta, state, session_parsed=No
                         out.write(f"**Answer:** `{json.dumps(ans, ensure_ascii=False)}`\n")
 
 
-async def _fill_question_dom(page, wrapper_idx: int, q_dom: dict, res: dict, must_submit_only: bool, tag: str):
+async def _fill_question_dom(page, wrapper_idx: int, q_dom: dict, res: dict, must_submit_only: bool, tag: str, q_slug: str | None = None):
     """Fill a single New Quizzes question wrapper across all interaction types."""
     wrapper = page.locator('[data-automation="sdk-item-wrapper"]').nth(wrapper_idx)
     ans_type = res.get("type", "blanks") if res.get("ok") else None
@@ -269,18 +269,29 @@ async def _fill_question_dom(page, wrapper_idx: int, q_dom: dict, res: dict, mus
                 target_str = str(ans)
                 try:
                     el = inputs.nth(j)
-                    await el.fill(target_str, timeout=5000)
-                    await el.dispatch_event("blur")
-                    cur = await el.input_value(timeout=2000)
-                    if cur != target_str:
-                        await el.click(timeout=2000)
+                    if q_slug == "numeric":
+                        meta_attrs = await el.evaluate("e => ({tag: e.tagName, type: e.type, cls: e.className, ro: e.readOnly})")
+                        await el.click(timeout=3000)
                         await el.fill("", timeout=2000)
-                        await el.press_sequentially(target_str, delay=15, timeout=5000)
+                        await el.press_sequentially(target_str, delay=25, timeout=5000)
+                        await page.keyboard.press("Tab")
                         await el.dispatch_event("change")
                         await el.dispatch_event("blur")
-                        cur2 = await el.input_value(timeout=2000)
-                        if cur2 != target_str:
-                            print(f"      [{tag}] fill verify mismatch q{wrapper_idx+1}[{j}] got={cur2!r} want={target_str!r}", flush=True)
+                        cur = await el.input_value(timeout=2000)
+                        print(f"      [{tag}] NUMERIC_FILL q{wrapper_idx+1}[{j}]={cur!r} want={target_str!r} attrs={meta_attrs}", flush=True)
+                    else:
+                        await el.fill(target_str, timeout=5000)
+                        await el.dispatch_event("blur")
+                        cur = await el.input_value(timeout=2000)
+                        if cur != target_str:
+                            await el.click(timeout=2000)
+                            await el.fill("", timeout=2000)
+                            await el.press_sequentially(target_str, delay=15, timeout=5000)
+                            await el.dispatch_event("change")
+                            await el.dispatch_event("blur")
+                            cur2 = await el.input_value(timeout=2000)
+                            if cur2 != target_str:
+                                print(f"      [{tag}] fill verify mismatch q{wrapper_idx+1}[{j}] got={cur2!r} want={target_str!r}", flush=True)
                 except Exception as e:
                     print(f"      [{tag}] fill err q{wrapper_idx+1}[{j}]={ans}: {e}", flush=True)
             return True
@@ -465,7 +476,7 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
             res = solve_question(prompt_for_solve, n_inputs, slug=q_slug)
             if not res.get("ok") and prompt_for_solve != q["prompt"]:
                 res = solve_question(q["prompt"], n_inputs, slug=q_slug)
-            filled_ok = await _fill_question_dom(page, idx, q, res, must_submit_only, tag)
+            filled_ok = await _fill_question_dom(page, idx, q, res, must_submit_only, tag, q_slug=q_slug)
             q_choices = sp.get("choices") or [r["label"] for r in (q.get("radios") or q.get("checkboxes") or [])]
             q_entry = {
                 "idx": q["idx"],
