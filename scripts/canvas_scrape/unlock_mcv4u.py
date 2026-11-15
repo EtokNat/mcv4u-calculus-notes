@@ -1049,7 +1049,25 @@ async def process_discussion_item(page, item, out_dir):
             )
             (out_dir / "discussion_api.json").write_text(json.dumps(result, indent=2))
             if isinstance(result, dict) and 200 <= (result.get("status") or 0) < 300:
-                return f"discussion_api_posted:{topic_id}"
+                # Wait briefly for Canvas async module progression to evaluate must_contribute
+                await page.wait_for_timeout(2500)
+                mod_id = item.get("module_id")
+                if mod_id:
+                    chk = await page.evaluate(
+                        """async (url) => {
+                            const r = await fetch(url, {credentials:'include', headers:{'Accept':'application/json'}});
+                            if (!r.ok) return null;
+                            return await r.json();
+                        }""",
+                        f"{BASE}/api/v1/courses/{CID}/modules/{mod_id}/items/{item['id']}",
+                    )
+                    if isinstance(chk, dict) and (chk.get("completion_requirement") or {}).get("completed"):
+                        return f"discussion_api_posted:{topic_id}"
+                    # Reload UI in case must_contribute requires viewing/UI confirmation
+                    await page.reload(wait_until="domcontentloaded", timeout=20000)
+                    await page.wait_for_timeout(1500)
+                else:
+                    return f"discussion_api_posted:{topic_id}"
         except Exception as e:
             (out_dir / "discussion_api.error").write_text(traceback.format_exc())
     try:
@@ -1115,13 +1133,18 @@ async def process_item(page, item, state, module_name=""):
         or prev.startswith("FATAL")
         or prev.startswith("begin_err")
         or prev.startswith("submit_err")
-        or prev in ("discussion_posted", "no_reply_button", "no_post_button", "discussion_posted_ui")
+        or prev in ("discussion_posted", "no_reply_button", "no_post_button", "discussion_posted_ui", "File_visited", "page_viewed")
+        or (bool(cr) and not cr_completed and prev.startswith("discussion_api_posted"))
         or prev.startswith("discussion_err")
         or prev.startswith("text_submitted")
         or prev.startswith("no_text_submit_button")
         or prev.startswith("text_submit_err")
         or prev.startswith("upload_")
     )
+    if cr and not cr_completed:
+        retriable = retriable or prev in ("File_visited", "page_viewed")
+    elif prev in ("File_visited", "page_viewed"):
+        retriable = False
     if prev and not retriable and not (CAPTURE_PASSED_QUIZZES and item.get("quiz_lti")):
         return prev
     if SKIP_CR_COMPLETED and cr_completed and _already_captured(out_dir, item_type, bool(item.get("quiz_lti"))):
