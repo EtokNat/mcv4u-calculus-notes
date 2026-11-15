@@ -39,7 +39,7 @@ UNSOLVED_FILE = ROOT / "unsolved_dump.json"
 HEADLESS = os.environ.get("HEADLESS", "1") != "0"
 SAVE_SCREENSHOTS = os.environ.get("SAVE_SCREENSHOTS", "0") == "1"
 RETRY_PER_QUIZ = int(os.environ.get("RETRY_PER_QUIZ", "6"))
-MAX_PASSES = int(os.environ.get("MAX_PASSES", "6"))
+MAX_PASSES = int(os.environ.get("MAX_PASSES", "15"))
 CAPTURE_PASSED_QUIZZES = os.environ.get("CAPTURE_PASSED_QUIZZES", "0") == "1"
 SKIP_CR_COMPLETED = os.environ.get("SKIP_CR_COMPLETED", "1") == "1"
 
@@ -1106,6 +1106,7 @@ async def main():
         await login(page)
 
         last_locked = None
+        last_terminal = None
         for pass_num in range(1, MAX_PASSES + 1):
             print(f"\n######## PASS {pass_num}/{MAX_PASSES} ########", flush=True)
             print("Fetching modules...", flush=True)
@@ -1145,10 +1146,14 @@ async def main():
             if locked_now == 0:
                 print("All items unlocked!", flush=True)
                 break
-            if last_locked is not None and locked_now >= last_locked:
-                print("No new unlocks this pass; stopping.", flush=True)
+            if (
+                last_locked is not None and locked_now >= last_locked
+                and last_terminal is not None and terminal_now <= last_terminal
+            ):
+                print("No new completions or unlocks this pass; stopping.", flush=True)
                 break
             last_locked = locked_now
+            last_terminal = terminal_now
         await browser.close()
     print("\nDone.", flush=True)
 
