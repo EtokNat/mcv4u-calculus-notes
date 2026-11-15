@@ -945,6 +945,47 @@ ENTRIES = [
         _has("f(x) = x/sqrt(x^2 + 1)", "g(t) = sqrt(t^2 + 4t) - sqrt(t^2 + t)"),
         ["1", "-1", "3/2", "-3/2"],
     ),
+    # --- Unit 5 Formative Check A (14524) ------------------------------
+    (
+        # U5 FC A: radioactive decay P(t) = 100(1.2)^(-t), half-life to 2dp
+        _has("P(t) = 100(1.2)^(-t)", "half-life of the substance"),
+        ["3.80"],
+    ),
+    (
+        # U5 FC A: N(t) = 2000[30 + t e^(-t/20)], M(t) = (N+1000)^(1/3)
+        _has("N(t) = 2000[30 + te^(-t/20)]", "M(t) = (N + 1000)^(1/3)"),
+        ["20", "0.12"],
+    ),
+    (
+        # U5 FC A: C(t) = 10(e^(-2t) - e^(-3t)), max time to 2dp -> ln(3/2) = 0.41
+        _has("C(t) = 10(e^(-2t) - e^(-3t))", "highest concentration occur"),
+        ["0.41"],
+    ),
+    (
+        # U5 FC A: P(t) = 5000e^(0.02t) at t=0, t=7, t=30
+        _has("P(t) = 5000e^(0.02t)", "after a month (30 days)"),
+        ["5000", "5751", "9111"],
+    ),
+    (
+        # U5 FC A: P(x) = 10^6[1 + (x-1)e^(-0.001x)] max profit -> 1001 (cap 2000), 500 (cap 500)
+        _has("P(x) = 10^6[1 + (x - 1)e^(-0.001x)]", "2000 items per month"),
+        ["1001", "500"],
+    ),
+    (
+        # U5 FC A: rumour P(t) = 100(e^(-t) - e^(-4t)) -> max=47.25%, t=0.46 h
+        _has("P(t) = 100(e^(-t) - e^(-4t))", "spreading the rumour"),
+        ["47.25", "0.46"],
+    ),
+    (
+        # U5 FC A: revenue R(x) = 40x^2 e^(-0.4x) + 30 (x in hundred units) -> x=5 -> 500 units
+        _has("R(x) = 40x^2 e^(-0.4x) + 30", "maximum capacity of the plant is 800 units"),
+        ["500"],
+    ),
+    (
+        # U5 FC A: atmospheric pressure y = 760e^(-0.125x) at 5, 7, 9 km
+        _has("y = 760e^(-0.125x)", "5 km:", "9 km:"),
+        ["406.8", "316.8", "246.7"],
+    ),
 ]
 
 
