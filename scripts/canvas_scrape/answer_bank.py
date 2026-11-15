@@ -986,6 +986,47 @@ ENTRIES = [
         _has("y = 760e^(-0.125x)", "5 km:", "9 km:"),
         ["406.8", "316.8", "246.7"],
     ),
+    # --- Unit 5 Formative Check B (14526) ------------------------------
+    (
+        # U5 FC B: f(x) = sin^2 x on [0, pi] -> max 1, min 0
+        _has("f(x) = sin^2 x", "Absolute maximum:"),
+        ["1", "0"],
+    ),
+    (
+        # U5 FC B: s = 5 cos(2t + pi/4) -> max disp=5, vel=10, acc=20
+        _has("s = 5 cos(2t + pi/4)", "Displacement:"),
+        ["5", "10", "20"],
+    ),
+    (
+        # U5 FC B: s = sin t / (3 + cos 2t) at t = pi/4 -> v = 5sqrt(2)/18 = 0.3928
+        _has("s = sin t/(3 + cos 2t)", "four decimal places"),
+        ["0.3928"],
+    ),
+    (
+        # U5 FC B: 3 sin x = sin x + 1 -> pi/6, 5pi/6; cos x - 1 = -cos x -> pi/3, 5pi/3
+        _has("3 sin x = sin x + 1", "cos x - 1 = -cos x"),
+        ["pi/6", "5pi/6", "pi/3", "5pi/3"],
+    ),
+    (
+        # U5 FC B: 3^-2, 32^(2/5), 27^(-2/3), (2/3)^-2
+        _has("3^-2 =", "32^(2/5) =", "27^(-2/3) ="),
+        ["1/9", "4", "1/9", "9/4"],
+    ),
+    (
+        # U5 FC B: y = 2x - tan x on (-pi/2, pi/2) local max at x=pi/4 -> y = pi/2 - 1 = 0.57
+        _has("y = 2x - tan x", "y-value of the local maximum point"),
+        ["0.57"],
+    ),
+    (
+        # U5 FC B: degrees to radians
+        _has("Convert the following angles to radian measure", "360 degrees =", "330 degrees ="),
+        ["2pi", "pi/4", "-pi/2", "pi/6", "3pi/2", "-2pi/3", "5pi/4", "11pi/6"],
+    ),
+    (
+        # U5 FC B: f(x) = sin x tan x on [0, 2pi] slope=0 at 0, pi, 2pi
+        _has("f(x) = sin x tan x", "slope of the tangent to f(x)"),
+        ["0", "pi", "2pi"],
+    ),
 ]
 
 
