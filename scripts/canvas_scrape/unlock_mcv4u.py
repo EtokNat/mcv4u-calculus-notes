@@ -38,7 +38,7 @@ STATE_FILE = ROOT / "unlock_state.json"
 UNSOLVED_FILE = ROOT / "unsolved_dump.json"
 HEADLESS = os.environ.get("HEADLESS", "1") != "0"
 SAVE_SCREENSHOTS = os.environ.get("SAVE_SCREENSHOTS", "0") == "1"
-RETRY_PER_QUIZ = int(os.environ.get("RETRY_PER_QUIZ", "3"))
+RETRY_PER_QUIZ = int(os.environ.get("RETRY_PER_QUIZ", "6"))
 MAX_PASSES = int(os.environ.get("MAX_PASSES", "6"))
 CAPTURE_PASSED_QUIZZES = os.environ.get("CAPTURE_PASSED_QUIZZES", "0") == "1"
 SKIP_CR_COMPLETED = os.environ.get("SKIP_CR_COMPLETED", "1") == "1"
@@ -265,7 +265,9 @@ async def _fill_question_dom(page, wrapper_idx: int, q_dom: dict, res: dict, mus
                 if j >= cnt:
                     break
                 try:
-                    await inputs.nth(j).fill(str(ans), timeout=5000)
+                    el = inputs.nth(j)
+                    await el.fill(str(ans), timeout=5000)
+                    await el.dispatch_event("blur")
                 except Exception as e:
                     print(f"      [{tag}] fill err q{wrapper_idx+1}[{j}]={ans}: {e}", flush=True)
             return True
@@ -531,6 +533,9 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
             if s.get("submitted_at") is not None and (is_new or poll_i >= 5):
                 best = sc
                 this_attempt = latest_attempt_score(s)
+                if hist_now:
+                    h_sum = [(e.get("attempt"), e.get("score"), e.get("submitted_at")) for e in sorted(hist_now, key=lambda x: x.get("attempt") or 0)]
+                    print(f"    [{tag}] SUB_HIST({len(h_sum)}, new={is_new}): {h_sum[-4:]}", flush=True)
                 if sc is not None or must_submit_only:
                     break
         print(f"    [{tag}] this_attempt_score={this_attempt} running_max={best}", flush=True)
