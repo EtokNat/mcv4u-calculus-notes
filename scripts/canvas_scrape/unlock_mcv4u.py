@@ -42,6 +42,7 @@ RETRY_PER_QUIZ = int(os.environ.get("RETRY_PER_QUIZ", "8"))
 MAX_PASSES = int(os.environ.get("MAX_PASSES", "35"))
 CAPTURE_PASSED_QUIZZES = os.environ.get("CAPTURE_PASSED_QUIZZES", "0") == "1"
 SKIP_CR_COMPLETED = os.environ.get("SKIP_CR_COMPLETED", "1") == "1"
+ISOLATE_AID = os.environ.get("ISOLATE_AID", "").strip()
 
 
 def slug(s):
@@ -379,7 +380,7 @@ async def _fill_essay_in_wrapper(page, wrapper, text: str) -> bool:
     return False
 
 
-async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_title="", must_submit_only=False, capture_only=False):
+async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_title="", must_submit_only=False, capture_only=False, only_idx: int | None = None):
     """Single attempt at a New Quiz. Captures session_items JSON, solves & submits."""
     captured_session_items = []
 
@@ -473,10 +474,14 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
             q_slug = sp.get("slug")
             prompt_for_solve = sp.get("prompt_text") or q["prompt"]
             n_inputs = q["num_text_inputs"]
-            res = solve_question(prompt_for_solve, n_inputs, slug=q_slug)
-            if not res.get("ok") and prompt_for_solve != q["prompt"]:
-                res = solve_question(q["prompt"], n_inputs, slug=q_slug)
-            filled_ok = await _fill_question_dom(page, idx, q, res, must_submit_only, tag, q_slug=q_slug)
+            if only_idx is not None and idx != only_idx:
+                res = {"ok": False, "reason": "isolate_skip"}
+                filled_ok = False
+            else:
+                res = solve_question(prompt_for_solve, n_inputs, slug=q_slug)
+                if not res.get("ok") and prompt_for_solve != q["prompt"]:
+                    res = solve_question(q["prompt"], n_inputs, slug=q_slug)
+                filled_ok = await _fill_question_dom(page, idx, q, res, must_submit_only, tag, q_slug=q_slug)
             q_choices = sp.get("choices") or [r["label"] for r in (q.get("radios") or q.get("checkboxes") or [])]
             q_entry = {
                 "idx": q["idx"],
@@ -498,7 +503,7 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
             if res.get("ok"):
                 remove_unsolved(aid, prompt_for_solve)
 
-            if not res.get("ok") and q_slug != "essay" and not q.get("has_essay") and not must_submit_only:
+            if only_idx is None and not res.get("ok") and q_slug != "essay" and not q.get("has_essay") and not must_submit_only:
                 print(f"      [UNSOLVED_Q] aid={aid} q={idx+1} slug={q_slug} blanks={n_inputs} | {prompt_for_solve[:260]!r}", flush=True)
                 if q_choices:
                     print(f"        choices: {[c.get('text') if isinstance(c, dict) else c for c in q_choices]}", flush=True)
@@ -648,24 +653,34 @@ async def process_quiz_lti(page, item, out_dir, state, module_name):
 
     best_score = float(s.get("score") or -1.0)
     best_meta = []
+    isolate_mode = bool(ISOLATE_AID and str(aid) == ISOLATE_AID)
     for retry in range(1, RETRY_PER_QUIZ + 1):
+        only_i = (retry - 1) if isolate_mode else None
         try:
             score, meta, sp = await _attempt_learnosity(
                 page, aid, out_dir, f"{item['id']}#r{retry}",
-                module_name=module_name, quiz_title=title, must_submit_only=False
+                module_name=module_name, quiz_title=title, must_submit_only=False, only_idx=only_i
             )
         except Exception as e:
             print(f"    attempt exc: {e}", flush=True)
             score, meta, sp = None, [], []
         if meta:
             best_meta = meta
-        write_bank(module_name, title, meta, state, session_parsed=sp)
+        if not isolate_mode:
+            write_bank(module_name, title, meta, state, session_parsed=sp)
         if score is not None and float(score) > best_score:
             best_score = float(score)
         this_sc = meta[0].get("this_attempt_score") if meta else None
+        if isolate_mode and meta and only_i < len(meta):
+            qm = meta[only_i]
+            print(f"    [ISOLATE aid={aid} q{retry}] slug={qm.get('slug')} nb={qm.get('num_blanks')} score={this_sc} ans={qm.get('answers')} | {qm.get('prompt','')[:90]!r}", flush=True)
+            if retry >= len(meta):
+                break
         print(f"    [r{retry}] this={this_sc} running_best={best_score}", flush=True)
         if (this_sc is not None and float(this_sc) >= min_score) or best_score >= min_score:
             break
+        if isolate_mode:
+            continue
         # If more than half of auto-graded questions are unsolved after 2 pool draws, stop burning retries
         auto_qs = [q for q in meta if q.get("slug") != "essay"]
         unsolved_qs = [q for q in auto_qs if not q.get("ok")]
@@ -1131,8 +1146,9 @@ async def main():
 
         last_locked = None
         last_terminal = None
-        for pass_num in range(1, MAX_PASSES + 1):
-            print(f"\n######## PASS {pass_num}/{MAX_PASSES} ########", flush=True)
+        max_passes = 1 if ISOLATE_AID else MAX_PASSES
+        for pass_num in range(1, max_passes + 1):
+            print(f"\n######## PASS {pass_num}/{max_passes} ########", flush=True)
             print("Fetching modules...", flush=True)
             modules = await get_modules(page)
             modules.sort(key=lambda m: m.get("position", 0))

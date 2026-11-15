@@ -22,6 +22,10 @@ on:
         description: "1 to skip items already completed in Canvas if captured locally"
         required: false
         default: "1"
+      isolate_aid:
+        description: "Optional assignment id to score 1 question per attempt for diagnosis"
+        required: false
+        default: ""
 
 jobs:
   scrape:
@@ -59,6 +63,7 @@ jobs:
           STOP_AT: ${{ inputs.stop_at }}
           CAPTURE_PASSED_QUIZZES: ${{ inputs.capture_passed_quizzes }}
           SKIP_CR_COMPLETED: ${{ inputs.skip_cr_completed }}
+          ISOLATE_AID: ${{ inputs.isolate_aid }}
           OUT_ROOT: ${{ github.workspace }}/mcv4u_scrape
         run: |
           rm -f mcv4u_scrape/unsolved_dump.json
