@@ -320,14 +320,18 @@ async def _fill_question_dom(page, wrapper_idx: int, q_dom: dict, res: dict, mus
                     el = inputs.nth(j)
                     await el.scroll_into_view_if_needed(timeout=2000)
                     await el.click(timeout=3000)
-                    await el.fill("", timeout=2000)
-                    await el.press_sequentially(target_str, delay=12, timeout=5000)
-                    await el.press("Tab")
+                    await el.fill(target_str, timeout=5000)
+                    await el.dispatch_event("change")
                     await el.dispatch_event("blur")
-                    await page.wait_for_timeout(40)
+                    await page.wait_for_timeout(350)
                     cur = await el.input_value(timeout=2000)
                     if cur != target_str:
-                        print(f"      [{tag}] fill verify mismatch q{wrapper_idx+1}[{j}] got={cur!r} want={target_str!r}", flush=True)
+                        await el.click(timeout=2000)
+                        await el.fill("", timeout=2000)
+                        await el.press_sequentially(target_str, delay=15, timeout=5000)
+                        await el.dispatch_event("change")
+                        await el.dispatch_event("blur")
+                        await page.wait_for_timeout(350)
                 except Exception as e:
                     print(f"      [{tag}] fill err q{wrapper_idx+1}[{j}]={ans}: {e}", flush=True)
             return True
