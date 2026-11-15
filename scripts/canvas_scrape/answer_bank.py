@@ -189,6 +189,50 @@ ENTRIES = [
         ),
         ["3", "0", "0", "-3", "3", "-3", "2", "3"],
     ),
+    # --- Formative Check A, Lessons 2.1 & 2.2 ----------------------------
+    (
+        # Tangent parallel to 2x-y=1 (slope 2) on y=x²-4x-5.
+        # y'=2x-4=2 → x=3; y(3)=9-12-5=-8. Point (3, -8).
+        _has("tangent parallel to 2x - y = 1", "y = x^2 - 4x - 5"),
+        ["3", "-8"],
+    ),
+    (
+        # f(a)=0, f'(a)=6 → lim f(a+h)/(2h) = f'(a)/2 = 3.
+        _has("f(a) = 0 and f'(a) = 6", "f(a + h)/(2h)"),
+        ["3"],
+    ),
+    (
+        # h(t)=18t-4.9t². h'(t)=18-9.8t, h'(2)=-1.6. Represents velocity.
+        _has("h(t) = 18t - 4.9t^2", "What does h'(2) represent"),
+        ["-1.6", "instantaneous velocity"],
+    ),
+    (
+        # dy/dx from first principles:
+        # a. y=6-7x → -7; b. y=(x+1)/(x-1) → -2/(x-1)²; c. y=3x² → 6x.
+        _has("derivative dy/dx from first principles", "y = (x + 1)/(x - 1)", "y = 3x^2"),
+        ["-7", "-2/(x - 1)^2", "6x"],
+    ),
+    (
+        # f(x)=ax²+bx+c with roots (0,0),(8,0) → c=0, b=-8a.
+        # f'(2)=4a+b=16 → -4a=16 → a=-4, b=32, c=0.
+        _has("ax^2 + bx + c", "x-intercepts at (0, 0) and (8, 0)", "tangent with slope 16"),
+        ["-4", "32", "0"],
+    ),
+    (
+        # Power rule:
+        # a. 4; b. 3x²-2x; c. -2x+5;
+        # d. ∛x=x^(1/3) → (1/3)x^(-2/3);
+        # e. (x/2)^4 = x^4/16 → x³/4;
+        # f. x^(-3) → -3x^(-4).
+        _has("f(x) = 4x - 7", "f(x) = cubert(x)", "f(x) = (x/2)^4"),
+        ["4", "3x^2 - 2x", "-2x + 5", "(1/3)x^(-2/3)", "x^3/4", "-3x^(-4)"],
+    ),
+    (
+        # y=x³-x²-x+1, y'=3x²-2x-1=(3x+1)(x-1)=0 → x=-1/3, x=1.
+        # y(-1/3)=32/27; y(1)=0. Points: (-1/3, 32/27), (1, 0).
+        _has("y = x^3 - x^2 - x + 1", "tangent is horizontal"),
+        ["-1/3", "32/27", "1", "0"],
+    ),
 ]
 
 
