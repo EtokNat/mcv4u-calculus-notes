@@ -119,16 +119,41 @@ async def main():
         print(f"\n[probe3] === STRATEGY A: {len(captured)} responses captured ===", flush=True)
         interesting = [c for c in captured if c.get("valid_response_hits")]
         print(f"[probe3] Responses with validation-related keys: {len(interesting)}", flush=True)
+        # For the full-body capture we need to re-fetch raw since body_preview is truncated at 8000 chars.
+        # Re-register a second pass: for interesting URLs, re-fetch and save the FULL body.
         for c in interesting[:20]:
-            print(f"  {c['url'][:150]}", flush=True)
+            print(f"\n  URL: {c['url'][:200]}", flush=True)
             print(f"    status={c.get('status')} hits={c.get('valid_response_hits')} len={c.get('body_len')}", flush=True)
-            # print snippet around first hit
-            for key in c.get("valid_response_hits", []):
-                body = c.get("body_preview", "")
-                idx = body.find(key)
-                if idx >= 0:
-                    print(f"    [{key}] context: {body[max(0,idx-100):idx+300]!r}", flush=True)
-                    break
+        # Re-fetch full bodies of interesting responses and extract all valid_response contexts
+        print(f"\n[probe3] Re-fetching full bodies for interesting responses and extracting valid_response blocks...", flush=True)
+        for i, c in enumerate(interesting):
+            url = c["url"]
+            if c.get("body_len", 0) < 20000 and c.get("body_preview"):
+                full_text = c["body_preview"]
+            else:
+                try:
+                    r = await page.request.get(url)
+                    full_text = await r.text()
+                except Exception as e:
+                    print(f"  refetch err: {e}", flush=True)
+                    full_text = c.get("body_preview", "")
+            (OUT / f"A_full_response_{i}.txt").write_text(full_text[:3000000])
+            print(f"\n  === Response #{i}: {url[:150]} (len={len(full_text)}) ===", flush=True)
+            # Find every occurrence of valid_response, correct_answer, scoring_data and dump context
+            for needle in ["valid_response", "correct_answer", "scoring_data", "correctAnswer", "\"score\":"]:
+                positions = []
+                start = 0
+                while True:
+                    idx = full_text.find(needle, start)
+                    if idx < 0:
+                        break
+                    positions.append(idx)
+                    start = idx + 1
+                    if len(positions) >= 8:
+                        break
+                for pos in positions[:5]:
+                    context = full_text[max(0, pos-50):pos+600]
+                    print(f"    [{needle} @ {pos}] {context!r}", flush=True)
 
         # If no explicit valid_response hits, still print top 10 responses so we can eyeball
         if not interesting:
