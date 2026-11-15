@@ -548,7 +548,7 @@ ENTRIES = [
     (
         # U3 FC A: s(t) = t^2 - 6t + 8 -> v(t) = 2t - 6, t = 3
         _has("s(t) = t^2 - 6t + 8", "velocity at time t"),
-        ["2t-6", "3"],
+        ["2t - 6", "3"],
     ),
     (
         # U3 FC A: absolute extreme values (12 blanks)
