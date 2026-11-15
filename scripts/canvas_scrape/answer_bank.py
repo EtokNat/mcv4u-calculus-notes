@@ -445,6 +445,95 @@ ENTRIES = [
         _has("y = x^3 + 2", "slope of the tangent is 12"),
         ["-2", "-6", "2", "10"],
     ),
+    # --- Formative Check C, Lessons 2.5 & 2.6 ----------------------------
+    (
+        # FC C: rewrite without quotient rule (10 blanks)
+        _has("complete it without using the quotient rule", "f(x) = (x^2 + 3x)/x"),
+        [
+            "x + 3", "1",
+            "3x^(2/3)", "2x^(-1/3)",
+            "(1/10)x^-5", "(-1/2)x^-6",
+            "4x^2 + 3", "8x",
+            "t + 3", "1",
+        ],
+    ),
+    (
+        # FC C: quotient rule differentiate & simplify (6 blanks)
+        _has("Use the quotient rule to differentiate each function", "h(x) = x/(x + 1)", "y = (x^2 - x + 1)/(x^2 + 3)"),
+        [
+            "1/(x + 1)^2",
+            "13/(t + 5)^2",
+            "(2x^4 - 3x^2)/(2x^2 - 1)^2",
+            "-2x/(x^2 + 3)^2",
+            "(5x^2 + 6x + 5)/(1 - x^2)^2",
+            "(x^2 + 4x - 3)/(x^2 + 3)^2",
+        ],
+    ),
+    (
+        # FC C: c(t) = 5t/(2t^2 + 7) max at t = sqrt(14)/2 ≈ 1.87
+        _has("concentration, c, of a drug", "c(t) = 5t/(2t^2 + 7)"),
+        ["1.87"],
+    ),
+    (
+        # FC C: s(t) = t^(1/3) (4t - 5)^(2/3) at t = 8 -> 91/36 (1 blank in DOM)
+        _has("s(t) = t^(1/3) (4t - 5)^(2/3)", "t = 8"),
+        ["91/36"],
+    ),
+    (
+        # FC C: y = 3u^2 + 2u, u = sqrt(x^2 + 5) at x = -2 -> dy/dx = -40/3
+        _has("y = 3u^2 + 2u", "u = sqrt(x^2 + 5)", "x = -2"),
+        ["-40/3"],
+    ),
+    (
+        # FC C: P(t) = (t^(1/4) + 3)^3 at t = 16 -> 75/32
+        _has("amount of pollution in a certain lake", "P(t) = (t^(1/4) + 3)^3"),
+        ["75/32"],
+    ),
+    (
+        # FC C: h = g o f table -> h(-1) = g(1) = -4; h'(-1) = g'(1)*f'(-1) = (-7)(-5) = 35
+        _has("Given h = g o f", "evaluate h(-1) and h'(-1)"),
+        ["-4", "35"],
+    ),
+    (
+        # FC C: quotient dy/dx at given x -> 13/4, 7/25, 200/841, -7/3
+        _has("y = (3x + 2)/(x + 5), x = -3", "y = [(x + 1)(x + 2)]/[(x - 1)(x - 2)], x = 4"),
+        ["13/4", "7/25", "200/841", "-7/3"],
+    ),
+    (
+        # FC C: tangent to y = (x^2 - 1)/(3x) at x = 2 -> y = (5/12)x - 1/3
+        _has("tangent to the curve y = (x^2 - 1)/(3x)", "x = 2"),
+        ["y = (5/12)x - 1/3"],
+    ),
+    (
+        # FC C: horizontal tangents y=(x^2-4)^5 -> -2,0,2 and y=(x^3-x)^2 -> -1, -sqrt(3)/3, 0, sqrt(3)/3, 1
+        _has("y = (x^2 - 4)^5", "y = (x^3 - x)^2", "horizontal tangent"),
+        ["-2", "0", "2", "-1", "-sqrt(3)/3", "0", "sqrt(3)/3", "1"],
+    ),
+    (
+        # FC C: h'(2) for h(x)=f(g(x)), f(u)=u^2-1, g(2)=3, g'(2)=-1 -> 2(3)(-1) = -6
+        _has("Find h'(2)", "h(x) = f(g(x))", "f(u) = u^2 - 1"),
+        ["-6"],
+    ),
+    (
+        # FC C: y = 3x/(x - 4) slope -12/25 -> (-1, 3/5), (9, 27/5)
+        _has("y = 3x/(x - 4)", "slope of the tangent is -12/25"),
+        ["-1", "3/5", "9", "27/5"],
+    ),
+    (
+        # FC C: y = (1 + x^3)^2 and y = 2x^6 same slope -> x = 0 or x = 1
+        _has("y = (1 + x^3)^2", "y = 2x^6", "same slope"),
+        ["0", "1"],
+    ),
+    (
+        # FC C: 50 000 L tank drained in 30 min at t=10 -> -2222
+        _has("50 000 L tank", "V(t) = 50 000 (1 - t/30)^2"),
+        ["-2222"],
+    ),
+    (
+        # FC C: chain rule Leibniz notation -> 52, 54, 320, 78
+        _has("chain rule, in Leibniz notation", "y = 3u^2 - 5u + 2", "u = sqrt(x), x = 4"),
+        ["52", "54", "320", "78"],
+    ),
 ]
 
 
