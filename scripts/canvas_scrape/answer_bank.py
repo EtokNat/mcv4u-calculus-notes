@@ -233,6 +233,42 @@ ENTRIES = [
         _has("y = x^3 - x^2 - x + 1", "tangent is horizontal"),
         ["-1/3", "32/27", "1", "0"],
     ),
+    (
+        # FC A round-2: Tangent lines to y=x² through external point (1,-3).
+        # Tangent at (a,a²): y=2ax-a². Through (1,-3): a²-2a-3=0 → a=3 or a=-1.
+        # a=3 → y=6x-9; a=-1 → y=-2x-1.
+        _has("tangent to the graph of f(x) = x^2", "pass through point (1, -3)"),
+        ["y = 6x - 9", "y = -2x - 1"],
+    ),
+    (
+        # FC A round-2: Falling bolt R(t)=320-5t², R'(t)=-10t, R'(2)=-20.
+        _has("construction worker drops a bolt", "R(t) = 320 - 5t^2", "velocity of the bolt at t = 2"),
+        ["-20"],
+    ),
+    (
+        # FC A round-2: Six power-rule derivatives.
+        # a. 3x^(5/3) → 5x^(2/3)
+        # b. 4x^(-1/2) - 6x^(-1) → -2x^(-3/2) + 6x^(-2)
+        # c. 6x^(-3) + 2x^(-2) - 3 → -18x^(-4) - 4x^(-3)
+        # d. 9x^(-2) + 3x^(1/2) → -18x^(-3) + (3/2)x^(-1/2)
+        # e. x^(1/2) + 6x^(3/2) + √2 → (1/2)x^(-1/2) + 9x^(1/2)
+        # f. x^(-1) + x^(-1/2) → -x^(-2) - (1/2)x^(-3/2)
+        _has("y = 3x^(5/3)", "y = 4x^(-1/2) - 6/x", "y = (1 + sqrt(x))/x"),
+        [
+            "5x^(2/3)",
+            "-2x^(-3/2) + 6x^(-2)",
+            "-18x^(-4) - 4x^(-3)",
+            "-18x^(-3) + (3/2)x^(-1/2)",
+            "(1/2)x^(-1/2) + 9x^(1/2)",
+            "-x^(-2) - (1/2)x^(-3/2)",
+        ],
+    ),
+    (
+        # FC A round-2: Subway s(t)=t²-(1/3)t³, v(t)=2t-t²=0.5
+        # → t² - 2t + 0.5 = 0 → t = 1 ± √2/2.
+        _has("subway train", "s(t) = t^2 - (1/3)t^3", "velocity of 0.5 km/min"),
+        ["1 - sqrt(2)/2", "1 + sqrt(2)/2"],
+    ),
 ]
 
 
