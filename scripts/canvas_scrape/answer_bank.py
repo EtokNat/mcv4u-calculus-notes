@@ -896,6 +896,55 @@ ENTRIES = [
             "x = 2", "-∞", "∞", "none", "5x + 7",
         ],
     ),
+    # --- Unit 4 Formative Check C (14519) ------------------------------
+    (
+        # U4 FC C: f(x) = 5x/(x - 1)^2 full curve-sketching (15 blanks)
+        _has("f(x) = 5x/(x - 1)^2", "f'(x) = -5(x + 1)/(x - 1)^3"),
+        [
+            "x != 1", "0", "0",
+            "x = 1", "∞", "∞",
+            "y = 0",
+            "(-1, 1)", "(-∞, -1) U (1, ∞)",
+            "(-∞, -2)", "(-2, 1) U (1, ∞)",
+            "-1", "-1.25", "-2", "-10/9",
+        ],
+    ),
+    (
+        # U4 FC C: y = ax^3 + bx^2 + cx + d -> y = (-1/4)x^3 + 3x (4 blanks)
+        _has("y = ax^3 + bx^2 + cx + d", "point of inflection at the origin"),
+        ["-1/4", "0", "3", "0"],
+    ),
+    (
+        # U4 FC C: f(x) = (2x + 10)/(x^2 - 9) full curve-sketching (12 blanks)
+        _has("f(x) = (2x + 10)/(x^2 - 9)", "x-intercept at -5"),
+        [
+            "x = -3, x = 3",
+            "∞", "-∞", "-∞", "∞",
+            "-10/9", "-5",
+            "-9", "-1/9", "-1", "-1",
+            "y = 0",
+        ],
+    ),
+    (
+        # U4 FC C: vertical asymptotes of 3 rationals (3 blanks)
+        _has("y = x/(x^2 + 4x + 3)", "y = (5x - 4)/(x^2 - 6x + 12)", "y = (3x + 2)/(x^2 - 6x + 9)"),
+        ["x = -3, x = -1", "none", "x = 3"],
+    ),
+    (
+        # U4 FC C: g(x) = (ax + b)/((x - 1)(x - 4)) -> a=1, b=0
+        _has("g(x) = (ax + b)/((x - 1)(x - 4))", "horizontal tangent at the point (2, -1)"),
+        ["1", "0"],
+    ),
+    (
+        # U4 FC C: f(x) = ax^3 + bx^2 + c, extremum (2, 11), inflection (1, 5)
+        _has("f(x) = ax^3 + bx^2 + c", "local extremum at (2, 11)"),
+        ["-3", "9", "-1"],
+    ),
+    (
+        # U4 FC C: horizontal asymptotes x/sqrt(x^2+1) and sqrt(t^2+4t)-sqrt(t^2+t)
+        _has("f(x) = x/sqrt(x^2 + 1)", "g(t) = sqrt(t^2 + 4t) - sqrt(t^2 + t)"),
+        ["1", "-1", "3/2", "-3/2"],
+    ),
 ]
 
 
