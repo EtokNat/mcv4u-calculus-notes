@@ -502,15 +502,32 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
         page.remove_listener("response", on_response)
 
 
-async def capture_results_view(page, aid, out_dir):
+async def capture_results_view(page, aid, out_dir, tag="results"):
     """Open an already-submitted quiz's launch/results view and save HTML + text."""
     try:
         await page.goto(f"{BASE}/courses/{CID}/assignments/{aid}/launch",
                         wait_until="domcontentloaded", timeout=30000)
-        await page.wait_for_timeout(8000)
-        await safe_content(page, out_dir, "results")
+        await page.wait_for_timeout(6000)
+        await safe_content(page, out_dir, tag)
+        texts = []
+        txt_p = out_dir / f"{tag}.txt"
+        if txt_p.exists():
+            texts.append(txt_p.read_text())
+        for idx, fr in enumerate(page.frames[1:], 1):
+            try:
+                ft = await fr.inner_text("body", timeout=3000)
+                if ft and ft.strip():
+                    (out_dir / f"{tag}_frame{idx}.txt").write_text(ft)
+                    texts.append(ft)
+            except Exception:
+                pass
+        combined = "\n".join(texts)
+        lines = [l.strip() for l in combined.splitlines() if l.strip()]
+        diag = [l for l in lines if any(w in l.lower() for w in ("score", "point", "correct", "incorrect", "attempt", "question ", "waiting"))]
+        if diag:
+            print(f"    [RESULTS_DIAG aid={aid}] " + " | ".join(diag[:24])[:900], flush=True)
     except Exception as e:
-        (out_dir / "results.error").write_text(str(e))
+        (out_dir / f"{tag}.error").write_text(str(e))
 
 
 async def process_quiz_lti(page, item, out_dir, state, module_name):
@@ -589,6 +606,8 @@ async def process_quiz_lti(page, item, out_dir, state, module_name):
             break
     state["quiz_scores"][str(item["id"])] = best_score
     (out_dir / "attempts_meta.json").write_text(json.dumps(best_meta, indent=2, default=str))
+    if best_score < min_score:
+        await capture_results_view(page, aid, out_dir, tag=f"results_{item['id']}")
     return f"quiz_lti_passed:{best_score}" if best_score >= min_score else f"quiz_lti_failed:{best_score}"
 
 
@@ -955,6 +974,11 @@ async def process_item(page, item, state, module_name=""):
             state["done"][key] = "cr_completed_cached"
             save_state(state)
         return state["done"].get(key, "cr_completed_cached")
+    if (item.get("content_details") or {}).get("locked_for_user"):
+        if prev != "LOCKED":
+            state["done"][key] = "LOCKED"
+            save_state(state)
+        return "LOCKED"
 
     print(f"  [{item_type}] {title} (id={item['id']})", flush=True)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -964,7 +988,10 @@ async def process_item(page, item, state, module_name=""):
         try:
             await page.goto(f"{BASE}/courses/{CID}/modules/items/{item['id']}",
                             wait_until="domcontentloaded", timeout=30000)
-            await page.wait_for_load_state("networkidle", timeout=15000)
+            if item_type in ("Assignment", "Quiz"):
+                await page.wait_for_load_state("networkidle", timeout=5000)
+            else:
+                await page.wait_for_timeout(400)
         except PWTimeout:
             pass
         try:
@@ -1046,7 +1073,19 @@ async def main():
                 if only_mod and m["id"] != only_mod:
                     continue
                 mname = m.get("name", f"module_{m['id']}")
-                print(f"\n## Module {m.get('position')}: {mname} (id={m['id']}, state={m.get('state')})", flush=True)
+                mstate = m.get("state")
+                print(f"\n## Module {m.get('position')}: {mname} (id={m['id']}, state={mstate})", flush=True)
+                if mstate == "locked":
+                    changed = False
+                    for it in (m.get("items") or []):
+                        k = str(it["id"])
+                        if not state["done"].get(k):
+                            state["done"][k] = "LOCKED"
+                            changed = True
+                    if changed:
+                        save_state(state)
+                    print(f"  (module locked -- skipped {len(m.get('items') or [])} items)", flush=True)
+                    continue
                 for it in (m.get("items") or []):
                     await process_item(page, it, state, module_name=mname)
                     pass_count += 1

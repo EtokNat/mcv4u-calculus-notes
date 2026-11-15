@@ -294,6 +294,59 @@ ENTRIES = [
         _has("y = -x^3 + 6x^2", "slope of -12", "slope of -15"),
         ["2 - 2*sqrt(2)", "2 + 2*sqrt(2)", "-1", "5"],
     ),
+    (
+        # FC A: tangent to f(x)=sqrt(x+1) parallel to x-6y+4=0 (slope 1/6)
+        # f'(x)=1/(2sqrt(x+1))=1/6 -> x=8, y=3 -> y = (1/6)x + 5/3
+        _has("f(x) = sqrt(x + 1)", "parallel to x - 6y + 4 = 0"),
+        ["y = (1/6)x + 5/3"],
+    ),
+    (
+        # FC A: tangent to y = 3/cubert(x) parallel to x + 16y + 3 = 0 (slope -1/16)
+        # y' = -x^(-4/3) = -1/16 -> x^(4/3) = 16 -> x = -8, 8
+        _has("y = 3/cubert(x)", "parallel to the line x + 16y + 3 = 0"),
+        ["-8", "8"],
+    ),
+    (
+        # FC A: f'(a) for f(x)=x^3-sqrt(x) at a=4 -> 191/4; f(x)=7-6sqrt(x)+5x^(2/3) at a=64 -> 11/24
+        _has("f(x) = x^3 - sqrt(x), a = 4", "5x^(2/3), a = 64"),
+        ["191/4", "11/24"],
+    ),
+    (
+        # FC A: find f(a+h) and f(a+h)-f(a) for 6 functions (12 blanks)
+        _has("find f(a + h) and f(a + h) - f(a)", "f(x) = 5x - 2", "f(x) = 4 - 2x - x^2"),
+        [
+            "5a + 5h - 2", "5h",
+            "a^2 + 2ah + h^2 + 3a + 3h - 1", "2ah + h^2 + 3h",
+            "a^3 + 3a^2h + 3ah^2 + h^3 - 4a - 4h + 1", "3a^2h + 3ah^2 + h^3 - 4h",
+            "a^2 + 2ah + h^2 + a + h - 6", "2ah + h^2 + h",
+            "-7a - 7h + 4", "-7h",
+            "4 - 2a - 2h - a^2 - 2ah - h^2", "-2h - 2ah - h^2",
+        ],
+    ),
+    (
+        # FC A: R(x) = 750x - x^2/6 - (2/3)x^3 -> R'(x) = 750 - x/3 - 2x^2, R'(10) = 1640/3
+        _has("R(x) = 750x - x^2/6 - (2/3)x^3", "10 refrigerators per month"),
+        ["750 - x/3 - 2x^2", "1640/3"],
+    ),
+    (
+        # FC A: piecewise & abs derivatives (14 blanks)
+        _has("f(x) = x^2, x < 3; f(x) = x + 6, x >= 3", "f(x) = |3x^2 - 6|", "f(x) = ||x| - 1|"),
+        [
+            "2x", "1", "does not exist",
+            "6x", "-6x", "-sqrt(2)", "sqrt(2)",
+            "-1", "1", "-1", "1", "-1", "0", "1",
+        ],
+    ),
+    (
+        # FC A: normal to y = x^4 has slope 16 -> tangent slope -1/16 -> 4x^3 = -1/16 -> x = -1/4, y = 1/256
+        _has("curve y = x^4", "normal have a slope of 16"),
+        ["-1/4", "1/256"],
+    ),
+    (
+        # FC A: tangent to y = x^3 - 6x^2 + 8x at A(3, -3) intersects at B(0, 0)
+        _has("y = x^3 - 6x^2 + 8x", "point A(3, -3)", "Point B"),
+        ["0", "0"],
+    ),
 ]
 
 

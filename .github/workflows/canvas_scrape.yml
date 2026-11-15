@@ -1,5 +1,8 @@
 name: canvas-scrape
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
     inputs:
@@ -95,6 +98,33 @@ jobs:
                   if v.get("choices"):
                       print(f"CHOICES: {v.get('choices')}")
           EOF
+
+      - name: Publish scrape-data branch
+        if: always()
+        run: |
+          mkdir -p /tmp/scrape_pub/mcv4u_scrape/course_616
+          cp -r mcv4u_scrape/question_bank /tmp/scrape_pub/mcv4u_scrape/ 2>/dev/null || true
+          cp mcv4u_scrape/unlock_state.json mcv4u_scrape/unsolved_dump.json /tmp/scrape_pub/mcv4u_scrape/ 2>/dev/null || true
+          cp mcv4u_scrape/course_616/modules_latest.json /tmp/scrape_pub/mcv4u_scrape/course_616/ 2>/dev/null || true
+          cp unlock.log /tmp/scrape_pub/ 2>/dev/null || true
+          if [ -d mcv4u_scrape/course_616/unlocked_items ]; then
+            (cd mcv4u_scrape/course_616 && find unlocked_items -type f \( \
+              -name 'questions_parsed_*.json' -o \
+              -name 'session_items_*.json' -o \
+              -name 'h5p_integration.json' -o \
+              -name 'results*.txt' -o \
+              -name 'attempts_meta.json' -o \
+              -name 'main.html' \
+            \) -exec cp --parents {} /tmp/scrape_pub/mcv4u_scrape/course_616/ \;)
+          fi
+          git -C /tmp/scrape_pub init -q
+          git -C /tmp/scrape_pub config user.name "github-actions[bot]"
+          git -C /tmp/scrape_pub config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C /tmp/scrape_pub checkout -q --orphan scrape-data
+          git -C /tmp/scrape_pub add -A
+          git -C /tmp/scrape_pub commit -q -m "scrape-data run ${GITHUB_RUN_ID}"
+          REMOTE_URL=$(git remote get-url origin)
+          git -C /tmp/scrape_pub push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:scrape-data
 
       - name: Package scrape
         if: always()
