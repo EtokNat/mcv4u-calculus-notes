@@ -449,6 +449,17 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
         except Exception:
             pass
 
+    def on_request(req):
+        try:
+            if not tag.endswith("#r1"):
+                return
+            if req.method in ("POST", "PUT", "PATCH") and "quiz-api" in req.url:
+                pd = (req.post_data or "")[:400]
+                print(f"    [REQ {tag}] {req.method} {req.url.split('?')[0][-55:]} -> {pd}", flush=True)
+        except Exception:
+            pass
+
+    page.on("request", on_request)
     page.on("response", on_response)
     try:
         prev_sub = await submission_state(page, aid)
@@ -574,6 +585,7 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
                 })
 
         # Submit
+        await page.wait_for_timeout(2000)
         try:
             await page.locator('[data-automation="sdk-submit-button"]').first.click(timeout=10000)
             await page.wait_for_timeout(3000)
@@ -628,6 +640,7 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
             q["this_attempt_score"] = this_attempt
         return best, meta, session_parsed
     finally:
+        page.remove_listener("request", on_request)
         page.remove_listener("response", on_response)
 
 
