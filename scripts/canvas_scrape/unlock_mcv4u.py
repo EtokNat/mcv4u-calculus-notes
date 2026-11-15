@@ -99,10 +99,22 @@ async def process_page_item(page, out_dir):
 
 async def submission_state(page, aid):
     try:
-        r = await page.request.get(f"{BASE}/api/v1/courses/{CID}/assignments/{aid}/submissions/self")
+        r = await page.request.get(f"{BASE}/api/v1/courses/{CID}/assignments/{aid}/submissions/self?include[]=submission_history")
         return await r.json()
     except Exception:
         return {}
+
+def latest_attempt_score(sub):
+    """Extract the MOST RECENT attempt's score from submission_history (not the running max)."""
+    hist = sub.get("submission_history") or []
+    if not hist:
+        return None
+    # Canvas orders history oldest-first; latest is last with a non-null score
+    for entry in reversed(hist):
+        sc = entry.get("score")
+        if sc is not None:
+            return sc
+    return None
 
 def write_bank(module_name, quiz_title, questions_meta, state):
     unit_dir = BANK / slug(module_name)
@@ -191,13 +203,18 @@ async def _attempt_learnosity(page, aid, out_dir, tag):
         print(f"    [{tag}] submit err: {e}", flush=True)
     await page.wait_for_timeout(8000)
     best = None
+    this_attempt = None
     for _ in range(8):
         await page.wait_for_timeout(3000)
         s = await submission_state(page, aid)
         sc = s.get("score")
         if sc is not None:
             best = sc
+            this_attempt = latest_attempt_score(s)
             break
+    print(f"    [{tag}] this_attempt_score={this_attempt} running_max={best}", flush=True)
+    for q in meta:
+        q["this_attempt_score"] = this_attempt
     return best, meta
 
 async def process_quiz_lti(page, item, out_dir, state, module_name):
