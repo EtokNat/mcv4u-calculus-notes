@@ -631,6 +631,154 @@ ENTRIES = [
         _has("C(x) = 0.004x^2 + 40x + 16 000", "minimizes the average cost per unit"),
         ["2000"],
     ),
+    # --- Unit 4 Formative Check A --------------------------------------
+    (
+        # U4 FC A: f(x) = x^4 - 32x + 4 -> x=2, inc (2,∞), dec (-∞,2), local min -44
+        _has("f(x) = x^4 - 32x + 4", "the local minimum is"),
+        ["2", "(2, ∞)", "(-∞, 2)", "-44"],
+    ),
+    (
+        # U4 FC A: inc/dec of 4 functions
+        _has("y = 3x^2 - 12x + 7", "y = 4x^3 - 12x^2 + 8", "f(x) = (x^2 - 1)/(x^2 + 3)"),
+        [
+            "(-∞, 2)", "(2, ∞)",
+            "(0, 2)", "(-∞, 0) U (2, ∞)",
+            "(-∞, -3) U (-3, ∞)", "none",
+            "(-∞, 0)", "(0, ∞)",
+        ],
+    ),
+    (
+        # U4 FC A: f'(x) = (x - 1)(x + 2)(x + 3)
+        _has("f'(x) = (x - 1)(x + 2)(x + 3)", "Determine where f is increasing"),
+        ["(-3, -2) U (1, ∞)", "(-∞, -3) U (-2, 1)"],
+    ),
+    (
+        # U4 FC A: f(x) = x^2 + px + q, extremum f(1) = 5 on [0, 2]
+        _has("f(x) = x^2 + px + q", "f(1) = 5 is an extremum"),
+        ["-2", "6", "minimum"],
+    ),
+    (
+        # U4 FC A: f(x) = x^3 + bx^2 + c critical point (-2, 6)
+        _has("f(x) = x^3 + bx^2 + c", "critical point at (-2, 6)"),
+        ["3", "2"],
+    ),
+    (
+        # U4 FC A: f(x) = (2x + 4)/(x^2 - k^2) critical points exist when -2 < k < 2
+        _has("f(x) = (2x + 4)/(x^2 - k^2)", "The conditions are"),
+        ["-2 < k < 2"],
+    ),
+    (
+        # U4 FC A: g(x) = ax^3 + bx^2 + cx + d max (2, 4), min (0, 0)
+        _has("g(x) = ax^3 + bx^2 + cx + d", "local maximum at (2, 4)"),
+        ["-1", "3", "0", "0"],
+    ),
+    (
+        # U4 FC A: 6 functions inc/dec
+        _has("f(x) = x^3 + 3x^2 + 1", "f(x) = x^5 - 5x^4 + 100", "f(x) = 3x^4 + 4x^3 - 12x^2"),
+        [
+            "(-∞, -2) U (0, ∞)", "(-2, 0)",
+            "(-∞, 0) U (4, ∞)", "(0, 4)",
+            "(-∞, -1) U (1, ∞)", "(-1, 0) U (0, 1)",
+            "(-1, 3)", "(-∞, -1) U (3, ∞)",
+            "(-2, 0) U (1, ∞)", "(-∞, -2) U (0, 1)",
+            "(0, ∞)", "(-∞, 0)",
+        ],
+    ),
+    (
+        # U4 FC A: points where f'(x) = 0 for 4 functions
+        _has("f(x) = x^3 + 6x^2 + 1", "f(x) = sqrt(x^2 + 4)", "f(x) = 5x/(x^2 + 1)"),
+        ["(-4, 33)", "(0, 1)", "(0, 2)", "(-2, -125)", "(1/2, 0)", "(9/4, -3087/64)", "(-1, -5/2)", "(1, 5/2)"],
+    ),
+    (
+        # U4 FC A: critical numbers of 6 functions (13 blanks)
+        _has("y = -2x^2 + 16x - 31", "y = 3x^5 - 25x^3 + 60x", "y = x/(x^2 + 2)"),
+        ["4", "-3", "3", "-sqrt(2)", "0", "sqrt(2)", "-2", "-1", "1", "2", "0", "-sqrt(2)", "sqrt(2)"],
+    ),
+    (
+        # U4 FC A: 6 functions critical points & classify (17 blanks)
+        _has("f(x) = -2x^2 + 8x + 13", "f(x) = sqrt(x^2 - 2x + 2)", "f(x) = 3x^4 - 4x^3"),
+        [
+            "(2, 21)", "local maximum",
+            "(-3, 20)", "local maximum", "(3, -16)", "local minimum",
+            "(-2, -4)", "local maximum", "(-1, -5)", "local minimum",
+            "none",
+            "(1, 1)", "local minimum",
+            "(0, 0)", "neither", "(1, -1)", "local minimum",
+        ],
+    ),
+    (
+        # U4 FC A: f(x) = 3x^4 + ax^3 + bx^2 + cx + d horizontal tangents (-2, -73), (0, -9)
+        _has("f(x) = 3x^4 + ax^3 + bx^2 + cx + d", "(-2, -73)"),
+        [
+            "-4", "-36", "0", "-9",
+            "(3, -198)",
+            "(-2, -73)", "local minimum", "(0, -9)", "local maximum", "(3, -198)", "local minimum",
+        ],
+    ),
+    (
+        # U4 FC A: 4 functions critical numbers, inc/dec, classify (24 blanks)
+        _has("f(x) = x^2 - 7x - 18", "f(x) = -2x^3 + 9x^2 + 3", "f(x) = x^5 - 5x"),
+        [
+            "7/2", "(7/2, ∞)", "(-∞, 7/2)", "minimum",
+            "0", "3", "(0, 3)", "(-∞, 0) U (3, ∞)", "minimum", "maximum",
+            "-1", "0", "1", "(-1, 0) U (1, ∞)", "(-∞, -1) U (0, 1)", "maximum", "minimum", "minimum",
+            "-1", "1", "(-∞, -1) U (1, ∞)", "(-1, 1)", "maximum", "minimum",
+        ],
+    ),
+    (
+        # U4 FC A: g(x) = 2x^3 - 3x^2 - 12x + 15 inc/dec
+        _has("g(x) = 2x^3 - 3x^2 - 12x + 15", "is increasing and where it is decreasing"),
+        ["(-∞, -1) U (2, ∞)", "(-1, 2)"],
+    ),
+    (
+        # U4 FC A: drug concentration C(t) = t/4 + 2t^-2
+        _has("C(t) = t/4 + 2t^-2", "concentration of the drug"),
+        ["(2^(4/3), ∞)", "(0, 2^(4/3))"],
+    ),
+    (
+        # U4 FC A: x- and y-intercepts of 3 functions (8 blanks)
+        _has("Find the x- and y-intercepts of each function below", "y = x^4 - 8x^2", "2x/(x^2 + 9)"),
+        ["-2sqrt(2)", "0", "2sqrt(2)", "0", "0", "0", "-3.1", "1"],
+    ),
+    (
+        # U4 FC A: g(x) = 2x^4 - 8x^3 - x^2 + 6x (9 blanks)
+        _has("g(x) = 2x^4 - 8x^3 - x^2 + 6x", "critical x-values"),
+        ["-1/2", "1/2", "3", "-1/2", "local minimum", "1/2", "local maximum", "3", "local minimum"],
+    ),
+    (
+        # U4 FC A: f(x) = x^3 - kx critical number count
+        _has("f(x) = x^3 - kx", "no critical numbers"),
+        ["k < 0", "k = 0", "k > 0"],
+    ),
+    (
+        # U4 FC A: f(x) = x^3 + ax^2 + bx + c increases to 18 at x=-3, decreases to -14 at x=1
+        _has("increases to a value of 18 at x = -3", "decreases to a value of -14 at x = 1"),
+        ["3", "-9", "-9"],
+    ),
+    (
+        # U4 FC A: 3 functions critical points & first deriv test (14 blanks)
+        _has("Use the first derivative test to state whether each point", "y = x^4 - 8x^2", "y = x^3 + 3x^2 + 1"),
+        [
+            "(-2, -16)", "local minimum", "(0, 0)", "local maximum", "(2, -16)", "local minimum",
+            "(-3, -1/3)", "local minimum", "(3, 1/3)", "local maximum",
+            "(-2, 5)", "local maximum", "(0, 1)", "local minimum",
+        ],
+    ),
+    (
+        # U4 FC A: f'(x) = (x + 1)(x - 2)(x + 6)
+        _has("f'(x) = (x + 1)(x - 2)(x + 6)", "critical numbers of f"),
+        ["-6", "local minimum", "-1", "local maximum", "2", "local minimum"],
+    ),
+    (
+        # U4 FC A: 4 functions critical points & horizontal tangent (21 blanks)
+        _has("h(x) = -6x^3 + 18x^2 + 3", "y = (x - 5)^(1/3)", "f(x) = (x^2 - 1)^(1/3)"),
+        [
+            "(0, 3)", "local minimum", "horizontal", "(2, 27)", "local maximum", "horizontal",
+            "(0, 0)", "neither", "horizontal",
+            "(5, 0)", "neither", "vertical",
+            "(-1, 0)", "neither", "vertical", "(0, -1)", "local minimum", "horizontal", "(1, 0)", "neither", "vertical",
+        ],
+    ),
 ]
 
 
