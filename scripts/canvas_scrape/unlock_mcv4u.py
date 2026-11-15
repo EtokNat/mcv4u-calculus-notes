@@ -86,6 +86,20 @@ def record_unsolved(entry: dict):
     UNSOLVED_FILE.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
 
 
+def remove_unsolved(aid, prompt: str):
+    """Remove a newly-solved question from ROOT/unsolved_dump.json."""
+    if not UNSOLVED_FILE.exists():
+        return
+    try:
+        existing = json.loads(UNSOLVED_FILE.read_text())
+    except Exception:
+        return
+    key = f"{aid}::{prompt[:160]}"
+    if key in existing:
+        existing.pop(key, None)
+        UNSOLVED_FILE.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
+
+
 async def login(page):
     await page.goto(f"{BASE}/login/canvas", wait_until="domcontentloaded")
     await page.fill('#pseudonym_session_unique_id', USER)
@@ -153,7 +167,8 @@ def latest_attempt_score(sub):
     hist = sub.get("submission_history") or []
     if not hist:
         return None
-    for entry in reversed(hist):
+    hist_sorted = sorted(hist, key=lambda e: e.get("attempt") or 0)
+    for entry in reversed(hist_sorted):
         sc = entry.get("score")
         if sc is not None:
             return sc
@@ -355,6 +370,9 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
 
     page.on("response", on_response)
     try:
+        prev_sub = await submission_state(page, aid)
+        prev_count = len(prev_sub.get("submission_history") or [])
+        prev_sub_at = prev_sub.get("submitted_at")
         await page.goto(f"{BASE}/courses/{CID}/assignments/{aid}/launch",
                         wait_until="domcontentloaded", timeout=30000)
         await page.wait_for_timeout(5000)
@@ -451,6 +469,8 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
             meta.append(q_entry)
             if idx < len(session_parsed) and res.get("ok"):
                 session_parsed[idx]["answers"] = res.get("answers")
+            if res.get("ok"):
+                remove_unsolved(aid, prompt_for_solve)
 
             if not res.get("ok") and q_slug != "essay" and not q.get("has_essay") and not must_submit_only:
                 print(f"      [UNSOLVED_Q] aid={aid} q={idx+1} slug={q_slug} blanks={n_inputs} | {prompt_for_solve[:260]!r}", flush=True)
@@ -483,13 +503,32 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
             print(f"    [{tag}] submit err: {e}", flush=True)
 
         await page.wait_for_timeout(8000)
+        try:
+            post_texts = [await page.inner_text("body", timeout=5000)]
+            for fi, fr in enumerate(page.frames[1:], 1):
+                try:
+                    ft = await fr.inner_text("body", timeout=2000)
+                    if ft and ft.strip():
+                        post_texts.append(ft)
+                except Exception:
+                    pass
+            combined_post = "\n---\n".join(t for t in post_texts if t)
+            (out_dir / f"post_submit_{tag}.txt").write_text(combined_post)
+            plines = [l.strip() for l in combined_post.splitlines() if l.strip()]
+            pdiag = [l for l in plines if any(w in l.lower() for w in ("score", "point", "correct", "incorrect", "auto-graded", "waiting", "pts"))]
+            if pdiag:
+                print(f"    [POST_SUBMIT {tag}] " + " | ".join(pdiag[:30])[:1000], flush=True)
+        except Exception:
+            pass
         best = None
         this_attempt = None
-        for _ in range(8):
+        for poll_i in range(10):
             await page.wait_for_timeout(3000)
             s = await submission_state(page, aid)
             sc = s.get("score")
-            if s.get("submitted_at") is not None:
+            hist_now = s.get("submission_history") or []
+            is_new = (len(hist_now) > prev_count) or (s.get("submitted_at") != prev_sub_at)
+            if s.get("submitted_at") is not None and (is_new or poll_i >= 5):
                 best = sc
                 this_attempt = latest_attempt_score(s)
                 if sc is not None or must_submit_only:

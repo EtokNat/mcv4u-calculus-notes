@@ -113,6 +113,7 @@ jobs:
               -name 'session_items_*.json' -o \
               -name 'h5p_integration.json' -o \
               -name 'results*.txt' -o \
+              -name 'post_submit_*.txt' -o \
               -name 'attempts_meta.json' -o \
               -name 'main.html' \
             \) -exec cp --parents {} /tmp/scrape_pub/mcv4u_scrape/course_616/ \;)
