@@ -595,6 +595,42 @@ ENTRIES = [
         _has("square-based rectangular cardboard box", "1000 cm^3"),
         ["10", "600"],
     ),
+    # --- Unit 3 Formative Check C, Sections 3.4 & mixed ------------------
+    (
+        # U3 FC C: CD players R(x) = (90 - x)(50 + 5x) -> x = 40, price = $50
+        _has("personal CD players", "regular price for each CD player is $90"),
+        ["40", "50"],
+    ),
+    (
+        # U3 FC C: cough v(r) = Ar^2(r0 - r) -> r = 2r0/3, v_max = 4Ar0^3/27
+        _has("During a cough", "v(r) = Ar^2(r0 - r)"),
+        ["2r0/3", "4Ar0^3/27"],
+    ),
+    (
+        # U3 FC C: Ajax to Union Station bus R(k) = (20 + 0.5k)(10000 - 200k) -> k=5, fare=22.5, R=202500
+        _has("Ajax and Union Station", "if the fare increases by $0.50"),
+        ["22.5", "202500"],
+    ),
+    (
+        # U3 FC C: unit cost U(x) = C(x)/x, C(x) = 625 + 15x + 0.01x^2 -> x = 250
+        _has("C(x) = 625 + 15x + 0.01x^2", "unit cost is minimized"),
+        ["250"],
+    ),
+    (
+        # U3 FC C: 50-unit apartment building, $850, all occupied, $100 inc -> 10 vacant -> boundary x=0 => $850
+        _has("50-unit apartment building", "$850 per month"),
+        ["850"],
+    ),
+    (
+        # U3 FC C: basketball arena holds 20 000, 14 000 at $75, -$5 -> +800 => x=-1.25 -> $81.25
+        _has("professional basketball team", "holds 20 000 spectators"),
+        ["81.25"],
+    ),
+    (
+        # U3 FC C: average cost AC(x) = 0.004x + 40 + 16000/x -> x = 2000
+        _has("C(x) = 0.004x^2 + 40x + 16 000", "minimizes the average cost per unit"),
+        ["2000"],
+    ),
 ]
 
 
