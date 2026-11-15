@@ -1,0 +1,50 @@
+name: canvas-probe-review
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          python -m playwright install chromium
+          python -m playwright install-deps chromium
+
+      - name: Run probe
+        env:
+          BRONSTON_USER: ${{ secrets.BRONSTON_USER }}
+          BRONSTON_PASS: ${{ secrets.BRONSTON_PASS }}
+          OUT_ROOT: ${{ github.workspace }}/review_probe
+        run: |
+          python scripts/canvas_scrape/probe_review_view.py 2>&1 | tee probe.log
+        continue-on-error: true
+
+      - name: Package
+        if: always()
+        run: |
+          tar czf review_probe.tgz review_probe/ probe.log || true
+          ls -la review_probe.tgz probe.log || true
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: review_probe
+          path: |
+            review_probe.tgz
+            probe.log
+          retention-days: 7
+          if-no-files-found: warn
