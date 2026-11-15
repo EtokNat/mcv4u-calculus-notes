@@ -318,29 +318,16 @@ async def _fill_question_dom(page, wrapper_idx: int, q_dom: dict, res: dict, mus
                 target_str = str(ans)
                 try:
                     el = inputs.nth(j)
-                    if q_slug == "numeric":
-                        meta_attrs = await el.evaluate("e => ({tag: e.tagName, type: e.type, cls: e.className, ro: e.readOnly})")
-                        await el.click(timeout=3000)
-                        await el.fill("", timeout=2000)
-                        await el.press_sequentially(target_str, delay=25, timeout=5000)
-                        await page.keyboard.press("Tab")
-                        await el.dispatch_event("change")
-                        await el.dispatch_event("blur")
-                        cur = await el.input_value(timeout=2000)
-                        print(f"      [{tag}] NUMERIC_FILL q{wrapper_idx+1}[{j}]={cur!r} want={target_str!r} attrs={meta_attrs}", flush=True)
-                    else:
-                        await el.fill(target_str, timeout=5000)
-                        await el.dispatch_event("blur")
-                        cur = await el.input_value(timeout=2000)
-                        if cur != target_str:
-                            await el.click(timeout=2000)
-                            await el.fill("", timeout=2000)
-                            await el.press_sequentially(target_str, delay=15, timeout=5000)
-                            await el.dispatch_event("change")
-                            await el.dispatch_event("blur")
-                            cur2 = await el.input_value(timeout=2000)
-                            if cur2 != target_str:
-                                print(f"      [{tag}] fill verify mismatch q{wrapper_idx+1}[{j}] got={cur2!r} want={target_str!r}", flush=True)
+                    await el.scroll_into_view_if_needed(timeout=2000)
+                    await el.click(timeout=3000)
+                    await el.fill("", timeout=2000)
+                    await el.press_sequentially(target_str, delay=12, timeout=5000)
+                    await el.press("Tab")
+                    await el.dispatch_event("blur")
+                    await page.wait_for_timeout(40)
+                    cur = await el.input_value(timeout=2000)
+                    if cur != target_str:
+                        print(f"      [{tag}] fill verify mismatch q{wrapper_idx+1}[{j}] got={cur!r} want={target_str!r}", flush=True)
                 except Exception as e:
                     print(f"      [{tag}] fill err q{wrapper_idx+1}[{j}]={ans}: {e}", flush=True)
             return True
@@ -454,8 +441,20 @@ async def _attempt_learnosity(page, aid, out_dir, tag, module_name="", quiz_titl
             if not tag.endswith("#r1"):
                 return
             if req.method in ("POST", "PUT", "PATCH") and "quiz-api" in req.url:
-                pd = (req.post_data or "")[:400]
-                print(f"    [REQ {tag}] {req.method} {req.url.split('?')[0][-55:]} -> {pd}", flush=True)
+                pd = req.post_data or ""
+                if "/submit" in req.url and pd:
+                    try:
+                        obj = json.loads(pd)
+                        resps = obj.get("session_item_responses") or []
+                        summary = []
+                        for r in resps:
+                            v = (r.get("userResponse") or {}).get("value")
+                            cnt = len(v) if isinstance(v, list) else (1 if v is not None else 0)
+                            summary.append((r.get("itemId"), cnt, v))
+                        print(f"    [SUBMIT_PAYLOAD {tag}] n={len(resps)} detail={summary}", flush=True)
+                    except Exception:
+                        pass
+                print(f"    [REQ {tag}] {req.method} {req.url.split('?')[0][-55:]} -> {pd[:300]}", flush=True)
         except Exception:
             pass
 
