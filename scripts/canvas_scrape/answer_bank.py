@@ -534,6 +534,57 @@ ENTRIES = [
         _has("chain rule, in Leibniz notation", "y = 3u^2 - 5u + 2", "u = sqrt(x), x = 4"),
         ["52", "54", "320", "78"],
     ),
+    (
+        # FC C: f(x) = sqrt(x) and g(x) = x^2 - 1 -> 0, 0, -1, sqrt(15), sqrt(x^2 - 1), x - 1
+        _has("f(x) = sqrt(x) and g(x) = x^2 - 1", "f(g(1))", "g(f(x))"),
+        ["0", "0", "-1", "sqrt(15)", "sqrt(x^2 - 1)", "x - 1"],
+    ),
+    # --- Unit 3 Formative Check A, Sections 3.1a & 3.1b -----------------
+    (
+        # U3 FC A: s(t) = 4t - 7t^2 + 2t^3 -> v(2)=0, a(2)=10, a=0 at t=7/6 ≈ 1.2
+        _has("s(t) = 4t - 7t^2 + 2t^3", "velocity and acceleration at t = 2"),
+        ["0", "10", "1.2"],
+    ),
+    (
+        # U3 FC A: s(t) = t^2 - 6t + 8 -> v(t) = 2t - 6, t = 3
+        _has("s(t) = t^2 - 6t + 8", "velocity at time t"),
+        ["2t - 6", "3"],
+    ),
+    (
+        # U3 FC A: absolute extreme values (12 blanks)
+        _has("absolute extreme values", "f(x) = x^3 + 3x^2 + 1", "f(x) = 1/x - 1/x^3"),
+        ["21", "2", "1", "0", "25", "3", "0", "-2", "2sqrt(3)/9", "sqrt(3)", "0", "1"],
+    ),
+    (
+        # U3 FC A: cubes total surface area and volume (8 blanks)
+        _has("surface area and volume for cubes", "sqrt(5) cm", "2k cm"),
+        ["54", "27", "30", "5sqrt(5)", "72", "24sqrt(3)", "24k^2", "8k^3"],
+    ),
+    (
+        # U3 FC A: interval notation (6 blanks)
+        _has("interval notation", "{x in R | x > 3}", "{x in R | -4 < x < 4}"),
+        ["(3, infinity)", "(-infinity, -2]", "(-infinity, 0)", "[-5, infinity)", "(-2, 8]", "(-4, 4)"],
+    ),
+    (
+        # U3 FC A: graphing max/min (12 blanks)
+        _has("Use graphing technology", "f(x) = x^2 - 5", "f(x) = -2 cos 2x - 5"),
+        ["-5", "0", "25", "-5", "7", "5", "-1", "0", "5", "-1", "-3", "-7"],
+    ),
+    (
+        # U3 FC A: swimming pool bacteria N(t) = 30t^2 - 240t + 500 -> min at t=4 is 20
+        _has("swimming pool", "N(t) = 30t^2 - 240t + 500"),
+        ["20"],
+    ),
+    (
+        # U3 FC A: largest rectangle inscribed in right triangle -> 15, 30
+        _has("largest rectangle that can be inscribed in a right triangle", "5 cm and 12 cm"),
+        ["15", "30"],
+    ),
+    (
+        # U3 FC A: minimal distance from (-3, 3) to y = (x - 3)^2 -> sqrt(17)
+        _has("minimal distance from point (-3, 3)", "y = (x - 3)^2"),
+        ["sqrt(17)"],
+    ),
 ]
 
 

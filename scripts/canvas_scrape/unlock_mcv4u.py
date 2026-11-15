@@ -39,7 +39,7 @@ UNSOLVED_FILE = ROOT / "unsolved_dump.json"
 HEADLESS = os.environ.get("HEADLESS", "1") != "0"
 SAVE_SCREENSHOTS = os.environ.get("SAVE_SCREENSHOTS", "0") == "1"
 RETRY_PER_QUIZ = int(os.environ.get("RETRY_PER_QUIZ", "6"))
-MAX_PASSES = int(os.environ.get("MAX_PASSES", "15"))
+MAX_PASSES = int(os.environ.get("MAX_PASSES", "35"))
 CAPTURE_PASSED_QUIZZES = os.environ.get("CAPTURE_PASSED_QUIZZES", "0") == "1"
 SKIP_CR_COMPLETED = os.environ.get("SKIP_CR_COMPLETED", "1") == "1"
 
