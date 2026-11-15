@@ -38,6 +38,81 @@ jobs:
           tar czf review_probe.tgz review_probe/ probe.log || true
           ls -la review_probe.tgz probe.log || true
 
+      - name: Dump key probe outputs to logs
+        if: always()
+        run: |
+          set +e
+          echo "=================================================================="
+          echo "=== A_teacher_api.json (top-level statuses) ==="
+          python -c "
+          import json
+          d = json.load(open('review_probe/A_teacher_api.json'))
+          for k, v in d.items():
+              status = v.get('status') if isinstance(v, dict) else '?'
+              body_snip = (v.get('body') or '')[:400] if isinstance(v, dict) else ''
+              print(f'{k}: status={status}')
+              print(f'  body[:400]: {body_snip!r}')
+          " 2>&1
+          echo "=================================================================="
+          echo "=== A2_teacher_api_candidates.json ==="
+          cat review_probe/A2_teacher_api_candidates.json 2>&1 | head -200
+          echo "=================================================================="
+          echo "=== B3_questions.json (first question) ==="
+          python -c "
+          import json
+          d = json.load(open('review_probe/B3_questions.json'))
+          print(f'{len(d)} questions')
+          for q in d[:2]:
+              print(f'idx={q[\"idx\"]}: {q[\"prompt\"][:150]!r}')
+          " 2>&1
+          echo "=================================================================="
+          echo "=== B8_review_selectors.json (counts only) ==="
+          python -c "
+          import json
+          d = json.load(open('review_probe/B8_review_selectors.json'))
+          for sel, info in d.items():
+              print(f'{sel}: count={info[\"count\"]}')
+              if info['count'] > 0 and info.get('samples'):
+                  s = info['samples'][0]
+                  print(f'  text: {(s.get(\"text\") or \"\")[:300]!r}')
+                  print(f'  outer: {(s.get(\"outer\") or \"\")[:500]!r}')
+          " 2>&1
+          echo "=================================================================="
+          echo "=== B9_frame_*.json files ==="
+          for f in review_probe/B9_frame_*.json; do
+            [ -e "$f" ] || continue
+            echo ""
+            echo "--- $f ---"
+            python -c "
+          import json, sys
+          d = json.load(open('$f'))
+          print(f'url: {d.get(\"url\")}')
+          print(f'input_count: {d.get(\"input_count\")}')
+          for inp in (d.get('inputs') or [])[:5]:
+              print(f'  input {inp.get(\"id\")}: value={inp.get(\"value\")!r} readonly={inp.get(\"readonly\")} classes={(inp.get(\"classes\") or \"\")[:60]}')
+              print(f'    parent_text: {(inp.get(\"parent_text\") or \"\")[:200]!r}')
+              print(f'    next_text: {(inp.get(\"next_text\") or \"\")[:200]!r}')
+          ct = d.get('correct_text') or []
+          print(f'correct_text matches: {len(ct)}')
+          for t in ct[:10]:
+              print(f'  {t[:250]!r}')
+          " 2>&1
+          done
+          echo "=================================================================="
+          echo "=== B10_submission.json (score + state) ==="
+          python -c "
+          import json
+          d = json.load(open('review_probe/B10_submission.json'))
+          print(f'score={d.get(\"score\")} workflow_state={d.get(\"workflow_state\")} submitted_at={d.get(\"submitted_at\")}')
+          print(f'submission_history len: {len(d.get(\"submission_history\") or [])}')
+          " 2>&1
+          echo "=================================================================="
+          echo "=== B7_review_view HTML grep for answer-like text ==="
+          grep -iE 'correct answer|right answer|the answer|data-ref=|lrn_label_right|lrn_correct|lrn_response' review_probe/B7_review_view.html 2>&1 | head -40
+          echo "=================================================================="
+          echo "=== Frame URLs seen at B7_review_view ==="
+          cat review_probe/B7_review_view.frames.json 2>&1 | head -80
+
       - name: Upload artifact
         if: always()
         uses: actions/upload-artifact@v4
