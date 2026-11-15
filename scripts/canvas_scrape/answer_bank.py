@@ -563,7 +563,7 @@ ENTRIES = [
     (
         # U3 FC A: interval notation (6 blanks)
         _has("interval notation", "{x in R | x > 3}", "{x in R | -4 < x < 4}"),
-        ["(3, infinity)", "(-infinity, -2]", "(-infinity, 0)", "[-5, infinity)", "(-2, 8]", "(-4, 4)"],
+        ["(3, inf)", "(-inf, -2]", "(-inf, 0)", "[-5, inf)", "(-2, 8]", "(-4, 4)"],
     ),
     (
         # U3 FC A: graphing max/min (12 blanks)
@@ -584,6 +584,16 @@ ENTRIES = [
         # U3 FC A: minimal distance from (-3, 3) to y = (x - 3)^2 -> sqrt(17)
         _has("minimal distance from point (-3, 3)", "y = (x - 3)^2"),
         ["sqrt(17)"],
+    ),
+    (
+        # U3 FC A: golf net open at one end, V=144 -> A = 3xL + x^2 = 432/x + x^2 -> x=6, L=4
+        _has("net enclosure for practising golf shots", "144 m^3"),
+        ["6", "4"],
+    ),
+    (
+        # U3 FC A: square-based rectangular cardboard box V=1000 -> cube side=10, SA=600
+        _has("square-based rectangular cardboard box", "1000 cm^3"),
+        ["10", "600"],
     ),
 ]
 

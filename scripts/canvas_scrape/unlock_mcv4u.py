@@ -38,7 +38,7 @@ STATE_FILE = ROOT / "unlock_state.json"
 UNSOLVED_FILE = ROOT / "unsolved_dump.json"
 HEADLESS = os.environ.get("HEADLESS", "1") != "0"
 SAVE_SCREENSHOTS = os.environ.get("SAVE_SCREENSHOTS", "0") == "1"
-RETRY_PER_QUIZ = int(os.environ.get("RETRY_PER_QUIZ", "6"))
+RETRY_PER_QUIZ = int(os.environ.get("RETRY_PER_QUIZ", "8"))
 MAX_PASSES = int(os.environ.get("MAX_PASSES", "35"))
 CAPTURE_PASSED_QUIZZES = os.environ.get("CAPTURE_PASSED_QUIZZES", "0") == "1"
 SKIP_CR_COMPLETED = os.environ.get("SKIP_CR_COMPLETED", "1") == "1"
@@ -261,13 +261,26 @@ async def _fill_question_dom(page, wrapper_idx: int, q_dom: dict, res: dict, mus
         if ans_type == "blanks" and isinstance(answers, list):
             inputs = wrapper.locator('input:not([type="radio"]):not([type="checkbox"]):not([type="hidden"]):not([type="submit"]):not([type="button"])')
             cnt = await inputs.count()
+            if cnt != len(answers):
+                print(f"      [{tag}] fill count mismatch q{wrapper_idx+1}: dom={cnt} ans={len(answers)}", flush=True)
             for j, ans in enumerate(answers):
                 if j >= cnt:
                     break
+                target_str = str(ans)
                 try:
                     el = inputs.nth(j)
-                    await el.fill(str(ans), timeout=5000)
+                    await el.fill(target_str, timeout=5000)
                     await el.dispatch_event("blur")
+                    cur = await el.input_value(timeout=2000)
+                    if cur != target_str:
+                        await el.click(timeout=2000)
+                        await el.fill("", timeout=2000)
+                        await el.press_sequentially(target_str, delay=15, timeout=5000)
+                        await el.dispatch_event("change")
+                        await el.dispatch_event("blur")
+                        cur2 = await el.input_value(timeout=2000)
+                        if cur2 != target_str:
+                            print(f"      [{tag}] fill verify mismatch q{wrapper_idx+1}[{j}] got={cur2!r} want={target_str!r}", flush=True)
                 except Exception as e:
                     print(f"      [{tag}] fill err q{wrapper_idx+1}[{j}]={ans}: {e}", flush=True)
             return True
