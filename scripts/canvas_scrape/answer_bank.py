@@ -399,6 +399,42 @@ ENTRIES = [
         _has("ant colony", "A(t) = -t^3 + 5t + 750"),
         ["-3t^2 + 5", "-7000", "75000", "9.3"],
     ),
+    # --- Formative Check B, Lessons 2.3 & 2.4 ----------------------------
+    (
+        # FC B: F(x) = [b(x)][c(x)] -> product rule
+        _has("F(x) = [b(x)][c(x)]", "Express F'(x)"),
+        ["b'(x)c(x) + b(x)c'(x)"],
+    ),
+    (
+        # FC B: horizontal tangents for y=2(x-29)(x+1) -> (14, -450) and y=(x^2+2x+1)^2 -> (-1, 0)
+        _has("tangent to the curve is horizontal", "2(x - 29)(x + 1)", "(x^2 + 2x + 1)(x^2 + 2x + 1)"),
+        ["14", "-450", "-1", "0"],
+    ),
+    (
+        # FC B: 75 L gas tank V(t)=75(1-t/24)^2, 60% full -> V'(t) = -5*sqrt(15)/4 ≈ -4.84
+        _has("75 L gas tank", "V(t) = 75(1 - t/24)^2", "60% full"),
+        ["-4.84"],
+    ),
+    (
+        # FC B: 4x - y + 11 = 0 tangent to y = 16/x^2 - 1 -> dy/dx = -32/x^3, point (-2, 3)
+        _has("4x - y + 11 = 0", "y = 16/x^2 - 1"),
+        ["-32/x^3", "-2", "3"],
+    ),
+    (
+        # FC B: tangent equations: y=-3x^2+6x+4 at x=1 -> y=7; y=3-2sqrt(x) at x=9 -> y=(-1/3)x; f(3) -> y=-128x+297
+        _has("equation of the tangent", "y = -3x^2 + 6x + 4", "y = 3 - 2 sqrt(x)"),
+        ["y = 7", "y = (-1/3)x", "y = -128x + 297"],
+    ),
+    (
+        # FC B: when not appropriate to use product rule -> constant, expand
+        _has("not appropriate to use the product rule", "one factor is a"),
+        ["constant", "expand"],
+    ),
+    (
+        # FC B: dy/dx at given x for 6 products -> 9, -4, -9, -36, 22, 671
+        _has("y = (2 + 7x)(x - 3), x = 2", "y = x(5x - 2)(5x + 2), x = 3"),
+        ["9", "-4", "-9", "-36", "22", "671"],
+    ),
 ]
 
 
