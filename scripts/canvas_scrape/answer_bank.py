@@ -269,29 +269,87 @@ ENTRIES = [
         _has("subway train", "s(t) = t^2 - (1/3)t^3", "velocity of 0.5 km/min"),
         ["1 - sqrt(2)/2", "1 + sqrt(2)/2"],
     ),
+    (
+        # FC A: Demand function D(p) = 20/sqrt(p - 1) at (5, 10)
+        # D'(p) = -10(p - 1)^(-3/2), D'(5) = -10/8 = -1.25
+        _has("demand function", "D(p) = 20/sqrt(p - 1)", "point (5, 10)"),
+        ["-1.25"],
+    ),
+    (
+        # FC A: Line ax - 4y + 21 = 0 tangent to y = a/x^2 at x = -2
+        # y(-2) = a/4; -2a - 4(a/4) + 21 = 0 -> -3a + 21 = 0 -> a = 7
+        _has("ax - 4y + 21 = 0", "y = a/x^2", "x = -2"),
+        ["7"],
+    ),
+    (
+        # FC A: Line y = 8x + b tangent to y = 2x^2
+        # y' = 4x = 8 -> x = 2, y = 8; 8 = 16 + b -> b = -8
+        _has("y = 8x + b", "tangent to the curve y = 2x^2"),
+        ["2", "8", "-8"],
+    ),
+    (
+        # FC A: y = -x^3 + 6x^2 slope -12 and slope -15
+        # y' = -3x^2 + 12x; -3x^2 + 12x = -12 -> x^2 - 4x - 4 = 0 -> 2 +- 2*sqrt(2)
+        # -3x^2 + 12x = -15 -> x^2 - 4x - 5 = 0 -> -1, 5
+        _has("y = -x^3 + 6x^2", "slope of -12", "slope of -15"),
+        ["2 - 2*sqrt(2)", "2 + 2*sqrt(2)", "-1", "5"],
+    ),
 ]
 
 
-def lookup(prompt: str, num_blanks: int) -> dict:
-    """Return a solver-compatible result from the bank, or a miss."""
-    for pred, answers in ENTRIES:
+def lookup(prompt: str, num_blanks: int, slug: str | None = None) -> dict:
+    """Return a solver-compatible result from the bank, or a miss.
+
+    Entry values may be:
+      - list[str]: fill-in-the-blank / numeric values
+      - dict: typed response such as {"type": "choice", "choice": "..."},
+        {"type": "multi", "choices": [...]}, {"type": "essay", "text": "..."},
+        {"type": "matching", "pairs": {...}}, or {"type": "blanks", "answers": [...]}.
+    """
+    for pred, entry in ENTRIES:
         try:
             matched = pred(prompt)
         except Exception:
             matched = False
         if not matched:
             continue
-        if len(answers) != num_blanks:
+        if isinstance(entry, dict):
+            etype = entry.get("type", "blanks")
+            if etype == "blanks":
+                ans = list(entry.get("answers") or [])
+                if len(ans) != num_blanks:
+                    return {
+                        "ok": False,
+                        "pattern": "answer_bank",
+                        "answers": None,
+                        "reason": f"blank_mismatch({len(ans)} vs {num_blanks})",
+                    }
+                return {
+                    "ok": True,
+                    "pattern": "answer_bank",
+                    "type": "blanks",
+                    "answers": ans,
+                    "reason": None,
+                }
+            return {
+                "ok": True,
+                "pattern": "answer_bank",
+                "type": etype,
+                "answers": entry,
+                "reason": None,
+            }
+        if len(entry) != num_blanks:
             return {
                 "ok": False,
                 "pattern": "answer_bank",
                 "answers": None,
-                "reason": f"blank_mismatch({len(answers)} vs {num_blanks})",
+                "reason": f"blank_mismatch({len(entry)} vs {num_blanks})",
             }
         return {
             "ok": True,
             "pattern": "answer_bank",
-            "answers": list(answers),
+            "type": "blanks",
+            "answers": list(entry),
             "reason": None,
         }
     return {"ok": False, "pattern": None, "answers": None, "reason": "not_in_bank"}

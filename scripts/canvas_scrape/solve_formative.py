@@ -361,15 +361,34 @@ def classify(prompt: str):
             return name
     return None
 
-def solve_question(prompt: str, num_blanks: int):
+def _numeric_format(val_str: str) -> str:
+    """For Canvas 'numeric' slug, convert rational strings like '-5/4' to decimal '-1.25'."""
+    try:
+        r = parse_num(val_str)
+        if r is None:
+            return val_str
+        if r.is_Integer:
+            return str(int(r))
+        f = float(r.evalf())
+        if abs(f - round(f)) < 1e-9:
+            return str(int(round(f)))
+        return f"{f:.6g}"
+    except Exception:
+        return val_str
+
+
+def solve_question(prompt: str, num_blanks: int, slug: str | None = None):
     # Hand-crafted answer bank takes precedence over SymPy pattern matching.
     try:
         from answer_bank import lookup as _bank_lookup
-        bank = _bank_lookup(prompt, num_blanks)
+        bank = _bank_lookup(prompt, num_blanks, slug=slug)
         if bank.get("ok"):
             return bank
     except Exception:
         pass
+    if slug in ("essay", "choice", "multi-answer", "true-false", "matching"):
+        return {"ok": False, "pattern": None, "reason": f"slug_{slug}_not_in_bank",
+                "prompt_head": prompt[:200]}
     pattern = classify(prompt)
     parts = split_sub_parts(prompt)
     if not pattern:
@@ -400,7 +419,9 @@ def solve_question(prompt: str, num_blanks: int):
         bad = [a for a in answers if isinstance(a, str) and a.startswith("ERR:")]
         if bad:
             return {"ok": False, "pattern": pattern, "reason": f"err_sentinel:{bad[0]}", "answers": answers}
-        return {"ok": True, "pattern": pattern, "answers": answers}
+        if slug == "numeric":
+            answers = [_numeric_format(a) for a in answers]
+        return {"ok": True, "pattern": pattern, "type": "blanks", "answers": answers}
     except Exception as ex:
         return {"ok": False, "pattern": pattern, "reason": f"exc:{ex}"}
 

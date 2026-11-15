@@ -11,6 +11,14 @@ on:
         description: "Stop after N items (blank = no limit)"
         required: false
         default: ""
+      capture_passed_quizzes:
+        description: "1 to also dump session_items for already-passed quizzes"
+        required: false
+        default: "0"
+      skip_cr_completed:
+        description: "1 to skip items already completed in Canvas if captured locally"
+        required: false
+        default: "1"
 
 jobs:
   scrape:
@@ -25,6 +33,14 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Restore scrape cache
+        uses: actions/cache@v4
+        with:
+          path: mcv4u_scrape
+          key: mcv4u-scrape-${{ github.run_id }}
+          restore-keys: |
+            mcv4u-scrape-
+
       - name: Install Python deps
         run: |
           python -m pip install --upgrade pip
@@ -38,18 +54,53 @@ jobs:
           BRONSTON_PASS: ${{ secrets.BRONSTON_PASS }}
           ONLY_MODULE: ${{ inputs.only_module }}
           STOP_AT: ${{ inputs.stop_at }}
+          CAPTURE_PASSED_QUIZZES: ${{ inputs.capture_passed_quizzes }}
+          SKIP_CR_COMPLETED: ${{ inputs.skip_cr_completed }}
           OUT_ROOT: ${{ github.workspace }}/mcv4u_scrape
         run: |
+          rm -f mcv4u_scrape/unsolved_dump.json
           python scripts/canvas_scrape/unlock_mcv4u.py 2>&1 | tee unlock.log
-          # Don't fail the job even if the script exits non-zero —
-          # we still want the partial artifact for triage
         continue-on-error: true
+
+      - name: Summarize state & unsolved questions
+        if: always()
+        run: |
+          python - << 'EOF'
+          import json, pathlib
+          from collections import Counter
+          root = pathlib.Path("mcv4u_scrape")
+          st_p = root / "unlock_state.json"
+          if st_p.exists():
+              d = json.loads(st_p.read_text()).get("done", {})
+              c = Counter(v.split(":")[0] for v in d.values())
+              print("STATE_COUNTS:", dict(c))
+          mods_p = root / "course_616" / "modules_latest.json"
+          if mods_p.exists():
+              mods = json.loads(mods_p.read_text())
+              print("\nMODULE_SUMMARY:")
+              for m in mods:
+                  items = m.get("items") or []
+                  reqs = [it for it in items if it.get("completion_requirement")]
+                  done = sum(1 for it in reqs if (it.get("completion_requirement") or {}).get("completed"))
+                  print(f"  {m['id']} state={m.get('state')} [{done}/{len(reqs)}] {m['name']}")
+          uns_p = root / "unsolved_dump.json"
+          if uns_p.exists():
+              uns = json.loads(uns_p.read_text())
+              print(f"\nUNSOLVED_QUESTIONS ({len(uns)}):")
+              for k, v in uns.items():
+                  print("==========================================")
+                  print(f"AID={v.get('aid')} | {v.get('module')} | {v.get('quiz')}")
+                  print(f"SLUG={v.get('slug')} BLANKS={v.get('num_blanks')}")
+                  print(f"PROMPT:\n{v.get('prompt')}")
+                  if v.get("choices"):
+                      print(f"CHOICES: {v.get('choices')}")
+          EOF
 
       - name: Package scrape
         if: always()
         run: |
           tar czf mcv4u_scrape.tgz mcv4u_scrape/ unlock.log || true
-          ls -la mcv4u_scrape.tgz unlock.log || true
+          ls -lh mcv4u_scrape.tgz unlock.log || true
 
       - name: Upload artifact
         if: always()
