@@ -779,6 +779,123 @@ ENTRIES = [
             "(-1, 0)", "neither", "vertical", "(0, -1)", "local minimum", "horizontal", "(1, 0)", "neither", "vertical",
         ],
     ),
+    # --- Unit 4 Formative Check B (14518) ------------------------------
+    (
+        # U4 FC B: second derivative & above/below tangent line (8 blanks)
+        _has("f(x) = 2x^3 - 10x + 3", "p(w) = w/sqrt(w^2 + 1)", "s(t) = 2t/(t - 4)"),
+        ["24", "above", "4", "above", "-9sqrt(10)/1000", "below", "-2/27", "below"],
+    ),
+    (
+        # U4 FC B: f''(x) graph concave up/down & inflection x=1; 0, 2 (6 blanks)
+        _has("concave up before x = 1", "inflection points at x = 0 and x = 2"),
+        ["(-∞, 1)", "(1, ∞)", "1", "(-∞, 0) U (2, ∞)", "(0, 2)", "0, 2"],
+    ),
+    (
+        # U4 FC B: g''(x) graph concave up/down & inflection -1, 3; -4.5, 1, 5 (6 blanks)
+        _has("concave up on -1 < x < 3", "concave up on -4.5 < x < 1 and x > 5"),
+        ["(-1, 3)", "(-∞, -1) U (3, ∞)", "-1, 3", "(-4.5, 1) U (5, ∞)", "(-∞, -4.5) U (1, 5)", "-4.5, 1, 5"],
+    ),
+    (
+        # U4 FC B: discontinuities 6 functions (22 blanks)
+        _has("y = x/(x + 5)", "s = 1/(t - 3)^2", "f(x) = 6/((x + 3)(x - 1))"),
+        [
+            "-5", "∞", "-∞",
+            "2", "-∞", "∞",
+            "3", "∞",
+            "hole at x = 3", "no vertical asymptote",
+            "-3", "∞", "-∞", "1", "-∞", "∞",
+            "-1", "∞", "-∞", "1", "-∞", "∞",
+        ],
+    ),
+    (
+        # U4 FC B: VA and side behaviour 4 functions (18 blanks)
+        _has("f(x) = (x - 1)/(x + 2)", "f(x) = 1/(9 - x^2)", "3x^2 - 13x - 10"),
+        [
+            "-2", "∞", "-∞",
+            "-3", "-∞", "∞", "3", "∞", "-∞",
+            "-3", "-∞", "∞",
+            "-2/3", "∞", "-∞", "5", "∞", "-∞",
+        ],
+    ),
+    (
+        # U4 FC B: lim x->+-infinity (8 blanks)
+        _has("Evaluate lim x->infinity f(x) and lim x->-infinity f(x)", "(2x + 3)/(x - 1)", "(2x^5 - 3x^2 + 5)/(3x^4 + 5x - 4)"),
+        ["2", "2", "5", "5", "-5/2", "-5/2", "∞", "-∞"],
+    ),
+    (
+        # U4 FC B: discontinuities x/(x-5)^2, 5/(x^2+9), (x-2)/(x^2-12x+12) (9 blanks)
+        _has("f(x) = x/(x - 5)^2", "f(x) = 5/(x^2 + 9)", "f(x) = (x - 2)/(x^2 - 12x + 12)"),
+        [
+            "x = 5", "∞",
+            "none",
+            "x = 6 - 2sqrt(6)", "-∞", "∞", "x = 6 + 2sqrt(6)", "-∞", "∞",
+        ],
+    ),
+    (
+        # U4 FC B: critical points via second derivative test (13 blanks)
+        _has("y = x^3 - 6x^2 - 15x + 10", "y = 25/(x^2 + 48)", "y = (x - 3)^3 + 8", "Use the second derivative test"),
+        ["-1", "18", "5", "-90", "0", "25/48", "-1", "-2", "1", "2", "3", "8", "neither"],
+    ),
+    (
+        # U4 FC B: f(x) = x^3 + (3/2)x^2 - 7x + 5 on [-4, 3] (8 blanks)
+        _has("f(x) = x^3 + (3/2)x^2 - 7x + 5", "-4 <= x <= 3"),
+        ["(-3 - sqrt(93))/6", "31sqrt(93)/36 + 35/4", "(-3 + sqrt(93))/6", "35/4 - 31sqrt(93)/36", "3", "49/2", "-4", "-7"],
+    ),
+    (
+        # U4 FC B: oblique asymptote approach above/below (4 blanks)
+        _has("(3x^2 - 2x - 17)/(x - 3)", "(2x^2 + 9x + 2)/(2x + 3)"),
+        ["below", "above", "above", "below"],
+    ),
+    (
+        # U4 FC B: oblique asymptotes in form y = mx + b (2 blanks)
+        _has("(2x^2 - 7x + 5)/(2x - 1)", "(4x^3 - x^2 - 15x - 50)/(x^2 - 3x)"),
+        ["y = x - 3", "y = 4x + 11"],
+    ),
+    (
+        # U4 FC B: points of inflection (9 blanks)
+        _has("Determine the points of inflection for each function in question 2", "y = x^3 - 6x^2 - 15x + 10", "y = (x - 3)^3 + 8"),
+        ["2", "-36", "-4", "25/64", "4", "25/64", "none", "3", "8"],
+    ),
+    (
+        # U4 FC B: f(x) = sqrt(x + 1) + b/x inflection at x = 3 -> 27/64 = 0.421875
+        _has("f(x) = sqrt(x + 1) + b/x", "inflection at x = 3"),
+        ["0.421875"],
+    ),
+    (
+        # U4 FC B: 8 limits as x -> infinity (8 blanks)
+        _has("Determine each limit as x -> infinity", "(3 - 2x)/(3x)", "(5x + 4 - 7/(x + 3))"),
+        ["-2/3", "1/6", "-3", "0", "∞", "1", "1", "∞"],
+    ),
+    (
+        # U4 FC B: g(x) = (x^2 + 7x + 10)/((x - 3)(x + 2)) (6 blanks)
+        _has("g(x) = (x^2 + 7x + 10)/((x - 3)(x + 2))", "hole at x ="),
+        ["-2", "x = 3", "-∞", "∞", "y = 1", "x != -2, 3"],
+    ),
+    (
+        # U4 FC B: f(x) = (ax + 5)/(3 - bx), VA x=5, HA y=-3 -> a=9/5, b=3/5
+        _has("f(x) = (ax + 5)/(3 - bx)", "vertical asymptote at x = 5"),
+        ["9/5", "3/5"],
+    ),
+    (
+        # U4 FC B: lim [f(x) - g(x)] -> -2
+        _has("f(x) = (x^2 + 1)/(x + 1)", "g(x) = (x^2 + 2x + 1)/(x + 1)"),
+        ["-2"],
+    ),
+    (
+        # U4 FC B: x^4 + 4x and (4w^2 - 3)/w^3 points of inflection (5 blanks)
+        _has("f(x) = x^4 + 4x", "g(w) = (4w^2 - 3)/w^3"),
+        ["none", "-3sqrt(2)/2", "-10sqrt(2)/9", "3sqrt(2)/2", "10sqrt(2)/9"],
+    ),
+    (
+        # U4 FC B: vertical, horizontal, oblique asymptotes 4 functions (16 blanks)
+        _has("f(x) = (3x - 1)/(x + 5)", "g(x) = (x^2 + 3x - 2)/(x - 1)^2", "m(x) = (5x^2 - 3x + 2)/(x - 2)"),
+        [
+            "x = -5", "∞", "-∞", "y = 3",
+            "x = 1", "∞", "y = 1",
+            "x = -2", "-∞", "∞", "y = 1",
+            "x = 2", "-∞", "∞", "none", "5x + 7",
+        ],
+    ),
 ]
 
 
