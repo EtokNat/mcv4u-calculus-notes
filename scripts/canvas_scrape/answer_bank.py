@@ -1858,6 +1858,47 @@ ENTRIES = [
         _has("x - y - 2z + 3 = 0 and 2x + y - z + 2 = 0"),
         ["60"],
     ),
+    # --- Unit 9 Formative Check C (14558) ------------------------------
+    (
+        # U9 FC C: parametric line into plane gives 0 = -19 -> Parallel to the plane
+        _has("gives 0 = -19. This means the line is"),
+        {"type": "choice", "choice": "Parallel to the plane (no intersection)"},
+    ),
+    (
+        # U9 FC C: nonparallel directions, 3rd coord fails -> Skew
+        _has("third coordinate equation fails", "The lines are"),
+        {"type": "choice", "choice": "Skew"},
+    ),
+    (
+        # U9 FC C: x + y + z = 1 and 2x + 2y + 2z = 5 -> parallel and distinct
+        _has("x + y + z = 1 and p2: 2x + 2y + 2z = 5"),
+        {"type": "choice", "choice": "There is no line - the planes are parallel and distinct"},
+    ),
+    (
+        # U9 FC C: 3x3 system reduces to 0 = 4 -> Inconsistent - no common point
+        _has("3x3 system that reduces to 0 = 4"),
+        {"type": "choice", "choice": "Inconsistent - no common point"},
+    ),
+    (
+        # U9 FC C: distance P(2,3) to 3x - 4y + 5 = 0 -> 0.2
+        _has("P(2, 3) to the line 3x - 4y + 5 = 0"),
+        ["0.2"],
+    ),
+    (
+        # U9 FC C: distance P(1,2,3) to 2x - y + 2z = 4 -> 2/3
+        _has("P(1, 2, 3) to the plane 2x - y + 2z = 4"),
+        {"type": "choice", "choice": "2/3"},
+    ),
+    (
+        # U9 FC C: distance between skew lines L1 and L2 -> sqrt(3)/3
+        _has("L1: r = (1, 0, 0) + t(1, 1, 0)", "L2: r = (0, 1, 1) + s(0, 1, 1)"),
+        {"type": "choice", "choice": "sqrt(3)/3"},
+    ),
+    (
+        # U9 FC C: distance formula from point P to plane -> |n . PQ| / |n|
+        _has("distance from a point P to a plane with normal n"),
+        {"type": "choice", "choice": "|n . PQ| / |n|"},
+    ),
 ]
 
 
