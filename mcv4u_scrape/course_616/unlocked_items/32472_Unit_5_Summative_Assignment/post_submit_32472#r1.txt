@@ -1,0 +1,310 @@
+Skip To Content
+Dashboard
+Account
+Dashboard
+Courses
+Calendar
+10 unread messages.
+10
+Inbox
+History
+Help
+MCV4U
+Home
+Grades
+57
+Modules
+Notebook
+Skip To Quiz Content
+Return
+Unit 5 Summative Assignment
+vincent Teacher
+Due Date
+No due date
+Time Limit
+No time limit
+Number of Questions
+15
+10 questions require grading
+Assessment Statistics
+14%
+14 out of 100 points
+14
+Out of 100 points
+Time for this attempt: 26 seconds
+26 seconds
+00:26
+Time for this attempt
+Your Answers:
+Results for question 1.
+1
+0 / 4 points
+Fill in the Blank
+
+If you have ever travelled in an airplane, you probably noticed that the air pressure in the airplane varied. The atmospheric pressure, y, varies with the altitude, x kilometres, above Earth. For altitudes up to 10 km, the pressure in millimetres of mercury (mm Hg) is given by y = 760e^(-0.125x). What is the atmospheric pressure at each distance above Earth? a. 5 km: 
+Incorrect answer:
+406.8
+Correct Answer:
+406.80
+ b. 7 km: 
+Incorrect answer:
+316.8
+Correct Answer:
+316.82
+ c. 9 km: 
+Incorrect answer:
+246.7
+Correct Answer:
+246.74
+
+Results for question 2.
+2
+4 / 4 points
+Numeric
+
+[K/U] Calculate the slope of the tangent line that passes through y = 5^x, where x = 2. Express your answer to two decimal places.
+
+Correct answer:
+40.2359
+Results for question 3.
+3
+2 / 4 points
+Fill in the Blank
+
+[A] A rumour spreads through a population in such a way that t hours after the rumour starts, the percent of people involved in passing it on is given by P(t) = 100(e^(-t) - e^(-4t)). What is the highest percent of people involved in spreading the rumour within the first 3 h? 
+Correct answer:
+47.25
+ When does this occur? 
+Incorrect answer:
+0.46
+Correct Answer:
+0.462
+
+Results for question 4.
+4
+4 / 4 points
+Fill in the Blank
+
+[A] The position of a particle is given by s = 5 cos(2t + pi/4) at time t. What are the maximum values of the displacement, the velocity, and the acceleration? Displacement: 
+Correct answer:
+5
+ Velocity: 
+Correct answer:
+10
+ Acceleration: 
+Correct answer:
+20
+
+Results for question 5.
+5
+4 / 4 points
+Fill in the Blank
+
+[K/U] Determine all the values of x, 0 <= x <= 2pi, for which the slope of the tangent to f(x) = sin x tan x is zero. x = 
+Correct answer:
+0
+, 
+Correct answer:
+pi
+, 
+Correct answer:
+2pi
+
+Results for question 6.
+6
+8 points possible
+Essay
+
+[K/U]
+
+Determine the second derivative of each of the following:
+
+a. y = xe^x - e^x
+
+b. y = xe^(10x)
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 7.
+7
+8 points possible
+Essay
+
+[C]
+
+Why can you not use the power rule for derivatives to differentiate y = e^x?
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 8.
+8
+8 points possible
+Essay
+
+[T]
+
+Historical data show that the amount of money sent out of Canada for interest and dividend payments during the period from 1967 to 1979 can be approximated by the model P = (5 x 10^8)e^(0.20015t), where t is measured in years (t = 0 in 1967) and P is the total payment in Canadian dollars.
+
+a. Determine and compare the rates of increase for the years 1968 and 1978.
+
+b. Assuming this trend continues, compare the rate of increase for 1988 with the rate of increase for 1998.
+
+c. Check the Statistics Canada website to see if the rates of increase predicted by this model were accurate for 1988 and 1998.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 9.
+9
+8 points possible
+Essay
+
+[K/U]
+
+Differentiate.
+
+a. y = 5^x
+
+b. y = (0.47)^x
+
+c. y = (52)^(2x)
+
+d. y = 5(2)^x
+
+e. y = 4(e)^x
+
+f. y = -2(10)^(3x)
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 10.
+10
+8 points possible
+Essay
+
+[A]
+
+The squirrel population in a small self-contained forest was studied by a biologist. The biologist found that the squirrel population, P, measured in hundreds, is a function of time, t, where t is measured in weeks. The function is P(t) = 20/(1 + 3e^(-0.02t)).
+
+a. Determine the population at the start of the study, when t = 0.
+
+b. The largest population the forest can sustain is represented mathematically by the limit as t -> infinity. Determine this limit.
+
+c. Determine the point of inflection.
+
+d. Graph the function.
+
+e. Explain the meaning of the point of inflection in terms of squirrel population growth.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 11.
+11
+8 points possible
+Essay
+
+[A]
+
+Although it is true that many animal populations grow exponentially for a period of time, it must be remembered that the food available to sustain the population is limited and the population will level off because of this. One mathematical model to describe a population that grows exponentially at the beginning and then levels off to a limiting value, L, is the logistic model. The equation for this model is P = aL/[a + (L - a)e^(-kLt)], where t represents time, P represents the size of the population, a is the size of the population at t = 0, L is the limiting value, and k is a mathematical constant.
+
+a. Suppose that a biologist starts a cell colony with 100 cells and finds that the limiting size of the colony is 10 000 cells. If the constant k = 0.0001, draw a graph to illustrate this population, where t is in days.
+
+b. At what point in time does the cell colony stop growing exponentially? How large is the colony at this point?
+
+c. Compare the growth rate of the colony at the end of day 3 with the growth rate at the end of day 8. Explain what is happening.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 12.
+12
+8 points possible
+Essay
+
+[K/U]
+
+Determine dy/dx for each of the following:
+
+a. y = sin 2x
+
+b. y = 2 cos 3x
+
+c. y = sin(x^3 - 2x + 4)
+
+d. y = 2 cos(-4x)
+
+e. y = sin 3x - cos 4x
+
+f. y = 2^x + 2 sin x - 2 cos x
+
+g. y = sin(e^x)
+
+h. y = 3 sin(3x + 2pi)
+
+i. y = x^2 + cos x + sin(pi/4)
+
+j. y = sin(1/x)
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 13.
+13
+8 points possible
+Essay
+
+[K/U]
+
+Determine the equation of the tangent to the curve y = cos x at (pi/2, 0).
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 14.
+14
+8 points possible
+Essay
+
+[K/U]
+
+Determine f''(x), where f(x) = cot 4x.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 15.
+15
+8 points possible
+Essay
+
+[K/U]
+
+Determine all the values of x, 0 <= x <= 2pi, for which the slope of the tangent to f(x) = sin x tan x is zero.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade

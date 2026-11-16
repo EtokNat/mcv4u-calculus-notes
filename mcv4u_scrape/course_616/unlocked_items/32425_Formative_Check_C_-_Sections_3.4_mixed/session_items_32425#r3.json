@@ -1,0 +1,306 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>Find the production level that minimizes the average cost per unit for the cost function C(x) = 0.004x^2 + 40x + 16 000. Show that it is a minimum by using a graphing calculator to sketch the graph of the average cost function. Enter the production level.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65197",
+      "label": null,
+      "title": "Q11 [A]",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56089",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>The landlord of a 50-unit apartment building is planning to increase the rent. Currently, residents pay $850 per month, and all the units are occupied. A real estate agency advises that every $100 increase in rent will result in 10 vacant units. What rent should the landlord charge to maximize revenue? Enter the rent in dollars per month.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65198",
+      "label": null,
+      "title": "Q8 [A]",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56089",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>Suppose that the cost, in dollars, of manufacturing x items is approximated by C(x) = 625 + 15x + 0.01x^2, for 1 &lt;= x &lt;= 500. The unit cost (the cost of manufacturing one item) would then be U(x) = C(x)/x. How many items should be manufactured to ensure that the unit cost is minimized? Enter the number of items.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65196",
+      "label": null,
+      "title": "Q9 [A]",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56089",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>A professional basketball team plays in an arena that holds 20 000 spectators. Average attendance at each game has been 14 000. The average ticket price is $75. Market research shows that for each $5 reduction in the ticket price, attendance increases by 800. Find the price that will maximize revenue. Enter the price in dollars.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65194",
+      "label": null,
+      "title": "Q14 [A]",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56089",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c796450d-dc2b-4584-94c5-0144e2253342"
+          }
+        ]
+      },
+      "item_body": "<p>a. Determine the area of the largest rectangle that can be inscribed in a right triangle if the legs of the triangle are 5 cm and 12 cm and the sides of the rectangle are along the legs of the triangle. The largest area is <span id=\"blank_b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c\"></span> cm^2. b. Repeat part a. for a right triangle that has sides 8 cm and 15 cm. The largest area is <span id=\"blank_c796450d-dc2b-4584-94c5-0144e2253342\"></span> cm^2. c. Hypothesize a conclusion for any right triangle.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65190",
+      "label": null,
+      "title": "Q12 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56090",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "be168eca-a3b0-469c-a576-81efad6c2bee"
+          }
+        ]
+      },
+      "item_body": "<p>Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2. The minimal distance is <span id=\"blank_be168eca-a3b0-469c-a576-81efad6c2bee\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65191",
+      "label": null,
+      "title": "Q20 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56090",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "316c0753-f3e0-4148-8d3c-79b3abc85696"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c053d239-9618-4ac0-981b-c0cbac605c8f"
+          }
+        ]
+      },
+      "item_body": "<p>Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = <span id=\"blank_316c0753-f3e0-4148-8d3c-79b3abc85696\"></span>; b. When is its velocity zero? t = <span id=\"blank_c053d239-9618-4ac0-981b-c0cbac605c8f\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65075",
+      "label": null,
+      "title": "Q7 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56091",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "753d402c-4f24-4194-bb5f-bf368309e939"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "405906fc-880a-4005-8de3-948208483ca6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f80fc07c-75a2-429c-af7d-d4b56163d7ca"
+          }
+        ]
+      },
+      "item_body": "<p>An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = <span id=\"blank_753d402c-4f24-4194-bb5f-bf368309e939\"></span>, a(2) = <span id=\"blank_405906fc-880a-4005-8de3-948208483ca6\"></span>; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = <span id=\"blank_f80fc07c-75a2-429c-af7d-d4b56163d7ca\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65091",
+      "label": null,
+      "title": "Q4 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56091",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

@@ -1,0 +1,105 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9175" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 5.4 — Derivatives of Sine and Cosine</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 5</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 5.4</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Derivatives of Sine and Cosine</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §5.4 — discovering d/dx(sin x) = cos x and d/dx(cos x) = −sin x, then combining them with every rule you already know.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>State <strong>d/dx(sin x) = cos x</strong> and <strong>d/dx(cos x) = −sin x</strong>, and explain the numerical discovery behind them.</li>
+<li>Apply the <strong>chain rule</strong> to sin(g(x)) and cos(g(x)), combined with product and quotient rules.</li>
+<li>Find <strong>tangent lines</strong> and <strong>absolute extrema</strong> of sinusoidal functions.</li>
+<li>Explain why angles must be in <strong>radians</strong> for these rules to hold.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Here is the whole surprise of this lesson: <strong>the slope of a sine wave traces out a cosine wave</strong>. At x = 0, sin x is climbing at its steepest — slope 1 — and cos 0 = 1. At x = π/2, sine is flat on top — slope 0 — and cos(π/2) = 0. At x = π, sine is falling at its steepest — slope −1 — and cos π = −1. The derivative of sine <em>is</em> cosine, point for point. The derivative of cosine is nearly as tidy — with one minus sign that catches everyone at least once.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17376" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17376" data-api-returntype="Assignment">▶ Start the Lesson 5.4 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — watch the slopes trace the other curve</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>Graph <strong><em>y = sin x</em></strong>. Click the curve at x = 0, π/2, π, 3π/2 and record each tangent slope. Now graph <strong><em>y = cos x</em></strong> — how do its heights at those x-values compare with your slopes?</li>
+<li>Graph <strong><em>y = cos x</em></strong> and <strong><em>y = −sin x</em></strong>. Repeat the tangent-slope check at x = 0, π/2, π. Why does the derivative of cosine need the minus sign?</li>
+<li>Graph <strong><em>y = cos^2(x)</em></strong> on <strong><em>{0 &lt;= x &lt;= 2π}</em></strong>. Read off the maximum and minimum values and the x-values where they occur.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">The two rules</h4>
+<p>Tabulating d/dx(sin x) at x = 0, 0.5, 1.0, 1.5, … and comparing with cos x shows the columns match; the same experiment for d/dx(cos x) matches −sin x. <strong>These identities only hold when x is in radians</strong> — the natural unit for calculus.</p>
+<div style="background: rgb(244, 247, 251); border-width: 2px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0;"><strong style="color:#10284A;">RULES — Sine and cosine</strong><br>
+d/dx(sin x) = cos x &nbsp;&nbsp;&nbsp;&nbsp; d/dx(cos x) = −sin x<br>
+Chain-rule forms: d/dx(sin f(x)) = cos f(x)·f′(x); &nbsp; d/dx(cos f(x)) = −sin f(x)·f′(x).</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54826/preview?" alt="Two graphs: sin x with its derivative cos x and marked slopes, and cos x with its derivative negative sin x and marked slopes" style="max-width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54826" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Differentiate (a) y = cos 3x and (b) y = x sin x.</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+(a) Chain rule: y′ = <strong>−3 sin 3x</strong>.<br><br>
+(b) Product rule: y′ = (1)(sin x) + (x)(cos x) = <strong>sin x + x cos x</strong>.</p>
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">Chain-rule combinations (and sin²x means (sin x)²)</h4>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Differentiate (a) y = sin(x²), (b) y = sin²x, and (c) y = cos(1 + x³).</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+(a) y′ = cos(x²)·(2x) = <strong>2x cos(x²)</strong>.<br><br>
+(b) Think of (sin x)²: power rule on the outside, then the sine rule inside: y′ = 2 sin x·cos x (which equals sin 2x).<br><br>
+(c) y′ = −sin(1 + x³)·(3x²) = <strong>−3x² sin(1 + x³)</strong>.</p>
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">Mixed models and extrema</h4>
+<p>Exponentials and trig functions mix freely — and the same critical-number machinery finds tangents and extrema of wavy curves.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Determine the equation of the tangent to y = x cos 2x at x = π/2.</p>
+<p style="margin:0;"><strong>Solution.</strong> Point: (π/2, (π/2)·cos π) = (π/2, −π/2).<br><br>
+y′ = (1)(cos 2x) + (x)(−2 sin 2x) = cos 2x − 2x sin 2x. At x = π/2: y′ = cos π − π·sin π = −1 − 0 = −1.<br><br>
+Tangent: y + π/2 = −1(x − π/2), which simplifies to <strong>y = −x</strong>.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54823/preview?" alt="Graph of y = cos squared x on [0, 2pi] with maxima of 1 at 0, pi, and 2pi and minima of 0 at pi/2 and 3pi/2" style="max-width: 420px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54823" data-api-returntype="File" loading="lazy"></p>
+<p>For extremes, differentiate and solve: for f(x) = cos²x on [0, 2π], f′(x) = −2 sin x cos x = 0 gives x = 0, π/2, π, 3π/2, 2π — and the graph shows maxima of 1 at 0, π, 2π and minima of 0 at π/2, 3π/2, exactly as cosine's range predicts.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 5.4.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Differentiate y = sin 5x.</summary>
+<p>Chain rule: y′ = <strong>5 cos 5x</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Differentiate y = cos(x² + 1).</summary>
+<p>y′ = −sin(x² + 1)·(2x) = <strong>−2x sin(x² + 1)</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — True or false: "d²/dx²(sin x) = sin x." Justify.</summary>
+<p><strong>False.</strong> Differentiating twice: d/dx(sin x) = cos x, then d/dx(cos x) = <strong>−sin x</strong>. (Two derivatives return the negative of the original — a fact springs exploit in Lesson 5.6.)</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Find the equation of the tangent to y = sin x at x = π/6.</summary>
+<p>Point: (π/6, 1/2). Slope: y′ = cos x, so y′(π/6) = √3/2. Tangent: <strong>y − 1/2 = (√3/2)(x − π/6)</strong>.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>d/dx(sin x) = cos x</strong> and <strong>d/dx(cos x) = −sin x</strong> (x in radians).</li>
+<li>Chain-rule forms: d/dx(sin f(x)) = cos f(x)·f′(x); d/dx(cos f(x)) = −sin f(x)·f′(x).</li>
+<li>Combine with product, quotient, and chain rules — and with exponentials, as in e<sup>sin x + cos x</sup>.</li>
+<li>sin²x means (sin x)² — use the power rule on the outside.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>The minus sign in d/dx(cos x) is the #1 slip — double-check it on every problem.</li>
+<li>Next: Lesson 5.5 — <strong>the derivative of tangent</strong>.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Derivatives of Exponential and Trigonometric Functions</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

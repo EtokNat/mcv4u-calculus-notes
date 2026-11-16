@@ -1,0 +1,108 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9187" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 7.4 — The Cross Product: Definition and Geometric Meaning</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 7</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 7.4</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">The Cross Product — Definition and Geometric Meaning</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §7.6 — a second way to multiply vectors; this one gives a vector.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>State the <strong>geometric definition</strong>: a × b = |a||b|sinθ · n̂, where n̂ is the unit vector perpendicular to both a and b.</li>
+<li>Use the <strong>right-hand rule</strong> to find the direction of a × b.</li>
+<li>Compute a × b for vectors in R³ with the <strong>component formula</strong>.</li>
+<li>Explain why <strong>a × b = −(b × a)</strong> (order matters!) and why <strong>a × a = 0</strong>.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Push a door near its hinge and it barely moves; push near the handle and it swings freely. Same push, different <em>twisting</em> effect — and that twist points along the hinge, perpendicular to both your push and the door. The dot product could never describe this: it only gives numbers. The <strong>cross product</strong> is vector multiplication that returns a <em>vector</em> — exactly what twisting needs.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17388" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17388" data-api-returntype="Assignment">▶ Start the Lesson 7.4 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — magnitude from sine</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>Define <strong><em>a=(4,1)</em></strong> and <strong><em>b=(1,3)</em></strong>. Compute the angle between them from the dot product: <strong><em>th=arccos((a[1]b[1]+a[2]b[2])/(sqrt(a[1]^2+a[2]^2)*sqrt(b[1]^2+b[2]^2)))</em></strong> (about 1.004 radians ≈ 57.5°).</li>
+<li>Now compute <strong><em>m=sqrt(a[1]^2+a[2]^2)*sqrt(b[1]^2+b[2]^2)*sin(th)</em></strong> — the cross-product magnitude |a||b|sinθ. You should get ≈ 11.</li>
+<li>Check it against the component formula (treating the vectors as 3-D with z = 0): the z-component is <strong><em>a[1]b[2]-a[2]b[1]</em></strong> = 4·3 − 1·1 = 11. <strong>Conclusion:</strong> |a × b| = |a||b|sinθ and the 2-D "cross product" is just the number a₁b₂ − a₂b₁.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">The geometric definition</h4>
+<p>For two vectors a and b in three-dimensional space, the <strong>cross product</strong> a × b is the vector defined by</p>
+<p style="text-align: center; font-size: 19px; background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 14px; margin: 14px 0px;"><strong>a × b = |a| |b| sinθ · n̂</strong>, &nbsp;&nbsp;0° ≤ θ ≤ 180°</p>
+<p>where θ is the angle between a and b (tail to tail, as always) and n̂ is the <strong>unit vector perpendicular to both a and b</strong>. Three things make this product special:</p>
+<ul>
+<li>Its <strong>magnitude</strong> is |a||b|sinθ — the product of the lengths times the <em>sine</em> of the angle (cosine's place is taken by the dot product).</li>
+<li>Its <strong>direction</strong> is perpendicular to the plane containing a and b. There are two such directions (up or down through the plane) — the <strong>right-hand rule</strong> picks the right one.</li>
+<li>The <strong>result is a vector</strong>, which is why the cross product is also called the <strong>vector product</strong>.</li>
+</ul>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54864/preview?" alt="Vectors a and b with the parallelogram between them; the cross product a cross b is a vector perpendicular to the plane, and its magnitude equals the parallelogram area" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54864" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">The right-hand rule</h4>
+<p>Point the fingers of your right hand along a, then curl them toward b (through the smaller angle). Your thumb points in the direction of a × b. Reversing the order — b × a — makes your fingers curl the other way, so <strong>b × a = −(a × b)</strong>: the cross product is <strong>anti-commutative</strong>, the opposite of the dot product's behaviour. The order always matters.</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54862/preview?" alt="Right-hand rule diagram: fingers curl from a to b and the thumb points along a cross b" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54862" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">Immediate consequences</h4>
+<ul>
+<li><strong>a × a = 0</strong> — the angle between a vector and itself is 0°, and sin0° = 0. More generally, the cross product of <strong>parallel</strong> vectors is the zero vector.</li>
+<li><strong>i × j = k, j × k = i, k × i = j</strong> — the standard unit vectors cycle forward; reversing any pair flips the sign (j × i = −k).</li>
+<li>The cross product is defined only in R³ (the "perpendicular to both" direction needs three dimensions).</li>
+</ul>
+<h4 style="color:#10284A;margin:16px 0 6px;">The component formula in R³</h4>
+<p>For a = (a₁, a₂, a₃) and b = (b₁, b₂, b₃):</p>
+<p style="text-align: center; font-size: 19px; background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 14px; margin: 14px 0px;"><strong>a × b = (a₂b₃ − a₃b₂, &nbsp; a₃b₁ − a₁b₃, &nbsp; a₁b₂ − a₂b₁)</strong></p>
+<p>A reliable way to remember it: write the two vectors as rows and "cross out" each column in turn — the x-component uses the y and z columns (a₂b₃ − a₃b₂), the y-component uses the z and x columns <strong>with the subtraction reversed</strong> (a₃b₁ − a₁b₃), and the z-component uses the x and y columns (a₁b₂ − a₂b₁). Equivalently, it is the determinant |i j k; a₁ a₂ a₃; b₁ b₂ b₃|.</p>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Compute a × b for a = (1, 5, −1) and b = (−3, 1, 2), and verify it is perpendicular to both.</p>
+<p style="margin:0;">x-component: (5)(2) − (−1)(1) = 10 + 1 = 11.<br>y-component: (−1)(−3) − (1)(2) = 3 − 2 = 1.<br>z-component: (1)(1) − (5)(−3) = 1 + 15 = 16.<br>So a × b = <strong>(11, 1, 16)</strong>.<br>Check: (11, 1, 16)·(1, 5, −1) = 11 + 5 − 16 = 0 ✓; (11, 1, 16)·(−3, 1, 2) = −33 + 1 + 32 = 0 ✓. The cross product is perpendicular to both inputs, exactly as the definition requires.</p>
+</div>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Verify that i × j = k and j × i = −k using the component formula.</p>
+<p style="margin:0;">i × j = (1, 0, 0) × (0, 1, 0) = ((0)(0) − (0)(1), (0)(0) − (1)(0), (1)(1) − (0)(0)) = (0, 0, 1) = <strong>k</strong>.<br>j × i = (0, 1, 0) × (1, 0, 0) = ((1)(0) − (0)(0), (0)(1) − (0)(0), (0)(0) − (1)(1)) = (0, 0, −1) = <strong>−k</strong>. Same vectors, opposite order, opposite result — the cross product is anti-commutative.</p>
+</div>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Show that the cross product of parallel vectors is the zero vector, algebraically.</p>
+<p style="margin:0;">If b = ka (parallel), then a × b = a × (ka). Using the scalar-factor property, a × (ka) = k(a × a). But a × a = (a₂a₃ − a₃a₂, a₃a₁ − a₁a₃, a₁a₂ − a₂a₁) = (0, 0, 0). So a × b = <strong>0</strong>. This matches the geometry: θ = 0° or 180° gives sinθ = 0.</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 7.6.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Compute u × v for u = (2, −1, 3) and v = (0, 4, −2).</summary>
+<p>x: (−1)(−2) − (3)(4) = 2 − 12 = −10; y: (3)(0) − (2)(−2) = 0 + 4 = 4; z: (2)(4) − (−1)(0) = 8 − 0 = 8. Answer: <strong>(−10, 4, 8)</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — What is the magnitude of the cross product in Question 1?</summary>
+<p>|u × v| = √((−10)² + 4² + 8²) = √(100 + 16 + 64) = √180 = <strong>6√5 ≈ 13.42</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — If a × b = (2, −3, 5), what is b × a?</summary>
+<p><strong>(−2, 3, −5)</strong> — reversing the order flips every component (anti-commutativity).</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Your right hand's fingers curl from a toward b and your thumb points up. Which way does b × a point?</summary>
+<p><strong>Down</strong> — b × a = −(a × b), the exact opposite direction.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>a × b = |a||b|sinθ · n̂</strong> — magnitude from sine, direction perpendicular to both.</li>
+<li>The <strong>right-hand rule</strong> gives the direction; order matters: <strong>a × b = −(b × a)</strong>.</li>
+<li>Component formula: <strong>(a₂b₃ − a₃b₂, a₃b₁ − a₁b₃, a₁b₂ − a₂b₁)</strong>.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>a × a = 0, and parallel vectors have a zero cross product.</li>
+<li>The cross product is defined in <strong>R³ only</strong>.</li>
+<li>Next: Lesson 7.5 turns |a × b| into <strong>areas</strong>.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Dot and Cross Products</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

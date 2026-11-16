@@ -1,0 +1,96 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9194" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 8.5 — Projections in Applications</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 8</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 8.5</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Projections in Applications</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §7.5 (applied) — resolving vectors along ramps, ropes, and headings to find what actually acts in a chosen direction.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Resolve a physical vector into <strong>components along and perpendicular to</strong> a direction of interest.</li>
+<li>Apply projections to <strong>ramps</strong> (how much of the weight acts down the slope?) and <strong>ropes</strong> (how much of the pull is useful?).</li>
+<li>Find the <strong>component of one velocity along another direction</strong> (headwind/tailwind along a heading).</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">Minds On</h3>
+<p>A sled rope angled upward: how much of the pull actually drags the sled forward, and how much just lifts? A crate on a loading ramp: how much of its weight threatens to slide it down? A crosswind on a runway: how much of it becomes headwind along the runway? Each question asks for the <strong>projection</strong> of one vector onto a direction.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17395" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17395" data-api-returntype="Assignment">▶ Start the Lesson 8.5 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">Explore — splitting the weight</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>Add a slider <strong><em>a</em></strong> from 0° to 60°. Plot the ramp direction <strong><em>d = (cos(a), sin(a))</em></strong> and the weight vector <strong><em>W = (0, −98)</em></strong> tail-to-tail at the origin.</li>
+<li>The parallel component has magnitude <strong><em>|W|·sin(a)</em></strong>: plot the point <strong><em>P = (98·sin(a))·d</em></strong>. Set <strong><em>a = 30°</em></strong> — compare with the worked values <strong>49 N down the ramp</strong>, <strong>84.9 N into the ramp</strong>.</li>
+<li>Drag <strong><em>a</em></strong> from 0° to 60°. At what ramp angle does the sliding component equal the pressing component?</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">Weight on a ramp, resolved</h4>
+<p>Gravity pulls straight down, but a ramp constrains motion to its surface. Projecting the weight vector onto the ramp direction gives the <strong>sliding component</strong> (|W|sinθ down the slope); projecting onto the perpendicular gives the <strong>pressing component</strong> (|W|cosθ into the ramp), which determines friction and the ramp's required strength.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — A 10 kg crate (weight 98 N) rests on a loading ramp inclined at 30°. Resolve the weight into components parallel and perpendicular to the ramp, and interpret each.</p>
+<p style="margin:0;"><strong>Solution.</strong> Parallel (down the ramp): 98·sin30° = <strong>49 N</strong> — this is the force trying to slide the crate; friction or a brake must oppose it.<br>
+Perpendicular (into the ramp): 98·cos30° ≈ <strong>84.9 N</strong> — this presses the crate into the surface and sets the ramp's load.<br>
+Check: 49² + 84.9² ≈ 2401 + 7208 = 9609 ≈ 98² ✓.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54888/preview?" alt="A block on a 30 degree ramp with its weight vector resolved into parallel and perpendicular components" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54888" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">The useful part of a pull</h4>
+<p>When a rope pulls at an angle above the direction of motion, the useful component is the projection of the pull onto the motion direction: |F|cosφ. The rest lifts — sometimes helpfully (less friction), sometimes not.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — A child pulls a sled with 200 N on a rope angled 20° above the snow. What is the forward (useful) component and the upward (lifting) component?</p>
+<p style="margin:0;"><strong>Solution.</strong> Forward: 200cos20° ≈ <strong>187.9 N</strong>. Upward: 200sin20° ≈ <strong>68.4 N</strong>.<br>
+The lift lightens the sled's contact with the snow (reducing friction) — but if the rope angle grew too large, the forward component would shrink and pulling would get harder.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54889/preview?" alt="A 200 N pull at 20 degrees resolved into forward and lifting components" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54889" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">Wind along the heading</h4>
+<p>For a pilot, only the wind's component <strong>along the heading</strong> changes ground speed (headwind slows, tailwind speeds); the perpendicular component causes drift. Projecting the wind vector onto the heading direction separates the two effects cleanly.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — A plane heads due north at 400 km/h airspeed. The wind blows from the northeast at 100 km/h (so its velocity vector points southwest: 100(cos225°, sin225°)). What is the wind's component along the heading — i.e. how much headwind or tailwind does the plane feel?</p>
+<p style="margin:0;"><strong>Solution.</strong> Heading unit vector: (0, 1). Wind vector: (−70.71, −70.71).<br>
+Scalar projection of wind onto heading: (−70.71)(0) + (−70.71)(1) = <strong>−70.7 km/h</strong>.<br>
+The negative sign means a <strong>70.7 km/h headwind</strong> — the plane's northward ground speed drops to 400 − 70.7 ≈ <strong>329.3 km/h</strong> (before accounting for the sideways drift component of −70.7 km/h westward).</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Applied projection problems.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — A mover pushes a crate with 350 N at 40° below the horizontal. What is the forward (useful) component?</summary>
+<p>350cos40° ≈ 350(0.7660) ≈ <strong>268.1 N</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — At what ramp angle does the sliding component of a crate's weight equal the component pressing it into the ramp?</summary>
+<p>|W|sinθ = |W|cosθ → tanθ = 1 → θ = <strong>45°</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — A rope pulls a wagon with 120 N at 35° above the horizontal. Find the forward and upward components. Which one does the work?</summary>
+<p>Forward: 120cos35° ≈ <strong>98.3 N</strong>; upward: 120sin35° ≈ <strong>68.8 N</strong>. Only the <strong>forward</strong> component does work, since only it lies along the displacement.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — The projection of vector a onto vector b is negative. What does that tell you about the angle between them?</summary>
+<p>The scalar projection equals |a|cosθ, so a negative projection means cosθ &lt; 0 — the angle is <strong>obtuse (90° &lt; θ ≤ 180°)</strong>: a points partly <em>against</em> b's direction.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li>A <strong>projection</strong> answers "how much of this vector acts in that direction?"</li>
+<li>On a ramp: weight splits into <strong>|W|sinθ</strong> down the slope and <strong>|W|cosθ</strong> into the slope.</li>
+<li>Only the component <strong>along the motion</strong> does work or changes speed; perpendicular components cause drift or pressing.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>A negative projection means the vector points partly <em>opposite</em> the chosen direction (obtuse angle).</li>
+<li>Next: Lesson 8.6 — <strong>geometric applications</strong>: distances, areas, and volumes from vectors.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Applications of Vectors</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

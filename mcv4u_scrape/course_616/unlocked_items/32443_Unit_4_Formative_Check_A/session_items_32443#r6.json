@@ -1,0 +1,920 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "189d986b-bcce-45b4-8d86-ee6b7c785810"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6d3f09a8-3909-4247-bcea-a19d87f34ee4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3f619b8a-45fc-43b7-9d5a-7704159b8254"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "87dcc71a-ba57-4961-81d0-4e207cb5d17c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0986b0e4-6a28-4cc9-8b3e-962d367d482d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0c8b985b-9381-409e-a805-73e7261adbfe"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a95d648b-2f4d-4dd6-9e8e-e21dbeecf85e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "83810b6c-e42c-40f7-8eb8-029abfd6fabb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "800fef86-4a75-483b-b2e9-d851f88ff08e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "968f180f-2d6b-48e0-979e-9066c999859c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "70253ecc-808f-4384-b784-a3073136418f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c9670787-7893-4f7b-8a6a-51e482d1c218"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Use a graphing calculator to graph each function. Estimate the intervals where the function is increasing and decreasing.</p>\n<p>a. f(x) = x^3 + 3x^2 + 1; increasing <span id=\"blank_189d986b-bcce-45b4-8d86-ee6b7c785810\"></span>; decreasing <span id=\"blank_6d3f09a8-3909-4247-bcea-a19d87f34ee4\"></span></p>\n<p>b. f(x) = x^5 - 5x^4 + 100; increasing <span id=\"blank_3f619b8a-45fc-43b7-9d5a-7704159b8254\"></span>; decreasing <span id=\"blank_87dcc71a-ba57-4961-81d0-4e207cb5d17c\"></span></p>\n<p>c. f(x) = x + 1/x; increasing <span id=\"blank_0986b0e4-6a28-4cc9-8b3e-962d367d482d\"></span>; decreasing <span id=\"blank_0c8b985b-9381-409e-a805-73e7261adbfe\"></span></p>\n<p>d. f(x) = (x - 1)/(x^2 + 3); increasing <span id=\"blank_a95d648b-2f4d-4dd6-9e8e-e21dbeecf85e\"></span>; decreasing <span id=\"blank_83810b6c-e42c-40f7-8eb8-029abfd6fabb\"></span></p>\n<p>e. f(x) = 3x^4 + 4x^3 - 12x^2; increasing <span id=\"blank_800fef86-4a75-483b-b2e9-d851f88ff08e\"></span>; decreasing <span id=\"blank_968f180f-2d6b-48e0-979e-9066c999859c\"></span></p>\n<p>f. f(x) = x^4 + x^2 - 1; increasing <span id=\"blank_70253ecc-808f-4384-b784-a3073136418f\"></span>; decreasing <span id=\"blank_c9670787-7893-4f7b-8a6a-51e482d1c218\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65267",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "11": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56108",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "0f77b374-3ead-40ba-9591-a0fa0d543f9c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "05a9539f-f573-4372-aa04-18db719b2c5f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0255aace-e57c-4602-ade0-1facbdc36a4c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "90edd0dc-f1d9-4c0d-b0e1-3540e5ebb314"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "278906f4-5947-46c5-a462-47b8dbc97210"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7560085b-fdaf-4667-9602-30ce38f8f5b2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "76974a94-3f54-48e9-bf14-6d4d44aeee8c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "bc38322a-45f9-427e-9a7f-e7cff5ee5628"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b7886ded-b2a6-4896-94be-a2ac4e7022ac"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5587fbbf-8eae-4f7a-81a6-785ac3e9619c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "202c98ac-2245-434e-b600-acb0f66e110c"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] The graph of the function y = f(x) is shown at the left.</p>\n<p>a. Estimate the intervals on which the function is increasing.</p>\n<p>b. Estimate the intervals on which f'(x) &lt; 0.</p>\n<p>c. Estimate the coordinates of the critical points of f.</p>\n<p>d. Estimate the equations of any vertical asymptotes of the function.</p>\n<p>e. What is the value (sign) of f''(x) on the interval -4 &lt; x &lt; 4?</p>\n<p>f. If x &gt;= -6, estimate the intervals on which f'(x) &lt; 0 and f''(x) &gt; 0.</p>\n<p>g. Identify a point of inflection on the graph and give its approximate ordered pair.</p>\n<p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/23eb30a8-f45f-4805-bab9-1a267ad67896/test_q1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy8yM2ViMzBhOC1mNDVmLTQ4MDUtYmFiOS0xYTI2N2FkNjc4OTYvdGVzdF9xMS5wbmciLCJ0ZW5hbnRfYXV0aCI6eyJsb2NhdGlvbiI6ImJhbmsvMjQyNjAwMDAwMDAwMDA1MDYifSwiZXhwIjoxNzk0NzkzNTg0LCJpYXQiOjE3OTQ3NDY3ODQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLWlhZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.No9YJmS0rWI22oJinwqQfkK4jcDCAmOzbtdSxjOtlJqAnzfAGjQy0O3Nj7bfT33IpVB0PDTLuWgXYk11tu30vA\" alt=\"Nelson Calculus and Vectors 12, Ch 4, p. 220 - Chapter 4 Test, Question 1: graph of y = f(x)\" width=\"100%\" height=\"100%\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55759/preview\"></p>\n<p>a. increasing: <span id=\"blank_0f77b374-3ead-40ba-9591-a0fa0d543f9c\"></span></p>\n<p>b. f'(x) &lt; 0: <span id=\"blank_05a9539f-f573-4372-aa04-18db719b2c5f\"></span></p>\n<p>c. critical points: <span id=\"blank_0255aace-e57c-4602-ade0-1facbdc36a4c\"></span>, <span id=\"blank_90edd0dc-f1d9-4c0d-b0e1-3540e5ebb314\"></span>, <span id=\"blank_278906f4-5947-46c5-a462-47b8dbc97210\"></span>, and <span id=\"blank_7560085b-fdaf-4667-9602-30ce38f8f5b2\"></span></p>\n<p>d. vertical asymptotes: <span id=\"blank_76974a94-3f54-48e9-bf14-6d4d44aeee8c\"></span> and <span id=\"blank_bc38322a-45f9-427e-9a7f-e7cff5ee5628\"></span></p>\n<p>e. on -4 &lt; x &lt; 4, f''(x) is <span id=\"blank_b7886ded-b2a6-4896-94be-a2ac4e7022ac\"></span></p>\n<p>f. f'(x) &lt; 0 and f''(x) &gt; 0: <span id=\"blank_5587fbbf-8eae-4f7a-81a6-785ac3e9619c\"></span></p>\n<p>g. a point of inflection: <span id=\"blank_202c98ac-2245-434e-b600-acb0f66e110c\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "72719",
+      "label": null,
+      "title": "Q1 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56108",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "3818dbf0-cb2e-46e5-84dc-bb52ca611cf3"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8960b56a-6054-4567-b878-34d5283115b1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7663d34c-879d-42fa-befb-b4e256b4fbb5"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a8babafc-c0ff-41ed-9349-b252ba4d9ee5"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5e5ad41c-f9c2-4431-80d6-1550af62e160"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "267195f5-8a7e-4037-934c-c9dc2b59ff31"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1e6de521-5b35-4291-a862-9516b125180a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6531e858-4c3d-4692-b501-cc5957f46a18"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "2c142aa6-d685-4f72-87d8-af3edeee304a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5f9bd3b8-597f-42fb-8bf8-43c1ee222bac"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1a0dd179-c861-4f6b-ad84-0f19d128eab2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fd1c2441-75b0-4b91-af34-74ecae24122b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "4e61a3a7-b263-4c89-be16-69a26cf83f05"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "bd104121-3813-49c1-bf60-25531b84ef72"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Each graph is the graph of the derivative f'(x) of a function f(x). For each graph, determine i. the interval(s) on which f is increasing; ii. the interval(s) on which f is decreasing; iii. the x-coordinate(s) of any local extrema of f. Then, assuming f(0) = 2, make a rough sketch of f.</p>\n<p><img id=\"55741\" src=\"https://inst-fs-iad-prod.inscloudgate.net/files/7839b232-12b8-4ff0-b2e7-ceb57936f38c/ex41_q9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy83ODM5YjIzMi0xMmI4LTRmZjAtYjJlNy1jZWI1NzkzNmYzOGMvZXg0MV9xOS5wbmciLCJ0ZW5hbnRfYXV0aCI6eyJsb2NhdGlvbiI6ImJhbmsvMjQyNjAwMDAwMDAwMDA1MDYifSwiZXhwIjoxNzk0Nzk0MTU0LCJpYXQiOjE3OTQ3NDczNTQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLWlhZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.CO5qTGW1mXTGuQ3e88JlKpHmsLVOf8nWg-1GdupoDKHN3MuEK6BPJyVYgQERrrmBThPMNYVBAE5UdFww9yIQsQ\" alt=\"ex41_q9.png\" data-old-link=\"/courses/905/files/55741/preview\"></p>\n<p>a. graph a: f is increasing on <span id=\"blank_3818dbf0-cb2e-46e5-84dc-bb52ca611cf3\"></span>; f is decreasing on <span id=\"blank_8960b56a-6054-4567-b878-34d5283115b1\"></span>; local extremum at x = <span id=\"blank_7663d34c-879d-42fa-befb-b4e256b4fbb5\"></span></p>\n<p>b. graph b: f is increasing on <span id=\"blank_a8babafc-c0ff-41ed-9349-b252ba4d9ee5\"></span>; f is decreasing on <span id=\"blank_5e5ad41c-f9c2-4431-80d6-1550af62e160\"></span>; local extrema at x = <span id=\"blank_267195f5-8a7e-4037-934c-c9dc2b59ff31\"></span> and <span id=\"blank_1e6de521-5b35-4291-a862-9516b125180a\"></span></p>\n<p>c. graph c: f is increasing on <span id=\"blank_6531e858-4c3d-4692-b501-cc5957f46a18\"></span>; f is decreasing on <span id=\"blank_2c142aa6-d685-4f72-87d8-af3edeee304a\"></span>; local extrema at x = <span id=\"blank_5f9bd3b8-597f-42fb-8bf8-43c1ee222bac\"></span> and <span id=\"blank_1a0dd179-c861-4f6b-ad84-0f19d128eab2\"></span></p>\n<p>d. graph d: f is increasing on <span id=\"blank_fd1c2441-75b0-4b91-af34-74ecae24122b\"></span>; f is decreasing on <span id=\"blank_4e61a3a7-b263-4c89-be16-69a26cf83f05\"></span>; local extremum at x = <span id=\"blank_bd104121-3813-49c1-bf60-25531b84ef72\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65276",
+      "label": null,
+      "title": "Q9 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "11": {
+                "children": null
+              },
+              "12": {
+                "children": null
+              },
+              "13": {
+                "children": null
+              },
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56108",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "a0bcfcdd-6555-4093-a9ca-8e8deaa74f2c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c0b6b585-9380-470b-bf2b-14543899e307"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine where the function g(x) = 2x^3 - 3x^2 - 12x + 15 is increasing and where it is decreasing. g is increasing on <span id=\"blank_a0bcfcdd-6555-4093-a9ca-8e8deaa74f2c\"></span>; g is decreasing on <span id=\"blank_c0b6b585-9380-470b-bf2b-14543899e307\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65272",
+      "label": null,
+      "title": "Q2 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56108",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "29692fb5-580e-42c3-acbf-186c81325aea"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "30b21529-7599-4c82-bea5-ecdd7fb9a8a5"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e3d895a4-ac2d-4389-a7c2-cdbfbd7abdcf"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "48c095fe-a5cd-4d0d-b5d7-bb24ceb3c061"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "97720464-dd1e-4ff3-b5cb-795ba8af9552"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "76391a4e-a236-4d63-bf4c-05b13aa38160"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "678be18f-24ff-4b59-abc4-87ca07405a08"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "07949ecb-f9e6-4d9a-a6ab-f0ecdbc6ac3c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "54e59853-3cb5-4a46-8b1b-5f5cd1fd94aa"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9fa854d6-6b9a-4f70-bf26-873d618a1904"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c314f7c0-afea-4392-8fda-6d047ad876af"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c83acf45-e6cc-4a33-a89a-71d0b5e007c1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "80820092-6a17-4ecd-9b18-8616027b9e8c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1c99f16e-91cd-4838-8edd-65e8a19b00e7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7d1344de-e8c5-4175-8e57-30fc2fcfa143"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5c57f0f7-7e29-4d0b-820a-d76503feaa29"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "47ef72c2-16d5-4e1e-9893-67a811c8b8c3"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0a7c2d5e-52cd-4e70-b5dc-99ea3602c38e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a2572350-da2b-4889-bbc4-3daa1a9ad243"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "d92ce96c-d2b3-4674-849a-cd307414ee6a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a471c680-dc7c-4012-8d19-f128f35788f7"
+          }
+        ]
+      },
+      "item_body": "<p>Determine the critical points of each function. Classify each critical point as a local maximum, a local minimum, or neither. Is the tangent to the graph at each point parallel to the x-axis?</p>\n<p>a. f(x) = -2x^3 + 9x^2 + 20; critical points: <span id=\"blank_29692fb5-580e-42c3-acbf-186c81325aea\"></span> (local <span id=\"blank_30b21529-7599-4c82-bea5-ecdd7fb9a8a5\"></span>, tangent <span id=\"blank_e3d895a4-ac2d-4389-a7c2-cdbfbd7abdcf\"></span>), <span id=\"blank_48c095fe-a5cd-4d0d-b5d7-bb24ceb3c061\"></span> (local <span id=\"blank_97720464-dd1e-4ff3-b5cb-795ba8af9552\"></span>, tangent <span id=\"blank_76391a4e-a236-4d63-bf4c-05b13aa38160\"></span>)</p>\n<p>b. f(x) = x^4 - 8x^3 + 18x^2 + 6; critical points: <span id=\"blank_678be18f-24ff-4b59-abc4-87ca07405a08\"></span> (local <span id=\"blank_07949ecb-f9e6-4d9a-a6ab-f0ecdbc6ac3c\"></span>, tangent <span id=\"blank_54e59853-3cb5-4a46-8b1b-5f5cd1fd94aa\"></span>), <span id=\"blank_9fa854d6-6b9a-4f70-bf26-873d618a1904\"></span> (<span id=\"blank_c314f7c0-afea-4392-8fda-6d047ad876af\"></span>, tangent <span id=\"blank_c83acf45-e6cc-4a33-a89a-71d0b5e007c1\"></span>)</p>\n<p>c. h(x) = (x - 3)/(x^2 + 7); critical points: <span id=\"blank_80820092-6a17-4ecd-9b18-8616027b9e8c\"></span> (local <span id=\"blank_1c99f16e-91cd-4838-8edd-65e8a19b00e7\"></span>, tangent <span id=\"blank_7d1344de-e8c5-4175-8e57-30fc2fcfa143\"></span>), <span id=\"blank_5c57f0f7-7e29-4d0b-820a-d76503feaa29\"></span> (local <span id=\"blank_47ef72c2-16d5-4e1e-9893-67a811c8b8c3\"></span>, tangent <span id=\"blank_0a7c2d5e-52cd-4e70-b5dc-99ea3602c38e\"></span>)</p>\n<p>d. g(x) = (x - 1)^(1/3); critical point: <span id=\"blank_a2572350-da2b-4889-bbc4-3daa1a9ad243\"></span> (<span id=\"blank_d92ce96c-d2b3-4674-849a-cd307414ee6a\"></span>, tangent <span id=\"blank_a471c680-dc7c-4012-8d19-f128f35788f7\"></span>)</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65298",
+      "label": null,
+      "title": "Q3 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "11": {
+                "children": null
+              },
+              "12": {
+                "children": null
+              },
+              "13": {
+                "children": null
+              },
+              "14": {
+                "children": null
+              },
+              "15": {
+                "children": null
+              },
+              "16": {
+                "children": null
+              },
+              "17": {
+                "children": null
+              },
+              "18": {
+                "children": null
+              },
+              "19": {
+                "children": null
+              },
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              },
+              "20": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56109",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "cff0541b-bb6f-446d-9f0a-e95a6af54d54"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1fd12a19-4e06-48c8-a971-f51436a85793"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "89a1c962-e7ad-4216-a869-549a7b7931d3"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a3851c2e-4261-4162-9bf3-4747ce849f8e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "d02e6ce9-0d92-4141-8b87-b02d0e8aec33"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ba245554-b87d-412c-9930-0fb59d011881"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "26cc4d99-9592-4f17-914c-350f6fc6a726"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "60dbc14b-38d1-4d18-a0cf-3ede8aea8dee"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b351a011-4f7f-4f3b-b587-dfedd7ff28b0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "05c1964e-ed4f-4dfa-87ab-d83deabeae0a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7c1219fd-cd4d-42d5-8a69-801ed3b5553e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a0ef3a5d-6fc9-409f-ad72-36e9a1e6e57c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3766e4b9-9ffd-4ec6-9835-7e02fdf2a424"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "168d3e68-e2d9-42d4-b4f6-316ade77f1c2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "625ffed2-349f-40b3-afa3-03115463e793"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "4efe077f-6ef7-4746-891e-3468774bb7f0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e3e80ab0-2751-4174-91d8-19f6fc47cfb9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "56ae5777-f6f5-4958-84de-5762eccb6fcb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1bf8b384-786c-44f2-82a8-ffef45e5a575"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1e339947-3a6f-4941-994c-67e4993ce943"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1b88b4cf-b317-487a-b223-d6c1f7dc5c5b"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] For each function, determine the critical points and whether it is a local maximum point or a local minimum point, or neither. Is the tangent to the graph at each point parallel to the horizontal axis?</p>\n<p>a. h(x) = -6x^3 + 18x^2 + 3; critical points: <span id=\"blank_cff0541b-bb6f-446d-9f0a-e95a6af54d54\"></span> (<span id=\"blank_1fd12a19-4e06-48c8-a971-f51436a85793\"></span>), tangent <span id=\"blank_89a1c962-e7ad-4216-a869-549a7b7931d3\"></span>; <span id=\"blank_a3851c2e-4261-4162-9bf3-4747ce849f8e\"></span> (<span id=\"blank_d02e6ce9-0d92-4141-8b87-b02d0e8aec33\"></span>), tangent <span id=\"blank_ba245554-b87d-412c-9930-0fb59d011881\"></span></p>\n<p>b. g(t) = t^5 + t^3; critical point: <span id=\"blank_26cc4d99-9592-4f17-914c-350f6fc6a726\"></span> (<span id=\"blank_60dbc14b-38d1-4d18-a0cf-3ede8aea8dee\"></span>), tangent <span id=\"blank_b351a011-4f7f-4f3b-b587-dfedd7ff28b0\"></span></p>\n<p>c. y = (x - 5)^(1/3); critical point: <span id=\"blank_05c1964e-ed4f-4dfa-87ab-d83deabeae0a\"></span> (<span id=\"blank_7c1219fd-cd4d-42d5-8a69-801ed3b5553e\"></span>), tangent <span id=\"blank_a0ef3a5d-6fc9-409f-ad72-36e9a1e6e57c\"></span></p>\n<p>d. f(x) = (x^2 - 1)^(1/3); critical points: <span id=\"blank_3766e4b9-9ffd-4ec6-9835-7e02fdf2a424\"></span> (<span id=\"blank_168d3e68-e2d9-42d4-b4f6-316ade77f1c2\"></span>), tangent <span id=\"blank_625ffed2-349f-40b3-afa3-03115463e793\"></span>; <span id=\"blank_4efe077f-6ef7-4746-891e-3468774bb7f0\"></span> (<span id=\"blank_e3e80ab0-2751-4174-91d8-19f6fc47cfb9\"></span>), tangent <span id=\"blank_56ae5777-f6f5-4958-84de-5762eccb6fcb\"></span>; <span id=\"blank_1bf8b384-786c-44f2-82a8-ffef45e5a575\"></span> (<span id=\"blank_1e339947-3a6f-4941-994c-67e4993ce943\"></span>), tangent <span id=\"blank_1b88b4cf-b317-487a-b223-d6c1f7dc5c5b\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65280",
+      "label": null,
+      "title": "Q5 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "11": {
+                "children": null
+              },
+              "12": {
+                "children": null
+              },
+              "13": {
+                "children": null
+              },
+              "14": {
+                "children": null
+              },
+              "15": {
+                "children": null
+              },
+              "16": {
+                "children": null
+              },
+              "17": {
+                "children": null
+              },
+              "18": {
+                "children": null
+              },
+              "19": {
+                "children": null
+              },
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              },
+              "20": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56109",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "8092887d-d7e4-45a9-9d0d-d5fae9cb120c"
+          }
+        ]
+      },
+      "item_body": "<p>Find a value of k that will give the function f(x) = x^2 + kx + 2 a local minimum value of 1.</p>\n<p>k = <span id=\"blank_8092887d-d7e4-45a9-9d0d-d5fae9cb120c\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65291",
+      "label": null,
+      "title": "Q6 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56109",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "8cb8662f-c7fc-4c7c-8ab8-76219dd21d34"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9d9612ba-8e0d-4292-8520-348377d48115"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "97ed854d-e0c2-4f67-96cf-396bdd798761"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "bd4bd5bf-a8d5-4a1f-94c9-e59ff7d8c298"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a9e59131-b0ec-4c6b-b9e5-aa63643d8e9a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "48ae6eac-aec5-4c88-89a3-08f6b996c7b4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "800dd541-dbbd-4114-8fc3-7b60fbad9f80"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "70554fbb-4566-4373-b6b5-94bb10b26d59"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Find the x- and y-intercepts of each function below. Then sketch each function.</p>\n<p>a. y = x^4 - 8x^2; x-intercepts: <span id=\"blank_8cb8662f-c7fc-4c7c-8ab8-76219dd21d34\"></span>, <span id=\"blank_9d9612ba-8e0d-4292-8520-348377d48115\"></span>, <span id=\"blank_97ed854d-e0c2-4f67-96cf-396bdd798761\"></span>; y-intercept: <span id=\"blank_bd4bd5bf-a8d5-4a1f-94c9-e59ff7d8c298\"></span></p>\n<p>b. f(x) = 2x/(x^2 + 9); x-intercept: <span id=\"blank_a9e59131-b0ec-4c6b-b9e5-aa63643d8e9a\"></span>; y-intercept: <span id=\"blank_48ae6eac-aec5-4c88-89a3-08f6b996c7b4\"></span></p>\n<p>c. y = x^3 + 3x^2 + 1; x-intercept: about <span id=\"blank_800dd541-dbbd-4114-8fc3-7b60fbad9f80\"></span>; y-intercept: <span id=\"blank_70554fbb-4566-4373-b6b5-94bb10b26d59\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65279",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56109",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

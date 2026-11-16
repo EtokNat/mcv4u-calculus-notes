@@ -1,0 +1,230 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "34240",
+    "item_id": "45407",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "How confident are you now that you can sketch a curve from its derivatives (intercepts, asymptotes, extrema, inflection points)?",
+    "prompt_html": "<div>How confident are you now that you can sketch a curve from its derivatives (intercepts, asymptotes, extrema, inflection points)?</div>",
+    "choices": [
+      {
+        "id": "ff55454a-ffae-43f8-9aa1-a159e895ee7c",
+        "position": 1,
+        "text": "Very confident",
+        "html": "Very confident"
+      },
+      {
+        "id": "212ee382-f13c-48e5-9ff8-55afb5efc78a",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "Somewhat confident"
+      },
+      {
+        "id": "41e6aa83-4bcd-49a3-b00f-2c39353208e5",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "Not very confident"
+      },
+      {
+        "id": "89ab2784-597d-4b28-aa8c-6fe4556b3d9c",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "Not confident at all"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "Very confident",
+          "id": "ff55454a-ffae-43f8-9aa1-a159e895ee7c",
+          "position": 1
+        },
+        {
+          "item_body": "Somewhat confident",
+          "id": "212ee382-f13c-48e5-9ff8-55afb5efc78a",
+          "position": 2
+        },
+        {
+          "item_body": "Not very confident",
+          "id": "41e6aa83-4bcd-49a3-b00f-2c39353208e5",
+          "position": 3
+        },
+        {
+          "item_body": "Not confident at all",
+          "id": "89ab2784-597d-4b28-aa8c-6fe4556b3d9c",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "34241",
+    "item_id": "45409",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "Which part of curve sketching clicked best for you?",
+    "prompt_html": "<div>Which part of curve sketching clicked best for you?</div>",
+    "choices": [
+      {
+        "id": "1ac93f10-f07d-408d-b827-aae9399e6572",
+        "position": 1,
+        "text": "Increasing/decreasing and the first derivative test",
+        "html": "Increasing/decreasing and the first derivative test"
+      },
+      {
+        "id": "c2af21fd-8d2d-4998-80bd-1da125214155",
+        "position": 2,
+        "text": "Concavity, inflection points, and the second derivative test",
+        "html": "Concavity, inflection points, and the second derivative test"
+      },
+      {
+        "id": "79f5dc83-7ecd-483e-ae74-cf6903715d75",
+        "position": 3,
+        "text": "Asymptotes (vertical, horizontal, oblique)",
+        "html": "Asymptotes (vertical, horizontal, oblique)"
+      },
+      {
+        "id": "c21ec44d-ec9b-4a6d-aa05-2d7291da1dab",
+        "position": 4,
+        "text": "Putting it all together in full sketches",
+        "html": "Putting it all together in full sketches"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "Increasing/decreasing and the first derivative test",
+          "id": "1ac93f10-f07d-408d-b827-aae9399e6572",
+          "position": 1
+        },
+        {
+          "item_body": "Concavity, inflection points, and the second derivative test",
+          "id": "c2af21fd-8d2d-4998-80bd-1da125214155",
+          "position": 2
+        },
+        {
+          "item_body": "Asymptotes (vertical, horizontal, oblique)",
+          "id": "79f5dc83-7ecd-483e-ae74-cf6903715d75",
+          "position": 3
+        },
+        {
+          "item_body": "Putting it all together in full sketches",
+          "id": "c21ec44d-ec9b-4a6d-aa05-2d7291da1dab",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "34242",
+    "item_id": "45410",
+    "points": 1.0,
+    "slug": "essay",
+    "prompt_text": "What is one thing from this unit you still want to review before the summative?",
+    "prompt_html": "<div>What is one thing from this unit you still want to review before the summative?</div>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false,
+      "userResponse": {
+        "value": {}
+      }
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "34243",
+    "item_id": "45411",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "How ready do you feel for the Unit 4 summative assignment and test?",
+    "prompt_html": "<div>How ready do you feel for the Unit 4 summative assignment and test?</div>",
+    "choices": [
+      {
+        "id": "25bed8ee-2c67-4724-9c40-caf9f171e250",
+        "position": 1,
+        "text": "Very ready",
+        "html": "Very ready"
+      },
+      {
+        "id": "b85e2e5c-d33e-4e20-b6f5-4b9f04292068",
+        "position": 2,
+        "text": "Mostly ready",
+        "html": "Mostly ready"
+      },
+      {
+        "id": "a8bd2fc6-858b-43f0-8be5-d64007b3aeec",
+        "position": 3,
+        "text": "Somewhat ready",
+        "html": "Somewhat ready"
+      },
+      {
+        "id": "b3f2482c-021f-4d7f-937b-fcabcd4d5c6f",
+        "position": 4,
+        "text": "Not ready yet",
+        "html": "Not ready yet"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "Very ready",
+          "id": "25bed8ee-2c67-4724-9c40-caf9f171e250",
+          "position": 1
+        },
+        {
+          "item_body": "Mostly ready",
+          "id": "b85e2e5c-d33e-4e20-b6f5-4b9f04292068",
+          "position": 2
+        },
+        {
+          "item_body": "Somewhat ready",
+          "id": "a8bd2fc6-858b-43f0-8be5-d64007b3aeec",
+          "position": 3
+        },
+        {
+          "item_body": "Not ready yet",
+          "id": "b3f2482c-021f-4d7f-937b-fcabcd4d5c6f",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "34244",
+    "item_id": "45412",
+    "points": 1.0,
+    "slug": "essay",
+    "prompt_text": "Is there a question you would like your teacher to answer before the summative?",
+    "prompt_html": "<div>Is there a question you would like your teacher to answer before the summative?</div>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false,
+      "userResponse": {
+        "value": {}
+      }
+    }
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "34134",
+    "item_id": "45282",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "A plane flies due west at 300 km/h airspeed. The wind blows from the north at 40 km/h. Its ground velocity is…",
+    "prompt_html": "<p>A plane flies due west at 300 km/h airspeed. The wind blows from the north at 40 km/h. Its ground velocity is…</p>",
+    "choices": [
+      {
+        "id": "ad97336e-5893-4b1c-99bf-a05d447123e5",
+        "position": 1,
+        "text": "≈ 302.7 km/h, 7.6° south of west",
+        "html": "<p>≈ 302.7 km/h, 7.6° south of west</p>"
+      },
+      {
+        "id": "69219414-d244-4958-876b-b8280322965e",
+        "position": 2,
+        "text": "≈ 302.7 km/h, 7.6° north of west",
+        "html": "<p>≈ 302.7 km/h, 7.6° north of west</p>"
+      },
+      {
+        "id": "73871a90-c211-466a-9a2e-fccc14d94df7",
+        "position": 3,
+        "text": "260 km/h due west",
+        "html": "<p>260 km/h due west</p>"
+      },
+      {
+        "id": "7c9fce2f-1774-4d0b-9ff7-77b449f90734",
+        "position": 4,
+        "text": "340 km/h due west",
+        "html": "<p>340 km/h due west</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>≈ 302.7 km/h, 7.6° south of west</p>",
+          "id": "ad97336e-5893-4b1c-99bf-a05d447123e5",
+          "position": 1
+        },
+        {
+          "item_body": "<p>≈ 302.7 km/h, 7.6° north of west</p>",
+          "id": "69219414-d244-4958-876b-b8280322965e",
+          "position": 2
+        },
+        {
+          "item_body": "<p>260 km/h due west</p>",
+          "id": "73871a90-c211-466a-9a2e-fccc14d94df7",
+          "position": 3
+        },
+        {
+          "item_body": "<p>340 km/h due west</p>",
+          "id": "7c9fce2f-1774-4d0b-9ff7-77b449f90734",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "34122",
+    "item_id": "45262",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "Three cables pull on a pylon with 4 kN, 7 kN, and 12 kN. Can the pylon be in equilibrium?",
+    "prompt_html": "<p>Three cables pull on a pylon with 4 kN, 7 kN, and 12 kN. Can the pylon be in equilibrium?</p>",
+    "choices": [
+      {
+        "id": "a5c4d05b-e9cd-40e8-b535-c44541617a14",
+        "position": 1,
+        "text": "No — 4 + 7 < 12 violates the triangle inequality",
+        "html": "<p>No — 4 + 7 &lt; 12 violates the triangle inequality</p>"
+      },
+      {
+        "id": "dd4d4034-d4c8-41a2-b186-04e01b3e9c35",
+        "position": 2,
+        "text": "Only if the 12 kN cable is horizontal",
+        "html": "<p>Only if the 12 kN cable is horizontal</p>"
+      },
+      {
+        "id": "cedb8a98-e9b6-45d6-a871-e9a6b9781002",
+        "position": 3,
+        "text": "Yes — three forces always balance",
+        "html": "<p>Yes — three forces always balance</p>"
+      },
+      {
+        "id": "50170692-15b7-4efe-acd3-586195019dea",
+        "position": 4,
+        "text": "Yes — because 12 is the largest",
+        "html": "<p>Yes — because 12 is the largest</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>No — 4 + 7 &lt; 12 violates the triangle inequality</p>",
+          "id": "a5c4d05b-e9cd-40e8-b535-c44541617a14",
+          "position": 1
+        },
+        {
+          "item_body": "<p>Only if the 12 kN cable is horizontal</p>",
+          "id": "dd4d4034-d4c8-41a2-b186-04e01b3e9c35",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Yes — three forces always balance</p>",
+          "id": "cedb8a98-e9b6-45d6-a871-e9a6b9781002",
+          "position": 3
+        },
+        {
+          "item_body": "<p>Yes — because 12 is the largest</p>",
+          "id": "50170692-15b7-4efe-acd3-586195019dea",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "34139",
+    "item_id": "45288",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "A ferry crosses a 1.5 km wide river at 12 km/h straight across; the current is 4 km/h. It lands…",
+    "prompt_html": "<p>A ferry crosses a 1.5 km wide river at 12 km/h straight across; the current is 4 km/h. It lands…</p>",
+    "choices": [
+      {
+        "id": "bd39dbef-cafc-4df7-936f-273804324037",
+        "position": 1,
+        "text": "2 km downstream after 7.5 min",
+        "html": "<p>2 km downstream after 7.5 min</p>"
+      },
+      {
+        "id": "7af758eb-fbb9-412c-be15-1a6651b4a761",
+        "position": 2,
+        "text": "0.5 km downstream after 30 min",
+        "html": "<p>0.5 km downstream after 30 min</p>"
+      },
+      {
+        "id": "5d70876f-749c-4a19-a216-7338d7f7119f",
+        "position": 3,
+        "text": "Directly across after 7.5 min",
+        "html": "<p>Directly across after 7.5 min</p>"
+      },
+      {
+        "id": "8f46492d-97f3-4226-a44c-584b1dc6a8f9",
+        "position": 4,
+        "text": "0.5 km downstream after 7.5 min",
+        "html": "<p>0.5 km downstream after 7.5 min</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>2 km downstream after 7.5 min</p>",
+          "id": "bd39dbef-cafc-4df7-936f-273804324037",
+          "position": 1
+        },
+        {
+          "item_body": "<p>0.5 km downstream after 30 min</p>",
+          "id": "7af758eb-fbb9-412c-be15-1a6651b4a761",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Directly across after 7.5 min</p>",
+          "id": "5d70876f-749c-4a19-a216-7338d7f7119f",
+          "position": 3
+        },
+        {
+          "item_body": "<p>0.5 km downstream after 7.5 min</p>",
+          "id": "8f46492d-97f3-4226-a44c-584b1dc6a8f9",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "34099",
+    "item_id": "45246",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "A dock worker pulls a crate with 6 N due east and 8 N due north. The resultant pull has magnitude…",
+    "prompt_html": "<p>A dock worker pulls a crate with 6 N due east and 8 N due north. The resultant pull has magnitude…</p>",
+    "choices": [
+      {
+        "id": "8456caae-ecf4-441d-a3d8-43ae88ccee2d",
+        "position": 1,
+        "text": "14 N",
+        "html": "<p>14 N</p>"
+      },
+      {
+        "id": "b75c4399-f786-45ea-9023-14aef392380b",
+        "position": 2,
+        "text": "10 N",
+        "html": "<p>10 N</p>"
+      },
+      {
+        "id": "62ce3847-2ff5-4d87-9fb9-24d8606e944e",
+        "position": 3,
+        "text": "48 N",
+        "html": "<p>48 N</p>"
+      },
+      {
+        "id": "dea48c30-4237-4998-b745-1e537558fa5e",
+        "position": 4,
+        "text": "2 N",
+        "html": "<p>2 N</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>14 N</p>",
+          "id": "8456caae-ecf4-441d-a3d8-43ae88ccee2d",
+          "position": 1
+        },
+        {
+          "item_body": "<p>10 N</p>",
+          "id": "b75c4399-f786-45ea-9023-14aef392380b",
+          "position": 2
+        },
+        {
+          "item_body": "<p>48 N</p>",
+          "id": "62ce3847-2ff5-4d87-9fb9-24d8606e944e",
+          "position": 3
+        },
+        {
+          "item_body": "<p>2 N</p>",
+          "id": "dea48c30-4237-4998-b745-1e537558fa5e",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "34108",
+    "item_id": "45253",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "The equilibrant of a force system is…",
+    "prompt_html": "<p>The equilibrant of a force system is…</p>",
+    "choices": [
+      {
+        "id": "fce8cb11-4138-4453-a8aa-650e5fcc314e",
+        "position": 1,
+        "text": "Always zero",
+        "html": "<p>Always zero</p>"
+      },
+      {
+        "id": "8a301a30-56b5-4675-91d8-b798ca4074e3",
+        "position": 2,
+        "text": "Equal in magnitude and the same direction as the resultant",
+        "html": "<p>Equal in magnitude and the same direction as the resultant</p>"
+      },
+      {
+        "id": "ee243372-1d12-48b8-99b6-76840708ddf8",
+        "position": 3,
+        "text": "Equal in magnitude and opposite in direction to the resultant",
+        "html": "<p>Equal in magnitude and opposite in direction to the resultant</p>"
+      },
+      {
+        "id": "e921a592-d017-495d-aab3-2faf9e6b5d1f",
+        "position": 4,
+        "text": "Always larger than the resultant",
+        "html": "<p>Always larger than the resultant</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>Always zero</p>",
+          "id": "fce8cb11-4138-4453-a8aa-650e5fcc314e",
+          "position": 1
+        },
+        {
+          "item_body": "<p>Equal in magnitude and the same direction as the resultant</p>",
+          "id": "8a301a30-56b5-4675-91d8-b798ca4074e3",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Equal in magnitude and opposite in direction to the resultant</p>",
+          "id": "ee243372-1d12-48b8-99b6-76840708ddf8",
+          "position": 3
+        },
+        {
+          "item_body": "<p>Always larger than the resultant</p>",
+          "id": "e921a592-d017-495d-aab3-2faf9e6b5d1f",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "34151",
+    "item_id": "45300",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "An 8 kg crate (weight 78.4 N) rests on a 25° ramp. The force parallel to the ramp needed to hold it is…",
+    "prompt_html": "<p>An 8 kg crate (weight 78.4 N) rests on a 25° ramp. The force parallel to the ramp needed to hold it is…</p>",
+    "choices": [
+      {
+        "id": "e0bc8db8-f142-4b72-a4e7-f7ecec5ae8dd",
+        "position": 1,
+        "text": "78.4 N",
+        "html": "<p>78.4 N</p>"
+      },
+      {
+        "id": "f43894bd-5781-483a-b868-bc1570cdccef",
+        "position": 2,
+        "text": "≈ 33.1 N",
+        "html": "<p>≈ 33.1 N</p>"
+      },
+      {
+        "id": "3c7fd34c-8f9c-42d1-b870-db1a74e0cf54",
+        "position": 3,
+        "text": "≈ 70.9 N",
+        "html": "<p>≈ 70.9 N</p>"
+      },
+      {
+        "id": "2c56b316-6d11-401d-959e-99cf85e3ee55",
+        "position": 4,
+        "text": "≈ 19.6 N",
+        "html": "<p>≈ 19.6 N</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>78.4 N</p>",
+          "id": "e0bc8db8-f142-4b72-a4e7-f7ecec5ae8dd",
+          "position": 1
+        },
+        {
+          "item_body": "<p>≈ 33.1 N</p>",
+          "id": "f43894bd-5781-483a-b868-bc1570cdccef",
+          "position": 2
+        },
+        {
+          "item_body": "<p>≈ 70.9 N</p>",
+          "id": "3c7fd34c-8f9c-42d1-b870-db1a74e0cf54",
+          "position": 3
+        },
+        {
+          "item_body": "<p>≈ 19.6 N</p>",
+          "id": "2c56b316-6d11-401d-959e-99cf85e3ee55",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "34126",
+    "item_id": "45275",
+    "points": 13.0,
+    "slug": "numeric",
+    "prompt_text": "A 100 N sign hangs from two identical cables, each making 60° with the horizontal. The tension in each cable is… (N)",
+    "prompt_html": "<p>A 100 N sign hangs from two identical cables, each making 60° with the horizontal. The tension in each cable is… (N)</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "34146",
+    "item_id": "45294",
+    "points": 12.0,
+    "slug": "numeric",
+    "prompt_text": "A boat moving at 15 km/h in still water must land directly across a river flowing at 5 km/h. It should aim upstream at an angle of… (degrees)",
+    "prompt_html": "<p>A boat moving at 15 km/h in still water must land directly across a river flowing at 5 km/h. It should aim upstream at an angle of… (degrees)</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  }
+]

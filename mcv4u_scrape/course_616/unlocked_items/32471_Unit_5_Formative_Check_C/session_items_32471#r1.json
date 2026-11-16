@@ -1,0 +1,317 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "53b93775-4e38-431c-9e95-fc994aa83cd8"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9360783f-14d5-4add-9d9a-da8a8ea96bfb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e0c1ec3d-6c77-4ce2-9424-167a95f559be"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9655a385-3647-440a-a477-a137c400e545"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5aa4e3b2-ccfd-45de-8c26-9c0f695c9fde"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "44d136b9-c2be-49eb-9ab4-1d01aa574166"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7717ed7c-7d2c-4cf3-9a5c-47321a853957"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7bd30834-c5a0-4980-8995-4fe252278696"
+          }
+        ]
+      },
+      "item_body": "<p>Convert the following angles to radian measure: a. 360 degrees = <span id=\"blank_53b93775-4e38-431c-9e95-fc994aa83cd8\"></span>; b. 45 degrees = <span id=\"blank_9360783f-14d5-4add-9d9a-da8a8ea96bfb\"></span>; c. -90 degrees = <span id=\"blank_e0c1ec3d-6c77-4ce2-9424-167a95f559be\"></span>; d. 30 degrees = <span id=\"blank_9655a385-3647-440a-a477-a137c400e545\"></span>; e. 270 degrees = <span id=\"blank_5aa4e3b2-ccfd-45de-8c26-9c0f695c9fde\"></span>; f. -120 degrees = <span id=\"blank_44d136b9-c2be-49eb-9ab4-1d01aa574166\"></span>; g. 225 degrees = <span id=\"blank_7717ed7c-7d2c-4cf3-9a5c-47321a853957\"></span>; h. 330 degrees = <span id=\"blank_7bd30834-c5a0-4980-8995-4fe252278696\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69496",
+      "label": null,
+      "title": "Prerequisite Skills Q5 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56187",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "19f4f1c5-c689-448c-ab7f-981e0bde1231"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "18e80d60-43c2-4dd1-b871-410f583e709a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9d8eca05-0f97-42fb-920d-8158d9e25228"
+          }
+        ]
+      },
+      "item_body": "<p>If you have ever travelled in an airplane, you probably noticed that the air pressure in the airplane varied. The atmospheric pressure, y, varies with the altitude, x kilometres, above Earth. For altitudes up to 10 km, the pressure in millimetres of mercury (mm Hg) is given by y = 760e^(-0.125x). What is the atmospheric pressure at each distance above Earth? a. 5 km: <span id=\"blank_19f4f1c5-c689-448c-ab7f-981e0bde1231\"></span> b. 7 km: <span id=\"blank_18e80d60-43c2-4dd1-b871-410f583e709a\"></span> c. 9 km: <span id=\"blank_9d8eca05-0f97-42fb-920d-8158d9e25228\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69483",
+      "label": null,
+      "title": "Mid-Chapter Review Q10 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56188",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[K/U] Calculate the slope of the tangent line that passes through y = 5^x, where x = 2. Express your answer to two decimal places.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69486",
+      "label": null,
+      "title": "Chapter 5 Test Q7 - Auto",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56189",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[A] A drug is injected into the body in such a way that the concentration, C, in the blood at time t hours is given by the function C(t) = 10(e^(-2t) - e^(-3t)). At what time does the highest concentration occur within the first 5 h? Express your answer to two decimal places.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69490",
+      "label": null,
+      "title": "Mid-Chapter Review Q7 - Auto",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56190",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "491fc273-6305-48ce-9251-d1f2ca20a197"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ef3095e8-a890-49d2-9e76-60c18174fb64"
+          }
+        ]
+      },
+      "item_body": "<p>[A] The net monthly profit, in dollars, from the sale of a certain item is given by the formula P(x) = 10^6[1 + (x - 1)e^(-0.001x)], where x is the number of items sold. a. Determine the number of items that yield the maximum profit. <span id=\"blank_491fc273-6305-48ce-9251-d1f2ca20a197\"></span> At full capacity, the factory can produce 2000 items per month. b. Repeat part a, assuming that, at most, 500 items can be produced per month. <span id=\"blank_ef3095e8-a890-49d2-9e76-60c18174fb64\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69487",
+      "label": null,
+      "title": "Exercise 5.3 Q4 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56190",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "afcd79b3-2e03-49b2-bca5-11e858791272"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "de5e9b6c-3135-44b8-8d3f-b99c9acd5299"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9ebbb7bb-8d70-4f4e-ab70-157a83430c6e"
+          }
+        ]
+      },
+      "item_body": "<p>[A] The position of a particle is given by s = 5 cos(2t + pi/4) at time t. What are the maximum values of the displacement, the velocity, and the acceleration? Displacement: <span id=\"blank_afcd79b3-2e03-49b2-bca5-11e858791272\"></span> Velocity: <span id=\"blank_de5e9b6c-3135-44b8-8d3f-b99c9acd5299\"></span> Acceleration: <span id=\"blank_9ebbb7bb-8d70-4f4e-ab70-157a83430c6e\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69492",
+      "label": null,
+      "title": "Review Exercise Q18 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56191",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "8b84996b-7162-48c9-8b31-4023019ecfaa"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e541176f-3fbc-428a-8c82-c159d03d6ecb"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine the absolute extreme values of f(x) = sin^2 x, where x in [0, pi]. Absolute maximum: <span id=\"blank_8b84996b-7162-48c9-8b31-4023019ecfaa\"></span> Absolute minimum: <span id=\"blank_e541176f-3fbc-428a-8c82-c159d03d6ecb\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69493",
+      "label": null,
+      "title": "Chapter 5 Test Q6 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56191",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[K/U] Determine the local maximum point on the curve y = 2x - tan x, where -pi/2 &lt; x &lt; pi/2. What is the y-value of the local maximum point? Express your answer to two decimal places.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69495",
+      "label": null,
+      "title": "Exercise 5.5 Q6 - Auto",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56192",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

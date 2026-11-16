@@ -1,0 +1,235 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56702",
+    "item_id": "69546",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] If 2x + 3y = a and -x + 5y = 6b, express x and y in terms of a and b. x = , y =",
+    "prompt_html": "<p>[T] If 2x + 3y = a and -x + 5y = 6b, express x and y in terms of a and b. x = <span id=\"blank_dd399b8d-3f90-4dda-ac3f-6387503683a4\"></span>, y = <span id=\"blank_47e3ff7d-541a-409c-8908-426012b35bc2\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "dd399b8d-3f90-4dda-ac3f-6387503683a4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "47e3ff7d-541a-409c-8908-426012b35bc2"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56702",
+    "item_id": "69551",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] a. If 3x - 2y = a and 5x - 3y = b, express the vectors x and y in terms of a and b. (Here a and b are the two given vectors.) x = , y = b. Solve for a, b, and c: (2, -1, c) + (a, b, 1) - 3(2, a, 4) = (-3, 1, 2c). a = , b = , c =",
+    "prompt_html": "<p>[K/U] a. If 3x - 2y = a and 5x - 3y = b, express the vectors x and y in terms of a and b. (Here a and b are the two given vectors.) x = <span id=\"blank_e3aabe71-1d91-471c-8eb1-3a8598a0f741\"></span>, y = <span id=\"blank_941d671f-0ccc-4307-aba5-bf8d1b28ce94\"></span> b. Solve for a, b, and c: (2, -1, c) + (a, b, 1) - 3(2, a, 4) = (-3, 1, 2c). a = <span id=\"blank_d75c50fa-d944-4fb0-9060-00ebaf9df6a9\"></span>, b = <span id=\"blank_a9b57ff7-397c-4e85-9a3e-129e7fa4e3db\"></span>, c = <span id=\"blank_9d35f487-5a28-4dfc-95fa-47ef5991fdbb\"></span></p>",
+    "choices": [],
+    "num_blanks": 5,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "e3aabe71-1d91-471c-8eb1-3a8598a0f741"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "941d671f-0ccc-4307-aba5-bf8d1b28ce94"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d75c50fa-d944-4fb0-9060-00ebaf9df6a9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a9b57ff7-397c-4e85-9a3e-129e7fa4e3db"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9d35f487-5a28-4dfc-95fa-47ef5991fdbb"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56703",
+    "item_id": "69552",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] a. The points A(5, b, c) and B(a, -3, 8) are located at the same point in R^3. What are the values of a, b, and c? a = , b = , c = b. Write the vector corresponding to OA. OA =",
+    "prompt_html": "<p>[K/U] a. The points A(5, b, c) and B(a, -3, 8) are located at the same point in R^3. What are the values of a, b, and c? a = <span id=\"blank_0bc6da00-073a-4ee6-a5ef-e8c592017bd0\"></span>, b = <span id=\"blank_f6dd3bf5-e5d2-4acd-9792-905f5661ef35\"></span>, c = <span id=\"blank_732458af-f1a9-4242-888a-f56ea5b68411\"></span> b. Write the vector corresponding to OA. OA = <span id=\"blank_ffd9ef73-7dc0-4cfe-89cd-adf774650ba0\"></span></p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "0bc6da00-073a-4ee6-a5ef-e8c592017bd0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f6dd3bf5-e5d2-4acd-9792-905f5661ef35"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "732458af-f1a9-4242-888a-f56ea5b68411"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ffd9ef73-7dc0-4cfe-89cd-adf774650ba0"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56703",
+    "item_id": "69563",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] A cube is placed so that it has three of its edges located along the positive x-, y-, and z-axes (one edge along each axis) and one of its vertices at the origin. a. If the cube has a side length of 4, draw a sketch of this cube and write the coordinates of its vertices on your sketch. The vertices are , , , , , , , . b. Write the coordinates of the vector with its head at the origin and its tail at the opposite vertex. The vector is . c. Write the coordinates of a vector that starts at (4, 4, 4) and is a diagonal in the plane parallel to the xz-plane. The vector is . d. What vector starts at the origin and is a diagonal in the xy-plane? The vector is .",
+    "prompt_html": "<p>[K/U] A cube is placed so that it has three of its edges located along the positive x-, y-, and z-axes (one edge along each axis) and one of its vertices at the origin. a. If the cube has a side length of 4, draw a sketch of this cube and write the coordinates of its vertices on your sketch. The vertices are <span id=\"blank_38a1636a-9c18-4bf4-8e05-630d5d269785\"></span>, <span id=\"blank_b2dc8c72-0b8b-4eac-850c-5330f77be4cd\"></span>, <span id=\"blank_9fc38157-e5f6-49e1-a746-281728de18e4\"></span>, <span id=\"blank_ec0d656c-aef6-430a-94a9-69ccac902c91\"></span>, <span id=\"blank_b4c6de35-f49a-4aac-8b15-df7ce50882c2\"></span>, <span id=\"blank_82e51cb6-fbae-4241-8806-83385e3dd92b\"></span>, <span id=\"blank_c0670faa-2789-4a52-b1d7-d96234062d6f\"></span>, <span id=\"blank_baa76523-1ff2-40b6-acc0-440541b0bce9\"></span>. b. Write the coordinates of the vector with its head at the origin and its tail at the opposite vertex. The vector is <span id=\"blank_8ec76e74-8285-4570-93d1-7cf3edf711eb\"></span>. c. Write the coordinates of a vector that starts at (4, 4, 4) and is a diagonal in the plane parallel to the xz-plane. The vector is <span id=\"blank_e14cd16b-a462-455e-a952-5f348cb9ceb9\"></span>. d. What vector starts at the origin and is a diagonal in the xy-plane? The vector is <span id=\"blank_37e92c83-358c-4827-a28f-d907f0fb8904\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 11,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "38a1636a-9c18-4bf4-8e05-630d5d269785"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b2dc8c72-0b8b-4eac-850c-5330f77be4cd"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9fc38157-e5f6-49e1-a746-281728de18e4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ec0d656c-aef6-430a-94a9-69ccac902c91"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b4c6de35-f49a-4aac-8b15-df7ce50882c2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "82e51cb6-fbae-4241-8806-83385e3dd92b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c0670faa-2789-4a52-b1d7-d96234062d6f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "baa76523-1ff2-40b6-acc0-440541b0bce9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "8ec76e74-8285-4570-93d1-7cf3edf711eb"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e14cd16b-a462-455e-a952-5f348cb9ceb9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "37e92c83-358c-4827-a28f-d907f0fb8904"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56704",
+    "item_id": "69565",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "[K/U] For the vector OA = 3i - 4j, calculate |OA|.",
+    "prompt_html": "<p>[K/U] For the vector OA = 3i - 4j, calculate |OA|.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56704",
+    "item_id": "69574",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] (Part c only) A parallelogram has three of its vertices at A(-1, 2), B(7, -2), and C(2, 8). c. Determine all possible coordinates for the fourth point that would make a parallelogram with points A, B, and C. The possible coordinates are , , and .",
+    "prompt_html": "<p>[T] (Part c only) A parallelogram has three of its vertices at A(-1, 2), B(7, -2), and C(2, 8). c. Determine all possible coordinates for the fourth point that would make a parallelogram with points A, B, and C. The possible coordinates are <span id=\"blank_77783d5e-6751-41ae-9a61-abd8ab054881\"></span>, <span id=\"blank_7e63fcc4-3e95-413c-9671-0fe49f3af455\"></span>, and <span id=\"blank_1c6493f9-e1db-49a1-99bd-38e77739952d\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "77783d5e-6751-41ae-9a61-abd8ab054881"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7e63fcc4-3e95-413c-9671-0fe49f3af455"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1c6493f9-e1db-49a1-99bd-38e77739952d"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56705",
+    "item_id": "69581",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] a. Write the vector OA = (-1, 2, 4) using the standard unit vectors. OA = . b. Determine |OA|. |OA| = .",
+    "prompt_html": "<p>[K/U] a. Write the vector OA = (-1, 2, 4) using the standard unit vectors. OA = <span id=\"blank_c28ae905-7ddb-49be-857b-cfa70c9baabf\"></span>. b. Determine |OA|. |OA| = <span id=\"blank_7d8d6702-39b4-4e92-8bbf-5a35a35b7017\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "c28ae905-7ddb-49be-857b-cfa70c9baabf"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7d8d6702-39b4-4e92-8bbf-5a35a35b7017"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56705",
+    "item_id": "69582",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Write the vector OB = 3i + 4j - 4k in component form and calculate its magnitude. OB = , |OB| = .",
+    "prompt_html": "<p>[K/U] Write the vector OB = 3i + 4j - 4k in component form and calculate its magnitude. OB = <span id=\"blank_bfa8eb71-ec85-4fac-992a-8deb18601782\"></span>, |OB| = <span id=\"blank_aa4964a3-6802-44ca-86c4-a508b98f94a4\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "bfa8eb71-ec85-4fac-992a-8deb18601782"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "aa4964a3-6802-44ca-86c4-a508b98f94a4"
+        }
+      ]
+    }
+  }
+]

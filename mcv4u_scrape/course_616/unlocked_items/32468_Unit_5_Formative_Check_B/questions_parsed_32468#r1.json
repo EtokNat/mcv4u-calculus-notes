@@ -1,0 +1,212 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56185",
+    "item_id": "69495",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "[K/U] Determine the local maximum point on the curve y = 2x - tan x, where -pi/2 < x < pi/2. What is the y-value of the local maximum point? Express your answer to two decimal places.",
+    "prompt_html": "<p>[K/U] Determine the local maximum point on the curve y = 2x - tan x, where -pi/2 &lt; x &lt; pi/2. What is the y-value of the local maximum point? Express your answer to two decimal places.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56184",
+    "item_id": "69493",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine the absolute extreme values of f(x) = sin^2 x, where x in [0, pi]. Absolute maximum: Absolute minimum:",
+    "prompt_html": "<p>[K/U] Determine the absolute extreme values of f(x) = sin^2 x, where x in [0, pi]. Absolute maximum: <span id=\"blank_8b84996b-7162-48c9-8b31-4023019ecfaa\"></span> Absolute minimum: <span id=\"blank_e541176f-3fbc-428a-8c82-c159d03d6ecb\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "8b84996b-7162-48c9-8b31-4023019ecfaa"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e541176f-3fbc-428a-8c82-c159d03d6ecb"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56186",
+    "item_id": "69481",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Solve the following equations, where x in [0, 2pi]. a. 3 sin x = sin x + 1, so x = or . b. cos x - 1 = -cos x, so x = or .",
+    "prompt_html": "<p>[K/U] Solve the following equations, where x in [0, 2pi]. a. 3 sin x = sin x + 1, so x = <span id=\"blank_6262ecde-03b5-4335-9c79-e3f98e90296d\"></span> or <span id=\"blank_f2fac97d-416b-47a1-b972-96aa52b53dac\"></span>. b. cos x - 1 = -cos x, so x = <span id=\"blank_e18f5baf-61af-48b1-83d9-50d3dd340ac6\"></span> or <span id=\"blank_5060c7f4-a91e-4f71-9c67-ee52df8c43f7\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "6262ecde-03b5-4335-9c79-e3f98e90296d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f2fac97d-416b-47a1-b972-96aa52b53dac"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e18f5baf-61af-48b1-83d9-50d3dd340ac6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5060c7f4-a91e-4f71-9c67-ee52df8c43f7"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56184",
+    "item_id": "69491",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "[A] An object moves along a line so that, at time t, its position is s = sin t/(3 + cos 2t), where s is the displacement in metres. Calculate the object's velocity at t = pi/4. Express your answer to four decimal places.",
+    "prompt_html": "<p>[A] An object moves along a line so that, at time t, its position is s = sin t/(3 + cos 2t), where s is the displacement in metres. Calculate the object's velocity at t = pi/4. Express your answer to four decimal places.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56186",
+    "item_id": "69496",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Convert the following angles to radian measure: a. 360 degrees = ; b. 45 degrees = ; c. -90 degrees = ; d. 30 degrees = ; e. 270 degrees = ; f. -120 degrees = ; g. 225 degrees = ; h. 330 degrees =",
+    "prompt_html": "<p>Convert the following angles to radian measure: a. 360 degrees = <span id=\"blank_53b93775-4e38-431c-9e95-fc994aa83cd8\"></span>; b. 45 degrees = <span id=\"blank_9360783f-14d5-4add-9d9a-da8a8ea96bfb\"></span>; c. -90 degrees = <span id=\"blank_e0c1ec3d-6c77-4ce2-9424-167a95f559be\"></span>; d. 30 degrees = <span id=\"blank_9655a385-3647-440a-a477-a137c400e545\"></span>; e. 270 degrees = <span id=\"blank_5aa4e3b2-ccfd-45de-8c26-9c0f695c9fde\"></span>; f. -120 degrees = <span id=\"blank_44d136b9-c2be-49eb-9ab4-1d01aa574166\"></span>; g. 225 degrees = <span id=\"blank_7717ed7c-7d2c-4cf3-9a5c-47321a853957\"></span>; h. 330 degrees = <span id=\"blank_7bd30834-c5a0-4980-8995-4fe252278696\"></span></p>",
+    "choices": [],
+    "num_blanks": 8,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "53b93775-4e38-431c-9e95-fc994aa83cd8"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9360783f-14d5-4add-9d9a-da8a8ea96bfb"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e0c1ec3d-6c77-4ce2-9424-167a95f559be"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9655a385-3647-440a-a477-a137c400e545"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5aa4e3b2-ccfd-45de-8c26-9c0f695c9fde"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "44d136b9-c2be-49eb-9ab4-1d01aa574166"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7717ed7c-7d2c-4cf3-9a5c-47321a853957"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7bd30834-c5a0-4980-8995-4fe252278696"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56185",
+    "item_id": "69494",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine all the values of x, 0 <= x <= 2pi, for which the slope of the tangent to f(x) = sin x tan x is zero. x = , ,",
+    "prompt_html": "<p>[K/U] Determine all the values of x, 0 &lt;= x &lt;= 2pi, for which the slope of the tangent to f(x) = sin x tan x is zero. x = <span id=\"blank_2af1ee0d-9333-46e5-a4e9-1798727423df\"></span>, <span id=\"blank_5636f859-10a3-4d4c-b23a-815aba989f9a\"></span>, <span id=\"blank_fd822b14-876e-45bb-8106-720946606497\"></span></p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "2af1ee0d-9333-46e5-a4e9-1798727423df"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5636f859-10a3-4d4c-b23a-815aba989f9a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fd822b14-876e-45bb-8106-720946606497"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56184",
+    "item_id": "69492",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] The position of a particle is given by s = 5 cos(2t + pi/4) at time t. What are the maximum values of the displacement, the velocity, and the acceleration? Displacement: Velocity: Acceleration:",
+    "prompt_html": "<p>[A] The position of a particle is given by s = 5 cos(2t + pi/4) at time t. What are the maximum values of the displacement, the velocity, and the acceleration? Displacement: <span id=\"blank_afcd79b3-2e03-49b2-bca5-11e858791272\"></span> Velocity: <span id=\"blank_de5e9b6c-3135-44b8-8d3f-b99c9acd5299\"></span> Acceleration: <span id=\"blank_9ebbb7bb-8d70-4f4e-ab70-157a83430c6e\"></span></p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "afcd79b3-2e03-49b2-bca5-11e858791272"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "de5e9b6c-3135-44b8-8d3f-b99c9acd5299"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9ebbb7bb-8d70-4f4e-ab70-157a83430c6e"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56186",
+    "item_id": "69480",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Evaluate each of the following: a. 3^-2 = b. 32^(2/5) = c. 27^(-2/3) = d. (2/3)^-2 =",
+    "prompt_html": "<p>[K/U] Evaluate each of the following: a. 3^-2 = <span id=\"blank_4a927b90-d52d-4817-8948-1b14840f235b\"></span> b. 32^(2/5) = <span id=\"blank_8778482d-8763-448d-9646-167e636f45f9\"></span> c. 27^(-2/3) = <span id=\"blank_b776e305-aeb7-40a2-997d-9461bb480122\"></span> d. (2/3)^-2 = <span id=\"blank_fe3d8c0e-4f78-4ebf-ae77-f92d07cad921\"></span></p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "4a927b90-d52d-4817-8948-1b14840f235b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "8778482d-8763-448d-9646-167e636f45f9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b776e305-aeb7-40a2-997d-9461bb480122"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fe3d8c0e-4f78-4ebf-ae77-f92d07cad921"
+        }
+      ]
+    }
+  }
+]

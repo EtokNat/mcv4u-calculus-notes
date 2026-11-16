@@ -1,0 +1,204 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56089",
+    "item_id": "65194",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "A professional basketball team plays in an arena that holds 20 000 spectators. Average attendance at each game has been 14 000. The average ticket price is $75. Market research shows that for each $5 reduction in the ticket price, attendance increases by 800. Find the price that will maximize revenue. Enter the price in dollars.",
+    "prompt_html": "<p>A professional basketball team plays in an arena that holds 20 000 spectators. Average attendance at each game has been 14 000. The average ticket price is $75. Market research shows that for each $5 reduction in the ticket price, attendance increases by 800. Find the price that will maximize revenue. Enter the price in dollars.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56089",
+    "item_id": "65193",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "An electronics store is selling personal CD players. The regular price for each CD player is $90. During a typical two weeks, the store sells 50 units. Past sales indicate that for every $1 decrease in price, the store sells five more units during two weeks. Calculate the price that will maximize revenue. Let x be the number of $1 decreases in price. The value of x that maximizes revenue is , and the revenue-maximizing price is dollars.",
+    "prompt_html": "<p>An electronics store is selling personal CD players. The regular price for each CD player is $90. During a typical two weeks, the store sells 50 units. Past sales indicate that for every $1 decrease in price, the store sells five more units during two weeks. Calculate the price that will maximize revenue. Let x be the number of $1 decreases in price. The value of x that maximizes revenue is <span id=\"blank_d0c4b9a8-c151-4b84-820f-04573e8ae832\"></span>, and the revenue-maximizing price is <span id=\"blank_890a3c96-9732-41ba-803f-14ccbf9253ff\"></span> dollars.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "d0c4b9a8-c151-4b84-820f-04573e8ae832"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "890a3c96-9732-41ba-803f-14ccbf9253ff"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56089",
+    "item_id": "65198",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "The landlord of a 50-unit apartment building is planning to increase the rent. Currently, residents pay $850 per month, and all the units are occupied. A real estate agency advises that every $100 increase in rent will result in 10 vacant units. What rent should the landlord charge to maximize revenue? Enter the rent in dollars per month.",
+    "prompt_html": "<p>The landlord of a 50-unit apartment building is planning to increase the rent. Currently, residents pay $850 per month, and all the units are occupied. A real estate agency advises that every $100 increase in rent will result in 10 vacant units. What rent should the landlord charge to maximize revenue? Enter the rent in dollars per month.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56089",
+    "item_id": "65195",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "During a cough, the diameter of the trachea decreases. The velocity, v, of air in the trachea during a cough may be modelled by the formula v(r) = Ar^2(r0 - r), where A is a constant, r is the radius of the trachea during the cough, and r0 is the radius of the trachea in a relaxed state. Find the radius of the trachea when the velocity is the greatest, and find the associated maximum velocity of air. Note that the domain for the problem is 0 <= r <= r0. The radius of the trachea when the velocity is greatest is , and the associated maximum velocity of air is .",
+    "prompt_html": "<p>During a cough, the diameter of the trachea decreases. The velocity, v, of air in the trachea during a cough may be modelled by the formula v(r) = Ar^2(r0 - r), where A is a constant, r is the radius of the trachea during the cough, and r0 is the radius of the trachea in a relaxed state. Find the radius of the trachea when the velocity is the greatest, and find the associated maximum velocity of air. Note that the domain for the problem is 0 &lt;= r &lt;= r0. The radius of the trachea when the velocity is greatest is <span id=\"blank_0c008f64-e8db-424d-9c0c-47d7f6ee3be4\"></span>, and the associated maximum velocity of air is <span id=\"blank_1f503c7a-c6ce-405c-96f1-8213de8847db\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "0c008f64-e8db-424d-9c0c-47d7f6ee3be4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1f503c7a-c6ce-405c-96f1-8213de8847db"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56090",
+    "item_id": "65190",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "a. Determine the area of the largest rectangle that can be inscribed in a right triangle if the legs of the triangle are 5 cm and 12 cm and the sides of the rectangle are along the legs of the triangle. The largest area is cm^2. b. Repeat part a. for a right triangle that has sides 8 cm and 15 cm. The largest area is cm^2. c. Hypothesize a conclusion for any right triangle.",
+    "prompt_html": "<p>a. Determine the area of the largest rectangle that can be inscribed in a right triangle if the legs of the triangle are 5 cm and 12 cm and the sides of the rectangle are along the legs of the triangle. The largest area is <span id=\"blank_b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c\"></span> cm^2. b. Repeat part a. for a right triangle that has sides 8 cm and 15 cm. The largest area is <span id=\"blank_c796450d-dc2b-4584-94c5-0144e2253342\"></span> cm^2. c. Hypothesize a conclusion for any right triangle.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c796450d-dc2b-4584-94c5-0144e2253342"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56090",
+    "item_id": "65168",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "A net enclosure for practising golf shots is open at one end, as shown. Find the dimensions that will minimize the amount of netting needed and give a volume of 144 m^3. (Netting is required only on the sides, the top, and the far end.) The square end has side m, and the length is m.",
+    "prompt_html": "<p>A net enclosure for practising golf shots is open at one end, as shown. Find the dimensions that will minimize the amount of netting needed and give a volume of 144 m^3. (Netting is required only on the sides, the top, and the far end.) The square end has side <span id=\"blank_321d4daa-b970-4844-aacc-62b935b84a81\"></span> m, and the length is <span id=\"blank_c6e9e24b-ceda-4ccb-8a20-61430b31fd64\"></span> m.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "321d4daa-b970-4844-aacc-62b935b84a81"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c6e9e24b-ceda-4ccb-8a20-61430b31fd64"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56091",
+    "item_id": "65131",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the absolute extreme values of each function on the given interval, using the algorithm for maximum and minimum values: a. f(x) = x^3 + 3x^2 + 1, -2 <= x <= 2: maximum at x = , minimum at x = ; b. f(x) = (x + 2)^2, -3 <= x <= 3: maximum at x = , minimum at x = ; c. f(x) = 1/x - 1/x^3, x in [1, 5]: maximum at x = , minimum at x = .",
+    "prompt_html": "<p>Determine the absolute extreme values of each function on the given interval, using the algorithm for maximum and minimum values: a. f(x) = x^3 + 3x^2 + 1, -2 &lt;= x &lt;= 2: maximum <span id=\"blank_7a7afe36-f3fd-4610-9ba6-c4d69fd89630\"></span> at x = <span id=\"blank_bf28477c-b12e-4511-82af-0d4a6e55229b\"></span>, minimum <span id=\"blank_c6767cfa-273d-4199-86be-31461a9c6c44\"></span> at x = <span id=\"blank_b436a643-4d0d-4b9a-ad75-849eb0a69d73\"></span>; b. f(x) = (x + 2)^2, -3 &lt;= x &lt;= 3: maximum <span id=\"blank_d41a2283-9311-488d-8175-7e722328c366\"></span> at x = <span id=\"blank_9629088a-64e0-4ba4-8ea8-ecbb9123c797\"></span>, minimum <span id=\"blank_b0748bb8-4115-4136-b892-d7e3b37177bc\"></span> at x = <span id=\"blank_b86ec000-7ba4-4a03-a4a6-1adce4e87eb2\"></span>; c. f(x) = 1/x - 1/x^3, x in [1, 5]: maximum <span id=\"blank_96a9fb7f-c397-4050-b569-1d83a510a404\"></span> at x = <span id=\"blank_ecc0719d-047a-4e6b-bd2d-1c0505285f43\"></span>, minimum <span id=\"blank_81b244cd-6a3d-42eb-887e-aa77bbefe43d\"></span> at x = <span id=\"blank_a5e242ad-7e0a-46cb-9bff-71e49c40efa4\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 12,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "7a7afe36-f3fd-4610-9ba6-c4d69fd89630"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bf28477c-b12e-4511-82af-0d4a6e55229b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c6767cfa-273d-4199-86be-31461a9c6c44"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b436a643-4d0d-4b9a-ad75-849eb0a69d73"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d41a2283-9311-488d-8175-7e722328c366"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9629088a-64e0-4ba4-8ea8-ecbb9123c797"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b0748bb8-4115-4136-b892-d7e3b37177bc"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b86ec000-7ba4-4a03-a4a6-1adce4e87eb2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "96a9fb7f-c397-4050-b569-1d83a510a404"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ecc0719d-047a-4e6b-bd2d-1c0505285f43"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "81b244cd-6a3d-42eb-887e-aa77bbefe43d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a5e242ad-7e0a-46cb-9bff-71e49c40efa4"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56091",
+    "item_id": "65075",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = ; b. When is its velocity zero? t = .",
+    "prompt_html": "<p>Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = <span id=\"blank_316c0753-f3e0-4148-8d3c-79b3abc85696\"></span>; b. When is its velocity zero? t = <span id=\"blank_c053d239-9618-4ac0-981b-c0cbac605c8f\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "316c0753-f3e0-4148-8d3c-79b3abc85696"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c053d239-9618-4ac0-981b-c0cbac605c8f"
+        }
+      ]
+    }
+  }
+]

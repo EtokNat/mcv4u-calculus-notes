@@ -1,0 +1,377 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[T] If f(a) = 0 and f'(a) = 6, find the limit, as h -&gt; 0, of f(a + h)/(2h).</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64989",
+      "label": null,
+      "title": "Q17 [T]",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56023",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "862e4e54-3c81-4159-a238-7dbe652a29e8"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine an equation of the line that is tangent to the graph of f(x) = sqrt(x + 1) and parallel to x - 6y + 4 = 0.</p>\n<p>Equation: <span id=\"blank_862e4e54-3c81-4159-a238-7dbe652a29e8\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64987",
+      "label": null,
+      "title": "Q11 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56023",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "e3bb6abc-3a94-491f-b827-5ec929301600"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "2041a07b-4e0c-46ff-8c08-51e59e47c26d"
+          }
+        ]
+      },
+      "item_body": "<p>[A] A football is kicked up into the air. Its height, h, above the ground, in metres, at t seconds can be modelled by h(t) = 18t - 4.9t^2.</p>\n<p>a. Determine h'(2): <span id=\"blank_e3bb6abc-3a94-491f-b827-5ec929301600\"></span></p>\n<p>b. What does h'(2) represent? h'(2) represents the <span id=\"blank_2041a07b-4e0c-46ff-8c08-51e59e47c26d\"></span> of the football at 2 seconds.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "74777",
+      "label": null,
+      "title": "Q14 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56023",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>[K/U] a. Determine the equation of the tangent to the curve y = x^2 - 4x + 3 at x = 1.</p>\n<p>Tangent equation:</p>\n<p>b. Sketch the graph of the function and the tangent.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "75976",
+      "label": null,
+      "title": "Q3 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56023",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "a9a47145-4366-4054-b4b2-3318abd755ec"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a8b47bf4-2a88-41bf-8d26-f2eb5407b5e8"
+          }
+        ]
+      },
+      "item_body": "<p>[T] At what point on the curve y = x^4 does the normal have a slope of 16?Point: (<span id=\"blank_a9a47145-4366-4054-b4b2-3318abd755ec\"></span>, <span id=\"blank_a8b47bf4-2a88-41bf-8d26-f2eb5407b5e8\"></span>)</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65021",
+      "label": null,
+      "title": "Q9 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56024",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "6234c4a6-2ca5-4e9f-870b-81ebe334b9b7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "295e89a3-1f7d-4ce7-9460-b5844ccab6d9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "913f783c-b465-478c-8667-49627a38757d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "822cd0de-6d23-4002-94ed-4b241b35cb04"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine the slope of the tangent to each of the curves at the given point.</p>\n<p>a. y = 3x^4, (1, 3): slope = <span id=\"blank_6234c4a6-2ca5-4e9f-870b-81ebe334b9b7\"></span></p>\n<p>b. y = 1/x^-5, (-1, -1): slope = <span id=\"blank_295e89a3-1f7d-4ce7-9460-b5844ccab6d9\"></span></p>\n<p>c. y = 2/x, (-2, -1): slope = <span id=\"blank_913f783c-b465-478c-8667-49627a38757d\"></span></p>\n<p>d. y = sqrt(16x^3), (4, 32): slope = <span id=\"blank_822cd0de-6d23-4002-94ed-4b241b35cb04\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64996",
+      "label": null,
+      "title": "Q7 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56024",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "54dd126c-22cf-42dc-acad-2d9dc9d5d061"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6e2dac69-de75-447f-9339-fc39f3355e40"
+          }
+        ]
+      },
+      "item_body": "<p>[T] Determine the values of x so that the tangent to the function y = 3/cubert(x) is parallel to the line x + 16y + 3 = 0.</p>\n<p>x = <span id=\"blank_54dd126c-22cf-42dc-acad-2d9dc9d5d061\"></span>, <span id=\"blank_6e2dac69-de75-447f-9339-fc39f3355e40\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65024",
+      "label": null,
+      "title": "Q11 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56024",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "039ebfad-e978-4b74-8831-1549c9187ae0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "866e34cc-ae16-4ed9-9ad8-6c37b285ac26"
+          }
+        ]
+      },
+      "item_body": "<p>[A] (part b only) An athletic-equipment supplier experiences weekly costs of C(x) = (1/3)x^3 + 40x + 700 in producing x baseball gloves per week.</p>\n<p>a. Find the marginal cost, C'(x). C'(x) = <span id=\"blank_039ebfad-e978-4b74-8831-1549c9187ae0\"></span></p>\n<p>b. Find the production level x at which the marginal cost is $76 per glove: <span id=\"blank_866e34cc-ae16-4ed9-9ad8-6c37b285ac26\"></span> gloves/week</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "74780",
+      "label": null,
+      "title": "Q18 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56024",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

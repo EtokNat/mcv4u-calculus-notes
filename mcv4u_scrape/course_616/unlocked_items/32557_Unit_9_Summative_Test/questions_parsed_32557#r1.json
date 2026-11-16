@@ -1,0 +1,601 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "45912",
+    "item_id": "59480",
+    "points": 16.0,
+    "slug": "essay",
+    "prompt_text": "A line in R2 passes through the point A(-3, 4) with direction vector d = (2, -5).\n (a) Write the vector equation of the line.\n (b) Write the parametric equations of the line.\n (c) Write the symmetric equations of the line (if possible; if not, explain why).\n (d) Write the Cartesian (scalar) equation of the line in the form ax + by + c = 0, and verify, with a calculation, that the point A satisfies your equation.",
+    "prompt_html": "<p>A line in R2 passes through the point A(-3, 4) with direction vector d = (2, -5).</p>\n<p>&nbsp;</p>\n<p>(a) Write the vector equation of the line.</p>\n<p>(b) Write the parametric equations of the line.</p>\n<p>(c) Write the symmetric equations of the line (if possible; if not, explain why).</p>\n<p>(d) Write the Cartesian (scalar) equation of the line in the form ax + by + c = 0, and verify, with a calculation, that the point A satisfies your equation.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "45914",
+    "item_id": "49477",
+    "points": 2.0,
+    "slug": "matching",
+    "prompt_text": "Match each plane equation to a normal vector of the plane.\nd: (2, -1, 3); b: (1, 4, -2); a: (3, -2, 1); c: (2, -5, 1) 3x - 2y + z = 5x + 4y - 2z + 1 = 02(x - 1) - 5(y + 3) + (z - 2) = 0y = 2x + 3z - 7abcd Match each plane equation to a normal vector of the plane.\nd: (2, -1, 3); b: (1, 4, -2); a: (3, -2, 1); c: (2, -5, 1)",
+    "prompt_html": "<div>\n<div>Match each plane equation to a normal vector of the plane.\nd: (2, -1, 3); b: (1, 4, -2); a: (3, -2, 1); c: (2, -5, 1)</div>3x - 2y + z = 5x + 4y - 2z + 1 = 02(x - 1) - 5(y + 3) + (z - 2) = 0y = 2x + 3z - 7abcd</div><div>Match each plane equation to a normal vector of the plane.\nd: (2, -1, 3); b: (1, 4, -2); a: (3, -2, 1); c: (2, -5, 1)</div>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "answers": [
+        "c",
+        "b",
+        "a",
+        "d"
+      ],
+      "questions": [
+        {
+          "itemBody": "x + 4y - 2z + 1 = 0",
+          "id": "9ca94712-1ee5-464d-b2ea-c3d1d7ee3672",
+          "position": 1
+        },
+        {
+          "itemBody": "2(x - 1) - 5(y + 3) + (z - 2) = 0",
+          "id": "e5f4dc32-202e-43b1-be5c-196ce557cc9c",
+          "position": 2
+        },
+        {
+          "itemBody": "3x - 2y + z = 5",
+          "id": "5845981b-0dbf-44fc-9d22-ab120be9a269",
+          "position": 3
+        },
+        {
+          "itemBody": "y = 2x + 3z - 7",
+          "id": "6a74a677-4b38-4e1d-a822-9e9f751890e7",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "45916",
+    "item_id": "49443",
+    "points": 2.0,
+    "slug": "true-false",
+    "prompt_text": "True or false: the parametric equations x = 3 + 4t, y = -1 - 2t and x = 3 - 8s, y = -1 + 4s describe the same line.",
+    "prompt_html": "<p>True or false: the parametric equations x = 3 + 4t, y = -1 - 2t and x = 3 - 8s, y = -1 + 4s describe the same line.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "false_choice": "False",
+      "true_choice": "True"
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "45920",
+    "item_id": "49481",
+    "points": 3.0,
+    "slug": "choice",
+    "prompt_text": "The planes x + 2y - z = 4 and 2x + 4y - 2z = 8 are",
+    "prompt_html": "<p>The planes x + 2y - z = 4 and 2x + 4y - 2z = 8 are</p>",
+    "choices": [
+      {
+        "id": "2f9e0bd5-0cd7-435f-aaa5-17ae23ccc1f4",
+        "position": 1,
+        "text": "parallel and distinct",
+        "html": "parallel and distinct"
+      },
+      {
+        "id": "f38d9055-8ba7-4780-91c2-ed55ecb15d1e",
+        "position": 2,
+        "text": "coincident",
+        "html": "coincident"
+      },
+      {
+        "id": "f9fa2c44-1fef-4fa5-817e-de844e51b0c0",
+        "position": 3,
+        "text": "perpendicular",
+        "html": "perpendicular"
+      },
+      {
+        "id": "1d0e7c00-ba07-4018-b469-1d15a1720172",
+        "position": 4,
+        "text": "intersecting in a line",
+        "html": "intersecting in a line"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "parallel and distinct",
+          "id": "2f9e0bd5-0cd7-435f-aaa5-17ae23ccc1f4",
+          "position": 1
+        },
+        {
+          "item_body": "coincident",
+          "id": "f38d9055-8ba7-4780-91c2-ed55ecb15d1e",
+          "position": 2
+        },
+        {
+          "item_body": "perpendicular",
+          "id": "f9fa2c44-1fef-4fa5-817e-de844e51b0c0",
+          "position": 3
+        },
+        {
+          "item_body": "intersecting in a line",
+          "id": "1d0e7c00-ba07-4018-b469-1d15a1720172",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "45915",
+    "item_id": "49462",
+    "points": 2.0,
+    "slug": "multi-answer",
+    "prompt_text": "Which of these equations describe the same line as (x - 1)/2 = (y + 3)/(-1) = (z - 4)/3?",
+    "prompt_html": "<p>Which of these equations describe the same line as (x - 1)/2 = (y + 3)/(-1) = (z - 4)/3?</p>",
+    "choices": [
+      {
+        "id": "3de923c1-66d6-4303-86a2-32270868a099",
+        "position": 1,
+        "text": "(x - 1)/(-2) = (y + 3)/1 = (z - 4)/(-3)",
+        "html": "(x - 1)/(-2) = (y + 3)/1 = (z - 4)/(-3)"
+      },
+      {
+        "id": "f1f52f01-a027-406c-acc0-c647fe8525bd",
+        "position": 2,
+        "text": "(x - 5)/(-4) = (y + 5)/2 = (z - 10)/(-6)",
+        "html": "(x - 5)/(-4) = (y + 5)/2 = (z - 10)/(-6)"
+      },
+      {
+        "id": "5cc7dc33-f0be-4585-becb-e88464ce87dc",
+        "position": 3,
+        "text": "(x - 3)/2 = (y + 2)/(-1) = (z - 7)/3",
+        "html": "(x - 3)/2 = (y + 2)/(-1) = (z - 7)/3"
+      },
+      {
+        "id": "c5d48b98-9cdf-4d17-a19c-12f241ddcdd8",
+        "position": 4,
+        "text": "x = 1 + 2t, y = -3 - t, z = 4 + 3t",
+        "html": "x = 1 + 2t, y = -3 - t, z = 4 + 3t"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "(x - 1)/(-2) = (y + 3)/1 = (z - 4)/(-3)",
+          "id": "3de923c1-66d6-4303-86a2-32270868a099",
+          "position": 1
+        },
+        {
+          "item_body": "(x - 5)/(-4) = (y + 5)/2 = (z - 10)/(-6)",
+          "id": "f1f52f01-a027-406c-acc0-c647fe8525bd",
+          "position": 2
+        },
+        {
+          "item_body": "(x - 3)/2 = (y + 2)/(-1) = (z - 7)/3",
+          "id": "5cc7dc33-f0be-4585-becb-e88464ce87dc",
+          "position": 3
+        },
+        {
+          "item_body": "x = 1 + 2t, y = -3 - t, z = 4 + 3t",
+          "id": "c5d48b98-9cdf-4d17-a19c-12f241ddcdd8",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "45919",
+    "item_id": "53478",
+    "points": 3.0,
+    "slug": "numeric",
+    "prompt_text": "The line through A(3, -2, 5) with direction (2, -3, 4) meets the coordinate plane y = 0 at point P. Enter the distance from A to P, as a decimal to 3 s.f.",
+    "prompt_html": "<p>The line through A(3, -2, 5) with direction (2, -3, 4) meets the coordinate plane y = 0 at point P. Enter the distance from A to P, as a decimal to 3 s.f.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "45918",
+    "item_id": "50420",
+    "points": 3.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "The line through P(2, -4) and Q(-6, 8) has vector equation r = (2, -4) + t(a, b), where (a, b) is the direction vector PQ. Enter (1) the value of a, (2) the value of b. .",
+    "prompt_html": "<p>The line through P(2, -4) and Q(-6, 8) has vector equation r = (2, -4) + t(a, b), where (a, b) is the direction vector PQ. Enter (1) the value of a, (2) the value of b. <span id=\"blank_4427b125-11d9-49a9-a32d-34824749764d\"></span> <span id=\"blank_e36abd8e-8b5b-4b1e-8c74-0b9e7bd5082d\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "4427b125-11d9-49a9-a32d-34824749764d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e36abd8e-8b5b-4b1e-8c74-0b9e7bd5082d"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "45920",
+    "item_id": "49504",
+    "points": 3.0,
+    "slug": "choice",
+    "prompt_text": "The distance from P(1, 2, 3) to the line r = t(1, 1, 1) is",
+    "prompt_html": "<p>The distance from P(1, 2, 3) to the line r = t(1, 1, 1) is</p>",
+    "choices": [
+      {
+        "id": "68a80b9b-70a9-45c8-8c41-31dd1042f5e2",
+        "position": 1,
+        "text": "sqrt(14)/sqrt(3)",
+        "html": "sqrt(14)/sqrt(3)"
+      },
+      {
+        "id": "e9b67a5d-5f78-40f2-a6bc-408b7311a48b",
+        "position": 2,
+        "text": "1",
+        "html": "1"
+      },
+      {
+        "id": "15973013-f27b-4092-a485-af74a92d94f4",
+        "position": 3,
+        "text": "sqrt(2)",
+        "html": "sqrt(2)"
+      },
+      {
+        "id": "fada9b5c-aeda-4cb9-9c50-3a403dad2f7a",
+        "position": 4,
+        "text": "sqrt(6)",
+        "html": "sqrt(6)"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "sqrt(14)/sqrt(3)",
+          "id": "68a80b9b-70a9-45c8-8c41-31dd1042f5e2",
+          "position": 1
+        },
+        {
+          "item_body": "1",
+          "id": "e9b67a5d-5f78-40f2-a6bc-408b7311a48b",
+          "position": 2
+        },
+        {
+          "item_body": "sqrt(2)",
+          "id": "15973013-f27b-4092-a485-af74a92d94f4",
+          "position": 3
+        },
+        {
+          "item_body": "sqrt(6)",
+          "id": "fada9b5c-aeda-4cb9-9c50-3a403dad2f7a",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 9,
+    "quiz_entry_id": "45915",
+    "item_id": "49506",
+    "points": 2.0,
+    "slug": "multi-answer",
+    "prompt_text": "A student computes the distance from P(4, 1, -2) to the plane 3x - 2y + z = 8. Which of the following steps are correct?",
+    "prompt_html": "<p>A student computes the distance from P(4, 1, -2) to the plane 3x - 2y + z = 8. Which of the following steps are correct?</p>",
+    "choices": [
+      {
+        "id": "cf66a1ca-8fe0-437e-b485-f69ee09b785c",
+        "position": 1,
+        "text": "The distance is 0",
+        "html": "The distance is 0"
+      },
+      {
+        "id": "8fac3778-c8e5-41b5-836b-4ca6cf8fb764",
+        "position": 2,
+        "text": "The distance is 8/sqrt(14)",
+        "html": "The distance is 8/sqrt(14)"
+      },
+      {
+        "id": "e336682b-06df-4f1e-9ca2-e9090b4067ec",
+        "position": 3,
+        "text": "The denominator is sqrt(9 + 4 + 1) = sqrt(14)",
+        "html": "The denominator is sqrt(9 + 4 + 1) = sqrt(14)"
+      },
+      {
+        "id": "38e6235a-2c46-4377-9184-2221591aec5e",
+        "position": 4,
+        "text": "The numerator is |3(4) - 2(1) + (-2) - 8| = 0",
+        "html": "The numerator is |3(4) - 2(1) + (-2) - 8| = 0"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "The distance is 0",
+          "id": "cf66a1ca-8fe0-437e-b485-f69ee09b785c",
+          "position": 1
+        },
+        {
+          "item_body": "The distance is 8/sqrt(14)",
+          "id": "8fac3778-c8e5-41b5-836b-4ca6cf8fb764",
+          "position": 2
+        },
+        {
+          "item_body": "The denominator is sqrt(9 + 4 + 1) = sqrt(14)",
+          "id": "e336682b-06df-4f1e-9ca2-e9090b4067ec",
+          "position": 3
+        },
+        {
+          "item_body": "The numerator is |3(4) - 2(1) + (-2) - 8| = 0",
+          "id": "38e6235a-2c46-4377-9184-2221591aec5e",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 10,
+    "quiz_entry_id": "45918",
+    "item_id": "50522",
+    "points": 3.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "The symmetric equations of the line through P(-1, 4, 2) and Q(3, -2, 5) can be written (x + 1)/a = (y - 4)/b = (z - 2)/c. Enter (1) the value of a, (2) the value of b. .",
+    "prompt_html": "<p>The symmetric equations of the line through P(-1, 4, 2) and Q(3, -2, 5) can be written (x + 1)/a = (y - 4)/b = (z - 2)/c. Enter (1) the value of a, (2) the value of b. <span id=\"blank_28600cb6-f741-4e10-b675-3b87808d293e\"></span> <span id=\"blank_19dc0e34-41be-404e-9712-9b1bd5f93bb0\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "28600cb6-f741-4e10-b675-3b87808d293e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "19dc0e34-41be-404e-9712-9b1bd5f93bb0"
+        }
+      ]
+    }
+  },
+  {
+    "position": 11,
+    "quiz_entry_id": "45919",
+    "item_id": "53483",
+    "points": 3.0,
+    "slug": "numeric",
+    "prompt_text": "The planes 3x - y + 2z = 7 and x + 2y - z = -2 intersect in a line. The point on this line with z = 1 has x-coordinate ___. Enter it as a decimal to 3 s.f.",
+    "prompt_html": "<p>The planes 3x - y + 2z = 7 and x + 2y - z = -2 intersect in a line. The point on this line with z = 1 has x-coordinate ___. Enter it as a decimal to 3 s.f. <img style=\"max-width: 100%;\" src=\"https://quiz-api-production-s3-uploads-9bc92eovor5s.s3.amazonaws.com/quiz_assets/ff3adafe-ef27-43d4-b822-5e7ce993ccb3/2f64ea497ec0b1995fbcab74a46e79e1.png\" alt=\"Two nonparallel planes meeting in a line\"></p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 12,
+    "quiz_entry_id": "45919",
+    "item_id": "53486",
+    "points": 3.0,
+    "slug": "numeric",
+    "prompt_text": "The lines L1: r = (1, 0, 2) + t(1, 1, 0) and L2: r = (0, 1, 0) + s(0, 1, 1) are skew. Enter the distance between them as a decimal to 3 s.f.",
+    "prompt_html": "<p>The lines L1: r = (1, 0, 2) + t(1, 1, 0) and L2: r = (0, 1, 0) + s(0, 1, 1) are skew. Enter the distance between them as a decimal to 3 s.f.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 13,
+    "quiz_entry_id": "45912",
+    "item_id": "59481",
+    "points": 16.0,
+    "slug": "essay",
+    "prompt_text": "Consider the two lines in R3:\n L1: x = 1 + t, y = 2 - t, z = 3 + 2t, t in R\n L2: x = 2 - s, y = 1 + s, z = -1 + 2s, s in R\n (a) Determine, with full algebraic working, whether the lines are parallel, intersecting, or skew. Show every step of your reasoning.\n (b) If the lines intersect, find the point of intersection and verify it lies on both lines. If the lines are skew, explain in a full sentence what it means for two lines to be skew, and show how your algebra confirms this classification.",
+    "prompt_html": "<p>Consider the two lines in R3:</p>\n<p>L1: x = 1 + t, y = 2 - t, z = 3 + 2t, t in R</p>\n<p>L2: x = 2 - s, y = 1 + s, z = -1 + 2s, s in R</p>\n<p>&nbsp;</p>\n<p>(a) Determine, with full algebraic working, whether the lines are parallel, intersecting, or skew. Show every step of your reasoning.</p>\n<p>(b) If the lines intersect, find the point of intersection and verify it lies on both lines. If the lines are skew, explain in a full sentence what it means for two lines to be skew, and show how your algebra confirms this classification.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false
+    }
+  },
+  {
+    "position": 14,
+    "quiz_entry_id": "45912",
+    "item_id": "59482",
+    "points": 16.0,
+    "slug": "essay",
+    "prompt_text": "Find the Cartesian equation of the plane that contains the point P(1, -2, 0) and the line L: r = (0, 1, 1) + t(1, 2, -1), t in R.\n (a) Explain, in words, how you will obtain a normal vector to the plane, then carry out the calculation.\n (b) Write the Cartesian (scalar) equation of the plane.\n (c) Verify, with a calculation, that both the point P and at least one point on the line L satisfy your equation.",
+    "prompt_html": "<p>Find the Cartesian equation of the plane that contains the point P(1, -2, 0) and the line L: r = (0, 1, 1) + t(1, 2, -1), t in R.</p>\n<p>&nbsp;</p>\n<p>(a) Explain, in words, how you will obtain a normal vector to the plane, then carry out the calculation.</p>\n<p>(b) Write the Cartesian (scalar) equation of the plane.</p>\n<p>(c) Verify, with a calculation, that both the point P and at least one point on the line L satisfy your equation.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false
+    }
+  },
+  {
+    "position": 15,
+    "quiz_entry_id": "45916",
+    "item_id": "49492",
+    "points": 2.0,
+    "slug": "true-false",
+    "prompt_text": "True or false: two lines in R3 with direction vectors (1, 2, 3) and (2, 4, 6) must be the same line.",
+    "prompt_html": "<p>True or false: two lines in R3 with direction vectors (1, 2, 3) and (2, 4, 6) must be the same line.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "false_choice": "False",
+      "true_choice": "True"
+    }
+  },
+  {
+    "position": 16,
+    "quiz_entry_id": "45920",
+    "item_id": "49454",
+    "points": 3.0,
+    "slug": "choice",
+    "prompt_text": "Which statement about the line r = (4, 1, -2) + t(2, 2, 2) is FALSE?",
+    "prompt_html": "<p>Which statement about the line r = (4, 1, -2) + t(2, 2, 2) is FALSE?</p>",
+    "choices": [
+      {
+        "id": "4e075df3-c9db-4163-8031-a7cf336c6977",
+        "position": 1,
+        "text": "Its parametric equations are x = 4 + 2t, y = 1 + 2t, z = -2 - 2t.",
+        "html": "Its parametric equations are x = 4 + 2t, y = 1 + 2t, z = -2 - 2t."
+      },
+      {
+        "id": "fe58c52d-c9ba-4679-b456-5db47b208134",
+        "position": 2,
+        "text": "The point (6, 3, 0) lies on the line.",
+        "html": "The point (6, 3, 0) lies on the line."
+      },
+      {
+        "id": "87717929-b269-4d22-9b48-66e75d36f857",
+        "position": 3,
+        "text": "The line is parallel to the line r = s(1, 1, 1) through the origin.",
+        "html": "The line is parallel to the line r = s(1, 1, 1) through the origin."
+      },
+      {
+        "id": "4cbf3dd6-a8f0-4c2f-83ca-313d0840a435",
+        "position": 4,
+        "text": "Its direction vector can be simplified to (1, 1, 1).",
+        "html": "Its direction vector can be simplified to (1, 1, 1)."
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "Its parametric equations are x = 4 + 2t, y = 1 + 2t, z = -2 - 2t.",
+          "id": "4e075df3-c9db-4163-8031-a7cf336c6977",
+          "position": 1
+        },
+        {
+          "item_body": "The point (6, 3, 0) lies on the line.",
+          "id": "fe58c52d-c9ba-4679-b456-5db47b208134",
+          "position": 2
+        },
+        {
+          "item_body": "The line is parallel to the line r = s(1, 1, 1) through the origin.",
+          "id": "87717929-b269-4d22-9b48-66e75d36f857",
+          "position": 3
+        },
+        {
+          "item_body": "Its direction vector can be simplified to (1, 1, 1).",
+          "id": "4cbf3dd6-a8f0-4c2f-83ca-313d0840a435",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 17,
+    "quiz_entry_id": "45913",
+    "item_id": "49489",
+    "points": 2.0,
+    "slug": "ordering",
+    "prompt_text": "Put these steps for finding the intersection of a line and a plane in the correct order. Write the line in parametric formSubstitute the parametric expressions into the plane equationSolve the resulting equation for the parameter tSubstitute t back into the parametric equations to get the intersection point Put these steps for finding the intersection of a line and a plane in the correct order.",
+    "prompt_html": "<div>\n<div>Put these steps for finding the intersection of a line and a plane in the correct order.</div>Write the line in parametric formSubstitute the parametric expressions into the plane equationSolve the resulting equation for the parameter tSubstitute t back into the parametric equations to get the intersection point</div><div>Put these steps for finding the intersection of a line and a plane in the correct order.</div>",
+    "choices": [
+      {
+        "id": "c42ddf3c-f7f7-4bc5-b34f-9e86a19f2c35",
+        "position": null,
+        "text": "Solve the resulting equation for the parameter t",
+        "html": "Solve the resulting equation for the parameter t"
+      },
+      {
+        "id": "55fdb8ed-0dd8-4d8c-b3a7-aaa9f3196051",
+        "position": null,
+        "text": "Substitute the parametric expressions into the plane equation",
+        "html": "Substitute the parametric expressions into the plane equation"
+      },
+      {
+        "id": "4db0450c-ecc3-4a36-9d22-5aa7e8c71c9f",
+        "position": null,
+        "text": "Substitute t back into the parametric equations to get the intersection point",
+        "html": "Substitute t back into the parametric equations to get the intersection point"
+      },
+      {
+        "id": "6b5add7b-3b10-4ab1-b31b-fb45fcc5281a",
+        "position": null,
+        "text": "Write the line in parametric form",
+        "html": "Write the line in parametric form"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": {
+        "4db0450c-ecc3-4a36-9d22-5aa7e8c71c9f": {
+          "item_body": "Substitute t back into the parametric equations to get the intersection point",
+          "id": "4db0450c-ecc3-4a36-9d22-5aa7e8c71c9f"
+        },
+        "55fdb8ed-0dd8-4d8c-b3a7-aaa9f3196051": {
+          "item_body": "Substitute the parametric expressions into the plane equation",
+          "id": "55fdb8ed-0dd8-4d8c-b3a7-aaa9f3196051"
+        },
+        "6b5add7b-3b10-4ab1-b31b-fb45fcc5281a": {
+          "item_body": "Write the line in parametric form",
+          "id": "6b5add7b-3b10-4ab1-b31b-fb45fcc5281a"
+        },
+        "c42ddf3c-f7f7-4bc5-b34f-9e86a19f2c35": {
+          "item_body": "Solve the resulting equation for the parameter t",
+          "id": "c42ddf3c-f7f7-4bc5-b34f-9e86a19f2c35"
+        }
+      },
+      "shuffled_order": [
+        "c42ddf3c-f7f7-4bc5-b34f-9e86a19f2c35",
+        "55fdb8ed-0dd8-4d8c-b3a7-aaa9f3196051",
+        "4db0450c-ecc3-4a36-9d22-5aa7e8c71c9f",
+        "6b5add7b-3b10-4ab1-b31b-fb45fcc5281a"
+      ]
+    }
+  },
+  {
+    "position": 18,
+    "quiz_entry_id": "45912",
+    "item_id": "59483",
+    "points": 16.0,
+    "slug": "essay",
+    "prompt_text": "Consider the two lines in R3:\n L1: r = (1, 0, 1) + t(1, 0, 0), t in R\n L2: r = (0, 2, 0) + s(0, 1, 1), s in R\n (a) Show, with full algebraic working, that L1 and L2 are skew lines.\n (b) Find the distance between L1 and L2, showing every step of your calculation.\n (c) In one or two full sentences, explain what this distance represents geometrically.",
+    "prompt_html": "<p>Consider the two lines in R3:</p>\n<p>L1: r = (1, 0, 1) + t(1, 0, 0), t in R</p>\n<p>L2: r = (0, 2, 0) + s(0, 1, 1), s in R</p>\n<p>&nbsp;</p>\n<p>(a) Show, with full algebraic working, that L1 and L2 are skew lines.</p>\n<p>(b) Find the distance between L1 and L2, showing every step of your calculation.</p>\n<p>(c) In one or two full sentences, explain what this distance represents geometrically.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false
+    }
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56702",
+    "item_id": "69543",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] (Parts a and b only) ABCDEFGH is a rectangular prism, as shown in the diagram. a. Write a single vector that is equivalent to EG + GH + HD + DC: b. Write a vector that is equivalent to EG + GD + DE:",
+    "prompt_html": "<p>[K/U] (Parts a and b only) ABCDEFGH is a rectangular prism, as shown in the diagram. a. Write a single vector that is equivalent to EG + GH + HD + DC: <span id=\"blank_73bcccc0-4e92-4b08-b1c8-b6517de5a618\"></span> b. Write a vector that is equivalent to EG + GD + DE: <span id=\"blank_b65e9034-3e20-4fe7-928d-b02036a251f6\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "73bcccc0-4e92-4b08-b1c8-b6517de5a618"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b65e9034-3e20-4fe7-928d-b02036a251f6"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56702",
+    "item_id": "69544",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Write the following vector in simplified form: 3(a - 2b - 5c) - 3(2a - 4b + 2c) - (a - 3b + 3c) =",
+    "prompt_html": "<p>[K/U] Write the following vector in simplified form: 3(a - 2b - 5c) - 3(2a - 4b + 2c) - (a - 3b + 3c) = <span id=\"blank_b9f9b173-8ab6-4a73-a0bc-a6e2d4702f6c\"></span></p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "b9f9b173-8ab6-4a73-a0bc-a6e2d4702f6c"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56703",
+    "item_id": "69558",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] (Parts a-d only) The point P(-2, 4, -7) is located in R^3 as shown on the coordinate axes below. a. Determine the coordinates of points A, B, C, D, E, and F. A = , B = , C = , D = , E = , F = . b. What are the vectors associated with each of the points in part a.? OA = , OB = , OC = , OD = , OE = , OF = . c. How far below the xy-plane is the rectangle DEPF? units. d. What is the equation of the plane containing the points B, C, E, and P? The plane is y = .",
+    "prompt_html": "<p>[A] (Parts a-d only) The point P(-2, 4, -7) is located in R^3 as shown on the coordinate axes below. a. Determine the coordinates of points A, B, C, D, E, and F. A = <span id=\"blank_b90e7ba9-8cc7-4e68-8f47-e6cc534ca6f5\"></span>, B = <span id=\"blank_87c10e95-9443-470b-a72e-a0be5fc99eba\"></span>, C = <span id=\"blank_a46afee2-43a5-4de0-831b-216a5a73e273\"></span>, D = <span id=\"blank_07b01d12-b614-4242-9209-ab02a62d39be\"></span>, E = <span id=\"blank_0b750090-3fa1-41b7-911f-b1d2c849d805\"></span>, F = <span id=\"blank_fdbc03a2-0dfb-4b94-a9fc-f812e5ebd24a\"></span>. b. What are the vectors associated with each of the points in part a.? OA = <span id=\"blank_40cfa8d1-7772-4fda-b881-6203012b4b98\"></span>, OB = <span id=\"blank_7f47b168-75f3-4c96-80fc-fd2c00c5479f\"></span>, OC = <span id=\"blank_3212a0e4-a106-4ca3-a11e-51259e358092\"></span>, OD = <span id=\"blank_02f043ef-f9c9-4b44-a028-bd7b07697f9c\"></span>, OE = <span id=\"blank_0afb7750-a4b1-490e-8310-c45d74c8e431\"></span>, OF = <span id=\"blank_e634d745-64c4-439b-8068-6c6927d6e25a\"></span>. c. How far below the xy-plane is the rectangle DEPF? <span id=\"blank_1b15a1f3-1409-40b6-8259-e7e8c5f72f5c\"></span> units. d. What is the equation of the plane containing the points B, C, E, and P? The plane is y = <span id=\"blank_30460020-b315-43cc-a466-df5fdd8675d2\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 14,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "b90e7ba9-8cc7-4e68-8f47-e6cc534ca6f5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "87c10e95-9443-470b-a72e-a0be5fc99eba"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a46afee2-43a5-4de0-831b-216a5a73e273"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "07b01d12-b614-4242-9209-ab02a62d39be"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0b750090-3fa1-41b7-911f-b1d2c849d805"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fdbc03a2-0dfb-4b94-a9fc-f812e5ebd24a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "40cfa8d1-7772-4fda-b881-6203012b4b98"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7f47b168-75f3-4c96-80fc-fd2c00c5479f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3212a0e4-a106-4ca3-a11e-51259e358092"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "02f043ef-f9c9-4b44-a028-bd7b07697f9c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0afb7750-a4b1-490e-8310-c45d74c8e431"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e634d745-64c4-439b-8068-6c6927d6e25a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1b15a1f3-1409-40b6-8259-e7e8c5f72f5c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "30460020-b315-43cc-a466-df5fdd8675d2"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56703",
+    "item_id": "69559",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Show that if OP = (5, -10, -10), then |OP| = .",
+    "prompt_html": "<p>[K/U] Show that if OP = (5, -10, -10), then |OP| = <span id=\"blank_c526049b-49ed-4d4c-8007-67057c790889\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "c526049b-49ed-4d4c-8007-67057c790889"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56704",
+    "item_id": "69576",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[C] (Coordinates only) Rectangle ABCD has vertices at A(2, 3), B(-6, 9), C(x, y), and D(8, 11). Determine the coordinates of point C. C = ( , ).",
+    "prompt_html": "<p>[C] (Coordinates only) Rectangle ABCD has vertices at A(2, 3), B(-6, 9), C(x, y), and D(8, 11). Determine the coordinates of point C. C = (<span id=\"blank_71330850-3979-462d-9011-0301e995b108\"></span>, <span id=\"blank_6715e5c8-2042-4ada-9931-7d085ce86106\"></span>).</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "71330850-3979-462d-9011-0301e995b108"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6715e5c8-2042-4ada-9931-7d085ce86106"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56704",
+    "item_id": "69566",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] a. If a i + 5 j = (-3, b), determine the values of a and b. a = , b = . b. Calculate |(-3, b)| after finding b. |(-3, b)| = .",
+    "prompt_html": "<p>[K/U] a. If a i + 5 j = (-3, b), determine the values of a and b. a = <span id=\"blank_8fcc2475-de01-48e5-b549-66bcf9051429\"></span>, b = <span id=\"blank_70da016c-685e-4c95-bd68-fe14174722bc\"></span>. b. Calculate |(-3, b)| after finding b. |(-3, b)| = <span id=\"blank_b052b0a7-1ecc-48f6-ac1c-23eed024b483\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "8fcc2475-de01-48e5-b549-66bcf9051429"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "70da016c-685e-4c95-bd68-fe14174722bc"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b052b0a7-1ecc-48f6-ac1c-23eed024b483"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56705",
+    "item_id": "69598",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] (Parts b-d only) Triangle ABC has vertices A(-1, 1, 1), B(2, 0, 3), and C(3, 3, -4). b. Determine the area of the triangle. The area is square units. c. Determine the perimeter. The perimeter is units. d. Determine the fourth vertex D that completes the rectangle. D = .",
+    "prompt_html": "<p>[K/U] (Parts b-d only) Triangle ABC has vertices A(-1, 1, 1), B(2, 0, 3), and C(3, 3, -4). b. Determine the area of the triangle. The area is <span id=\"blank_63c8ab4a-ac71-43cc-afa1-1cefaedcb30c\"></span> square units. c. Determine the perimeter. The perimeter is <span id=\"blank_e454429f-abfc-42ed-8224-a96fc130b8ac\"></span> units. d. Determine the fourth vertex D that completes the rectangle. D = <span id=\"blank_639b97ae-c438-4fae-a167-5337f3e944bd\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "63c8ab4a-ac71-43cc-afa1-1cefaedcb30c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e454429f-abfc-42ed-8224-a96fc130b8ac"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "639b97ae-c438-4fae-a167-5337f3e944bd"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56705",
+    "item_id": "69599",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Calculate a, b, and c in each of the following. a. 2(a, b, 4) + (1/2)(6, 8, c) - 3(7, c, -4) = (-24, 3, 25). In a, a = , b = , c = . b. 2(a, a, (1/2)a) + (3b, 0, -5c) + 2(c, (3/2)c, 0) = (3, -22, 54). In b, a = , b = , c = .",
+    "prompt_html": "<p>[K/U] Calculate a, b, and c in each of the following. a. 2(a, b, 4) + (1/2)(6, 8, c) - 3(7, c, -4) = (-24, 3, 25). In a, a = <span id=\"blank_f57b9d46-a696-4d16-ac8f-e4f4410cf603\"></span>, b = <span id=\"blank_3f70e88a-6402-4425-93a2-6be39d741c92\"></span>, c = <span id=\"blank_8aa3386c-28f5-48b2-90ae-1bcd31213372\"></span>. b. 2(a, a, (1/2)a) + (3b, 0, -5c) + 2(c, (3/2)c, 0) = (3, -22, 54). In b, a = <span id=\"blank_94933dc0-58df-4358-afa3-ce60a5b4d21c\"></span>, b = <span id=\"blank_7c041acb-e2ac-4c6e-ab0b-029d86bd6ccb\"></span>, c = <span id=\"blank_f573dfc6-d82d-4b69-98c7-aa438e4ea161\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 6,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "f57b9d46-a696-4d16-ac8f-e4f4410cf603"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3f70e88a-6402-4425-93a2-6be39d741c92"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "8aa3386c-28f5-48b2-90ae-1bcd31213372"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "94933dc0-58df-4358-afa3-ce60a5b4d21c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7c041acb-e2ac-4c6e-ab0b-029d86bd6ccb"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f573dfc6-d82d-4b69-98c7-aa438e4ea161"
+        }
+      ]
+    }
+  }
+]

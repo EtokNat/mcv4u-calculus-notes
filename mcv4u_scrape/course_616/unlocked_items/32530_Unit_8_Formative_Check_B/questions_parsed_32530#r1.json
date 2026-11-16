@@ -1,0 +1,338 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "33966",
+    "item_id": "45095",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "You push a door with 50 N perpendicular to it — once at the handle (0.80 m from hinges) and once at 0.20 m from the hinges. The torques are…",
+    "prompt_html": "<p>You push a door with 50 N perpendicular to it — once at the handle (0.80 m from hinges) and once at 0.20 m from the hinges. The torques are…</p>",
+    "choices": [
+      {
+        "id": "da0d7e91-b361-4048-bf70-c8ba75bc8f67",
+        "position": 1,
+        "text": "10 N·m and 40 N·m",
+        "html": "<p>10 N·m and 40 N·m</p>"
+      },
+      {
+        "id": "559f0e2b-5628-4e63-9370-1a8dfd68dc91",
+        "position": 2,
+        "text": "40 N·m and 10 N·m",
+        "html": "<p>40 N·m and 10 N·m</p>"
+      },
+      {
+        "id": "426cd8dc-b2ba-438c-b7ac-4748b4ad4cea",
+        "position": 3,
+        "text": "50 N·m in both cases",
+        "html": "<p>50 N·m in both cases</p>"
+      },
+      {
+        "id": "7938bf09-caaa-48d0-a924-527880c5ecf0",
+        "position": 4,
+        "text": "0 N·m in both cases",
+        "html": "<p>0 N·m in both cases</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "da0d7e91-b361-4048-bf70-c8ba75bc8f67",
+          "item_body": "<p>10 N·m and 40 N·m</p>",
+          "position": 1
+        },
+        {
+          "id": "559f0e2b-5628-4e63-9370-1a8dfd68dc91",
+          "item_body": "<p>40 N·m and 10 N·m</p>",
+          "position": 2
+        },
+        {
+          "id": "426cd8dc-b2ba-438c-b7ac-4748b4ad4cea",
+          "item_body": "<p>50 N·m in both cases</p>",
+          "position": 3
+        },
+        {
+          "id": "7938bf09-caaa-48d0-a924-527880c5ecf0",
+          "item_body": "<p>0 N·m in both cases</p>",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "33905",
+    "item_id": "45028",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "A rope pulls a crate with 200 N at 30° above the horizontal; the crate moves 12 m. The work done is…",
+    "prompt_html": "<p>A rope pulls a crate with 200 N at 30° above the horizontal; the crate moves 12 m. The work done is…</p>",
+    "choices": [
+      {
+        "id": "0d2d2ada-58a9-4d64-8f23-444f9c287811",
+        "position": 1,
+        "text": "1200 J",
+        "html": "<p>1200 J</p>"
+      },
+      {
+        "id": "0ecf3d43-3444-4ac5-bf01-48b2fee1ff6a",
+        "position": 2,
+        "text": "≈ 2078 J",
+        "html": "<p>≈ 2078 J</p>"
+      },
+      {
+        "id": "2ad6ec4f-6f82-4369-9a5c-81ce923dbc8c",
+        "position": 3,
+        "text": "0 J",
+        "html": "<p>0 J</p>"
+      },
+      {
+        "id": "9c66d947-b37f-498b-b484-8ffc54f7a5d8",
+        "position": 4,
+        "text": "2400 J",
+        "html": "<p>2400 J</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "0d2d2ada-58a9-4d64-8f23-444f9c287811",
+          "item_body": "<p>1200 J</p>",
+          "position": 1
+        },
+        {
+          "id": "0ecf3d43-3444-4ac5-bf01-48b2fee1ff6a",
+          "item_body": "<p>≈ 2078 J</p>",
+          "position": 2
+        },
+        {
+          "id": "2ad6ec4f-6f82-4369-9a5c-81ce923dbc8c",
+          "item_body": "<p>0 J</p>",
+          "position": 3
+        },
+        {
+          "id": "9c66d947-b37f-498b-b484-8ffc54f7a5d8",
+          "item_body": "<p>2400 J</p>",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "33950",
+    "item_id": "45086",
+    "points": 12.0,
+    "slug": "numeric",
+    "prompt_text": "A lug nut needs 80 N·m of torque. You can push with 200 N perpendicular to the wrench. The wrench must be at least… (metres)",
+    "prompt_html": "<p>A lug nut needs 80 N·m of torque. You can push with 200 N perpendicular to the wrench. The wrench must be at least… (metres)</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "33937",
+    "item_id": "45069",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "Two movers push a piano 10 m: one pushes with 100 N straight along the hall, the other with 80 N at 30° to the hall. The total work done is…",
+    "prompt_html": "<p>Two movers push a piano 10 m: one pushes with 100 N straight along the hall, the other with 80 N at 30° to the hall. The total work done is…</p>",
+    "choices": [
+      {
+        "id": "c6425c34-0499-4290-be22-3f3c13e9a890",
+        "position": 1,
+        "text": "≈ 693 J",
+        "html": "<p>≈ 693 J</p>"
+      },
+      {
+        "id": "e97d3d56-377d-4255-92ea-3bade20ce43a",
+        "position": 2,
+        "text": "1800 J",
+        "html": "<p>1800 J</p>"
+      },
+      {
+        "id": "1fe142cd-628a-4a69-82cd-16aff2c78bba",
+        "position": 3,
+        "text": "≈ 1693 J",
+        "html": "<p>≈ 1693 J</p>"
+      },
+      {
+        "id": "9d99b558-516d-4dd8-8568-f5ce11413bb5",
+        "position": 4,
+        "text": "1000 J",
+        "html": "<p>1000 J</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "c6425c34-0499-4290-be22-3f3c13e9a890",
+          "item_body": "<p>≈ 693 J</p>",
+          "position": 1
+        },
+        {
+          "id": "e97d3d56-377d-4255-92ea-3bade20ce43a",
+          "item_body": "<p>1800 J</p>",
+          "position": 2
+        },
+        {
+          "id": "1fe142cd-628a-4a69-82cd-16aff2c78bba",
+          "item_body": "<p>≈ 1693 J</p>",
+          "position": 3
+        },
+        {
+          "id": "9d99b558-516d-4dd8-8568-f5ce11413bb5",
+          "item_body": "<p>1000 J</p>",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "33943",
+    "item_id": "45079",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "A 30 N force is applied perpendicular to a 0.50 m wrench. The torque magnitude is…",
+    "prompt_html": "<p>A 30 N force is applied perpendicular to a 0.50 m wrench. The torque magnitude is…</p>",
+    "choices": [
+      {
+        "id": "3d1bb781-a0b1-437e-a631-724d5249f912",
+        "position": 1,
+        "text": "15 N·m",
+        "html": "<p>15 N·m</p>"
+      },
+      {
+        "id": "68d6bc13-d369-4214-aae6-9ebaebb3cf98",
+        "position": 2,
+        "text": "7.5 N·m",
+        "html": "<p>7.5 N·m</p>"
+      },
+      {
+        "id": "0e6caf3c-d9b3-4071-b959-3d1533763569",
+        "position": 3,
+        "text": "15 J",
+        "html": "<p>15 J</p>"
+      },
+      {
+        "id": "c2db7a1f-171d-4ee0-8593-b67c07fbedf0",
+        "position": 4,
+        "text": "60 N·m",
+        "html": "<p>60 N·m</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "3d1bb781-a0b1-437e-a631-724d5249f912",
+          "item_body": "<p>15 N·m</p>",
+          "position": 1
+        },
+        {
+          "id": "68d6bc13-d369-4214-aae6-9ebaebb3cf98",
+          "item_body": "<p>7.5 N·m</p>",
+          "position": 2
+        },
+        {
+          "id": "0e6caf3c-d9b3-4071-b959-3d1533763569",
+          "item_body": "<p>15 J</p>",
+          "position": 3
+        },
+        {
+          "id": "c2db7a1f-171d-4ee0-8593-b67c07fbedf0",
+          "item_body": "<p>60 N·m</p>",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "33925",
+    "item_id": "45056",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "An 800 N crate is dragged 6 m while friction of 120 N opposes the motion. The work done BY friction is…",
+    "prompt_html": "<p>An 800 N crate is dragged 6 m while friction of 120 N opposes the motion. The work done BY friction is…</p>",
+    "choices": [
+      {
+        "id": "f38148b1-3e3b-45e7-909f-5d8024ef7d58",
+        "position": 1,
+        "text": "0 J",
+        "html": "<p>0 J</p>"
+      },
+      {
+        "id": "6aecd7a8-f9fb-411f-b96b-d9d099438cb0",
+        "position": 2,
+        "text": "−720 J",
+        "html": "<p>−720 J</p>"
+      },
+      {
+        "id": "63efb4c5-738b-46d2-86e0-eb5b8356be4d",
+        "position": 3,
+        "text": "4800 J",
+        "html": "<p>4800 J</p>"
+      },
+      {
+        "id": "b3c0526d-4866-4d43-9d3e-dc69ed0b58fc",
+        "position": 4,
+        "text": "720 J",
+        "html": "<p>720 J</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "f38148b1-3e3b-45e7-909f-5d8024ef7d58",
+          "item_body": "<p>0 J</p>",
+          "position": 1
+        },
+        {
+          "id": "6aecd7a8-f9fb-411f-b96b-d9d099438cb0",
+          "item_body": "<p>−720 J</p>",
+          "position": 2
+        },
+        {
+          "id": "63efb4c5-738b-46d2-86e0-eb5b8356be4d",
+          "item_body": "<p>4800 J</p>",
+          "position": 3
+        },
+        {
+          "id": "b3c0526d-4866-4d43-9d3e-dc69ed0b58fc",
+          "item_body": "<p>720 J</p>",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "33912",
+    "item_id": "45044",
+    "points": 13.0,
+    "slug": "numeric",
+    "prompt_text": "A winch does 5000 J of work pulling with 250 N over 30 m. The rope's angle above the direction of motion was… (degrees)",
+    "prompt_html": "<p>A winch does 5000 J of work pulling with 250 N over 30 m. The rope's angle above the direction of motion was… (degrees)</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "33984",
+    "item_id": "45109",
+    "points": 12.0,
+    "slug": "numeric",
+    "prompt_text": "A 40 kg child sits 1.5 m from a seesaw pivot. A 24 kg child must sit … from the pivot on the other side to balance. (metres)",
+    "prompt_html": "<p>A 40 kg child sits 1.5 m from a seesaw pivot. A 24 kg child must sit … from the pivot on the other side to balance. (metres)</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  }
+]

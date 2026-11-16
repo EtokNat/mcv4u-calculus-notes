@@ -1,0 +1,272 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Very confident</p>",
+            "id": "0adf18b1-01c4-4720-8bc2-26addea9ab6f",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Somewhat confident</p>",
+            "id": "a4809b11-2f49-42d0-8f3f-bd4bc75999f4",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Not very confident</p>",
+            "id": "803f5cd2-ff78-4ecd-b411-cb02db78a926",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Not confident at all</p>",
+            "id": "dfffc506-e65d-47ba-8e7c-e396a696dc6e",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>How confident are you now writing vector, parametric, and symmetric equations of a line in R3?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45084",
+      "label": null,
+      "title": "XQ1",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "33949",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Very confident</p>",
+            "id": "511e3b0e-4014-4146-b7b8-fdbe56bdc68d",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Somewhat confident</p>",
+            "id": "76101b0a-9ce2-40da-9aa1-58bb8d3d5018",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Not very confident</p>",
+            "id": "5210f4c7-88d9-4674-8fe7-fdf48549c5de",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Not confident at all</p>",
+            "id": "71981f8f-93a0-4e83-8bae-9acd0ab08b64",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>How confident are you now finding intersections (line-plane, two lines, two/three planes) and distances (point-line, point-plane, skew lines)?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45094",
+      "label": null,
+      "title": "XQ2",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "33959",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Vector and parametric equations of lines (8.1, 8.3)</p>",
+            "id": "d674409d-5144-40c7-8004-2283c3c472fc",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Cartesian equations and normals (8.2, 8.5)</p>",
+            "id": "a849a3d9-0693-49ce-b516-eefeb9af53db",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Intersections of lines and planes (9.1-9.4)</p>",
+            "id": "c401ca07-84d7-49d2-87be-561d51369e45",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Distances (9.5, 9.6)</p>",
+            "id": "6459507e-d3b7-4b88-ac19-1cbf523f2247",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Which part of this unit clicked best for you?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45101",
+      "label": null,
+      "title": "XQ3",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "33964",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Converting between equation forms</p>",
+            "id": "44e1d29b-fd64-44bd-b1b2-18e770d210de",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Classifying intersections (parallel/coincident/skew)</p>",
+            "id": "275b73b3-6737-4211-9387-fbf1ea1c401a",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Distance formulas</p>",
+            "id": "4dec6b9e-ac82-4d53-92bb-bb1347dd0ceb",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Sketching planes in R3</p>",
+            "id": "2163c238-daae-404b-9409-a9941625db43",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>What is still the muddiest point for you?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45112",
+      "label": null,
+      "title": "XQ4",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "33976",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>What is one thing you would tell a student starting this unit next term?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45116",
+      "label": null,
+      "title": "XQ5",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "33979",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  }
+]

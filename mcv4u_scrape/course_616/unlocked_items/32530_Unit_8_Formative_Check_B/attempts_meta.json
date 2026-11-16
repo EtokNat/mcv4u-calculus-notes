@@ -1,0 +1,268 @@
+[
+  {
+    "idx": 0,
+    "slug": "choice",
+    "points": 12.0,
+    "prompt": "You push a door with 50 N perpendicular to it \u2014 once at the handle (0.80 m from hinges) and once at 0.20 m from the hinges. The torques are\u2026",
+    "prompt_dom": "You push a door with 50 N perpendicular to it \u2014 once at the handle (0.80 m from hinges) and once at 0.20 m from the hinges. The torques are\u2026\n\n10 N\u00b7m and 40 N\u00b7m\n\n40 N\u00b7m and 10 N\u00b7m\n\n50 N\u00b7m in both cases\n\n0 N\u00b7m in both cases",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "da0d7e91-b361-4048-bf70-c8ba75bc8f67",
+        "position": 1,
+        "text": "10 N\u00b7m and 40 N\u00b7m",
+        "html": "<p>10 N\u00b7m and 40 N\u00b7m</p>"
+      },
+      {
+        "id": "559f0e2b-5628-4e63-9370-1a8dfd68dc91",
+        "position": 2,
+        "text": "40 N\u00b7m and 10 N\u00b7m",
+        "html": "<p>40 N\u00b7m and 10 N\u00b7m</p>"
+      },
+      {
+        "id": "426cd8dc-b2ba-438c-b7ac-4748b4ad4cea",
+        "position": 3,
+        "text": "50 N\u00b7m in both cases",
+        "html": "<p>50 N\u00b7m in both cases</p>"
+      },
+      {
+        "id": "7938bf09-caaa-48d0-a924-527880c5ecf0",
+        "position": 4,
+        "text": "0 N\u00b7m in both cases",
+        "html": "<p>0 N\u00b7m in both cases</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "40 N\u00b7m and 10 N\u00b7m"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 1,
+    "slug": "choice",
+    "points": 13.0,
+    "prompt": "A rope pulls a crate with 200 N at 30\u00b0 above the horizontal; the crate moves 12 m. The work done is\u2026",
+    "prompt_dom": "A rope pulls a crate with 200 N at 30\u00b0 above the horizontal; the crate moves 12 m. The work done is\u2026\n\n1200 J\n\n\u2248 2078 J\n\n0 J\n\n2400 J",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "0d2d2ada-58a9-4d64-8f23-444f9c287811",
+        "position": 1,
+        "text": "1200 J",
+        "html": "<p>1200 J</p>"
+      },
+      {
+        "id": "0ecf3d43-3444-4ac5-bf01-48b2fee1ff6a",
+        "position": 2,
+        "text": "\u2248 2078 J",
+        "html": "<p>\u2248 2078 J</p>"
+      },
+      {
+        "id": "2ad6ec4f-6f82-4369-9a5c-81ce923dbc8c",
+        "position": 3,
+        "text": "0 J",
+        "html": "<p>0 J</p>"
+      },
+      {
+        "id": "9c66d947-b37f-498b-b484-8ffc54f7a5d8",
+        "position": 4,
+        "text": "2400 J",
+        "html": "<p>2400 J</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "\u2248 2078 J"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 2,
+    "slug": "numeric",
+    "points": 12.0,
+    "prompt": "A lug nut needs 80 N\u00b7m of torque. You can push with 200 N perpendicular to the wrench. The wrench must be at least\u2026 (metres)",
+    "prompt_dom": "A lug nut needs 80 N\u00b7m of torque. You can push with 200 N perpendicular to the wrench. The wrench must be at least\u2026 (metres)\n\nAnswer\n\nA lug nut needs 80 N\u00b7m of torque. You can push with 200 N perpendicular to the wrench. The wrench must be at least\u2026 (metres)",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "0.4"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 3,
+    "slug": "choice",
+    "points": 13.0,
+    "prompt": "Two movers push a piano 10 m: one pushes with 100 N straight along the hall, the other with 80 N at 30\u00b0 to the hall. The total work done is\u2026",
+    "prompt_dom": "Two movers push a piano 10 m: one pushes with 100 N straight along the hall, the other with 80 N at 30\u00b0 to the hall. The total work done is\u2026\n\n\u2248 693 J\n\n1800 J\n\n\u2248 1693 J\n\n1000 J",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "c6425c34-0499-4290-be22-3f3c13e9a890",
+        "position": 1,
+        "text": "\u2248 693 J",
+        "html": "<p>\u2248 693 J</p>"
+      },
+      {
+        "id": "e97d3d56-377d-4255-92ea-3bade20ce43a",
+        "position": 2,
+        "text": "1800 J",
+        "html": "<p>1800 J</p>"
+      },
+      {
+        "id": "1fe142cd-628a-4a69-82cd-16aff2c78bba",
+        "position": 3,
+        "text": "\u2248 1693 J",
+        "html": "<p>\u2248 1693 J</p>"
+      },
+      {
+        "id": "9d99b558-516d-4dd8-8568-f5ce11413bb5",
+        "position": 4,
+        "text": "1000 J",
+        "html": "<p>1000 J</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "\u2248 1693 J"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 4,
+    "slug": "choice",
+    "points": 12.0,
+    "prompt": "A 30 N force is applied perpendicular to a 0.50 m wrench. The torque magnitude is\u2026",
+    "prompt_dom": "A 30 N force is applied perpendicular to a 0.50 m wrench. The torque magnitude is\u2026\n\n15 N\u00b7m\n\n7.5 N\u00b7m\n\n15 J\n\n60 N\u00b7m",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "3d1bb781-a0b1-437e-a631-724d5249f912",
+        "position": 1,
+        "text": "15 N\u00b7m",
+        "html": "<p>15 N\u00b7m</p>"
+      },
+      {
+        "id": "68d6bc13-d369-4214-aae6-9ebaebb3cf98",
+        "position": 2,
+        "text": "7.5 N\u00b7m",
+        "html": "<p>7.5 N\u00b7m</p>"
+      },
+      {
+        "id": "0e6caf3c-d9b3-4071-b959-3d1533763569",
+        "position": 3,
+        "text": "15 J",
+        "html": "<p>15 J</p>"
+      },
+      {
+        "id": "c2db7a1f-171d-4ee0-8593-b67c07fbedf0",
+        "position": 4,
+        "text": "60 N\u00b7m",
+        "html": "<p>60 N\u00b7m</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "15 N\u00b7m"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 5,
+    "slug": "choice",
+    "points": 13.0,
+    "prompt": "An 800 N crate is dragged 6 m while friction of 120 N opposes the motion. The work done BY friction is\u2026",
+    "prompt_dom": "An 800 N crate is dragged 6 m while friction of 120 N opposes the motion. The work done BY friction is\u2026\n\n0 J\n\n\u2212720 J\n\n4800 J\n\n720 J",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "f38148b1-3e3b-45e7-909f-5d8024ef7d58",
+        "position": 1,
+        "text": "0 J",
+        "html": "<p>0 J</p>"
+      },
+      {
+        "id": "6aecd7a8-f9fb-411f-b96b-d9d099438cb0",
+        "position": 2,
+        "text": "\u2212720 J",
+        "html": "<p>\u2212720 J</p>"
+      },
+      {
+        "id": "63efb4c5-738b-46d2-86e0-eb5b8356be4d",
+        "position": 3,
+        "text": "4800 J",
+        "html": "<p>4800 J</p>"
+      },
+      {
+        "id": "b3c0526d-4866-4d43-9d3e-dc69ed0b58fc",
+        "position": 4,
+        "text": "720 J",
+        "html": "<p>720 J</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "\u2212720 J"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 6,
+    "slug": "numeric",
+    "points": 13.0,
+    "prompt": "A winch does 5000 J of work pulling with 250 N over 30 m. The rope's angle above the direction of motion was\u2026 (degrees)",
+    "prompt_dom": "A winch does 5000 J of work pulling with 250 N over 30 m. The rope's angle above the direction of motion was\u2026 (degrees)\n\nAnswer\n\nA winch does 5000 J of work pulling with 250 N over 30 m. The rope's angle above the direction of motion was\u2026 (degrees)",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "48.19"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 7,
+    "slug": "numeric",
+    "points": 12.0,
+    "prompt": "A 40 kg child sits 1.5 m from a seesaw pivot. A 24 kg child must sit \u2026 from the pivot on the other side to balance. (metres)",
+    "prompt_dom": "A 40 kg child sits 1.5 m from a seesaw pivot. A 24 kg child must sit \u2026 from the pivot on the other side to balance. (metres)\n\nAnswer\n\nA 40 kg child sits 1.5 m from a seesaw pivot. A 24 kg child must sit \u2026 from the pivot on the other side to balance. (metres)",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "2.5"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  }
+]

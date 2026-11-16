@@ -1,0 +1,199 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56702",
+    "item_id": "69547",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] (Part a only) A cube is constructed from the three vectors a, b, and c, as shown in the diagram. Express each of the diagonals AG, BH, CE, and DF in terms of a, b, and c. AG = , BH = , CE = , DF =",
+    "prompt_html": "<p>[A] (Part a only) A cube is constructed from the three vectors a, b, and c, as shown in the diagram. Express each of the diagonals AG, BH, CE, and DF in terms of a, b, and c. AG = <span id=\"blank_d38ba26d-afa4-4263-b77f-da979febc734\"></span>, BH = <span id=\"blank_f5db5c45-0cfd-4d64-b6c0-1d29e1b70a1e\"></span>, CE = <span id=\"blank_30686aaa-bb76-41e5-b579-cdb4442bda66\"></span>, DF = <span id=\"blank_f6371d85-1a06-4cd3-830b-0a5725931cc3\"></span></p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "d38ba26d-afa4-4263-b77f-da979febc734"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f5db5c45-0cfd-4d64-b6c0-1d29e1b70a1e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "30686aaa-bb76-41e5-b579-cdb4442bda66"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f6371d85-1a06-4cd3-830b-0a5725931cc3"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56702",
+    "item_id": "69548",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] In the trapezoid TXYZ, TX = 2 ZY. If the diagonals meet at O, find an expression for TO in terms of TX and TZ. TO =",
+    "prompt_html": "<p>[T] In the trapezoid TXYZ, TX = 2 ZY. If the diagonals meet at O, find an expression for TO in terms of TX and TZ. TO = <span id=\"blank_78932cac-750e-4bb1-a604-e28a09affa02\"></span></p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "78932cac-750e-4bb1-a604-e28a09affa02"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56703",
+    "item_id": "69559",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Show that if OP = (5, -10, -10), then |OP| = .",
+    "prompt_html": "<p>[K/U] Show that if OP = (5, -10, -10), then |OP| = <span id=\"blank_c526049b-49ed-4d4c-8007-67057c790889\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "c526049b-49ed-4d4c-8007-67057c790889"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56703",
+    "item_id": "69553",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] (Part b only) a. Draw a set of x-, y-, and z-axes and plot the following points: A(3, 2, -4), B(1, 1, -4), and C(0, 1, -4). b. Determine the equation of the plane containing the points A, B, and C. The plane is z = .",
+    "prompt_html": "<p>[K/U] (Part b only) a. Draw a set of x-, y-, and z-axes and plot the following points: A(3, 2, -4), B(1, 1, -4), and C(0, 1, -4). b. Determine the equation of the plane containing the points A, B, and C. The plane is z = <span id=\"blank_2a526967-96a6-441c-85f3-6b7561b7d239\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "2a526967-96a6-441c-85f3-6b7561b7d239"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56704",
+    "item_id": "69570",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Using x and y given in question 7 (x = 2i - j and y = -i + 5j), determine each of the following: a. |x + y| = . b. |x - y| = . c. |2x - 3y| = . d. |3y - 2x| = .",
+    "prompt_html": "<p>[K/U] Using x and y given in question 7 (x = 2i - j and y = -i + 5j), determine each of the following: a. |x + y| = <span id=\"blank_56f74535-0c0b-4d43-9c7d-a4ec330a1f31\"></span>. b. |x - y| = <span id=\"blank_3b30aca5-5fce-418d-a607-ec0fabe1dd34\"></span>. c. |2x - 3y| = <span id=\"blank_c4f894c8-f778-42a6-ba19-d1044d084443\"></span>. d. |3y - 2x| = <span id=\"blank_c4a0d916-ddf2-47bd-93d7-dd4cf7022f0e\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "56f74535-0c0b-4d43-9c7d-a4ec330a1f31"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3b30aca5-5fce-418d-a607-ec0fabe1dd34"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c4f894c8-f778-42a6-ba19-d1044d084443"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c4a0d916-ddf2-47bd-93d7-dd4cf7022f0e"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56704",
+    "item_id": "69565",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "[K/U] For the vector OA = 3i - 4j, calculate |OA|.",
+    "prompt_html": "<p>[K/U] For the vector OA = 3i - 4j, calculate |OA|.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56705",
+    "item_id": "69589",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Given A(-2, -6, 3) and B(3, -4, 12), determine each of the following. a. |OA| = . b. |OB| = . c. AB = . d. |AB| = . e. BA = . f. |BA| = .",
+    "prompt_html": "<p>[K/U] Given A(-2, -6, 3) and B(3, -4, 12), determine each of the following. a. |OA| = <span id=\"blank_f933a32a-5718-4d21-9502-e30238eb43ab\"></span>. b. |OB| = <span id=\"blank_b00f61e1-5aee-40a5-82b5-5ee56a06b0a6\"></span>. c. AB = <span id=\"blank_78c3ef5c-4b02-461e-8277-890cb1068268\"></span>. d. |AB| = <span id=\"blank_f916f24c-cd65-4365-8f0e-212071bc7f39\"></span>. e. BA = <span id=\"blank_7877c0b7-3524-454e-a5b7-5741b7f86cb8\"></span>. f. |BA| = <span id=\"blank_9a140226-71bc-420c-b250-d51b20db1f07\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 6,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "f933a32a-5718-4d21-9502-e30238eb43ab"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b00f61e1-5aee-40a5-82b5-5ee56a06b0a6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "78c3ef5c-4b02-461e-8277-890cb1068268"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f916f24c-cd65-4365-8f0e-212071bc7f39"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7877c0b7-3524-454e-a5b7-5741b7f86cb8"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9a140226-71bc-420c-b250-d51b20db1f07"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56705",
+    "item_id": "69590",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Given 2x + y - 2z = 0, x = (-1, b, c), y = (a, -2, c), and z = (-a, 6, c), determine a, b, and c. a = , b = , c = .",
+    "prompt_html": "<p>[K/U] Given 2x + y - 2z = 0, x = (-1, b, c), y = (a, -2, c), and z = (-a, 6, c), determine a, b, and c. a = <span id=\"blank_187bf16c-e04d-49bd-a78a-0ea0016ffb04\"></span>, b = <span id=\"blank_7f890d79-f2fd-4aaf-8e9a-64c4511a5fee\"></span>, c = <span id=\"blank_a089c712-bc00-4899-8474-e722c64ccb84\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "187bf16c-e04d-49bd-a78a-0ea0016ffb04"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7f890d79-f2fd-4aaf-8e9a-64c4511a5fee"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a089c712-bc00-4899-8474-e722c64ccb84"
+        }
+      ]
+    }
+  }
+]

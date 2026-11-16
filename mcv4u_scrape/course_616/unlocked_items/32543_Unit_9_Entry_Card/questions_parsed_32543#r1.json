@@ -1,0 +1,263 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "33855",
+    "item_id": "44984",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "Before we start equations of lines and planes: the vector from A(1, 2) to B(5, 10) is...",
+    "prompt_html": "<p>Before we start equations of lines and planes: the vector from A(1, 2) to B(5, 10) is...</p>",
+    "choices": [
+      {
+        "id": "f4d4d3cc-7165-4564-b044-f025847546d0",
+        "position": 1,
+        "text": "(4, 8)",
+        "html": "<p>(4, 8)</p>"
+      },
+      {
+        "id": "cc0aeafe-c409-450d-8923-7e5c004883b7",
+        "position": 2,
+        "text": "(6, 12)",
+        "html": "<p>(6, 12)</p>"
+      },
+      {
+        "id": "106fbc41-1ffe-4609-8dcf-ec0ef69a66f7",
+        "position": 3,
+        "text": "(-4, -8)",
+        "html": "<p>(-4, -8)</p>"
+      },
+      {
+        "id": "90cf0599-2f1f-44a9-8c6d-cdff24e704ac",
+        "position": 4,
+        "text": "(5, 10)",
+        "html": "<p>(5, 10)</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>(4, 8)</p>",
+          "id": "f4d4d3cc-7165-4564-b044-f025847546d0",
+          "position": 1
+        },
+        {
+          "item_body": "<p>(6, 12)</p>",
+          "id": "cc0aeafe-c409-450d-8923-7e5c004883b7",
+          "position": 2
+        },
+        {
+          "item_body": "<p>(-4, -8)</p>",
+          "id": "106fbc41-1ffe-4609-8dcf-ec0ef69a66f7",
+          "position": 3
+        },
+        {
+          "item_body": "<p>(5, 10)</p>",
+          "id": "90cf0599-2f1f-44a9-8c6d-cdff24e704ac",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "33860",
+    "item_id": "44990",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "The dot product (1, 2) · (3, -1) equals...",
+    "prompt_html": "<p>The dot product (1, 2) · (3, -1) equals...</p>",
+    "choices": [
+      {
+        "id": "9e9aa622-63c2-4065-b751-cc740d27c4ec",
+        "position": 1,
+        "text": "1",
+        "html": "<p>1</p>"
+      },
+      {
+        "id": "bbcedb76-517c-4eed-ba45-4da394a964ab",
+        "position": 2,
+        "text": "5",
+        "html": "<p>5</p>"
+      },
+      {
+        "id": "49800650-c69a-4114-8207-3885d7c4d24f",
+        "position": 3,
+        "text": "-1",
+        "html": "<p>-1</p>"
+      },
+      {
+        "id": "92dd997e-66d3-43b1-b4b5-8ef39ec7ff09",
+        "position": 4,
+        "text": "(3, -2)",
+        "html": "<p>(3, -2)</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>1</p>",
+          "id": "9e9aa622-63c2-4065-b751-cc740d27c4ec",
+          "position": 1
+        },
+        {
+          "item_body": "<p>5</p>",
+          "id": "bbcedb76-517c-4eed-ba45-4da394a964ab",
+          "position": 2
+        },
+        {
+          "item_body": "<p>-1</p>",
+          "id": "49800650-c69a-4114-8207-3885d7c4d24f",
+          "position": 3
+        },
+        {
+          "item_body": "<p>(3, -2)</p>",
+          "id": "92dd997e-66d3-43b1-b4b5-8ef39ec7ff09",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "33866",
+    "item_id": "44993",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "How confident are you working with coordinates in 3D (points like (2, -1, 5))?",
+    "prompt_html": "<p>How confident are you working with coordinates in 3D (points like (2, -1, 5))?</p>",
+    "choices": [
+      {
+        "id": "81c9a72f-aa68-4832-ab09-983bd30e1064",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "209e4baa-e64c-4d93-b2d8-1ccf82e6e59c",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "2705e924-4c1f-4c4d-9bf4-44e572d10214",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "fd2d1e86-2641-433b-9734-62bf20d7e4a6",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>Very confident</p>",
+          "id": "81c9a72f-aa68-4832-ab09-983bd30e1064",
+          "position": 1
+        },
+        {
+          "item_body": "<p>Somewhat confident</p>",
+          "id": "209e4baa-e64c-4d93-b2d8-1ccf82e6e59c",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Not very confident</p>",
+          "id": "2705e924-4c1f-4c4d-9bf4-44e572d10214",
+          "position": 3
+        },
+        {
+          "item_body": "<p>Not confident at all</p>",
+          "id": "fd2d1e86-2641-433b-9734-62bf20d7e4a6",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "33877",
+    "item_id": "45005",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "How confident are you solving a system of equations (for example, 2x + 3y = 7 and x - y = 1)?",
+    "prompt_html": "<p>How confident are you solving a system of equations (for example, 2x + 3y = 7 and x - y = 1)?</p>",
+    "choices": [
+      {
+        "id": "454f9077-595c-4e91-baba-f9f0f6103583",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "d12626c1-dbe8-4447-b044-e60a17ca0b4e",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "51c12849-d6aa-416b-a7a9-c03b87670f02",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "436efc46-cabb-4ff9-8655-21d106973680",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>Very confident</p>",
+          "id": "454f9077-595c-4e91-baba-f9f0f6103583",
+          "position": 1
+        },
+        {
+          "item_body": "<p>Somewhat confident</p>",
+          "id": "d12626c1-dbe8-4447-b044-e60a17ca0b4e",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Not very confident</p>",
+          "id": "51c12849-d6aa-416b-a7a9-c03b87670f02",
+          "position": 3
+        },
+        {
+          "item_body": "<p>Not confident at all</p>",
+          "id": "436efc46-cabb-4ff9-8655-21d106973680",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "33879",
+    "item_id": "45009",
+    "points": 1.0,
+    "slug": "essay",
+    "prompt_text": "What is one goal you have for this unit on equations of lines and planes?",
+    "prompt_html": "<p>What is one goal you have for this unit on equations of lines and planes?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false
+    }
+  }
+]

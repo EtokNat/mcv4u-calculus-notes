@@ -1,0 +1,502 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56108",
+    "item_id": "65268",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] A function f is differentiable at all points in its domain, and f'(x) = (x - 1)(x + 2)(x + 3). Determine where f is increasing and where it is decreasing.\n f is increasing on ; f is decreasing on .",
+    "prompt_html": "<p>[K/U] A function f is differentiable at all points in its domain, and f'(x) = (x - 1)(x + 2)(x + 3). Determine where f is increasing and where it is decreasing.</p>\n<p>f is increasing on <span id=\"blank_77253821-e1ba-481f-9a8d-865c64dc70d0\"></span>; f is decreasing on <span id=\"blank_ac63ff6d-2418-49fc-9609-b03efe52cc1f\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "77253821-e1ba-481f-9a8d-865c64dc70d0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ac63ff6d-2418-49fc-9609-b03efe52cc1f"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56108",
+    "item_id": "65276",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Each graph is the graph of the derivative f'(x) of a function f(x). For each graph, determine i. the interval(s) on which f is increasing; ii. the interval(s) on which f is decreasing; iii. the x-coordinate(s) of any local extrema of f. Then, assuming f(0) = 2, make a rough sketch of f.\n a. graph a: f is increasing on ; f is decreasing on ; local extremum at x = \n b. graph b: f is increasing on ; f is decreasing on ; local extrema at x = and \n c. graph c: f is increasing on ; f is decreasing on ; local extrema at x = and \n d. graph d: f is increasing on ; f is decreasing on ; local extremum at x =",
+    "prompt_html": "<p>[K/U] Each graph is the graph of the derivative f'(x) of a function f(x). For each graph, determine i. the interval(s) on which f is increasing; ii. the interval(s) on which f is decreasing; iii. the x-coordinate(s) of any local extrema of f. Then, assuming f(0) = 2, make a rough sketch of f.</p>\n<p><img id=\"55741\" src=\"https://inst-fs-iad-prod.inscloudgate.net/files/7839b232-12b8-4ff0-b2e7-ceb57936f38c/ex41_q9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy83ODM5YjIzMi0xMmI4LTRmZjAtYjJlNy1jZWI1NzkzNmYzOGMvZXg0MV9xOS5wbmciLCJ0ZW5hbnRfYXV0aCI6eyJsb2NhdGlvbiI6ImJhbmsvMjQyNjAwMDAwMDAwMDA1MDYifSwiZXhwIjoxNzk0NzkxODAzLCJpYXQiOjE3OTQ3NDUwMDMsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLWlhZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.QMguaxOEG5WL5HZxY8TgGT8hHbsxIxsscnTLfEQ1QFXohzu6FcQ7nSRgdKP5QqAUrrl0fuoVvRDhcq6aeyXkAQ\" alt=\"ex41_q9.png\" data-old-link=\"/courses/905/files/55741/preview\"></p>\n<p>a. graph a: f is increasing on <span id=\"blank_3818dbf0-cb2e-46e5-84dc-bb52ca611cf3\"></span>; f is decreasing on <span id=\"blank_8960b56a-6054-4567-b878-34d5283115b1\"></span>; local extremum at x = <span id=\"blank_7663d34c-879d-42fa-befb-b4e256b4fbb5\"></span></p>\n<p>b. graph b: f is increasing on <span id=\"blank_a8babafc-c0ff-41ed-9349-b252ba4d9ee5\"></span>; f is decreasing on <span id=\"blank_5e5ad41c-f9c2-4431-80d6-1550af62e160\"></span>; local extrema at x = <span id=\"blank_267195f5-8a7e-4037-934c-c9dc2b59ff31\"></span> and <span id=\"blank_1e6de521-5b35-4291-a862-9516b125180a\"></span></p>\n<p>c. graph c: f is increasing on <span id=\"blank_6531e858-4c3d-4692-b501-cc5957f46a18\"></span>; f is decreasing on <span id=\"blank_2c142aa6-d685-4f72-87d8-af3edeee304a\"></span>; local extrema at x = <span id=\"blank_5f9bd3b8-597f-42fb-8bf8-43c1ee222bac\"></span> and <span id=\"blank_1a0dd179-c861-4f6b-ad84-0f19d128eab2\"></span></p>\n<p>d. graph d: f is increasing on <span id=\"blank_fd1c2441-75b0-4b91-af34-74ecae24122b\"></span>; f is decreasing on <span id=\"blank_4e61a3a7-b263-4c89-be16-69a26cf83f05\"></span>; local extremum at x = <span id=\"blank_bd104121-3813-49c1-bf60-25531b84ef72\"></span></p>",
+    "choices": [],
+    "num_blanks": 14,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "3818dbf0-cb2e-46e5-84dc-bb52ca611cf3"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "8960b56a-6054-4567-b878-34d5283115b1"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7663d34c-879d-42fa-befb-b4e256b4fbb5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a8babafc-c0ff-41ed-9349-b252ba4d9ee5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5e5ad41c-f9c2-4431-80d6-1550af62e160"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "267195f5-8a7e-4037-934c-c9dc2b59ff31"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1e6de521-5b35-4291-a862-9516b125180a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6531e858-4c3d-4692-b501-cc5957f46a18"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "2c142aa6-d685-4f72-87d8-af3edeee304a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5f9bd3b8-597f-42fb-8bf8-43c1ee222bac"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1a0dd179-c861-4f6b-ad84-0f19d128eab2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fd1c2441-75b0-4b91-af34-74ecae24122b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "4e61a3a7-b263-4c89-be16-69a26cf83f05"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bd104121-3813-49c1-bf60-25531b84ef72"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56108",
+    "item_id": "65266",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] For each graph, determine\n i. the interval(s) on which the function is increasing\n ii. the interval(s) on which the function is decreasing\n iii. the point(s) where the tangent to the graph is horizontal\n a. graph a: increasing ; decreasing ; horizontal-tangent points and \n b. graph b: increasing ; decreasing ; horizontal-tangent points and \n c. graph c: increasing ; decreasing ; horizontal-tangent points \n d. graph d: increasing ; decreasing ; horizontal-tangent point",
+    "prompt_html": "<p>[K/U] For each graph, determine</p>\n<p>i. the interval(s) on which the function is increasing</p>\n<p>ii. the interval(s) on which the function is decreasing</p>\n<p>iii. the point(s) where the tangent to the graph is horizontal</p>\n<p><img id=\"55740\" src=\"https://inst-fs-iad-prod.inscloudgate.net/files/cf31e843-4d9a-4a0c-b140-e5c46b5b83dd/ex41_q3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9jZjMxZTg0My00ZDlhLTRhMGMtYjE0MC1lNWM0NmI1YjgzZGQvZXg0MV9xMy5wbmciLCJ0ZW5hbnRfYXV0aCI6eyJsb2NhdGlvbiI6ImJhbmsvMjQyNjAwMDAwMDAwMDA1MDYifSwiZXhwIjoxNzk0Nzk0MjM4LCJpYXQiOjE3OTQ3NDc0MzgsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLWlhZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.Ysls6v_5YG5JYJAdLNa7rqxmbhz_o6TAFhwiC8EmdXl48-c0N2W4DIIRN1XZkM2H-iJll29YaCZbeh2bRJSfxQ\" alt=\"ex41_q3.png\" data-old-link=\"/courses/905/files/55740/preview\"></p>\n<p>a. graph a: increasing <span id=\"blank_ac625bdb-8749-4c62-93e9-f91171167135\"></span>; decreasing <span id=\"blank_db4a3512-df09-48d8-ab5a-24bad88be79c\"></span>; horizontal-tangent points <span id=\"blank_9c2e8553-1877-4371-8b10-24ddd3b272b4\"></span> and <span id=\"blank_afc99965-0833-4d47-8f02-f3c72b63fb41\"></span></p>\n<p>b. graph b: increasing <span id=\"blank_4316cb70-350c-42c1-847f-20505d78f2a4\"></span>; decreasing <span id=\"blank_100a3a56-26b3-492c-9fda-cd30ea4c92a2\"></span>; horizontal-tangent points <span id=\"blank_fc2d009b-56a7-4f3a-a233-81675304d133\"></span> and <span id=\"blank_26a5ec49-92d3-412d-9a62-3fe41ae9614b\"></span></p>\n<p>c. graph c: increasing <span id=\"blank_fec9daf8-91c7-449a-8380-928fe927f800\"></span>; decreasing <span id=\"blank_892012f7-e116-4c00-9afd-a1d772f5e358\"></span>; horizontal-tangent points <span id=\"blank_6d9d4055-27d9-4336-acb5-5863f8f6153f\"></span></p>\n<p>d. graph d: increasing <span id=\"blank_d38f8cc9-35f3-4db8-a0c5-706151bd3627\"></span>; decreasing <span id=\"blank_2b0a011f-bbcd-4b7f-a8e0-c984239d73fa\"></span>; horizontal-tangent point <span id=\"blank_bd65568d-4f31-40f0-b59f-35d0ce25ab68\"></span></p>",
+    "choices": [],
+    "num_blanks": 14,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "ac625bdb-8749-4c62-93e9-f91171167135"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "db4a3512-df09-48d8-ab5a-24bad88be79c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9c2e8553-1877-4371-8b10-24ddd3b272b4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "afc99965-0833-4d47-8f02-f3c72b63fb41"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "4316cb70-350c-42c1-847f-20505d78f2a4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "100a3a56-26b3-492c-9fda-cd30ea4c92a2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fc2d009b-56a7-4f3a-a233-81675304d133"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "26a5ec49-92d3-412d-9a62-3fe41ae9614b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fec9daf8-91c7-449a-8380-928fe927f800"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "892012f7-e116-4c00-9afd-a1d772f5e358"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6d9d4055-27d9-4336-acb5-5863f8f6153f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d38f8cc9-35f3-4db8-a0c5-706151bd3627"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "2b0a011f-bbcd-4b7f-a8e0-c984239d73fa"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bd65568d-4f31-40f0-b59f-35d0ce25ab68"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56108",
+    "item_id": "65267",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Use a graphing calculator to graph each function. Estimate the intervals where the function is increasing and decreasing.\n a. f(x) = x^3 + 3x^2 + 1; increasing ; decreasing \n b. f(x) = x^5 - 5x^4 + 100; increasing ; decreasing \n c. f(x) = x + 1/x; increasing ; decreasing \n d. f(x) = (x - 1)/(x^2 + 3); increasing ; decreasing \n e. f(x) = 3x^4 + 4x^3 - 12x^2; increasing ; decreasing \n f. f(x) = x^4 + x^2 - 1; increasing ; decreasing",
+    "prompt_html": "<p>[K/U] Use a graphing calculator to graph each function. Estimate the intervals where the function is increasing and decreasing.</p>\n<p>a. f(x) = x^3 + 3x^2 + 1; increasing <span id=\"blank_189d986b-bcce-45b4-8d86-ee6b7c785810\"></span>; decreasing <span id=\"blank_6d3f09a8-3909-4247-bcea-a19d87f34ee4\"></span></p>\n<p>b. f(x) = x^5 - 5x^4 + 100; increasing <span id=\"blank_3f619b8a-45fc-43b7-9d5a-7704159b8254\"></span>; decreasing <span id=\"blank_87dcc71a-ba57-4961-81d0-4e207cb5d17c\"></span></p>\n<p>c. f(x) = x + 1/x; increasing <span id=\"blank_0986b0e4-6a28-4cc9-8b3e-962d367d482d\"></span>; decreasing <span id=\"blank_0c8b985b-9381-409e-a805-73e7261adbfe\"></span></p>\n<p>d. f(x) = (x - 1)/(x^2 + 3); increasing <span id=\"blank_a95d648b-2f4d-4dd6-9e8e-e21dbeecf85e\"></span>; decreasing <span id=\"blank_83810b6c-e42c-40f7-8eb8-029abfd6fabb\"></span></p>\n<p>e. f(x) = 3x^4 + 4x^3 - 12x^2; increasing <span id=\"blank_800fef86-4a75-483b-b2e9-d851f88ff08e\"></span>; decreasing <span id=\"blank_968f180f-2d6b-48e0-979e-9066c999859c\"></span></p>\n<p>f. f(x) = x^4 + x^2 - 1; increasing <span id=\"blank_70253ecc-808f-4384-b784-a3073136418f\"></span>; decreasing <span id=\"blank_c9670787-7893-4f7b-8a6a-51e482d1c218\"></span></p>",
+    "choices": [],
+    "num_blanks": 12,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "189d986b-bcce-45b4-8d86-ee6b7c785810"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6d3f09a8-3909-4247-bcea-a19d87f34ee4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3f619b8a-45fc-43b7-9d5a-7704159b8254"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "87dcc71a-ba57-4961-81d0-4e207cb5d17c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0986b0e4-6a28-4cc9-8b3e-962d367d482d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0c8b985b-9381-409e-a805-73e7261adbfe"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a95d648b-2f4d-4dd6-9e8e-e21dbeecf85e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "83810b6c-e42c-40f7-8eb8-029abfd6fabb"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "800fef86-4a75-483b-b2e9-d851f88ff08e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "968f180f-2d6b-48e0-979e-9066c999859c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "70253ecc-808f-4384-b784-a3073136418f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c9670787-7893-4f7b-8a6a-51e482d1c218"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56109",
+    "item_id": "65296",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "a. Determine the critical points of the function g(x) = 2x^4 - 8x^3 - x^2 + 6x.\n critical x-values: , , \n b. Classify each critical point as a local maximum, a local minimum, or neither.\n is a ; is a ; is a",
+    "prompt_html": "<p>a. Determine the critical points of the function g(x) = 2x^4 - 8x^3 - x^2 + 6x.</p>\n<p>critical x-values: <span id=\"blank_602f00c7-6971-44e6-a7bf-604f23fa2326\"></span>, <span id=\"blank_5ec9de6d-0cda-429d-8162-13dc0f217fb1\"></span>, <span id=\"blank_48ba39b6-418a-4778-abb7-a7e620b65a1a\"></span></p>\n<p>b. Classify each critical point as a local maximum, a local minimum, or neither.</p>\n<p><span id=\"blank_a5e6861a-aec9-47d2-866f-fb8887a103e0\"></span> is a <span id=\"blank_3c339eab-ca27-4120-b8f6-3fbba8778f22\"></span>; <span id=\"blank_09e7a25b-1e5d-4337-9a73-0f33fc24be42\"></span> is a <span id=\"blank_6b9305b9-98f9-40da-8ab9-e2358f8072fc\"></span>; <span id=\"blank_7224a010-f1d6-4af2-9fd4-a99d45bcc152\"></span> is a <span id=\"blank_24921391-07ee-41a1-b881-830553d67904\"></span></p>",
+    "choices": [],
+    "num_blanks": 9,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "602f00c7-6971-44e6-a7bf-604f23fa2326"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5ec9de6d-0cda-429d-8162-13dc0f217fb1"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "48ba39b6-418a-4778-abb7-a7e620b65a1a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a5e6861a-aec9-47d2-866f-fb8887a103e0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3c339eab-ca27-4120-b8f6-3fbba8778f22"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "09e7a25b-1e5d-4337-9a73-0f33fc24be42"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6b9305b9-98f9-40da-8ab9-e2358f8072fc"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7224a010-f1d6-4af2-9fd4-a99d45bcc152"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "24921391-07ee-41a1-b881-830553d67904"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56109",
+    "item_id": "65281",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] For each function, determine the critical points and classify them as local maxima or local minima, or neither. Sketch the graph of each function.\n a. f(x) = -2x^2 + 8x + 13; critical point: ( )\n b. f(x) = (1/3)x^3 - 9x + 2; critical points: ( ), ( )\n c. f(x) = 2x^3 + 9x^2 + 12x; critical points: ( ), ( )\n d. f(x) = -3x^3 - 5x; \n e. f(x) = sqrt(x^2 - 2x + 2); critical point: ( )\n f. f(x) = 3x^4 - 4x^3; critical points: ( ), ( )",
+    "prompt_html": "<p>[K/U] For each function, determine the critical points and classify them as local maxima or local minima, or neither. Sketch the graph of each function.</p>\n<p>a. f(x) = -2x^2 + 8x + 13; critical point: <span id=\"blank_8c8261b1-399d-4519-ac22-24100e65a7c0\"></span> (<span id=\"blank_21b5f4dc-34b6-462e-99db-0c371cf21284\"></span>)</p>\n<p>b. f(x) = (1/3)x^3 - 9x + 2; critical points: <span id=\"blank_83764de7-ad53-4e13-b0df-640876844be0\"></span> (<span id=\"blank_2cf91f05-b560-42ef-bf9f-1dab0d571796\"></span>), <span id=\"blank_401fa244-cab9-41be-b76a-501f611fb779\"></span> (<span id=\"blank_cb60692d-98fb-4d84-9a71-b9a3e99d10d5\"></span>)</p>\n<p>c. f(x) = 2x^3 + 9x^2 + 12x; critical points: <span id=\"blank_644bbda6-b190-42f4-aea4-ecea38d08734\"></span> (<span id=\"blank_48a4cb32-6433-484a-b902-c6e059b18ed1\"></span>), <span id=\"blank_7abec881-4d10-47f5-a350-84a6ce3437ad\"></span> (<span id=\"blank_14f9167e-f0eb-4756-9970-d672db43964c\"></span>)</p>\n<p>d. f(x) = -3x^3 - 5x; <span id=\"blank_431a3270-eb7f-4e6d-b5a0-83e0985f48ea\"></span></p>\n<p>e. f(x) = sqrt(x^2 - 2x + 2); critical point: <span id=\"blank_2b75d91a-996e-4959-9de4-ba6ddb379745\"></span> (<span id=\"blank_a0d1c6fe-812e-4e67-8b43-969dd9d85989\"></span>)</p>\n<p>f. f(x) = 3x^4 - 4x^3; critical points: <span id=\"blank_f35f1693-3187-45a7-ba60-ddda676bd41d\"></span> (<span id=\"blank_2d907850-2a96-4db5-80b2-2272914f0945\"></span>), <span id=\"blank_739ac3f4-cba8-4eb6-8276-41bbce0328e6\"></span> (<span id=\"blank_ae34cfd1-8900-4bcc-a98c-cfe24d97c8f5\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 17,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "8c8261b1-399d-4519-ac22-24100e65a7c0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "21b5f4dc-34b6-462e-99db-0c371cf21284"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "83764de7-ad53-4e13-b0df-640876844be0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "2cf91f05-b560-42ef-bf9f-1dab0d571796"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "401fa244-cab9-41be-b76a-501f611fb779"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "cb60692d-98fb-4d84-9a71-b9a3e99d10d5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "644bbda6-b190-42f4-aea4-ecea38d08734"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "48a4cb32-6433-484a-b902-c6e059b18ed1"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7abec881-4d10-47f5-a350-84a6ce3437ad"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "14f9167e-f0eb-4756-9970-d672db43964c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "431a3270-eb7f-4e6d-b5a0-83e0985f48ea"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "2b75d91a-996e-4959-9de4-ba6ddb379745"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a0d1c6fe-812e-4e67-8b43-969dd9d85989"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f35f1693-3187-45a7-ba60-ddda676bd41d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "2d907850-2a96-4db5-80b2-2272914f0945"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "739ac3f4-cba8-4eb6-8276-41bbce0328e6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ae34cfd1-8900-4bcc-a98c-cfe24d97c8f5"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56109",
+    "item_id": "65298",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the critical points of each function. Classify each critical point as a local maximum, a local minimum, or neither. Is the tangent to the graph at each point parallel to the x-axis?\n a. f(x) = -2x^3 + 9x^2 + 20; critical points: (local , tangent ), (local , tangent )\n b. f(x) = x^4 - 8x^3 + 18x^2 + 6; critical points: (local , tangent ), ( , tangent )\n c. h(x) = (x - 3)/(x^2 + 7); critical points: (local , tangent ), (local , tangent )\n d. g(x) = (x - 1)^(1/3); critical point: ( , tangent )",
+    "prompt_html": "<p>Determine the critical points of each function. Classify each critical point as a local maximum, a local minimum, or neither. Is the tangent to the graph at each point parallel to the x-axis?</p>\n<p>a. f(x) = -2x^3 + 9x^2 + 20; critical points: <span id=\"blank_29692fb5-580e-42c3-acbf-186c81325aea\"></span> (local <span id=\"blank_30b21529-7599-4c82-bea5-ecdd7fb9a8a5\"></span>, tangent <span id=\"blank_e3d895a4-ac2d-4389-a7c2-cdbfbd7abdcf\"></span>), <span id=\"blank_48c095fe-a5cd-4d0d-b5d7-bb24ceb3c061\"></span> (local <span id=\"blank_97720464-dd1e-4ff3-b5cb-795ba8af9552\"></span>, tangent <span id=\"blank_76391a4e-a236-4d63-bf4c-05b13aa38160\"></span>)</p>\n<p>b. f(x) = x^4 - 8x^3 + 18x^2 + 6; critical points: <span id=\"blank_678be18f-24ff-4b59-abc4-87ca07405a08\"></span> (local <span id=\"blank_07949ecb-f9e6-4d9a-a6ab-f0ecdbc6ac3c\"></span>, tangent <span id=\"blank_54e59853-3cb5-4a46-8b1b-5f5cd1fd94aa\"></span>), <span id=\"blank_9fa854d6-6b9a-4f70-bf26-873d618a1904\"></span> (<span id=\"blank_c314f7c0-afea-4392-8fda-6d047ad876af\"></span>, tangent <span id=\"blank_c83acf45-e6cc-4a33-a89a-71d0b5e007c1\"></span>)</p>\n<p>c. h(x) = (x - 3)/(x^2 + 7); critical points: <span id=\"blank_80820092-6a17-4ecd-9b18-8616027b9e8c\"></span> (local <span id=\"blank_1c99f16e-91cd-4838-8edd-65e8a19b00e7\"></span>, tangent <span id=\"blank_7d1344de-e8c5-4175-8e57-30fc2fcfa143\"></span>), <span id=\"blank_5c57f0f7-7e29-4d0b-820a-d76503feaa29\"></span> (local <span id=\"blank_47ef72c2-16d5-4e1e-9893-67a811c8b8c3\"></span>, tangent <span id=\"blank_0a7c2d5e-52cd-4e70-b5dc-99ea3602c38e\"></span>)</p>\n<p>d. g(x) = (x - 1)^(1/3); critical point: <span id=\"blank_a2572350-da2b-4889-bbc4-3daa1a9ad243\"></span> (<span id=\"blank_d92ce96c-d2b3-4674-849a-cd307414ee6a\"></span>, tangent <span id=\"blank_a471c680-dc7c-4012-8d19-f128f35788f7\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 21,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "29692fb5-580e-42c3-acbf-186c81325aea"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "30b21529-7599-4c82-bea5-ecdd7fb9a8a5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e3d895a4-ac2d-4389-a7c2-cdbfbd7abdcf"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "48c095fe-a5cd-4d0d-b5d7-bb24ceb3c061"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "97720464-dd1e-4ff3-b5cb-795ba8af9552"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "76391a4e-a236-4d63-bf4c-05b13aa38160"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "678be18f-24ff-4b59-abc4-87ca07405a08"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "07949ecb-f9e6-4d9a-a6ab-f0ecdbc6ac3c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "54e59853-3cb5-4a46-8b1b-5f5cd1fd94aa"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9fa854d6-6b9a-4f70-bf26-873d618a1904"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c314f7c0-afea-4392-8fda-6d047ad876af"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c83acf45-e6cc-4a33-a89a-71d0b5e007c1"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "80820092-6a17-4ecd-9b18-8616027b9e8c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1c99f16e-91cd-4838-8edd-65e8a19b00e7"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7d1344de-e8c5-4175-8e57-30fc2fcfa143"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5c57f0f7-7e29-4d0b-820a-d76503feaa29"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "47ef72c2-16d5-4e1e-9893-67a811c8b8c3"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0a7c2d5e-52cd-4e70-b5dc-99ea3602c38e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a2572350-da2b-4889-bbc4-3daa1a9ad243"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d92ce96c-d2b3-4674-849a-cd307414ee6a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a471c680-dc7c-4012-8d19-f128f35788f7"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56109",
+    "item_id": "65282",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] Given that f'(x) = (x + 1)(x - 2)(x + 6), find all the critical numbers of f. Classify each as a point where f has a local maximum, a local minimum, or neither.\n The critical numbers are x = ( ), x = ( ), and x = ( ).",
+    "prompt_html": "<p>[A] Given that f'(x) = (x + 1)(x - 2)(x + 6), find all the critical numbers of f. Classify each as a point where f has a local maximum, a local minimum, or neither.</p>\n<p>The critical numbers are x = <span id=\"blank_1fef58b8-eb04-4037-8927-9ac487df9f72\"></span> (<span id=\"blank_9bb5da70-27cc-4567-952a-967b1d76205b\"></span>), x = <span id=\"blank_f696c592-e852-4743-bbcc-af1621393f8c\"></span> (<span id=\"blank_98dcf6e2-6546-4fd4-8dc5-604ae085ea9b\"></span>), and x = <span id=\"blank_974664e0-be17-4333-acc6-3c2d39618af9\"></span> (<span id=\"blank_67441365-d8b8-4ea1-8e20-54c5eb2a65b6\"></span>).</p>",
+    "choices": [],
+    "num_blanks": 6,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "1fef58b8-eb04-4037-8927-9ac487df9f72"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9bb5da70-27cc-4567-952a-967b1d76205b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f696c592-e852-4743-bbcc-af1621393f8c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "98dcf6e2-6546-4fd4-8dc5-604ae085ea9b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "974664e0-be17-4333-acc6-3c2d39618af9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "67441365-d8b8-4ea1-8e20-54c5eb2a65b6"
+        }
+      ]
+    }
+  }
+]

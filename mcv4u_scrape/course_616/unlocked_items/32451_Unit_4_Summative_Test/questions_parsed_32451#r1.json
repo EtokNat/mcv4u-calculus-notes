@@ -1,0 +1,322 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56124",
+    "item_id": "65272",
+    "points": 5.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine where the function g(x) = 2x^3 - 3x^2 - 12x + 15 is increasing and where it is decreasing. g is increasing on ; g is decreasing on .",
+    "prompt_html": "<p>[K/U] Determine where the function g(x) = 2x^3 - 3x^2 - 12x + 15 is increasing and where it is decreasing. g is increasing on <span id=\"blank_a0bcfcdd-6555-4093-a9ca-8e8deaa74f2c\"></span>; g is decreasing on <span id=\"blank_c0b6b585-9380-470b-bf2b-14543899e307\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "a0bcfcdd-6555-4093-a9ca-8e8deaa74f2c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c0b6b585-9380-470b-bf2b-14543899e307"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56125",
+    "item_id": "65290",
+    "points": 5.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the critical numbers of each function and use the first derivative test to determine any local maximum or minimum values.\n a. g(x) = 2x^3 - 9x^2 + 12x; critical numbers: x = (local ), x = (local )\n b. g(x) = x^3 - 2x^2 - 4x; critical numbers: x = (local ), x = (local )",
+    "prompt_html": "<p>Determine the critical numbers of each function and use the first derivative test to determine any local maximum or minimum values.</p>\n<p>a. g(x) = 2x^3 - 9x^2 + 12x; critical numbers: x = <span id=\"blank_33fdbe76-d515-4ef2-8243-78b762ce993e\"></span> (local <span id=\"blank_fd1cfa8e-0602-4bd4-b111-3e6b36f93283\"></span>), x = <span id=\"blank_ea4c7274-aeb4-42d9-8f67-096dcea331ae\"></span> (local <span id=\"blank_ec330dbd-e97f-4529-8c7e-7731fb2c5e03\"></span>)</p>\n<p>b. g(x) = x^3 - 2x^2 - 4x; critical numbers: x = <span id=\"blank_53607755-bc89-4387-988d-ee2373d020ce\"></span> (local <span id=\"blank_8a21f9d1-1ad2-4312-874c-4493fd90b5cc\"></span>), x = <span id=\"blank_07f6846f-922a-484d-8840-c0154257b7f6\"></span> (local <span id=\"blank_ef639b11-f9e2-493b-abdd-73218fe9b396\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 8,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "33fdbe76-d515-4ef2-8243-78b762ce993e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fd1cfa8e-0602-4bd4-b111-3e6b36f93283"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ea4c7274-aeb4-42d9-8f67-096dcea331ae"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ec330dbd-e97f-4529-8c7e-7731fb2c5e03"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "53607755-bc89-4387-988d-ee2373d020ce"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "8a21f9d1-1ad2-4312-874c-4493fd90b5cc"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "07f6846f-922a-484d-8840-c0154257b7f6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ef639b11-f9e2-493b-abdd-73218fe9b396"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56126",
+    "item_id": "65308",
+    "points": 5.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "For each function, state the equation of any vertical asymptote(s) and describe the behaviour of the function close to its vertical asymptote(s).\n a. f(x) = (x - 1)/(x + 2); vertical asymptote: x = ; to the left: ; to the right: \n b. f(x) = 1/(9 - x^2); vertical asymptote: x = ; to the left: ; to the right: ; vertical asymptote: x = ; to the left: ; to the right: \n c. f(x) = (x^2 - 4)/(3x + 9); vertical asymptote: x = ; to the left: ; to the right: \n d. f(x) = (2 - x)/(3x^2 - 13x - 10); vertical asymptote: x = ; to the left: ; to the right: ; vertical asymptote: x = ; to the left: ; to the right:",
+    "prompt_html": "<p>For each function, state the equation of any vertical asymptote(s) and describe the behaviour of the function close to its vertical asymptote(s).</p>\n<p>a. f(x) = (x - 1)/(x + 2); vertical asymptote: x = <span id=\"blank_8e76a68d-c41e-4021-a396-d04b60170b3e\"></span>; to the left: <span id=\"blank_84f78499-d73d-4fbf-a1bb-ab7605aac8b0\"></span>; to the right: <span id=\"blank_bf0cb885-91ad-40dd-8a94-7e98f7933037\"></span></p>\n<p>b. f(x) = 1/(9 - x^2); vertical asymptote: x = <span id=\"blank_65a18cf2-481e-4f4b-b448-287200e8af78\"></span>; to the left: <span id=\"blank_f2d37c30-0c0a-4c8b-99a7-bee2e4cda9df\"></span>; to the right: <span id=\"blank_a6669d1f-8450-49cd-afc7-0957c32cb4f0\"></span>; vertical asymptote: x = <span id=\"blank_cbf21f7e-ead5-4832-98ee-78b3a5757ff4\"></span>; to the left: <span id=\"blank_e1c33a63-7fd1-4a0b-b7fa-669ec189954c\"></span>; to the right: <span id=\"blank_0839f228-df90-4fdb-afad-667c3171f8d6\"></span></p>\n<p>c. f(x) = (x^2 - 4)/(3x + 9); vertical asymptote: x = <span id=\"blank_4a28a1e3-e697-4e7d-a5f0-57535b362b78\"></span>; to the left: <span id=\"blank_a39c7311-b731-4a05-8caf-45b8bed6d7c6\"></span>; to the right: <span id=\"blank_d7d0323c-9912-478c-94e1-2481bac9af48\"></span></p>\n<p>d. f(x) = (2 - x)/(3x^2 - 13x - 10); vertical asymptote: x = <span id=\"blank_8fdbde99-6bc0-49e1-a001-94392478d212\"></span>; to the left: <span id=\"blank_43e5d1b2-540e-411d-84d2-4456367ee0a8\"></span>; to the right: <span id=\"blank_a3fecff5-3df8-4e0c-83c3-336f4c889475\"></span>; vertical asymptote: x = <span id=\"blank_f905bfd2-7dae-405e-9d76-ab9b72fd6233\"></span>; to the left: <span id=\"blank_dfd42bc6-3d29-4dab-bea4-2df2855863dd\"></span>; to the right: <span id=\"blank_b48a9b90-9d28-4291-8792-624d19d09132\"></span></p>",
+    "choices": [],
+    "num_blanks": 18,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "8e76a68d-c41e-4021-a396-d04b60170b3e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "84f78499-d73d-4fbf-a1bb-ab7605aac8b0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bf0cb885-91ad-40dd-8a94-7e98f7933037"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "65a18cf2-481e-4f4b-b448-287200e8af78"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f2d37c30-0c0a-4c8b-99a7-bee2e4cda9df"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a6669d1f-8450-49cd-afc7-0957c32cb4f0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "cbf21f7e-ead5-4832-98ee-78b3a5757ff4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e1c33a63-7fd1-4a0b-b7fa-669ec189954c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0839f228-df90-4fdb-afad-667c3171f8d6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "4a28a1e3-e697-4e7d-a5f0-57535b362b78"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a39c7311-b731-4a05-8caf-45b8bed6d7c6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d7d0323c-9912-478c-94e1-2481bac9af48"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "8fdbde99-6bc0-49e1-a001-94392478d212"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "43e5d1b2-540e-411d-84d2-4456367ee0a8"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a3fecff5-3df8-4e0c-83c3-336f4c889475"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f905bfd2-7dae-405e-9d76-ab9b72fd6233"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "dfd42bc6-3d29-4dab-bea4-2df2855863dd"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b48a9b90-9d28-4291-8792-624d19d09132"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56127",
+    "item_id": "65332",
+    "points": 5.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "a. If g(x) = (ax + b)/((x - 1)(x - 4)) has a horizontal tangent at the point (2, -1), determine the values of a and b.\n a = , b = \n b. Sketch the graph of g for these values.\n Sketch the graph of g(x) = x/((x - 1)(x - 4)), with a horizontal tangent at (2, -1).",
+    "prompt_html": "<p>a. If g(x) = (ax + b)/((x - 1)(x - 4)) has a horizontal tangent at the point (2, -1), determine the values of a and b.</p>\n<p>a = <span id=\"blank_acfbdc7d-12a5-4da0-b288-f2c5e2c4bbe9\"></span>, b = <span id=\"blank_6534ce91-9aaf-49ca-98ba-c7c5ba7739dd\"></span></p>\n<p>b. Sketch the graph of g for these values.</p>\n<p>Sketch the graph of g(x) = x/((x - 1)(x - 4)), with a horizontal tangent at (2, -1).</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "acfbdc7d-12a5-4da0-b288-f2c5e2c4bbe9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6534ce91-9aaf-49ca-98ba-c7c5ba7739dd"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56128",
+    "item_id": "63265",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n A diver jumps from a 3 m springboard. The diver's height above the water, h metres, at time t seconds after jumping is given by h(t) = -4.9t^2 + 9.5t + 2.2.\n a. When is the diver's height increasing and when is it decreasing?\n b. When is the diver's velocity increasing and when is it decreasing?",
+    "prompt_html": "<p>[A]</p><p>A diver jumps from a 3 m springboard. The diver's height above the water, h metres, at time t seconds after jumping is given by h(t) = -4.9t^2 + 9.5t + 2.2.</p><p>a. When is the diver's height increasing and when is it decreasing?</p><p>b. When is the diver's velocity increasing and when is it decreasing?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56128",
+    "item_id": "63315",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[C]\n The graphs of a function and its first and second derivatives - y = f(x), y = f'(x), and y = f''(x) - are shown on each set of axes below. For each, state which graph is f, which is f', and which is f''. Explain how you can tell.\n a. graphs A, B, C\n b. graphs D, E, F",
+    "prompt_html": "<p>[C]</p><p>The graphs of a function and its first and second derivatives - y = f(x), y = f'(x), and y = f''(x) - are shown on each set of axes below. For each, state which graph is f, which is f', and which is f''. Explain how you can tell.</p><p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/588943d8-92f1-4cc9-9a1f-cb502bff8681/rev_q20.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy81ODg5NDNkOC05MmYxLTRjYzktOWExZi1jYjUwMmJmZjg2ODEvcmV2X3EyMC5wbmciLCJ0ZW5hbnRfYXV0aCI6eyJsb2NhdGlvbiI6ImJhbmsvMjQyNjAwMDAwMDAwMDA1MDAifSwiZXhwIjoxNzk0Nzk0MDE2LCJpYXQiOjE3OTQ3NDcyMTYsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLWlhZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.KqWtYrbWrotboz71rtDlZ3Ocqh6yEByjJnMMh1pDoIFtkBUb0JNYNZmyDYfP6W7XdXBva7CGQzUuUrLFU49k4Q\" alt=\"Nelson Calculus and Vectors 12, Ch 4, p. 219 - Review Exercise, Question 20: graphs A, B, C (a) and D, E, F (b) of f, f', f''\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55758/preview\"></p><p>a. graphs A, B, C</p><p>b. graphs D, E, F</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56129",
+    "item_id": "63232",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[T]\n Determine the values of a, b, c, and d so that the function g(x) = ax^3 + bx^2 + cx + d has a local maximum at (2, 4) and a local minimum at (0, 0).",
+    "prompt_html": "<p>[T]</p><p>Determine the values of a, b, c, and d so that the function g(x) = ax^3 + bx^2 + cx + d has a local maximum at (2, 4) and a local minimum at (0, 0).</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56129",
+    "item_id": "63259",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[T]\n Find a value of k that will give the function f(x) = x^2 + kx + 2 a local minimum value of 1.",
+    "prompt_html": "<p>[T]</p><p>Find a value of k that will give the function f(x) = x^2 + kx + 2 a local minimum value of 1.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 9,
+    "quiz_entry_id": "56130",
+    "item_id": "63251",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[T]\n Determine the constants a and b such that f(x) = (ax + 5)/(3 - bx) has a vertical asymptote at x = 5 and a horizontal asymptote at y = -3.",
+    "prompt_html": "<p>[T]</p><p>Determine the constants a and b such that f(x) = (ax + 5)/(3 - bx) has a vertical asymptote at x = 5 and a horizontal asymptote at y = -3.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 10,
+    "quiz_entry_id": "56130",
+    "item_id": "63243",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n State the equation of the oblique asymptote of each function.\n a. f(x) = (3x^2 - 2x - 17)/(x - 3)\n b. f(x) = (2x^2 + 9x + 2)/(2x + 3)\n c. f(x) = (x^3 - 1)/(x^2 + 2x)\n d. f(x) = (x^3 - x^2 - 9x + 15)/(x^2 - 4x + 3)",
+    "prompt_html": "<p>[K/U]</p><p>State the equation of the oblique asymptote of each function.</p><p>a. f(x) = (3x^2 - 2x - 17)/(x - 3)</p><p>b. f(x) = (2x^2 + 9x + 2)/(2x + 3)</p><p>c. f(x) = (x^3 - 1)/(x^2 + 2x)</p><p>d. f(x) = (x^3 - x^2 - 9x + 15)/(x^2 - 4x + 3)</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 11,
+    "quiz_entry_id": "56131",
+    "item_id": "63303",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Each graph is the graph of g''(x) for some function g(x). For each graph, determine\n i. the intervals on which the graph of g(x) is concave up and the intervals on which it is concave down\n ii. the x-coordinates of all points of inflection of g(x)\n iii. a rough sketch of a possible graph of g(x), assuming that g(0) = -3\n a. graph a\n b. graph b",
+    "prompt_html": "<p>[K/U]</p><p>Each graph is the graph of g''(x) for some function g(x). For each graph, determine</p><p>i. the intervals on which the graph of g(x) is concave up and the intervals on which it is concave down</p><p>ii. the x-coordinates of all points of inflection of g(x)</p><p>iii. a rough sketch of a possible graph of g(x), assuming that g(0) = -3</p><p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/339e594c-1896-4813-8664-c32ffcd9469f/rev_q8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy8zMzllNTk0Yy0xODk2LTQ4MTMtODY2NC1jMzJmZmNkOTQ2OWYvcmV2X3E4LnBuZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay8yNDI2MDAwMDAwMDAwMDUwMyJ9LCJleHAiOjE3OTQ3OTQwNDgsImlhdCI6MTc5NDc0NzI0OCwiaXNzIjoibmV3LXF1aXp6ZXMiLCJhdWQiOiJodHRwczovL2luc3QtZnMtaWFkLXByb2QuaW5zY2xvdWRnYXRlLm5ldCJ9.DEMSNE5nlYUbACtw90mLBy9R2Vvv-WBPwt1oaMe65vluxhtCtsbHTAeTDrNscZxc0Ls97XmuB1p7VSeRZMtVcw\" alt=\"Nelson Calculus and Vectors 12, Ch 4, p. 217 - Review Exercise, Question 8: graphs of g''(x), a and b\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55755/preview\"></p><p>a. graph a</p><p>b. graph b</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 12,
+    "quiz_entry_id": "56131",
+    "item_id": "63271",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n For each of the following functions, state whether the second derivative is positive or negative at each of the points A, B, C, and D.\n a. graph a\n b. graph b",
+    "prompt_html": "<p>[K/U]</p><p>For each of the following functions, state whether the second derivative is positive or negative at each of the points A, B, C, and D.</p><p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/23621b67-3b49-490c-acf5-4256b673ec1a/ex44_q1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy8yMzYyMWI2Ny0zYjQ5LTQ5MGMtYWNmNS00MjU2YjY3M2VjMWEvZXg0NF9xMS5wbmciLCJ0ZW5hbnRfYXV0aCI6eyJsb2NhdGlvbiI6ImJhbmsvMjQyNjAwMDAwMDAwMDA1MDMifSwiZXhwIjoxNzk0NzkwOTU0LCJpYXQiOjE3OTQ3NDQxNTQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLWlhZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.Q5kUJUMTHON3ZqS3MQs4MEQarGnn9wDs6TFw_JXAEMtaASQGaGHXEIARXV8RGrX0ujvhWjk8vHSFOJe063jTjw\" alt=\"Nelson Calculus and Vectors 12, Ch 4, p. 205 - Exercise 4.4, Question 1: graphs a and b with points A, B, C, D\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55748/preview\"></p><p>a. graph a</p><p>b. graph b</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 13,
+    "quiz_entry_id": "56132",
+    "item_id": "63294",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[T]\n Determine the horizontal asymptotes of each function.\n a. f(x) = x/sqrt(x^2 + 1)\n b. g(t) = sqrt(t^2 + 4t) - sqrt(t^2 + t)",
+    "prompt_html": "<p>[T]</p><p>Determine the horizontal asymptotes of each function.</p><p>a. f(x) = x/sqrt(x^2 + 1)</p><p>b. g(t) = sqrt(t^2 + 4t) - sqrt(t^2 + t)</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 14,
+    "quiz_entry_id": "56132",
+    "item_id": "63305",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Sketch the graph of each function using suitable curve-sketching techniques.\n a. y = x^4 - 8x^2 + 7\n b. f(x) = (3x - 1)/(x + 1)\n c. g(x) = (x^2 + 1)/(4x^2 - 9)\n d. y = x(x - 4)^3\n e. h(x) = x/(x^2 - 4x + 4)\n f. f(t) = (t^2 - 3t + 2)/(t - 3)",
+    "prompt_html": "<p>[K/U]</p><p>Sketch the graph of each function using suitable curve-sketching techniques.</p><p>a. y = x^4 - 8x^2 + 7</p><p>b. f(x) = (3x - 1)/(x + 1)</p><p>c. g(x) = (x^2 + 1)/(4x^2 - 9)</p><p>d. y = x(x - 4)^3</p><p>e. h(x) = x/(x^2 - 4x + 4)</p><p>f. f(t) = (t^2 - 3t + 2)/(t - 3)</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  }
+]

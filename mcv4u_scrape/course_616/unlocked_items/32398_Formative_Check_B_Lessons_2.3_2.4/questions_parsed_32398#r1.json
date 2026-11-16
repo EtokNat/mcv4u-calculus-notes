@@ -1,0 +1,187 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56025",
+    "item_id": "65004",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] The tangent to the cubic function that is defined by y = x^3 - 6x^2 + 8x at point A(3, -3) intersects the curve at another point, B. Find the coordinates of point B. Illustrate with a sketch.\n Point B: ( , )",
+    "prompt_html": "<p>[T] The tangent to the cubic function that is defined by y = x^3 - 6x^2 + 8x at point A(3, -3) intersects the curve at another point, B. Find the coordinates of point B. Illustrate with a sketch.</p>\n<p>Point B: (<span id=\"blank_9882e705-544e-4dd6-bf53-d73313ae6edb\"></span>, <span id=\"blank_7705660f-7ad8-4f4e-923a-20be3b1968e7\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "9882e705-544e-4dd6-bf53-d73313ae6edb"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7705660f-7ad8-4f4e-923a-20be3b1968e7"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56025",
+    "item_id": "64995",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine f'(a) for the given function f(x) at the given value of a.\n a. f(x) = x^3 - sqrt(x), a = 4: f'(a) = \n b. f(x) = 7 - 6 sqrt(x) + 5x^(2/3), a = 64: f'(a) =",
+    "prompt_html": "<p>[K/U] Determine f'(a) for the given function f(x) at the given value of a.</p>\n<p>a. f(x) = x^3 - sqrt(x), a = 4: f'(a) = <span id=\"blank_ae17f080-a5b5-4f25-86b9-066019a8355d\"></span></p>\n<p>b. f(x) = 7 - 6 sqrt(x) + 5x^(2/3), a = 64: f'(a) = <span id=\"blank_bedf51d1-35a7-4560-bf9c-8d0ab9f464b6\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "ae17f080-a5b5-4f25-86b9-066019a8355d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bedf51d1-35a7-4560-bf9c-8d0ab9f464b6"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56025",
+    "item_id": "65002",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] While working on a high-rise building, a construction worker drops a bolt from 320 m above the ground. After t seconds, the bolt has fallen a distance of s metres, where s(t) = 5t^2, 0 <= t <= 8. The function that gives the height of the bolt above ground at time t is R(t) = 320 - 5t^2. Use this function to determine the velocity of the bolt at t = 2.\n Velocity at t = 2: m/s",
+    "prompt_html": "<p>[A] While working on a high-rise building, a construction worker drops a bolt from 320 m above the ground. After t seconds, the bolt has fallen a distance of s metres, where s(t) = 5t^2, 0 &lt;= t &lt;= 8. The function that gives the height of the bolt above ground at time t is R(t) = 320 - 5t^2. Use this function to determine the velocity of the bolt at t = 2.</p>\n<p>Velocity at t = 2: <span id=\"blank_57f970bb-246b-447d-baec-1a5a2e471aab\"></span> m/s</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "57f970bb-246b-447d-baec-1a5a2e471aab"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56025",
+    "item_id": "65022",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine the points on the curve y = x^3 - x^2 - x + 1 where the tangent is horizontal.\n Point 1: ( , )\n Point 2: ( , )",
+    "prompt_html": "<p>[K/U] Determine the points on the curve y = x^3 - x^2 - x + 1 where the tangent is horizontal.</p>\n<p>Point 1: (<span id=\"blank_71eca752-8917-4cb1-a488-c8a0d5a0d246\"></span>, <span id=\"blank_63226e2b-f63e-48c1-af04-59280a8f9845\"></span>)</p>\n<p>Point 2: (<span id=\"blank_7bc0f699-1500-4154-a681-d6bbeb59b951\"></span>, <span id=\"blank_b9149802-0769-466e-a2ea-791116f6dff9\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "71eca752-8917-4cb1-a488-c8a0d5a0d246"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "63226e2b-f63e-48c1-af04-59280a8f9845"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7bc0f699-1500-4154-a681-d6bbeb59b951"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b9149802-0769-466e-a2ea-791116f6dff9"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56026",
+    "item_id": "65030",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[C] Show that the line 4x - y + 11 = 0 is tangent to the curve y = 16/x^2 - 1.\n dy/dx = \n Point of tangency: ( , )",
+    "prompt_html": "<p>[C] Show that the line 4x - y + 11 = 0 is tangent to the curve y = 16/x^2 - 1.</p>\n<p>dy/dx = <span id=\"blank_be8f9567-8f69-4b7a-948a-add9a249518f\"></span></p>\n<p>Point of tangency: (<span id=\"blank_ffc6069b-b50d-4df0-92e6-2628fc4487da\"></span>, <span id=\"blank_3ab97c2a-a3fd-49bc-8fa0-2abb86aa46aa\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "be8f9567-8f69-4b7a-948a-add9a249518f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ffc6069b-b50d-4df0-92e6-2628fc4487da"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3ab97c2a-a3fd-49bc-8fa0-2abb86aa46aa"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56026",
+    "item_id": "65029",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] A 75 L gas tank has a leak. After t hours, the remaining volume, V, in litres is V(t) = 75(1 - t/24)^2, 0 <= t <= 24. Use the product rule to determine how quickly the gas is leaking from the tank when the tank is 60% full of gas.\n Leaking rate: L/h",
+    "prompt_html": "<p>[A] A 75 L gas tank has a leak. After t hours, the remaining volume, V, in litres is V(t) = 75(1 - t/24)^2, 0 &lt;= t &lt;= 24. Use the product rule to determine how quickly the gas is leaking from the tank when the tank is 60% full of gas.</p>\n<p>Leaking rate: <span id=\"blank_1b21008b-ce7d-4212-ad9e-6be9e244c7bc\"></span> L/h</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "1b21008b-ce7d-4212-ad9e-6be9e244c7bc"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56026",
+    "item_id": "65028",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine the point(s) where the tangent to the curve is horizontal.\n a. y = 2(x - 29)(x + 1): point ( , )\n b. y = (x^2 + 2x + 1)(x^2 + 2x + 1): point ( , )",
+    "prompt_html": "<p>[K/U] Determine the point(s) where the tangent to the curve is horizontal.</p>\n<p>a. y = 2(x - 29)(x + 1): point (<span id=\"blank_59f6a184-f300-4f49-9950-fa1ba6a040c9\"></span>, <span id=\"blank_deb639b6-1b9a-4b65-babc-0c256a39570a\"></span>)</p>\n<p>b. y = (x^2 + 2x + 1)(x^2 + 2x + 1): point (<span id=\"blank_3b71b133-a514-496d-b79f-c0f2e03b9236\"></span>, <span id=\"blank_3ed9371e-1b4b-44a2-9645-c07c3dbff5b3\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "59f6a184-f300-4f49-9950-fa1ba6a040c9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "deb639b6-1b9a-4b65-babc-0c256a39570a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3b71b133-a514-496d-b79f-c0f2e03b9236"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3ed9371e-1b4b-44a2-9645-c07c3dbff5b3"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56026",
+    "item_id": "65033",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "[K/U] Determine the slope of the tangent to the graph of y = (x^2 + 3x - 2)(7 - 3x) at (1, 8).",
+    "prompt_html": "<p>[K/U] Determine the slope of the tangent to the graph of y = (x^2 + 3x - 2)(7 - 3x) at (1, 8).</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  }
+]

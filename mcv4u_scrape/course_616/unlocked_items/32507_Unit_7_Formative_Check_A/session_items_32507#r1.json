@@ -1,0 +1,396 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Correct - the distributive property of the dot product</p>",
+            "id": "72e2f549-bee7-434d-816e-c1582e69f6b9",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Wrong - it should equal (a.b) + c</p>",
+            "id": "31079a66-fc2f-4231-9748-6061b6c813a9",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Correct only when a, b, c are unit vectors</p>",
+            "id": "9ce14df2-9c16-4b11-b96a-647bbfda65ee",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Wrong - you cannot dot a vector with a sum</p>",
+            "id": "e0956296-41f4-4792-886e-771f9164f93d",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A student writes a.(b + c) = a.b + a.c. This is...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45152",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "34011",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>7.5</p>",
+            "id": "7b904c9c-1178-4c5f-8db4-4c1d35b1adcf",
+            "position": 1
+          },
+          {
+            "item_body": "<p>15</p>",
+            "id": "30f06846-f132-4bd2-a243-9cdd179c60b7",
+            "position": 2
+          },
+          {
+            "item_body": "<p>-15</p>",
+            "id": "6ea2e34a-0c55-408b-991f-71dbf0e33664",
+            "position": 3
+          },
+          {
+            "item_body": "<p>-7.5</p>",
+            "id": "282a51be-ad66-4861-8bf1-a16b8a6ee2e8",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>|a| = 3, |b| = 5, and the angle between them (tail to tail) is 120 degrees. The value of a.b is...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45105",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "33969",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>For a = (-1, 2, 4) and b = (3, 4, 3), the value of a.b is...</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45123",
+      "label": null,
+      "title": null,
+      "properties": {}
+    },
+    "points_possible": 13.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "33986",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>|a|^2 + |b|^2</p>",
+            "id": "4bd69cbb-f7f4-4e0a-9a5c-5e707f2729bf",
+            "position": 1
+          },
+          {
+            "item_body": "<p>0</p>",
+            "id": "ef919867-61ed-4f04-928b-82106ffd1909",
+            "position": 2
+          },
+          {
+            "item_body": "<p>2(a.b)</p>",
+            "id": "1e922468-543d-421c-9efa-a400a7eb99db",
+            "position": 3
+          },
+          {
+            "item_body": "<p>|a|^2 - |b|^2</p>",
+            "id": "b54e3436-b64a-4f1e-a59a-846529d33f74",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Using the dot-product properties, (a + b).(a - b) simplifies to...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45141",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "34004",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>(3, 1) and (1, 3)</p>",
+            "id": "aff79dd7-b94e-4678-9798-9cf52b12d655",
+            "position": 1
+          },
+          {
+            "item_body": "<p>(2, -1) and (2, 1)</p>",
+            "id": "2f2adfe8-1550-4c6a-b451-865f1a208585",
+            "position": 2
+          },
+          {
+            "item_body": "<p>(2, -1) and (1, 2)</p>",
+            "id": "c7a46b7f-8ca3-479f-a55c-d001cbfa4779",
+            "position": 3
+          },
+          {
+            "item_body": "<p>(1, 2) and (2, 1)</p>",
+            "id": "1161b622-bcdd-4e3a-96d5-f73e31393e09",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Which pair of vectors is perpendicular?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45115",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "33981",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>60 degrees</p>",
+            "id": "dc173c5d-621b-4761-8a33-3eac899f966a",
+            "position": 1
+          },
+          {
+            "item_body": "<p>150 degrees</p>",
+            "id": "1b6e3624-4ccc-4c45-b7da-5a5f8fefeb47",
+            "position": 2
+          },
+          {
+            "item_body": "<p>90 degrees</p>",
+            "id": "726ba2b3-975d-498f-96fa-68303a1f5f97",
+            "position": 3
+          },
+          {
+            "item_body": "<p>120 degrees</p>",
+            "id": "fe576f3b-c865-4530-b4d6-e2acab9a7cce",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>The angle between u = (1, 0, -1) and v = (0, 1, 1) is...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45130",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "33988",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>For what value of k are p = (2, k, 1) and q = (1, -1, 3) perpendicular?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45133",
+      "label": null,
+      "title": null,
+      "properties": {}
+    },
+    "points_possible": 12.0,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "33995",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Acute</p>",
+            "id": "f16fdfc0-53a0-41ee-a6b4-27c4cfe0655c",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Exactly 90 degrees</p>",
+            "id": "5d906b35-3c0a-42be-ab7d-7140449cb2f7",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Impossible to tell</p>",
+            "id": "ba700e87-f46f-4dd4-8958-e658861d65f6",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Obtuse</p>",
+            "id": "6ae2b243-4ee9-4492-8c76-b8f5b37eb5db",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Nonzero vectors a and b satisfy a.b = -12. The angle between them must be...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45108",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "33972",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": false
+  }
+]

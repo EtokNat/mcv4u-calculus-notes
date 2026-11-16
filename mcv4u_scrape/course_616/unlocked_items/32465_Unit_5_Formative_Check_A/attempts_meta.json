@@ -1,0 +1,144 @@
+[
+  {
+    "idx": 0,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[A] The rapid growth in the number of a species of insect is given by P(t) = 5000e^(0.02t), where t is time in days. a. What is the initial population (t = 0)? b. How many insects will there be after a week? c. How many insects will there be after a month (30 days)?",
+    "prompt_dom": "[A] The rapid growth in the number of a species of insect is given by P(t) = 5000e^(0.02t), where t is time in days. a. What is the initial population (t = 0)? \nQuestion Blank 1 of 3\n b. How many insects will there be after a week? \nQuestion Blank 2 of 3\n c. How many insects will there be after a month (30 days)? \nQuestion Blank 3 of 3",
+    "num_blanks": 3,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "5000",
+      "5751",
+      "9111"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 81.25
+  },
+  {
+    "idx": 1,
+    "slug": "numeric",
+    "points": 12.5,
+    "prompt": "[K/U] Suppose that the monthly revenue in thousands of dollars, for the sale of x hundred units of an electronic item is given by the function R(x) = 40x^2 e^(-0.4x) + 30, where the maximum capacity of the plant is 800 units. Determine the number of units to produce in order to maximize revenue.",
+    "prompt_dom": "[K/U] Suppose that the monthly revenue in thousands of dollars, for the sale of x hundred units of an electronic item is given by the function R(x) = 40x^2 e^(-0.4x) + 30, where the maximum capacity of the plant is 800 units. Determine the number of units to produce in order to maximize revenue.\n\nAnswer\n\n[K/U] Suppose that the monthly revenue in thousands of dollars, for the sale of x hundred units of an electronic item is given by the function R(x) = 40x^2 e^(-0.4x) + 30, where the maximum capacity of the plant is 800 units. Determine the number of units to produce in order to maximize revenue.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "500"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 81.25
+  },
+  {
+    "idx": 2,
+    "slug": "numeric",
+    "points": 12.5,
+    "prompt": "[A] A drug is injected into the body in such a way that the concentration, C, in the blood at time t hours is given by the function C(t) = 10(e^(-2t) - e^(-3t)). At what time does the highest concentration occur within the first 5 h? Express your answer to two decimal places.",
+    "prompt_dom": "[A] A drug is injected into the body in such a way that the concentration, C, in the blood at time t hours is given by the function C(t) = 10(e^(-2t) - e^(-3t)). At what time does the highest concentration occur within the first 5 h? Express your answer to two decimal places.\n\nAnswer\n\n[A] A drug is injected into the body in such a way that the concentration, C, in the blood at time t hours is given by the function C(t) = 10(e^(-2t) - e^(-3t)). At what time does the highest concentration occur within the first 5 h? Express your answer to two decimal places.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "0.41"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 81.25
+  },
+  {
+    "idx": 3,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[A] The net monthly profit, in dollars, from the sale of a certain item is given by the formula P(x) = 10^6[1 + (x - 1)e^(-0.001x)], where x is the number of items sold. a. Determine the number of items that yield the maximum profit. At full capacity, the factory can produce 2000 items per month. b. Repeat part a, assuming that, at most, 500 items can be produced per month.",
+    "prompt_dom": "[A] The net monthly profit, in dollars, from the sale of a certain item is given by the formula P(x) = 10^6[1 + (x - 1)e^(-0.001x)], where x is the number of items sold. a. Determine the number of items that yield the maximum profit. \nQuestion Blank 1 of 2\n At full capacity, the factory can produce 2000 items per month. b. Repeat part a, assuming that, at most, 500 items can be produced per month. \nQuestion Blank 2 of 2",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "1001",
+      "500"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 81.25
+  },
+  {
+    "idx": 4,
+    "slug": "numeric",
+    "points": 12.5,
+    "prompt": "[K/U] Calculate the slope of the tangent line that passes through y = 5^x, where x = 2. Express your answer to two decimal places.",
+    "prompt_dom": "[K/U] Calculate the slope of the tangent line that passes through y = 5^x, where x = 2. Express your answer to two decimal places.\n\nAnswer\n\n[K/U] Calculate the slope of the tangent line that passes through y = 5^x, where x = 2. Express your answer to two decimal places.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "slope_tangent",
+    "ok": true,
+    "answers": [
+      "40.2359"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 81.25
+  },
+  {
+    "idx": 5,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[A] A rumour spreads through a population in such a way that t hours after the rumour starts, the percent of people involved in passing it on is given by P(t) = 100(e^(-t) - e^(-4t)). What is the highest percent of people involved in spreading the rumour within the first 3 h? When does this occur?",
+    "prompt_dom": "[A] A rumour spreads through a population in such a way that t hours after the rumour starts, the percent of people involved in passing it on is given by P(t) = 100(e^(-t) - e^(-4t)). What is the highest percent of people involved in spreading the rumour within the first 3 h? \nQuestion Blank 1 of 2\n When does this occur? \nQuestion Blank 2 of 2",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "47.25",
+      "0.46"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 81.25
+  },
+  {
+    "idx": 6,
+    "slug": "numeric",
+    "points": 12.5,
+    "prompt": "[A] A certain radioactive material decays exponentially. The percent, P, of the material left after t years is given by P(t) = 100(1.2)^(-t). Determine the half-life of the substance, in years, to two decimal places.",
+    "prompt_dom": "[A] A certain radioactive material decays exponentially. The percent, P, of the material left after t years is given by P(t) = 100(1.2)^(-t). Determine the half-life of the substance, in years, to two decimal places.\n\nAnswer\n\n[A] A certain radioactive material decays exponentially. The percent, P, of the material left after t years is given by P(t) = 100(1.2)^(-t). Determine the half-life of the substance, in years, to two decimal places.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "3.80"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 81.25
+  },
+  {
+    "idx": 7,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "If you have ever travelled in an airplane, you probably noticed that the air pressure in the airplane varied. The atmospheric pressure, y, varies with the altitude, x kilometres, above Earth. For altitudes up to 10 km, the pressure in millimetres of mercury (mm Hg) is given by y = 760e^(-0.125x). What is the atmospheric pressure at each distance above Earth? a. 5 km: b. 7 km: c. 9 km:",
+    "prompt_dom": "If you have ever travelled in an airplane, you probably noticed that the air pressure in the airplane varied. The atmospheric pressure, y, varies with the altitude, x kilometres, above Earth. For altitudes up to 10 km, the pressure in millimetres of mercury (mm Hg) is given by y = 760e^(-0.125x). What is the atmospheric pressure at each distance above Earth? a. 5 km: \nQuestion Blank 1 of 3\n b. 7 km: \nQuestion Blank 2 of 3\n c. 9 km: \nQuestion Blank 3 of 3",
+    "num_blanks": 3,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "406.8",
+      "316.8",
+      "246.7"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 81.25
+  }
+]

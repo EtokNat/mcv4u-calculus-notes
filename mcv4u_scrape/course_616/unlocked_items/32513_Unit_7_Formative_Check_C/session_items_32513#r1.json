@@ -1,0 +1,427 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>3*sqrt(5) \u2248 6.71</p>",
+            "id": "77166141-2feb-453f-85fa-061fa9dad0e2",
+            "position": 1
+          },
+          {
+            "item_body": "<p>90</p>",
+            "id": "e25e8eed-2989-4426-b2a9-7ca6f8b71676",
+            "position": 2
+          },
+          {
+            "item_body": "<p>180</p>",
+            "id": "50fe3586-004b-4c87-bf3e-677e6a85ada8",
+            "position": 3
+          },
+          {
+            "item_body": "<p>6*sqrt(5) \u2248 13.42</p>",
+            "id": "255dc6b6-d637-427b-906b-f01bc212437a",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>The area of the triangle with the same two sides as C1 is...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45088",
+      "label": null,
+      "title": "C2",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "33954",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>2(a \u00d7 b)</p>",
+            "id": "10f308ac-9f22-4f37-ad5b-ab1b1bc3bd5f",
+            "position": 1
+          },
+          {
+            "item_body": "<p>|a|^2 - |b|^2</p>",
+            "id": "3c314ca1-d640-48e1-a6eb-58c775d3bf6f",
+            "position": 2
+          },
+          {
+            "item_body": "<p>0</p>",
+            "id": "8e3d1718-e9d4-4494-9113-d9acef60eeaf",
+            "position": 3
+          },
+          {
+            "item_body": "<p>-2(a \u00d7 b)</p>",
+            "id": "b31e5882-ff6c-44dd-a36f-21298a2c8b12",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Simplified with cross-product properties, (a + b) \u00d7 (a - b) equals...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45140",
+      "label": null,
+      "title": "C7",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "34001",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>The dot product \u2014 it returns a vector</p>",
+            "id": "67692291-99aa-494c-9331-bb2f8e66c026",
+            "position": 1
+          },
+          {
+            "item_body": "<p>The cross product \u2014 it returns a vector perpendicular to both</p>",
+            "id": "b9aa860b-957c-4302-875f-2be8a98dec5a",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Neither \u2014 no such vector exists</p>",
+            "id": "1dec16c0-a1ba-4714-ae7e-8b22fe04ccf5",
+            "position": 3
+          },
+          {
+            "item_body": "<p>The dot product \u2014 a zero result means perpendicular</p>",
+            "id": "a58ede22-b346-4146-aecf-6651dd09d570",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>You need a vector that is perpendicular to both u = (1, 2, 0) and v = (0, 1, 3). Which product do you use?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45121",
+      "label": null,
+      "title": "C5",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "33982",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>The force helps the displacement</p>",
+            "id": "8bc42f55-80fb-4bb0-a066-e5f4b7550e5b",
+            "position": 1
+          },
+          {
+            "item_body": "<p>The force opposes the displacement overall</p>",
+            "id": "70f09dfd-2b1d-4a9a-9b46-719345566a07",
+            "position": 2
+          },
+          {
+            "item_body": "<p>The calculation must be wrong \u2014 work can't be negative</p>",
+            "id": "2476005b-01a1-4ebc-af41-1a3e90552ce8",
+            "position": 3
+          },
+          {
+            "item_body": "<p>No work is done</p>",
+            "id": "35bb329b-d713-45ed-bd79-2b0ea398a12d",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A force F = (4, -2, 3) N displaces an object by d = (2, 5, -1) m. The work is -5 J. This means...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45150",
+      "label": null,
+      "title": "C8",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "34010",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>10 N\u00b7m</p>",
+            "id": "8755a0ca-240b-4c80-a5a7-47f016c05d25",
+            "position": 1
+          },
+          {
+            "item_body": "<p>(0, 0, 10) N\u00b7m</p>",
+            "id": "43f8da7b-c584-4fdb-b527-20c3ea08d022",
+            "position": 2
+          },
+          {
+            "item_body": "<p>(10, 0, 0) N\u00b7m</p>",
+            "id": "4489d493-0c1c-4bd1-9064-bd8311968b28",
+            "position": 3
+          },
+          {
+            "item_body": "<p>(0, 0, -10) N\u00b7m</p>",
+            "id": "c182c766-fd81-4589-ada1-937938a3f40d",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>For r = (0.5, 0, 0) m and F = (0, 20, 0) N, the torque \u03c4 = r \u00d7 F is...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45110",
+      "label": null,
+      "title": "C4",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "33974",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>p and q are parallel</p>",
+            "id": "9fcd97ac-b166-4092-a03f-69df45da0fff",
+            "position": 1
+          },
+          {
+            "item_body": "<p>p \u00d7 q is undefined</p>",
+            "id": "e4588587-135d-4143-9c11-9b87b07b1829",
+            "position": 2
+          },
+          {
+            "item_body": "<p>p and q are perpendicular</p>",
+            "id": "0f95b54e-b64b-447f-afa0-8b20164ea529",
+            "position": 3
+          },
+          {
+            "item_body": "<p>One of them is the zero vector</p>",
+            "id": "16ade509-42b0-4c68-9094-54c7d3a52b0d",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Nonzero vectors p and q satisfy p \u00d7 q = 0. What must be true?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45127",
+      "label": null,
+      "title": "C6",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "33992",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>A force F = (6, 2, -1) N moves an object through displacement d = (3, -4, 2) m. The work done, in joules, is...</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45104",
+      "label": null,
+      "title": "C3",
+      "properties": {}
+    },
+    "points_possible": 13.0,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "33967",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>sqrt(180)/2 \u2248 6.71</p>",
+            "id": "167e74ff-31c1-4142-af8f-a2822caee2c1",
+            "position": 1
+          },
+          {
+            "item_body": "<p>sqrt(180) \u2248 13.42</p>",
+            "id": "08b6ef55-71f9-41f5-b5ae-df8336e5ef5f",
+            "position": 2
+          },
+          {
+            "item_body": "<p>180</p>",
+            "id": "74993a6f-65de-481d-9562-a748d06606f1",
+            "position": 3
+          },
+          {
+            "item_body": "<p>22</p>",
+            "id": "3b80f8e5-b2fa-4aee-891c-d2179f5df728",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>For u = (2, -1, 3) and v = (0, 4, -2), the area of the parallelogram with sides u and v is...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45098",
+      "label": null,
+      "title": "C1",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "33962",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": false
+  }
+]

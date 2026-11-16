@@ -1,0 +1,263 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "33802",
+    "item_id": "44930",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "Before this unit, which best describes what you know about the dot product?",
+    "prompt_html": "<p>Before this unit, which best describes what you know about the dot product?</p>",
+    "choices": [
+      {
+        "id": "0ed787e8-e8f4-4789-b7ab-71df256d7397",
+        "position": 1,
+        "text": "I can compute it and explain what it means",
+        "html": "<p>I can compute it and explain what it means</p>"
+      },
+      {
+        "id": "5043295e-6f7c-4a33-94ae-67785a543931",
+        "position": 3,
+        "text": "I can compute it but I'm unsure what it means",
+        "html": "<p>I can compute it but I'm unsure what it means</p>"
+      },
+      {
+        "id": "739f5105-cbf7-4862-bae5-58c8d54a6e70",
+        "position": 4,
+        "text": "I've heard of it but can't compute it",
+        "html": "<p>I've heard of it but can't compute it</p>"
+      },
+      {
+        "id": "141d3845-3337-4ee3-9df8-986dc8b76038",
+        "position": 5,
+        "text": "This is new to me",
+        "html": "<p>This is new to me</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "0ed787e8-e8f4-4789-b7ab-71df256d7397",
+          "item_body": "<p>I can compute it and explain what it means</p>",
+          "position": 1
+        },
+        {
+          "id": "5043295e-6f7c-4a33-94ae-67785a543931",
+          "item_body": "<p>I can compute it but I'm unsure what it means</p>",
+          "position": 3
+        },
+        {
+          "id": "739f5105-cbf7-4862-bae5-58c8d54a6e70",
+          "item_body": "<p>I've heard of it but can't compute it</p>",
+          "position": 4
+        },
+        {
+          "id": "141d3845-3337-4ee3-9df8-986dc8b76038",
+          "item_body": "<p>This is new to me</p>",
+          "position": 5
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "33804",
+    "item_id": "44932",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "How confident are you working with vectors in three dimensions (for example, finding the magnitude of (2, -1, 3))?",
+    "prompt_html": "<p>How confident are you working with vectors in three dimensions (for example, finding the magnitude of (2, -1, 3))?</p>",
+    "choices": [
+      {
+        "id": "6197114e-f79b-4e28-a1d1-6fb737c3cee2",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "d4752ab7-7e7d-44c7-b5fb-a566eeeea61b",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "12656cab-5b71-43c3-b36d-193ffdeda9f2",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "52e6b6ba-c23c-45f4-afed-97b266f4ece3",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "6197114e-f79b-4e28-a1d1-6fb737c3cee2",
+          "item_body": "<p>Very confident</p>",
+          "position": 1
+        },
+        {
+          "id": "d4752ab7-7e7d-44c7-b5fb-a566eeeea61b",
+          "item_body": "<p>Somewhat confident</p>",
+          "position": 2
+        },
+        {
+          "id": "12656cab-5b71-43c3-b36d-193ffdeda9f2",
+          "item_body": "<p>Not very confident</p>",
+          "position": 3
+        },
+        {
+          "id": "52e6b6ba-c23c-45f4-afed-97b266f4ece3",
+          "item_body": "<p>Not confident at all</p>",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "33805",
+    "item_id": "44934",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "How confident are you finding angles with inverse cosine (for example, computing arccos(0.5))?",
+    "prompt_html": "<p>How confident are you finding angles with inverse cosine (for example, computing arccos(0.5))?</p>",
+    "choices": [
+      {
+        "id": "63a499f5-7a64-4584-aeab-27d0aa9ea5bb",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "cae6079c-dbf1-4290-853f-fd5d0b260ba0",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "0372decd-bea0-4159-913a-fcd22ee2ada6",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "10f4d3d1-d2dd-4d5c-a4a8-087b408b025a",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "63a499f5-7a64-4584-aeab-27d0aa9ea5bb",
+          "item_body": "<p>Very confident</p>",
+          "position": 1
+        },
+        {
+          "id": "cae6079c-dbf1-4290-853f-fd5d0b260ba0",
+          "item_body": "<p>Somewhat confident</p>",
+          "position": 2
+        },
+        {
+          "id": "0372decd-bea0-4159-913a-fcd22ee2ada6",
+          "item_body": "<p>Not very confident</p>",
+          "position": 3
+        },
+        {
+          "id": "10f4d3d1-d2dd-4d5c-a4a8-087b408b025a",
+          "item_body": "<p>Not confident at all</p>",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "33809",
+    "item_id": "44937",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "How confident are you choosing the right formula for a word problem (for example, deciding whether a situation needs a dot product or a cross product)?",
+    "prompt_html": "<p>How confident are you choosing the right formula for a word problem (for example, deciding whether a situation needs a dot product or a cross product)?</p>",
+    "choices": [
+      {
+        "id": "a1f0f37e-b48f-4816-a4bf-c937c1a6fc52",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "1a1e90dd-defa-4a61-99b0-50f64c52b74c",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "96361abd-6448-43f7-96b1-313902f962fc",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "8ced0af3-c813-482b-b878-e41b879e61db",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "a1f0f37e-b48f-4816-a4bf-c937c1a6fc52",
+          "item_body": "<p>Very confident</p>",
+          "position": 1
+        },
+        {
+          "id": "1a1e90dd-defa-4a61-99b0-50f64c52b74c",
+          "item_body": "<p>Somewhat confident</p>",
+          "position": 2
+        },
+        {
+          "id": "96361abd-6448-43f7-96b1-313902f962fc",
+          "item_body": "<p>Not very confident</p>",
+          "position": 3
+        },
+        {
+          "id": "8ced0af3-c813-482b-b878-e41b879e61db",
+          "item_body": "<p>Not confident at all</p>",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "33811",
+    "item_id": "44939",
+    "points": 1.0,
+    "slug": "essay",
+    "prompt_text": "What is one goal you have for this unit on the dot product and cross product?",
+    "prompt_html": "<p>What is one goal you have for this unit on the dot product and cross product?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "essay": null,
+      "file_upload": false,
+      "rce": true,
+      "spell_check": false,
+      "word_count": false,
+      "word_limit_enabled": false,
+      "word_limit_max": null,
+      "word_limit_min": null
+    }
+  }
+]

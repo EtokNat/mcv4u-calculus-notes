@@ -1,0 +1,443 @@
+[
+  {
+    "idx": 0,
+    "slug": "rich-fill-blank",
+    "points": 3.0,
+    "prompt": "The line through P(2, -4) and Q(-6, 8) has vector equation r = (2, -4) + t(a, b), where (a, b) is the direction vector PQ. Enter (1) the value of a, (2) the value of b. .",
+    "prompt_dom": "The line through P(2, -4) and Q(-6, 8) has vector equation r = (2, -4) + t(a, b), where (a, b) is the direction vector PQ. Enter (1) the value of a, (2) the value of b. \nQuestion Blank 1 of 2\n \nQuestion Blank 2 of 2\n.",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 1,
+    "slug": "choice",
+    "points": 3.0,
+    "prompt": "A student writes the \"symmetric equations\" of the line r = (0, 1, -3) + t(2, 5, 0) as x/2 = (y - 1)/5 = (z + 3)/0. What is the error?",
+    "prompt_dom": "A student writes the \"symmetric equations\" of the line r = (0, 1, -3) + t(2, 5, 0) as x/2 = (y - 1)/5 = (z + 3)/0. What is the error?\n\nThe z direction number is 0, so z = -3 must be written separately: x/2 = (y - 1)/5, z = -3.\nThe anchor point should be (2, 5, 0).\nThe direction vector should be (0, 1, -3).\nThere is no error - this is correct.",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "9042deb5-0504-4f5b-a45c-c28b3f276482",
+        "position": 1,
+        "text": "The z direction number is 0, so z = -3 must be written separately: x/2 = (y - 1)/5, z = -3.",
+        "html": "The z direction number is 0, so z = -3 must be written separately: x/2 = (y - 1)/5, z = -3."
+      },
+      {
+        "id": "66f7eb0b-833a-4924-ab05-97c61221d7cd",
+        "position": 2,
+        "text": "The anchor point should be (2, 5, 0).",
+        "html": "The anchor point should be (2, 5, 0)."
+      },
+      {
+        "id": "1cc833b3-adba-49df-9699-5fa055bc2700",
+        "position": 3,
+        "text": "The direction vector should be (0, 1, -3).",
+        "html": "The direction vector should be (0, 1, -3)."
+      },
+      {
+        "id": "1d63bbc1-c6d0-488c-b79b-cb95101f9f89",
+        "position": 4,
+        "text": "There is no error - this is correct.",
+        "html": "There is no error - this is correct."
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 2,
+    "slug": "numeric",
+    "points": 3.0,
+    "prompt": "The line through A(2, 1, -3) and B(-4, 5, 3) crosses the xy-plane (z = 0) at one point. Enter the x-coordinate of that crossing point.",
+    "prompt_dom": "The line through A(2, 1, -3) and B(-4, 5, 3) crosses the xy-plane (z = 0) at one point. Enter the x-coordinate of that crossing point.\n\nAnswer\n\nThe line through A(2, 1, -3) and B(-4, 5, 3) crosses the xy-plane (z = 0) at one point. Enter the x-coordinate of that crossing point.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 3,
+    "slug": "choice",
+    "points": 3.0,
+    "prompt": "The symmetric equations of the line through (2, 5, -1) with direction vector (3, -2, 4) are",
+    "prompt_dom": "The symmetric equations of the line through (2, 5, -1) with direction vector (3, -2, 4) are\n\n(x + 2)/3 = (y + 5)/(-2) = (z - 1)/4\n(x - 2)/3 = (y - 5)/2 = (z + 1)/4\n(x - 2)/3 = (y - 5)/(-2) = (z + 1)/4\n(x - 2)/2 = (y - 5)/(-2) = (z + 1)/3",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "3f78078b-9253-47fe-9ed7-45445dffed40",
+        "position": 1,
+        "text": "(x + 2)/3 = (y + 5)/(-2) = (z - 1)/4",
+        "html": "(x + 2)/3 = (y + 5)/(-2) = (z - 1)/4"
+      },
+      {
+        "id": "4f6f18a6-803f-4d29-8a1d-377d3c96876d",
+        "position": 2,
+        "text": "(x - 2)/3 = (y - 5)/2 = (z + 1)/4",
+        "html": "(x - 2)/3 = (y - 5)/2 = (z + 1)/4"
+      },
+      {
+        "id": "b078525c-2b67-4bd5-801a-3ef7df027992",
+        "position": 3,
+        "text": "(x - 2)/3 = (y - 5)/(-2) = (z + 1)/4",
+        "html": "(x - 2)/3 = (y - 5)/(-2) = (z + 1)/4"
+      },
+      {
+        "id": "d578aafd-51f0-4d41-83bb-e9bed3cdd28d",
+        "position": 4,
+        "text": "(x - 2)/2 = (y - 5)/(-2) = (z + 1)/3",
+        "html": "(x - 2)/2 = (y - 5)/(-2) = (z + 1)/3"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 4,
+    "slug": "choice",
+    "points": 3.0,
+    "prompt": "The parametric equations of the line with symmetric equations (x + 1)/(-2) = (y - 3)/4 = (z - 2)/1 are",
+    "prompt_dom": "The parametric equations of the line with symmetric equations (x + 1)/(-2) = (y - 3)/4 = (z - 2)/1 are\n\nx = 1 + 2t, y = -3 - 4t, z = -2 - t\nx = -1 - 2t, y = 3 + 4t, z = 2 - t\nx = -1 - 2t, y = 3 + 4t, z = 2 + t\nx = -2 - t, y = 4 + 3t, z = 1 + 2t",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "089157e0-fffe-47b5-8125-ba7683f0aac0",
+        "position": 1,
+        "text": "x = 1 + 2t, y = -3 - 4t, z = -2 - t",
+        "html": "x = 1 + 2t, y = -3 - 4t, z = -2 - t"
+      },
+      {
+        "id": "097877b8-ff1e-4558-a9b4-3072c25e1af8",
+        "position": 2,
+        "text": "x = -1 - 2t, y = 3 + 4t, z = 2 - t",
+        "html": "x = -1 - 2t, y = 3 + 4t, z = 2 - t"
+      },
+      {
+        "id": "9c19f56e-3081-406d-8fa8-cf8540e73d02",
+        "position": 3,
+        "text": "x = -1 - 2t, y = 3 + 4t, z = 2 + t",
+        "html": "x = -1 - 2t, y = 3 + 4t, z = 2 + t"
+      },
+      {
+        "id": "db1d3abb-59ce-4d52-9419-a080b3d6c37d",
+        "position": 4,
+        "text": "x = -2 - t, y = 4 + 3t, z = 1 + 2t",
+        "html": "x = -2 - t, y = 4 + 3t, z = 1 + 2t"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 5,
+    "slug": "true-false",
+    "points": 2.0,
+    "prompt": "True or false: two lines in R3 with direction vectors (1, 2, 3) and (2, 4, 6) must be the same line.",
+    "prompt_dom": "True or false: two lines in R3 with direction vectors (1, 2, 3) and (2, 4, 6) must be the same line.\n\nTrue\nFalse",
+    "num_blanks": 0,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_true-false_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 6,
+    "slug": "essay",
+    "points": 15.0,
+    "prompt": "Find the Cartesian equation of the plane that contains the point P(1, -2, 0) and the line L: r = (0, 1, 1) + t(1, 2, -1), t in R.\n (a) Explain, in words, how you will obtain a normal vector to the plane, then carry out the calculation.\n (b) Write the Cartesian (scalar) equation of the plane.\n (c) Verify, with a calculation, that both the point P and at least one point on the line L satisfy your equation.",
+    "prompt_dom": "Find the Cartesian equation of the plane that contains the point P(1, -2, 0) and the line L: r = (0, 1, 1) + t(1, 2, -1), t in R.\n\n\u00a0\n\n(a) Explain, in words, how you will obtain a normal vector to the plane, then carry out the calculation.\n\n(b) Write the Cartesian (scalar) equation of the plane.\n\n(c) Verify, with a calculation, that both the point P and at least one point on the line L satisfy your equation.\n\nFind the Cartesian equation of the plane that contains the point P(1, -2, 0) and the line L: r = (0, 1, 1) + t(1, 2, -1), t in R.\n\n\u00a0\n\n(a) Explain, in words, how you will obtain a normal vector to the plane, then carry out the calculation.\n\n(b) Write the Cartesian (scalar) equation of the plane.\n\n(c) Verify, with a calculation, that both the point P and at least one point on the line L satisfy your equation.\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 7,
+    "slug": "rich-fill-blank",
+    "points": 3.0,
+    "prompt": "The distance from P(1, 1, 5) to the plane z = 2 is .",
+    "prompt_dom": "The distance from P(1, 1, 5) to the plane z = 2 is \nQuestion Blank 1 of 1\n .",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 8,
+    "slug": "ordering",
+    "points": 2.0,
+    "prompt": "Put these steps for finding the distance between two skew lines in the correct order. Pick one point on each line, P1 and P2Form the vector P1P2Compute the common perpendicular n = m1 x m2Evaluate |n . P1P2| / |n| Put these steps for finding the distance between two skew lines in the correct order.",
+    "prompt_dom": "Put these steps for finding the distance between two skew lines in the correct order.\nPick one point on each line, P1 and P2Form the vector P1P2Compute the common perpendicular n = m1 x m2Evaluate |n . P1P2| / |n|\nPut these steps for finding the distance between two skew lines in the correct order.\nposition 1\n1\nPosition 1. Reorder Choice: Evaluate |n . P1P2| / |n|\nEvaluate |n . P1P2| / |n|\nposition 2\n2\nPosition 2. Reorder Choice: Form the vector P1P2\nForm the vector P1P2\nposition 3\n3\nPosition 3. Reorder Choice: Compute the common perpendicular n = m1 x m2\nCompute the common perpendicular n = m1 x m2\nposition 4\n4\nPosition 4. Reorder Choice: Pick one point on each line, P1 and P2\nPick one point on each line, P1 and P2",
+    "num_blanks": 4,
+    "choices": [
+      {
+        "id": "70e2d155-d86b-4b50-8d23-dd486e49f9dd",
+        "position": null,
+        "text": "Evaluate |n . P1P2| / |n|",
+        "html": "Evaluate |n . P1P2| / |n|"
+      },
+      {
+        "id": "9facb261-82cc-40d5-86fe-fd0cad40197d",
+        "position": null,
+        "text": "Form the vector P1P2",
+        "html": "Form the vector P1P2"
+      },
+      {
+        "id": "2759ba8c-0365-4b08-b66c-3daa0874de14",
+        "position": null,
+        "text": "Compute the common perpendicular n = m1 x m2",
+        "html": "Compute the common perpendicular n = m1 x m2"
+      },
+      {
+        "id": "6d3593f3-865a-4aee-ac88-0ae148ee9092",
+        "position": null,
+        "text": "Pick one point on each line, P1 and P2",
+        "html": "Pick one point on each line, P1 and P2"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 9,
+    "slug": "numeric",
+    "points": 3.0,
+    "prompt": "The line x = 4 - 5t, y = -2 + 3t passes through Q(-6, 4) for one value of t. Enter that value of t.",
+    "prompt_dom": "The line x = 4 - 5t, y = -2 + 3t passes through Q(-6, 4) for one value of t. Enter that value of t.\n\nAnswer\n\nThe line x = 4 - 5t, y = -2 + 3t passes through Q(-6, 4) for one value of t. Enter that value of t.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 10,
+    "slug": "numeric",
+    "points": 3.0,
+    "prompt": "For the line (x - 3)/2 = (y + 1)/(-4) = (z - 5)/1, the point with x-coordinate 9 has y-coordinate ___. Enter that y-coordinate.",
+    "prompt_dom": "For the line (x - 3)/2 = (y + 1)/(-4) = (z - 5)/1, the point with x-coordinate 9 has y-coordinate ___. Enter that y-coordinate.\n\nAnswer\n\nFor the line (x - 3)/2 = (y + 1)/(-4) = (z - 5)/1, the point with x-coordinate 9 has y-coordinate ___. Enter that y-coordinate.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 11,
+    "slug": "numeric",
+    "points": 3.0,
+    "prompt": "The line of intersection of the planes 2x + y - z = 3 and x - y + 2z = 1 is parallel to a direction vector (a, b, c) with a = 1. Enter the exact value of c.",
+    "prompt_dom": "The line of intersection of the planes 2x + y - z = 3 and x - y + 2z = 1 is parallel to a direction vector (a, b, c) with a = 1. Enter the exact value of c.\n\nAnswer\n\nThe line of intersection of the planes 2x + y - z = 3 and x - y + 2z = 1 is parallel to a direction vector (a, b, c) with a = 1. Enter the exact value of c.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 12,
+    "slug": "essay",
+    "points": 15.0,
+    "prompt": "A line in R2 passes through the point A(-3, 4) with direction vector d = (2, -5).\n (a) Write the vector equation of the line.\n (b) Write the parametric equations of the line.\n (c) Write the symmetric equations of the line (if possible; if not, explain why).\n (d) Write the Cartesian (scalar) equation of the line in the form ax + by + c = 0, and verify, with a calculation, that the point A satisfies your equation.",
+    "prompt_dom": "A line in R2 passes through the point A(-3, 4) with direction vector d = (2, -5).\n\n\u00a0\n\n(a) Write the vector equation of the line.\n\n(b) Write the parametric equations of the line.\n\n(c) Write the symmetric equations of the line (if possible; if not, explain why).\n\n(d) Write the Cartesian (scalar) equation of the line in the form ax + by + c = 0, and verify, with a calculation, that the point A satisfies your equation.\n\nA line in R2 passes through the point A(-3, 4) with direction vector d = (2, -5).\n\n\u00a0\n\n(a) Write the vector equation of the line.\n\n(b) Write the parametric equations of the line.\n\n(c) Write the symmetric equations of the line (if possible; if not, explain why).\n\n(d) Write the Cartesian (scalar) equation of the line in the form ax + by + c = 0, and verify, with a calculation, that the point A satisfies your equation.\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 13,
+    "slug": "choice",
+    "points": 3.0,
+    "prompt": "The planes x + 2y - z = 4 and 2x + 4y - 2z = 8 are",
+    "prompt_dom": "The planes x + 2y - z = 4 and 2x + 4y - 2z = 8 are\n\nperpendicular\ncoincident\nparallel and distinct\nintersecting in a line",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "f9fa2c44-1fef-4fa5-817e-de844e51b0c0",
+        "position": 1,
+        "text": "perpendicular",
+        "html": "perpendicular"
+      },
+      {
+        "id": "f38d9055-8ba7-4780-91c2-ed55ecb15d1e",
+        "position": 2,
+        "text": "coincident",
+        "html": "coincident"
+      },
+      {
+        "id": "2f9e0bd5-0cd7-435f-aaa5-17ae23ccc1f4",
+        "position": 3,
+        "text": "parallel and distinct",
+        "html": "parallel and distinct"
+      },
+      {
+        "id": "1d0e7c00-ba07-4018-b469-1d15a1720172",
+        "position": 4,
+        "text": "intersecting in a line",
+        "html": "intersecting in a line"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 14,
+    "slug": "true-false",
+    "points": 2.0,
+    "prompt": "True or false: the vectors a = (2, -1, 3) and b = (4, -2, 6) can serve as the two direction vectors in a plane's vector equation.",
+    "prompt_dom": "True or false: the vectors a = (2, -1, 3) and b = (4, -2, 6) can serve as the two direction vectors in a plane's vector equation.\n\nTrue\nFalse",
+    "num_blanks": 0,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_true-false_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 15,
+    "slug": "essay",
+    "points": 15.0,
+    "prompt": "Consider the two lines in R3:\n L1: x = 1 + t, y = 2 - t, z = 3 + 2t, t in R\n L2: x = 2 - s, y = 1 + s, z = -1 + 2s, s in R\n (a) Determine, with full algebraic working, whether the lines are parallel, intersecting, or skew. Show every step of your reasoning.\n (b) If the lines intersect, find the point of intersection and verify it lies on both lines. If the lines are skew, explain in a full sentence what it means for two lines to be skew, and show how your algebra confirms this classification.",
+    "prompt_dom": "Consider the two lines in R3:\n\nL1: x = 1 + t, y = 2 - t, z = 3 + 2t, t in R\n\nL2: x = 2 - s, y = 1 + s, z = -1 + 2s, s in R\n\n\u00a0\n\n(a) Determine, with full algebraic working, whether the lines are parallel, intersecting, or skew. Show every step of your reasoning.\n\n(b) If the lines intersect, find the point of intersection and verify it lies on both lines. If the lines are skew, explain in a full sentence what it means for two lines to be skew, and show how your algebra confirms this classification.\n\nConsider the two lines in R3:\n\nL1: x = 1 + t, y = 2 - t, z = 3 + 2t, t in R\n\nL2: x = 2 - s, y = 1 + s, z = -1 + 2s, s in R\n\n\u00a0\n\n(a) Determine, with full algebraic working, whether the lines are parallel, intersecting, or skew. Show every step of your reasoning.\n\n(b) If the lines intersect, find the point of intersection and verify it lies on both lines. If the lines are skew, explain in a full sentence what it means for two lines to be skew, and show how your algebra confirms this classification.\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 16,
+    "slug": "matching",
+    "points": 2.0,
+    "prompt": "Match each line description to its vector equation.\nc: r = (1, 1, 1) + t(1, 1, 1); a: r = (2, -5, 1) + t(0, 4, -2); d: r = (-1, 3) + t(-2, 0); b: r = (0, 0) + t(3, 1) Through (0, 0) with direction (3, 1)Through (2, -5, 1) with direction (0, 4, -2)Through (-1, 3) with direction (-2, 0)Through (1, 1, 1) with direction (1, 1, 1)badc Match each line description to its vector equation.\nc: r = (1, 1, 1) + t(1, 1, 1); a: r = (2, -5, 1) + t(0, 4, -2); d: r = (-1, 3) + t(-2, 0); b: r = (0, 0) + t(3, 1)",
+    "prompt_dom": "Match each line description to its vector equation.  c: r = (1, 1, 1) + t(1, 1, 1); a: r = (2, -5, 1) + t(0, 4, -2); d: r = (-1, 3) + t(-2, 0); b: r = (0, 0) + t(3, 1)\nThrough (0, 0) with direction (3, 1)Through (2, -5, 1) with direction (0, 4, -2)Through (-1, 3) with direction (-2, 0)Through (1, 1, 1) with direction (1, 1, 1)badc\nMatch each line description to its vector equation.  c: r = (1, 1, 1) + t(1, 1, 1); a: r = (2, -5, 1) + t(0, 4, -2); d: r = (-1, 3) + t(-2, 0); b: r = (0, 0) + t(3, 1)\nPrompt 1\nThrough (2, -5, 1) with direction (0, 4, -2)\nAnswer for prompt 1 Through (2, -5, 1) with direction (0, 4, -2)\nPrompt 2\nThrough (-1, 3) with direction (-2, 0)\nAnswer for prompt 2 Through (-1, 3) with direction (-2, 0)\nPrompt 3\nThrough (1, 1, 1) with direction (1, 1, 1)\nAnswer for prompt 3 Through (1, 1, 1) with direction (1, 1, 1)\nPrompt 4\nThrough (0, 0) with direction (3, 1)\nAnswer for prompt 4 Through (0, 0) with direction (3, 1)",
+    "num_blanks": 4,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_matching_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 17,
+    "slug": "essay",
+    "points": 15.0,
+    "prompt": "Consider the two lines in R3:\n L1: r = (1, 0, 1) + t(1, 0, 0), t in R\n L2: r = (0, 2, 0) + s(0, 1, 1), s in R\n (a) Show, with full algebraic working, that L1 and L2 are skew lines.\n (b) Find the distance between L1 and L2, showing every step of your calculation.\n (c) In one or two full sentences, explain what this distance represents geometrically.",
+    "prompt_dom": "Consider the two lines in R3:\n\nL1: r = (1, 0, 1) + t(1, 0, 0), t in R\n\nL2: r = (0, 2, 0) + s(0, 1, 1), s in R\n\n\u00a0\n\n(a) Show, with full algebraic working, that L1 and L2 are skew lines.\n\n(b) Find the distance between L1 and L2, showing every step of your calculation.\n\n(c) In one or two full sentences, explain what this distance represents geometrically.\n\nConsider the two lines in R3:\n\nL1: r = (1, 0, 1) + t(1, 0, 0), t in R\n\nL2: r = (0, 2, 0) + s(0, 1, 1), s in R\n\n\u00a0\n\n(a) Show, with full algebraic working, that L1 and L2 are skew lines.\n\n(b) Find the distance between L1 and L2, showing every step of your calculation.\n\n(c) In one or two full sentences, explain what this distance represents geometrically.\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  },
+  {
+    "idx": 18,
+    "slug": "multi-answer",
+    "points": 2.0,
+    "prompt": "A student computes the distance from P(4, 1, -2) to the plane 3x - 2y + z = 8. Which of the following steps are correct?",
+    "prompt_dom": "A student computes the distance from P(4, 1, -2) to the plane 3x - 2y + z = 8. Which of the following steps are correct?\n\nThe denominator is sqrt(9 + 4 + 1) = sqrt(14)\nThe distance is 0\nThe numerator is |3(4) - 2(1) + (-2) - 8| = 0\nThe distance is 8/sqrt(14)",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "e336682b-06df-4f1e-9ca2-e9090b4067ec",
+        "position": 1,
+        "text": "The denominator is sqrt(9 + 4 + 1) = sqrt(14)",
+        "html": "The denominator is sqrt(9 + 4 + 1) = sqrt(14)"
+      },
+      {
+        "id": "cf66a1ca-8fe0-437e-b485-f69ee09b785c",
+        "position": 2,
+        "text": "The distance is 0",
+        "html": "The distance is 0"
+      },
+      {
+        "id": "38e6235a-2c46-4377-9184-2221591aec5e",
+        "position": 3,
+        "text": "The numerator is |3(4) - 2(1) + (-2) - 8| = 0",
+        "html": "The numerator is |3(4) - 2(1) + (-2) - 8| = 0"
+      },
+      {
+        "id": "8fac3778-c8e5-41b5-836b-4ca6cf8fb764",
+        "position": 4,
+        "text": "The distance is 8/sqrt(14)",
+        "html": "The distance is 8/sqrt(14)"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_multi-answer_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 3.0
+  }
+]

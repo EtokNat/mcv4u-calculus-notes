@@ -1,0 +1,215 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56023",
+    "item_id": "74777",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] A football is kicked up into the air. Its height, h, above the ground, in metres, at t seconds can be modelled by h(t) = 18t - 4.9t^2.\n a. Determine h'(2): \n b. What does h'(2) represent? h'(2) represents the of the football at 2 seconds.",
+    "prompt_html": "<p>[A] A football is kicked up into the air. Its height, h, above the ground, in metres, at t seconds can be modelled by h(t) = 18t - 4.9t^2.</p>\n<p>a. Determine h'(2): <span id=\"blank_e3bb6abc-3a94-491f-b827-5ec929301600\"></span></p>\n<p>b. What does h'(2) represent? h'(2) represents the <span id=\"blank_2041a07b-4e0c-46ff-8c08-51e59e47c26d\"></span> of the football at 2 seconds.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "e3bb6abc-3a94-491f-b827-5ec929301600"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "2041a07b-4e0c-46ff-8c08-51e59e47c26d"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56023",
+    "item_id": "64991",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] Determine the equations of both lines that are tangent to the graph of f(x) = x^2 and pass through point (1, -3).\n Line 1: \n Line 2:",
+    "prompt_html": "<p>[T] Determine the equations of both lines that are tangent to the graph of f(x) = x^2 and pass through point (1, -3).</p>\n<p>Line 1: <span id=\"blank_58e6531d-9d3e-4725-969d-82dad583fd11\"></span></p>\n<p>Line 2: <span id=\"blank_d48b2062-e9ed-427c-8624-accf55506b61\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "58e6531d-9d3e-4725-969d-82dad583fd11"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d48b2062-e9ed-427c-8624-accf55506b61"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56023",
+    "item_id": "64990",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] At what point on the graph of y = x^2 - 4x - 5 is the tangent parallel to 2x - y = 1?\n Point: ( , )",
+    "prompt_html": "<p>[K/U] At what point on the graph of y = x^2 - 4x - 5 is the tangent parallel to 2x - y = 1?</p>\n<p>Point: (<span id=\"blank_077e50e3-2e79-4982-b004-d3748b75e714\"></span>, <span id=\"blank_841168a3-b042-4150-acaa-9618db69f275\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "077e50e3-2e79-4982-b004-d3748b75e714"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "841168a3-b042-4150-acaa-9618db69f275"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56023",
+    "item_id": "64985",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] For each function, find f(a + h) and f(a + h) - f(a).\n a. f(x) = 5x - 2: f(a + h) = ; f(a + h) - f(a) = \n b. f(x) = x^2 + 3x - 1: f(a + h) = ; f(a + h) - f(a) = \n c. f(x) = x^3 - 4x + 1: f(a + h) = ; f(a + h) - f(a) = \n d. f(x) = x^2 + x - 6: f(a + h) = ; f(a + h) - f(a) = \n e. f(x) = -7x + 4: f(a + h) = ; f(a + h) - f(a) = \n f. f(x) = 4 - 2x - x^2: f(a + h) = ; f(a + h) - f(a) =",
+    "prompt_html": "<p>[K/U] For each function, find f(a + h) and f(a + h) - f(a).</p>\n<p>a. f(x) = 5x - 2: f(a + h) = <span id=\"blank_fa7ae932-70ae-4d71-9675-6afb2006524c\"></span>; f(a + h) - f(a) = <span id=\"blank_8b32b461-a049-4ff5-96ca-188334ea3037\"></span></p>\n<p>b. f(x) = x^2 + 3x - 1: f(a + h) = <span id=\"blank_a3bce829-3f4e-4fc7-aacb-6543779fd556\"></span>; f(a + h) - f(a) = <span id=\"blank_a67ba6d0-addc-4d56-a727-62d74b53108a\"></span></p>\n<p>c. f(x) = x^3 - 4x + 1: f(a + h) = <span id=\"blank_399262c1-3c49-4721-9b3f-be09b08fd300\"></span>; f(a + h) - f(a) = <span id=\"blank_b2a9f82a-5d4e-42f1-ad2c-daa76f7e0f4e\"></span></p>\n<p>d. f(x) = x^2 + x - 6: f(a + h) = <span id=\"blank_7cb442e8-0ed7-4ac2-a162-c7dcf8d62c7b\"></span>; f(a + h) - f(a) = <span id=\"blank_4943c1c4-596d-43a0-adcb-c6fed9377b13\"></span></p>\n<p>e. f(x) = -7x + 4: f(a + h) = <span id=\"blank_71099529-8da1-4dbe-ae68-1fd1388bb818\"></span>; f(a + h) - f(a) = <span id=\"blank_05abed6f-cb78-4418-a575-6200b0142dea\"></span></p>\n<p>f. f(x) = 4 - 2x - x^2: f(a + h) = <span id=\"blank_f8f9182d-9181-41bf-b02d-50045fd5325c\"></span>; f(a + h) - f(a) = <span id=\"blank_b9b662f7-d472-4151-9a9c-96e4c92df307\"></span></p>",
+    "choices": [],
+    "num_blanks": 12,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "fa7ae932-70ae-4d71-9675-6afb2006524c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "8b32b461-a049-4ff5-96ca-188334ea3037"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a3bce829-3f4e-4fc7-aacb-6543779fd556"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a67ba6d0-addc-4d56-a727-62d74b53108a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "399262c1-3c49-4721-9b3f-be09b08fd300"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b2a9f82a-5d4e-42f1-ad2c-daa76f7e0f4e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7cb442e8-0ed7-4ac2-a162-c7dcf8d62c7b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "4943c1c4-596d-43a0-adcb-c6fed9377b13"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "71099529-8da1-4dbe-ae68-1fd1388bb818"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "05abed6f-cb78-4418-a575-6200b0142dea"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f8f9182d-9181-41bf-b02d-50045fd5325c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b9b662f7-d472-4151-9a9c-96e4c92df307"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56024",
+    "item_id": "65001",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] A subway train travels from one station to the next in 2 min. Its distance, in kilometres, from the first station after t minutes is s(t) = t^2 - (1/3)t^3. At what times will the train have a velocity of 0.5 km/min?\n Time 1: min\n Time 2: min",
+    "prompt_html": "<p>[A] A subway train travels from one station to the next in 2 min. Its distance, in kilometres, from the first station after t minutes is s(t) = t^2 - (1/3)t^3. At what times will the train have a velocity of 0.5 km/min?</p>\n<p>Time 1: <span id=\"blank_ebced7d8-2742-4935-a2ce-632951eb11e0\"></span> min</p>\n<p>Time 2: <span id=\"blank_a4e65212-f93a-4bc1-b677-810e33be2591\"></span> min</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "ebced7d8-2742-4935-a2ce-632951eb11e0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a4e65212-f93a-4bc1-b677-810e33be2591"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56024",
+    "item_id": "65017",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "[A] An economist has found that the demand function for a particular new product is given by D(p) = 20/sqrt(p - 1), p > 1. Find the slope of the demand curve at the point (5, 10).",
+    "prompt_html": "<p>[A] An economist has found that the demand function for a particular new product is given by D(p) = 20/sqrt(p - 1), p &gt; 1. Find the slope of the demand curve at the point (5, 10).</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56024",
+    "item_id": "64995",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine f'(a) for the given function f(x) at the given value of a.\n a. f(x) = x^3 - sqrt(x), a = 4: f'(a) = \n b. f(x) = 7 - 6 sqrt(x) + 5x^(2/3), a = 64: f'(a) =",
+    "prompt_html": "<p>[K/U] Determine f'(a) for the given function f(x) at the given value of a.</p>\n<p>a. f(x) = x^3 - sqrt(x), a = 4: f'(a) = <span id=\"blank_ae17f080-a5b5-4f25-86b9-066019a8355d\"></span></p>\n<p>b. f(x) = 7 - 6 sqrt(x) + 5x^(2/3), a = 64: f'(a) = <span id=\"blank_bedf51d1-35a7-4560-bf9c-8d0ab9f464b6\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "ae17f080-a5b5-4f25-86b9-066019a8355d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bedf51d1-35a7-4560-bf9c-8d0ab9f464b6"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56024",
+    "item_id": "65021",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] At what point on the curve y = x^4 does the normal have a slope of 16?Point: ( , )",
+    "prompt_html": "<p>[T] At what point on the curve y = x^4 does the normal have a slope of 16?Point: (<span id=\"blank_a9a47145-4366-4054-b4b2-3318abd755ec\"></span>, <span id=\"blank_a8b47bf4-2a88-41bf-8d26-f2eb5407b5e8\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "a9a47145-4366-4054-b4b2-3318abd755ec"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a8b47bf4-2a88-41bf-8d26-f2eb5407b5e8"
+        }
+      ]
+    }
+  }
+]

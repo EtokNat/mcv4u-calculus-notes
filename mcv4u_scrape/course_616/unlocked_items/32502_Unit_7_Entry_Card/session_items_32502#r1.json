@@ -1,0 +1,272 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44930",
+      "interaction_data": {
+        "choices": [
+          {
+            "id": "0ed787e8-e8f4-4789-b7ab-71df256d7397",
+            "item_body": "<p>I can compute it and explain what it means</p>",
+            "position": 1
+          },
+          {
+            "id": "5043295e-6f7c-4a33-94ae-67785a543931",
+            "item_body": "<p>I can compute it but I'm unsure what it means</p>",
+            "position": 3
+          },
+          {
+            "id": "739f5105-cbf7-4862-bae5-58c8d54a6e70",
+            "item_body": "<p>I've heard of it but can't compute it</p>",
+            "position": 4
+          },
+          {
+            "id": "141d3845-3337-4ee3-9df8-986dc8b76038",
+            "item_body": "<p>This is new to me</p>",
+            "position": 5
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "1",
+        "name": "Multiple Choice",
+        "slug": "choice"
+      },
+      "item_body": "<p>Before this unit, which best describes what you know about the dot product?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        },
+        "vary_points_by_answer": false
+      },
+      "title": null,
+      "user_response_type": "Uuid"
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "33802",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44932",
+      "interaction_data": {
+        "choices": [
+          {
+            "id": "6197114e-f79b-4e28-a1d1-6fb737c3cee2",
+            "item_body": "<p>Very confident</p>",
+            "position": 1
+          },
+          {
+            "id": "d4752ab7-7e7d-44c7-b5fb-a566eeeea61b",
+            "item_body": "<p>Somewhat confident</p>",
+            "position": 2
+          },
+          {
+            "id": "12656cab-5b71-43c3-b36d-193ffdeda9f2",
+            "item_body": "<p>Not very confident</p>",
+            "position": 3
+          },
+          {
+            "id": "52e6b6ba-c23c-45f4-afed-97b266f4ece3",
+            "item_body": "<p>Not confident at all</p>",
+            "position": 4
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "1",
+        "name": "Multiple Choice",
+        "slug": "choice"
+      },
+      "item_body": "<p>How confident are you working with vectors in three dimensions (for example, finding the magnitude of (2, -1, 3))?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        },
+        "vary_points_by_answer": false
+      },
+      "title": null,
+      "user_response_type": "Uuid"
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "33804",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44934",
+      "interaction_data": {
+        "choices": [
+          {
+            "id": "63a499f5-7a64-4584-aeab-27d0aa9ea5bb",
+            "item_body": "<p>Very confident</p>",
+            "position": 1
+          },
+          {
+            "id": "cae6079c-dbf1-4290-853f-fd5d0b260ba0",
+            "item_body": "<p>Somewhat confident</p>",
+            "position": 2
+          },
+          {
+            "id": "0372decd-bea0-4159-913a-fcd22ee2ada6",
+            "item_body": "<p>Not very confident</p>",
+            "position": 3
+          },
+          {
+            "id": "10f4d3d1-d2dd-4d5c-a4a8-087b408b025a",
+            "item_body": "<p>Not confident at all</p>",
+            "position": 4
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "1",
+        "name": "Multiple Choice",
+        "slug": "choice"
+      },
+      "item_body": "<p>How confident are you finding angles with inverse cosine (for example, computing arccos(0.5))?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        },
+        "vary_points_by_answer": false
+      },
+      "title": null,
+      "user_response_type": "Uuid"
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "33805",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44937",
+      "interaction_data": {
+        "choices": [
+          {
+            "id": "a1f0f37e-b48f-4816-a4bf-c937c1a6fc52",
+            "item_body": "<p>Very confident</p>",
+            "position": 1
+          },
+          {
+            "id": "1a1e90dd-defa-4a61-99b0-50f64c52b74c",
+            "item_body": "<p>Somewhat confident</p>",
+            "position": 2
+          },
+          {
+            "id": "96361abd-6448-43f7-96b1-313902f962fc",
+            "item_body": "<p>Not very confident</p>",
+            "position": 3
+          },
+          {
+            "id": "8ced0af3-c813-482b-b878-e41b879e61db",
+            "item_body": "<p>Not confident at all</p>",
+            "position": 4
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "1",
+        "name": "Multiple Choice",
+        "slug": "choice"
+      },
+      "item_body": "<p>How confident are you choosing the right formula for a word problem (for example, deciding whether a situation needs a dot product or a cross product)?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        },
+        "vary_points_by_answer": false
+      },
+      "title": null,
+      "user_response_type": "Uuid"
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "33809",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44939",
+      "interaction_data": {
+        "essay": null,
+        "file_upload": false,
+        "rce": true,
+        "spell_check": false,
+        "word_count": false,
+        "word_limit_enabled": false,
+        "word_limit_max": null,
+        "word_limit_min": null
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>What is one goal you have for this unit on the dot product and cross product?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": null,
+      "user_response_type": "Text"
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "33811",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  }
+]

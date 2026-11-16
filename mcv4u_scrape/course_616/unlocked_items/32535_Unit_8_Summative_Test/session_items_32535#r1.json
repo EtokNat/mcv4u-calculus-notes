@@ -1,0 +1,802 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "10 km",
+            "id": "3dbafe4a-5edc-42fc-8dd2-1ceabf7109b6",
+            "position": 1
+          },
+          {
+            "item_body": "70 km",
+            "id": "5db655b8-b553-4e2d-8ea0-f41bbed4bd74",
+            "position": 2
+          },
+          {
+            "item_body": "35 km",
+            "id": "5de62b17-f130-4965-872e-3f9e6f9c82c9",
+            "position": 3
+          },
+          {
+            "item_body": "50 km",
+            "id": "3e547431-ea65-4fc2-bedd-8a076834ae06",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A ship sails 40 km on a bearing of 120 degrees, then 30 km on a bearing of 030 degrees.\n<img src=\"https://quiz-api-production-s3-uploads-9bc92eovor5s.s3.amazonaws.com/quiz_assets/ff3adafe-ef27-43d4-b822-5e7ce993ccb3/02a6d792224e64740bcac3eadbb5cf3d.png\" alt=\"Ship sailing two legs\" style=\"max-width:100%;\">\nIts distance from the starting point is</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "49137",
+      "label": null,
+      "title": "MCV4U-U8-035",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true
+          }
+        }
+      }
+    },
+    "points_possible": 3.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "45903",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "It slides - the downslope component (150 N) exceeds the maximum friction (about 130 N)",
+            "id": "dcc61628-3bc0-4cf4-a42c-f142c6d44ae4",
+            "position": 1
+          },
+          {
+            "item_body": "It tips over the edge",
+            "id": "f5abb32e-2191-41f8-9d6d-acaa4d0087fb",
+            "position": 2
+          },
+          {
+            "item_body": "It stays - friction always matches the downslope pull",
+            "id": "1584d7be-c43e-40e1-a62b-458373267827",
+            "position": 3
+          },
+          {
+            "item_body": "It stays - the normal force holds it in place",
+            "id": "93164169-e29d-4a6d-bf63-422660ac5807",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A 300 N box sits on a 30-degree ramp. The coefficient of static friction is 0.5. What happens?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "49162",
+      "label": null,
+      "title": "MCV4U-U8-061",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true
+          }
+        }
+      }
+    },
+    "points_possible": 3.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "45903",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "4.00 h",
+            "id": "3f5a185a-fd1f-4574-82b2-8fc61829866e",
+            "position": 1
+          },
+          {
+            "item_body": "about 3.88 h",
+            "id": "f273b815-e198-45c4-8e48-c552842da782",
+            "position": 2
+          },
+          {
+            "item_body": "4.50 h",
+            "id": "d6bd3831-80fa-4a70-8ae0-68f184c710f0",
+            "position": 3
+          },
+          {
+            "item_body": "about 4.11 h",
+            "id": "5c1d8db8-0e1e-45eb-960d-66c745091ff0",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A plane flies 600 km due east to a city and back, at 300 km/h airspeed, with a steady wind from the west at 50 km/h. The total round-trip time is</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "49133",
+      "label": null,
+      "title": "MCV4U-U8-031",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true
+          }
+        }
+      }
+    },
+    "points_possible": 3.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "45903",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>A 40 N picture hangs from two identical vertical cables. The tension in each cable, in N, is</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "53470",
+      "label": null,
+      "title": "MCV4U-U8-058",
+      "properties": {}
+    },
+    "points_possible": 3.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "45902",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>A boat's motor pushes at 18 km/h on a bearing of 030 degrees. The river current is 7 km/h due south. The boat's ground speed, in km/h (1 decimal place), is</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "53464",
+      "label": null,
+      "title": "MCV4U-U8-032",
+      "properties": {}
+    },
+    "points_possible": 3.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "45902",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>A tractor pulls a trailer 450 m with a force of 2500 N at 10 degrees above the horizontal. The work done, in kJ (nearest whole number), is</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "53465",
+      "label": null,
+      "title": "MCV4U-U8-037",
+      "properties": {}
+    },
+    "points_possible": 3.0,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "45902",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "69de7d1a-ab68-4e5c-ad6f-9426f35ebe0a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "89224e67-c14f-48a2-b472-e8c8650127e6"
+          }
+        ]
+      },
+      "item_body": "<p>A plane flies at 400 km/h on a bearing of 150 degrees. The easting component of its air velocity is <span id=\"blank_69de7d1a-ab68-4e5c-ad6f-9426f35ebe0a\"></span> km/h and the northing component is <span id=\"blank_89224e67-c14f-48a2-b472-e8c8650127e6\"></span> km/h (1 decimal place).</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "50230",
+      "label": null,
+      "title": "MCV4U-U8-030",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 3.0,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "45901",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "e0b3af2c-833c-489c-8c7b-070c5fb6a2e7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1c626649-5c3b-4494-b070-2c0d5dff2f29"
+          }
+        ]
+      },
+      "item_body": "<p>Two forces act on a post: 50 N due east and 120 N due north. The resultant magnitude is <span id=\"blank_e0b3af2c-833c-489c-8c7b-070c5fb6a2e7\"></span> N and its bearing is <span id=\"blank_1c626649-5c3b-4494-b070-2c0d5dff2f29\"></span> degrees (1 decimal place).</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "50229",
+      "label": null,
+      "title": "MCV4U-U8-013",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 3.0,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "45901",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "false_choice": "False",
+        "true_choice": "True"
+      },
+      "item_body": "<p>True or false: If the force is perpendicular to the displacement, the work done by that force is zero.</p>",
+      "user_response_type": "Boolean",
+      "interaction_type": {
+        "name": "True or False",
+        "slug": "true-false",
+        "id": "3"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "49142",
+      "label": null,
+      "title": "MCV4U-U8-040",
+      "properties": {}
+    },
+    "points_possible": 2.0,
+    "position": 9,
+    "question_number": 9,
+    "quiz_entry_id": "45900",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 9,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "false_choice": "False",
+        "true_choice": "True"
+      },
+      "item_body": "<p>True or false: A bearing of 135 degrees points to the northwest.</p>",
+      "user_response_type": "Boolean",
+      "interaction_type": {
+        "name": "True or False",
+        "slug": "true-false",
+        "id": "3"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "49125",
+      "label": null,
+      "title": "MCV4U-U8-022",
+      "properties": {}
+    },
+    "points_possible": 2.0,
+    "position": 10,
+    "question_number": 10,
+    "quiz_entry_id": "45900",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 10,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "The ground velocity is (40, 300) km/h",
+            "id": "4a5664ff-87e4-4bc4-b57e-c626de9b3946",
+            "position": 1
+          },
+          {
+            "item_body": "The plane drifts east of its heading",
+            "id": "b28153dc-c92d-4e71-b242-42b3470f5cf8",
+            "position": 2
+          },
+          {
+            "item_body": "The ground speed is less than the airspeed",
+            "id": "9cb6acab-2424-4f2d-a7ce-ccbf7fa137ff",
+            "position": 3
+          },
+          {
+            "item_body": "The wind blows from the west",
+            "id": "0d36c6d4-319a-4a0a-bc91-e88d6d6c40d1",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A plane's air velocity is (0, 300) km/h (x = east, y = north) and the wind velocity is (40, 0) km/h. Which statements are true? Select all that apply.</p>",
+      "user_response_type": "MultipleUuid",
+      "interaction_type": {
+        "name": "Multiple Answer",
+        "slug": "multi-answer",
+        "id": "2"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "49126",
+      "label": null,
+      "title": "MCV4U-U8-023",
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true
+          }
+        }
+      }
+    },
+    "points_possible": 2.0,
+    "position": 11,
+    "question_number": 11,
+    "quiz_entry_id": "45899",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 11,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "increasing the block's mass",
+            "id": "01e1fb16-49b4-4128-a61b-0dbd35d8c719",
+            "position": 1
+          },
+          {
+            "item_body": "increasing theta",
+            "id": "0f3c0532-abbf-409b-806e-c046506a6da6",
+            "position": 2
+          },
+          {
+            "item_body": "decreasing theta",
+            "id": "4f7a6268-464d-4f50-b6f6-459145edea94",
+            "position": 3
+          },
+          {
+            "item_body": "pushing the block perpendicularly into the incline",
+            "id": "4693ac46-d3da-4e7e-b51b-f3f560e207b4",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A block rests on an incline of angle theta. Which changes would INCREASE the normal force on the block? Select all that apply.</p>",
+      "user_response_type": "MultipleUuid",
+      "interaction_type": {
+        "name": "Multiple Answer",
+        "slug": "multi-answer",
+        "id": "2"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "49168",
+      "label": null,
+      "title": "MCV4U-U8-068",
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true
+          }
+        }
+      }
+    },
+    "points_possible": 2.0,
+    "position": 12,
+    "question_number": 12,
+    "quiz_entry_id": "45899",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 12,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "answers": [
+          "due east",
+          "air velocity + wind velocity",
+          "actual path over the ground",
+          "direction of the air-velocity vector"
+        ],
+        "questions": [
+          {
+            "itemBody": "track",
+            "id": "d2ae26a8-608d-4b62-873c-64eb64e9f12f",
+            "position": 1
+          },
+          {
+            "itemBody": "heading",
+            "id": "5561ea1e-feec-4471-9ce8-16a7352fbb96",
+            "position": 2
+          },
+          {
+            "itemBody": "bearing 090 degrees",
+            "id": "31be0cf5-9c0c-40a6-b36f-c401003c375c",
+            "position": 3
+          },
+          {
+            "itemBody": "ground velocity",
+            "id": "4dca94e7-ece2-4fe6-817b-5db03d53857c",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div>\n<div>Match each navigation term to its meaning.</div>bearing 090 degreesground velocityheadingtrackdue eastair velocity + wind velocitydirection of the air-velocity vectoractual path over the grounddrift angle</div><div>Match each navigation term to its meaning.</div>",
+      "user_response_type": "HashOfTexts",
+      "interaction_type": {
+        "name": "Matching",
+        "slug": "matching",
+        "id": "7"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "49132",
+      "label": null,
+      "title": "MCV4U-U8-029",
+      "properties": {
+        "shuffle_rules": {
+          "questions": {
+            "shuffled": true
+          }
+        }
+      }
+    },
+    "points_possible": 2.0,
+    "position": 13,
+    "question_number": 13,
+    "quiz_entry_id": "45898",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 13,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": {
+          "5e581917-70c3-49c7-9694-90ec2aba9703": {
+            "item_body": "40 km/h headwind (from the north)",
+            "id": "5e581917-70c3-49c7-9694-90ec2aba9703"
+          },
+          "482697c5-e3eb-4d9f-bd50-49742086bd76": {
+            "item_body": "No wind",
+            "id": "482697c5-e3eb-4d9f-bd50-49742086bd76"
+          },
+          "bee92555-71c2-4373-aed0-b34adf653c0f": {
+            "item_body": "40 km/h crosswind (from the east)",
+            "id": "bee92555-71c2-4373-aed0-b34adf653c0f"
+          },
+          "2c484e91-2838-425a-9e2e-0f199958d6c9": {
+            "item_body": "40 km/h tailwind (from the south)",
+            "id": "2c484e91-2838-425a-9e2e-0f199958d6c9"
+          }
+        },
+        "shuffled_order": [
+          "bee92555-71c2-4373-aed0-b34adf653c0f",
+          "5e581917-70c3-49c7-9694-90ec2aba9703",
+          "2c484e91-2838-425a-9e2e-0f199958d6c9",
+          "482697c5-e3eb-4d9f-bd50-49742086bd76"
+        ]
+      },
+      "item_body": "<div>\n<div>A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.</div>40 km/h headwind (from the north)No wind40 km/h crosswind (from the east)40 km/h tailwind (from the south)</div><div>A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.</div>",
+      "user_response_type": "MultipleUuid",
+      "interaction_type": {
+        "name": "Ordering",
+        "slug": "ordering",
+        "id": "10"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "49131",
+      "label": null,
+      "title": "MCV4U-U8-028",
+      "properties": {
+        "top_label": "First",
+        "bottom_label": "Last",
+        "display_answers_paragraph": false,
+        "shuffle_rules": null,
+        "include_labels": false
+      }
+    },
+    "points_possible": 2.0,
+    "position": 14,
+    "question_number": 14,
+    "quiz_entry_id": "45897",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 14,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>A uniform 3.0 m long wooden plank (mass 40 kg) rests horizontally on a pivot located 1.0 m from the plank's left end. A 60 kg child sits on the left end of the plank. (a) Where must a 45 kg child sit on the right side of the pivot so that the plank balances horizontally? Show all steps of your torque calculations. (b) Compute the upward force the pivot must exert on the plank, and explain, in full sentences, why this force must equal the total weight acting on the plank. (c) Explain, in full sentences, why balancing the torques about the pivot is sufficient to guarantee that the system is in equilibrium \u2014 that is, what second equilibrium condition must also hold, and how is it satisfied here? (Use g = 9.8 m/s\u00b2.)</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "59479",
+      "label": null,
+      "title": "Torque Balance on a Loaded Plank",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 16.0,
+    "position": 15,
+    "question_number": 15,
+    "quiz_entry_id": "45896",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 15,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>A 200 kg crate is pulled 10 m up a 20\u00b0 incline by a force of 1200 N applied parallel to the incline. The coefficient of kinetic friction between the crate and the ramp is \u03bc = 0.25. (a) Describe the free-body diagram of the crate (list each force and its direction), and compute, showing all steps, the work done by the applied force, the work done by gravity, and the work done by friction. (b) Find the net work done on the crate. (c) Explain, in full sentences, what the sign of the net work tells you about how the crate's speed changes as it moves up the ramp, referring to the work-energy principle.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "59478",
+      "label": null,
+      "title": "Net Work Pulling a Crate up a Ramp",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 16.0,
+    "position": 16,
+    "question_number": 16,
+    "quiz_entry_id": "45896",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 16,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>A kayaker can paddle at 5 km/h in still water and wants to cross a 1.2 km wide river that flows due east at 3 km/h, landing at the point directly across the river. (a) Determine the heading (the angle upstream from the straight-across direction) that the kayaker must take. Show all steps, including a vector diagram description. (b) How long will the crossing take at that heading? (c) Suppose instead that the kayaker paddles straight across the river with no upstream angle. Compute how far downstream the kayaker lands and the actual ground speed, and explain in full sentences why paddling straight across gives the shortest possible crossing time even though the kayaker misses the target point.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "59477",
+      "label": null,
+      "title": "River Crossing: Finding the Heading",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 16.0,
+    "position": 17,
+    "question_number": 17,
+    "quiz_entry_id": "45896",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 17,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>Two tugboats pull a barge that must be held on a fixed course. Tugboat A exerts a force of 3000 N at 20\u00b0 above the forward direction, and Tugboat B exerts a force of 2400 N at 35\u00b0 below the forward direction. (a) Determine the magnitude and direction of the resultant of the two pulling forces, showing all steps of your vector work. (b) A third tugboat must supply a single equilibrant force so that the barge remains in equilibrium. Find the magnitude and direction of this equilibrant. (c) Explain, in full sentences, why the equilibrant must be equal in magnitude but opposite in direction to the resultant you found in part (a), referring to the condition for equilibrium.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "59476",
+      "label": null,
+      "title": "Resultant Force and the Equilibrant",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 16.0,
+    "position": 18,
+    "question_number": 18,
+    "quiz_entry_id": "45896",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 18,
+    "required": null
+  }
+]

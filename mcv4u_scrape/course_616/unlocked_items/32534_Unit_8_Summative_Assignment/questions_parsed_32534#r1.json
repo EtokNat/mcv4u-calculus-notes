@@ -1,0 +1,609 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "45911",
+    "item_id": "49113",
+    "points": 3.0,
+    "slug": "choice",
+    "prompt_text": "Three 50 N forces act at a point, each 120 degrees from the next. The magnitude of the resultant is",
+    "prompt_html": "<p>Three 50 N forces act at a point, each 120 degrees from the next. The magnitude of the resultant is</p>",
+    "choices": [
+      {
+        "id": "e384544d-a795-4946-8009-d4f6ccee2a65",
+        "position": 1,
+        "text": "50 N",
+        "html": "50 N"
+      },
+      {
+        "id": "d236ae96-ca44-42ae-aa6b-7186c24ce280",
+        "position": 2,
+        "text": "25 N",
+        "html": "25 N"
+      },
+      {
+        "id": "a6fa8769-40f3-4cb3-82c0-7dd249c2d7eb",
+        "position": 3,
+        "text": "150 N",
+        "html": "150 N"
+      },
+      {
+        "id": "fb5de6fc-ce66-4800-bc25-6605e5b6fe12",
+        "position": 4,
+        "text": "0 N",
+        "html": "0 N"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "e384544d-a795-4946-8009-d4f6ccee2a65",
+          "item_body": "50 N",
+          "position": 1
+        },
+        {
+          "id": "d236ae96-ca44-42ae-aa6b-7186c24ce280",
+          "item_body": "25 N",
+          "position": 2
+        },
+        {
+          "id": "a6fa8769-40f3-4cb3-82c0-7dd249c2d7eb",
+          "item_body": "150 N",
+          "position": 3
+        },
+        {
+          "id": "fb5de6fc-ce66-4800-bc25-6605e5b6fe12",
+          "item_body": "0 N",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "45911",
+    "item_id": "49153",
+    "points": 3.0,
+    "slug": "choice",
+    "prompt_text": "A 90 N force pushes a crate 8 m, directed 25 degrees BELOW the horizontal. The work done by the push is",
+    "prompt_html": "<p>A 90 N force pushes a crate 8 m, directed 25 degrees BELOW the horizontal. The work done by the push is</p>",
+    "choices": [
+      {
+        "id": "bc7b856e-5cbd-4713-b204-5e70945de4c7",
+        "position": 1,
+        "text": "about 653 J",
+        "html": "about 653 J"
+      },
+      {
+        "id": "7c4f90c1-3854-47e6-934a-9f12edd9aec1",
+        "position": 2,
+        "text": "720 J",
+        "html": "720 J"
+      },
+      {
+        "id": "5033d9f8-476f-4744-b236-9ae9ac4d2a61",
+        "position": 3,
+        "text": "about 304 J",
+        "html": "about 304 J"
+      },
+      {
+        "id": "14cc484c-11c2-4a1b-88b6-33ff0909dcdb",
+        "position": 4,
+        "text": "about -653 J",
+        "html": "about -653 J"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "bc7b856e-5cbd-4713-b204-5e70945de4c7",
+          "item_body": "about 653 J",
+          "position": 1
+        },
+        {
+          "id": "7c4f90c1-3854-47e6-934a-9f12edd9aec1",
+          "item_body": "720 J",
+          "position": 2
+        },
+        {
+          "id": "5033d9f8-476f-4744-b236-9ae9ac4d2a61",
+          "item_body": "about 304 J",
+          "position": 3
+        },
+        {
+          "id": "14cc484c-11c2-4a1b-88b6-33ff0909dcdb",
+          "item_body": "about -653 J",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "45911",
+    "item_id": "49145",
+    "points": 3.0,
+    "slug": "choice",
+    "prompt_text": "A cable pulls a 500 N crate 8 m up a 20-degree ramp, pulling parallel to the ramp with a force of 400 N. The work done BY the cable is",
+    "prompt_html": "<p>A cable pulls a 500 N crate 8 m up a 20-degree ramp, pulling parallel to the ramp with a force of 400 N. The work done BY the cable is</p>",
+    "choices": [
+      {
+        "id": "d221110c-ccd3-493a-9f3d-3810248be546",
+        "position": 1,
+        "text": "about 3007 J",
+        "html": "about 3007 J"
+      },
+      {
+        "id": "d541f5cd-6de9-43e4-8418-b38a86d1a564",
+        "position": 2,
+        "text": "0 J",
+        "html": "0 J"
+      },
+      {
+        "id": "0c0f88b5-28f2-4260-a922-15f5779583c9",
+        "position": 3,
+        "text": "4000 J",
+        "html": "4000 J"
+      },
+      {
+        "id": "fa0c1f18-4c94-4fb9-a4d0-f8ad5cdfbc0b",
+        "position": 4,
+        "text": "3200 J",
+        "html": "3200 J"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "d221110c-ccd3-493a-9f3d-3810248be546",
+          "item_body": "about 3007 J",
+          "position": 1
+        },
+        {
+          "id": "d541f5cd-6de9-43e4-8418-b38a86d1a564",
+          "item_body": "0 J",
+          "position": 2
+        },
+        {
+          "id": "0c0f88b5-28f2-4260-a922-15f5779583c9",
+          "item_body": "4000 J",
+          "position": 3
+        },
+        {
+          "id": "fa0c1f18-4c94-4fb9-a4d0-f8ad5cdfbc0b",
+          "item_body": "3200 J",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "45911",
+    "item_id": "49138",
+    "points": 3.0,
+    "slug": "choice",
+    "prompt_text": "A dog pulls a sled with 120 N at 15 degrees above the horizontal for 60 m.\nThe work done by the pull is",
+    "prompt_html": "<p>A dog pulls a sled with 120 N at 15 degrees above the horizontal for 60 m.\n<img src=\"https://quiz-api-production-s3-uploads-9bc92eovor5s.s3.amazonaws.com/quiz_assets/ff3adafe-ef27-43d4-b822-5e7ce993ccb3/360da0d3a2569f8bf262f6e75dc5e889.png\" alt=\"Dog sled work diagram\" style=\"max-width:100%;\">\nThe work done by the pull is</p>",
+    "choices": [
+      {
+        "id": "d2257b0f-3988-43f9-ab5f-b8413638f802",
+        "position": 1,
+        "text": "0 J",
+        "html": "0 J"
+      },
+      {
+        "id": "25d4b17c-0256-4cc6-8aec-3b1afba211c9",
+        "position": 2,
+        "text": "about 1863 J",
+        "html": "about 1863 J"
+      },
+      {
+        "id": "5b6d73f7-770f-4f90-8ce3-1c19d195c635",
+        "position": 3,
+        "text": "7200 J",
+        "html": "7200 J"
+      },
+      {
+        "id": "9481f2e5-ebad-483a-b55a-d4437f1cb9ab",
+        "position": 4,
+        "text": "about 6955 J",
+        "html": "about 6955 J"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "d2257b0f-3988-43f9-ab5f-b8413638f802",
+          "item_body": "0 J",
+          "position": 1
+        },
+        {
+          "id": "25d4b17c-0256-4cc6-8aec-3b1afba211c9",
+          "item_body": "about 1863 J",
+          "position": 2
+        },
+        {
+          "id": "5b6d73f7-770f-4f90-8ce3-1c19d195c635",
+          "item_body": "7200 J",
+          "position": 3
+        },
+        {
+          "id": "9481f2e5-ebad-483a-b55a-d4437f1cb9ab",
+          "item_body": "about 6955 J",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "45910",
+    "item_id": "53471",
+    "points": 3.0,
+    "slug": "numeric",
+    "prompt_text": "A 12 kg crate (weight 117.6 N) sits on a 28-degree incline. Ignoring friction, the force parallel to the incline needed to hold it, in N (1 decimal place), is",
+    "prompt_html": "<p>A 12 kg crate (weight 117.6 N) sits on a 28-degree incline. <img style=\"max-width: 100%;\" src=\"https://quiz-api-production-s3-uploads-9bc92eovor5s.s3.amazonaws.com/quiz_assets/ff3adafe-ef27-43d4-b822-5e7ce993ccb3/17bab7bdf645ae857524572a4be43ee7.png\" alt=\"Free-body diagram on incline\"> Ignoring friction, the force parallel to the incline needed to hold it, in N (1 decimal place), is</p>\n<p>&nbsp;</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "45910",
+    "item_id": "53459",
+    "points": 3.0,
+    "slug": "numeric",
+    "prompt_text": "A rescue sled is pulled with 80 N due east and 60 N due north. The magnitude of the resultant pull, in newtons, is",
+    "prompt_html": "<p>A rescue sled is pulled with 80 N due east and 60 N due north. The magnitude of the resultant pull, in newtons, is</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "45910",
+    "item_id": "53472",
+    "points": 3.0,
+    "slug": "numeric",
+    "prompt_text": "A 60 kg person (weight 588 N) stands on a 10-degree slope. The static friction force holding them in place, in N (nearest whole number), is",
+    "prompt_html": "<p>A 60 kg person (weight 588 N) stands on a 10-degree slope. The static friction force holding them in place, in N (nearest whole number), is</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "45910",
+    "item_id": "53467",
+    "points": 3.0,
+    "slug": "numeric",
+    "prompt_text": "A 60 N force acts at 130 degrees to a 25 m displacement. The work done, in J (1 decimal place), is",
+    "prompt_html": "<p>A 60 N force acts at 130 degrees to a 25 m displacement. The work done, in J (1 decimal place), is</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 9,
+    "quiz_entry_id": "45909",
+    "item_id": "53592",
+    "points": 3.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "A rowboat is pulled by two ropes: 9 N due east and 40 N due north. The resultant pull has magnitude N.",
+    "prompt_html": "<p>A rowboat is pulled by two ropes: 9 N due east and 40 N due north. The resultant pull has magnitude <span id=\"blank_6097311d-023e-4043-8984-1f3a361d287d\"></span> N.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "6097311d-023e-4043-8984-1f3a361d287d"
+        }
+      ]
+    }
+  },
+  {
+    "position": 10,
+    "quiz_entry_id": "45909",
+    "item_id": "50251",
+    "points": 3.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Two oxen pull a cart 80 m: one with 300 N at 10 degrees to the direction of motion, the other with 250 N at 20 degrees on the other side. The total work done is J (nearest whole number) and the net force along the motion is N (1 decimal place).",
+    "prompt_html": "<p>Two oxen pull a cart 80 m: one with 300 N at 10 degrees to the direction of motion, the other with 250 N at 20 degrees on the other side. The total work done is <span id=\"blank_755504b9-0d4a-4e17-87a5-a11b51f9a7c9\"></span> J (nearest whole number) and the net force along the motion is <span id=\"blank_e64962e4-67af-4b0e-b9f4-69c2df0fdd8b\"></span> N (1 decimal place).</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "755504b9-0d4a-4e17-87a5-a11b51f9a7c9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e64962e4-67af-4b0e-b9f4-69c2df0fdd8b"
+        }
+      ]
+    }
+  },
+  {
+    "position": 11,
+    "quiz_entry_id": "45908",
+    "item_id": "49125",
+    "points": 2.0,
+    "slug": "true-false",
+    "prompt_text": "True or false: A bearing of 135 degrees points to the northwest.",
+    "prompt_html": "<p>True or false: A bearing of 135 degrees points to the northwest.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "false_choice": "False",
+      "true_choice": "True"
+    }
+  },
+  {
+    "position": 12,
+    "quiz_entry_id": "45908",
+    "item_id": "49167",
+    "points": 2.0,
+    "slug": "true-false",
+    "prompt_text": "True or false: At equilibrium on an incline with friction, the friction force always equals the coefficient of static friction times the normal force.",
+    "prompt_html": "<p>True or false: At equilibrium on an incline with friction, the friction force always equals the coefficient of static friction times the normal force.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "false_choice": "False",
+      "true_choice": "True"
+    }
+  },
+  {
+    "position": 13,
+    "quiz_entry_id": "45907",
+    "item_id": "49126",
+    "points": 2.0,
+    "slug": "multi-answer",
+    "prompt_text": "A plane's air velocity is (0, 300) km/h (x = east, y = north) and the wind velocity is (40, 0) km/h. Which statements are true? Select all that apply.",
+    "prompt_html": "<p>A plane's air velocity is (0, 300) km/h (x = east, y = north) and the wind velocity is (40, 0) km/h. Which statements are true? Select all that apply.</p>",
+    "choices": [
+      {
+        "id": "4a5664ff-87e4-4bc4-b57e-c626de9b3946",
+        "position": 1,
+        "text": "The ground velocity is (40, 300) km/h",
+        "html": "The ground velocity is (40, 300) km/h"
+      },
+      {
+        "id": "b28153dc-c92d-4e71-b242-42b3470f5cf8",
+        "position": 2,
+        "text": "The plane drifts east of its heading",
+        "html": "The plane drifts east of its heading"
+      },
+      {
+        "id": "9cb6acab-2424-4f2d-a7ce-ccbf7fa137ff",
+        "position": 3,
+        "text": "The ground speed is less than the airspeed",
+        "html": "The ground speed is less than the airspeed"
+      },
+      {
+        "id": "0d36c6d4-319a-4a0a-bc91-e88d6d6c40d1",
+        "position": 4,
+        "text": "The wind blows from the west",
+        "html": "The wind blows from the west"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "4a5664ff-87e4-4bc4-b57e-c626de9b3946",
+          "item_body": "The ground velocity is (40, 300) km/h",
+          "position": 1
+        },
+        {
+          "id": "b28153dc-c92d-4e71-b242-42b3470f5cf8",
+          "item_body": "The plane drifts east of its heading",
+          "position": 2
+        },
+        {
+          "id": "9cb6acab-2424-4f2d-a7ce-ccbf7fa137ff",
+          "item_body": "The ground speed is less than the airspeed",
+          "position": 3
+        },
+        {
+          "id": "0d36c6d4-319a-4a0a-bc91-e88d6d6c40d1",
+          "item_body": "The wind blows from the west",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 14,
+    "quiz_entry_id": "45906",
+    "item_id": "49149",
+    "points": 2.0,
+    "slug": "matching",
+    "prompt_text": "Match each work concept to its description. W = F dot swork done by frictionjoulezero work|F||s|cos(theta)negative (theta = 180 degrees)N mtheta = 90 degreestheta = 0 degrees Match each work concept to its description.",
+    "prompt_html": "<div>\n<div>Match each work concept to its description.</div>W = F dot swork done by frictionjoulezero work|F||s|cos(theta)negative (theta = 180 degrees)N mtheta = 90 degreestheta = 0 degrees</div><div>Match each work concept to its description.</div>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "answers": [
+        "N m",
+        "|F||s|cos(theta)",
+        "theta = 90 degrees",
+        "negative (theta = 180 degrees)"
+      ],
+      "questions": [
+        {
+          "id": "15d69c3f-27ff-45f9-9253-400556867088",
+          "itemBody": "joule",
+          "position": 1
+        },
+        {
+          "id": "5157f070-1d73-4d7c-a155-037de13c0a28",
+          "itemBody": "W = F dot s",
+          "position": 2
+        },
+        {
+          "id": "d8c1c3ff-f31b-4072-b76c-30cc832978fe",
+          "itemBody": "zero work",
+          "position": 3
+        },
+        {
+          "id": "2c9f5c73-8a7b-4350-b23d-4b9c6d016354",
+          "itemBody": "work done by friction",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 15,
+    "quiz_entry_id": "45905",
+    "item_id": "49131",
+    "points": 2.0,
+    "slug": "ordering",
+    "prompt_text": "A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST. 40 km/h headwind (from the north)No wind40 km/h crosswind (from the east)40 km/h tailwind (from the south) A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.",
+    "prompt_html": "<div>\n<div>A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.</div>40 km/h headwind (from the north)No wind40 km/h crosswind (from the east)40 km/h tailwind (from the south)</div><div>A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.</div>",
+    "choices": [
+      {
+        "id": "2c484e91-2838-425a-9e2e-0f199958d6c9",
+        "position": null,
+        "text": "40 km/h tailwind (from the south)",
+        "html": "40 km/h tailwind (from the south)"
+      },
+      {
+        "id": "5e581917-70c3-49c7-9694-90ec2aba9703",
+        "position": null,
+        "text": "40 km/h headwind (from the north)",
+        "html": "40 km/h headwind (from the north)"
+      },
+      {
+        "id": "482697c5-e3eb-4d9f-bd50-49742086bd76",
+        "position": null,
+        "text": "No wind",
+        "html": "No wind"
+      },
+      {
+        "id": "bee92555-71c2-4373-aed0-b34adf653c0f",
+        "position": null,
+        "text": "40 km/h crosswind (from the east)",
+        "html": "40 km/h crosswind (from the east)"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": {
+        "2c484e91-2838-425a-9e2e-0f199958d6c9": {
+          "id": "2c484e91-2838-425a-9e2e-0f199958d6c9",
+          "item_body": "40 km/h tailwind (from the south)"
+        },
+        "482697c5-e3eb-4d9f-bd50-49742086bd76": {
+          "id": "482697c5-e3eb-4d9f-bd50-49742086bd76",
+          "item_body": "No wind"
+        },
+        "5e581917-70c3-49c7-9694-90ec2aba9703": {
+          "id": "5e581917-70c3-49c7-9694-90ec2aba9703",
+          "item_body": "40 km/h headwind (from the north)"
+        },
+        "bee92555-71c2-4373-aed0-b34adf653c0f": {
+          "id": "bee92555-71c2-4373-aed0-b34adf653c0f",
+          "item_body": "40 km/h crosswind (from the east)"
+        }
+      },
+      "shuffled_order": [
+        "2c484e91-2838-425a-9e2e-0f199958d6c9",
+        "5e581917-70c3-49c7-9694-90ec2aba9703",
+        "482697c5-e3eb-4d9f-bd50-49742086bd76",
+        "bee92555-71c2-4373-aed0-b34adf653c0f"
+      ]
+    }
+  },
+  {
+    "position": 16,
+    "quiz_entry_id": "45904",
+    "item_id": "59479",
+    "points": 15.0,
+    "slug": "essay",
+    "prompt_text": "A uniform 3.0 m long wooden plank (mass 40 kg) rests horizontally on a pivot located 1.0 m from the plank's left end. A 60 kg child sits on the left end of the plank. (a) Where must a 45 kg child sit on the right side of the pivot so that the plank balances horizontally? Show all steps of your torque calculations. (b) Compute the upward force the pivot must exert on the plank, and explain, in full sentences, why this force must equal the total weight acting on the plank. (c) Explain, in full sentences, why balancing the torques about the pivot is sufficient to guarantee that the system is in equilibrium — that is, what second equilibrium condition must also hold, and how is it satisfied here? (Use g = 9.8 m/s².)",
+    "prompt_html": "<p>A uniform 3.0 m long wooden plank (mass 40 kg) rests horizontally on a pivot located 1.0 m from the plank's left end. A 60 kg child sits on the left end of the plank. (a) Where must a 45 kg child sit on the right side of the pivot so that the plank balances horizontally? Show all steps of your torque calculations. (b) Compute the upward force the pivot must exert on the plank, and explain, in full sentences, why this force must equal the total weight acting on the plank. (c) Explain, in full sentences, why balancing the torques about the pivot is sufficient to guarantee that the system is in equilibrium — that is, what second equilibrium condition must also hold, and how is it satisfied here? (Use g = 9.8 m/s².)</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "essay": null,
+      "file_upload": false,
+      "rce": true,
+      "spell_check": false,
+      "word_count": false,
+      "word_limit_enabled": false,
+      "word_limit_max": null,
+      "word_limit_min": null
+    }
+  },
+  {
+    "position": 17,
+    "quiz_entry_id": "45904",
+    "item_id": "59478",
+    "points": 15.0,
+    "slug": "essay",
+    "prompt_text": "A 200 kg crate is pulled 10 m up a 20° incline by a force of 1200 N applied parallel to the incline. The coefficient of kinetic friction between the crate and the ramp is μ = 0.25. (a) Describe the free-body diagram of the crate (list each force and its direction), and compute, showing all steps, the work done by the applied force, the work done by gravity, and the work done by friction. (b) Find the net work done on the crate. (c) Explain, in full sentences, what the sign of the net work tells you about how the crate's speed changes as it moves up the ramp, referring to the work-energy principle.",
+    "prompt_html": "<p>A 200 kg crate is pulled 10 m up a 20° incline by a force of 1200 N applied parallel to the incline. The coefficient of kinetic friction between the crate and the ramp is μ = 0.25. (a) Describe the free-body diagram of the crate (list each force and its direction), and compute, showing all steps, the work done by the applied force, the work done by gravity, and the work done by friction. (b) Find the net work done on the crate. (c) Explain, in full sentences, what the sign of the net work tells you about how the crate's speed changes as it moves up the ramp, referring to the work-energy principle.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "essay": null,
+      "file_upload": false,
+      "rce": true,
+      "spell_check": false,
+      "word_count": false,
+      "word_limit_enabled": false,
+      "word_limit_max": null,
+      "word_limit_min": null
+    }
+  },
+  {
+    "position": 18,
+    "quiz_entry_id": "45904",
+    "item_id": "59477",
+    "points": 15.0,
+    "slug": "essay",
+    "prompt_text": "A kayaker can paddle at 5 km/h in still water and wants to cross a 1.2 km wide river that flows due east at 3 km/h, landing at the point directly across the river. (a) Determine the heading (the angle upstream from the straight-across direction) that the kayaker must take. Show all steps, including a vector diagram description. (b) How long will the crossing take at that heading? (c) Suppose instead that the kayaker paddles straight across the river with no upstream angle. Compute how far downstream the kayaker lands and the actual ground speed, and explain in full sentences why paddling straight across gives the shortest possible crossing time even though the kayaker misses the target point.",
+    "prompt_html": "<p>A kayaker can paddle at 5 km/h in still water and wants to cross a 1.2 km wide river that flows due east at 3 km/h, landing at the point directly across the river. (a) Determine the heading (the angle upstream from the straight-across direction) that the kayaker must take. Show all steps, including a vector diagram description. (b) How long will the crossing take at that heading? (c) Suppose instead that the kayaker paddles straight across the river with no upstream angle. Compute how far downstream the kayaker lands and the actual ground speed, and explain in full sentences why paddling straight across gives the shortest possible crossing time even though the kayaker misses the target point.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "essay": null,
+      "file_upload": false,
+      "rce": true,
+      "spell_check": false,
+      "word_count": false,
+      "word_limit_enabled": false,
+      "word_limit_max": null,
+      "word_limit_min": null
+    }
+  },
+  {
+    "position": 19,
+    "quiz_entry_id": "45904",
+    "item_id": "59476",
+    "points": 15.0,
+    "slug": "essay",
+    "prompt_text": "Two tugboats pull a barge that must be held on a fixed course. Tugboat A exerts a force of 3000 N at 20° above the forward direction, and Tugboat B exerts a force of 2400 N at 35° below the forward direction. (a) Determine the magnitude and direction of the resultant of the two pulling forces, showing all steps of your vector work. (b) A third tugboat must supply a single equilibrant force so that the barge remains in equilibrium. Find the magnitude and direction of this equilibrant. (c) Explain, in full sentences, why the equilibrant must be equal in magnitude but opposite in direction to the resultant you found in part (a), referring to the condition for equilibrium.",
+    "prompt_html": "<p>Two tugboats pull a barge that must be held on a fixed course. Tugboat A exerts a force of 3000 N at 20° above the forward direction, and Tugboat B exerts a force of 2400 N at 35° below the forward direction. (a) Determine the magnitude and direction of the resultant of the two pulling forces, showing all steps of your vector work. (b) A third tugboat must supply a single equilibrant force so that the barge remains in equilibrium. Find the magnitude and direction of this equilibrant. (c) Explain, in full sentences, why the equilibrant must be equal in magnitude but opposite in direction to the resultant you found in part (a), referring to the condition for equilibrium.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "essay": null,
+      "file_upload": false,
+      "rce": true,
+      "spell_check": false,
+      "word_count": false,
+      "word_limit_enabled": false,
+      "word_limit_max": null,
+      "word_limit_min": null
+    }
+  }
+]

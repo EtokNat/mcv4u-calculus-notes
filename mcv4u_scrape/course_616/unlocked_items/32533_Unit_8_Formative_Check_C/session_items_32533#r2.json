@@ -1,0 +1,396 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>29 m\u00b3</p>",
+            "id": "7917ab3f-ee33-4199-b4db-6adce3410954",
+            "position": 1
+          },
+          {
+            "item_body": "<p>0 m\u00b3</p>",
+            "id": "b4d0f6c7-eb07-4632-b6d3-dfe5c5257854",
+            "position": 2
+          },
+          {
+            "item_body": "<p>9 m\u00b3</p>",
+            "id": "f1c2ea5b-2c0f-4db3-a638-b84549a82de3",
+            "position": 3
+          },
+          {
+            "item_body": "<p>24 m\u00b3</p>",
+            "id": "56e4441a-a932-42a7-8e37-8976f5f539ef",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A storage crate has edges (3, 0, 0), (0, 2, 0), and (0, 0, 4) in metres. Its volume (scalar triple product) is\u2026</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45092",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "33958",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>A triangular garden has vertices (0, 0), (10, 3), and (4, 9) in metres. Its area is\u2026 (m\u00b2)</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45085",
+      "label": null,
+      "title": null,
+      "properties": {}
+    },
+    "points_possible": 12.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "33951",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>25 m\u00b2</p>",
+            "id": "94a5d8d3-e74b-4656-8893-2b75fdd35428",
+            "position": 1
+          },
+          {
+            "item_body": "<p>65 m\u00b2</p>",
+            "id": "605c143d-2450-4367-901c-b14185d9eb90",
+            "position": 2
+          },
+          {
+            "item_body": "<p>40 m\u00b2</p>",
+            "id": "32731b2b-37f3-4de1-9145-a3a8ac1509da",
+            "position": 3
+          },
+          {
+            "item_body": "<p>80 m\u00b2</p>",
+            "id": "1cc5055c-e933-47a3-be10-a9625ef406bc",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A parallelogram banner is spanned by a = (8, 0) and b = (5, 5) in metres. Its area is\u2026</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45081",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "33946",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>Two GPS markers are at A(1, 2, \u22121) and B(4, 6, 3) in kilometres. The distance between them is\u2026 (km)</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45067",
+      "label": null,
+      "title": null,
+      "properties": {}
+    },
+    "points_possible": 12.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "33934",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Acute</p>",
+            "id": "b59e2f0a-f2b0-4630-8662-9cf4827deab3",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Obtuse</p>",
+            "id": "2d2a7efb-ea7d-4c2b-8d1e-aff57a63eea2",
+            "position": 2
+          },
+          {
+            "item_body": "<p>0\u00b0</p>",
+            "id": "bf5cfb9f-7794-4c28-aed3-80211975005c",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Exactly 90\u00b0</p>",
+            "id": "c021cea6-cd72-472a-8431-39889e46f237",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>The scalar projection of vector a onto vector b is negative. The angle between them is\u2026</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45055",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "33922",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>117.6 N</p>",
+            "id": "795781b9-794a-49ad-a328-ab877b1889d8",
+            "position": 1
+          },
+          {
+            "item_body": "<p>\u2248 110.5 N</p>",
+            "id": "495d1ebb-99f4-4970-8394-5c0a52f373a8",
+            "position": 2
+          },
+          {
+            "item_body": "<p>\u2248 40.2 N</p>",
+            "id": "273b2514-0f1c-4f78-b982-485463d34e08",
+            "position": 3
+          },
+          {
+            "item_body": "<p>\u2248 20 N</p>",
+            "id": "3a77faec-fb16-4d3d-90dc-d3a5266a9a96",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A 12 kg toolbox (weight 117.6 N) sits on a 20\u00b0 ramp. The component of its weight acting down the ramp is\u2026</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45034",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "33903",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>\u2248 63.4 N</p>",
+            "id": "148cbc1a-3284-4bda-910a-1767872c9352",
+            "position": 1
+          },
+          {
+            "item_body": "<p>\u2248 135.9 N</p>",
+            "id": "04415210-5d7b-40a9-9930-3717316e1c1d",
+            "position": 2
+          },
+          {
+            "item_body": "<p>150 N</p>",
+            "id": "c07c0527-99ef-4417-842b-a7ace89e9b69",
+            "position": 3
+          },
+          {
+            "item_body": "<p>\u2248 75 N</p>",
+            "id": "c0d83a12-7c95-4cd9-a4be-0960a058a18b",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A rope pulls a wagon with 150 N at 25\u00b0 above the horizontal. The useful forward component is\u2026</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45046",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "33916",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>0 km/h \u2014 it causes pure drift, no headwind or tailwind</p>",
+            "id": "df18c3cb-6f1b-4e9b-b0dd-70f01aa86e07",
+            "position": 1
+          },
+          {
+            "item_body": "<p>\u221260 km/h</p>",
+            "id": "21659c0a-2a57-4b5f-ac42-c70f17517160",
+            "position": 2
+          },
+          {
+            "item_body": "<p>60 km/h headwind</p>",
+            "id": "d7abda84-5a54-4957-84de-5fc0aacfb5a6",
+            "position": 3
+          },
+          {
+            "item_body": "<p>60 km/h tailwind</p>",
+            "id": "42deefa1-536e-4ea8-8f3b-e747a2f50db7",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>A plane heads due north. The wind blows from the west at 60 km/h (so it blows due east). The wind's component along the heading is\u2026</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45063",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "33929",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": false
+  }
+]

@@ -1,0 +1,5048 @@
+[
+  {
+    "id": 3177,
+    "position": 2,
+    "name": "Unit 1 \u2014 Introduction to Calculus",
+    "unlock_at": null,
+    "require_sequential_progress": true,
+    "requirement_type": "all",
+    "publish_final_grade": false,
+    "prerequisite_module_ids": [],
+    "state": "completed",
+    "completed_at": "2026-11-14T23:29:12Z",
+    "items_count": 27,
+    "items_url": "https://bronston.instructure.com/api/v1/courses/616/modules/3177/items",
+    "items": [
+      {
+        "id": 32369,
+        "position": 1,
+        "title": "Unit 1 Overview",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32369",
+        "page_url": "unit-1-overview",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-1-overview",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32370,
+        "position": 2,
+        "title": "Unit 1 Lesson Plan",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32370",
+        "page_url": "unit-1-lesson-plan",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-1-lesson-plan",
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32368,
+        "position": 3,
+        "title": "Entry Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32368",
+        "content_id": 14565,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14565",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32371,
+        "position": 4,
+        "title": "Lesson 1.1 \u2014 Radical Expressions: Rationalizing Denominators",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32371",
+        "page_url": "lesson-1-dot-1-radical-expressions-rationalizing-denominators",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-1-dot-1-radical-expressions-rationalizing-denominators",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41134,
+        "position": 5,
+        "title": "Lesson 1.1 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41134",
+        "content_id": 17404,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17404",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32372,
+        "position": 6,
+        "title": "Lesson 1.2 \u2014 The Slope of a Tangent",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32372",
+        "page_url": "lesson-1-dot-2-the-slope-of-a-tangent",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-1-dot-2-the-slope-of-a-tangent",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41082,
+        "position": 7,
+        "title": "Lesson 1.2 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41082",
+        "content_id": 17350,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17350",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32373,
+        "position": 8,
+        "title": "Formative Check A \u2014 Sections 1.1 & 1.2",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32373",
+        "content_id": 14503,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14503",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32374,
+        "position": 9,
+        "title": "Lesson 1.3 \u2014 Rates of Change",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32374",
+        "page_url": "lesson-1-dot-3-rates-of-change",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-1-dot-3-rates-of-change",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41081,
+        "position": 10,
+        "title": "Lesson 1.3 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41081",
+        "content_id": 17351,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17351",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32376,
+        "position": 11,
+        "title": "Formative Check B \u2014 Sections 1.3 & 1.4",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32376",
+        "content_id": 14506,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14506",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32375,
+        "position": 12,
+        "title": "Lesson 1.4 \u2014 The Limit of a Function",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32375",
+        "page_url": "lesson-1-dot-4-the-limit-of-a-function",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-1-dot-4-the-limit-of-a-function",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41080,
+        "position": 13,
+        "title": "Lesson 1.4 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41080",
+        "content_id": 17352,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17352",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32377,
+        "position": 14,
+        "title": "Lesson 1.5 \u2014 Properties of Limits",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32377",
+        "page_url": "lesson-1-dot-5-properties-of-limits",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-1-dot-5-properties-of-limits",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41079,
+        "position": 15,
+        "title": "Lesson 1.5 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41079",
+        "content_id": 17353,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17353",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32379,
+        "position": 16,
+        "title": "Formative Check C \u2014 Sections 1.5 & 1.6",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32379",
+        "content_id": 14510,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14510",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32378,
+        "position": 17,
+        "title": "Lesson 1.6 \u2014 Continuity",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32378",
+        "page_url": "lesson-1-dot-6-continuity",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-1-dot-6-continuity",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41078,
+        "position": 18,
+        "title": "Lesson 1.6 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41078",
+        "content_id": 17354,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17354",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32382,
+        "position": 19,
+        "title": "Unit 1 Discussion \u2014 Why 0/0 Is Not an Answer",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Discussion",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32382",
+        "content_id": 1775,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/discussion_topics/1775",
+        "completion_requirement": {
+          "type": "must_contribute",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32617,
+        "position": 20,
+        "title": "Unit 1 Observation - Think-Aloud Problem Solving",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32617",
+        "content_id": 14592,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14592",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37457,
+        "position": 21,
+        "title": "Formative Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37457",
+        "content_id": 55404,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55404",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-formative-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37465,
+        "position": 22,
+        "title": "Entry-Exit Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37465",
+        "content_id": 55411,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55411",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-entry-exit-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37460,
+        "position": 23,
+        "title": "Summative Assignment Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37460",
+        "content_id": 55406,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55406",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-assignment-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37463,
+        "position": 24,
+        "title": "Summative Test Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37463",
+        "content_id": 55408,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55408",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-test-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32380,
+        "position": 27,
+        "title": "Unit 1 Summative Assignment",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32380",
+        "content_id": 14511,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14511",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32381,
+        "position": 28,
+        "title": "Unit 1 Summative Test",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32381",
+        "content_id": 14512,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14512",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32383,
+        "position": 1005,
+        "title": "Exit Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3177,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32383",
+        "content_id": 14564,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14564",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 3178,
+    "position": 3,
+    "name": "Unit 2 \u2014 Derivatives",
+    "unlock_at": null,
+    "require_sequential_progress": true,
+    "requirement_type": "all",
+    "publish_final_grade": false,
+    "prerequisite_module_ids": [
+      3177
+    ],
+    "state": "completed",
+    "completed_at": "2026-11-15T19:16:13Z",
+    "items_count": 27,
+    "items_url": "https://bronston.instructure.com/api/v1/courses/616/modules/3178/items",
+    "items": [
+      {
+        "id": 32391,
+        "position": 1,
+        "title": "Unit 2 Overview",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32391",
+        "page_url": "unit-2-overview",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-2-overview",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32392,
+        "position": 2,
+        "title": "Unit 2 Lesson Plan",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32392",
+        "page_url": "unit-2-lesson-plan",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-2-lesson-plan",
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32390,
+        "position": 3,
+        "title": "Unit 2 Entry Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32390",
+        "content_id": 14562,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14562",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32393,
+        "position": 4,
+        "title": "Lesson 2.1 \u2014 The Derivative Function",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32393",
+        "page_url": "lesson-2-dot-1-the-derivative-function",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-2-dot-1-the-derivative-function",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41088,
+        "position": 5,
+        "title": "Lesson 2.1 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41088",
+        "content_id": 17355,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17355",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32394,
+        "position": 6,
+        "title": "Lesson 2.2 \u2014 Constant, Power & Constant Multiple Rules",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32394",
+        "page_url": "lesson-2-dot-2-constant-power-and-constant-multiple-rules",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-2-dot-2-constant-power-and-constant-multiple-rules",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41087,
+        "position": 7,
+        "title": "Lesson 2.2 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41087",
+        "content_id": 17356,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17356",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32396,
+        "position": 8,
+        "title": "Lesson 2.3 \u2014 Sum & Difference Rules: Differentiating Polynomials",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32396",
+        "page_url": "lesson-2-dot-3-sum-and-difference-rules-differentiating-polynomials",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-2-dot-3-sum-and-difference-rules-differentiating-polynomials",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41086,
+        "position": 9,
+        "title": "Lesson 2.3 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41086",
+        "content_id": 17357,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17357",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32395,
+        "position": 10,
+        "title": "Formative Check A \u2014 Lessons 2.1 & 2.2",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32395",
+        "content_id": 14502,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14502",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32397,
+        "position": 11,
+        "title": "Lesson 2.4 \u2014 The Product Rule",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32397",
+        "page_url": "lesson-2-dot-4-the-product-rule",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-2-dot-4-the-product-rule",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41085,
+        "position": 12,
+        "title": "Lesson 2.4 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41085",
+        "content_id": 17358,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17358",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32399,
+        "position": 13,
+        "title": "Lesson 2.5 \u2014 The Quotient Rule",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32399",
+        "page_url": "lesson-2-dot-5-the-quotient-rule",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-2-dot-5-the-quotient-rule",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41084,
+        "position": 14,
+        "title": "Lesson 2.5 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41084",
+        "content_id": 17359,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17359",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32398,
+        "position": 15,
+        "title": "Formative Check B \u2014 Lessons 2.3 & 2.4",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32398",
+        "content_id": 14505,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14505",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32400,
+        "position": 16,
+        "title": "Lesson 2.6 \u2014 The Chain Rule",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32400",
+        "page_url": "lesson-2-dot-6-the-chain-rule",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-2-dot-6-the-chain-rule",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41083,
+        "position": 17,
+        "title": "Lesson 2.6 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41083",
+        "content_id": 17360,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17360",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32401,
+        "position": 18,
+        "title": "Formative Check C \u2014 Lessons 2.5 & 2.6",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32401",
+        "content_id": 14509,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14509",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32404,
+        "position": 19,
+        "title": "Unit 2 Discussion \u2014 When Does Raising the Price Raise Revenue?",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Discussion",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32404",
+        "content_id": 1774,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/discussion_topics/1774",
+        "completion_requirement": {
+          "type": "must_contribute",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32618,
+        "position": 20,
+        "title": "Unit 2 Observation - Think-Aloud Problem Solving",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32618",
+        "content_id": 14593,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14593",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37467,
+        "position": 21,
+        "title": "Formative Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37467",
+        "content_id": 55404,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55404",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-formative-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37472,
+        "position": 22,
+        "title": "Entry-Exit Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37472",
+        "content_id": 55411,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55411",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-entry-exit-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37469,
+        "position": 23,
+        "title": "Summative Assignment Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37469",
+        "content_id": 55406,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55406",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-assignment-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37471,
+        "position": 24,
+        "title": "Summative Test Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37471",
+        "content_id": 55408,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55408",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-test-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32402,
+        "position": 27,
+        "title": "Unit 2 Summative Assignment",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32402",
+        "content_id": 14513,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14513",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32403,
+        "position": 28,
+        "title": "Unit 2 Summative Test",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32403",
+        "content_id": 14514,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14514",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32405,
+        "position": 1005,
+        "title": "Unit 2 Exit Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3178,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32405",
+        "content_id": 14561,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14561",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 3179,
+    "position": 4,
+    "name": "Unit 3 \u2014 Derivatives and Their Applications",
+    "unlock_at": null,
+    "require_sequential_progress": true,
+    "requirement_type": "all",
+    "publish_final_grade": false,
+    "prerequisite_module_ids": [
+      3178
+    ],
+    "state": "completed",
+    "completed_at": "2026-11-15T22:07:26Z",
+    "items_count": 27,
+    "items_url": "https://bronston.instructure.com/api/v1/courses/616/modules/3179/items",
+    "items": [
+      {
+        "id": 32415,
+        "position": 1,
+        "title": "Unit 3 Overview",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32415",
+        "page_url": "unit-3-overview",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-3-overview",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32416,
+        "position": 2,
+        "title": "Unit 3 Lesson Plan",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32416",
+        "page_url": "unit-3-lesson-plan",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-3-lesson-plan",
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32414,
+        "position": 3,
+        "title": "Unit 3 Entry Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32414",
+        "content_id": 14563,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14563",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32417,
+        "position": 4,
+        "title": "Lesson 3.1 \u2014 Second Derivatives: Notation and Computation",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32417",
+        "page_url": "lesson-3-dot-1-second-derivatives-notation-and-computation",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-3-dot-1-second-derivatives-notation-and-computation",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41094,
+        "position": 5,
+        "title": "Lesson 3.1 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41094",
+        "content_id": 17361,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17361",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32418,
+        "position": 6,
+        "title": "Lesson 3.2 \u2014 Motion on a Line: Velocity and Acceleration",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32418",
+        "page_url": "lesson-3-dot-2-motion-on-a-line-velocity-and-acceleration",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-3-dot-2-motion-on-a-line-velocity-and-acceleration",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41093,
+        "position": 7,
+        "title": "Lesson 3.2 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41093",
+        "content_id": 17362,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17362",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32420,
+        "position": 8,
+        "title": "Lesson 3.3 \u2014 Absolute Maximum and Minimum Values on an Interval",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32420",
+        "page_url": "lesson-3-dot-3-absolute-maximum-and-minimum-values-on-an-interval",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-3-dot-3-absolute-maximum-and-minimum-values-on-an-interval",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41092,
+        "position": 9,
+        "title": "Lesson 3.3 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41092",
+        "content_id": 17363,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17363",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32419,
+        "position": 10,
+        "title": "Formative Check A \u2014 Sections 3.1a & 3.1b",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32419",
+        "content_id": 14504,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14504",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32421,
+        "position": 11,
+        "title": "Lesson 3.4 \u2014 Optimization in Action: Area, Volume, and Distance",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32421",
+        "page_url": "lesson-3-dot-4-optimization-in-action-area-volume-and-distance",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-3-dot-4-optimization-in-action-area-volume-and-distance",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41091,
+        "position": 12,
+        "title": "Lesson 3.4 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41091",
+        "content_id": 17364,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17364",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32423,
+        "position": 13,
+        "title": "Lesson 3.5 \u2014 Maximizing Revenue and Profit",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32423",
+        "page_url": "lesson-3-dot-5-maximizing-revenue-and-profit",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-3-dot-5-maximizing-revenue-and-profit",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41090,
+        "position": 14,
+        "title": "Lesson 3.5 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41090",
+        "content_id": 17365,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17365",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32422,
+        "position": 15,
+        "title": "Formative Check B \u2014 Sections 3.2 & 3.3",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32422",
+        "content_id": 14507,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14507",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32424,
+        "position": 16,
+        "title": "Lesson 3.6 \u2014 Minimizing Cost in Business and Science",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32424",
+        "page_url": "lesson-3-dot-6-minimizing-cost-in-business-and-science",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-3-dot-6-minimizing-cost-in-business-and-science",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41089,
+        "position": 17,
+        "title": "Lesson 3.6 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41089",
+        "content_id": 17366,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17366",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32425,
+        "position": 18,
+        "title": "Formative Check C - Sections 3.4 & mixed",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32425",
+        "content_id": 14508,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14508",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32428,
+        "position": 19,
+        "title": "Unit 3 Discussion \u2014 When Does 'One More' Stop Paying Off?",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Discussion",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32428",
+        "content_id": 1773,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/discussion_topics/1773",
+        "completion_requirement": {
+          "type": "must_contribute",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32619,
+        "position": 20,
+        "title": "Unit 3 Observation - Think-Aloud Problem Solving",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32619",
+        "content_id": 14594,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14594",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37474,
+        "position": 21,
+        "title": "Formative Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37474",
+        "content_id": 55404,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55404",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-formative-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37480,
+        "position": 22,
+        "title": "Entry-Exit Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37480",
+        "content_id": 55411,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55411",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-entry-exit-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37476,
+        "position": 23,
+        "title": "Summative Assignment Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37476",
+        "content_id": 55406,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55406",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-assignment-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37478,
+        "position": 24,
+        "title": "Summative Test Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37478",
+        "content_id": 55408,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55408",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-test-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32426,
+        "position": 27,
+        "title": "Unit 3 Summative Assignment",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32426",
+        "content_id": 14515,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14515",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32427,
+        "position": 28,
+        "title": "Unit 3 Summative Test",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32427",
+        "content_id": 14516,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14516",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32429,
+        "position": 1005,
+        "title": "Unit 3 Exit Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3179,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32429",
+        "content_id": 14566,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14566",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 3180,
+    "position": 5,
+    "name": "Unit 4 \u2014 Curve Sketching",
+    "unlock_at": null,
+    "require_sequential_progress": true,
+    "requirement_type": "all",
+    "publish_final_grade": false,
+    "prerequisite_module_ids": [
+      3179
+    ],
+    "state": "completed",
+    "completed_at": "2026-11-15T23:12:04Z",
+    "items_count": 27,
+    "items_url": "https://bronston.instructure.com/api/v1/courses/616/modules/3180/items",
+    "items": [
+      {
+        "id": 32439,
+        "position": 1,
+        "title": "Unit 4 Overview",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32439",
+        "page_url": "unit-4-overview",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-4-overview",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32440,
+        "position": 2,
+        "title": "Unit 4 Lesson Plan",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32440",
+        "page_url": "unit-4-lesson-plan",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-4-lesson-plan",
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32438,
+        "position": 3,
+        "title": "Unit 4 Entry Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32438",
+        "content_id": 14567,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14567",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32441,
+        "position": 4,
+        "title": "Lesson 4.1 \u2014 Increasing/Decreasing Functions and the First Derivative Test",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32441",
+        "page_url": "lesson-4-dot-1-increasing-slash-decreasing-functions-and-the-first-derivative-test",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-4-dot-1-increasing-slash-decreasing-functions-and-the-first-derivative-test",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41100,
+        "position": 5,
+        "title": "Lesson 4.1 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41100",
+        "content_id": 17367,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17367",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32442,
+        "position": 6,
+        "title": "Lesson 4.2 \u2014 Concavity and the Second Derivative Test",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32442",
+        "page_url": "lesson-4-dot-2-concavity-and-the-second-derivative-test",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-4-dot-2-concavity-and-the-second-derivative-test",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41099,
+        "position": 7,
+        "title": "Lesson 4.2 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41099",
+        "content_id": 17368,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17368",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32443,
+        "position": 8,
+        "title": "Unit 4 Formative Check A",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32443",
+        "content_id": 14517,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14517",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32444,
+        "position": 9,
+        "title": "Lesson 4.3 \u2014 Points of Inflection",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32444",
+        "page_url": "lesson-4-dot-3-points-of-inflection",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-4-dot-3-points-of-inflection",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41098,
+        "position": 10,
+        "title": "Lesson 4.3 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41098",
+        "content_id": 17369,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17369",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32446,
+        "position": 11,
+        "title": "Unit 4 Formative Check B",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32446",
+        "content_id": 14518,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14518",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32445,
+        "position": 12,
+        "title": "Lesson 4.4 \u2014 Vertical and Horizontal Asymptotes",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32445",
+        "page_url": "lesson-4-dot-4-vertical-and-horizontal-asymptotes",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-4-dot-4-vertical-and-horizontal-asymptotes",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41097,
+        "position": 13,
+        "title": "Lesson 4.4 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41097",
+        "content_id": 17370,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17370",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32447,
+        "position": 14,
+        "title": "Lesson 4.5 \u2014 The Curve Sketching Algorithm",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32447",
+        "page_url": "lesson-4-dot-5-the-curve-sketching-algorithm",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-4-dot-5-the-curve-sketching-algorithm",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41096,
+        "position": 15,
+        "title": "Lesson 4.5 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41096",
+        "content_id": 17371,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17371",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32449,
+        "position": 16,
+        "title": "Unit 4 Formative Check C",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32449",
+        "content_id": 14519,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14519",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32448,
+        "position": 17,
+        "title": "Lesson 4.6 \u2014 Applied Curve Sketching and Optimization Connections",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32448",
+        "page_url": "lesson-4-dot-6-applied-curve-sketching-and-optimization-connections",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-4-dot-6-applied-curve-sketching-and-optimization-connections",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41095,
+        "position": 18,
+        "title": "Lesson 4.6 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41095",
+        "content_id": 17372,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17372",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32452,
+        "position": 19,
+        "title": "Unit 4 Discussion \u2014 Buy Low, Sell High \u2014 with Calculus",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Discussion",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32452",
+        "content_id": 1772,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/discussion_topics/1772",
+        "completion_requirement": {
+          "type": "must_contribute",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32620,
+        "position": 20,
+        "title": "Unit 4 Observation - Think-Aloud Problem Solving",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32620",
+        "content_id": 14595,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14595",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37482,
+        "position": 21,
+        "title": "Formative Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37482",
+        "content_id": 55404,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55404",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-formative-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37494,
+        "position": 22,
+        "title": "Entry-Exit Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37494",
+        "content_id": 55411,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55411",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-entry-exit-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37484,
+        "position": 23,
+        "title": "Summative Assignment Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37484",
+        "content_id": 55406,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55406",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-assignment-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37488,
+        "position": 24,
+        "title": "Summative Test Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37488",
+        "content_id": 55408,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55408",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-test-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32450,
+        "position": 28,
+        "title": "Unit 4 Summative Assignment",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32450",
+        "content_id": 14520,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14520",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32451,
+        "position": 29,
+        "title": "Unit 4 Summative Test",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32451",
+        "content_id": 14521,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14521",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32453,
+        "position": 31,
+        "title": "Unit 4 Exit Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3180,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32453",
+        "content_id": 14568,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14568",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 3181,
+    "position": 6,
+    "name": "Unit 5 \u2014 Derivatives of Exponential and Trigonometric Functions",
+    "unlock_at": null,
+    "require_sequential_progress": true,
+    "requirement_type": "all",
+    "publish_final_grade": false,
+    "prerequisite_module_ids": [
+      3180
+    ],
+    "state": "completed",
+    "completed_at": "2026-11-15T23:55:34Z",
+    "items_count": 27,
+    "items_url": "https://bronston.instructure.com/api/v1/courses/616/modules/3181/items",
+    "items": [
+      {
+        "id": 32461,
+        "position": 1,
+        "title": "Unit 5 Overview",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32461",
+        "page_url": "unit-5-overview",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-5-overview",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32462,
+        "position": 2,
+        "title": "Unit 5 Lesson Plan",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32462",
+        "page_url": "unit-5-lesson-plan",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-5-lesson-plan",
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32460,
+        "position": 3,
+        "title": "Unit 5 Entry Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32460",
+        "content_id": 14522,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14522",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32463,
+        "position": 4,
+        "title": "Lesson 5.1 \u2014 Derivatives of Exponential Functions (y = e^x)",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32463",
+        "page_url": "lesson-5-dot-1-derivatives-of-exponential-functions-y-=-e-x",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-5-dot-1-derivatives-of-exponential-functions-y-=-e-x",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41106,
+        "position": 5,
+        "title": "Lesson 5.1 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41106",
+        "content_id": 17373,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17373",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32464,
+        "position": 6,
+        "title": "Lesson 5.2 \u2014 Derivatives of the General Exponential Function (y = b^x)",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32464",
+        "page_url": "lesson-5-dot-2-derivatives-of-the-general-exponential-function-y-=-b-x",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-5-dot-2-derivatives-of-the-general-exponential-function-y-=-b-x",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41105,
+        "position": 7,
+        "title": "Lesson 5.2 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41105",
+        "content_id": 17374,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17374",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32466,
+        "position": 8,
+        "title": "Lesson 5.3 \u2014 Optimization Problems with Exponential Functions",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32466",
+        "page_url": "lesson-5-dot-3-optimization-problems-with-exponential-functions",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-5-dot-3-optimization-problems-with-exponential-functions",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41104,
+        "position": 9,
+        "title": "Lesson 5.3 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41104",
+        "content_id": 17375,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17375",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32465,
+        "position": 10,
+        "title": "Unit 5 Formative Check A",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32465",
+        "content_id": 14524,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14524",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32467,
+        "position": 11,
+        "title": "Lesson 5.4 \u2014 Derivatives of Sine and Cosine",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32467",
+        "page_url": "lesson-5-dot-4-derivatives-of-sine-and-cosine",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-5-dot-4-derivatives-of-sine-and-cosine",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41103,
+        "position": 12,
+        "title": "Lesson 5.4 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41103",
+        "content_id": 17376,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17376",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32469,
+        "position": 13,
+        "title": "Lesson 5.5 \u2014 The Derivative of Tangent",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32469",
+        "page_url": "lesson-5-dot-5-the-derivative-of-tangent",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-5-dot-5-the-derivative-of-tangent",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41102,
+        "position": 14,
+        "title": "Lesson 5.5 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41102",
+        "content_id": 17377,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17377",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32468,
+        "position": 15,
+        "title": "Unit 5 Formative Check B",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32468",
+        "content_id": 14526,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14526",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32470,
+        "position": 16,
+        "title": "Lesson 5.6 \u2014 Growth, Decay, and Harmonic Motion: A Rate-of-Change Capstone",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32470",
+        "page_url": "lesson-5-dot-6-growth-decay-and-harmonic-motion-a-rate-of-change-capstone",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-5-dot-6-growth-decay-and-harmonic-motion-a-rate-of-change-capstone",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41101,
+        "position": 17,
+        "title": "Lesson 5.6 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41101",
+        "content_id": 17378,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17378",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32471,
+        "position": 18,
+        "title": "Unit 5 Formative Check C",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32471",
+        "content_id": 14528,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14528",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32474,
+        "position": 20,
+        "title": "Unit 5 Discussion \u2014 Growth That Feeds on Itself",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Discussion",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32474",
+        "content_id": 1771,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/discussion_topics/1771",
+        "completion_requirement": {
+          "type": "must_contribute",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32621,
+        "position": 21,
+        "title": "Unit 5 Observation - Think-Aloud Problem Solving",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32621",
+        "content_id": 14596,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14596",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37498,
+        "position": 22,
+        "title": "Formative Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37498",
+        "content_id": 55404,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55404",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-formative-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37505,
+        "position": 23,
+        "title": "Entry-Exit Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37505",
+        "content_id": 55411,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55411",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-entry-exit-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37499,
+        "position": 24,
+        "title": "Summative Assignment Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37499",
+        "content_id": 55406,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55406",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-assignment-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37501,
+        "position": 25,
+        "title": "Summative Test Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37501",
+        "content_id": 55408,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55408",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-test-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32472,
+        "position": 30,
+        "title": "Unit 5 Summative Assignment",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32472",
+        "content_id": 14530,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14530",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32473,
+        "position": 31,
+        "title": "Unit 5 Summative Test",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32473",
+        "content_id": 14532,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14532",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32475,
+        "position": 33,
+        "title": "Unit 5 Exit Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3181,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32475",
+        "content_id": 14523,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14523",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 3182,
+    "position": 7,
+    "name": "Unit 6 \u2014 Vectors",
+    "unlock_at": null,
+    "require_sequential_progress": true,
+    "requirement_type": "all",
+    "publish_final_grade": false,
+    "prerequisite_module_ids": [
+      3181
+    ],
+    "state": "completed",
+    "completed_at": "2026-11-16T01:28:37Z",
+    "items_count": 27,
+    "items_url": "https://bronston.instructure.com/api/v1/courses/616/modules/3182/items",
+    "items": [
+      {
+        "id": 32483,
+        "position": 1,
+        "title": "Unit 6 Overview",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32483",
+        "page_url": "unit-6-overview",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-6-overview",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32484,
+        "position": 2,
+        "title": "Unit 6 Lesson Plan",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32484",
+        "page_url": "unit-6-lesson-plan",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-6-lesson-plan",
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32482,
+        "position": 3,
+        "title": "Unit 6 Entry Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32482",
+        "content_id": 14533,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14533",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32485,
+        "position": 4,
+        "title": "Lesson 6.1 \u2014 Geometric Vectors: Magnitude and Direction",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32485",
+        "page_url": "lesson-6-dot-1-geometric-vectors-magnitude-and-direction",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-6-dot-1-geometric-vectors-magnitude-and-direction",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41112,
+        "position": 5,
+        "title": "Lesson 6.1 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41112",
+        "content_id": 17379,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17379",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32486,
+        "position": 6,
+        "title": "Lesson 6.2 \u2014 Vector Addition and Subtraction: Triangle and Parallelogram Laws",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32486",
+        "page_url": "lesson-6-dot-2-vector-addition-and-subtraction-triangle-and-parallelogram-laws",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-6-dot-2-vector-addition-and-subtraction-triangle-and-parallelogram-laws",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41111,
+        "position": 7,
+        "title": "Lesson 6.2 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41111",
+        "content_id": 17380,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17380",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32488,
+        "position": 8,
+        "title": "Lesson 6.3 \u2014 Scalar Multiplication and Collinear Vectors",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32488",
+        "page_url": "lesson-6-dot-3-scalar-multiplication-and-collinear-vectors",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-6-dot-3-scalar-multiplication-and-collinear-vectors",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41110,
+        "position": 9,
+        "title": "Lesson 6.3 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41110",
+        "content_id": 17381,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17381",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32487,
+        "position": 10,
+        "title": "Unit 6 Formative Check A",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32487",
+        "content_id": 14535,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14535",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32489,
+        "position": 11,
+        "title": "Lesson 6.4 \u2014 Algebraic Vectors in R\u00b2 and R\u00b3: Component Form",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32489",
+        "page_url": "lesson-6-dot-4-algebraic-vectors-in-r2-and-r3-component-form",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-6-dot-4-algebraic-vectors-in-r2-and-r3-component-form",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41109,
+        "position": 12,
+        "title": "Lesson 6.4 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41109",
+        "content_id": 17382,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17382",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32490,
+        "position": 13,
+        "title": "Lesson 6.5 \u2014 Operations with Algebraic Vectors in R\u00b2 and R\u00b3",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32490",
+        "page_url": "lesson-6-dot-5-operations-with-algebraic-vectors-in-r2-and-r3",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-6-dot-5-operations-with-algebraic-vectors-in-r2-and-r3",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41108,
+        "position": 14,
+        "title": "Lesson 6.5 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41108",
+        "content_id": 17383,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17383",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32492,
+        "position": 15,
+        "title": "Unit 6 Formative Check B",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32492",
+        "content_id": 14536,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14536",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32491,
+        "position": 16,
+        "title": "Lesson 6.6 \u2014 Linear Combinations, Spanning Sets, and Applications",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32491",
+        "page_url": "lesson-6-dot-6-linear-combinations-spanning-sets-and-applications",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-6-dot-6-linear-combinations-spanning-sets-and-applications",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41107,
+        "position": 17,
+        "title": "Lesson 6.6 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41107",
+        "content_id": 17384,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17384",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32493,
+        "position": 18,
+        "title": "Unit 6 Formative Check C",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32493",
+        "content_id": 14537,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14537",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32496,
+        "position": 19,
+        "title": "Unit 6 Discussion \u2014 Safe Landings",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Discussion",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32496",
+        "content_id": 1770,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/discussion_topics/1770",
+        "completion_requirement": {
+          "type": "must_contribute",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32622,
+        "position": 20,
+        "title": "Unit 6 Observation - Think-Aloud Problem Solving",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32622",
+        "content_id": 14597,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14597",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37510,
+        "position": 21,
+        "title": "Formative Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37510",
+        "content_id": 55404,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55404",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-formative-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37515,
+        "position": 22,
+        "title": "Entry-Exit Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37515",
+        "content_id": 55411,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55411",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-entry-exit-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37511,
+        "position": 23,
+        "title": "Summative Assignment Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37511",
+        "content_id": 55406,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55406",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-assignment-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37512,
+        "position": 24,
+        "title": "Summative Test Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37512",
+        "content_id": 55408,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55408",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-test-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32494,
+        "position": 27,
+        "title": "Unit 6 Summative Assignment",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32494",
+        "content_id": 14538,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14538",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32495,
+        "position": 28,
+        "title": "Unit 6 Summative Test",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32495",
+        "content_id": 14539,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14539",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32497,
+        "position": 1005,
+        "title": "Unit 6 Exit Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3182,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32497",
+        "content_id": 14534,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14534",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 3183,
+    "position": 8,
+    "name": "Unit 7 \u2014 Dot Product and Cross Product",
+    "unlock_at": null,
+    "require_sequential_progress": true,
+    "requirement_type": "all",
+    "publish_final_grade": false,
+    "prerequisite_module_ids": [
+      3182
+    ],
+    "state": "completed",
+    "completed_at": "2026-11-16T02:33:13Z",
+    "items_count": 27,
+    "items_url": "https://bronston.instructure.com/api/v1/courses/616/modules/3183/items",
+    "items": [
+      {
+        "id": 32503,
+        "position": 1,
+        "title": "Unit 7 Overview",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32503",
+        "page_url": "unit-7-overview",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-7-overview",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32504,
+        "position": 2,
+        "title": "Unit 7 Lesson Plan",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32504",
+        "page_url": "unit-7-lesson-plan",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-7-lesson-plan",
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32502,
+        "position": 3,
+        "title": "Unit 7 Entry Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32502",
+        "content_id": 14540,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14540",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32505,
+        "position": 4,
+        "title": "Lesson 7.1 \u2014 The Dot Product: Geometric Definition",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32505",
+        "page_url": "lesson-7-dot-1-the-dot-product-geometric-definition",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-7-dot-1-the-dot-product-geometric-definition",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41118,
+        "position": 5,
+        "title": "Lesson 7.1 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41118",
+        "content_id": 17385,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17385",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32506,
+        "position": 6,
+        "title": "Lesson 7.2 \u2014 The Dot Product: Algebraic Form and Properties",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32506",
+        "page_url": "lesson-7-dot-2-the-dot-product-algebraic-form-and-properties",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-7-dot-2-the-dot-product-algebraic-form-and-properties",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41117,
+        "position": 7,
+        "title": "Lesson 7.2 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41117",
+        "content_id": 17386,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17386",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32507,
+        "position": 8,
+        "title": "Unit 7 Formative Check A",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32507",
+        "content_id": 14542,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14542",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32508,
+        "position": 9,
+        "title": "Lesson 7.3 \u2014 Angles Between Vectors and Scalar/Vector Projections",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32508",
+        "page_url": "lesson-7-dot-3-angles-between-vectors-and-scalar-slash-vector-projections",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-7-dot-3-angles-between-vectors-and-scalar-slash-vector-projections",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41116,
+        "position": 10,
+        "title": "Lesson 7.3 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41116",
+        "content_id": 17387,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17387",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32510,
+        "position": 11,
+        "title": "Unit 7 Formative Check B",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32510",
+        "content_id": 14543,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14543",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32509,
+        "position": 12,
+        "title": "Lesson 7.4 \u2014 The Cross Product: Definition and Geometric Meaning",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32509",
+        "page_url": "lesson-7-dot-4-the-cross-product-definition-and-geometric-meaning",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-7-dot-4-the-cross-product-definition-and-geometric-meaning",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41115,
+        "position": 13,
+        "title": "Lesson 7.4 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41115",
+        "content_id": 17388,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17388",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32511,
+        "position": 14,
+        "title": "Lesson 7.5 \u2014 Properties of the Cross Product: Area of Parallelogram and Triangle",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32511",
+        "page_url": "lesson-7-dot-5-properties-of-the-cross-product-area-of-parallelogram-and-triangle",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-7-dot-5-properties-of-the-cross-product-area-of-parallelogram-and-triangle",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41114,
+        "position": 15,
+        "title": "Lesson 7.5 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41114",
+        "content_id": 17389,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17389",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32513,
+        "position": 16,
+        "title": "Unit 7 Formative Check C",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32513",
+        "content_id": 14544,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14544",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32512,
+        "position": 17,
+        "title": "Lesson 7.6 \u2014 Mixed Applications of Dot and Cross Products",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32512",
+        "page_url": "lesson-7-dot-6-mixed-applications-of-dot-and-cross-products",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-7-dot-6-mixed-applications-of-dot-and-cross-products",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41113,
+        "position": 18,
+        "title": "Lesson 7.6 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41113",
+        "content_id": 17390,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17390",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32516,
+        "position": 20,
+        "title": "Unit 7 Discussion \u2014 When Do You Dot and When Do You Cross?",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Discussion",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32516",
+        "content_id": 1769,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/discussion_topics/1769",
+        "completion_requirement": {
+          "type": "must_contribute",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32623,
+        "position": 21,
+        "title": "Unit 7 Observation - Think-Aloud Problem Solving",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32623",
+        "content_id": 14598,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14598",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37521,
+        "position": 22,
+        "title": "Formative Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37521",
+        "content_id": 55404,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55404",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-formative-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37529,
+        "position": 23,
+        "title": "Entry-Exit Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37529",
+        "content_id": 55411,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55411",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-entry-exit-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37523,
+        "position": 24,
+        "title": "Summative Assignment Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37523",
+        "content_id": 55406,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55406",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-assignment-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37525,
+        "position": 25,
+        "title": "Summative Test Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37525",
+        "content_id": 55408,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55408",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-test-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32514,
+        "position": 28,
+        "title": "Unit 7 Summative Assignment",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32514",
+        "content_id": 14545,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14545",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32515,
+        "position": 29,
+        "title": "Unit 7 Summative Test",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32515",
+        "content_id": 14546,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14546",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32517,
+        "position": 31,
+        "title": "Unit 7 Exit Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3183,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32517",
+        "content_id": 14541,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14541",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 3184,
+    "position": 9,
+    "name": "Unit 8 \u2014 Applied Vectors",
+    "unlock_at": null,
+    "require_sequential_progress": true,
+    "requirement_type": "all",
+    "publish_final_grade": false,
+    "prerequisite_module_ids": [
+      3183
+    ],
+    "state": "completed",
+    "completed_at": "2026-11-16T03:36:31Z",
+    "items_count": 27,
+    "items_url": "https://bronston.instructure.com/api/v1/courses/616/modules/3184/items",
+    "items": [
+      {
+        "id": 32523,
+        "position": 1,
+        "title": "Unit 8 Overview",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32523",
+        "page_url": "unit-8-overview",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-8-overview",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32524,
+        "position": 2,
+        "title": "Unit 8 Lesson Plan",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32524",
+        "page_url": "unit-8-lesson-plan",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-8-lesson-plan",
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32522,
+        "position": 3,
+        "title": "Unit 8 Entry Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32522",
+        "content_id": 14547,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14547",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32525,
+        "position": 4,
+        "title": "Lesson 8.1 \u2014 Forces in Equilibrium",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32525",
+        "page_url": "lesson-8-dot-1-forces-in-equilibrium",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-8-dot-1-forces-in-equilibrium",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41124,
+        "position": 5,
+        "title": "Lesson 8.1 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41124",
+        "content_id": 17391,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17391",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32526,
+        "position": 6,
+        "title": "Lesson 8.2 \u2014 Velocity and Navigation",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32526",
+        "page_url": "lesson-8-dot-2-velocity-and-navigation",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-8-dot-2-velocity-and-navigation",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41123,
+        "position": 7,
+        "title": "Lesson 8.2 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41123",
+        "content_id": 17392,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17392",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32528,
+        "position": 8,
+        "title": "Lesson 8.3 \u2014 Work \u2014 Applied Problems",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32528",
+        "page_url": "lesson-8-dot-3-work-applied-problems",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-8-dot-3-work-applied-problems",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41122,
+        "position": 9,
+        "title": "Lesson 8.3 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41122",
+        "content_id": 17393,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17393",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32527,
+        "position": 10,
+        "title": "Unit 8 Formative Check A",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32527",
+        "content_id": 14549,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14549",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32529,
+        "position": 11,
+        "title": "Lesson 8.4 \u2014 Torque \u2014 Applied Problems",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32529",
+        "page_url": "lesson-8-dot-4-torque-applied-problems",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-8-dot-4-torque-applied-problems",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41121,
+        "position": 12,
+        "title": "Lesson 8.4 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41121",
+        "content_id": 17394,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17394",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32531,
+        "position": 13,
+        "title": "Lesson 8.5 \u2014 Projections in Applications",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32531",
+        "page_url": "lesson-8-dot-5-projections-in-applications",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-8-dot-5-projections-in-applications",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41120,
+        "position": 14,
+        "title": "Lesson 8.5 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41120",
+        "content_id": 17395,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17395",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32530,
+        "position": 15,
+        "title": "Unit 8 Formative Check B",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32530",
+        "content_id": 14550,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14550",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32532,
+        "position": 16,
+        "title": "Lesson 8.6 \u2014 Geometric Applications",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32532",
+        "page_url": "lesson-8-dot-6-geometric-applications",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-8-dot-6-geometric-applications",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41119,
+        "position": 17,
+        "title": "Lesson 8.6 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41119",
+        "content_id": 17396,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17396",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32533,
+        "position": 18,
+        "title": "Unit 8 Formative Check C",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32533",
+        "content_id": 14551,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14551",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32536,
+        "position": 19,
+        "title": "Unit 8 Discussion \u2014 Resultant or Torque: Which One Explains It?",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Discussion",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32536",
+        "content_id": 1768,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/discussion_topics/1768",
+        "completion_requirement": {
+          "type": "must_contribute",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32624,
+        "position": 20,
+        "title": "Unit 8 Observation - Think-Aloud Problem Solving",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32624",
+        "content_id": 14599,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14599",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37534,
+        "position": 21,
+        "title": "Formative Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37534",
+        "content_id": 55404,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55404",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-formative-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37541,
+        "position": 22,
+        "title": "Entry-Exit Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37541",
+        "content_id": 55411,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55411",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-entry-exit-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37535,
+        "position": 23,
+        "title": "Summative Assignment Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37535",
+        "content_id": 55406,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55406",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-assignment-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37538,
+        "position": 24,
+        "title": "Summative Test Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37538",
+        "content_id": 55408,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55408",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-test-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32534,
+        "position": 28,
+        "title": "Unit 8 Summative Assignment",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32534",
+        "content_id": 14552,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14552",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32535,
+        "position": 29,
+        "title": "Unit 8 Summative Test",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32535",
+        "content_id": 14553,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14553",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32538,
+        "position": 31,
+        "title": "Unit 8 Exit Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3184,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32538",
+        "content_id": 14548,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14548",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      }
+    ]
+  },
+  {
+    "id": 3185,
+    "position": 10,
+    "name": "Unit 9 \u2014 Equations of Lines and Planes",
+    "unlock_at": null,
+    "require_sequential_progress": true,
+    "requirement_type": "all",
+    "publish_final_grade": false,
+    "prerequisite_module_ids": [
+      3184
+    ],
+    "state": "completed",
+    "completed_at": "2026-11-16T05:29:39Z",
+    "items_count": 27,
+    "items_url": "https://bronston.instructure.com/api/v1/courses/616/modules/3185/items",
+    "items": [
+      {
+        "id": 32544,
+        "position": 1,
+        "title": "Unit 9 Overview \u2014 Equations of Lines and Planes",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32544",
+        "page_url": "unit-9-overview-equations-of-lines-and-planes",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-9-overview-equations-of-lines-and-planes",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32545,
+        "position": 2,
+        "title": "Unit 9 Lesson Plan \u2014 Equations of Lines and Planes",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32545",
+        "page_url": "unit-9-lesson-plan-equations-of-lines-and-planes",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/unit-9-lesson-plan-equations-of-lines-and-planes",
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32543,
+        "position": 3,
+        "title": "Unit 9 Entry Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32543",
+        "content_id": 14554,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14554",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32546,
+        "position": 4,
+        "title": "Lesson 9.1 \u2014 Vector and Parametric Equations of a Line in R2",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32546",
+        "page_url": "lesson-9-dot-1-vector-and-parametric-equations-of-a-line-in-r2",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-9-dot-1-vector-and-parametric-equations-of-a-line-in-r2",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41130,
+        "position": 5,
+        "title": "Lesson 9.1 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41130",
+        "content_id": 17397,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17397",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32547,
+        "position": 6,
+        "title": "Lesson 9.2 \u2014 The Cartesian Equation of a Line in R2",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32547",
+        "page_url": "lesson-9-dot-2-the-cartesian-equation-of-a-line-in-r2",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-9-dot-2-the-cartesian-equation-of-a-line-in-r2",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41129,
+        "position": 7,
+        "title": "Lesson 9.2 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41129",
+        "content_id": 17398,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17398",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32548,
+        "position": 8,
+        "title": "Unit 9 Formative Check A",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32548",
+        "content_id": 14556,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14556",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32549,
+        "position": 9,
+        "title": "Lesson 9.3 \u2014 Lines in R3: Vector, Parametric, and Symmetric Equations",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32549",
+        "page_url": "lesson-9-dot-3-lines-in-r3-vector-parametric-and-symmetric-equations",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-9-dot-3-lines-in-r3-vector-parametric-and-symmetric-equations",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41128,
+        "position": 10,
+        "title": "Lesson 9.3 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41128",
+        "content_id": 17399,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17399",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32551,
+        "position": 11,
+        "title": "Unit 9 Formative Check B",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32551",
+        "content_id": 14557,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14557",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32550,
+        "position": 12,
+        "title": "Lesson 9.4 \u2014 Planes: Vector, Parametric, and Cartesian Equations",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32550",
+        "page_url": "lesson-9-dot-4-planes-vector-parametric-and-cartesian-equations",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-9-dot-4-planes-vector-parametric-and-cartesian-equations",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41127,
+        "position": 13,
+        "title": "Lesson 9.4 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41127",
+        "content_id": 17400,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17400",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32552,
+        "position": 14,
+        "title": "Lesson 9.5 \u2014 Intersections: a Line with a Plane, and Two Lines",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32552",
+        "page_url": "lesson-9-dot-5-intersections-a-line-with-a-plane-and-two-lines",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-9-dot-5-intersections-a-line-with-a-plane-and-two-lines",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41126,
+        "position": 15,
+        "title": "Lesson 9.5 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41126",
+        "content_id": 17401,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17401",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32555,
+        "position": 16,
+        "title": "Unit 9 Formative Check C",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32555",
+        "content_id": 14558,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14558",
+        "completion_requirement": {
+          "type": "min_score",
+          "min_score": 60.0,
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32553,
+        "position": 17,
+        "title": "Lesson 9.6 \u2014 Intersections of Planes and Distances",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Page",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32553",
+        "page_url": "lesson-9-dot-6-intersections-of-planes-and-distances",
+        "publish_at": null,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/pages/lesson-9-dot-6-intersections-of-planes-and-distances",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 41125,
+        "position": 18,
+        "title": "Lesson 9.6 \u2014 Interactive Video Check",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/41125",
+        "content_id": 17402,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/17402",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32558,
+        "position": 20,
+        "title": "Unit 9 Discussion \u2014 One Anchor Point Moves a Whole World",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Discussion",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32558",
+        "content_id": 1767,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/discussion_topics/1767",
+        "completion_requirement": {
+          "type": "must_contribute",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32625,
+        "position": 21,
+        "title": "Unit 9 Observation - Think-Aloud Problem Solving",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32625",
+        "content_id": 14600,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14600",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 20.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37546,
+        "position": 22,
+        "title": "Formative Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37546",
+        "content_id": 55404,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55404",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-formative-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37551,
+        "position": 23,
+        "title": "Entry-Exit Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37551",
+        "content_id": 55411,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55411",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-entry-exit-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37547,
+        "position": 24,
+        "title": "Summative Assignment Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37547",
+        "content_id": 55406,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55406",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-assignment-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 37549,
+        "position": 25,
+        "title": "Summative Test Rubric",
+        "indent": 0,
+        "quiz_lti": false,
+        "type": "File",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/37549",
+        "content_id": 55408,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/files/55408",
+        "completion_requirement": {
+          "type": "must_view",
+          "completed": true
+        },
+        "content_details": {
+          "display_name": "mcv4u-summative-test-rubric.pdf",
+          "thumbnail_url": null,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32556,
+        "position": 28,
+        "title": "Unit 9 Summative Assignment",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32556",
+        "content_id": 14559,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14559",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32557,
+        "position": 29,
+        "title": "Unit 9 Summative Test",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32557",
+        "content_id": 14560,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14560",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 100.0,
+          "locked_for_user": false
+        }
+      },
+      {
+        "id": 32560,
+        "position": 31,
+        "title": "Unit 9 Exit Card",
+        "indent": 0,
+        "quiz_lti": true,
+        "type": "Assignment",
+        "module_id": 3185,
+        "html_url": "https://bronston.instructure.com/courses/616/modules/items/32560",
+        "content_id": 14555,
+        "url": "https://bronston.instructure.com/api/v1/courses/616/assignments/14555",
+        "completion_requirement": {
+          "type": "must_submit",
+          "completed": true
+        },
+        "content_details": {
+          "points_possible": 0.0,
+          "locked_for_user": false
+        }
+      }
+    ]
+  }
+]

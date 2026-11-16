@@ -1,0 +1,472 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "c9b1c1bb-a591-4c22-bfeb-3d76deb573c8"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8f4471ec-e74e-461e-b1a8-550570bd4b69"
+          }
+        ]
+      },
+      "item_body": "<p>Let f(x) = mx + b, where m and b are constants. If lim(x\u21921) f(x) = -2 and lim(x\u2192-1) f(x) = 4, find m and b. / m = <span id=\"blank_c9b1c1bb-a591-4c22-bfeb-3d76deb573c8\"></span> / b = <span id=\"blank_8f4471ec-e74e-461e-b1a8-550570bd4b69\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64962",
+      "label": null,
+      "title": "Q13 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "55995",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "f1c613fe-8b82-4d35-a287-2f70a7303a62"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "33eb6fda-67ad-4e40-8912-6dae9fce5b96"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6ab8b42c-74fb-4577-be53-e46a8eb47caf"
+          }
+        ]
+      },
+      "item_body": "<p>PART B / Evaluate each limit. / a. lim(x\u2192-1) (9 - x\u00b2) <span id=\"blank_f1c613fe-8b82-4d35-a287-2f70a7303a62\"></span>; b. lim(x\u21920) \u221a[(x + 20)/(2x + 5)] <span id=\"blank_33eb6fda-67ad-4e40-8912-6dae9fce5b96\"></span>; c. lim(x\u21925) \u221a(x - 1) <span id=\"blank_6ab8b42c-74fb-4577-be53-e46a8eb47caf\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64961",
+      "label": null,
+      "title": "Q8 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "55995",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "62771e6f-1f03-4e2a-b34f-30f081e6253c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "260da77c-23e5-42be-a1dd-33b74b96793d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "97a2ad6b-ce5f-4ed7-9455-d8eb1d43d594"
+          }
+        ]
+      },
+      "item_body": "<p>Determine the real values of a, b, and c for the quadratic function f(x) = ax\u00b2 + bx + c, a \u2260 0, that satisfy the conditions f(0) = 0, lim(x\u21921) f(x) = 5, and lim(x\u2192-2) f(x) = 8. / a = <span id=\"blank_62771e6f-1f03-4e2a-b34f-30f081e6253c\"></span> / b = <span id=\"blank_260da77c-23e5-42be-a1dd-33b74b96793d\"></span> / c = <span id=\"blank_97a2ad6b-ce5f-4ed7-9455-d8eb1d43d594\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64963",
+      "label": null,
+      "title": "Q14 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "55995",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "30488fc1-ecce-4d7c-9caf-e4720bfc6705"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "276f3452-6c33-400b-a059-f40e81be59cb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "15ad87a0-db3d-43e0-8984-e09125bece9e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fa89f88c-f3d0-4782-b3f7-91275fc5f16f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "612e32d2-b5ed-45fd-987b-fa34b5d0b329"
+          }
+        ]
+      },
+      "item_body": "<p>The electrical power p(t), in kilowatts, being used by a household as a function of time t, in hours, is modelled by a graph where t = 0 corresponds to 06:00. The graph indicates peak use at 08:00 and a power failure between 09:00 and 10:00. a. Determine lim(t\u21922) p(t). <span id=\"blank_30488fc1-ecce-4d7c-9caf-e4720bfc6705\"></span> b. Determine lim(t\u21924+) p(t) <span id=\"blank_276f3452-6c33-400b-a059-f40e81be59cb\"></span> and lim(t\u21924-) p(t) <span id=\"blank_15ad87a0-db3d-43e0-8984-e09125bece9e\"></span>. c. For what values of t is p(t) discontinuous? <span id=\"blank_fa89f88c-f3d0-4782-b3f7-91275fc5f16f\"></span> <span id=\"blank_612e32d2-b5ed-45fd-987b-fa34b5d0b329\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64964",
+      "label": null,
+      "title": "Q7 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "55995",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "d89a4e14-d8b6-423a-addc-c77ddce6736d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1cb7aa99-fec9-4972-aeed-56d67b77e4d8"
+          }
+        ]
+      },
+      "item_body": "<p>PART A</p>\n<p>The velocity of an object is given by v(t) = t(t - 4)\u00b2. At what times, in seconds, is the object at rest?</p>\n<p>t = <span id=\"blank_d89a4e14-d8b6-423a-addc-c77ddce6736d\"></span></p>\n<p>t = <span id=\"blank_1cb7aa99-fec9-4972-aeed-56d67b77e4d8\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64938",
+      "label": null,
+      "title": "Q1 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "55996",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "2e0f823e-7cbc-4463-aa08-bc58a812449c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1c6058ed-a4ad-44ba-9da2-d6bc479ac6b8"
+          }
+        ]
+      },
+      "item_body": "<p>An oil tank is being drained for cleaning. After t minutes, there are V litres of oil left in the tank, where V(t) = 50(30 - t)\u00b2, 0 \u2264 t \u2264 30. a. Calculate the average rate of change in volume of oil in the tank during the first 20 min. <span id=\"blank_2e0f823e-7cbc-4463-aa08-bc58a812449c\"></span>; b. Calculate the rate of change in volume of oil in the tank at time t = 20. <span id=\"blank_1c6058ed-a4ad-44ba-9da2-d6bc479ac6b8\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64951",
+      "label": null,
+      "title": "Q10 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "55996",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "a5c53721-30d3-4f15-8e9d-f1bf6551b473"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "70413468-4b49-4548-8d7a-baab6deed383"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "d47c6ae8-9c37-49d3-b962-d4db3b188ba9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "94692e85-7c5c-4c34-b337-e06b699e9521"
+          }
+        ]
+      },
+      "item_body": "<p>The height, in metres, of an object that has fallen from a height of 180 m is given by the position function s(t) = -5t\u00b2 + 180, where t \u2265 0 and t is in seconds. a. Find the average velocity during each of the first two seconds. <span id=\"blank_a5c53721-30d3-4f15-8e9d-f1bf6551b473\"></span> <span id=\"blank_70413468-4b49-4548-8d7a-baab6deed383\"></span>; b. Find the velocity of the object when t = 4. <span id=\"blank_d47c6ae8-9c37-49d3-b962-d4db3b188ba9\"></span>; c. At what velocity will the object hit the ground? <span id=\"blank_94692e85-7c5c-4c34-b337-e06b699e9521\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64952",
+      "label": null,
+      "title": "Q4 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "55996",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "8d49c87e-4b23-4cbb-a58f-6f9d1f0d760d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "dbe0de07-02f0-4ba9-bca3-2dc25370678b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ed5b1614-3570-4abe-937a-c9a103a5b938"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "05128cd9-148b-4d21-90e6-1b57021dcfcd"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a04be855-a35f-49e3-87e5-f5c19f76f9f4"
+          }
+        ]
+      },
+      "item_body": "<p>PART B</p>\n<p>A construction worker drops a bolt while working on a high-rise building, 320 m above the ground. After t seconds, the bolt has fallen a distance of s metres, where s(t) = 320 - 5t\u00b2, 0 \u2264 t \u2264 8.</p>\n<p>a. Calculate the average velocity during the first, third, and eighth seconds. <span id=\"blank_8d49c87e-4b23-4cbb-a58f-6f9d1f0d760d\"></span> <span id=\"blank_dbe0de07-02f0-4ba9-bca3-2dc25370678b\"></span> <span id=\"blank_ed5b1614-3570-4abe-937a-c9a103a5b938\"></span></p>\n<p>b. Calculate the average velocity for the interval 3 \u2264 t \u2264 8. <span id=\"blank_05128cd9-148b-4d21-90e6-1b57021dcfcd\"></span></p>\n<p>c. Calculate the velocity at t = 2. <span id=\"blank_a04be855-a35f-49e3-87e5-f5c19f76f9f4\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64939",
+      "label": null,
+      "title": "Q7 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "55996",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

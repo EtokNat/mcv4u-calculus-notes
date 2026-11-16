@@ -1,0 +1,163 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56025",
+    "item_id": "64999",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] Determine the value of a, given that the line ax - 4y + 21 = 0 is tangent to the graph of y = a/x^2 at x = -2.\n a =",
+    "prompt_html": "<p>[T] Determine the value of a, given that the line ax - 4y + 21 = 0 is tangent to the graph of y = a/x^2 at x = -2.</p>\n<p>a = <span id=\"blank_e0704b00-637a-46eb-978d-60f88f438cc4\"></span></p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "e0704b00-637a-46eb-978d-60f88f438cc4"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56025",
+    "item_id": "65007",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] If y = 5x^2 - 8x + 4, determine dy/dx from first principles.",
+    "prompt_html": "<p>[K/U] If y = 5x^2 - 8x + 4, determine dy/dx from first principles.<span id=\"blank_f3a15a2d-47f3-40bc-ac75-d47db0296d17\"></span></p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "f3a15a2d-47f3-40bc-ac75-d47db0296d17"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56025",
+    "item_id": "65017",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "[A] An economist has found that the demand function for a particular new product is given by D(p) = 20/sqrt(p - 1), p > 1. Find the slope of the demand curve at the point (5, 10).",
+    "prompt_html": "<p>[A] An economist has found that the demand function for a particular new product is given by D(p) = 20/sqrt(p - 1), p &gt; 1. Find the slope of the demand curve at the point (5, 10).</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56025",
+    "item_id": "65001",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] A subway train travels from one station to the next in 2 min. Its distance, in kilometres, from the first station after t minutes is s(t) = t^2 - (1/3)t^3. At what times will the train have a velocity of 0.5 km/min?\n Time 1: min\n Time 2: min",
+    "prompt_html": "<p>[A] A subway train travels from one station to the next in 2 min. Its distance, in kilometres, from the first station after t minutes is s(t) = t^2 - (1/3)t^3. At what times will the train have a velocity of 0.5 km/min?</p>\n<p>Time 1: <span id=\"blank_ebced7d8-2742-4935-a2ce-632951eb11e0\"></span> min</p>\n<p>Time 2: <span id=\"blank_a4e65212-f93a-4bc1-b677-810e33be2591\"></span> min</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "ebced7d8-2742-4935-a2ce-632951eb11e0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a4e65212-f93a-4bc1-b677-810e33be2591"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56026",
+    "item_id": "65026",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Let F(x) = [b(x)][c(x)]. Express F'(x) in terms of b(x) and c(x).\n F'(x) =",
+    "prompt_html": "<p>[K/U] Let F(x) = [b(x)][c(x)]. Express F'(x) in terms of b(x) and c(x).</p>\n<p>F'(x) = <span id=\"blank_8fb34aea-ea7c-4ef4-99d4-7fac55766383\"></span></p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "8fb34aea-ea7c-4ef4-99d4-7fac55766383"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56026",
+    "item_id": "65031",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine the equation of the tangent to the graph of each function.\n a. y = -3x^2 + 6x + 4 when x = 1: tangent \n b. y = 3 - 2 sqrt(x) when x = 9: tangent \n c. f(x) = -2x^4 + 4x^3 - 2x^2 - 8x + 9 when x = 3: tangent",
+    "prompt_html": "<p>[K/U] Determine the equation of the tangent to the graph of each function.</p>\n<p>a. y = -3x^2 + 6x + 4 when x = 1: tangent <span id=\"blank_42a1f8a5-f52e-4442-bb13-3b03004d998f\"></span></p>\n<p>b. y = 3 - 2 sqrt(x) when x = 9: tangent <span id=\"blank_dc8144d0-47b9-401a-8909-4623ca822d62\"></span></p>\n<p>c. f(x) = -2x^4 + 4x^3 - 2x^2 - 8x + 9 when x = 3: tangent <span id=\"blank_6f59b7cd-3cfd-4ed4-ba0d-d49622591acc\"></span></p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "42a1f8a5-f52e-4442-bb13-3b03004d998f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "dc8144d0-47b9-401a-8909-4623ca822d62"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6f59b7cd-3cfd-4ed4-ba0d-d49622591acc"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56026",
+    "item_id": "65025",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[C] When is it not appropriate to use the product rule? Give examples.\n It is not necessary to use the product rule when one factor is a , or when it is easier to the product first and use other rules. For example, f(x) = 3(x^2 + 1) and g(x) = (x + 1)(x - 1).",
+    "prompt_html": "<p>[C] When is it not appropriate to use the product rule? Give examples.</p>\n<p>It is not necessary to use the product rule when one factor is a <span id=\"blank_66951fc8-f098-4623-9331-96629df8284c\"></span>, or when it is easier to <span id=\"blank_b47b7178-955c-46e3-8cc4-f81efd130449\"></span> the product first and use other rules. For example, f(x) = 3(x^2 + 1) and g(x) = (x + 1)(x - 1).</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "66951fc8-f098-4623-9331-96629df8284c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b47b7178-955c-46e3-8cc4-f81efd130449"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56026",
+    "item_id": "65029",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] A 75 L gas tank has a leak. After t hours, the remaining volume, V, in litres is V(t) = 75(1 - t/24)^2, 0 <= t <= 24. Use the product rule to determine how quickly the gas is leaking from the tank when the tank is 60% full of gas.\n Leaking rate: L/h",
+    "prompt_html": "<p>[A] A 75 L gas tank has a leak. After t hours, the remaining volume, V, in litres is V(t) = 75(1 - t/24)^2, 0 &lt;= t &lt;= 24. Use the product rule to determine how quickly the gas is leaking from the tank when the tank is 60% full of gas.</p>\n<p>Leaking rate: <span id=\"blank_1b21008b-ce7d-4212-ad9e-6be9e244c7bc\"></span> L/h</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "1b21008b-ce7d-4212-ad9e-6be9e244c7bc"
+        }
+      ]
+    }
+  }
+]

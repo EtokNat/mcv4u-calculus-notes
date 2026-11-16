@@ -1,0 +1,686 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65321",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "a8008824-aada-4b2c-9588-1e5a4e4cf30f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "2a65c7fb-5d58-4678-a565-3fc4af1b947f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "785508c6-9f5b-4700-b2dc-2c5c6f92e08a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a760d030-e930-4d5d-91a4-2ff980382f73"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "993f7fd1-eaf4-4b84-a036-761bd2e2ae85"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3c882dec-a305-4b87-b8e2-2cb0f4d745da"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f4a0e4b9-08de-404d-a5b9-d9b06e7dea45"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "66f80ce2-7528-4b79-9dcd-921249087e19"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Determine the value of the second derivative at the indicated value. State whether the curve lies above or below the tangent line at that point.</p>\n<p>a. f(x) = 2x^3 - 10x + 3, at x = 2: second derivative <span id=\"blank_a8008824-aada-4b2c-9588-1e5a4e4cf30f\"></span>; the curve lies <span id=\"blank_2a65c7fb-5d58-4678-a565-3fc4af1b947f\"></span> the tangent line.</p>\n<p>b. g(x) = x^2 - 1/x, at x = -1: second derivative <span id=\"blank_785508c6-9f5b-4700-b2dc-2c5c6f92e08a\"></span>; the curve lies <span id=\"blank_a760d030-e930-4d5d-91a4-2ff980382f73\"></span> the tangent line.</p>\n<p>c. p(w) = w/sqrt(w^2 + 1), at w = 3: second derivative <span id=\"blank_993f7fd1-eaf4-4b84-a036-761bd2e2ae85\"></span>; the curve lies <span id=\"blank_3c882dec-a305-4b87-b8e2-2cb0f4d745da\"></span> the tangent line.</p>\n<p>d. s(t) = 2t/(t - 4), at t = -2: second derivative <span id=\"blank_f4a0e4b9-08de-404d-a5b9-d9b06e7dea45\"></span>; the curve lies <span id=\"blank_66f80ce2-7528-4b79-9dcd-921249087e19\"></span> the tangent line.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q4 [K/U]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56110",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65325",
+      "interaction_data": {},
+      "interaction_type": {
+        "id": "4",
+        "name": "Numeric",
+        "slug": "numeric"
+      },
+      "item_body": "<p>Determine the value of the constant b such that the function f(x) = sqrt(x + 1) + b/x has a point of inflection at x = 3. Give your answer as a decimal or a fraction.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {},
+      "title": "Q11 [T]",
+      "user_response_type": "Text"
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56110",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65320",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "a18c2558-4795-40d8-83ee-5a98cbc4ce91"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3d6ed9c8-fb3d-4e1a-bee3-dd6e605c4436"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7c051382-37e7-4d8a-8fe9-74d9c9944e30"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8e0a3785-b564-4074-bb97-f49b23e3e152"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "27ea3fe0-7ebe-434f-9d14-5f63a8f712db"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "249faf26-145b-4c7e-8135-f54d2b6f52e6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8cf027f3-4164-4135-a611-17c24ae175c2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "820daed3-82c1-4552-a5af-d248f1c2eee0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e857fa79-d546-461b-8b3f-b3c2f75a9b6d"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Determine the points of inflection for each function in question 2. Conduct a test to determine the concavity on either side of each point.</p>\n<p>a. y = x^3 - 6x^2 - 15x + 10: point of inflection (<span id=\"blank_a18c2558-4795-40d8-83ee-5a98cbc4ce91\"></span>, <span id=\"blank_3d6ed9c8-fb3d-4e1a-bee3-dd6e605c4436\"></span>)</p>\n<p>b. y = 25/(x^2 + 48): points of inflection (<span id=\"blank_7c051382-37e7-4d8a-8fe9-74d9c9944e30\"></span>, <span id=\"blank_8e0a3785-b564-4074-bb97-f49b23e3e152\"></span>) and (<span id=\"blank_27ea3fe0-7ebe-434f-9d14-5f63a8f712db\"></span>, <span id=\"blank_249faf26-145b-4c7e-8135-f54d2b6f52e6\"></span>)</p>\n<p>c. s = t + t^-1: <span id=\"blank_8cf027f3-4164-4135-a611-17c24ae175c2\"></span></p>\n<p>d. y = (x - 3)^3 + 8: point of inflection (<span id=\"blank_820daed3-82c1-4552-a5af-d248f1c2eee0\"></span>, <span id=\"blank_e857fa79-d546-461b-8b3f-b3c2f75a9b6d\"></span>)</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q3 [K/U]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56110",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65319",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "0630e686-f70d-4df8-9646-3d1e3dbe1aad"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "626eb7c5-12f9-4f7a-ad96-19cf0a288954"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "d5d0c5ce-b4f4-4a1a-afb5-1d54ca9d8185"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c709289e-79a4-4dc9-a737-ad4cfbf85dd8"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1486220c-8060-474a-b498-2ba88e41ec52"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a9a38fc5-b849-45f8-89c5-03b98935b1f9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5f4d0c98-23b7-42e3-a049-1f68ee4e3763"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b08e319d-db3b-4354-9caf-2e2d438e4b66"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "92c22926-ada5-4d62-881f-96b4abefec67"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8cd29f9d-efe1-4903-9161-e46604245960"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "90b867bf-7644-43b2-83ea-da8c12a12ce4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "47c9a2bc-d09f-4efb-8bad-794e96262206"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1268d667-ddbe-42f6-a1fc-a8c4c33f9741"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Determine the critical points for each function. Use the second derivative test to decide if each point is a local maximum, a local minimum, or neither.</p>\n<p>a. y = x^3 - 6x^2 - 15x + 10: local maximum at (<span id=\"blank_0630e686-f70d-4df8-9646-3d1e3dbe1aad\"></span>, <span id=\"blank_626eb7c5-12f9-4f7a-ad96-19cf0a288954\"></span>); local minimum at (<span id=\"blank_d5d0c5ce-b4f4-4a1a-afb5-1d54ca9d8185\"></span>, <span id=\"blank_c709289e-79a4-4dc9-a737-ad4cfbf85dd8\"></span>)</p>\n<p>b. y = 25/(x^2 + 48): local maximum at (<span id=\"blank_1486220c-8060-474a-b498-2ba88e41ec52\"></span>, <span id=\"blank_a9a38fc5-b849-45f8-89c5-03b98935b1f9\"></span>)</p>\n<p>c. s = t + t^-1: local maximum at (<span id=\"blank_5f4d0c98-23b7-42e3-a049-1f68ee4e3763\"></span>, <span id=\"blank_b08e319d-db3b-4354-9caf-2e2d438e4b66\"></span>); local minimum at (<span id=\"blank_92c22926-ada5-4d62-881f-96b4abefec67\"></span>, <span id=\"blank_8cd29f9d-efe1-4903-9161-e46604245960\"></span>)</p>\n<p>d. y = (x - 3)^3 + 8: (<span id=\"blank_90b867bf-7644-43b2-83ea-da8c12a12ce4\"></span>, <span id=\"blank_47c9a2bc-d09f-4efb-8bad-794e96262206\"></span>) is <span id=\"blank_1268d667-ddbe-42f6-a1fc-a8c4c33f9741\"></span></p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              },
+              "11": {
+                "children": null
+              },
+              "12": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q2 [K/U]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56110",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65314",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "76705dcc-6aef-444c-9f2c-2dc31680be45"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0d5bf10d-6293-46e7-acf8-bc5dd674810d"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Determine the equation of the oblique asymptote of each function, in the form y = mx + b. Then show that lim x-&gt;+infinity [y - f(x)] = 0 for the asymptote line.</p>\n<p>a. f(x) = (2x^2 - 7x + 5)/(2x - 1); oblique asymptote: <span id=\"blank_76705dcc-6aef-444c-9f2c-2dc31680be45\"></span></p>\n<p>b. f(x) = (4x^3 - x^2 - 15x - 50)/(x^2 - 3x); oblique asymptote: <span id=\"blank_0d5bf10d-6293-46e7-acf8-bc5dd674810d\"></span></p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q12 [K/U]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56111",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65303",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "408a244c-8255-4d7d-9396-fef5006d4d67"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "cb041686-fc97-4d94-9e62-ec580b4919f9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "58d53be9-281f-4fc1-ad76-bc660ea72266"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e85ae9a0-a244-4689-835d-d2b71feac823"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>a. For f(x) = (3x^2 - 2x - 17)/(x - 3) (question 7a), does the curve approach the oblique asymptote from above or below? For large negative x: from <span id=\"blank_408a244c-8255-4d7d-9396-fef5006d4d67\"></span>; for large positive x: from <span id=\"blank_cb041686-fc97-4d94-9e62-ec580b4919f9\"></span>.</p>\n<p>b. For f(x) = (2x^2 + 9x + 2)/(2x + 3) (question 7b), from which direction does the curve approach the asymptote? For large negative x: from <span id=\"blank_58d53be9-281f-4fc1-ad76-bc660ea72266\"></span>; for large positive x: from <span id=\"blank_e85ae9a0-a244-4689-835d-d2b71feac823\"></span>.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q8 [K/U]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56111",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65313",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "13a660d8-84e2-43ff-ad45-34cac73b9ddd"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7877f156-f1df-4cea-a5b1-9732ab040eb7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "61636c78-3d23-43fe-a901-fea4262f4491"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "43fd2cdb-fcc3-4270-a44d-5761984839e5"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b0f192f1-4876-45cc-b24b-62adfd5f012b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a2c68ad4-b7f3-4762-b474-fa07551492a1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9ec91946-272a-4994-b5f3-cfdaaea72398"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7af4c900-b8d2-437d-b22a-935f8a829ab9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ea16bd8f-1e5a-44f5-a87e-87b0c73d9adc"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "060b149b-e38d-4988-92b7-025b0879507f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5af6a7cb-4b36-4da5-a808-5fa950cd4de7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "03a7b60a-2445-4339-b2a8-0a60bf2fbe75"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6210cac5-1947-4e36-904f-68ab7f05710c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "2eb27d73-1e04-4b95-917c-e3a6b731e76c"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Check each function for discontinuities. State the equation of any vertical asymptote(s). Use the limit test to describe the behaviour on either side of any vertical asymptote.</p>\n<p>a. y = 2x/(x - 3); vertical asymptote: x = <span id=\"blank_13a660d8-84e2-43ff-ad45-34cac73b9ddd\"></span>; to the left: <span id=\"blank_7877f156-f1df-4cea-a5b1-9732ab040eb7\"></span>; to the right: <span id=\"blank_61636c78-3d23-43fe-a901-fea4262f4491\"></span></p>\n<p>b. g(x) = (x - 5)/(x + 5); vertical asymptote: x = <span id=\"blank_43fd2cdb-fcc3-4270-a44d-5761984839e5\"></span>; to the left: <span id=\"blank_b0f192f1-4876-45cc-b24b-62adfd5f012b\"></span>; to the right: <span id=\"blank_a2c68ad4-b7f3-4762-b474-fa07551492a1\"></span></p>\n<p>c. f(x) = (x^2 - 2x - 15)/(x + 3); <span id=\"blank_9ec91946-272a-4994-b5f3-cfdaaea72398\"></span>; <span id=\"blank_7af4c900-b8d2-437d-b22a-935f8a829ab9\"></span></p>\n<p>d. g(x) = 5/(x^2 - x - 20); vertical asymptote: x = <span id=\"blank_ea16bd8f-1e5a-44f5-a87e-87b0c73d9adc\"></span>; to the left: <span id=\"blank_060b149b-e38d-4988-92b7-025b0879507f\"></span>; to the right: <span id=\"blank_5af6a7cb-4b36-4da5-a808-5fa950cd4de7\"></span>; vertical asymptote: x = <span id=\"blank_03a7b60a-2445-4339-b2a8-0a60bf2fbe75\"></span>; to the left: <span id=\"blank_6210cac5-1947-4e36-904f-68ab7f05710c\"></span>; to the right: <span id=\"blank_2eb27d73-1e04-4b95-917c-e3a6b731e76c\"></span></p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              },
+              "11": {
+                "children": null
+              },
+              "12": {
+                "children": null
+              },
+              "13": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q5 [K/U]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56111",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65300",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "80263aaa-36a5-416c-ae7a-cfb3998c8faf"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9ddfc826-1534-43cd-ba64-bebd233da686"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "36f9a450-ddac-4a5c-871c-3c03c6ad80f2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c0034fc3-6e66-42d7-9d14-c75c11268e1e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a3151751-c563-48ee-9b3a-cc0770f7ab46"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5b038cbb-e1f2-443a-9427-a4b2cdd9f494"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "577b2c4a-8be5-49b9-93be-cdda63b5ef5a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "113e0f2d-b395-4b06-975c-800b1ba44665"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Evaluate lim x-&gt;infinity f(x) and lim x-&gt;-infinity f(x) for each function. Use the infinity symbol where appropriate.</p>\n<p>a. f(x) = (2x + 3)/(x - 1); lim x-&gt;infinity: <span id=\"blank_80263aaa-36a5-416c-ae7a-cfb3998c8faf\"></span>; lim x-&gt;-infinity: <span id=\"blank_9ddfc826-1534-43cd-ba64-bebd233da686\"></span></p>\n<p>b. f(x) = (5x^2 - 3)/(x^2 + 2); lim x-&gt;infinity: <span id=\"blank_36f9a450-ddac-4a5c-871c-3c03c6ad80f2\"></span>; lim x-&gt;-infinity: <span id=\"blank_c0034fc3-6e66-42d7-9d14-c75c11268e1e\"></span></p>\n<p>c. f(x) = (-5x^2 + 3x)/(2x^2 - 5); lim x-&gt;infinity: <span id=\"blank_a3151751-c563-48ee-9b3a-cc0770f7ab46\"></span>; lim x-&gt;-infinity: <span id=\"blank_5b038cbb-e1f2-443a-9427-a4b2cdd9f494\"></span></p>\n<p>d. f(x) = (2x^5 - 3x^2 + 5)/(3x^4 + 5x - 4); lim x-&gt;infinity: <span id=\"blank_577b2c4a-8be5-49b9-93be-cdda63b5ef5a\"></span>; lim x-&gt;-infinity: <span id=\"blank_113e0f2d-b395-4b06-975c-800b1ba44665\"></span></p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q3 [K/U]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56111",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

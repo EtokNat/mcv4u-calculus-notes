@@ -1,0 +1,152 @@
+[
+  {
+    "idx": 0,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "How do you feel about starting a unit on real-world applications of derivatives (motion, maximizing profit, minimizing cost)?",
+    "prompt_dom": "How do you feel about starting a unit on real-world applications of derivatives (motion, maximizing profit, minimizing cost)?\n\nExcited \u2014 I like seeing math used in real situations\nCurious, but a little nervous\nNeutral \u2014 I'll see how it goes\nDreading it \u2014 word problems stress me out",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "9e38a34b-4d02-4930-896b-4eff6f9c8559",
+        "position": 1,
+        "text": "Excited \u2014 I like seeing math used in real situations",
+        "html": "Excited \u2014 I like seeing math used in real situations"
+      },
+      {
+        "id": "bea4d937-c34f-4a94-9204-8f2a3ddc8fe3",
+        "position": 2,
+        "text": "Curious, but a little nervous",
+        "html": "Curious, but a little nervous"
+      },
+      {
+        "id": "3ea8ad24-58c9-4b56-8df1-c367bdabdb02",
+        "position": 3,
+        "text": "Neutral \u2014 I'll see how it goes",
+        "html": "Neutral \u2014 I'll see how it goes"
+      },
+      {
+        "id": "58e53007-0f65-4762-b157-0e79569d4644",
+        "position": 4,
+        "text": "Dreading it \u2014 word problems stress me out",
+        "html": "Dreading it \u2014 word problems stress me out"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 1,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "What would make this unit feel successful for you?",
+    "prompt_dom": "What would make this unit feel successful for you?\n\nFeeling confident turning word problems into math models\nGetting the computations (derivatives, algebra) right every time\nUnderstanding what derivatives mean in context (velocity, marginal cost, \u2026)\nBeing able to explain my reasoning clearly in writing",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "9065529f-e0db-4f4c-ab84-81c828c43b9d",
+        "position": 1,
+        "text": "Feeling confident turning word problems into math models",
+        "html": "Feeling confident turning word problems into math models"
+      },
+      {
+        "id": "856355a5-a3b9-406a-8f84-18775db66a60",
+        "position": 2,
+        "text": "Getting the computations (derivatives, algebra) right every time",
+        "html": "Getting the computations (derivatives, algebra) right every time"
+      },
+      {
+        "id": "58dbafe8-2714-4ffc-a418-2f90087a1d8b",
+        "position": 3,
+        "text": "Understanding what derivatives mean in context (velocity, marginal cost, \u2026)",
+        "html": "Understanding what derivatives <em>mean</em> in context (velocity, marginal cost, \u2026)"
+      },
+      {
+        "id": "57cce788-50be-432d-bbc1-e3b1a7ffbb96",
+        "position": 4,
+        "text": "Being able to explain my reasoning clearly in writing",
+        "html": "Being able to explain my reasoning clearly in writing"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 2,
+    "slug": "essay",
+    "points": 1.0,
+    "prompt": "What is one specific goal you have for this unit on derivatives and their applications?",
+    "prompt_dom": "What is one specific goal you have for this unit on derivatives and their applications?\n\nWhat is one specific goal you have for this unit on derivatives and their applications?\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 3,
+    "slug": "essay",
+    "points": 1.0,
+    "prompt": "Is there anything you'd like your teacher to know before this unit begins? (For example: topics you find tricky, how you learn best, or anything going on that might affect your work.)",
+    "prompt_dom": "Is there anything you'd like your teacher to know before this unit begins? (For example: topics you find tricky, how you learn best, or anything going on that might affect your work.)\n\nIs there anything you'd like your teacher to know before this unit begins? (For example: topics you find tricky, how you learn best, or anything going on that might affect your work.)\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 4,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "How confident are you with word problems \u2014 reading a situation and setting up the math model yourself?",
+    "prompt_dom": "How confident are you with word problems \u2014 reading a situation and setting up the math model yourself?\n\nVery confident\nSomewhat confident\nNot very confident\nNot confident at all",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "1b7be940-f7c9-49db-94ff-5c6959c7bd10",
+        "position": 1,
+        "text": "Very confident",
+        "html": "Very confident"
+      },
+      {
+        "id": "d57df4ac-6356-47a5-95cb-0dd041a908e5",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "Somewhat confident"
+      },
+      {
+        "id": "ee90218d-a874-4a1c-9465-4fc76b067483",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "Not very confident"
+      },
+      {
+        "id": "121e3461-bd0f-4e42-8e9e-7b1b85609b91",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "Not confident at all"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  }
+]

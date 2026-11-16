@@ -1,0 +1,203 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56027",
+    "item_id": "65041",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] a. Using a graphing calculator, graph the function f(x) = x^3/(x^2 - 6). b. Using the draw function or an equivalent function on your calculator or graphing software, find the equations of the tangents where the slope is zero. c. Setting f'(x) = 0, find the coordinates of the points where the slope is zero. d. Determine the slope of the tangent to the graph at (2, -4): slope = . Use the graph to verify that your answer is reasonable.",
+    "prompt_html": "<p>[T] a. Using a graphing calculator, graph the function f(x) = x^3/(x^2 - 6). b. Using the draw function or an equivalent function on your calculator or graphing software, find the equations of the tangents where the slope is zero. c. Setting f'(x) = 0, find the coordinates of the points where the slope is zero. d. Determine the slope of the tangent to the graph at (2, -4): slope = <span id=\"blank_69546908-9f1e-498c-9249-608523e86658\"></span>. Use the graph to verify that your answer is reasonable.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "69546908-9f1e-498c-9249-608523e86658"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56027",
+    "item_id": "65040",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] The concentration, c, of a drug in the blood t hours after the drug is taken orally is given by c(t) = 5t/(2t^2 + 7). When does the concentration reach its maximum value?\n Maximum at t = h",
+    "prompt_html": "<p>[A] The concentration, c, of a drug in the blood t hours after the drug is taken orally is given by c(t) = 5t/(2t^2 + 7). When does the concentration reach its maximum value?</p>\n<p>Maximum at t = <span id=\"blank_5b607223-7c2b-4ee4-8018-44ac5b21aac6\"></span> h</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "5b607223-7c2b-4ee4-8018-44ac5b21aac6"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56027",
+    "item_id": "65037",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "[K/U] Determine the slope of the tangent to the curve y = x^3/(x^2 - 6) at point (3, 9).",
+    "prompt_html": "<p>[K/U] Determine the slope of the tangent to the curve y = x^3/(x^2 - 6) at point (3, 9).</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56027",
+    "item_id": "65038",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine the points on the graph of y = 3x/(x - 4) where the slope of the tangent is -12/25.\n Point: ( , )\n Point: ( , )",
+    "prompt_html": "<p>[K/U] Determine the points on the graph of y = 3x/(x - 4) where the slope of the tangent is -12/25.</p>\n<p>Point: (<span id=\"blank_40812fd7-6f5b-4539-b9aa-868057fd9b67\"></span>, <span id=\"blank_52eb8414-8b57-41b7-bf8d-ba22cae1d2f2\"></span>)</p>\n<p>Point: (<span id=\"blank_74c5ceea-acee-4d19-815d-35c7446387a2\"></span>, <span id=\"blank_cbb64249-d251-480d-9aa1-9e429ba8366d\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "40812fd7-6f5b-4539-b9aa-868057fd9b67"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "52eb8414-8b57-41b7-bf8d-ba22cae1d2f2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "74c5ceea-acee-4d19-815d-35c7446387a2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "cbb64249-d251-480d-9aa1-9e429ba8366d"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56028",
+    "item_id": "65045",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] For what values of x do the curves y = (1 + x^3)^2 and y = 2x^6 have the same slope?\n x = or x =",
+    "prompt_html": "<p>[T] For what values of x do the curves y = (1 + x^3)^2 and y = 2x^6 have the same slope?</p>\n<p>x = <span id=\"blank_5132303d-7caf-4438-8e80-c42d5c22e876\"></span> or x = <span id=\"blank_2ad690ea-4a34-463a-b1fe-efc6e43dc304\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "5132303d-7caf-4438-8e80-c42d5c22e876"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "2ad690ea-4a34-463a-b1fe-efc6e43dc304"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56028",
+    "item_id": "65052",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] a. Determine the values of x where the graph of each function has a horizontal tangent.\n i. y = (x^2 - 4)^5: x = , x = , x = \n ii. y = (x^3 - x)^2: x = , x = , x = , x = , x = \n b. Use a graphing calculator to graph each function and its tangent at the values you found from part a. to confirm your result.",
+    "prompt_html": "<p>[K/U] a. Determine the values of x where the graph of each function has a horizontal tangent.</p>\n<p>i. y = (x^2 - 4)^5: x = <span id=\"blank_0c38581a-8845-4e70-b1f0-bc1a5355936f\"></span>, x = <span id=\"blank_6d384ea2-6aee-4876-b7e0-e2e17cb216cb\"></span>, x = <span id=\"blank_13c29a18-cd76-4a70-ab7c-ec14aee19521\"></span></p>\n<p>ii. y = (x^3 - x)^2: x = <span id=\"blank_057911d2-70f0-4315-b689-1e1a90453499\"></span>, x = <span id=\"blank_575fa820-8e2a-4db5-9370-3cd6d7a7a943\"></span>, x = <span id=\"blank_52ac2795-e18d-4256-8796-4feb42351ab0\"></span>, x = <span id=\"blank_978bb538-57ef-4154-b829-41c7bed46a86\"></span>, x = <span id=\"blank_9e4b68e4-914d-4e35-aea5-56a55a40c9f7\"></span></p>\n<p>b. Use a graphing calculator to graph each function and its tangent at the values you found from part a. to confirm your result.</p>",
+    "choices": [],
+    "num_blanks": 8,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "0c38581a-8845-4e70-b1f0-bc1a5355936f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6d384ea2-6aee-4876-b7e0-e2e17cb216cb"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "13c29a18-cd76-4a70-ab7c-ec14aee19521"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "057911d2-70f0-4315-b689-1e1a90453499"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "575fa820-8e2a-4db5-9370-3cd6d7a7a943"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "52ac2795-e18d-4256-8796-4feb42351ab0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "978bb538-57ef-4154-b829-41c7bed46a86"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9e4b68e4-914d-4e35-aea5-56a55a40c9f7"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56028",
+    "item_id": "65048",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] A 50 000 L tank can be drained in 30 min. The volume of water remaining in the tank after t minutes is V(t) = 50 000 (1 - t/30)^2, 0 <= t <= 30. At what rate, to the nearest whole number, is the water flowing out of the tank when t = 10?\n Rate: L/min",
+    "prompt_html": "<p>[A] A 50 000 L tank can be drained in 30 min. The volume of water remaining in the tank after t minutes is V(t) = 50 000 (1 - t/30)^2, 0 &lt;= t &lt;= 30. At what rate, to the nearest whole number, is the water flowing out of the tank when t = 10?</p>\n<p>Rate: <span id=\"blank_4cfca7c1-d9fa-4a79-865e-5d9029f7f2cd\"></span> L/min</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "4cfca7c1-d9fa-4a79-865e-5d9029f7f2cd"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56028",
+    "item_id": "65055",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Use the chain rule, in Leibniz notation, to find dy/dx at the given value of x.\n a. y = 3u^2 - 5u + 2, u = x^2 - 1, x = 2: dy/dx = \n b. y = 2u^3 + 3u^2, u = x + x^(1/2), x = 1: dy/dx = \n c. y = u(u^2 + 3)^3, u = (x + 3)^2, x = -2: dy/dx = \n d. y = u^3 - 5(u^3 - 7u)^2, u = sqrt(x), x = 4: dy/dx =",
+    "prompt_html": "<p>[K/U] Use the chain rule, in Leibniz notation, to find dy/dx at the given value of x.</p>\n<p>a. y = 3u^2 - 5u + 2, u = x^2 - 1, x = 2: dy/dx = <span id=\"blank_43a3c878-ad7c-4007-8483-a80c17f53c66\"></span></p>\n<p>b. y = 2u^3 + 3u^2, u = x + x^(1/2), x = 1: dy/dx = <span id=\"blank_12df75a6-f347-41b6-ac49-08b943ed6ccd\"></span></p>\n<p>c. y = u(u^2 + 3)^3, u = (x + 3)^2, x = -2: dy/dx = <span id=\"blank_81e5a811-09aa-42c7-906b-a468e517478b\"></span></p>\n<p>d. y = u^3 - 5(u^3 - 7u)^2, u = sqrt(x), x = 4: dy/dx = <span id=\"blank_8c8cb04b-14f1-404e-b8d1-18aedf6ff1ca\"></span></p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "43a3c878-ad7c-4007-8483-a80c17f53c66"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "12df75a6-f347-41b6-ac49-08b943ed6ccd"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "81e5a811-09aa-42c7-906b-a468e517478b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "8c8cb04b-14f1-404e-b8d1-18aedf6ff1ca"
+        }
+      ]
+    }
+  }
+]

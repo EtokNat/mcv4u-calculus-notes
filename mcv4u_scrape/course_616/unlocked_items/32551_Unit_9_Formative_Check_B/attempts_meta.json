@@ -1,0 +1,294 @@
+[
+  {
+    "idx": 0,
+    "slug": "numeric",
+    "points": 12.0,
+    "prompt": "The line through A(-1, 2, 4) and B(3, -3, 5) has symmetric form (x + 1)/4 = (y - 2)/b = (z - 4)/1. Enter the value of b.",
+    "prompt_dom": "The line through A(-1, 2, 4) and B(3, -3, 5) has symmetric form (x + 1)/4 = (y - 2)/b = (z - 4)/1. Enter the value of b.\n\nAnswer\n\nThe line through A(-1, 2, 4) and B(3, -3, 5) has symmetric form (x + 1)/4 = (y - 2)/b = (z - 4)/1. Enter the value of b.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "-5"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.0
+  },
+  {
+    "idx": 1,
+    "slug": "numeric",
+    "points": 12.0,
+    "prompt": "The acute angle between the planes x - y - 2z + 3 = 0 and 2x + y - z + 2 = 0 is theta degrees. Enter theta.",
+    "prompt_dom": "The acute angle between the planes x - y - 2z + 3 = 0 and 2x + y - z + 2 = 0 is theta degrees. Enter theta.\n\nAnswer\n\nThe acute angle between the planes x - y - 2z + 3 = 0 and 2x + y - z + 2 = 0 is theta degrees. Enter theta.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "60"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.0
+  },
+  {
+    "idx": 2,
+    "slug": "choice",
+    "points": 13.0,
+    "prompt": "L1: r = (-1, 0, 4) + s(-1, 2, 5) and L2: r = (4, -10, -21) + m(-2, 4, 10) describe...",
+    "prompt_dom": "L1: r = (-1, 0, 4) + s(-1, 2, 5) and L2: r = (4, -10, -21) + m(-2, 4, 10) describe...\n\nIntersecting lines\n\nThe same line\n\nParallel distinct lines\n\nSkew lines",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "730e3d80-e56e-4825-b8e4-e508377577cc",
+        "position": 1,
+        "text": "Intersecting lines",
+        "html": "<p>Intersecting lines</p>"
+      },
+      {
+        "id": "0810e124-b746-4bd5-b5fe-8e1592f0428c",
+        "position": 2,
+        "text": "The same line",
+        "html": "<p>The same line</p>"
+      },
+      {
+        "id": "87367fa4-6e86-4e8c-a565-e7566020486f",
+        "position": 3,
+        "text": "Parallel distinct lines",
+        "html": "<p>Parallel distinct lines</p>"
+      },
+      {
+        "id": "50a35ee2-5554-4576-9341-c5e5984e5de5",
+        "position": 4,
+        "text": "Skew lines",
+        "html": "<p>Skew lines</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "The same line"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.0
+  },
+  {
+    "idx": 3,
+    "slug": "choice",
+    "points": 13.0,
+    "prompt": "Which form of a line in R3 is parameter-free (no t)?",
+    "prompt_dom": "Which form of a line in R3 is parameter-free (no t)?\n\nCartesian equation\n\nSymmetric equations\n\nParametric equations\n\nVector equation",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "8e37e0ad-1a5f-4634-a0de-2e76bd75633b",
+        "position": 1,
+        "text": "Cartesian equation",
+        "html": "<p>Cartesian equation</p>"
+      },
+      {
+        "id": "c5f5601a-2024-4e89-853a-fee848ef34a4",
+        "position": 2,
+        "text": "Symmetric equations",
+        "html": "<p>Symmetric equations</p>"
+      },
+      {
+        "id": "e7b0a207-1420-4ea4-89e8-5eb757bbfeb5",
+        "position": 3,
+        "text": "Parametric equations",
+        "html": "<p>Parametric equations</p>"
+      },
+      {
+        "id": "ce7f4453-889a-45ce-a9c2-8a6abc632c2d",
+        "position": 4,
+        "text": "Vector equation",
+        "html": "<p>Vector equation</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "Symmetric equations"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.0
+  },
+  {
+    "idx": 4,
+    "slug": "choice",
+    "points": 12.0,
+    "prompt": "Why does r = r0 + sa + tb need the vectors a and b to be NONcollinear?",
+    "prompt_dom": "Why does r = r0 + sa + tb need the vectors a and b to be NONcollinear?\n\nThe cross product a x b would be too large\n\nThe parameters s and t must be perpendicular\n\nA plane needs three direction vectors\n\nIf a and b were collinear, sa + tb would only trace a line, not a plane",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "1cad23af-6a3f-4b0a-b7bf-4e2291cdef36",
+        "position": 1,
+        "text": "The cross product a x b would be too large",
+        "html": "<p>The cross product a x b would be too large</p>"
+      },
+      {
+        "id": "d3a51fe1-aab6-466a-a016-e1e30e51cfe3",
+        "position": 2,
+        "text": "The parameters s and t must be perpendicular",
+        "html": "<p>The parameters s and t must be perpendicular</p>"
+      },
+      {
+        "id": "911cae7d-ad46-440a-9834-a54e5d3c0ea8",
+        "position": 3,
+        "text": "A plane needs three direction vectors",
+        "html": "<p>A plane needs three direction vectors</p>"
+      },
+      {
+        "id": "3f2b4451-99e5-485f-b662-16378077cce7",
+        "position": 4,
+        "text": "If a and b were collinear, sa + tb would only trace a line, not a plane",
+        "html": "<p>If a and b were collinear, sa + tb would only trace a line, not a plane</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "If a and b were collinear, sa + tb would only trace a line, not a plane"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.0
+  },
+  {
+    "idx": 5,
+    "slug": "choice",
+    "points": 13.0,
+    "prompt": "The Cartesian equation of the plane through A(1, 2, 2) with normal n = (-1, 2, 6) is...",
+    "prompt_dom": "The Cartesian equation of the plane through A(1, 2, 2) with normal n = (-1, 2, 6) is...\n\nx - 2y + 6z - 15 = 0\n\nx + 2y + 6z - 15 = 0\n\nx - 2y - 6z + 15 = 0\n\n-x + 2y + 6z - 15 = 0",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "50d72a81-89a7-4068-b0b0-31f06f5ff26f",
+        "position": 1,
+        "text": "x - 2y + 6z - 15 = 0",
+        "html": "<p>x - 2y + 6z - 15 = 0</p>"
+      },
+      {
+        "id": "c781a230-b8fa-4cd3-803a-d88332e597b8",
+        "position": 2,
+        "text": "x + 2y + 6z - 15 = 0",
+        "html": "<p>x + 2y + 6z - 15 = 0</p>"
+      },
+      {
+        "id": "f98bd6af-a9ac-46db-ba19-ef1fea27bb8a",
+        "position": 3,
+        "text": "x - 2y - 6z + 15 = 0",
+        "html": "<p>x - 2y - 6z + 15 = 0</p>"
+      },
+      {
+        "id": "6bd4d8da-5466-4649-86d9-48a97f4e10df",
+        "position": 4,
+        "text": "-x + 2y + 6z - 15 = 0",
+        "html": "<p>-x + 2y + 6z - 15 = 0</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "-x + 2y + 6z - 15 = 0"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.0
+  },
+  {
+    "idx": 6,
+    "slug": "choice",
+    "points": 12.0,
+    "prompt": "The plane 2x - 5y = 10 is parallel to which coordinate axis?",
+    "prompt_dom": "The plane 2x - 5y = 10 is parallel to which coordinate axis?\n\nThe z-axis\n\nThe y-axis\n\nThe x-axis\n\nNone - it meets all three axes",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "d7d15388-75c9-4850-a8d7-65a770b2e2fd",
+        "position": 1,
+        "text": "The z-axis",
+        "html": "<p>The z-axis</p>"
+      },
+      {
+        "id": "8706a8ad-321e-4ba4-80dd-1d1de2eadbd7",
+        "position": 2,
+        "text": "The y-axis",
+        "html": "<p>The y-axis</p>"
+      },
+      {
+        "id": "eec831df-011f-45fc-83e6-515e3ff3e703",
+        "position": 3,
+        "text": "The x-axis",
+        "html": "<p>The x-axis</p>"
+      },
+      {
+        "id": "90c89b4d-a6ce-4166-a5be-a0e6df609175",
+        "position": 4,
+        "text": "None - it meets all three axes",
+        "html": "<p>None - it meets all three axes</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "The z-axis"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.0
+  },
+  {
+    "idx": 7,
+    "slug": "choice",
+    "points": 13.0,
+    "prompt": "The symmetric equations of the line through P(-2, 3, 1) and Q(4, 3, -5) are...",
+    "prompt_dom": "The symmetric equations of the line through P(-2, 3, 1) and Q(4, 3, -5) are...\n\n(x + 2)/1 = (z - 1)/(-1), y = 3\n\n(x + 2)/1 = (y - 3)/1 = (z - 1)/(-1)\n\n(x - 4)/1 = (y - 3)/0 = (z + 5)/(-1)\n\n(x + 2)/6 = (y - 3)/0 = (z - 1)/(-6)",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "03ef8ed9-71d2-4489-a976-e995091736b2",
+        "position": 1,
+        "text": "(x + 2)/1 = (z - 1)/(-1), y = 3",
+        "html": "<p>(x + 2)/1 = (z - 1)/(-1), y = 3</p>"
+      },
+      {
+        "id": "73521410-b332-4295-9233-a556b9b150e7",
+        "position": 2,
+        "text": "(x + 2)/1 = (y - 3)/1 = (z - 1)/(-1)",
+        "html": "<p>(x + 2)/1 = (y - 3)/1 = (z - 1)/(-1)</p>"
+      },
+      {
+        "id": "126fe7af-98ed-42d5-8e2d-d70fe095c0e5",
+        "position": 3,
+        "text": "(x - 4)/1 = (y - 3)/0 = (z + 5)/(-1)",
+        "html": "<p>(x - 4)/1 = (y - 3)/0 = (z + 5)/(-1)</p>"
+      },
+      {
+        "id": "7b80b9ee-e3f8-4843-952b-c47a09ed0eab",
+        "position": 4,
+        "text": "(x + 2)/6 = (y - 3)/0 = (z - 1)/(-6)",
+        "html": "<p>(x + 2)/6 = (y - 3)/0 = (z - 1)/(-6)</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "(x + 2)/1 = (z - 1)/(-1), y = 3"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.0
+  }
+]

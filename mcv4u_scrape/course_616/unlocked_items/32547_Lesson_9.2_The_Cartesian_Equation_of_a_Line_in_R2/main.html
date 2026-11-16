@@ -1,0 +1,104 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9197" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 9.2 — The Cartesian Equation of a Line in R2</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 9</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 9.2</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">The Cartesian Equation of a Line in R2</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §8.2 — one equation with no parameter: Ax + By + C = 0, where (A, B) is a normal vector.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Write the <strong>Cartesian equation</strong> Ax + By + C = 0 of a line from a point and a normal vector (or two points).</li>
+<li>Convert between <strong>vector, parametric, and Cartesian</strong> forms of a line in R2.</li>
+<li>Use normals to decide whether lines are <strong>parallel or perpendicular</strong>, and find the <strong>angle</strong> between two lines.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Vector and parametric equations describe a line by generating its points one parameter value at a time. The <strong>Cartesian equation</strong> takes the opposite approach: it is a single equation Ax + By + C = 0 that every point on the line satisfies — no parameter needed. The secret ingredient is a <strong>normal vector</strong> n = (A, B): a vector drawn from the origin that is perpendicular to the line. If P(x, y) and P<sub>0</sub>(x<sub>0</sub>, y<sub>0</sub>) are on the line, then the direction-like vector P<sub>0</sub>P must be perpendicular to n, so n · P<sub>0</sub>P = 0 expands into Ax + By + C = 0 with C = −Ax<sub>0</sub> − By<sub>0</sub>.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17398" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17398" data-api-returntype="Assignment">▶ Start the Lesson 9.2 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — normals see the line at a glance</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>Graph <strong><em>5x + 3y − 14 = 0</em></strong>. The normal is (5, 3): plot it as an arrow from the origin. Is it perpendicular to the line?</li>
+<li>Graph the line through (4, −2) with normal (5, 3) — use Example 1's equation. Now graph <strong><em>10x + 6y − 28 = 0</em></strong> on top of it. What do you notice about the two normals (5, 3) and (10, 6)?</li>
+<li>Graph <strong><em>x = 1</em></strong> (a vertical line). What are its direction vector and normal? Why can't it be written in y = mx + b form?</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">From normal vector to Cartesian equation</h4>
+<p>Suppose the line has normal n = (A, B) and passes through P<sub>0</sub>(x<sub>0</sub>, y<sub>0</sub>). For any point P(x, y) on the line, the vector P<sub>0</sub>P = (x − x<sub>0</sub>, y − y<sub>0</sub>) runs along the line, hence is perpendicular to n. The dot product gives:</p>
+<p style="text-align:center;background:#F4F7FB;border-radius:8px;padding:10px 14px;"><strong>(A, B) · (x − x<sub>0</sub>, y − y<sub>0</sub>) = 0</strong> &nbsp;→&nbsp; <strong>Ax + By + C = 0</strong>, with C = −Ax<sub>0</sub> − By<sub>0</sub></p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54884/preview?" alt="Line L with a normal axis from the origin; normal vector n = (A,B) perpendicular to L" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54884" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">Parallel, perpendicular, and angles — all from normals</h4>
+<p>Every line has infinitely many normals (all nonzero scalar multiples of each other). Two lines with normals n<sub>1</sub>, n<sub>2</sub> are <strong>parallel</strong> if n<sub>1</sub> = kn<sub>2</sub> for some k ≠ 0, and <strong>perpendicular</strong> if n<sub>1</sub> · n<sub>2</sub> = 0. The <strong>angle between two lines</strong> is the angle between their direction vectors a and b: θ = cos⁻¹((a · b)/(|a||b|)).</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54869/preview?" alt="Two parallel lines with parallel normal vectors; two perpendicular lines with normals whose dot product is zero" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54869" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Find the Cartesian equation of the line through A(4, −2) with normal n = (5, 3).</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(Method 1 — dot product.)</em> Let P(x, y) be a general point. Then AP = (x − 4, y + 2), and n · AP = 0 gives<br>
+(5, 3) · (x − 4, y + 2) = 0 → 5(x − 4) + 3(y + 2) = 0 → <strong>5x + 3y − 14 = 0</strong>.<br>
+<em>(Method 2 — substitute into Ax + By + C = 0.)</em> With A = 5, B = 3 and point (4, −2): 5(4) + 3(−2) + C = 0 → 20 − 6 + C = 0 → C = −14.<br>
+<strong>Answer: 5x + 3y − 14 = 0.</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Write the Cartesian equation of the line r = (3, −6) + s(−1, −4).</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(Eliminate the parameter.)</em> The parametric equations are x = 3 − s, y = −6 − 4s. From the first, s = 3 − x; substituting into the second: y = −6 − 4(3 − x) = −6 − 12 + 4x = 4x − 18.<br>
+<em>(Check via slope.)</em> Direction vector (−1, −4) has slope (−4)/(−1) = 4, and the line passes through (3, −6): y + 6 = 4(x − 3) → y = 4x − 18 ✓.<br>
+<strong>Answer: y = 4x − 18 (or 4x − y − 18 = 0).</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Write the Cartesian equation of the line r = (1, 4) + s(0, 2).</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(Read the geometry.)</em> The direction vector (0, 2) points straight up, so the slope is <strong>undefined</strong> — the line is vertical. The anchor point (1, 4) has x-coordinate 1, and every point on a vertical line shares the same x-coordinate.<br>
+<strong>Answer: x = 1 (or x − 1 = 0).</strong> Eliminating s also works: x = 1 + 0s = 1 regardless of s.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 4</strong> — Find the acute angle between L<sub>1</sub>: (x, y) = (2, 2) + s(−1, 3) and L<sub>2</sub>: (x, y) = (5, 1) + t(3, 4).</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(Angle between direction vectors.)</em> Let a = (−1, 3) and b = (3, 4). Then<br>
+cos θ = (a · b)/(|a||b|) = (−3 + 12)/(√10 · 5) = 9/(5√10) ≈ 0.569.<br>
+θ ≈ cos⁻¹(0.569) ≈ <strong>55.3°</strong> (acute).<br>
+<strong>Answer: about 55.3°.</strong></p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 8.2.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Write the Cartesian equation of the line with normal (4, 5) through A(−1, 5).</summary>
+<p>Substitute A = 4, B = 5 into 4x + 5y + C = 0: 4(−1) + 5(5) + C = 0 → −4 + 25 + C = 0 → C = −21. <strong>Answer: 4x + 5y − 21 = 0.</strong></p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Write the Cartesian equation of the line x = 3 − t, y = −2 − 4t.</summary>
+<p>From x = 3 − t we get t = 3 − x. Substituting: y = −2 − 4(3 − x) = −2 − 12 + 4x = 4x − 14. <strong>Answer: 4x − y − 14 = 0.</strong></p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Explain how to show x − 3y + 4 = 0 and 6x − 18y + 24 = 0 are coincident.</summary>
+<p>The normals are (1, −3) and (6, −18) = <strong>6(1, −3)</strong> — parallel normals, so the lines are parallel. The second equation is exactly <strong>6 times</strong> the first (6x − 18y + 24 = 6(x − 3y + 4) = 0), so every point satisfying one satisfies the other: the lines are not just parallel but <strong>coincident</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — For what value of k are the lines L<sub>3</sub>: kx + 4y − 4 = 0 and L<sub>4</sub>: 3x − 2y − 3 = 0 perpendicular?</summary>
+<p>Normals: n<sub>3</sub> = (k, 4), n<sub>4</sub> = (3, −2). Perpendicular lines have perpendicular normals: n<sub>3</sub> · n<sub>4</sub> = 0 → 3k − 8 = 0 → <strong>k = 8/3</strong>.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>Cartesian equation:</strong> Ax + By + C = 0, where n = (A, B) is a normal to the line. Find C by substituting a known point.</li>
+<li>Parallel lines ⇔ normals are scalar multiples. Perpendicular lines ⇔ normals' dot product is 0.</li>
+<li>Angle between lines: θ = cos⁻¹((a · b)/(|a||b|)) using direction vectors — report the acute angle.</li>
+<li>Vertical lines have undefined slope and take the form x = constant.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>One form converts to any other: eliminate the parameter to go parametric → Cartesian; read direction/normal off any form.</li>
+<li>Next: Lesson 9.3 — lines in <strong>R3</strong>: vector, parametric, and <strong>symmetric</strong> equations.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Lines and Planes</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

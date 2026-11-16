@@ -1,0 +1,272 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>What is one thing from this unit that finally 'clicked' for you, and one thing you still want to practise?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44713",
+      "label": null,
+      "title": "Q5",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "33585",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Derivatives of e^x and b^x (Lessons 5.1-5.2)</p>",
+            "id": "d8e68476-0422-483c-ad0e-2a00bba3a7da",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Optimization with exponential functions (Lesson 5.3)</p>",
+            "id": "d34d5f7b-1e1a-4f55-9e06-acf9b82e6aae",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Derivatives of sin x, cos x, tan x (Lessons 5.4-5.5)</p>",
+            "id": "d5d26be0-0e66-4214-9a9e-a060a6b67c58",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Growth/decay and harmonic motion (Lesson 5.6)</p>",
+            "id": "4312f2c1-809c-44ba-ab6a-3b0c2f0bfc3e",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Which topic do you most want to review before the summative?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44717",
+      "label": null,
+      "title": "Q4",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "33589",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Strongly agree</p>",
+            "id": "751669f9-0c3a-4661-920f-71f34180d01f",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Agree</p>",
+            "id": "08a2e01a-c26e-4fed-b38d-2d82f43ea807",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Disagree</p>",
+            "id": "f7952935-d377-49fa-bec4-28f565da9fb9",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Strongly disagree</p>",
+            "id": "9d4f761d-5a3d-4748-a3e7-a1dde574ad6f",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>I can use these derivatives in applications: optimization with exponentials, growth/decay, and harmonic motion.</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44722",
+      "label": null,
+      "title": "Q3",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "33593",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Strongly agree</p>",
+            "id": "87d6fc97-d013-4b47-b506-73a6ec16118a",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Agree</p>",
+            "id": "59e297e5-3ac1-40e5-b103-2d3d961def4e",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Disagree</p>",
+            "id": "aa3ad4cd-36db-45e5-9c17-889bd1ec95b7",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Strongly disagree</p>",
+            "id": "8311b8fa-bf49-48eb-86ad-ae92e6336478",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>I can differentiate sin x, cos x, and tan x (including with the chain rule) without looking up the rules.</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44726",
+      "label": null,
+      "title": "Q2",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "33598",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Strongly agree</p>",
+            "id": "3f7ac284-74c8-4697-8bbb-cf8db1908269",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Agree</p>",
+            "id": "bceec3a5-2ef3-4368-83e7-b09c3da1dc7d",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Disagree</p>",
+            "id": "940248d6-f075-4672-a9cd-a928a5a73660",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Strongly disagree</p>",
+            "id": "985d8110-bc09-4c27-9f42-995343d66272",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>I can differentiate e^x and b^x (including with the chain rule) without looking up the rules.</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44730",
+      "label": null,
+      "title": "Q1",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "33601",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  }
+]

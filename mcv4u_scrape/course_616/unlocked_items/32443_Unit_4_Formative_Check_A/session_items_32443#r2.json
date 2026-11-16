@@ -1,0 +1,549 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "a0bcfcdd-6555-4093-a9ca-8e8deaa74f2c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c0b6b585-9380-470b-bf2b-14543899e307"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine where the function g(x) = 2x^3 - 3x^2 - 12x + 15 is increasing and where it is decreasing. g is increasing on <span id=\"blank_a0bcfcdd-6555-4093-a9ca-8e8deaa74f2c\"></span>; g is decreasing on <span id=\"blank_c0b6b585-9380-470b-bf2b-14543899e307\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65272",
+      "label": null,
+      "title": "Q2 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56108",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "0f77b374-3ead-40ba-9591-a0fa0d543f9c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "05a9539f-f573-4372-aa04-18db719b2c5f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0255aace-e57c-4602-ade0-1facbdc36a4c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "90edd0dc-f1d9-4c0d-b0e1-3540e5ebb314"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "278906f4-5947-46c5-a462-47b8dbc97210"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7560085b-fdaf-4667-9602-30ce38f8f5b2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "76974a94-3f54-48e9-bf14-6d4d44aeee8c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "bc38322a-45f9-427e-9a7f-e7cff5ee5628"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b7886ded-b2a6-4896-94be-a2ac4e7022ac"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5587fbbf-8eae-4f7a-81a6-785ac3e9619c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "202c98ac-2245-434e-b600-acb0f66e110c"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] The graph of the function y = f(x) is shown at the left.</p>\n<p>a. Estimate the intervals on which the function is increasing.</p>\n<p>b. Estimate the intervals on which f'(x) &lt; 0.</p>\n<p>c. Estimate the coordinates of the critical points of f.</p>\n<p>d. Estimate the equations of any vertical asymptotes of the function.</p>\n<p>e. What is the value (sign) of f''(x) on the interval -4 &lt; x &lt; 4?</p>\n<p>f. If x &gt;= -6, estimate the intervals on which f'(x) &lt; 0 and f''(x) &gt; 0.</p>\n<p>g. Identify a point of inflection on the graph and give its approximate ordered pair.</p>\n<p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/23eb30a8-f45f-4805-bab9-1a267ad67896/test_q1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy8yM2ViMzBhOC1mNDVmLTQ4MDUtYmFiOS0xYTI2N2FkNjc4OTYvdGVzdF9xMS5wbmciLCJ0ZW5hbnRfYXV0aCI6eyJsb2NhdGlvbiI6ImJhbmsvMjQyNjAwMDAwMDAwMDA1MDYifSwiZXhwIjoxNzk0NzkyMDY1LCJpYXQiOjE3OTQ3NDUyNjUsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLWlhZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.h8gei5138nn5tff9-svv4vkaLsMbtiMRYRVx_39ivVZKHR8LOKIhG_yPcVtjie5V1IukfpExkm_M-AuF4GEGwA\" alt=\"Nelson Calculus and Vectors 12, Ch 4, p. 220 - Chapter 4 Test, Question 1: graph of y = f(x)\" width=\"100%\" height=\"100%\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55759/preview\"></p>\n<p>a. increasing: <span id=\"blank_0f77b374-3ead-40ba-9591-a0fa0d543f9c\"></span></p>\n<p>b. f'(x) &lt; 0: <span id=\"blank_05a9539f-f573-4372-aa04-18db719b2c5f\"></span></p>\n<p>c. critical points: <span id=\"blank_0255aace-e57c-4602-ade0-1facbdc36a4c\"></span>, <span id=\"blank_90edd0dc-f1d9-4c0d-b0e1-3540e5ebb314\"></span>, <span id=\"blank_278906f4-5947-46c5-a462-47b8dbc97210\"></span>, and <span id=\"blank_7560085b-fdaf-4667-9602-30ce38f8f5b2\"></span></p>\n<p>d. vertical asymptotes: <span id=\"blank_76974a94-3f54-48e9-bf14-6d4d44aeee8c\"></span> and <span id=\"blank_bc38322a-45f9-427e-9a7f-e7cff5ee5628\"></span></p>\n<p>e. on -4 &lt; x &lt; 4, f''(x) is <span id=\"blank_b7886ded-b2a6-4896-94be-a2ac4e7022ac\"></span></p>\n<p>f. f'(x) &lt; 0 and f''(x) &gt; 0: <span id=\"blank_5587fbbf-8eae-4f7a-81a6-785ac3e9619c\"></span></p>\n<p>g. a point of inflection: <span id=\"blank_202c98ac-2245-434e-b600-acb0f66e110c\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "72719",
+      "label": null,
+      "title": "Q1 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56108",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "ed27c94b-ae47-43d4-abb7-2fd77d07f743"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5744bc31-36a2-41e8-8545-a63725fbc789"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3ef3ce60-a8d7-4c57-980a-8d6d3052cfa8"
+          }
+        ]
+      },
+      "item_body": "<p>[A] A diver jumps from a 3 m springboard. The diver's height above the water, h metres, at time t seconds after jumping is given by h(t) = -4.9t^2 + 9.5t + 2.2. a. The diver's height is increasing on <span id=\"blank_ed27c94b-ae47-43d4-abb7-2fd77d07f743\"></span>; the diver's height is decreasing on <span id=\"blank_5744bc31-36a2-41e8-8545-a63725fbc789\"></span>. b. The diver's velocity is <span id=\"blank_3ef3ce60-a8d7-4c57-980a-8d6d3052cfa8\"></span> throughout (the acceleration is a constant -9.8 m/s^2).</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65273",
+      "label": null,
+      "title": "Q12 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56108",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "77253821-e1ba-481f-9a8d-865c64dc70d0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ac63ff6d-2418-49fc-9609-b03efe52cc1f"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] A function f is differentiable at all points in its domain, and f'(x) = (x - 1)(x + 2)(x + 3). Determine where f is increasing and where it is decreasing.</p>\n<p>f is increasing on <span id=\"blank_77253821-e1ba-481f-9a8d-865c64dc70d0\"></span>; f is decreasing on <span id=\"blank_ac63ff6d-2418-49fc-9609-b03efe52cc1f\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65268",
+      "label": null,
+      "title": "Q5 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56108",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "0a6ce1f6-4153-4bbe-b3bb-d7688217c35e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1cfbab91-09ac-4b4c-9f02-eec2023581c5"
+          }
+        ]
+      },
+      "item_body": "<p>The function f(x) = x^3 + bx^2 + c has a critical point at (-2, 6).</p>\n<p>a. Determine the values of b and c.</p>\n<p>b = <span id=\"blank_0a6ce1f6-4153-4bbe-b3bb-d7688217c35e\"></span>; c = <span id=\"blank_1cfbab91-09ac-4b4c-9f02-eec2023581c5\"></span></p>\n<p>b. Sketch the graph of f using only the critical points and the second derivative test.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65297",
+      "label": null,
+      "title": "Q7 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56109",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "1fa5adee-c99b-43f1-98af-e63088e6be0e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a6c59c65-4657-4db6-87d6-0c808b76bb74"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6f5e0b2e-90c7-4651-bb3e-d7b93bb4da39"
+          }
+        ]
+      },
+      "item_body": "<p>Let f(x) = x^3 - kx, where k is a real number. For what values of k does f have a. no critical numbers? b. exactly one critical number? c. exactly two critical numbers?</p>\n<p>a. <span id=\"blank_1fa5adee-c99b-43f1-98af-e63088e6be0e\"></span>; b. <span id=\"blank_a6c59c65-4657-4db6-87d6-0c808b76bb74\"></span>; c. <span id=\"blank_6f5e0b2e-90c7-4651-bb3e-d7b93bb4da39\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65285",
+      "label": null,
+      "title": "Q12 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56109",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "e3f4777e-8a18-4167-8622-35c833c25aef"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "66436170-633b-4989-9465-3fa2044efd8a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f5dc7e89-1cda-4a16-9209-f538c463dda8"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6747528d-1b28-4b45-b32b-dbd7b9b5282b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "15d4c2d0-0b73-41b0-9187-f3245adc0e3e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3ba779a8-8471-4e7f-88ad-8ed5bcf030bc"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "2ad9696f-277f-47f8-99f1-6dc3587d5184"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c6c2d6e3-f38d-4a60-88a5-632494f5ebee"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3e70eaf9-803b-434e-8d6e-2e4a10249a3d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fe1ddf0a-29b7-4e24-84cd-5d4fc159a1f4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "39571e89-fc93-4e7f-a139-4da1c8407409"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5fe61482-5ff4-46b6-80b2-ba20d524357a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3d699fcf-6638-4f2b-a3d5-99866e850cf6"
+          }
+        ]
+      },
+      "item_body": "<p>Find all the critical numbers for each function.</p>\n<p>a. y = -2x^2 + 16x - 31; critical number: <span id=\"blank_e3f4777e-8a18-4167-8622-35c833c25aef\"></span></p>\n<p>b. y = x^3 - 27x; critical numbers: <span id=\"blank_66436170-633b-4989-9465-3fa2044efd8a\"></span>, <span id=\"blank_f5dc7e89-1cda-4a16-9209-f538c463dda8\"></span></p>\n<p>c. y = x^4 - 4x^2; critical numbers: <span id=\"blank_6747528d-1b28-4b45-b32b-dbd7b9b5282b\"></span>, <span id=\"blank_15d4c2d0-0b73-41b0-9187-f3245adc0e3e\"></span>, <span id=\"blank_3ba779a8-8471-4e7f-88ad-8ed5bcf030bc\"></span></p>\n<p>d. y = 3x^5 - 25x^3 + 60x; critical numbers: <span id=\"blank_2ad9696f-277f-47f8-99f1-6dc3587d5184\"></span>, <span id=\"blank_c6c2d6e3-f38d-4a60-88a5-632494f5ebee\"></span>, <span id=\"blank_3e70eaf9-803b-434e-8d6e-2e4a10249a3d\"></span>, <span id=\"blank_fe1ddf0a-29b7-4e24-84cd-5d4fc159a1f4\"></span></p>\n<p>e. y = (x^2 - 1)/(x^2 + 1); critical number: <span id=\"blank_39571e89-fc93-4e7f-a139-4da1c8407409\"></span></p>\n<p>f. y = x/(x^2 + 2); critical numbers: <span id=\"blank_5fe61482-5ff4-46b6-80b2-ba20d524357a\"></span>, <span id=\"blank_3d699fcf-6638-4f2b-a3d5-99866e850cf6\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65289",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "11": {
+                "children": null
+              },
+              "12": {
+                "children": null
+              },
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56109",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "8092887d-d7e4-45a9-9d0d-d5fae9cb120c"
+          }
+        ]
+      },
+      "item_body": "<p>Find a value of k that will give the function f(x) = x^2 + kx + 2 a local minimum value of 1.</p>\n<p>k = <span id=\"blank_8092887d-d7e4-45a9-9d0d-d5fae9cb120c\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65291",
+      "label": null,
+      "title": "Q6 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56109",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

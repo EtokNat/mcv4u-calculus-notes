@@ -1,0 +1,290 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56039",
+    "item_id": "64985",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] For each function, find f(a + h) and f(a + h) - f(a).\n a. f(x) = 5x - 2: f(a + h) = ; f(a + h) - f(a) = \n b. f(x) = x^2 + 3x - 1: f(a + h) = ; f(a + h) - f(a) = \n c. f(x) = x^3 - 4x + 1: f(a + h) = ; f(a + h) - f(a) = \n d. f(x) = x^2 + x - 6: f(a + h) = ; f(a + h) - f(a) = \n e. f(x) = -7x + 4: f(a + h) = ; f(a + h) - f(a) = \n f. f(x) = 4 - 2x - x^2: f(a + h) = ; f(a + h) - f(a) =",
+    "prompt_html": "<p>[K/U] For each function, find f(a + h) and f(a + h) - f(a).</p>\n<p>a. f(x) = 5x - 2: f(a + h) = <span id=\"blank_fa7ae932-70ae-4d71-9675-6afb2006524c\"></span>; f(a + h) - f(a) = <span id=\"blank_8b32b461-a049-4ff5-96ca-188334ea3037\"></span></p>\n<p>b. f(x) = x^2 + 3x - 1: f(a + h) = <span id=\"blank_a3bce829-3f4e-4fc7-aacb-6543779fd556\"></span>; f(a + h) - f(a) = <span id=\"blank_a67ba6d0-addc-4d56-a727-62d74b53108a\"></span></p>\n<p>c. f(x) = x^3 - 4x + 1: f(a + h) = <span id=\"blank_399262c1-3c49-4721-9b3f-be09b08fd300\"></span>; f(a + h) - f(a) = <span id=\"blank_b2a9f82a-5d4e-42f1-ad2c-daa76f7e0f4e\"></span></p>\n<p>d. f(x) = x^2 + x - 6: f(a + h) = <span id=\"blank_7cb442e8-0ed7-4ac2-a162-c7dcf8d62c7b\"></span>; f(a + h) - f(a) = <span id=\"blank_4943c1c4-596d-43a0-adcb-c6fed9377b13\"></span></p>\n<p>e. f(x) = -7x + 4: f(a + h) = <span id=\"blank_71099529-8da1-4dbe-ae68-1fd1388bb818\"></span>; f(a + h) - f(a) = <span id=\"blank_05abed6f-cb78-4418-a575-6200b0142dea\"></span></p>\n<p>f. f(x) = 4 - 2x - x^2: f(a + h) = <span id=\"blank_f8f9182d-9181-41bf-b02d-50045fd5325c\"></span>; f(a + h) - f(a) = <span id=\"blank_b9b662f7-d472-4151-9a9c-96e4c92df307\"></span></p>",
+    "choices": [],
+    "num_blanks": 12,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "fa7ae932-70ae-4d71-9675-6afb2006524c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "8b32b461-a049-4ff5-96ca-188334ea3037"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a3bce829-3f4e-4fc7-aacb-6543779fd556"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a67ba6d0-addc-4d56-a727-62d74b53108a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "399262c1-3c49-4721-9b3f-be09b08fd300"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b2a9f82a-5d4e-42f1-ad2c-daa76f7e0f4e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7cb442e8-0ed7-4ac2-a162-c7dcf8d62c7b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "4943c1c4-596d-43a0-adcb-c6fed9377b13"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "71099529-8da1-4dbe-ae68-1fd1388bb818"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "05abed6f-cb78-4418-a575-6200b0142dea"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f8f9182d-9181-41bf-b02d-50045fd5325c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b9b662f7-d472-4151-9a9c-96e4c92df307"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56040",
+    "item_id": "65004",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] The tangent to the cubic function that is defined by y = x^3 - 6x^2 + 8x at point A(3, -3) intersects the curve at another point, B. Find the coordinates of point B. Illustrate with a sketch.\n Point B: ( , )",
+    "prompt_html": "<p>[T] The tangent to the cubic function that is defined by y = x^3 - 6x^2 + 8x at point A(3, -3) intersects the curve at another point, B. Find the coordinates of point B. Illustrate with a sketch.</p>\n<p>Point B: (<span id=\"blank_9882e705-544e-4dd6-bf53-d73313ae6edb\"></span>, <span id=\"blank_7705660f-7ad8-4f4e-923a-20be3b1968e7\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "9882e705-544e-4dd6-bf53-d73313ae6edb"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7705660f-7ad8-4f4e-923a-20be3b1968e7"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56040",
+    "item_id": "65024",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] Determine the values of x so that the tangent to the function y = 3/cubert(x) is parallel to the line x + 16y + 3 = 0.\n x = ,",
+    "prompt_html": "<p>[T] Determine the values of x so that the tangent to the function y = 3/cubert(x) is parallel to the line x + 16y + 3 = 0.</p>\n<p>x = <span id=\"blank_54dd126c-22cf-42dc-acad-2d9dc9d5d061\"></span>, <span id=\"blank_6e2dac69-de75-447f-9339-fc39f3355e40\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "54dd126c-22cf-42dc-acad-2d9dc9d5d061"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6e2dac69-de75-447f-9339-fc39f3355e40"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56041",
+    "item_id": "65031",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine the equation of the tangent to the graph of each function.\n a. y = -3x^2 + 6x + 4 when x = 1: tangent \n b. y = 3 - 2 sqrt(x) when x = 9: tangent \n c. f(x) = -2x^4 + 4x^3 - 2x^2 - 8x + 9 when x = 3: tangent",
+    "prompt_html": "<p>[K/U] Determine the equation of the tangent to the graph of each function.</p>\n<p>a. y = -3x^2 + 6x + 4 when x = 1: tangent <span id=\"blank_42a1f8a5-f52e-4442-bb13-3b03004d998f\"></span></p>\n<p>b. y = 3 - 2 sqrt(x) when x = 9: tangent <span id=\"blank_dc8144d0-47b9-401a-8909-4623ca822d62\"></span></p>\n<p>c. f(x) = -2x^4 + 4x^3 - 2x^2 - 8x + 9 when x = 3: tangent <span id=\"blank_6f59b7cd-3cfd-4ed4-ba0d-d49622591acc\"></span></p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "42a1f8a5-f52e-4442-bb13-3b03004d998f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "dc8144d0-47b9-401a-8909-4623ca822d62"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6f59b7cd-3cfd-4ed4-ba0d-d49622591acc"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56042",
+    "item_id": "65047",
+    "points": 4.0,
+    "slug": "numeric",
+    "prompt_text": "[K/U] Find h'(2), given h(x) = f(g(x)), f(u) = u^2 - 1, g(2) = 3, and g'(2) = -1.",
+    "prompt_html": "<p>[K/U] Find h'(2), given h(x) = f(g(x)), f(u) = u^2 - 1, g(2) = 3, and g'(2) = -1.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56043",
+    "item_id": "62911",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[T]\n For the function f(x) = x|x|, show that f'(0) exists. What is the value?",
+    "prompt_html": "<p>[T]</p><p>For the function f(x) = x|x|, show that f'(0) exists. What is the value?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56043",
+    "item_id": "63033",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[C]\n Determine which functions are differentiable at x = 1. Give reasons for your choices.\n a. f(x) = 3x/(1 - x^2)\n b. g(x) = (x - 1)/(x^2 + 5x - 6)\n c. h(x) = cubert((x - 2)^2)\n d. m(x) = |3x - 3| - 1",
+    "prompt_html": "<p>[C]</p><p>Determine which functions are differentiable at x = 1. Give reasons for your choices.</p><p>a. f(x) = 3x/(1 - x^2)</p><p>b. g(x) = (x - 1)/(x^2 + 5x - 6)</p><p>c. h(x) = cubert((x - 2)^2)</p><p>d. m(x) = |3x - 3| - 1</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56044",
+    "item_id": "62940",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n a. Find the coordinates of the points, if any, where each function has a horizontal tangent line.\n i. f(x) = 2x - 5x^2\n ii. f(x) = 4x^2 + 2x - 3\n iii. f(x) = x^3 - 8x^2 + 5x + 3\n b. Suggest a graphical interpretation for each of these points.",
+    "prompt_html": "<p>[K/U]</p><p>a. Find the coordinates of the points, if any, where each function has a horizontal tangent line.</p><p>i. f(x) = 2x - 5x^2</p><p>ii. f(x) = 4x^2 + 2x - 3</p><p>iii. f(x) = x^3 - 8x^2 + 5x + 3</p><p>b. Suggest a graphical interpretation for each of these points.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 9,
+    "quiz_entry_id": "56044",
+    "item_id": "63028",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n A grocery store determines that, after t hours on the job, a new cashier can scan N(t) = 20 - 30/sqrt(9 + t^2) items per minute.\n a. Find N'(t), the rate at which the cashier's productivity is changing.\n b. According to this model, does the cashier ever stop improving? Why?",
+    "prompt_html": "<p>[A]</p><p>A grocery store determines that, after t hours on the job, a new cashier can scan N(t) = 20 - 30/sqrt(9 + t^2) items per minute.</p><p>a. Find N'(t), the rate at which the cashier's productivity is changing.</p><p>b. According to this model, does the cashier ever stop improving? Why?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 10,
+    "quiz_entry_id": "56045",
+    "item_id": "62948",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Determine the value of dy/dx for the given value of x.\n a. y = (2 + 7x)(x - 3), x = 2\n b. y = (1 - 2x)(1 + 2x), x = 1/2\n c. y = (3 - 2x - x^2)(x^2 + x - 2), x = -2\n d. y = x^3 (3x + 7)^2, x = -2\n e. y = (2x + 1)^5 (3x + 2)^4, x = -1\n f. y = x(5x - 2)(5x + 2), x = 3",
+    "prompt_html": "<p>[K/U]</p><p>Determine the value of dy/dx for the given value of x.</p><p>a. y = (2 + 7x)(x - 3), x = 2</p><p>b. y = (1 - 2x)(1 + 2x), x = 1/2</p><p>c. y = (3 - 2x - x^2)(x^2 + x - 2), x = -2</p><p>d. y = x^3 (3x + 7)^2, x = -2</p><p>e. y = (2x + 1)^5 (3x + 2)^4, x = -1</p><p>f. y = x(5x - 2)(5x + 2), x = 3</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 11,
+    "quiz_entry_id": "56045",
+    "item_id": "62970",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n The volume of a sphere is given by V(r) = (4/3) pi r^3.\n a. Determine the average rate of change of volume with respect to radius as the radius changes from 10 cm to 15 cm.\n b. Determine the rate of change of volume when the radius is 8 cm.",
+    "prompt_html": "<p>[A]</p><p>The volume of a sphere is given by V(r) = (4/3) pi r^3.</p><p>a. Determine the average rate of change of volume with respect to radius as the radius changes from 10 cm to 15 cm.</p><p>b. Determine the rate of change of volume when the radius is 8 cm.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 12,
+    "quiz_entry_id": "56046",
+    "item_id": "63035",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n At a manufacturing plant, productivity is measured by the number of items, p, produced per employee per day over the previous 10 years. Productivity is modelled by p(t) = 25t/(t + 1), where t is the number of years measured from 10 years ago. Determine the rate of change of p with respect to t.",
+    "prompt_html": "<p>[A]</p><p>At a manufacturing plant, productivity is measured by the number of items, p, produced per employee per day over the previous 10 years. Productivity is modelled by p(t) = 25t/(t + 1), where t is the number of years measured from 10 years ago. Determine the rate of change of p with respect to t.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 13,
+    "quiz_entry_id": "56046",
+    "item_id": "63025",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[T]\n a. Using a graphing calculator, graph the function f(x) = x^3/(x^2 - 6).\n b. Using the draw function or an equivalent function on your calculator or graphing software, find the equations of the tangents where the slope is zero.\n c. Setting f'(x) = 0, find the coordinates of the points where the slope is zero.\n d. Determine the slope of the tangent to the graph at (2, -4). Use the graph to verify that your answer is reasonable.",
+    "prompt_html": "<p>[T]</p><p>a. Using a graphing calculator, graph the function f(x) = x^3/(x^2 - 6).</p><p>b. Using the draw function or an equivalent function on your calculator or graphing software, find the equations of the tangents where the slope is zero.</p><p>c. Setting f'(x) = 0, find the coordinates of the points where the slope is zero.</p><p>d. Determine the slope of the tangent to the graph at (2, -4). Use the graph to verify that your answer is reasonable.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 14,
+    "quiz_entry_id": "56047",
+    "item_id": "63021",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n a. Determine the values of x where the graph of each function has a horizontal tangent.\n i. y = (x^2 - 4)^5\n ii. y = (x^3 - x)^2\n b. Use a graphing calculator to graph each function and its tangent at the values you found from part a. to confirm your result.",
+    "prompt_html": "<p>[K/U]</p><p>a. Determine the values of x where the graph of each function has a horizontal tangent.</p><p>i. y = (x^2 - 4)^5</p><p>ii. y = (x^3 - x)^2</p><p>b. Use a graphing calculator to graph each function and its tangent at the values you found from part a. to confirm your result.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 15,
+    "quiz_entry_id": "56047",
+    "item_id": "63048",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Determine the equation of the tangent to y = (3x^-2 - 2x^3)^5 at (1, 1).",
+    "prompt_html": "<p>[K/U]</p><p>Determine the equation of the tangent to y = (3x^-2 - 2x^3)^5 at (1, 1).</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  }
+]

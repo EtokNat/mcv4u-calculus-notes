@@ -1,0 +1,148 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9149" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 1.2 — The Slope of a Tangent</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 1</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 1.2</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">The Slope of a Tangent</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §1.2 — how to measure the steepness of a curve at a single point.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Describe a tangent as the straight line that most closely resembles a curve near a point.</li>
+<li>Explain why the slope of a tangent is the <strong>limiting slope of secants</strong> as Q slides toward P.</li>
+<li>Use the <strong>difference quotient</strong> and its limit to compute tangent slopes and write tangent equations.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>You already know what a <strong>tangent</strong> to a curve is — but what geometric meaning can we give it at a point <em>P</em>? A tangent is the straight line that <strong>most resembles the graph near a point</strong>, and its slope tells you how steep the graph is at the point of tangency. Below, four tangents touch the same curve:</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54773/preview?" alt="Four tangent lines touching the graph of y = f(x)" style="max-width: 520px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54773" data-api-returntype="File" loading="lazy"></p>
+<p>The goal of this section is to build a method for finding that slope at any given point. We start with a quick review of lines and slopes.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17350" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17350" data-api-returntype="Assignment">▶ Start the Lesson 1.2 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — watch a secant become a tangent</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, graph <strong><em>y = x^2</em></strong>. Add a slider <strong><em>h = 1</em></strong> (range −2 to 2).</li>
+<li>Plot <strong><em>P = (3, 9)</em></strong> and <strong><em>Q = (3+h, (3+h)^2)</em></strong>. Draw the line through P and Q — that is the <strong>secant</strong> PQ.</li>
+<li>In a new line type <strong><em>((3+h)^2 - 9)/h</em></strong>. That number is the secant's slope. Now drag h toward 0 (from both sides). What value does the slope approach? The line PQ visually becomes the <strong>tangent</strong> at P.</li>
+<li><strong>Conclusion:</strong> you just estimated the tangent slope as the limiting value of secant slopes.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">Lines and slopes — a review</h4>
+<p>The slope <em>m</em> of the line joining P₁(x₁, y₁) and P₂(x₂, y₂) is <strong>m = Δy/Δx = (y₂ − y₁)/(x₂ − x₁)</strong>. A line's equation can be written in point–slope form as <strong>(y − y₁)/(x − x₁) = m</strong>, or <strong>y − y₁ = m(x − x₁)</strong>, and in slope–y-intercept form as <strong>y = mx + b</strong>.</p>
+<p>To write the equation of a tangent to a curve at a point, we first need the tangent's <strong>slope</strong>. But the slope formula needs <em>two</em> points, and we only have one — point <em>P</em>. What can we do?</p>
+<h4 style="color:#10284A;margin:16px 0 6px;">The secant idea</h4>
+<p>Take a second point <em>Q</em> on the curve. The line joining <em>P</em> and <em>Q</em> is called a <strong>secant</strong>. Now imagine <em>Q</em> as a moving point that <strong>slides along the curve toward <em>P</em></strong> — the secant's slope becomes a better and better estimate of the tangent's slope:</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54783/preview?" alt="Secant PQ sliding toward P, approaching the tangent at P" style="max-width: 520px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54783" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 2px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 14px 0px;">
+<strong style="color:#10284A;">Slope of a Tangent — definition.</strong> The slope of the tangent to a curve at a point <em>P</em> is the <strong>limiting slope of the secant <em>PQ</em></strong> as the point <em>Q</em> slides along the curve toward <em>P</em>. In other words, the tangent slope is the <strong>limit</strong> of the secant slope as <em>Q</em> approaches <em>P</em> along the curve.
+</div>
+<p>Since we care about points <em>Q</em> very close to P(3, 9) on y = x², it is convenient to write <em>Q</em> as <strong>(3 + h, (3 + h)²)</strong>, where <em>h</em> is a very small nonzero number. As <em>Q</em> slides toward <em>P</em>, <em>h</em> takes values closer and closer to zero — we say "<em>h</em> approaches zero" and write <strong>h → 0</strong>. The notation <strong>lim<sub>h→0</sub></strong> means "limiting value as <em>h</em> approaches 0". So the tangent slope at <em>P</em> is <strong>lim<sub>h→0</sub> (slope of the secant <em>PQ</em>)</strong>.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Determine the slope of the tangent to the parabola f(x) = x² at P(3, 9).</p>
+<p style="margin:0;"><strong>Solution.</strong> Using P(3, 9) and Q(3 + h, (3 + h)²), h ≠ 0, the slope of the secant <em>PQ</em> is<br>
+(y₂ − y₁)/(x₂ − x₁) &nbsp;&nbsp;<em>(substitute)</em><br>
+= [(3 + h)² − 9]/[(3 + h) − 3] &nbsp;&nbsp;<em>(expand)</em><br>
+= [9 + 6h + h² − 9]/h &nbsp;&nbsp;<em>(simplify and factor)</em><br>
+= h(6 + h)/h<br>
+= (6 + h) &nbsp;&nbsp;<em>(divide by the common factor of h)</em></p>
+<p style="margin:8px 0 0;">As h → 0, the value of (6 + h) approaches 6, and thus lim<sub>h→0</sub>(6 + h) = 6.<br>
+We conclude that the slope of the tangent at P(3, 9) to the parabola y = x² is <strong>6</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Estimating with a series of secants. Consider y = −(1/8)(x + 1)(x − 7).</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+a. The x-intercepts are −1 and 7, so the axis of symmetry is x = (−1 + 7)/2 = 3. Substituting x = 3 gives y = −(1/8)(4)(−4) = 2, so the vertex is (3, 2). The y-intercept is 7/8. Integer-x points on the parabola: (−1, 0), (0, 0.875), (1, 1.5), (2, 1.875), (3, 2), (4, 1.875), (5, 1.5), (6, 0.875).<br>
+b. The secant through (−1, 0) and P(5, 1.5) has slope m = (1.5 − 0)/(5 − (−1)) = 0.25. Using the other points with P(5, 1.5), the slopes are 0.125, 0, −0.125, −0.25, −0.375, and −0.625, respectively.<br>
+c. The tangent slope at P(5, 1.5) lies between −0.375 and −0.625; using points closer and closer to P(5, 1.5) it can be determined to be <strong>−0.5</strong>.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54774/preview?" alt="Secants through P(5, 1.5) converging to the tangent" style="max-width: 520px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54774" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">The slope of a tangent at an arbitrary point — the difference quotient</h4>
+<p>Now we generalize. Let P(a, f(a)) be a fixed point on y = f(x), and let Q be a horizontal distance <em>h</em> away: Q(a + h, f(a + h)). The secant slope is <strong>Δy/Δx = [f(a + h) − f(a)]/[(a + h) − a] = [f(a + h) − f(a)]/h</strong>. This quotient is fundamental to calculus and is called the <strong>difference quotient</strong>. The slope <em>m</em> of the tangent at P(a, f(a)) is lim<sub>h→0</sub> (slope of the secant <em>PQ</em>), i.e. <strong>m = lim<sub>h→0</sub> [f(a + h) − f(a)]/h</strong>.</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54775/preview?" alt="Geometry of the difference quotient: P(a, f(a)) and Q(a+h, f(a+h))" style="max-width: 520px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54775" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 2px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 14px 0px;">
+<strong style="color:#10284A;">Slope of a Tangent as a Limit.</strong> The slope of the tangent to y = f(x) at P(a, f(a)) is <strong>m = lim<sub>Δx→0</sub> Δy/Δx = lim<sub>h→0</sub> [f(a + h) − f(a)]/h</strong>, if this limit exists.
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — a. Using the definition, determine the tangent slope to y = −x² + 4x + 1 at the point where x = 3. b. Determine the tangent's equation. c. Sketch the graph and the tangent.</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+a. Here f(x) = −x² + 4x + 1 and a = 3. Then f(3) = −(3)² + 4(3) + 1 = 4, and<br>
+f(3 + h) = −(3 + h)² + 4(3 + h) + 1 = −9 − 6h − h² + 12 + 4h + 1 = −h² − 2h + 4.<br>
+The tangent slope at (3, 4) is<br>
+m = lim<sub>h→0</sub> [f(3 + h) − f(3)]/h &nbsp;&nbsp;<em>(substitute)</em><br>
+= lim<sub>h→0</sub> [(−h² − 2h + 4) − 4]/h &nbsp;&nbsp;<em>(simplify and factor)</em><br>
+= lim<sub>h→0</sub> h(−h − 2)/h &nbsp;&nbsp;<em>(divide by the common factor)</em><br>
+= lim<sub>h→0</sub> (−h − 2) &nbsp;&nbsp;<em>(evaluate)</em><br>
+= <strong>−2</strong>.<br>
+b. The tangent at (3, 4) satisfies (y − 4)/(x − 3) = −2, or <strong>y = −2x + 10</strong>.<br>
+c. (Sketch the parabola y = −x² + 4x + 1 and the line y = −2x + 10 through (3, 4).)</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 4</strong> — Determine the tangent slope to the rational function f(x) = (3x + 6)/x at the point (2, 6).</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+m = lim<sub>h→0</sub> [f(2 + h) − f(2)]/h &nbsp;&nbsp;<em>(substitute)</em><br>
+= lim<sub>h→0</sub> [(6 + 3h + 6)/(2 + h) − 6]/h &nbsp;&nbsp;<em>(determine a common denominator)</em><br>
+= lim<sub>h→0</sub> [(6 + 3h + 6)/(2 + h) − 6(2 + h)/(2 + h)]/h &nbsp;&nbsp;<em>(simplify)</em><br>
+= lim<sub>h→0</sub> [(12 + 3h − 12 − 6h)/(2 + h)]/h<br>
+= lim<sub>h→0</sub> [(−3h)/(2 + h)]/h &nbsp;&nbsp;<em>(multiply by the reciprocal)</em><br>
+= lim<sub>h→0</sub> (−3h)/(2 + h) × 1/h<br>
+= lim<sub>h→0</sub> −3/(2 + h) &nbsp;&nbsp;<em>(evaluate)</em><br>
+= <strong>−1.5</strong>.<br>
+Therefore, the tangent slope to f(x) = (3x + 6)/x at (2, 6) is −1.5.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 5</strong> — Find the tangent slope to f(x) = √x at x = 9. (Watch for your Lesson 1.1 skill!)</p>
+<p style="margin:0;"><strong>Solution.</strong> f(9) = √9 = 3 and f(9 + h) = √(9 + h). Then<br>
+m = lim<sub>h→0</sub> [f(9 + h) − f(9)]/h &nbsp;&nbsp;<em>(substitute)</em><br>
+= lim<sub>h→0</sub> [√(9 + h) − 3]/h &nbsp;&nbsp;<em>(rationalize the numerator)</em><br>
+= lim<sub>h→0</sub> [√(9 + h) − 3]/h × [√(9 + h) + 3]/[√(9 + h) + 3]<br>
+= lim<sub>h→0</sub> [(9 + h) − 9]/[h(√(9 + h) + 3)] &nbsp;&nbsp;<em>(simplify)</em><br>
+= lim<sub>h→0</sub> h/[h(√(9 + h) + 3)] &nbsp;&nbsp;<em>(divide by the common factor of h)</em><br>
+= lim<sub>h→0</sub> 1/[√(9 + h) + 3] &nbsp;&nbsp;<em>(evaluate)</em><br>
+= <strong>1/6</strong>.<br>
+Therefore, the tangent slope to f(x) = √x at x = 9 is 1/6.</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 1.2.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Calculate the slope of the line through (2, 7) and (−3, −8).</summary>
+<p>m = (−8 − 7)/(−3 − 2) = (−15)/(−5) = <strong>3</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Using the definition, find the tangent slope to y = x² at x = 2.</summary>
+<p>m = lim<sub>h→0</sub> [(2 + h)² − 4]/h = lim<sub>h→0</sub> (4h + h²)/h = lim<sub>h→0</sub> (4 + h) = <strong>4</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Find the equation of the tangent to y = x² − 3x + 1 at (3, 1).</summary>
+<p>m = lim<sub>h→0</sub> [((3+h)² − 3(3+h) + 1) − 1]/h = lim<sub>h→0</sub> (3h + h²)/h = <strong>3</strong>. Tangent: y − 1 = 3(x − 3), i.e. <strong>y = 3x − 8</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Explain in your own words how to approximate a tangent slope <em>without</em> using the limit definition.</summary>
+<p>Pick several points Q on the curve near P, compute each secant slope, and watch the values settle toward a number as Q gets closer to P — that number estimates the tangent slope (as in Example 2).</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li>The tangent slope at <em>P</em> is the <strong>limit of secant slopes</strong> as Q moves closer to P: m<sub>tangent</sub> = lim<sub>Q→P</sub>(slope of secant PQ).</li>
+<li>At P(a, f(a)): <strong>m<sub>tangent</sub> = lim<sub>Δx→0</sub> Δy/Δx = lim<sub>h→0</sub> [f(a + h) − f(a)]/h</strong>.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know — the procedure</strong></p>
+<ul style="margin:0;">
+<li>To find the tangent slope at P(a, f(a)): find f(a); find f(a + h); evaluate lim<sub>h→0</sub> [f(a + h) − f(a)]/h.</li>
+<li>Simplify the difference quotient first (expand, factor, rationalize) — never substitute h = 0 until the h in the denominator is gone.</li>
+<li>Next: Lesson 1.3 applies the same idea to <strong>rates of change</strong>.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Introduction to Calculus</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

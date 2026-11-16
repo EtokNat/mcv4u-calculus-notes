@@ -1,0 +1,177 @@
+[
+  {
+    "idx": 0,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "Before this unit, how would you describe your experience with physics-style word problems (forces, motion, ramps)?",
+    "prompt_dom": "Before this unit, how would you describe your experience with physics-style word problems (forces, motion, ramps)?\n\nI've solved many and I'm comfortable with them\n\nI've solved a few and can usually get started\n\nI've seen them but rarely finish them\n\nThis is mostly new to me",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "e4ed652e-f190-42ce-859c-f86390491db8",
+        "position": 1,
+        "text": "I've solved many and I'm comfortable with them",
+        "html": "<p>I've solved many and I'm comfortable with them</p>"
+      },
+      {
+        "id": "691dfb0d-3a5c-427a-b7d3-dc66f40a6a7c",
+        "position": 2,
+        "text": "I've solved a few and can usually get started",
+        "html": "<p>I've solved a few and can usually get started</p>"
+      },
+      {
+        "id": "afa1b2e4-1a06-40ff-883a-b4e2c780fd8c",
+        "position": 4,
+        "text": "I've seen them but rarely finish them",
+        "html": "<p>I've seen them but rarely finish them</p>"
+      },
+      {
+        "id": "0766068e-fca9-4a0a-b74c-5085f5bd5bb0",
+        "position": 5,
+        "text": "This is mostly new to me",
+        "html": "<p>This is mostly new to me</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 1,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "How confident are you drawing a diagram to represent a word problem (for example, sketching forces or a velocity triangle)?",
+    "prompt_dom": "How confident are you drawing a diagram to represent a word problem (for example, sketching forces or a velocity triangle)?\n\nVery confident\n\nSomewhat confident\n\nNot very confident\n\nNot confident at all",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "39268da9-339f-4a66-8182-9fa35472ea86",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "e957412b-1f82-44ee-a6ff-6a8d124372e5",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "f92b355e-8fba-4c82-85f0-653f292ff38b",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "3a446e85-be0e-40a3-98e3-0fd590ba4c48",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 2,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "How confident are you breaking a force or velocity into horizontal and vertical components (for example, finding 200\u00b7cos20\u00b0)?",
+    "prompt_dom": "How confident are you breaking a force or velocity into horizontal and vertical components (for example, finding 200\u00b7cos20\u00b0)?\n\nVery confident\n\nSomewhat confident\n\nNot very confident\n\nNot confident at all",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "39268da9-339f-4a66-8182-9fa35472ea86",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "e957412b-1f82-44ee-a6ff-6a8d124372e5",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "f92b355e-8fba-4c82-85f0-653f292ff38b",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "3a446e85-be0e-40a3-98e3-0fd590ba4c48",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 3,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "How confident are you choosing the right vector tool for a new problem (for example, deciding whether a situation needs a resultant, a projection, or a cross product)?",
+    "prompt_dom": "How confident are you choosing the right vector tool for a new problem (for example, deciding whether a situation needs a resultant, a projection, or a cross product)?\n\nVery confident\n\nSomewhat confident\n\nNot very confident\n\nNot confident at all",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "39268da9-339f-4a66-8182-9fa35472ea86",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "e957412b-1f82-44ee-a6ff-6a8d124372e5",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "f92b355e-8fba-4c82-85f0-653f292ff38b",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "3a446e85-be0e-40a3-98e3-0fd590ba4c48",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 4,
+    "slug": "essay",
+    "points": 1.0,
+    "prompt": "What is one real-world vector application you most want to understand by the end of this unit (for example, navigation, construction, sports)?",
+    "prompt_dom": "What is one real-world vector application you most want to understand by the end of this unit (for example, navigation, construction, sports)?\n\nWhat is one real-world vector application you most want to understand by the end of this unit (for example, navigation, construction, sports)?\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  }
+]

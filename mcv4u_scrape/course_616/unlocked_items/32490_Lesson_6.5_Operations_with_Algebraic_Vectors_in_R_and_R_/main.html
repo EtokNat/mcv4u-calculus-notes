@@ -1,0 +1,111 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9182" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 6.5 — Operations with Algebraic Vectors in R² and R³</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 6</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 6.5</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Operations with Algebraic Vectors in R² and R³</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §§6.6–6.7 — componentwise addition, subtraction, and scalar multiplication.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Convert between <strong>component form</strong> (a, b[, c]) and the <strong>i, j, k</strong> form.</li>
+<li><strong>Add, subtract, and scale</strong> algebraic vectors component by component in R² and R³.</li>
+<li>Find <strong>AB</strong> from two points (head minus tail) and compute <strong>magnitudes</strong>.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Geometry gave us the <em>rules</em> — add head-to-tail, scale along the line. Coordinates turn those rules into arithmetic: adding vectors becomes adding lists of numbers, and the picture is optional. Today the parallelogram law becomes a one-line calculation.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17383" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17383" data-api-returntype="Assignment">▶ Start the Lesson 6.5 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — arithmetic agrees with geometry</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, plot <strong><em>(1,3)</em></strong> and <strong><em>(4,-2)</em></strong> — the heads of vectors <strong>a</strong> and <strong>b</strong>.</li>
+<li>The sum's head should be at <strong><em>(1+4, 3+(-2)) = (5,1)</em></strong>. Plot <strong><em>(5,1)</em></strong> and draw the parallelogram — the diagonal lands exactly there.</li>
+<li>The difference a − b lands at <strong><em>(1-4, 3-(-2)) = (-3,5)</em></strong>. <strong>Conclusion:</strong> match the components, do the arithmetic — the geometry takes care of itself.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<strong style="color:#10284A;">Key term — Standard unit vectors:</strong> in R², <strong>i = (1, 0)</strong> and <strong>j = (0, 1)</strong>; in R³ add <strong>k = (0, 0, 1)</strong>. Every vector writes uniquely as <strong>(a, b) = ai + bj</strong> or <strong>(a, b, c) = ai + bj + ck</strong>.
+</div>
+<ul>
+<li><strong>Two names, one vector.</strong> (a, b) and ai + bj are the same arrow written two ways. Convert freely: (2, −1) = 2i − j, and −3i + j − 5k = (−3, 1, −5). The i, j, k form shows the <em>recipe</em>; the component form shows the <em>result</em>.</li>
+<li><strong>Componentwise operations.</strong> (a, b) ± (c, d) = <strong>(a ± c, b ± d)</strong>; m(a, b) = <strong>(ma, mb)</strong>. Same in R³ with three components. This is the parallelogram law and scalar multiplication, computed.</li>
+<li><strong>Between two points: head minus tail.</strong> For A(x₁, y₁) and B(x₂, y₂): <strong>AB = OB − OA = (x₂ − x₁, y₂ − y₁)</strong>. In R³: AB = (x₂ − x₁, y₂ − y₁, z₂ − z₁). The vector AB is equivalent to the position vector with those components.</li>
+<li><strong>Magnitudes.</strong> |OP| = √(a² + b²) in R² and √(a² + b² + c²) in R³ — Pythagoras, extended. Between points it's the distance formula: |AB| = √((x₂−x₁)² + (y₂−y₁)² (+ (z₂−z₁)²)).</li>
+</ul>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54851/preview?" alt="Adding (1,3) and (4,-2) componentwise to get (5,1), shown as a parallelogram diagonal" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54851" data-api-returntype="File" loading="lazy"></p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54829/preview?" alt="Points A(1,1) and B(5,4): AB = OB - OA = (4,3), head minus tail" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54829" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Given a = (1, 3) and b = (4, −2), find the components of a + b and a − b.</p>
+<p style="margin:0;"><strong>Solution.</strong> Add and subtract matching components:<br>
+a + b = (1 + 4, 3 + (−2)) = <strong>(5, 1)</strong>.<br>
+a − b = (1 − 4, 3 − (−2)) = <strong>(−3, 5)</strong>.<br>
+Geometrically these are the two diagonals of the parallelogram on a and b.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — A(−3, 7), B(5, −2), C(8, 18) are three points in R². (a) Find the perimeter of △ABC. (b) Find |AB + BC|.</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+(a) Head minus tail: AB = (8, −9), BC = (3, 20), CA = (−11, −11).<br>
+|AB| = √(64 + 81) = √145 ≈ <strong>12.04</strong>; |BC| = √(9 + 400) = √409 ≈ <strong>20.22</strong>; |CA| = √(121 + 121) = √242 ≈ <strong>15.56</strong>.<br>
+Perimeter ≈ 12.04 + 20.22 + 15.56 = <strong>47.82</strong>.<br>
+(b) AB + BC = AC = (11, 11), so |AB + BC| = <strong>√242 ≈ 15.56</strong> — adding consecutive sides just gives the third side.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — For a = −i + 2j + k, b = 2j − 3k, c = i − 3j + 2k, find 2a − b + c.</p>
+<p style="margin:0;"><strong>Solution.</strong> Work in the i, j, k form, collecting like unit vectors:<br>
+2a − b + c = 2(−i + 2j + k) − (2j − 3k) + (i − 3j + 2k)<br>
+= −2i + 4j + 2k − 2j + 3k + i − 3j + 2k<br>
+= (−2 + 1)i + (4 − 2 − 3)j + (2 + 3 + 2)k<br>
+= <strong>−i − j + 7k = (−1, −1, 7)</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 4</strong> — For x = 2i − 3j and y = −4i − 3j, find |x + y| and |x − y|.</p>
+<p style="margin:0;"><strong>Solution.</strong> x = (2, −3), y = (−4, −3).<br>
+x + y = (−2, −6), so |x + y| = √(4 + 36) = <strong>√40 ≈ 6.32</strong>.<br>
+x − y = (6, 0), so |x − y| = <strong>6</strong>.</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercises 6.6–6.7.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Write OB = 3i + 4j − 4k in component form and find |OB|.</summary>
+<p><strong>(3, 4, −4)</strong>; |OB| = √(9 + 16 + 16) = <strong>√41</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — For A(−1, 3) and B(2, 5), find AB in component form and |AB|.</summary>
+<p>AB = (2 − (−1), 5 − 3) = <strong>(3, 2)</strong>; |AB| = √(9 + 4) = <strong>√13</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — If ai + 5j = (−3, b), find a and b.</summary>
+<p>Match components: <strong>a = −3, b = 5</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — For m = 2i − k and n = −2i + j + 2k, find |m − n|.</summary>
+<p>m − n = (2 − (−2), 0 − 1, −1 − 2) = (4, −1, −3); |m − n| = √(16 + 1 + 9) = <strong>√26</strong>.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>(a, b) = ai + bj</strong>; <strong>(a, b, c) = ai + bj + ck</strong> — convert freely.</li>
+<li>Add/subtract <strong>matching components</strong>; scale <strong>every</strong> component.</li>
+<li><strong>AB = head − tail</strong>; magnitudes via Pythagoras / the distance formula.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>Scalar multiplication hits all components: 3(1, −2, 5) = (3, −6, 15) — never just one.</li>
+<li>Next: Lesson 6.6 builds <strong>linear combinations</strong> and asks what vectors can build.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Vectors</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

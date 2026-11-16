@@ -1,0 +1,153 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9154" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 2.1 — The Derivative Function</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 2</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 2.1</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">The Derivative Function</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §2.1 — the limit of the difference quotient gets a name: the derivative.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Find the derivative <strong>f′(a)</strong> at a point from the limit definition.</li>
+<li>Find the <strong>derivative function f′(x)</strong> from first principles.</li>
+<li>Find the equation of a <strong>tangent</strong> and a <strong>normal</strong> to a curve.</li>
+<li>Identify where a function is <strong>not differentiable</strong> (cusp, vertical tangent, discontinuity) and use the notations f′(x), y′, dy/dx.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>In Unit 1 you kept meeting the limit <strong>lim<sub>h→0</sub> [f(a + h) − f(a)]/h</strong>. It has two interpretations: the slope of the tangent to y = f(x) at (a, f(a)), and the instantaneous rate of change of y = f(x) with respect to x at x = a. Since this limit is central to calculus, it is given a name and a concise notation: it is called the <strong>derivative of f(x) at x = a</strong>, denoted <strong>f′(a)</strong> and read "f prime of a".</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17355" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17355" data-api-returntype="Assignment">▶ Start the Lesson 2.1 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — the derivative as a machine</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, graph <strong><em>y = x^2</em></strong>. Add a slider for <em>a</em> from −3 to 3, and graph the tangent line at x = a: <strong><em>y = 2a(x − a) + a^2</em></strong>.</li>
+<li>Drag the slider. The tangent's slope is 2a — a <em>function of a</em>. That function is the derivative f′(x) = 2x.</li>
+<li>Now graph <strong><em>y = |x|</em></strong> with the same tangent construction. What happens to the "tangent" as a passes through 0? (You are seeing non-differentiability.)</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<div style="background: rgb(255, 246, 239); border-width: 2px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 14px 0px;">
+<strong style="color:#10284A;">The Derivative at a Point.</strong> The derivative of f at the number <em>a</em> is given by <strong>f′(a) = lim<sub>h→0</sub> [f(a + h) − f(a)]/h</strong>, provided this limit exists. An alternative form is <strong>f′(a) = lim<sub>x→a</sub> [f(x) − f(a)]/(x − a)</strong>.
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Determine the derivative of f(x) = x² at x = −3.</p>
+<p style="margin:0;"><strong>Solution.</strong> Using the definition, the derivative at x = −3 is<br>
+f′(−3) = lim<sub>h→0</sub> [f(−3 + h) − f(−3)]/h<br>
+= lim<sub>h→0</sub> [(−3 + h)² − (−3)²]/h &nbsp;&nbsp;<em>(Expand)</em><br>
+= lim<sub>h→0</sub> [9 − 6h + h² − 9]/h &nbsp;&nbsp;<em>(Simplify and factor)</em><br>
+= lim<sub>h→0</sub> h(−6 + h)/h<br>
+= lim<sub>h→0</sub> (−6 + h)<br>
+= <strong>−6</strong>.<br>
+Therefore, the derivative of f(x) = x² at x = −3 is −6.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — a. Determine the derivative of f(x) = x² at an arbitrary value of x. b. Determine the slopes of the tangents to the parabola y = x² at x = −2, 0, and 1.</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+a. Using the definition, f′(x) = lim<sub>h→0</sub> [f(x + h) − f(x)]/h<br>
+= lim<sub>h→0</sub> [(x + h)² − x²]/h &nbsp;&nbsp;<em>(Expand)</em><br>
+= lim<sub>h→0</sub> [x² + 2xh + h² − x²]/h &nbsp;&nbsp;<em>(Simplify and factor)</em><br>
+= lim<sub>h→0</sub> h(2x + h)/h<br>
+= lim<sub>h→0</sub> (2x + h)<br>
+= <strong>2x</strong>.<br>
+The derivative of f(x) = x² at an arbitrary value of x is f′(x) = 2x.<br>
+b. Substitute into f′(x) = 2x: f′(−2) = −4, f′(0) = 0, f′(1) = 2. The slopes are <strong>−4, 0, and 2</strong>, respectively.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54804/preview?" alt="f(x) = x^2 with tangents at x = -2, 0, 1 beside f'(x) = 2x" style="max-width: 560px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54804" data-api-returntype="File" loading="lazy"></p>
+<p>Notice that the graph of the derivative function of the quadratic (degree two) is a linear function (degree one) — differentiating drops the degree by one. The same investigation with x³, x⁴, x⁵ suggests a pattern: the derivative of xⁿ is nxⁿ⁻¹. You will prove this in Lesson 2.2.</p>
+<div style="background: rgb(255, 246, 239); border-width: 2px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 14px 0px;">
+<strong style="color:#10284A;">The Derivative Function.</strong> The derivative of f(x) with respect to x is the function f′(x), where <strong>f′(x) = lim<sub>h→0</sub> [f(x + h) − f(x)]/h</strong>, provided this limit exists. Using this limit to find a derivative is called differentiating <strong>from first principles</strong>. Velocity is the derivative of position: <strong>v(t) = s′(t) = lim<sub>h→0</sub> [s(t + h) − s(t)]/h</strong>.
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Determine the derivative f′(t) of f(t) = √t, t ≥ 0.</p>
+<p style="margin:0;"><strong>Solution.</strong> Using the definition, f′(t) = lim<sub>h→0</sub> [f(t + h) − f(t)]/h<br>
+= lim<sub>h→0</sub> [√(t + h) − √t]/h<br>
+= lim<sub>h→0</sub> [√(t + h) − √t]/h × [√(t + h) + √t]/[√(t + h) + √t] &nbsp;&nbsp;<em>(Rationalize the numerator)</em><br>
+= lim<sub>h→0</sub> [(t + h) − t]/[h(√(t + h) + √t)]<br>
+= lim<sub>h→0</sub> h/[h(√(t + h) + √t)]<br>
+= lim<sub>h→0</sub> 1/[√(t + h) + √t]<br>
+= <strong>1/(2√t)</strong>, for t &gt; 0.<br>
+Note that f(t) = √t is defined for all t ≥ 0, whereas its derivative f′(t) = 1/(2√t) is defined only for t &gt; 0 — a function need not have a derivative throughout its entire domain.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 4</strong> — Determine an equation of the tangent to the graph of f(x) = 1/x at the point where x = 2.</p>
+<p style="margin:0;"><strong>Solution.</strong> When x = 2, y = 1/2, so the point is (2, 1/2). First find f′(x):<br>
+f′(x) = lim<sub>h→0</sub> [f(x + h) − f(x)]/h = lim<sub>h→0</sub> [1/(x + h) − 1/x]/h<br>
+= lim<sub>h→0</sub> [x/(x(x + h)) − (x + h)/(x(x + h))]/h &nbsp;&nbsp;<em>(Simplify the fraction)</em><br>
+= lim<sub>h→0</sub> [x − (x + h)]/[h(x + h)x]<br>
+= lim<sub>h→0</sub> −1/[(x + h)x]<br>
+= <strong>−1/x²</strong>.<br>
+The slope of the tangent at x = 2 is m = f′(2) = −1/4. The equation is y − 1/2 = −1/4(x − 2), or in standard form, <strong>x + 4y − 4 = 0</strong>.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54791/preview?" alt="y = 1/x with tangent at (2, 1/2)" style="max-width: 420px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54791" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 5</strong> — Determine an equation of the line perpendicular to the tangent in Example 4, through the point of tangency.</p>
+<p style="margin:0;"><strong>Solution.</strong> The tangent slope at x = 2 is f′(2) = −1/4, and the point of tangency is (2, 1/2). The perpendicular line has slope 4, the negative reciprocal of −1/4. Its equation is y − 1/2 = 4(x − 2), or <strong>8x − 2y − 15 = 0</strong>.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54799/preview?" alt="y = 1/x with tangent and normal at (2, 1/2)" style="max-width: 420px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54799" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 2px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 14px 0px;">
+<strong style="color:#10284A;">The Normal.</strong> The <strong>normal</strong> to the graph of f at point P is the line perpendicular to the tangent at P.
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">The existence of derivatives</h4>
+<p>A function f is said to be <strong>differentiable at <em>a</em></strong> if f′(a) exists. Three common ways a derivative can fail to exist:</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54805/preview?" alt="Cusp, vertical tangent, and discontinuity" style="max-width: 560px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54805" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 6</strong> — Show that f(x) = |x| is not differentiable at x = 0.</p>
+<p style="margin:0;"><strong>Solution.</strong> The graph has a "corner" at (0, 0): the slope for x &lt; 0 is −1, while the slope for x &gt; 0 is +1, so no unique tangent can be drawn. Using the definition:<br>
+f′(0) = lim<sub>h→0</sub> [f(0 + h) − f(0)]/h = lim<sub>h→0</sub> |h|/h.<br>
+Since |h| = h when h &gt; 0 and |h| = −h when h &lt; 0:<br>
+lim<sub>h→0⁻</sub> |h|/h = lim<sub>h→0⁻</sub> (−h)/h = −1; &nbsp; lim<sub>h→0⁺</sub> |h|/h = lim<sub>h→0⁺</sub> h/h = 1.<br>
+The one-sided limits disagree, so the derivative does not exist at x = 0.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54806/preview?" alt="y = |x| with corner at (0, 0)" style="max-width: 400px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54806" data-api-returntype="File" loading="lazy"></p>
+<div style="background:#F4F7FB;border-left:6px solid #F8660A;border-radius:0 8px 8px 0;padding:12px 18px;margin:14px 0;">
+<strong style="color:#10284A;">Key consequence.</strong> A function can be <strong>continuous</strong> at a point yet <strong>not differentiable</strong> there. However, if a function is differentiable at a point, then it is also continuous at that point.
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">Other notation for derivatives</h4>
+<p>If y = f(x), the symbols <strong>y′</strong> and <strong>dy/dx</strong> are also used for the derivative. The dy/dx notation was developed by Leibniz and is read "dee y by dee x". It reminds us how the derivative is obtained — as the limit of a difference quotient: <strong>dy/dx = lim<sub>Δx→0</sub> Δy/Δx</strong>. We can also write <strong>d/dx(x²) = 2x</strong>, read "the derivative of x² with respect to x is 2x". Important: <strong>dy/dx is not a fraction</strong>.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 2.1.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Use the definition to find f′(a) for f(x) = x² at a = 1.</summary>
+<p>f′(1) = lim<sub>h→0</sub> [(1 + h)² − 1]/h = lim<sub>h→0</sub> (2h + h²)/h = <strong>2</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Find the slopes of the tangents to y = 2x² − 4x at x = 0, 1, and 2.</summary>
+<p>From first principles, y′ = 4x − 4. At x = 0: <strong>−4</strong>; at x = 1: <strong>0</strong>; at x = 2: <strong>4</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Sketch two situations in which a function has no derivative at x = 1.</summary>
+<p>Any two of: a <strong>cusp</strong> at x = 1, a <strong>vertical tangent</strong> at x = 1, or a <strong>discontinuity</strong> at x = 1 (see the three panels above).</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Match each function graph with its derivative graph:</summary>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54792/preview?" alt="Six graphs to match functions with their derivatives" style="max-width: 560px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54792" data-api-returntype="File" loading="lazy"></p>
+<p>The derivative graph is positive where the function rises, negative where it falls, and zero at peaks/valleys. (Check: a parabola's derivative is a line crossing zero at the vertex.)</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li>The derivative of f at (a, f(a)) is <strong>f′(a) = lim<sub>h→0</sub> [f(a + h) − f(a)]/h</strong>, or <strong>f′(a) = lim<sub>x→a</sub> [f(x) − f(a)]/(x − a)</strong>.</li>
+<li>A function is <strong>differentiable at <em>a</em></strong> if f′(a) exists; differentiable on an interval if differentiable at every number in it.</li>
+<li>The derivative <strong>function</strong> is <strong>f′(x) = lim<sub>h→0</sub> [f(x + h) − f(x)]/h</strong>.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>f′(a) is the slope of the tangent at (a, f(a)), or the instantaneous rate of change of f(x) w.r.t. x at x = a.</li>
+<li>Other notations: <strong>f′(x)</strong>, <strong>y′</strong>, <strong>dy/dx</strong> (dy/dx is not a fraction).</li>
+<li>The <strong>normal</strong> at P is perpendicular to the tangent at P.</li>
+<li>Next: Lesson 2.2 — shortcut <strong>rules</strong> so you rarely need first principles again.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Derivatives</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

@@ -1,0 +1,231 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "55997",
+    "item_id": "64966",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "PART B\n Use a graphing calculator to graph each function and estimate the limit. Then find the limit by substitution.\n a. lim(x→-2) x³/(x - 2) ; b. lim(x→1) 2x/√(x² + 1)",
+    "prompt_html": "<p>PART B</p>\n<p>Use a graphing calculator to graph each function and estimate the limit. Then find the limit by substitution.</p>\n<p>a. lim(x→-2) x³/(x - 2) <span id=\"blank_3b7e570c-a7a1-414a-86df-a90403177334\"></span>; b. lim(x→1) 2x/√(x² + 1) <span id=\"blank_be64d2f0-860c-4de3-9250-c1cb4379c546\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "3b7e570c-a7a1-414a-86df-a90403177334"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "be64d2f0-860c-4de3-9250-c1cb4379c546"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "55997",
+    "item_id": "64965",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Evaluate each limit. a. lim(x→2) 3x/(x² + 2) ; b. lim(x→-1) (x⁴ + x³ + x²) ; c. lim(x→9) (√x + 1/√x)² ; d. lim(x→2π) (x³ + π²x - 5π³) ; e. lim(x→0) √(3 + √(1 + x)) ; f. lim(x→-3) √[(x - 3)/(2x + 4)]",
+    "prompt_html": "<p>Evaluate each limit. a. lim(x→2) 3x/(x² + 2) <span id=\"blank_25d21aaa-e5c1-4ab3-a219-dc090d8e092f\"></span>; b. lim(x→-1) (x⁴ + x³ + x²) <span id=\"blank_54fe7468-c73f-44ba-839e-0229cb231adf\"></span>; c. lim(x→9) (√x + 1/√x)² <span id=\"blank_0e06b5fb-50b4-4aaf-bbb5-0cf480ecbe64\"></span>; d. lim(x→2π) (x³ + π²x - 5π³) <span id=\"blank_0d3ef86e-4201-4d56-aebf-4c3a561e4fc9\"></span>; e. lim(x→0) √(3 + √(1 + x)) <span id=\"blank_706b9392-6ab6-4e73-906d-82b8ded94976\"></span>; f. lim(x→-3) √[(x - 3)/(2x + 4)] <span id=\"blank_6a560b88-9da4-4c0c-9057-764d16eb9e3c\"></span></p>",
+    "choices": [],
+    "num_blanks": 6,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "25d21aaa-e5c1-4ab3-a219-dc090d8e092f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "54fe7468-c73f-44ba-839e-0229cb231adf"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0e06b5fb-50b4-4aaf-bbb5-0cf480ecbe64"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0d3ef86e-4201-4d56-aebf-4c3a561e4fc9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "706b9392-6ab6-4e73-906d-82b8ded94976"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6a560b88-9da4-4c0c-9057-764d16eb9e3c"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "55997",
+    "item_id": "64971",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "If lim(x→0) f(x)/x = 1 and lim(x→0) g(x)/x = 2, then evaluate each limit. a. lim(x→0) g(x) ; b. lim(x→0) f(x)/g(x)",
+    "prompt_html": "<p>If lim(x→0) f(x)/x = 1 and lim(x→0) g(x)/x = 2, then evaluate each limit. a. lim(x→0) g(x) <span id=\"blank_2493c062-63f9-42b4-94b8-a39791f8118a\"></span>; b. lim(x→0) f(x)/g(x) <span id=\"blank_24b398ca-af68-416d-99ba-602152a2f160\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "2493c062-63f9-42b4-94b8-a39791f8118a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "24b398ca-af68-416d-99ba-602152a2f160"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "55997",
+    "item_id": "64973",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Evaluate the following limits: a. lim(x→3) (4x² - 36)/(2x - 6) ; b. lim(x→2) (2x² - x - 6)/(3x² - 7x + 2) ; c. lim(x→5) (x - 5)/(√(x - 1) - 2) ; d. lim(x→-1) (x³ + 1)/(x⁴ - 1) ; e. lim(x→3) (1/(x - 3) - 6/(x² - 9)) ; f. lim(x→0) ((x + 8)^(1/3) - 2)/x",
+    "prompt_html": "<p>Evaluate the following limits: a. lim(x→3) (4x² - 36)/(2x - 6) <span id=\"blank_22abd64c-21b3-4008-8b6b-819b1dbc8248\"></span>; b. lim(x→2) (2x² - x - 6)/(3x² - 7x + 2) <span id=\"blank_6a49d5fa-8771-41b7-a42f-e9814b7ce3f3\"></span>; c. lim(x→5) (x - 5)/(√(x - 1) - 2) <span id=\"blank_a824adb4-d3fb-44eb-8e00-c8561e8ebec5\"></span>; d. lim(x→-1) (x³ + 1)/(x⁴ - 1) <span id=\"blank_24433b52-add0-496d-a405-4fc26d72a0c0\"></span>; e. lim(x→3) (1/(x - 3) - 6/(x² - 9)) <span id=\"blank_7c6ab31c-6e24-4504-9da6-cf2a691910bb\"></span>; f. lim(x→0) ((x + 8)^(1/3) - 2)/x <span id=\"blank_d0c77c3b-b788-4566-9a4c-0a9ca0a2f803\"></span></p>",
+    "choices": [],
+    "num_blanks": 6,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "22abd64c-21b3-4008-8b6b-819b1dbc8248"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6a49d5fa-8771-41b7-a42f-e9814b7ce3f3"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a824adb4-d3fb-44eb-8e00-c8561e8ebec5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "24433b52-add0-496d-a405-4fc26d72a0c0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7c6ab31c-6e24-4504-9da6-cf2a691910bb"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d0c77c3b-b788-4566-9a4c-0a9ca0a2f803"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "55998",
+    "item_id": "64977",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine constants a and b such that f(x) is continuous for all values of x. f(x) = {ax + 3, if x > 5; 8, if x = 5; x² + bx + a, if x < 5}\n a = \n b =",
+    "prompt_html": "<p>Determine constants a and b such that f(x) is continuous for all values of x. f(x) = {ax + 3, if x &gt; 5; 8, if x = 5; x² + bx + a, if x &lt; 5}</p>\n<p>a = <span id=\"blank_39bd8e1a-33b6-4aeb-b204-1241dab38d14\"></span></p>\n<p>b = <span id=\"blank_be51a0a8-2d9a-4c45-9acd-0a7fdac6d8cf\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "39bd8e1a-33b6-4aeb-b204-1241dab38d14"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "be51a0a8-2d9a-4c45-9acd-0a7fdac6d8cf"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "55998",
+    "item_id": "64976",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "PART C\n Find constants a and b, such that the function f(x) = {-x, if -3 ≤ x ≤ -2; ax² + b, if -2 < x < 0; 6, if x = 0} is continuous for -3 ≤ x ≤ 0.\n a = \n b =",
+    "prompt_html": "<p>PART C</p>\n<p>Find constants a and b, such that the function f(x) = {-x, if -3 ≤ x ≤ -2; ax² + b, if -2 &lt; x &lt; 0; 6, if x = 0} is continuous for -3 ≤ x ≤ 0.</p>\n<p>a = <span id=\"blank_bd66605d-6cc8-4e2f-901e-317b2419d2f2\"></span></p>\n<p>b = <span id=\"blank_bc0f0d7c-2795-4c41-a33d-1065ac6cf886\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "bd66605d-6cc8-4e2f-901e-317b2419d2f2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bc0f0d7c-2795-4c41-a33d-1065ac6cf886"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "55998",
+    "item_id": "64975",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "g(x) = {x + 3, if x ≠ 3; 2 + √k, if x = 3}\n Find k, if g(x) is continuous.",
+    "prompt_html": "<p>g(x) = {x + 3, if x ≠ 3; 2 + √k, if x = 3}</p>\n<p>Find k, if g(x) is continuous.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "55998",
+    "item_id": "64974",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Find the value(s) of x at which each function is discontinuous. a. f(x) = (9 - x²)/(x - 3) ; b. g(x) = (7x - 4)/x ; c. h(x) = (x² + 1)/x³ ; d. f(x) = (x - 4)/(x² - 9) ; e. g(x) = 13x/(x² + x - 6) ; f. h(x) = {-x, if x ≤ 3; 1 - x, if x > 3}",
+    "prompt_html": "<p>Find the value(s) of x at which each function is discontinuous. a. f(x) = (9 - x²)/(x - 3) <span id=\"blank_218ade0b-2252-4c29-a9af-6e7d24025e6c\"></span>; b. g(x) = (7x - 4)/x <span id=\"blank_39ea3936-6eab-4377-88d5-5142db7186b8\"></span>; c. h(x) = (x² + 1)/x³ <span id=\"blank_51262d77-bdc0-4861-8d03-677c6b17edf4\"></span>; d. f(x) = (x - 4)/(x² - 9) <span id=\"blank_6f1777a3-10d8-477e-b3b3-f57ad32bff67\"></span> <span id=\"blank_ced50061-3d5f-422d-ba1d-1b25e2ea41e5\"></span>; e. g(x) = 13x/(x² + x - 6) <span id=\"blank_a50dd363-559b-4bc1-b5b7-744c909d7b0e\"></span> <span id=\"blank_dd906522-7aa7-443c-96bc-e370cda0ecd6\"></span>; f. h(x) = {-x, if x ≤ 3; 1 - x, if x &gt; 3} <span id=\"blank_dc221811-d0de-4c80-bb07-63cc85409514\"></span></p>",
+    "choices": [],
+    "num_blanks": 8,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "218ade0b-2252-4c29-a9af-6e7d24025e6c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "39ea3936-6eab-4377-88d5-5142db7186b8"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "51262d77-bdc0-4861-8d03-677c6b17edf4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6f1777a3-10d8-477e-b3b3-f57ad32bff67"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ced50061-3d5f-422d-ba1d-1b25e2ea41e5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a50dd363-559b-4bc1-b5b7-744c909d7b0e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "dd906522-7aa7-443c-96bc-e370cda0ecd6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "dc221811-d0de-4c80-bb07-63cc85409514"
+        }
+      ]
+    }
+  }
+]

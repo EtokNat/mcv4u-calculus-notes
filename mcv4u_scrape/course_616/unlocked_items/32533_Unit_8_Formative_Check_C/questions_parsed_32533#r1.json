@@ -1,0 +1,386 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "33946",
+    "item_id": "45081",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "A parallelogram banner is spanned by a = (8, 0) and b = (5, 5) in metres. Its area is…",
+    "prompt_html": "<p>A parallelogram banner is spanned by a = (8, 0) and b = (5, 5) in metres. Its area is…</p>",
+    "choices": [
+      {
+        "id": "1cc5055c-e933-47a3-be10-a9625ef406bc",
+        "position": 1,
+        "text": "80 m²",
+        "html": "<p>80 m²</p>"
+      },
+      {
+        "id": "32731b2b-37f3-4de1-9145-a3a8ac1509da",
+        "position": 2,
+        "text": "40 m²",
+        "html": "<p>40 m²</p>"
+      },
+      {
+        "id": "605c143d-2450-4367-901c-b14185d9eb90",
+        "position": 3,
+        "text": "65 m²",
+        "html": "<p>65 m²</p>"
+      },
+      {
+        "id": "94a5d8d3-e74b-4656-8893-2b75fdd35428",
+        "position": 4,
+        "text": "25 m²",
+        "html": "<p>25 m²</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>80 m²</p>",
+          "id": "1cc5055c-e933-47a3-be10-a9625ef406bc",
+          "position": 1
+        },
+        {
+          "item_body": "<p>40 m²</p>",
+          "id": "32731b2b-37f3-4de1-9145-a3a8ac1509da",
+          "position": 2
+        },
+        {
+          "item_body": "<p>65 m²</p>",
+          "id": "605c143d-2450-4367-901c-b14185d9eb90",
+          "position": 3
+        },
+        {
+          "item_body": "<p>25 m²</p>",
+          "id": "94a5d8d3-e74b-4656-8893-2b75fdd35428",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "33916",
+    "item_id": "45046",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "A rope pulls a wagon with 150 N at 25° above the horizontal. The useful forward component is…",
+    "prompt_html": "<p>A rope pulls a wagon with 150 N at 25° above the horizontal. The useful forward component is…</p>",
+    "choices": [
+      {
+        "id": "04415210-5d7b-40a9-9930-3717316e1c1d",
+        "position": 1,
+        "text": "≈ 135.9 N",
+        "html": "<p>≈ 135.9 N</p>"
+      },
+      {
+        "id": "148cbc1a-3284-4bda-910a-1767872c9352",
+        "position": 2,
+        "text": "≈ 63.4 N",
+        "html": "<p>≈ 63.4 N</p>"
+      },
+      {
+        "id": "c0d83a12-7c95-4cd9-a4be-0960a058a18b",
+        "position": 3,
+        "text": "≈ 75 N",
+        "html": "<p>≈ 75 N</p>"
+      },
+      {
+        "id": "c07c0527-99ef-4417-842b-a7ace89e9b69",
+        "position": 4,
+        "text": "150 N",
+        "html": "<p>150 N</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>≈ 135.9 N</p>",
+          "id": "04415210-5d7b-40a9-9930-3717316e1c1d",
+          "position": 1
+        },
+        {
+          "item_body": "<p>≈ 63.4 N</p>",
+          "id": "148cbc1a-3284-4bda-910a-1767872c9352",
+          "position": 2
+        },
+        {
+          "item_body": "<p>≈ 75 N</p>",
+          "id": "c0d83a12-7c95-4cd9-a4be-0960a058a18b",
+          "position": 3
+        },
+        {
+          "item_body": "<p>150 N</p>",
+          "id": "c07c0527-99ef-4417-842b-a7ace89e9b69",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "33903",
+    "item_id": "45034",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "A 12 kg toolbox (weight 117.6 N) sits on a 20° ramp. The component of its weight acting down the ramp is…",
+    "prompt_html": "<p>A 12 kg toolbox (weight 117.6 N) sits on a 20° ramp. The component of its weight acting down the ramp is…</p>",
+    "choices": [
+      {
+        "id": "795781b9-794a-49ad-a328-ab877b1889d8",
+        "position": 1,
+        "text": "117.6 N",
+        "html": "<p>117.6 N</p>"
+      },
+      {
+        "id": "495d1ebb-99f4-4970-8394-5c0a52f373a8",
+        "position": 2,
+        "text": "≈ 110.5 N",
+        "html": "<p>≈ 110.5 N</p>"
+      },
+      {
+        "id": "273b2514-0f1c-4f78-b982-485463d34e08",
+        "position": 3,
+        "text": "≈ 40.2 N",
+        "html": "<p>≈ 40.2 N</p>"
+      },
+      {
+        "id": "3a77faec-fb16-4d3d-90dc-d3a5266a9a96",
+        "position": 4,
+        "text": "≈ 20 N",
+        "html": "<p>≈ 20 N</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>117.6 N</p>",
+          "id": "795781b9-794a-49ad-a328-ab877b1889d8",
+          "position": 1
+        },
+        {
+          "item_body": "<p>≈ 110.5 N</p>",
+          "id": "495d1ebb-99f4-4970-8394-5c0a52f373a8",
+          "position": 2
+        },
+        {
+          "item_body": "<p>≈ 40.2 N</p>",
+          "id": "273b2514-0f1c-4f78-b982-485463d34e08",
+          "position": 3
+        },
+        {
+          "item_body": "<p>≈ 20 N</p>",
+          "id": "3a77faec-fb16-4d3d-90dc-d3a5266a9a96",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "33958",
+    "item_id": "45092",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "A storage crate has edges (3, 0, 0), (0, 2, 0), and (0, 0, 4) in metres. Its volume (scalar triple product) is…",
+    "prompt_html": "<p>A storage crate has edges (3, 0, 0), (0, 2, 0), and (0, 0, 4) in metres. Its volume (scalar triple product) is…</p>",
+    "choices": [
+      {
+        "id": "b4d0f6c7-eb07-4632-b6d3-dfe5c5257854",
+        "position": 1,
+        "text": "0 m³",
+        "html": "<p>0 m³</p>"
+      },
+      {
+        "id": "f1c2ea5b-2c0f-4db3-a638-b84549a82de3",
+        "position": 2,
+        "text": "9 m³",
+        "html": "<p>9 m³</p>"
+      },
+      {
+        "id": "56e4441a-a932-42a7-8e37-8976f5f539ef",
+        "position": 3,
+        "text": "24 m³",
+        "html": "<p>24 m³</p>"
+      },
+      {
+        "id": "7917ab3f-ee33-4199-b4db-6adce3410954",
+        "position": 4,
+        "text": "29 m³",
+        "html": "<p>29 m³</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>0 m³</p>",
+          "id": "b4d0f6c7-eb07-4632-b6d3-dfe5c5257854",
+          "position": 1
+        },
+        {
+          "item_body": "<p>9 m³</p>",
+          "id": "f1c2ea5b-2c0f-4db3-a638-b84549a82de3",
+          "position": 2
+        },
+        {
+          "item_body": "<p>24 m³</p>",
+          "id": "56e4441a-a932-42a7-8e37-8976f5f539ef",
+          "position": 3
+        },
+        {
+          "item_body": "<p>29 m³</p>",
+          "id": "7917ab3f-ee33-4199-b4db-6adce3410954",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "33929",
+    "item_id": "45063",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "A plane heads due north. The wind blows from the west at 60 km/h (so it blows due east). The wind's component along the heading is…",
+    "prompt_html": "<p>A plane heads due north. The wind blows from the west at 60 km/h (so it blows due east). The wind's component along the heading is…</p>",
+    "choices": [
+      {
+        "id": "42deefa1-536e-4ea8-8f3b-e747a2f50db7",
+        "position": 1,
+        "text": "60 km/h tailwind",
+        "html": "<p>60 km/h tailwind</p>"
+      },
+      {
+        "id": "21659c0a-2a57-4b5f-ac42-c70f17517160",
+        "position": 2,
+        "text": "−60 km/h",
+        "html": "<p>−60 km/h</p>"
+      },
+      {
+        "id": "df18c3cb-6f1b-4e9b-b0dd-70f01aa86e07",
+        "position": 3,
+        "text": "0 km/h — it causes pure drift, no headwind or tailwind",
+        "html": "<p>0 km/h — it causes pure drift, no headwind or tailwind</p>"
+      },
+      {
+        "id": "d7abda84-5a54-4957-84de-5fc0aacfb5a6",
+        "position": 4,
+        "text": "60 km/h headwind",
+        "html": "<p>60 km/h headwind</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>60 km/h tailwind</p>",
+          "id": "42deefa1-536e-4ea8-8f3b-e747a2f50db7",
+          "position": 1
+        },
+        {
+          "item_body": "<p>−60 km/h</p>",
+          "id": "21659c0a-2a57-4b5f-ac42-c70f17517160",
+          "position": 2
+        },
+        {
+          "item_body": "<p>0 km/h — it causes pure drift, no headwind or tailwind</p>",
+          "id": "df18c3cb-6f1b-4e9b-b0dd-70f01aa86e07",
+          "position": 3
+        },
+        {
+          "item_body": "<p>60 km/h headwind</p>",
+          "id": "d7abda84-5a54-4957-84de-5fc0aacfb5a6",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "33934",
+    "item_id": "45067",
+    "points": 12.0,
+    "slug": "numeric",
+    "prompt_text": "Two GPS markers are at A(1, 2, −1) and B(4, 6, 3) in kilometres. The distance between them is… (km)",
+    "prompt_html": "<p>Two GPS markers are at A(1, 2, −1) and B(4, 6, 3) in kilometres. The distance between them is… (km)</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "33951",
+    "item_id": "45085",
+    "points": 12.0,
+    "slug": "numeric",
+    "prompt_text": "A triangular garden has vertices (0, 0), (10, 3), and (4, 9) in metres. Its area is… (m²)",
+    "prompt_html": "<p>A triangular garden has vertices (0, 0), (10, 3), and (4, 9) in metres. Its area is… (m²)</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "33922",
+    "item_id": "45055",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "The scalar projection of vector a onto vector b is negative. The angle between them is…",
+    "prompt_html": "<p>The scalar projection of vector a onto vector b is negative. The angle between them is…</p>",
+    "choices": [
+      {
+        "id": "2d2a7efb-ea7d-4c2b-8d1e-aff57a63eea2",
+        "position": 1,
+        "text": "Obtuse",
+        "html": "<p>Obtuse</p>"
+      },
+      {
+        "id": "c021cea6-cd72-472a-8431-39889e46f237",
+        "position": 2,
+        "text": "Exactly 90°",
+        "html": "<p>Exactly 90°</p>"
+      },
+      {
+        "id": "b59e2f0a-f2b0-4630-8662-9cf4827deab3",
+        "position": 3,
+        "text": "Acute",
+        "html": "<p>Acute</p>"
+      },
+      {
+        "id": "bf5cfb9f-7794-4c28-aed3-80211975005c",
+        "position": 4,
+        "text": "0°",
+        "html": "<p>0°</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>Obtuse</p>",
+          "id": "2d2a7efb-ea7d-4c2b-8d1e-aff57a63eea2",
+          "position": 1
+        },
+        {
+          "item_body": "<p>Exactly 90°</p>",
+          "id": "c021cea6-cd72-472a-8431-39889e46f237",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Acute</p>",
+          "id": "b59e2f0a-f2b0-4630-8662-9cf4827deab3",
+          "position": 3
+        },
+        {
+          "item_body": "<p>0°</p>",
+          "id": "bf5cfb9f-7794-4c28-aed3-80211975005c",
+          "position": 4
+        }
+      ]
+    }
+  }
+]

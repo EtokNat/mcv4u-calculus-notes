@@ -1,0 +1,310 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "34218",
+    "item_id": "45383",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "How did this unit go for you overall?",
+    "prompt_html": "<div><p>How did this unit go for you overall?</p></div>",
+    "choices": [
+      {
+        "id": "6e5d6263-838e-4c9f-a9ec-753149037784",
+        "position": 1,
+        "text": "Better than I expected",
+        "html": "Better than I expected"
+      },
+      {
+        "id": "3459293d-d313-4939-ad07-696d586e8cb2",
+        "position": 2,
+        "text": "About as I expected",
+        "html": "About as I expected"
+      },
+      {
+        "id": "1b62a0c1-d13e-46ed-8405-0974b23d207a",
+        "position": 3,
+        "text": "Harder than I expected",
+        "html": "Harder than I expected"
+      },
+      {
+        "id": "cc24e43b-2da1-4950-b62d-bd33c21e4a45",
+        "position": 4,
+        "text": "Easier than I expected",
+        "html": "Easier than I expected"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "Better than I expected",
+          "id": "6e5d6263-838e-4c9f-a9ec-753149037784",
+          "position": 1
+        },
+        {
+          "item_body": "About as I expected",
+          "id": "3459293d-d313-4939-ad07-696d586e8cb2",
+          "position": 2
+        },
+        {
+          "item_body": "Harder than I expected",
+          "id": "1b62a0c1-d13e-46ed-8405-0974b23d207a",
+          "position": 3
+        },
+        {
+          "item_body": "Easier than I expected",
+          "id": "cc24e43b-2da1-4950-b62d-bd33c21e4a45",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "34220",
+    "item_id": "45384",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "Did you achieve the goal you set on your Entry Card?",
+    "prompt_html": "<div><p>Did you achieve the goal you set on your Entry Card?</p></div>",
+    "choices": [
+      {
+        "id": "6563bcd0-617f-4d71-815f-e2816d688c3e",
+        "position": 1,
+        "text": "Yes, fully",
+        "html": "Yes, fully"
+      },
+      {
+        "id": "3c1235c7-4729-4921-be52-20720d23bc52",
+        "position": 2,
+        "text": "Mostly",
+        "html": "Mostly"
+      },
+      {
+        "id": "f852f679-2305-47fd-bbf9-33eabdc02336",
+        "position": 3,
+        "text": "Partially",
+        "html": "Partially"
+      },
+      {
+        "id": "1bd1d49b-91de-428b-9bd0-3be4f8081c57",
+        "position": 4,
+        "text": "Not really",
+        "html": "Not really"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "Yes, fully",
+          "id": "6563bcd0-617f-4d71-815f-e2816d688c3e",
+          "position": 1
+        },
+        {
+          "item_body": "Mostly",
+          "id": "3c1235c7-4729-4921-be52-20720d23bc52",
+          "position": 2
+        },
+        {
+          "item_body": "Partially",
+          "id": "f852f679-2305-47fd-bbf9-33eabdc02336",
+          "position": 3
+        },
+        {
+          "item_body": "Not really",
+          "id": "1bd1d49b-91de-428b-9bd0-3be4f8081c57",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "34221",
+    "item_id": "45385",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "What helped you learn most in this unit?",
+    "prompt_html": "<div><p>What helped you learn most in this unit?</p></div>",
+    "choices": [
+      {
+        "id": "88ee6cba-57d6-4a36-9b66-ca18dd098e67",
+        "position": 1,
+        "text": "The lesson pages (written explanations)",
+        "html": "The lesson pages (written explanations)"
+      },
+      {
+        "id": "27c0d8fc-d970-41ae-84c7-948f3710ffab",
+        "position": 2,
+        "text": "The videos",
+        "html": "The videos"
+      },
+      {
+        "id": "85cfaafa-d122-42d2-b6a1-ca1f038c538f",
+        "position": 3,
+        "text": "The Desmos explorations",
+        "html": "The Desmos explorations"
+      },
+      {
+        "id": "af8d44a3-2493-4cfe-a0c1-d81494ca8a53",
+        "position": 4,
+        "text": "The formative quiz feedback",
+        "html": "The formative quiz feedback"
+      },
+      {
+        "id": "3425e1d2-2fce-43a0-a30f-17b63d1a7ae1",
+        "position": 5,
+        "text": "The worked examples",
+        "html": "The worked examples"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "The lesson pages (written explanations)",
+          "id": "88ee6cba-57d6-4a36-9b66-ca18dd098e67",
+          "position": 1
+        },
+        {
+          "item_body": "The videos",
+          "id": "27c0d8fc-d970-41ae-84c7-948f3710ffab",
+          "position": 2
+        },
+        {
+          "item_body": "The Desmos explorations",
+          "id": "85cfaafa-d122-42d2-b6a1-ca1f038c538f",
+          "position": 3
+        },
+        {
+          "item_body": "The formative quiz feedback",
+          "id": "af8d44a3-2493-4cfe-a0c1-d81494ca8a53",
+          "position": 4
+        },
+        {
+          "item_body": "The worked examples",
+          "id": "3425e1d2-2fce-43a0-a30f-17b63d1a7ae1",
+          "position": 5
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "34222",
+    "item_id": "45386",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "What is still unclear for you?",
+    "prompt_html": "<div><p>What is still unclear for you?</p></div>",
+    "choices": [
+      {
+        "id": "749f1956-8f73-440b-8b86-881f433671c9",
+        "position": 1,
+        "text": "Second derivatives (notation and computation)",
+        "html": "Second derivatives (notation and computation)"
+      },
+      {
+        "id": "1222c5fd-014f-4af9-98d1-3610a638c235",
+        "position": 2,
+        "text": "Velocity and acceleration",
+        "html": "Velocity and acceleration"
+      },
+      {
+        "id": "3ecb508f-d346-4df8-bd20-0e1f993601a2",
+        "position": 3,
+        "text": "Absolute maximum/minimum on an interval",
+        "html": "Absolute maximum/minimum on an interval"
+      },
+      {
+        "id": "d1266755-77f3-434c-b0f6-48d0a9b9f630",
+        "position": 4,
+        "text": "Optimization (area, volume, distance)",
+        "html": "Optimization (area, volume, distance)"
+      },
+      {
+        "id": "bc990b05-cf5a-4a58-b56d-50855c8ae518",
+        "position": 5,
+        "text": "Maximizing revenue and profit",
+        "html": "Maximizing revenue and profit"
+      },
+      {
+        "id": "1c234707-538c-4221-b247-e334f6eb5043",
+        "position": 6,
+        "text": "Minimizing cost",
+        "html": "Minimizing cost"
+      },
+      {
+        "id": "56e39f20-2dc4-4183-a1f3-fb957bbc23d3",
+        "position": 7,
+        "text": "Nothing — I feel solid on all of it",
+        "html": "Nothing — I feel solid on all of it"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "Second derivatives (notation and computation)",
+          "id": "749f1956-8f73-440b-8b86-881f433671c9",
+          "position": 1
+        },
+        {
+          "item_body": "Velocity and acceleration",
+          "id": "1222c5fd-014f-4af9-98d1-3610a638c235",
+          "position": 2
+        },
+        {
+          "item_body": "Absolute maximum/minimum on an interval",
+          "id": "3ecb508f-d346-4df8-bd20-0e1f993601a2",
+          "position": 3
+        },
+        {
+          "item_body": "Optimization (area, volume, distance)",
+          "id": "d1266755-77f3-434c-b0f6-48d0a9b9f630",
+          "position": 4
+        },
+        {
+          "item_body": "Maximizing revenue and profit",
+          "id": "bc990b05-cf5a-4a58-b56d-50855c8ae518",
+          "position": 5
+        },
+        {
+          "item_body": "Minimizing cost",
+          "id": "1c234707-538c-4221-b247-e334f6eb5043",
+          "position": 6
+        },
+        {
+          "item_body": "Nothing — I feel solid on all of it",
+          "id": "56e39f20-2dc4-4183-a1f3-fb957bbc23d3",
+          "position": 7
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "34223",
+    "item_id": "45387",
+    "points": 1.0,
+    "slug": "essay",
+    "prompt_text": "What support would be most useful to you going into the next unit? (For example: topics to revisit, types of practice, or anything else.)",
+    "prompt_html": "<div><p>What support would be most useful to you going into the next unit? (For example: topics to revisit, types of practice, or anything else.)</p></div>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false,
+      "userResponse": {
+        "value": {}
+      }
+    }
+  }
+]

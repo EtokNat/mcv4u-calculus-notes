@@ -1,0 +1,370 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "47a7a55e-7cd4-403e-aefb-74cb1569b6fe"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "60eafa30-280e-4978-b87f-5d419ab4f8b1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "af6aac79-9178-4cb3-90e3-3485803fdad1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "bf2d042d-a284-45c6-bade-636d788a0f4a"
+          }
+        ]
+      },
+      "item_body": "<p>[C] State whether each statement is true or false. a. If two vectors have the same magnitude, then they are equal: <span id=\"blank_47a7a55e-7cd4-403e-aefb-74cb1569b6fe\"></span>. b. If two vectors are equal, then they have the same magnitude: <span id=\"blank_60eafa30-280e-4978-b87f-5d419ab4f8b1\"></span>. c. If two vectors are parallel, then they are either equal or opposite vectors: <span id=\"blank_af6aac79-9178-4cb3-90e3-3485803fdad1\"></span>. d. If two vectors have the same magnitude, then they are either equal or opposite vectors: <span id=\"blank_bf2d042d-a284-45c6-bade-636d788a0f4a\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69506",
+      "label": null,
+      "title": "Exercise 6.1 Q1 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56699",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "624cbac2-cf1a-496d-9e88-22cba6e056a6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fbc51240-e9ac-47a4-956f-0f1038923123"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "85e19bc7-39f6-474c-bce5-aeabf6190ba2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "53181fbf-704e-4971-9dda-af3ebb28c55e"
+          }
+        ]
+      },
+      "item_body": "<p>[C] For each of the following vectors, describe the opposite vector. a. An airplane flies due north at 400 km/h. The opposite vector is <span id=\"blank_624cbac2-cf1a-496d-9e88-22cba6e056a6\"></span>. b. A car travels in a northeasterly direction at 70 km/h. The opposite vector is <span id=\"blank_fbc51240-e9ac-47a4-956f-0f1038923123\"></span>. c. A bicyclist pedals in a northwesterly direction at 30 km/h. The opposite vector is <span id=\"blank_85e19bc7-39f6-474c-bce5-aeabf6190ba2\"></span>. d. A boat travels due west at 25 km/h. The opposite vector is <span id=\"blank_53181fbf-704e-4971-9dda-af3ebb28c55e\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69507",
+      "label": null,
+      "title": "Exercise 6.1 Q8 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56699",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "c1a4ea41-b61a-4ef5-b416-67e4a0a83e62"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] The vectors x and y are each of length 3 units, i.e., |x| = |y| = 3. If |x + y| = sqrt(17), determine |x - y|. |x - y| = <span id=\"blank_c1a4ea41-b61a-4ef5-b416-67e4a0a83e62\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69530",
+      "label": null,
+      "title": "Chapter 6 Test Q3 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56700",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "72061000-a175-4c18-abe5-55937216b35c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "80b54e3a-fb53-40b0-b5fd-df2d99f7e4d7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "793495d0-27e6-487b-90ae-9ec40342c7c7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "34f8cffd-7c4a-42ed-8f85-82c12b2303dd"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e30c62f3-8779-48c3-bebc-c86f99c7613d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "2700daa5-0614-4f8f-929a-ef36b0ab62e6"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] The diagram shown represents a rectangular prism. State a single vector equal to each of the following: a. RQ + RS = <span id=\"blank_72061000-a175-4c18-abe5-55937216b35c\"></span>. b. RQ + QV = <span id=\"blank_80b54e3a-fb53-40b0-b5fd-df2d99f7e4d7\"></span>. c. PW + WS = <span id=\"blank_793495d0-27e6-487b-90ae-9ec40342c7c7\"></span>. d. (RQ + RS) + VU = <span id=\"blank_34f8cffd-7c4a-42ed-8f85-82c12b2303dd\"></span>. e. PW - VP = <span id=\"blank_e30c62f3-8779-48c3-bebc-c86f99c7613d\"></span>. f. PW + WR + RQ = <span id=\"blank_2700daa5-0614-4f8f-929a-ef36b0ab62e6\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69518",
+      "label": null,
+      "title": "Mid-Chapter Review Q2 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56700",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "cd7080a3-d1c3-489f-ba6a-9460e3dfff7f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0ba23973-119b-4802-b80e-656576a314fe"
+          }
+        ]
+      },
+      "item_body": "<p>[A] A small airplane is flying due north at 150 km/h when it encounters a wind of 80 km/h from the east. What is the resultant ground velocity of the airplane? The resultant speed is <span id=\"blank_cd7080a3-d1c3-489f-ba6a-9460e3dfff7f\"></span> km/h, at an angle of <span id=\"blank_0ba23973-119b-4802-b80e-656576a314fe\"></span> degrees west of north.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69515",
+      "label": null,
+      "title": "Exercise 6.2 Q11 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56700",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "3dc57bf9-3cbc-427a-8a4d-dbdc450ca6b5"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fcc02128-012b-4a3e-b2a4-928b1b06cb56"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] x and y are vectors of magnitude 1 and 2, respectively, with an angle of 120 degrees between them. Determine |3x + 2y| and the direction of 3x + 2y. |3x + 2y| = <span id=\"blank_3dc57bf9-3cbc-427a-8a4d-dbdc450ca6b5\"></span>, and the direction of 3x + 2y makes an angle of <span id=\"blank_fcc02128-012b-4a3e-b2a4-928b1b06cb56\"></span> degrees with x.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69541",
+      "label": null,
+      "title": "Chapter 6 Test Q7 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56701",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "2b5e4487-224f-444a-bc63-60884c4234ba"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "4bf8dfad-3781-41a2-bd4f-3d04daf5a719"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] The vectors x and y are unit vectors that make an angle of 90 degrees with each other. Calculate the value of |2x + y| and the direction of 2x + y. |2x + y| = <span id=\"blank_2b5e4487-224f-444a-bc63-60884c4234ba\"></span>, and the direction of 2x + y makes an angle of <span id=\"blank_4bf8dfad-3781-41a2-bd4f-3d04daf5a719\"></span> degrees with x.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69534",
+      "label": null,
+      "title": "Exercise 6.3 Q14 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56701",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "81fde4b7-b0ff-4457-b0f5-abb2a5832dcb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ebc246bb-1f10-4033-b068-00401254f6b6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "dcebf3e6-d0b8-4c3c-8291-14c1d83334d9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5c2d43ab-fcaf-4424-823a-addfbe9bd5b3"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9bd76d2d-44c8-466e-a9dd-ed64c970b00f"
+          }
+        ]
+      },
+      "item_body": "<p>[A] The points B, C, and D are drawn on line segment AE dividing it into four equal lengths. If AD = a, write each of the following in terms of a and |a|. a. EC = <span id=\"blank_81fde4b7-b0ff-4457-b0f5-abb2a5832dcb\"></span>. b. BC = <span id=\"blank_ebc246bb-1f10-4033-b068-00401254f6b6\"></span>. c. |ED| = <span id=\"blank_dcebf3e6-d0b8-4c3c-8291-14c1d83334d9\"></span>. d. |AC| = <span id=\"blank_5c2d43ab-fcaf-4424-823a-addfbe9bd5b3\"></span>. e. AE = <span id=\"blank_9bd76d2d-44c8-466e-a9dd-ed64c970b00f\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69533",
+      "label": null,
+      "title": "Exercise 6.3 Q13 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56701",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

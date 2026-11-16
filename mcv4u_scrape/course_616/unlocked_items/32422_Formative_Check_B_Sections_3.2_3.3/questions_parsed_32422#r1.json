@@ -1,0 +1,215 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56085",
+    "item_id": "65148",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "A swimming pool is treated periodically to control the growth of bacteria. Suppose that t days after a treatment, the number of bacteria per cubic centimetre is N(t) = 30t^2 - 240t + 500. Determine the lowest number of bacteria during the first week after the treatment.",
+    "prompt_html": "<p>A swimming pool is treated periodically to control the growth of bacteria. Suppose that t days after a treatment, the number of bacteria per cubic centimetre is N(t) = 30t^2 - 240t + 500. Determine the lowest number of bacteria during the first week after the treatment.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56086",
+    "item_id": "65190",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "a. Determine the area of the largest rectangle that can be inscribed in a right triangle if the legs of the triangle are 5 cm and 12 cm and the sides of the rectangle are along the legs of the triangle. The largest area is cm^2. b. Repeat part a. for a right triangle that has sides 8 cm and 15 cm. The largest area is cm^2. c. Hypothesize a conclusion for any right triangle.",
+    "prompt_html": "<p>a. Determine the area of the largest rectangle that can be inscribed in a right triangle if the legs of the triangle are 5 cm and 12 cm and the sides of the rectangle are along the legs of the triangle. The largest area is <span id=\"blank_b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c\"></span> cm^2. b. Repeat part a. for a right triangle that has sides 8 cm and 15 cm. The largest area is <span id=\"blank_c796450d-dc2b-4584-94c5-0144e2253342\"></span> cm^2. c. Hypothesize a conclusion for any right triangle.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c796450d-dc2b-4584-94c5-0144e2253342"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56086",
+    "item_id": "65184",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "The volume of a square-based rectangular cardboard box needs to be 1000 cm^3. Determine the dimensions of the box that will minimize the amount of material used to make the box. (Assume that there is no waste material, and that machinery constraints preclude the box from having dimensions less than 2 cm.) The box is a cube with side cm, and the minimum surface area is cm^2.",
+    "prompt_html": "<p>The volume of a square-based rectangular cardboard box needs to be 1000 cm^3. Determine the dimensions of the box that will minimize the amount of material used to make the box. (Assume that there is no waste material, and that machinery constraints preclude the box from having dimensions less than 2 cm.) The box is a cube with side <span id=\"blank_5debcbb4-7999-4635-8fba-2da1c7056339\"></span> cm, and the minimum surface area is <span id=\"blank_b5e52368-4175-4122-9526-fb5c0ba20437\"></span> cm^2.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "5debcbb4-7999-4635-8fba-2da1c7056339"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b5e52368-4175-4122-9526-fb5c0ba20437"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56086",
+    "item_id": "65168",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "A net enclosure for practising golf shots is open at one end, as shown. Find the dimensions that will minimize the amount of netting needed and give a volume of 144 m^3. (Netting is required only on the sides, the top, and the far end.) The square end has side m, and the length is m.",
+    "prompt_html": "<p>A net enclosure for practising golf shots is open at one end, as shown. Find the dimensions that will minimize the amount of netting needed and give a volume of 144 m^3. (Netting is required only on the sides, the top, and the far end.) The square end has side <span id=\"blank_321d4daa-b970-4844-aacc-62b935b84a81\"></span> m, and the length is <span id=\"blank_c6e9e24b-ceda-4ccb-8a20-61430b31fd64\"></span> m.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "321d4daa-b970-4844-aacc-62b935b84a81"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c6e9e24b-ceda-4ccb-8a20-61430b31fd64"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56086",
+    "item_id": "65191",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2. The minimal distance is .",
+    "prompt_html": "<p>Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2. The minimal distance is <span id=\"blank_be168eca-a3b0-469c-a576-81efad6c2bee\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "be168eca-a3b0-469c-a576-81efad6c2bee"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56087",
+    "item_id": "65091",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = , a(2) = ; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = .",
+    "prompt_html": "<p>An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = <span id=\"blank_753d402c-4f24-4194-bb5f-bf368309e939\"></span>, a(2) = <span id=\"blank_405906fc-880a-4005-8de3-948208483ca6\"></span>; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = <span id=\"blank_f80fc07c-75a2-429c-af7d-d4b56163d7ca\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "753d402c-4f24-4194-bb5f-bf368309e939"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "405906fc-880a-4005-8de3-948208483ca6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f80fc07c-75a2-429c-af7d-d4b56163d7ca"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56087",
+    "item_id": "65075",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = ; b. When is its velocity zero? t = .",
+    "prompt_html": "<p>Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = <span id=\"blank_316c0753-f3e0-4148-8d3c-79b3abc85696\"></span>; b. When is its velocity zero? t = <span id=\"blank_c053d239-9618-4ac0-981b-c0cbac605c8f\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "316c0753-f3e0-4148-8d3c-79b3abc85696"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c053d239-9618-4ac0-981b-c0cbac605c8f"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56088",
+    "item_id": "65060",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Use graphing technology to graph each function and determine its maximum and/or minimum values. a. f(x) = x^2 - 5: maximum (none), minimum at x = ; b. f(x) = -x^2 - 10x: maximum at x = , minimum (none); c. f(x) = 3x^2 - 30x + 82: maximum (none), minimum at x = ; d. f(x) = |x| - 1: maximum (none), minimum at x = ; e. f(x) = 3 sin x + 2: maximum , minimum ; f. f(x) = -2 cos 2x - 5: maximum , minimum .",
+    "prompt_html": "<p>Use graphing technology to graph each function and determine its maximum and/or minimum values. a. f(x) = x^2 - 5: maximum (none), minimum <span id=\"blank_9318a355-5a3e-4f07-8d6a-eca1d0dca54f\"></span> at x = <span id=\"blank_26efa450-78fd-450c-9c5b-7f6d2fedf9ec\"></span>; b. f(x) = -x^2 - 10x: maximum <span id=\"blank_48ab834a-8c65-49b4-ad25-70fc7f97acd7\"></span> at x = <span id=\"blank_78afec1d-1a5a-4202-96a8-2f2e6189a0bf\"></span>, minimum (none); c. f(x) = 3x^2 - 30x + 82: maximum (none), minimum <span id=\"blank_616c813d-bb64-42db-8d7a-4de19381b64d\"></span> at x = <span id=\"blank_914593be-7713-47a4-8ea9-39cb4c83df7f\"></span>; d. f(x) = |x| - 1: maximum (none), minimum <span id=\"blank_7b4e7988-3c8c-4d44-98d3-01674781fa4a\"></span> at x = <span id=\"blank_3dc59b8b-5689-48e0-a0bb-ac3548af5edf\"></span>; e. f(x) = 3 sin x + 2: maximum <span id=\"blank_4173890e-33dd-4f86-b051-4b53a89af3ed\"></span>, minimum <span id=\"blank_a899eb39-8643-4733-9912-bb08e3914fa0\"></span>; f. f(x) = -2 cos 2x - 5: maximum <span id=\"blank_295628fc-07b8-42ec-b00d-a06f7b171f62\"></span>, minimum <span id=\"blank_6c829b56-0a05-436d-8cbd-f29ade9f1b2e\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 12,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "9318a355-5a3e-4f07-8d6a-eca1d0dca54f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "26efa450-78fd-450c-9c5b-7f6d2fedf9ec"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "48ab834a-8c65-49b4-ad25-70fc7f97acd7"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "78afec1d-1a5a-4202-96a8-2f2e6189a0bf"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "616c813d-bb64-42db-8d7a-4de19381b64d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "914593be-7713-47a4-8ea9-39cb4c83df7f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7b4e7988-3c8c-4d44-98d3-01674781fa4a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3dc59b8b-5689-48e0-a0bb-ac3548af5edf"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "4173890e-33dd-4f86-b051-4b53a89af3ed"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a899eb39-8643-4733-9912-bb08e3914fa0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "295628fc-07b8-42ec-b00d-a06f7b171f62"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6c829b56-0a05-436d-8cbd-f29ade9f1b2e"
+        }
+      ]
+    }
+  }
+]

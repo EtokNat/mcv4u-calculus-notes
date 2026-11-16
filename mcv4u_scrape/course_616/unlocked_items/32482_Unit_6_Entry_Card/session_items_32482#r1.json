@@ -1,0 +1,272 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Excited \u2014 I like visual, geometric math</p>",
+            "id": "76c3c9f3-9abe-428d-af33-3bde113c9594",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Curious, but a little nervous</p>",
+            "id": "fa57ecef-28a3-4313-8e6b-0cfa141adc43",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Neutral \u2014 I'll see how it goes</p>",
+            "id": "27c1cc2b-57d7-4625-9b6c-c7590c0e0d54",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Dreading it \u2014 3D thinking stresses me out</p>",
+            "id": "24f53144-8c32-4f17-966d-60f7399f4483",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>How do you feel about starting a unit on vectors (arrows with magnitude and direction, used for forces, velocities, and 3D geometry)?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44784",
+      "label": null,
+      "title": "EQ1",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "33662",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Being able to picture vectors and their sums/differences geometrically</p>",
+            "id": "5f09d696-49a3-497b-9aaa-2b151d159981",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Getting the component calculations (addition, magnitudes) right every time</p>",
+            "id": "de0886a2-57f9-4cc7-ba1b-23a54b80d911",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Understanding what vectors *mean* in context (forces, velocities, \u2026)</p>",
+            "id": "2c63cb28-8919-4208-9329-21678942211a",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Being able to explain my reasoning clearly in writing</p>",
+            "id": "08855980-431c-49b9-9b39-663e9473be9f",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>What would make this unit feel successful for you?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44798",
+      "label": null,
+      "title": "EQ2",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "33671",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Very confident</p>",
+            "id": "55c77e16-13fd-4551-9bd4-3d72dd04484a",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Somewhat confident</p>",
+            "id": "86b0072d-1b42-4e50-a8e5-76e04fb7c89e",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Not very confident</p>",
+            "id": "bb2a02c1-869e-4098-bd0c-322c5c5547ab",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Not confident at all</p>",
+            "id": "39e528ea-622c-422e-9bf2-e36ab65a6f08",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>How confident are you with the Pythagorean theorem and coordinate geometry (for example, finding the distance between (\u22124, 2) and (\u22121, 3))?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44811",
+      "label": null,
+      "title": "EQ3",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "33685",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Very confident</p>",
+            "id": "9b4e772f-48c6-4311-9def-15134127f6c7",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Somewhat confident</p>",
+            "id": "798f7a3f-54bf-405d-bff0-e902ac6bd56c",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Not very confident</p>",
+            "id": "129162d6-283d-49dd-8c06-bbe0159581a9",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Not confident at all</p>",
+            "id": "c5f6c04f-06e0-4804-a8e3-43f7d13a13f8",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>How confident are you with right-triangle trigonometry (SOH-CAH-TOA, e.g. finding an angle from tan \u03b8 = 1/3)?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44827",
+      "label": null,
+      "title": "EQ4",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "33705",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>What is one goal you have for this unit on vectors?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44842",
+      "label": null,
+      "title": "EQ5",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "33713",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  }
+]

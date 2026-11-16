@@ -1,0 +1,316 @@
+Skip To Content
+Dashboard
+Account
+Dashboard
+Courses
+Calendar
+10 unread messages.
+10
+Inbox
+History
+Help
+MCV4U
+Home
+Grades
+90
+Modules
+Notebook
+Skip To Quiz Content
+Return
+Unit 8 Summative Assignment
+vincent Teacher
+Due Date
+No due date
+Time Limit
+No time limit
+Number of Questions
+19
+4 questions require grading
+Assessment Statistics
+3%
+3 out of 100 points
+3
+Out of 100 points
+Time for this attempt: 18 seconds
+18 seconds
+00:18
+Time for this attempt
+Your Answers:
+Results for question 1.
+1
+0 / 3 points
+Multiple Choice
+
+Three 50 N forces act at a point, each 120 degrees from the next. The magnitude of the resultant is
+
+Incorrect answer:
+50 N
+Correct Answer:
+0 N
+25 N
+, Not Selected
+150 N
+, Not Selected
+0 N
+, Not Selected
+Results for question 2.
+2
+3 / 3 points
+Multiple Choice
+
+A 90 N force pushes a crate 8 m, directed 25 degrees BELOW the horizontal. The work done by the push is
+
+Correct answer:
+about 653 J
+720 J
+, Not Selected
+about 304 J
+, Not Selected
+about -653 J
+, Not Selected
+Results for question 3.
+3
+0 / 3 points
+Multiple Choice
+
+A cable pulls a 500 N crate 8 m up a 20-degree ramp, pulling parallel to the ramp with a force of 400 N. The work done BY the cable is
+
+Incorrect answer:
+about 3007 J
+Correct Answer:
+3200 J
+0 J
+, Not Selected
+4000 J
+, Not Selected
+3200 J
+, Not Selected
+Results for question 4.
+4
+0 / 3 points
+Multiple Choice
+
+A dog pulls a sled with 120 N at 15 degrees above the horizontal for 60 m.  The work done by the pull is
+
+Incorrect answer:
+0 J
+Correct Answer:
+about 6955 J
+about 1863 J
+, Not Selected
+7200 J
+, Not Selected
+about 6955 J
+, Not Selected
+Results for question 5.
+5
+0 / 3 points
+Numeric
+
+A 12 kg crate (weight 117.6 N) sits on a 28-degree incline.  Ignoring friction, the force parallel to the incline needed to hold it, in N (1 decimal place), is
+
+ 
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+55.2
+Results for question 6.
+6
+0 / 3 points
+Numeric
+
+A rescue sled is pulled with 80 N due east and 60 N due north. The magnitude of the resultant pull, in newtons, is
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+100.0
+Results for question 7.
+7
+0 / 3 points
+Numeric
+
+A 60 kg person (weight 588 N) stands on a 10-degree slope. The static friction force holding them in place, in N (nearest whole number), is
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+102.0
+Results for question 8.
+8
+0 / 3 points
+Numeric
+
+A 60 N force acts at 130 degrees to a 25 m displacement. The work done, in J (1 decimal place), is
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+-964.2
+Results for question 9.
+9
+0 / 3 points
+Fill in the Blank
+
+A rowboat is pulled by two ropes: 9 N due east and 40 N due north. The resultant pull has magnitude 
+Incorrect answer:
+(no answer)
+ N.
+
+Results for question 10.
+10
+0 / 3 points
+Fill in the Blank
+
+Two oxen pull a cart 80 m: one with 300 N at 10 degrees to the direction of motion, the other with 250 N at 20 degrees on the other side. The total work done is 
+Incorrect answer:
+(no answer)
+ J (nearest whole number) and the net force along the motion is 
+Incorrect answer:
+(no answer)
+ N (1 decimal place).
+
+Results for question 11.
+11
+0 / 2 points
+True or False
+
+True or false: A bearing of 135 degrees points to the northwest.
+
+Incorrect answer:
+True
+Correct Answer:
+False
+False
+Results for question 12.
+12
+0 / 2 points
+True or False
+
+True or false: At equilibrium on an incline with friction, the friction force always equals the coefficient of static friction times the normal force.
+
+Incorrect answer:
+True
+Correct Answer:
+False
+False
+Results for question 13.
+13
+0 / 2 points
+Multiple Answer
+
+A plane's air velocity is (0, 300) km/h (x = east, y = north) and the wind velocity is (40, 0) km/h. Which statements are true? Select all that apply.
+
+Incorrect answer:
+The ground velocity is (40, 300) km/h
+Missed Option - Incorrect
+Incorrect answer:
+The plane drifts east of its heading
+Missed Option - Incorrect
+Incorrect answer:
+The ground speed is less than the airspeed
+Missed Option - Incorrect
+Incorrect answer:
+The wind blows from the west
+Missed Option - Incorrect
+Incorrect answer:
+(no answer)
+Results for question 14.
+14
+0 / 2 points
+Matching
+Match each work concept to its description.
+W = F dot swork done by frictionjoulezero work|F||s|cos(theta)negative (theta = 180 degrees)N mtheta = 90 degreestheta = 0 degrees
+Match each work concept to its description.
+joule
+Incorrect answer:
+(no answer)
+Correct Answer:
+N m
+W = F dot s
+Incorrect answer:
+(no answer)
+Correct Answer:
+|F||s|cos(theta)
+zero work
+Incorrect answer:
+(no answer)
+Correct Answer:
+theta = 90 degrees
+work done by friction
+Incorrect answer:
+(no answer)
+Correct Answer:
+negative (theta = 180 degrees)
+Results for question 15.
+15
+0 / 2 points
+Ordering
+A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.
+40 km/h headwind (from the north)No wind40 km/h crosswind (from the east)40 km/h tailwind (from the south)
+A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.
+Incorrect answer:
+(no answer)
+Correct Answer:
+40 km/h headwind (from the north)
+Incorrect answer:
+(no answer)
+Correct Answer:
+No wind
+Incorrect answer:
+(no answer)
+Correct Answer:
+40 km/h crosswind (from the east)
+Incorrect answer:
+(no answer)
+Correct Answer:
+40 km/h tailwind (from the south)
+Results for question 16.
+16
+15 points possible
+Essay
+
+A uniform 3.0 m long wooden plank (mass 40 kg) rests horizontally on a pivot located 1.0 m from the plank's left end. A 60 kg child sits on the left end of the plank. (a) Where must a 45 kg child sit on the right side of the pivot so that the plank balances horizontally? Show all steps of your torque calculations. (b) Compute the upward force the pivot must exert on the plank, and explain, in full sentences, why this force must equal the total weight acting on the plank. (c) Explain, in full sentences, why balancing the torques about the pivot is sufficient to guarantee that the system is in equilibrium — that is, what second equilibrium condition must also hold, and how is it satisfied here? (Use g = 9.8 m/s².)
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 17.
+17
+15 points possible
+Essay
+
+A 200 kg crate is pulled 10 m up a 20° incline by a force of 1200 N applied parallel to the incline. The coefficient of kinetic friction between the crate and the ramp is μ = 0.25. (a) Describe the free-body diagram of the crate (list each force and its direction), and compute, showing all steps, the work done by the applied force, the work done by gravity, and the work done by friction. (b) Find the net work done on the crate. (c) Explain, in full sentences, what the sign of the net work tells you about how the crate's speed changes as it moves up the ramp, referring to the work-energy principle.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 18.
+18
+15 points possible
+Essay
+
+A kayaker can paddle at 5 km/h in still water and wants to cross a 1.2 km wide river that flows due east at 3 km/h, landing at the point directly across the river. (a) Determine the heading (the angle upstream from the straight-across direction) that the kayaker must take. Show all steps, including a vector diagram description. (b) How long will the crossing take at that heading? (c) Suppose instead that the kayaker paddles straight across the river with no upstream angle. Compute how far downstream the kayaker lands and the actual ground speed, and explain in full sentences why paddling straight across gives the shortest possible crossing time even though the kayaker misses the target point.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 19.
+19
+15 points possible
+Essay
+
+Two tugboats pull a barge that must be held on a fixed course. Tugboat A exerts a force of 3000 N at 20° above the forward direction, and Tugboat B exerts a force of 2400 N at 35° below the forward direction. (a) Determine the magnitude and direction of the resultant of the two pulling forces, showing all steps of your vector work. (b) A third tugboat must supply a single equilibrant force so that the barge remains in equilibrium. Find the magnitude and direction of this equilibrant. (c) Explain, in full sentences, why the equilibrant must be equal in magnitude but opposite in direction to the resultant you found in part (a), referring to the condition for equilibrium.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade

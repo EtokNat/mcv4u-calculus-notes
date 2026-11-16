@@ -1,0 +1,613 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "45895",
+    "item_id": "49093",
+    "points": 3.0,
+    "slug": "choice",
+    "prompt_text": "For r = (1.5, 0, 0) m and F = (0, -8, 3) N, the magnitude |r x F|, to 3 significant figures, is...",
+    "prompt_html": "<p>For r = (1.5, 0, 0) m and F = (0, -8, 3) N, the magnitude |r x F|, to 3 significant figures, is...</p>",
+    "choices": [
+      {
+        "id": "4e527a7c-1cee-446f-afdb-f402945fdbf3",
+        "position": 1,
+        "text": "12.0 N.m",
+        "html": "12.0 N.m"
+      },
+      {
+        "id": "0c24fe85-20c5-4240-9307-fcbd7c16bda7",
+        "position": 2,
+        "text": "12.8 N.m",
+        "html": "12.8 N.m"
+      },
+      {
+        "id": "dc6de414-3d29-472c-99f5-dc8afa68b96b",
+        "position": 3,
+        "text": "16.5 N.m",
+        "html": "16.5 N.m"
+      },
+      {
+        "id": "47865ea9-1e9d-4f43-9c6b-8ce3dcf46c38",
+        "position": 4,
+        "text": "8.50 N.m",
+        "html": "8.50 N.m"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "12.0 N.m",
+          "id": "4e527a7c-1cee-446f-afdb-f402945fdbf3",
+          "position": 1
+        },
+        {
+          "item_body": "12.8 N.m",
+          "id": "0c24fe85-20c5-4240-9307-fcbd7c16bda7",
+          "position": 2
+        },
+        {
+          "item_body": "16.5 N.m",
+          "id": "dc6de414-3d29-472c-99f5-dc8afa68b96b",
+          "position": 3
+        },
+        {
+          "item_body": "8.50 N.m",
+          "id": "47865ea9-1e9d-4f43-9c6b-8ce3dcf46c38",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "45895",
+    "item_id": "49094",
+    "points": 3.0,
+    "slug": "choice",
+    "prompt_text": "A force F = (2, -1, 4) N acts on an object. For which displacement d is the work done by F equal to zero?",
+    "prompt_html": "<p>A force F = (2, -1, 4) N acts on an object. For which displacement d is the work done by F equal to zero?</p>",
+    "choices": [
+      {
+        "id": "3c6ed926-45c1-40e3-b4e2-ca1f30356440",
+        "position": 1,
+        "text": "d = (0, 2, 1) m",
+        "html": "d = (0, 2, 1) m"
+      },
+      {
+        "id": "b15a05ce-618d-4845-b2ac-8ebc4534b3d4",
+        "position": 2,
+        "text": "d = (3, 1, 0) m",
+        "html": "d = (3, 1, 0) m"
+      },
+      {
+        "id": "0901de4e-75c0-4bb2-80ed-ef0e44c492ec",
+        "position": 3,
+        "text": "d = (2, 4, 0) m",
+        "html": "d = (2, 4, 0) m"
+      },
+      {
+        "id": "a249c8c7-5901-4ad6-81d3-ae1b1d5138bf",
+        "position": 4,
+        "text": "d = (1, 1, 2) m",
+        "html": "d = (1, 1, 2) m"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "d = (0, 2, 1) m",
+          "id": "3c6ed926-45c1-40e3-b4e2-ca1f30356440",
+          "position": 1
+        },
+        {
+          "item_body": "d = (3, 1, 0) m",
+          "id": "b15a05ce-618d-4845-b2ac-8ebc4534b3d4",
+          "position": 2
+        },
+        {
+          "item_body": "d = (2, 4, 0) m",
+          "id": "0901de4e-75c0-4bb2-80ed-ef0e44c492ec",
+          "position": 3
+        },
+        {
+          "item_body": "d = (1, 1, 2) m",
+          "id": "a249c8c7-5901-4ad6-81d3-ae1b1d5138bf",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "45895",
+    "item_id": "49056",
+    "points": 3.0,
+    "slug": "choice",
+    "prompt_text": "|u| = 3 and |v| = 4. The largest possible value of u . v is...",
+    "prompt_html": "<p>|u| = 3 and |v| = 4. The largest possible value of u . v is...</p>",
+    "choices": [
+      {
+        "id": "6c25a4b7-68bc-496c-8721-894db6c32a2f",
+        "position": 1,
+        "text": "7",
+        "html": "7"
+      },
+      {
+        "id": "f304c196-87fe-4c52-9974-b3758c80448e",
+        "position": 2,
+        "text": "12",
+        "html": "12"
+      },
+      {
+        "id": "6b36a872-0063-41ee-8c5f-5c44829b4f05",
+        "position": 3,
+        "text": "-12",
+        "html": "-12"
+      },
+      {
+        "id": "c7facdeb-9267-43a3-9ba6-2f05f63a61fc",
+        "position": 4,
+        "text": "24",
+        "html": "24"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "7",
+          "id": "6c25a4b7-68bc-496c-8721-894db6c32a2f",
+          "position": 1
+        },
+        {
+          "item_body": "12",
+          "id": "f304c196-87fe-4c52-9974-b3758c80448e",
+          "position": 2
+        },
+        {
+          "item_body": "-12",
+          "id": "6b36a872-0063-41ee-8c5f-5c44829b4f05",
+          "position": 3
+        },
+        {
+          "item_body": "24",
+          "id": "c7facdeb-9267-43a3-9ba6-2f05f63a61fc",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "45895",
+    "item_id": "49104",
+    "points": 3.0,
+    "slug": "choice",
+    "prompt_text": "A force F = (3, 2, -1) N acts at the point P(1, 0, 2) m relative to a pivot at the origin O. The torque about O is...",
+    "prompt_html": "<p>A force F = (3, 2, -1) N acts at the point P(1, 0, 2) m relative to a pivot at the origin O. The torque about O is...</p>",
+    "choices": [
+      {
+        "id": "37470627-b47d-4bfd-9fe5-da7b7c63630b",
+        "position": 1,
+        "text": "(-4, 7, -2) N.m",
+        "html": "(-4, 7, -2) N.m"
+      },
+      {
+        "id": "769cfc41-b0ef-4a24-91b1-63d3c4cc08fa",
+        "position": 2,
+        "text": "(4, -7, -2) N.m",
+        "html": "(4, -7, -2) N.m"
+      },
+      {
+        "id": "93362676-3a40-402f-a5f2-c6390f043fda",
+        "position": 3,
+        "text": "(4, 7, 2) N.m",
+        "html": "(4, 7, 2) N.m"
+      },
+      {
+        "id": "f597c388-10a6-4870-aecf-5bacdba12708",
+        "position": 4,
+        "text": "(-4, 7, 2) N.m",
+        "html": "(-4, 7, 2) N.m"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "(-4, 7, -2) N.m",
+          "id": "37470627-b47d-4bfd-9fe5-da7b7c63630b",
+          "position": 1
+        },
+        {
+          "item_body": "(4, -7, -2) N.m",
+          "id": "769cfc41-b0ef-4a24-91b1-63d3c4cc08fa",
+          "position": 2
+        },
+        {
+          "item_body": "(4, 7, 2) N.m",
+          "id": "93362676-3a40-402f-a5f2-c6390f043fda",
+          "position": 3
+        },
+        {
+          "item_body": "(-4, 7, 2) N.m",
+          "id": "f597c388-10a6-4870-aecf-5bacdba12708",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "45894",
+    "item_id": "53446",
+    "points": 3.0,
+    "slug": "numeric",
+    "prompt_text": "For a = (4, -1, 2) and b = (1, 3, -5), the value of |a - b|^2 is (1) .",
+    "prompt_html": "<p>For a = (4, -1, 2) and b = (1, 3, -5), the value of |a - b|^2 is (1) .</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "45894",
+    "item_id": "53443",
+    "points": 3.0,
+    "slug": "numeric",
+    "prompt_text": "For u = (3, -2, 5) and v = (-1, 6, -4), the value of u . v is ______.",
+    "prompt_html": "<p>For u = (3, -2, 5) and v = (-1, 6, -4), the value of u . v is ______.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "45894",
+    "item_id": "53457",
+    "points": 3.0,
+    "slug": "numeric",
+    "prompt_text": "Two forces F1 = (6, 2, 0) N and F2 = (-2, 4, 5) N act on an object that moves through displacement d = (3, -2, 2) m. The total work done by the two forces, in joules, is ______.",
+    "prompt_html": "<p>Two forces F1 = (6, 2, 0) N and F2 = (-2, 4, 5) N act on an object that moves through displacement d = (3, -2, 2) m. The total work done by the two forces, in joules, is ______.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "45894",
+    "item_id": "53458",
+    "points": 3.0,
+    "slug": "numeric",
+    "prompt_text": "A lever arm has |r| = 0.6 m. A force of |F| = 25 N acts at 60 degrees to the arm. The magnitude of the torque, to 3 significant figures, is ______ N.m.",
+    "prompt_html": "<p>A lever arm has |r| = 0.6 m. A force of |F| = 25 N acts at 60 degrees to the arm. The magnitude of the torque, to 3 significant figures, is ______ N.m.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 9,
+    "quiz_entry_id": "45893",
+    "item_id": "50227",
+    "points": 3.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "For u = (2, -3, 1) and v = (0, 4, -2), the cross product u x v has x-component 2. Its y-component is and its z-component is .",
+    "prompt_html": "<p>For u = (2, -3, 1) and v = (0, 4, -2), the cross product u x v has x-component 2. Its y-component is <span id=\"blank_f177a6ac-c77e-4fbf-905c-01bfa8fb99f4\"></span> and its z-component is <span id=\"blank_f3b0fc66-e25e-46fc-a286-fe3d349e534b\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "f177a6ac-c77e-4fbf-905c-01bfa8fb99f4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f3b0fc66-e25e-46fc-a286-fe3d349e534b"
+        }
+      ]
+    }
+  },
+  {
+    "position": 10,
+    "quiz_entry_id": "45893",
+    "item_id": "50225",
+    "points": 3.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Decompose u = (5, 3, -2) into components parallel and perpendicular to v = (2, 0, 1). The parallel component is and the perpendicular component is .",
+    "prompt_html": "<p>Decompose u = (5, 3, -2) into components parallel and perpendicular to v = (2, 0, 1). The parallel component is <span id=\"blank_6c6cc9f1-cfdc-4e76-97df-0dfad972f366\"></span> and the perpendicular component is <span id=\"blank_106ef191-ad63-4810-891d-080055235351\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "6c6cc9f1-cfdc-4e76-97df-0dfad972f366"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "106ef191-ad63-4810-891d-080055235351"
+        }
+      ]
+    }
+  },
+  {
+    "position": 11,
+    "quiz_entry_id": "45892",
+    "item_id": "49067",
+    "points": 2.0,
+    "slug": "true-false",
+    "prompt_text": "If a and b are nonzero and the vector projection of a onto b is the zero vector, then a is perpendicular to b.",
+    "prompt_html": "<p>If a and b are nonzero and the vector projection of a onto b is the zero vector, then a is perpendicular to b.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "false_choice": "False",
+      "true_choice": "True"
+    }
+  },
+  {
+    "position": 12,
+    "quiz_entry_id": "45892",
+    "item_id": "49081",
+    "points": 2.0,
+    "slug": "true-false",
+    "prompt_text": "If |a x b| = |a||b| for nonzero vectors a and b, then a and b are perpendicular.",
+    "prompt_html": "<p>If |a x b| = |a||b| for nonzero vectors a and b, then a and b are perpendicular.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "false_choice": "False",
+      "true_choice": "True"
+    }
+  },
+  {
+    "position": 13,
+    "quiz_entry_id": "45891",
+    "item_id": "49045",
+    "points": 2.0,
+    "slug": "multi-answer",
+    "prompt_text": "Select ALL pairs of vectors whose dot product is positive.",
+    "prompt_html": "<p>Select ALL pairs of vectors whose dot product is positive.</p>",
+    "choices": [
+      {
+        "id": "c69fcc1f-0e10-4894-9d8a-933d947f3a83",
+        "position": 1,
+        "text": "(4, -1) and (1, -4)",
+        "html": "(4, -1) and (1, -4)"
+      },
+      {
+        "id": "d1e9c011-a406-4525-8b7b-9fcbf7d6fa14",
+        "position": 2,
+        "text": "(2, 1) and (3, 4)",
+        "html": "(2, 1) and (3, 4)"
+      },
+      {
+        "id": "39541fb2-61b1-4540-b305-334f407368f0",
+        "position": 3,
+        "text": "(1, -2) and (-3, 1)",
+        "html": "(1, -2) and (-3, 1)"
+      },
+      {
+        "id": "4b6325ef-432e-4a09-b1a8-a5bf9e1301a1",
+        "position": 4,
+        "text": "(-1, 5) and (2, 1)",
+        "html": "(-1, 5) and (2, 1)"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "(4, -1) and (1, -4)",
+          "id": "c69fcc1f-0e10-4894-9d8a-933d947f3a83",
+          "position": 1
+        },
+        {
+          "item_body": "(2, 1) and (3, 4)",
+          "id": "d1e9c011-a406-4525-8b7b-9fcbf7d6fa14",
+          "position": 2
+        },
+        {
+          "item_body": "(1, -2) and (-3, 1)",
+          "id": "39541fb2-61b1-4540-b305-334f407368f0",
+          "position": 3
+        },
+        {
+          "item_body": "(-1, 5) and (2, 1)",
+          "id": "4b6325ef-432e-4a09-b1a8-a5bf9e1301a1",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 14,
+    "quiz_entry_id": "45890",
+    "item_id": "49082",
+    "points": 2.0,
+    "slug": "matching",
+    "prompt_text": "Match each unit-vector cross product to its result. i x jj x kk x ij x ikij-k Match each unit-vector cross product to its result.",
+    "prompt_html": "<div>\n<div>Match each unit-vector cross product to its result.</div>i x jj x kk x ij x ikij-k</div><div>Match each unit-vector cross product to its result.</div>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "answers": [
+        "i",
+        "j",
+        "-k",
+        "k"
+      ],
+      "questions": [
+        {
+          "itemBody": "k x i",
+          "id": "b812d761-72fd-450e-b676-58a706c6d8ff",
+          "position": 1
+        },
+        {
+          "itemBody": "j x k",
+          "id": "b836f748-ff70-4886-a333-2feffba2b453",
+          "position": 2
+        },
+        {
+          "itemBody": "j x i",
+          "id": "c937e9e3-aefe-434c-9712-6264622297f5",
+          "position": 3
+        },
+        {
+          "itemBody": "i x j",
+          "id": "59f553f1-89a1-4123-8c1c-d914e4911c1d",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 15,
+    "quiz_entry_id": "45889",
+    "item_id": "49083",
+    "points": 2.0,
+    "slug": "ordering",
+    "prompt_text": "|a| = |b| = 6. Order the values of |a x b| from SMALLEST to LARGEST for the given angles between a and b. 30 degrees45 degrees60 degrees90 degrees |a| = |b| = 6. Order the values of |a x b| from SMALLEST to LARGEST for the given angles between a and b.",
+    "prompt_html": "<div>\n<div>|a| = |b| = 6. Order the values of |a x b| from SMALLEST to LARGEST for the given angles between a and b.</div>30 degrees45 degrees60 degrees90 degrees</div><div>|a| = |b| = 6. Order the values of |a x b| from SMALLEST to LARGEST for the given angles between a and b.</div>",
+    "choices": [
+      {
+        "id": "98f83116-fbd9-4076-b5e0-7c96b7a2e4d3",
+        "position": null,
+        "text": "30 degrees",
+        "html": "30 degrees"
+      },
+      {
+        "id": "ea1e9ff9-9195-4122-ab18-fd8e7c5adaf9",
+        "position": null,
+        "text": "90 degrees",
+        "html": "90 degrees"
+      },
+      {
+        "id": "c92ea18d-3745-4f1c-aa13-aceb9959969e",
+        "position": null,
+        "text": "45 degrees",
+        "html": "45 degrees"
+      },
+      {
+        "id": "b0bff46f-ca0e-473c-974a-990c47a8b119",
+        "position": null,
+        "text": "60 degrees",
+        "html": "60 degrees"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": {
+        "98f83116-fbd9-4076-b5e0-7c96b7a2e4d3": {
+          "item_body": "30 degrees",
+          "id": "98f83116-fbd9-4076-b5e0-7c96b7a2e4d3"
+        },
+        "b0bff46f-ca0e-473c-974a-990c47a8b119": {
+          "item_body": "60 degrees",
+          "id": "b0bff46f-ca0e-473c-974a-990c47a8b119"
+        },
+        "ea1e9ff9-9195-4122-ab18-fd8e7c5adaf9": {
+          "item_body": "90 degrees",
+          "id": "ea1e9ff9-9195-4122-ab18-fd8e7c5adaf9"
+        },
+        "c92ea18d-3745-4f1c-aa13-aceb9959969e": {
+          "item_body": "45 degrees",
+          "id": "c92ea18d-3745-4f1c-aa13-aceb9959969e"
+        }
+      },
+      "shuffled_order": [
+        "98f83116-fbd9-4076-b5e0-7c96b7a2e4d3",
+        "ea1e9ff9-9195-4122-ab18-fd8e7c5adaf9",
+        "c92ea18d-3745-4f1c-aa13-aceb9959969e",
+        "b0bff46f-ca0e-473c-974a-990c47a8b119"
+      ]
+    }
+  },
+  {
+    "position": 16,
+    "quiz_entry_id": "45888",
+    "item_id": "59475",
+    "points": 15.0,
+    "slug": "essay",
+    "prompt_text": "A gardener pulls a wheelbarrow with a force of 60 N at an angle of 30 degrees above the horizontal, moving it 25 m horizontally. (a) Compute the work done, showing all steps. (b) Find the scalar and vector projections of the force onto the horizontal direction, and explain in full sentences what each projection represents physically in this situation.",
+    "prompt_html": "<p>A gardener pulls a wheelbarrow with a force of 60 N at an angle of 30 degrees above the horizontal, moving it 25 m horizontally. (a) Compute the work done, showing all steps. (b) Find the scalar and vector projections of the force onto the horizontal direction, and explain in full sentences what each projection represents physically in this situation.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false
+    }
+  },
+  {
+    "position": 17,
+    "quiz_entry_id": "45888",
+    "item_id": "59474",
+    "points": 15.0,
+    "slug": "essay",
+    "prompt_text": "Simplify (a + b) x (a - b) using only the algebraic properties of the cross product. Do not use components. State each property you use by name. Then, assuming |a| = |b|, show that (a + b) dot (a - b) = 0 and explain in full sentences what this means geometrically for the parallelogram with sides a and b.",
+    "prompt_html": "<p>Simplify (a + b) x (a - b) using only the algebraic properties of the cross product. Do not use components. State each property you use by name. Then, assuming |a| = |b|, show that (a + b) dot (a - b) = 0 and explain in full sentences what this means geometrically for the parallelogram with sides a and b.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false
+    }
+  },
+  {
+    "position": 18,
+    "quiz_entry_id": "45888",
+    "item_id": "59473",
+    "points": 15.0,
+    "slug": "essay",
+    "prompt_text": "Find the area of the triangle with vertices P(2, 1, 0), Q(5, 3, 2), and R(1, 4, 1). Show every step, including how you form the edge vectors and why the cross product gives the area. Give your answer to 2 decimal places.",
+    "prompt_html": "<p>Find the area of the triangle with vertices P(2, 1, 0), Q(5, 3, 2), and R(1, 4, 1). Show every step, including how you form the edge vectors and why the cross product gives the area. Give your answer to 2 decimal places.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false
+    }
+  },
+  {
+    "position": 19,
+    "quiz_entry_id": "45888",
+    "item_id": "59472",
+    "points": 15.0,
+    "slug": "essay",
+    "prompt_text": "For each situation below, state whether you would use the dot product or the cross product, and justify your choice in full sentences. (a) Finding the work done by a constant force acting on an object displaced along a straight line. (b) Finding a vector perpendicular to the plane containing two given vectors. (c) Determining whether two nonzero vectors are perpendicular. In each case, write the relevant formula and explain why the other product would not serve.",
+    "prompt_html": "<p>For each situation below, state whether you would use the dot product or the cross product, and justify your choice in full sentences. (a) Finding the work done by a constant force acting on an object displaced along a straight line. (b) Finding a vector perpendicular to the plane containing two given vectors. (c) Determining whether two nonzero vectors are perpendicular. In each case, write the relevant formula and explain why the other product would not serve.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false
+    }
+  }
+]

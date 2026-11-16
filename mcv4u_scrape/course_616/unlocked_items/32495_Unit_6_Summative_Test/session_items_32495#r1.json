@@ -1,0 +1,594 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "2c67ca50-d37d-4d23-ac05-0daf5de1d8f7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0bae28ac-d23e-4957-8cf0-3804f9698263"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Each of the following vector expressions can be simplified and written as a single vector. Write the single vector corresponding to each expression. a. PQ - RQ + RS = <span id=\"blank_2c67ca50-d37d-4d23-ac05-0daf5de1d8f7\"></span>. b. PS + RQ - RS - PQ = <span id=\"blank_0bae28ac-d23e-4957-8cf0-3804f9698263\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69512",
+      "label": null,
+      "title": "Exercise 6.2 Q5 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56719",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "698f20be-4a5e-445c-9bb5-8c4f407e7750"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] The vector m is collinear (parallel) to n but in the opposite direction. Express the magnitude of m + n in terms of the magnitudes of m and n. |m + n| = <span id=\"blank_698f20be-4a5e-445c-9bb5-8c4f407e7750\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69540",
+      "label": null,
+      "title": "Mid-Chapter Review Q8 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56720",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "82a17fbb-c1e9-43cd-bc7f-6e2a7c1f34b6"
+          }
+        ]
+      },
+      "item_body": "<p>[C] (Part a only) What is the equation of the plane that contains the points M(1, 0, 3), N(4, 0, 6), and P(7, 0, 9)? The plane is y = <span id=\"blank_82a17fbb-c1e9-43cd-bc7f-6e2a7c1f34b6\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69557",
+      "label": null,
+      "title": "Exercise 6.5 Q14 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56721",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "dbe5c9b5-f043-4a89-8c89-6ca132c1efcb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8e8e72ce-eae5-4e0d-837f-4e32dee674aa"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ce8792b3-d256-4b10-9a65-69489c41b4ae"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "cbb5cebf-bec6-4caa-98f5-2b0c9efc2707"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "80217c0a-e0f5-41a5-97c7-c6f2807d4650"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c4c01978-7ea3-4e7c-8d16-a3426e75611a"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Given OA = (-3, 4, 12) and OB = (2, 2, -1). a. Determine OP, where OP = OA + OB. OP = <span id=\"blank_dbe5c9b5-f043-4a89-8c89-6ca132c1efcb\"></span>. b. Determine |OA|, |OB|, and |OP|. |OA| = <span id=\"blank_8e8e72ce-eae5-4e0d-837f-4e32dee674aa\"></span>, |OB| = <span id=\"blank_ce8792b3-d256-4b10-9a65-69489c41b4ae\"></span>, |OP| = <span id=\"blank_cbb5cebf-bec6-4caa-98f5-2b0c9efc2707\"></span>. c. Determine AB and |AB|. AB = <span id=\"blank_80217c0a-e0f5-41a5-97c7-c6f2807d4650\"></span>, |AB| = <span id=\"blank_c4c01978-7ea3-4e7c-8d16-a3426e75611a\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69584",
+      "label": null,
+      "title": "Exercise 6.7 Q4 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56722",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>ABCD is a parallelogram, and |PD| = |DA|.</p><p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/ed547c16-e7da-4aba-96b4-e1cef906ec76/mcr_q1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9lZDU0N2MxNi1lN2RhLTRhYmEtOTZiNC1lMWNlZjkwNmVjNzYvbWNyX3ExLnBuZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay8yNDI2MDAwMDAwMDAwMDUyNiJ9LCJleHAiOjE3OTQ4MzczNDgsImlhdCI6MTc5NDc5MDU0OCwiaXNzIjoibmV3LXF1aXp6ZXMiLCJhdWQiOiJodHRwczovL2luc3QtZnMtaWFkLXByb2QuaW5zY2xvdWRnYXRlLm5ldCJ9.U6DyFzSs_TKZk2Cyuru8ziDcwiz71hO_VDYyZwZ91-U3g7HnUYr13AWUZ31oSVRFTsYa5Yy-syqOgB_xI8h9OA\" alt=\"Nelson Calculus and Vectors 12, Ch 6, p. 308 - Mid-Chapter Review, Question 1: parallelogram ABCD with point P\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55809/preview\"></p><p>a. Determine which vectors (if any) are equal to AB, BA, AD, CB, and AP.</p><p>b. Explain why |PD| = |BC|.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63573",
+      "label": null,
+      "title": "Q1 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56723",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[C]</p><p>Friction is considered to be a vector because friction can be described as the force of resistance between two surfaces in contact. Give two examples of friction from everyday life, and explain why they can be described as vectors.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63489",
+      "label": null,
+      "title": "Q3 [C]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56723",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>The vectors a, b, and c are as shown (a points right, b points up, and c points left).</p><p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/853a8e3f-782e-4e4d-bf32-5318629a758f/review_q8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy84NTNhOGUzZi03ODJlLTRlNGQtYmYzMi01MzE4NjI5YTc1OGYvcmV2aWV3X3E4LnBuZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay8yNDI2MDAwMDAwMDAwMDUyNyJ9LCJleHAiOjE3OTQ4MzY5MTgsImlhdCI6MTc5NDc5MDExOCwiaXNzIjoibmV3LXF1aXp6ZXMiLCJhdWQiOiJodHRwczovL2luc3QtZnMtaWFkLXByb2QuaW5zY2xvdWRnYXRlLm5ldCJ9.bTzePzYcxuNkt1zLOi941aFGVm1uPvplJbUcS4dMtYRobKgw7qGlZjdjeED6PMsBNw8HQ1B_qFmNpCWv_87GJA\" alt=\"Nelson Calculus and Vectors 12, Ch 6, p. 345 - Review Exercise, Question 8: vectors a, b, c\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55815/preview\"></p><p>a. Construct the vector a - b + c.</p><p>b. If the vectors a and b are perpendicular, and if |a| = 4 and |b| = 3, determine |a + b|.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63663",
+      "label": null,
+      "title": "Q8 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56724",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[A]</p><p>An airplane is heading due south at a speed of 500 km/h when it encounters a head wind from the south at 40 km/h. What is the resultant ground velocity of the airplane?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63584",
+      "label": null,
+      "title": "Q12 [A]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56724",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[T]</p><p>In triangle ABC, a median is drawn from vertex A to the midpoint of BC, which is labelled D. If AB = b and AC = c, prove that AD = (1/2)b + (1/2)c.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63555",
+      "label": null,
+      "title": "Q17 [T]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 9,
+    "question_number": 9,
+    "quiz_entry_id": "56725",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 9,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Draw a diagram showing the vectors a and b, where |a| = 2|b| and |b| = |a + b| are both true. (Make sure to indicate the direction of the vectors.)</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63679",
+      "label": null,
+      "title": "Q24 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 10,
+    "question_number": 10,
+    "quiz_entry_id": "56725",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 10,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[T]</p><p>In the trapezoid TXYZ, TX = 2 ZY. If the diagonals meet at O, find an expression for TO in terms of TX and TZ.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63572",
+      "label": null,
+      "title": "Q12 [T]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 11,
+    "question_number": 11,
+    "quiz_entry_id": "56726",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 11,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Illustrate the commutative law for two vectors that are perpendicular.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63562",
+      "label": null,
+      "title": "Q2 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 12,
+    "question_number": 12,
+    "quiz_entry_id": "56726",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 12,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[T]</p><p>Parallelogram OPQR is such that OP = (-7, 24) and OR = (-8, -1).</p><p>a. Determine the angle between the vectors OR and OP.</p><p>b. Determine the acute angle between the diagonals OQ and RP.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63623",
+      "label": null,
+      "title": "Q17 [T]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 13,
+    "question_number": 13,
+    "quiz_entry_id": "56728",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 13,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Draw the vector OA on a graph, where point A has coordinates (6, 10).</p><p>a. Draw the vectors m OA, where m = 1/2, -1/2, 2, and -2.</p><p>b. Which of these vectors have the same magnitude?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63608",
+      "label": null,
+      "title": "Q2 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 14,
+    "question_number": 14,
+    "quiz_entry_id": "56728",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 14,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[C]</p><p>A student writes 2(1, 0) + 4(-1, 0) = (-2, 0) and then concludes that (1, 0) and (-1, 0) span R^2. What is wrong with this conclusion?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63639",
+      "label": null,
+      "title": "Q1 [C]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 15,
+    "question_number": 15,
+    "quiz_entry_id": "56729",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 15,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[C]</p><p>Describe the set of vectors spanned by (0, 1). Say why this is the same set as that spanned by (0, -1).</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63641",
+      "label": null,
+      "title": "Q3 [C]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 16,
+    "question_number": 16,
+    "quiz_entry_id": "56729",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 16,
+    "required": null
+  }
+]

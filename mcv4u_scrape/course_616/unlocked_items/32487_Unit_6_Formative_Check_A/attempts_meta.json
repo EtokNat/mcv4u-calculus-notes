@@ -1,0 +1,155 @@
+[
+  {
+    "idx": 0,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[C] For each of the following vectors, describe the opposite vector. a. An airplane flies due north at 400 km/h. The opposite vector is . b. A car travels in a northeasterly direction at 70 km/h. The opposite vector is . c. A bicyclist pedals in a northwesterly direction at 30 km/h. The opposite vector is . d. A boat travels due west at 25 km/h. The opposite vector is .",
+    "prompt_dom": "[C] For each of the following vectors, describe the opposite vector. a. An airplane flies due north at 400 km/h. The opposite vector is \nQuestion Blank 1 of 4\n. b. A car travels in a northeasterly direction at 70 km/h. The opposite vector is \nQuestion Blank 2 of 4\n. c. A bicyclist pedals in a northwesterly direction at 30 km/h. The opposite vector is \nQuestion Blank 3 of 4\n. d. A boat travels due west at 25 km/h. The opposite vector is \nQuestion Blank 4 of 4\n.",
+    "num_blanks": 4,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "400 km/h due south",
+      "70 km/h southwest",
+      "30 km/h southeast",
+      "25 km/h due east"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 62.5
+  },
+  {
+    "idx": 1,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] (Part a only) ABCD is a parallelogram, and |PD| = |DA|. a. Determine which vectors (if any) are equal to AB, BA, AD, CB, and AP. The vector equal to AB is . The vector equal to BA is . The vector equal to AD is . The vector equal to CB is . The vector equal to AP is .",
+    "prompt_dom": "[K/U] (Part a only) ABCD is a parallelogram, and |PD| = |DA|. a. Determine which vectors (if any) are equal to AB, BA, AD, CB, and AP. The vector equal to AB is \nQuestion Blank 1 of 5\n. The vector equal to BA is \nQuestion Blank 2 of 5\n. The vector equal to AD is \nQuestion Blank 3 of 5\n. The vector equal to CB is \nQuestion Blank 4 of 5\n. The vector equal to AP is \nQuestion Blank 5 of 5\n.",
+    "num_blanks": 5,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "DC",
+      "CD",
+      "BC",
+      "DA",
+      "none"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 62.5
+  },
+  {
+    "idx": 2,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[A] An airplane is headed south at speed 400 km/h. The airplane encounters a wind from the east blowing at 100 km/h. a. How far will the airplane travel in 3 h? The airplane will travel km. b. What is the direction of the airplane? The direction is degrees west of south.",
+    "prompt_dom": "[A] An airplane is headed south at speed 400 km/h. The airplane encounters a wind from the east blowing at 100 km/h. a. How far will the airplane travel in 3 h? The airplane will travel \nQuestion Blank 1 of 2\n km. b. What is the direction of the airplane? The direction is \nQuestion Blank 2 of 2\n degrees west of south.",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "1236.9",
+      "14.0"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 62.5
+  },
+  {
+    "idx": 3,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] ABCD is a parallelogram. If AB = x and DA = y, express BC, DC, BD, and AC in terms of x and y. BC = . DC = . BD = . AC = .",
+    "prompt_dom": "[K/U] ABCD is a parallelogram. If AB = x and DA = y, express BC, DC, BD, and AC in terms of x and y. BC = \nQuestion Blank 1 of 4\n. DC = \nQuestion Blank 2 of 4\n. BD = \nQuestion Blank 3 of 4\n. AC = \nQuestion Blank 4 of 4\n.",
+    "num_blanks": 4,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "-y",
+      "x",
+      "-x - y",
+      "x - y"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 62.5
+  },
+  {
+    "idx": 4,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Each of the following vector expressions can be simplified and written as a single vector. Write the single vector corresponding to each expression. a. PQ - RQ + RS = . b. PS + RQ - RS - PQ = .",
+    "prompt_dom": "[K/U] Each of the following vector expressions can be simplified and written as a single vector. Write the single vector corresponding to each expression. a. PQ - RQ + RS = \nQuestion Blank 1 of 2\n. b. PS + RQ - RS - PQ = \nQuestion Blank 2 of 2\n.",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "PS",
+      "0"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 62.5
+  },
+  {
+    "idx": 5,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[T] Let PQR be a triangle in which M is the midpoint of PQ and N is the midpoint of PR. If PM = a and PN = b, find vector expressions for MN and QR in terms of a and b. MN = . QR = .",
+    "prompt_dom": "[T] Let PQR be a triangle in which M is the midpoint of PQ and N is the midpoint of PR. If PM = a and PN = b, find vector expressions for MN and QR in terms of a and b. MN = \nQuestion Blank 1 of 2\n. QR = \nQuestion Blank 2 of 2\n.",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "b - a",
+      "2(b - a)"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 62.5
+  },
+  {
+    "idx": 6,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] If the vectors a and b are noncollinear, determine which of the following pairs of vectors are collinear and which are not. a. 2a, -3a: . b. 2a, 3b: . c. 5a, -(3/2)b: . d. -b, 2b: .",
+    "prompt_dom": "[K/U] If the vectors a and b are noncollinear, determine which of the following pairs of vectors are collinear and which are not. a. 2a, -3a: \nQuestion Blank 1 of 4\n. b. 2a, 3b: \nQuestion Blank 2 of 4\n. c. 5a, -(3/2)b: \nQuestion Blank 3 of 4\n. d. -b, 2b: \nQuestion Blank 4 of 4\n.",
+    "num_blanks": 4,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "collinear",
+      "not collinear",
+      "not collinear",
+      "collinear"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 62.5
+  },
+  {
+    "idx": 7,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] The vectors x and y are unit vectors that make an angle of 30 degrees with each other. Calculate the value of |2x + y| and the direction of 2x + y. |2x + y| = , and the direction of 2x + y makes an angle of degrees with x.",
+    "prompt_dom": "[K/U] The vectors x and y are unit vectors that make an angle of 30 degrees with each other. Calculate the value of |2x + y| and the direction of 2x + y. |2x + y| = \nQuestion Blank 1 of 2\n, and the direction of 2x + y makes an angle of \nQuestion Blank 2 of 2\n degrees with x.",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "sqrt(5 + 2sqrt(3))",
+      "9.9"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 62.5
+  }
+]

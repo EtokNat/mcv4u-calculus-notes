@@ -1,0 +1,295 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "Better than I expected",
+            "id": "6e5d6263-838e-4c9f-a9ec-753149037784",
+            "position": 1
+          },
+          {
+            "item_body": "About as I expected",
+            "id": "3459293d-d313-4939-ad07-696d586e8cb2",
+            "position": 2
+          },
+          {
+            "item_body": "Harder than I expected",
+            "id": "1b62a0c1-d13e-46ed-8405-0974b23d207a",
+            "position": 3
+          },
+          {
+            "item_body": "Easier than I expected",
+            "id": "cc24e43b-2da1-4950-b62d-bd33c21e4a45",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div><p>How did this unit go for you overall?</p></div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45383",
+      "label": null,
+      "title": "Q1: How the unit went",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "34218",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "Yes, fully",
+            "id": "6563bcd0-617f-4d71-815f-e2816d688c3e",
+            "position": 1
+          },
+          {
+            "item_body": "Mostly",
+            "id": "3c1235c7-4729-4921-be52-20720d23bc52",
+            "position": 2
+          },
+          {
+            "item_body": "Partially",
+            "id": "f852f679-2305-47fd-bbf9-33eabdc02336",
+            "position": 3
+          },
+          {
+            "item_body": "Not really",
+            "id": "1bd1d49b-91de-428b-9bd0-3be4f8081c57",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div><p>Did you achieve the goal you set on your Entry Card?</p></div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45384",
+      "label": null,
+      "title": "Q2: Achieved your goal?",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "34220",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "The lesson pages (written explanations)",
+            "id": "88ee6cba-57d6-4a36-9b66-ca18dd098e67",
+            "position": 1
+          },
+          {
+            "item_body": "The videos",
+            "id": "27c0d8fc-d970-41ae-84c7-948f3710ffab",
+            "position": 2
+          },
+          {
+            "item_body": "The Desmos explorations",
+            "id": "85cfaafa-d122-42d2-b6a1-ca1f038c538f",
+            "position": 3
+          },
+          {
+            "item_body": "The formative quiz feedback",
+            "id": "af8d44a3-2493-4cfe-a0c1-d81494ca8a53",
+            "position": 4
+          },
+          {
+            "item_body": "The worked examples",
+            "id": "3425e1d2-2fce-43a0-a30f-17b63d1a7ae1",
+            "position": 5
+          }
+        ]
+      },
+      "item_body": "<div><p>What helped you learn most in this unit?</p></div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45385",
+      "label": null,
+      "title": "Q3: What helped most",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "34221",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "Second derivatives (notation and computation)",
+            "id": "749f1956-8f73-440b-8b86-881f433671c9",
+            "position": 1
+          },
+          {
+            "item_body": "Velocity and acceleration",
+            "id": "1222c5fd-014f-4af9-98d1-3610a638c235",
+            "position": 2
+          },
+          {
+            "item_body": "Absolute maximum/minimum on an interval",
+            "id": "3ecb508f-d346-4df8-bd20-0e1f993601a2",
+            "position": 3
+          },
+          {
+            "item_body": "Optimization (area, volume, distance)",
+            "id": "d1266755-77f3-434c-b0f6-48d0a9b9f630",
+            "position": 4
+          },
+          {
+            "item_body": "Maximizing revenue and profit",
+            "id": "bc990b05-cf5a-4a58-b56d-50855c8ae518",
+            "position": 5
+          },
+          {
+            "item_body": "Minimizing cost",
+            "id": "1c234707-538c-4221-b247-e334f6eb5043",
+            "position": 6
+          },
+          {
+            "item_body": "Nothing \u2014 I feel solid on all of it",
+            "id": "56e39f20-2dc4-4183-a1f3-fb957bbc23d3",
+            "position": 7
+          }
+        ]
+      },
+      "item_body": "<div><p>What is still unclear for you?</p></div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45386",
+      "label": null,
+      "title": "Q4: What is still unclear",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "34222",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false,
+        "userResponse": {
+          "value": {}
+        }
+      },
+      "item_body": "<div><p>What support would be most useful to you going into the next unit? (For example: topics to revisit, types of practice, or anything else.)</p></div>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45387",
+      "label": null,
+      "title": "Q5: Support for next unit",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "34223",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  }
+]

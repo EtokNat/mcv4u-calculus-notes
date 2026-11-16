@@ -1,0 +1,257 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44902",
+      "interaction_data": {
+        "choices": [
+          {
+            "id": "2634aaff-9a99-47b5-a2de-7e7084c0a604",
+            "item_body": "<p>Strongly agree</p>",
+            "position": 1
+          },
+          {
+            "id": "caa8d482-1d56-495c-980c-ca42c1f4ec3c",
+            "item_body": "<p>Agree</p>",
+            "position": 2
+          },
+          {
+            "id": "0327800f-90dc-4ca6-8ceb-41426a89f36e",
+            "item_body": "<p>Disagree</p>",
+            "position": 3
+          },
+          {
+            "id": "46851de7-ca13-4a88-b07a-12e160da4935",
+            "item_body": "<p>Strongly disagree</p>",
+            "position": 4
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "1",
+        "name": "Multiple Choice",
+        "slug": "choice"
+      },
+      "item_body": "<p>I can explain the difference between a scalar and a vector, and identify equal and opposite vectors.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        },
+        "vary_points_by_answer": false
+      },
+      "title": "XQ1",
+      "user_response_type": "Uuid"
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "33781",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44913",
+      "interaction_data": {
+        "choices": [
+          {
+            "id": "b0f17e60-cc86-403e-856e-c64d0fa69b9a",
+            "item_body": "<p>Strongly agree</p>",
+            "position": 1
+          },
+          {
+            "id": "d1115b38-d069-406a-b80e-fc4f568dec57",
+            "item_body": "<p>Agree</p>",
+            "position": 2
+          },
+          {
+            "id": "575db437-fd4b-4108-87bd-b71f0ee8481e",
+            "item_body": "<p>Disagree</p>",
+            "position": 3
+          },
+          {
+            "id": "57d8e58d-d60d-4bea-8f3b-e47389c439e3",
+            "item_body": "<p>Strongly disagree</p>",
+            "position": 4
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "1",
+        "name": "Multiple Choice",
+        "slug": "choice"
+      },
+      "item_body": "<p>I can add and subtract vectors both geometrically (triangle/parallelogram laws) and algebraically (component form in R\u00b2 and R\u00b3).</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        },
+        "vary_points_by_answer": false
+      },
+      "title": "XQ2",
+      "user_response_type": "Uuid"
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "33785",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44917",
+      "interaction_data": {
+        "choices": [
+          {
+            "id": "458c12d9-2215-4846-8698-569a7fd423c2",
+            "item_body": "<p>Strongly agree</p>",
+            "position": 1
+          },
+          {
+            "id": "b50d9b39-38d2-462c-8102-b938f0ecbff8",
+            "item_body": "<p>Agree</p>",
+            "position": 2
+          },
+          {
+            "id": "45a015ff-2fff-4f2e-862c-8c31adb104c7",
+            "item_body": "<p>Disagree</p>",
+            "position": 3
+          },
+          {
+            "id": "67947e35-ed7d-4c45-8291-bb9b73635458",
+            "item_body": "<p>Strongly disagree</p>",
+            "position": 4
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "1",
+        "name": "Multiple Choice",
+        "slug": "choice"
+      },
+      "item_body": "<p>I can write a vector as a linear combination of other vectors and decide whether a set of vectors spans R\u00b2, R\u00b3, or a plane.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        },
+        "vary_points_by_answer": false
+      },
+      "title": "XQ3",
+      "user_response_type": "Uuid"
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "33790",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44922",
+      "interaction_data": {
+        "essay": null,
+        "file_upload": false,
+        "rce": true,
+        "spell_check": false,
+        "word_count": false,
+        "word_limit_enabled": false,
+        "word_limit_max": null,
+        "word_limit_min": null
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>What is one idea from this unit that finally 'clicked' for you \u2014 and what helped it click (a diagram, a worked example, the Desmos exploration, the video)?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "XQ4",
+      "user_response_type": "Text"
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "33795",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44925",
+      "interaction_data": {
+        "essay": null,
+        "file_upload": false,
+        "rce": true,
+        "spell_check": false,
+        "word_count": false,
+        "word_limit_enabled": false,
+        "word_limit_max": null,
+        "word_limit_min": null
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>What is one topic from this unit you still want to review before the test \u2014 and what specifically about it feels shaky?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "XQ5",
+      "user_response_type": "Text"
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "33797",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  }
+]

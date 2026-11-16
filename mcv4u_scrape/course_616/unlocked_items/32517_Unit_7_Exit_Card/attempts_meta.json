@@ -1,0 +1,201 @@
+[
+  {
+    "idx": 0,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "What clicked best for you in this unit?",
+    "prompt_dom": "What clicked best for you in this unit?\n\nThe geometric dot product and its sign (acute/right/obtuse)\n\nThe algebraic dot product and the angle formula\n\nScalar and vector projections\n\nThe cross product and the right-hand rule\n\nAreas, work, and torque applications",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "38a1e931-e3f7-4e09-bbbe-5740100f5052",
+        "position": 1,
+        "text": "The geometric dot product and its sign (acute/right/obtuse)",
+        "html": "<p>The geometric dot product and its sign (acute/right/obtuse)</p>"
+      },
+      {
+        "id": "ce2a9d4a-9faf-4798-87da-3e7ec57b53ac",
+        "position": 2,
+        "text": "The algebraic dot product and the angle formula",
+        "html": "<p>The algebraic dot product and the angle formula</p>"
+      },
+      {
+        "id": "6ef441a0-c67f-443d-b3bf-bc6ddc5d6d28",
+        "position": 3,
+        "text": "Scalar and vector projections",
+        "html": "<p>Scalar and vector projections</p>"
+      },
+      {
+        "id": "37da33ac-b9ea-4332-b05c-1c0018e1b657",
+        "position": 4,
+        "text": "The cross product and the right-hand rule",
+        "html": "<p>The cross product and the right-hand rule</p>"
+      },
+      {
+        "id": "982a9bd8-f5da-4132-8ea6-1e42e3d93661",
+        "position": 5,
+        "text": "Areas, work, and torque applications",
+        "html": "<p>Areas, work, and torque applications</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 1,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "What is still muddy for you?",
+    "prompt_dom": "What is still muddy for you?\n\nThe geometric dot product and its sign (acute/right/obtuse)\n\nThe algebraic dot product and the angle formula\n\nScalar and vector projections\n\nThe cross product and the right-hand rule\n\nAreas, work, and torque applications\n\nNothing - I feel solid on all of it",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "a5e2943a-4d35-4275-ba32-50da4c917bce",
+        "position": 1,
+        "text": "The geometric dot product and its sign (acute/right/obtuse)",
+        "html": "<p>The geometric dot product and its sign (acute/right/obtuse)</p>"
+      },
+      {
+        "id": "8b9aeb89-8a2e-499b-8c9d-c9b47ea34a87",
+        "position": 2,
+        "text": "The algebraic dot product and the angle formula",
+        "html": "<p>The algebraic dot product and the angle formula</p>"
+      },
+      {
+        "id": "22eb488f-8410-443f-b375-1ba8ff582a9f",
+        "position": 3,
+        "text": "Scalar and vector projections",
+        "html": "<p>Scalar and vector projections</p>"
+      },
+      {
+        "id": "8cfed921-69c3-4427-98b7-0f6d7fe7bdf5",
+        "position": 4,
+        "text": "The cross product and the right-hand rule",
+        "html": "<p>The cross product and the right-hand rule</p>"
+      },
+      {
+        "id": "068182f5-8e12-4d99-a761-5d51842963b2",
+        "position": 5,
+        "text": "Areas, work, and torque applications",
+        "html": "<p>Areas, work, and torque applications</p>"
+      },
+      {
+        "id": "a5786694-af8b-4652-bd28-2cdce28a9d5b",
+        "position": 6,
+        "text": "Nothing - I feel solid on all of it",
+        "html": "<p>Nothing - I feel solid on all of it</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 2,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "Compared to the start of the unit, my confidence with dot and cross products is now...",
+    "prompt_dom": "Compared to the start of the unit, my confidence with dot and cross products is now...\n\nMuch higher\n\nSomewhat higher\n\nAbout the same\n\nLower",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "75127722-af19-4939-9a34-fff36fc063b7",
+        "position": 1,
+        "text": "Much higher",
+        "html": "<p>Much higher</p>"
+      },
+      {
+        "id": "6c61e520-caf2-4c5a-a322-23ec20fc6fbf",
+        "position": 2,
+        "text": "Somewhat higher",
+        "html": "<p>Somewhat higher</p>"
+      },
+      {
+        "id": "6ca73deb-111f-4ec3-bf94-7b6b51031868",
+        "position": 3,
+        "text": "About the same",
+        "html": "<p>About the same</p>"
+      },
+      {
+        "id": "d74ca84f-56c2-463e-93f4-dad2e08e5ec0",
+        "position": 4,
+        "text": "Lower",
+        "html": "<p>Lower</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 3,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "What kind of help would be most useful to you next?",
+    "prompt_dom": "What kind of help would be most useful to you next?\n\nMore worked examples\n\nMore practice problems\n\nA video walkthrough of the tricky parts\n\nA one-on-one check-in with my teacher\n\nI'm good for now",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "ddf61f8e-aa84-4ea0-aec1-5308d5358ff5",
+        "position": 1,
+        "text": "More worked examples",
+        "html": "<p>More worked examples</p>"
+      },
+      {
+        "id": "1602bc61-5dad-4243-9e85-8614daf4cd0e",
+        "position": 2,
+        "text": "More practice problems",
+        "html": "<p>More practice problems</p>"
+      },
+      {
+        "id": "eada97b3-14b6-4c20-87da-bd99a5d2a0bf",
+        "position": 3,
+        "text": "A video walkthrough of the tricky parts",
+        "html": "<p>A video walkthrough of the tricky parts</p>"
+      },
+      {
+        "id": "fa436ad3-ad0f-445e-97b6-cc712bbe4f18",
+        "position": 4,
+        "text": "A one-on-one check-in with my teacher",
+        "html": "<p>A one-on-one check-in with my teacher</p>"
+      },
+      {
+        "id": "bbecbd61-3715-408d-a96d-eb760c58f054",
+        "position": 5,
+        "text": "I'm good for now",
+        "html": "<p>I'm good for now</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 4,
+    "slug": "essay",
+    "points": 1.0,
+    "prompt": "Anything else you'd like me to know before the summative assessment? (Questions, concerns, or topics you'd like revisited.)",
+    "prompt_dom": "Anything else you'd like me to know before the summative assessment? (Questions, concerns, or topics you'd like revisited.)\n\nAnything else you'd like me to know before the summative assessment? (Questions, concerns, or topics you'd like revisited.)\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  }
+]

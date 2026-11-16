@@ -1,0 +1,158 @@
+[
+  {
+    "idx": 0,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] (Parts a and b only) ABCDEFGH is a rectangular prism, as shown in the diagram. a. Write a single vector that is equivalent to EG + GH + HD + DC: b. Write a vector that is equivalent to EG + GD + DE:",
+    "prompt_dom": "[K/U] (Parts a and b only) ABCDEFGH is a rectangular prism, as shown in the diagram. a. Write a single vector that is equivalent to EG + GH + HD + DC: \nQuestion Blank 1 of 2\n b. Write a vector that is equivalent to EG + GD + DE: \nQuestion Blank 2 of 2",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "EC",
+      "0"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 1,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Write the following vector in simplified form: 3(a - 2b - 5c) - 3(2a - 4b + 2c) - (a - 3b + 3c) =",
+    "prompt_dom": "[K/U] Write the following vector in simplified form: 3(a - 2b - 5c) - 3(2a - 4b + 2c) - (a - 3b + 3c) = \nQuestion Blank 1 of 1",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "-4a + 9b - 24c"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 2,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[A] (Parts a-d only) The point P(-2, 4, -7) is located in R^3 as shown on the coordinate axes below. a. Determine the coordinates of points A, B, C, D, E, and F. A = , B = , C = , D = , E = , F = . b. What are the vectors associated with each of the points in part a.? OA = , OB = , OC = , OD = , OE = , OF = . c. How far below the xy-plane is the rectangle DEPF? units. d. What is the equation of the plane containing the points B, C, E, and P? The plane is y = .",
+    "prompt_dom": "[A] (Parts a-d only) The point P(-2, 4, -7) is located in R^3 as shown on the coordinate axes below. a. Determine the coordinates of points A, B, C, D, E, and F. A = \nQuestion Blank 1 of 14\n, B = \nQuestion Blank 2 of 14\n, C = \nQuestion Blank 3 of 14\n, D = \nQuestion Blank 4 of 14\n, E = \nQuestion Blank 5 of 14\n, F = \nQuestion Blank 6 of 14\n. b. What are the vectors associated with each of the points in part a.? OA = \nQuestion Blank 7 of 14\n, OB = \nQuestion Blank 8 of 14\n, OC = \nQuestion Blank 9 of 14\n, OD = \nQuestion Blank 10 of 14\n, OE = \nQuestion Blank 11 of 14\n, OF = \nQuestion Blank 12 of 14\n. c. How far below the xy-plane is the rectangle DEPF? \nQuestion Blank 13 of 14\n units. d. What is the equation of the plane containing the points B, C, E, and P? The plane is y = \nQuestion Blank 14 of 14\n.",
+    "num_blanks": 14,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "(-2, 0, 0)",
+      "(-2, 4, 0)",
+      "(0, 4, 0)",
+      "(0, 0, -7)",
+      "(0, 4, -7)",
+      "(-2, 0, -7)",
+      "(-2, 0, 0)",
+      "(-2, 4, 0)",
+      "(0, 4, 0)",
+      "(0, 0, -7)",
+      "(0, 4, -7)",
+      "(-2, 0, -7)",
+      "7",
+      "4"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 3,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] If OP = (-2, 3, 6) and B(4, -2, 8), determine the coordinates of point A such that OP = AB. A = ( , , ).",
+    "prompt_dom": "[K/U] If OP = (-2, 3, 6) and B(4, -2, 8), determine the coordinates of point A such that OP = AB. A = (\nQuestion Blank 1 of 3\n, \nQuestion Blank 2 of 3\n, \nQuestion Blank 3 of 3\n).",
+    "num_blanks": 3,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "6",
+      "-5",
+      "2"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 4,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Determine the value of x and y in each of the following: a. 3(x, 1) - 5(2, 3y) = (11, 33). In a, x = and y = . b. -2(x, x + y) - 3(6, y) = (6, 4). In b, x = and y = .",
+    "prompt_dom": "[K/U] Determine the value of x and y in each of the following: a. 3(x, 1) - 5(2, 3y) = (11, 33). In a, x = \nQuestion Blank 1 of 4\n and y = \nQuestion Blank 2 of 4\n. b. -2(x, x + y) - 3(6, y) = (6, 4). In b, x = \nQuestion Blank 3 of 4\n and y = \nQuestion Blank 4 of 4\n.",
+    "num_blanks": 4,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "7",
+      "-2",
+      "-12",
+      "4"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 5,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Find the components of the unit vector in the direction opposite to PQ, where OP = (11, 19) and OQ = (2, -21). The unit vector is ( , ).",
+    "prompt_dom": "[K/U] Find the components of the unit vector in the direction opposite to PQ, where OP = (11, 19) and OQ = (2, -21). The unit vector is (\nQuestion Blank 1 of 2\n, \nQuestion Blank 2 of 2\n).",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "9/41",
+      "40/41"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 6,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Given 2x + y - 2z = 0, x = (-1, b, c), y = (a, -2, c), and z = (-a, 6, c), determine a, b, and c. a = , b = , c = .",
+    "prompt_dom": "[K/U] Given 2x + y - 2z = 0, x = (-1, b, c), y = (a, -2, c), and z = (-a, 6, c), determine a, b, and c. a = \nQuestion Blank 1 of 3\n, b = \nQuestion Blank 2 of 3\n, c = \nQuestion Blank 3 of 3\n.",
+    "num_blanks": 3,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "2/3",
+      "7",
+      "0"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 7,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] (Parts b-d only) Triangle ABC has vertices A(-1, 1, 1), B(2, 0, 3), and C(3, 3, -4). b. Determine the area of the triangle. The area is square units. c. Determine the perimeter. The perimeter is units. d. Determine the fourth vertex D that completes the rectangle. D = .",
+    "prompt_dom": "[K/U] (Parts b-d only) Triangle ABC has vertices A(-1, 1, 1), B(2, 0, 3), and C(3, 3, -4). b. Determine the area of the triangle. The area is \nQuestion Blank 1 of 3\n square units. c. Determine the perimeter. The perimeter is \nQuestion Blank 2 of 3\n units. d. Determine the fourth vertex D that completes the rectangle. D = \nQuestion Blank 3 of 3\n.",
+    "num_blanks": 3,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 87.5
+  }
+]

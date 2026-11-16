@@ -1,0 +1,398 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "73bcccc0-4e92-4b08-b1c8-b6517de5a618"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b65e9034-3e20-4fe7-928d-b02036a251f6"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] (Parts a and b only) ABCDEFGH is a rectangular prism, as shown in the diagram. a. Write a single vector that is equivalent to EG + GH + HD + DC: <span id=\"blank_73bcccc0-4e92-4b08-b1c8-b6517de5a618\"></span> b. Write a vector that is equivalent to EG + GD + DE: <span id=\"blank_b65e9034-3e20-4fe7-928d-b02036a251f6\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69543",
+      "label": null,
+      "title": "Exercise 6.4 Q6 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56702",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "906fab6e-74ac-48d1-af74-f0a86e25192c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5d40d347-bbfc-4e89-9305-6415b88d32e1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "09fed153-fee0-4d75-b409-c68e81b08f33"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "76801609-f41e-4124-bb2b-e7a386e49e9c"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] If * is an operation on a set, S, the element x, such that a * x = a, is called the identity element for the operation *. a. For the addition of numbers, what is the identity element? <span id=\"blank_906fab6e-74ac-48d1-af74-f0a86e25192c\"></span> b. For the multiplication of numbers, what is the identity element? <span id=\"blank_5d40d347-bbfc-4e89-9305-6415b88d32e1\"></span> c. For the addition of vectors, what is the identity element? <span id=\"blank_09fed153-fee0-4d75-b409-c68e81b08f33\"></span> d. For scalar multiplication, what is the identity element? <span id=\"blank_76801609-f41e-4124-bb2b-e7a386e49e9c\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69542",
+      "label": null,
+      "title": "Exercise 6.4 Q1 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56702",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "38a1636a-9c18-4bf4-8e05-630d5d269785"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b2dc8c72-0b8b-4eac-850c-5330f77be4cd"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9fc38157-e5f6-49e1-a746-281728de18e4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ec0d656c-aef6-430a-94a9-69ccac902c91"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b4c6de35-f49a-4aac-8b15-df7ce50882c2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "82e51cb6-fbae-4241-8806-83385e3dd92b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c0670faa-2789-4a52-b1d7-d96234062d6f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "baa76523-1ff2-40b6-acc0-440541b0bce9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8ec76e74-8285-4570-93d1-7cf3edf711eb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e14cd16b-a462-455e-a952-5f348cb9ceb9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "37e92c83-358c-4827-a28f-d907f0fb8904"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] A cube is placed so that it has three of its edges located along the positive x-, y-, and z-axes (one edge along each axis) and one of its vertices at the origin. a. If the cube has a side length of 4, draw a sketch of this cube and write the coordinates of its vertices on your sketch. The vertices are <span id=\"blank_38a1636a-9c18-4bf4-8e05-630d5d269785\"></span>, <span id=\"blank_b2dc8c72-0b8b-4eac-850c-5330f77be4cd\"></span>, <span id=\"blank_9fc38157-e5f6-49e1-a746-281728de18e4\"></span>, <span id=\"blank_ec0d656c-aef6-430a-94a9-69ccac902c91\"></span>, <span id=\"blank_b4c6de35-f49a-4aac-8b15-df7ce50882c2\"></span>, <span id=\"blank_82e51cb6-fbae-4241-8806-83385e3dd92b\"></span>, <span id=\"blank_c0670faa-2789-4a52-b1d7-d96234062d6f\"></span>, <span id=\"blank_baa76523-1ff2-40b6-acc0-440541b0bce9\"></span>. b. Write the coordinates of the vector with its head at the origin and its tail at the opposite vertex. The vector is <span id=\"blank_8ec76e74-8285-4570-93d1-7cf3edf711eb\"></span>. c. Write the coordinates of a vector that starts at (4, 4, 4) and is a diagonal in the plane parallel to the xz-plane. The vector is <span id=\"blank_e14cd16b-a462-455e-a952-5f348cb9ceb9\"></span>. d. What vector starts at the origin and is a diagonal in the xy-plane? The vector is <span id=\"blank_37e92c83-358c-4827-a28f-d907f0fb8904\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69563",
+      "label": null,
+      "title": "Review Exercise Q20 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56703",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "c526049b-49ed-4d4c-8007-67057c790889"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Show that if OP = (5, -10, -10), then |OP| = <span id=\"blank_c526049b-49ed-4d4c-8007-67057c790889\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69559",
+      "label": null,
+      "title": "Exercise 6.5 Q18 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56703",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "083da944-e53c-47cc-885d-c9f6ca5952f7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1e5bca23-a2a3-4ea2-866a-e699b8327b78"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "69a37494-d2ae-4b74-82be-1a2c55ca48f8"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] (Part a only) The three points A(-3, 4), B(3, -4), and C(5, 0) are on a circle with radius 5 and centre at the origin. a. Calculate |AB|, |AC|, and |BC|. |AB| = <span id=\"blank_083da944-e53c-47cc-885d-c9f6ca5952f7\"></span>, |AC| = <span id=\"blank_1e5bca23-a2a3-4ea2-866a-e699b8327b78\"></span>, |BC| = <span id=\"blank_69a37494-d2ae-4b74-82be-1a2c55ca48f8\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69580",
+      "label": null,
+      "title": "Review Exercise Q22 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56704",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "77783d5e-6751-41ae-9a61-abd8ab054881"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7e63fcc4-3e95-413c-9671-0fe49f3af455"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1c6493f9-e1db-49a1-99bd-38e77739952d"
+          }
+        ]
+      },
+      "item_body": "<p>[T] (Part c only) A parallelogram has three of its vertices at A(-1, 2), B(7, -2), and C(2, 8). c. Determine all possible coordinates for the fourth point that would make a parallelogram with points A, B, and C. The possible coordinates are <span id=\"blank_77783d5e-6751-41ae-9a61-abd8ab054881\"></span>, <span id=\"blank_7e63fcc4-3e95-413c-9671-0fe49f3af455\"></span>, and <span id=\"blank_1c6493f9-e1db-49a1-99bd-38e77739952d\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69574",
+      "label": null,
+      "title": "Exercise 6.6 Q12 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56704",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "f3a94209-684c-4ad1-acb0-d5a5c950e1db"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e373a3b3-da16-4c11-a7b3-a119b050511e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "daed3e21-3e9b-4eec-9fb2-e3d3fe16cf74"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Given X(-2, 1, 2) and Y(-4, 4, 8), determine each of the following. a. XY = <span id=\"blank_f3a94209-684c-4ad1-acb0-d5a5c950e1db\"></span>, |XY| = <span id=\"blank_e373a3b3-da16-4c11-a7b3-a119b050511e\"></span>. b. A unit vector in the same direction as XY is <span id=\"blank_daed3e21-3e9b-4eec-9fb2-e3d3fe16cf74\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69594",
+      "label": null,
+      "title": "Review Exercise Q3 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56705",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "dbe5c9b5-f043-4a89-8c89-6ca132c1efcb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8e8e72ce-eae5-4e0d-837f-4e32dee674aa"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ce8792b3-d256-4b10-9a65-69489c41b4ae"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "cbb5cebf-bec6-4caa-98f5-2b0c9efc2707"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "80217c0a-e0f5-41a5-97c7-c6f2807d4650"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c4c01978-7ea3-4e7c-8d16-a3426e75611a"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Given OA = (-3, 4, 12) and OB = (2, 2, -1). a. Determine OP, where OP = OA + OB. OP = <span id=\"blank_dbe5c9b5-f043-4a89-8c89-6ca132c1efcb\"></span>. b. Determine |OA|, |OB|, and |OP|. |OA| = <span id=\"blank_8e8e72ce-eae5-4e0d-837f-4e32dee674aa\"></span>, |OB| = <span id=\"blank_ce8792b3-d256-4b10-9a65-69489c41b4ae\"></span>, |OP| = <span id=\"blank_cbb5cebf-bec6-4caa-98f5-2b0c9efc2707\"></span>. c. Determine AB and |AB|. AB = <span id=\"blank_80217c0a-e0f5-41a5-97c7-c6f2807d4650\"></span>, |AB| = <span id=\"blank_c4c01978-7ea3-4e7c-8d16-a3426e75611a\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69584",
+      "label": null,
+      "title": "Exercise 6.7 Q4 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56705",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

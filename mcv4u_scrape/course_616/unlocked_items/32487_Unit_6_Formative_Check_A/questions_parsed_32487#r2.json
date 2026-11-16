@@ -1,0 +1,238 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56699",
+    "item_id": "69508",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] a. Given the square-based prism shown, where AB = 3 cm and AE = 8 cm, state whether each statement is true or false. Explain. i) AB = GH: ii) |EA| = |CG|: iii) |AD| = |DC|: iv) AH = BG: b. Calculate the magnitude of BD, BE, and BH. |BD| = cm, |BE| = cm, |BH| = cm.",
+    "prompt_html": "<p>[T] a. Given the square-based prism shown, where AB = 3 cm and AE = 8 cm, state whether each statement is true or false. Explain. i) AB = GH: <span id=\"blank_19542abe-d9ea-4577-b5b8-60e98067a7a5\"></span> ii) |EA| = |CG|: <span id=\"blank_c4aa8943-9e34-4dd6-9313-6875370f011c\"></span> iii) |AD| = |DC|: <span id=\"blank_f27e51a3-56e1-470b-8400-eb205bb6e0b3\"></span> iv) AH = BG: <span id=\"blank_02c3831b-b8cb-4522-92f7-d46f5e4ecfd4\"></span> b. Calculate the magnitude of BD, BE, and BH. |BD| = <span id=\"blank_242f6ff5-5ddd-4dd2-ac0c-01e711cd3659\"></span> cm, |BE| = <span id=\"blank_0ce76767-af7e-4a12-8deb-32051e3b4b81\"></span> cm, |BH| = <span id=\"blank_b9314298-ab1b-45c5-b3f2-b59427544cd9\"></span> cm.</p>",
+    "choices": [],
+    "num_blanks": 7,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "19542abe-d9ea-4577-b5b8-60e98067a7a5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c4aa8943-9e34-4dd6-9313-6875370f011c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f27e51a3-56e1-470b-8400-eb205bb6e0b3"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "02c3831b-b8cb-4522-92f7-d46f5e4ecfd4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "242f6ff5-5ddd-4dd2-ac0c-01e711cd3659"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0ce76767-af7e-4a12-8deb-32051e3b4b81"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b9314298-ab1b-45c5-b3f2-b59427544cd9"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56699",
+    "item_id": "69509",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] AB is a vector whose tail is at (-4, 2) and whose head is at (-1, 3). a. Calculate the magnitude of AB. |AB| = . b. Determine the coordinates of point D on vector CD, if C(-6, 0) and CD = AB. D = ( , ). c. Determine the coordinates of point E on vector EF, if F(3, -2) and EF = AB. E = ( , ). d. Determine the coordinates of point H, the head of vector GH, if G(3, 1) and GH = -AB. H = ( , ).",
+    "prompt_html": "<p>[K/U] AB is a vector whose tail is at (-4, 2) and whose head is at (-1, 3). a. Calculate the magnitude of AB. |AB| = <span id=\"blank_c6b16d90-dca9-4b05-9e49-db5133ce8870\"></span>. b. Determine the coordinates of point D on vector CD, if C(-6, 0) and CD = AB. D = (<span id=\"blank_12c2aa87-ed3e-4891-a124-e64f073c921f\"></span>, <span id=\"blank_76753e2b-7692-4ebd-bf51-895a227e3399\"></span>). c. Determine the coordinates of point E on vector EF, if F(3, -2) and EF = AB. E = (<span id=\"blank_569d1da7-5db6-4f76-961b-afba10deb78f\"></span>, <span id=\"blank_5206f5c3-752a-42c5-b644-e61403fc3f9c\"></span>). d. Determine the coordinates of point H, the head of vector GH, if G(3, 1) and GH = -AB. H = (<span id=\"blank_772272a1-6825-434c-ba7c-4743060d7be3\"></span>, <span id=\"blank_eedc06eb-d022-4be8-9d00-3ec473ae62db\"></span>).</p>",
+    "choices": [],
+    "num_blanks": 7,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "c6b16d90-dca9-4b05-9e49-db5133ce8870"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "12c2aa87-ed3e-4891-a124-e64f073c921f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "76753e2b-7692-4ebd-bf51-895a227e3399"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "569d1da7-5db6-4f76-961b-afba10deb78f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5206f5c3-752a-42c5-b644-e61403fc3f9c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "772272a1-6825-434c-ba7c-4743060d7be3"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "eedc06eb-d022-4be8-9d00-3ec473ae62db"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56700",
+    "item_id": "69522",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] ABCD is a quadrilateral with AB = x, CD = 2y, and AC = 3x - y. Express BD and BC in terms of x and y. BD = . BC = .",
+    "prompt_html": "<p>[K/U] ABCD is a quadrilateral with AB = x, CD = 2y, and AC = 3x - y. Express BD and BC in terms of x and y. BD = <span id=\"blank_42e7a3bc-eb38-4e8c-8102-8cd452e48eb3\"></span>. BC = <span id=\"blank_522a1fc8-d5c9-493e-bf81-1eabf30cb3d9\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "42e7a3bc-eb38-4e8c-8102-8cd452e48eb3"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "522a1fc8-d5c9-493e-bf81-1eabf30cb3d9"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56700",
+    "item_id": "69528",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] An airplane is headed south at speed 400 km/h. The airplane encounters a wind from the east blowing at 100 km/h. a. How far will the airplane travel in 3 h? The airplane will travel km. b. What is the direction of the airplane? The direction is degrees west of south.",
+    "prompt_html": "<p>[A] An airplane is headed south at speed 400 km/h. The airplane encounters a wind from the east blowing at 100 km/h. a. How far will the airplane travel in 3 h? The airplane will travel <span id=\"blank_70ae6fbc-9526-4d54-a4a3-fa5448925276\"></span> km. b. What is the direction of the airplane? The direction is <span id=\"blank_6d8c9410-7922-4af8-a939-e2a2f5b62645\"></span> degrees west of south.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "70ae6fbc-9526-4d54-a4a3-fa5448925276"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6d8c9410-7922-4af8-a939-e2a2f5b62645"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56700",
+    "item_id": "69527",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] The vectors d and e are such that |d| = 3 and |e| = 5, and the angle between them is 30 degrees. Determine: a. |d + e| = . b. |d - e| = . c. |e - d| = .",
+    "prompt_html": "<p>[K/U] The vectors d and e are such that |d| = 3 and |e| = 5, and the angle between them is 30 degrees. Determine: a. |d + e| = <span id=\"blank_6ad6f98c-c4ea-4233-aaa7-608843546a79\"></span>. b. |d - e| = <span id=\"blank_de1da8dd-8d5a-4c65-93aa-156ffd315481\"></span>. c. |e - d| = <span id=\"blank_e2ae2be2-db52-4260-9de5-df951ebd303c\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "6ad6f98c-c4ea-4233-aaa7-608843546a79"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "de1da8dd-8d5a-4c65-93aa-156ffd315481"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e2ae2be2-db52-4260-9de5-df951ebd303c"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56701",
+    "item_id": "69535",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] The vectors x and y are unit vectors that make an angle of 30 degrees with each other. Calculate the value of |2x + y| and the direction of 2x + y. |2x + y| = , and the direction of 2x + y makes an angle of degrees with x.",
+    "prompt_html": "<p>[K/U] The vectors x and y are unit vectors that make an angle of 30 degrees with each other. Calculate the value of |2x + y| and the direction of 2x + y. |2x + y| = <span id=\"blank_53746628-1509-474e-9b1c-16833a87cb5d\"></span>, and the direction of 2x + y makes an angle of <span id=\"blank_fa2c7938-ff84-4dc3-82f3-6621d3e2448c\"></span> degrees with x.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "53746628-1509-474e-9b1c-16833a87cb5d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fa2c7938-ff84-4dc3-82f3-6621d3e2448c"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56701",
+    "item_id": "69541",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] x and y are vectors of magnitude 1 and 2, respectively, with an angle of 120 degrees between them. Determine |3x + 2y| and the direction of 3x + 2y. |3x + 2y| = , and the direction of 3x + 2y makes an angle of degrees with x.",
+    "prompt_html": "<p>[K/U] x and y are vectors of magnitude 1 and 2, respectively, with an angle of 120 degrees between them. Determine |3x + 2y| and the direction of 3x + 2y. |3x + 2y| = <span id=\"blank_3dc57bf9-3cbc-427a-8a4d-dbdc450ca6b5\"></span>, and the direction of 3x + 2y makes an angle of <span id=\"blank_fcc02128-012b-4a3e-b2a4-928b1b06cb56\"></span> degrees with x.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "3dc57bf9-3cbc-427a-8a4d-dbdc450ca6b5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fcc02128-012b-4a3e-b2a4-928b1b06cb56"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56701",
+    "item_id": "69532",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] If the vectors a and b are noncollinear, determine which of the following pairs of vectors are collinear and which are not. a. 2a, -3a: . b. 2a, 3b: . c. 5a, -(3/2)b: . d. -b, 2b: .",
+    "prompt_html": "<p>[K/U] If the vectors a and b are noncollinear, determine which of the following pairs of vectors are collinear and which are not. a. 2a, -3a: <span id=\"blank_75876ab6-bc9d-40a0-a835-e4529be3fadc\"></span>. b. 2a, 3b: <span id=\"blank_a8a20e17-bdda-458f-8861-ee4f836a0012\"></span>. c. 5a, -(3/2)b: <span id=\"blank_bc586ff2-b96f-49d5-b6fa-7ca12e22cb35\"></span>. d. -b, 2b: <span id=\"blank_c4e6ab24-ba6f-42ea-b0de-5a8a3346fee3\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "75876ab6-bc9d-40a0-a835-e4529be3fadc"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a8a20e17-bdda-458f-8861-ee4f836a0012"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bc586ff2-b96f-49d5-b6fa-7ca12e22cb35"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c4e6ab24-ba6f-42ea-b0de-5a8a3346fee3"
+        }
+      ]
+    }
+  }
+]

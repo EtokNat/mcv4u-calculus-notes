@@ -1,0 +1,151 @@
+[
+  {
+    "idx": 0,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "Convert the following angles to radian measure: a. 360 degrees = ; b. 45 degrees = ; c. -90 degrees = ; d. 30 degrees = ; e. 270 degrees = ; f. -120 degrees = ; g. 225 degrees = ; h. 330 degrees =",
+    "prompt_dom": "Convert the following angles to radian measure: a. 360 degrees = \nQuestion Blank 1 of 8\n; b. 45 degrees = \nQuestion Blank 2 of 8\n; c. -90 degrees = \nQuestion Blank 3 of 8\n; d. 30 degrees = \nQuestion Blank 4 of 8\n; e. 270 degrees = \nQuestion Blank 5 of 8\n; f. -120 degrees = \nQuestion Blank 6 of 8\n; g. 225 degrees = \nQuestion Blank 7 of 8\n; h. 330 degrees = \nQuestion Blank 8 of 8",
+    "num_blanks": 8,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "2pi",
+      "pi/4",
+      "-pi/2",
+      "pi/6",
+      "3pi/2",
+      "-2pi/3",
+      "5pi/4",
+      "11pi/6"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 1,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "If you have ever travelled in an airplane, you probably noticed that the air pressure in the airplane varied. The atmospheric pressure, y, varies with the altitude, x kilometres, above Earth. For altitudes up to 10 km, the pressure in millimetres of mercury (mm Hg) is given by y = 760e^(-0.125x). What is the atmospheric pressure at each distance above Earth? a. 5 km: b. 7 km: c. 9 km:",
+    "prompt_dom": "If you have ever travelled in an airplane, you probably noticed that the air pressure in the airplane varied. The atmospheric pressure, y, varies with the altitude, x kilometres, above Earth. For altitudes up to 10 km, the pressure in millimetres of mercury (mm Hg) is given by y = 760e^(-0.125x). What is the atmospheric pressure at each distance above Earth? a. 5 km: \nQuestion Blank 1 of 3\n b. 7 km: \nQuestion Blank 2 of 3\n c. 9 km: \nQuestion Blank 3 of 3",
+    "num_blanks": 3,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "406.8",
+      "316.8",
+      "246.7"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 2,
+    "slug": "numeric",
+    "points": 12.5,
+    "prompt": "[K/U] Calculate the slope of the tangent line that passes through y = 5^x, where x = 2. Express your answer to two decimal places.",
+    "prompt_dom": "[K/U] Calculate the slope of the tangent line that passes through y = 5^x, where x = 2. Express your answer to two decimal places.\n\nAnswer\n\n[K/U] Calculate the slope of the tangent line that passes through y = 5^x, where x = 2. Express your answer to two decimal places.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "slope_tangent",
+    "ok": true,
+    "answers": [
+      "40.2359"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 3,
+    "slug": "numeric",
+    "points": 12.5,
+    "prompt": "[A] A drug is injected into the body in such a way that the concentration, C, in the blood at time t hours is given by the function C(t) = 10(e^(-2t) - e^(-3t)). At what time does the highest concentration occur within the first 5 h? Express your answer to two decimal places.",
+    "prompt_dom": "[A] A drug is injected into the body in such a way that the concentration, C, in the blood at time t hours is given by the function C(t) = 10(e^(-2t) - e^(-3t)). At what time does the highest concentration occur within the first 5 h? Express your answer to two decimal places.\n\nAnswer\n\n[A] A drug is injected into the body in such a way that the concentration, C, in the blood at time t hours is given by the function C(t) = 10(e^(-2t) - e^(-3t)). At what time does the highest concentration occur within the first 5 h? Express your answer to two decimal places.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "0.41"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 4,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[A] The net monthly profit, in dollars, from the sale of a certain item is given by the formula P(x) = 10^6[1 + (x - 1)e^(-0.001x)], where x is the number of items sold. a. Determine the number of items that yield the maximum profit. At full capacity, the factory can produce 2000 items per month. b. Repeat part a, assuming that, at most, 500 items can be produced per month.",
+    "prompt_dom": "[A] The net monthly profit, in dollars, from the sale of a certain item is given by the formula P(x) = 10^6[1 + (x - 1)e^(-0.001x)], where x is the number of items sold. a. Determine the number of items that yield the maximum profit. \nQuestion Blank 1 of 2\n At full capacity, the factory can produce 2000 items per month. b. Repeat part a, assuming that, at most, 500 items can be produced per month. \nQuestion Blank 2 of 2",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "1001",
+      "500"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 5,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[A] The position of a particle is given by s = 5 cos(2t + pi/4) at time t. What are the maximum values of the displacement, the velocity, and the acceleration? Displacement: Velocity: Acceleration:",
+    "prompt_dom": "[A] The position of a particle is given by s = 5 cos(2t + pi/4) at time t. What are the maximum values of the displacement, the velocity, and the acceleration? Displacement: \nQuestion Blank 1 of 3\n Velocity: \nQuestion Blank 2 of 3\n Acceleration: \nQuestion Blank 3 of 3",
+    "num_blanks": 3,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "5",
+      "10",
+      "20"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 6,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Determine the absolute extreme values of f(x) = sin^2 x, where x in [0, pi]. Absolute maximum: Absolute minimum:",
+    "prompt_dom": "[K/U] Determine the absolute extreme values of f(x) = sin^2 x, where x in [0, pi]. Absolute maximum: \nQuestion Blank 1 of 2\n Absolute minimum: \nQuestion Blank 2 of 2",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "1",
+      "0"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  },
+  {
+    "idx": 7,
+    "slug": "numeric",
+    "points": 12.5,
+    "prompt": "[K/U] Determine the local maximum point on the curve y = 2x - tan x, where -pi/2 < x < pi/2. What is the y-value of the local maximum point? Express your answer to two decimal places.",
+    "prompt_dom": "[K/U] Determine the local maximum point on the curve y = 2x - tan x, where -pi/2 < x < pi/2. What is the y-value of the local maximum point? Express your answer to two decimal places.\n\nAnswer\n\n[K/U] Determine the local maximum point on the curve y = 2x - tan x, where -pi/2 < x < pi/2. What is the y-value of the local maximum point? Express your answer to two decimal places.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "0.57"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 87.5
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "idx": 0,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "I can explain the difference between a scalar and a vector, and identify equal and opposite vectors.",
+    "prompt_dom": "I can explain the difference between a scalar and a vector, and identify equal and opposite vectors.\n\nStrongly agree\n\nAgree\n\nDisagree\n\nStrongly disagree",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "2634aaff-9a99-47b5-a2de-7e7084c0a604",
+        "position": 1,
+        "text": "Strongly agree",
+        "html": "<p>Strongly agree</p>"
+      },
+      {
+        "id": "caa8d482-1d56-495c-980c-ca42c1f4ec3c",
+        "position": 2,
+        "text": "Agree",
+        "html": "<p>Agree</p>"
+      },
+      {
+        "id": "0327800f-90dc-4ca6-8ceb-41426a89f36e",
+        "position": 3,
+        "text": "Disagree",
+        "html": "<p>Disagree</p>"
+      },
+      {
+        "id": "46851de7-ca13-4a88-b07a-12e160da4935",
+        "position": 4,
+        "text": "Strongly disagree",
+        "html": "<p>Strongly disagree</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 1,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "I can add and subtract vectors both geometrically (triangle/parallelogram laws) and algebraically (component form in R\u00b2 and R\u00b3).",
+    "prompt_dom": "I can add and subtract vectors both geometrically (triangle/parallelogram laws) and algebraically (component form in R\u00b2 and R\u00b3).\n\nStrongly agree\n\nAgree\n\nDisagree\n\nStrongly disagree",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "b0f17e60-cc86-403e-856e-c64d0fa69b9a",
+        "position": 1,
+        "text": "Strongly agree",
+        "html": "<p>Strongly agree</p>"
+      },
+      {
+        "id": "d1115b38-d069-406a-b80e-fc4f568dec57",
+        "position": 2,
+        "text": "Agree",
+        "html": "<p>Agree</p>"
+      },
+      {
+        "id": "575db437-fd4b-4108-87bd-b71f0ee8481e",
+        "position": 3,
+        "text": "Disagree",
+        "html": "<p>Disagree</p>"
+      },
+      {
+        "id": "57d8e58d-d60d-4bea-8f3b-e47389c439e3",
+        "position": 4,
+        "text": "Strongly disagree",
+        "html": "<p>Strongly disagree</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 2,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "I can write a vector as a linear combination of other vectors and decide whether a set of vectors spans R\u00b2, R\u00b3, or a plane.",
+    "prompt_dom": "I can write a vector as a linear combination of other vectors and decide whether a set of vectors spans R\u00b2, R\u00b3, or a plane.\n\nStrongly agree\n\nAgree\n\nDisagree\n\nStrongly disagree",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "458c12d9-2215-4846-8698-569a7fd423c2",
+        "position": 1,
+        "text": "Strongly agree",
+        "html": "<p>Strongly agree</p>"
+      },
+      {
+        "id": "b50d9b39-38d2-462c-8102-b938f0ecbff8",
+        "position": 2,
+        "text": "Agree",
+        "html": "<p>Agree</p>"
+      },
+      {
+        "id": "45a015ff-2fff-4f2e-862c-8c31adb104c7",
+        "position": 3,
+        "text": "Disagree",
+        "html": "<p>Disagree</p>"
+      },
+      {
+        "id": "67947e35-ed7d-4c45-8291-bb9b73635458",
+        "position": 4,
+        "text": "Strongly disagree",
+        "html": "<p>Strongly disagree</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 3,
+    "slug": "essay",
+    "points": 1.0,
+    "prompt": "What is one idea from this unit that finally 'clicked' for you \u2014 and what helped it click (a diagram, a worked example, the Desmos exploration, the video)?",
+    "prompt_dom": "What is one idea from this unit that finally 'clicked' for you \u2014 and what helped it click (a diagram, a worked example, the Desmos exploration, the video)?\n\nWhat is one idea from this unit that finally 'clicked' for you \u2014 and what helped it click (a diagram, a worked example, the Desmos exploration, the video)?\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 4,
+    "slug": "essay",
+    "points": 1.0,
+    "prompt": "What is one topic from this unit you still want to review before the test \u2014 and what specifically about it feels shaky?",
+    "prompt_dom": "What is one topic from this unit you still want to review before the test \u2014 and what specifically about it feels shaky?\n\nWhat is one topic from this unit you still want to review before the test \u2014 and what specifically about it feels shaky?\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  }
+]

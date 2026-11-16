@@ -1,0 +1,240 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56100",
+    "item_id": "65091",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = , a(2) = ; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = .",
+    "prompt_html": "<p>An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = <span id=\"blank_753d402c-4f24-4194-bb5f-bf368309e939\"></span>, a(2) = <span id=\"blank_405906fc-880a-4005-8de3-948208483ca6\"></span>; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = <span id=\"blank_f80fc07c-75a2-429c-af7d-d4b56163d7ca\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "753d402c-4f24-4194-bb5f-bf368309e939"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "405906fc-880a-4005-8de3-948208483ca6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f80fc07c-75a2-429c-af7d-d4b56163d7ca"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56101",
+    "item_id": "65148",
+    "points": 4.0,
+    "slug": "numeric",
+    "prompt_text": "A swimming pool is treated periodically to control the growth of bacteria. Suppose that t days after a treatment, the number of bacteria per cubic centimetre is N(t) = 30t^2 - 240t + 500. Determine the lowest number of bacteria during the first week after the treatment.",
+    "prompt_html": "<p>A swimming pool is treated periodically to control the growth of bacteria. Suppose that t days after a treatment, the number of bacteria per cubic centimetre is N(t) = 30t^2 - 240t + 500. Determine the lowest number of bacteria during the first week after the treatment.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56102",
+    "item_id": "65191",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2. The minimal distance is .",
+    "prompt_html": "<p>Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2. The minimal distance is <span id=\"blank_be168eca-a3b0-469c-a576-81efad6c2bee\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "be168eca-a3b0-469c-a576-81efad6c2bee"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56103",
+    "item_id": "65198",
+    "points": 4.0,
+    "slug": "numeric",
+    "prompt_text": "The landlord of a 50-unit apartment building is planning to increase the rent. Currently, residents pay $850 per month, and all the units are occupied. A real estate agency advises that every $100 increase in rent will result in 10 vacant units. What rent should the landlord charge to maximize revenue? Enter the rent in dollars per month.",
+    "prompt_html": "<p>The landlord of a 50-unit apartment building is planning to increase the rent. Currently, residents pay $850 per month, and all the units are occupied. A real estate agency advises that every $100 increase in rent will result in 10 vacant units. What rent should the landlord charge to maximize revenue? Enter the rent in dollars per month.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56104",
+    "item_id": "63068",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Each of the following position functions describes the motion of an object along a straight line. Find the velocity and acceleration as functions of t, t >= 0.\n a. s(t) = 5t^2 - 3t + 15\n b. s(t) = 2t^3 + 36t - 10\n c. s(t) = t - 8 + 6/t\n d. s(t) = (t - 3)^2\n e. s(t) = sqrt(t + 1)\n f. s(t) = 9t/(t + 3)",
+    "prompt_html": "<p>[K/U]</p><p>Each of the following position functions describes the motion of an object along a straight line. Find the velocity and acceleration as functions of t, t &gt;= 0.</p><p>a. s(t) = 5t^2 - 3t + 15</p><p>b. s(t) = 2t^3 + 36t - 10</p><p>c. s(t) = t - 8 + 6/t</p><p>d. s(t) = (t - 3)^2</p><p>e. s(t) = sqrt(t + 1)</p><p>f. s(t) = 9t/(t + 3)</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56104",
+    "item_id": "63070",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n A particle moves along a straight line with the equation of motion s = (1/3)t^3 - 2t^2 + 3t, t >= 0.\n a. Determine the particle's velocity and acceleration at any time t.\n b. When does the motion of the particle change direction?\n c. When does the particle return to its initial position?",
+    "prompt_html": "<p>[A]</p><p>A particle moves along a straight line with the equation of motion s = (1/3)t^3 - 2t^2 + 3t, t &gt;= 0.</p><p>a. Determine the particle's velocity and acceleration at any time t.</p><p>b. When does the motion of the particle change direction?</p><p>c. When does the particle return to its initial position?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56104",
+    "item_id": "63077",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n A dragster races down a 400 m strip in 8 s. Its distance, in metres, from the starting line after t seconds is s(t) = 6t^2 + 2t.\n a. Determine the dragster's velocity and acceleration as it crosses the finish line.\n b. How fast was it moving 60 m down the strip?",
+    "prompt_html": "<p>[A]</p><p>A dragster races down a 400 m strip in 8 s. Its distance, in metres, from the starting line after t seconds is s(t) = 6t^2 + 2t.</p><p>a. Determine the dragster's velocity and acceleration as it crosses the finish line.</p><p>b. How fast was it moving 60 m down the strip?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56105",
+    "item_id": "63085",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n State the absolute maximum value and the absolute minimum value of each function, if the function is defined on the interval shown.",
+    "prompt_html": "<p>[K/U]</p><p>State the absolute maximum value and the absolute minimum value of each function, if the function is defined on the interval shown.</p><p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/25486b70-039c-40dd-a9a7-60c53d1e56aa/fig_32q2.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy8yNTQ4NmI3MC0wMzljLTQwZGQtYTlhNy02MGM1M2QxZTU2YWEvZmlnXzMycTIucG5nIiwidGVuYW50X2F1dGgiOnsibG9jYXRpb24iOiJiYW5rLzI0MjYwMDAwMDAwMDAwNDkwIn0sImV4cCI6MTc5NDc5MDk2OCwiaWF0IjoxNzk0NzQ0MTY4LCJpc3MiOiJuZXctcXVpenplcyIsImF1ZCI6Imh0dHBzOi8vaW5zdC1mcy1pYWQtcHJvZC5pbnNjbG91ZGdhdGUubmV0In0.fBSMDXz5WklkrwgIc0zsb7B2tX8iNl7N4WV4XxFcRKfuaDe1-AHlS5YnF2MsMwZyrIBk87rJtcLDnxynzr1pUg\" alt=\"Nelson Calculus and Vectors 12, Ch 3, p. 136 - Exercise 3.2, Question 2: four function graphs (a-d)\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55732/preview\"></p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 9,
+    "quiz_entry_id": "56105",
+    "item_id": "63092",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n Technicians working for the Ministry of Natural Resources found that the amount of a pollutant in a certain river can be represented by P(t) = 2t + 1/(162t + 1), 0 <= t <= 1, where t is the time, in years, since a cleanup campaign started. At what time was the pollution at its lowest level?",
+    "prompt_html": "<p>[A]</p><p>Technicians working for the Ministry of Natural Resources found that the amount of a pollutant in a certain river can be represented by P(t) = 2t + 1/(162t + 1), 0 &lt;= t &lt;= 1, where t is the time, in years, since a cleanup campaign started. At what time was the pollution at its lowest level?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 10,
+    "quiz_entry_id": "56105",
+    "item_id": "63087",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[T]\n Using the algorithm for finding maximum or minimum values, determine the absolute extreme values of each function on the given interval.\n a. f(x) = x + 4/x, 1 <= x <= 10\n b. f(x) = 4sqrt(x) - x, x in [2, 9]\n c. f(x) = 1/(x^2 - 2x + 2), 0 <= x <= 2\n d. f(x) = 3x^4 - 4x^3 - 36x^2 + 20, x in [-3, 4]\n e. f(x) = 4x/(x^2 + 1), -2 <= x <= 4\n f. f(x) = 4x/(x^2 + 1), x in [2, 4]",
+    "prompt_html": "<p>[T]</p><p>Using the algorithm for finding maximum or minimum values, determine the absolute extreme values of each function on the given interval.</p><p>a. f(x) = x + 4/x, 1 &lt;= x &lt;= 10</p><p>b. f(x) = 4sqrt(x) - x, x in [2, 9]</p><p>c. f(x) = 1/(x^2 - 2x + 2), 0 &lt;= x &lt;= 2</p><p>d. f(x) = 3x^4 - 4x^3 - 36x^2 + 20, x in [-3, 4]</p><p>e. f(x) = 4x/(x^2 + 1), -2 &lt;= x &lt;= 4</p><p>f. f(x) = 4x/(x^2 + 1), x in [2, 4]</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 11,
+    "quiz_entry_id": "56106",
+    "item_id": "63129",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[T]\n Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2.",
+    "prompt_html": "<p>[T]</p><p>Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 12,
+    "quiz_entry_id": "56106",
+    "item_id": "63119",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n Determine the area of the largest rectangle that can be inscribed inside a semicircle with a radius of 10 units. Place the length of the rectangle along the diameter.",
+    "prompt_html": "<p>[A]</p><p>Determine the area of the largest rectangle that can be inscribed inside a semicircle with a radius of 10 units. Place the length of the rectangle along the diameter.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 13,
+    "quiz_entry_id": "56106",
+    "item_id": "63105",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Evaluate each of the following:\n a. f'(3) if f(x) = x^4 - 3x\n b. f'(-2) if f(x) = 2x^3 + 4x^2 - 5x + 8\n c. f''(1) if f(x) = -3x^2 - 5x + 7\n d. f''(-3) if f(x) = 4x^3 - 3x^2 + 2x - 6\n e. f'(0) if f(x) = 14x^2 + 3x - 6\n f. f''(4) if f(x) = x^4 + x^5 - x^3\n g. f''(1/3) if f(x) = -2x^5 + 2x - 6 - 3x^3\n h. f'(3/4) if f(x) = -3x^3 - 7x^2 + 4x - 11",
+    "prompt_html": "<p>[K/U]</p><p>Evaluate each of the following:</p><p>a. f'(3) if f(x) = x^4 - 3x</p><p>b. f'(-2) if f(x) = 2x^3 + 4x^2 - 5x + 8</p><p>c. f''(1) if f(x) = -3x^2 - 5x + 7</p><p>d. f''(-3) if f(x) = 4x^3 - 3x^2 + 2x - 6</p><p>e. f'(0) if f(x) = 14x^2 + 3x - 6</p><p>f. f''(4) if f(x) = x^4 + x^5 - x^3</p><p>g. f''(1/3) if f(x) = -2x^5 + 2x - 6 - 3x^3</p><p>h. f'(3/4) if f(x) = -3x^3 - 7x^2 + 4x - 11</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 14,
+    "quiz_entry_id": "56107",
+    "item_id": "63149",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[T]\n A fuel tank is being designed to contain 200 m^3 of gasoline, but the maximum length of a tank (measured from the tips of each hemisphere) that can be safely transported to clients is 16 m long. The design of the tank calls for a cylindrical part in the middle, with hemispheres at each end. If the hemispheres are twice as expensive per unit area as the cylindrical part, find the radius and height of the cylindrical part so the cost of manufacturing the tank will be minimal. Give your answers correct to the nearest centimetre.",
+    "prompt_html": "<p>[T]</p><p>A fuel tank is being designed to contain 200 m^3 of gasoline, but the maximum length of a tank (measured from the tips of each hemisphere) that can be safely transported to clients is 16 m long. The design of the tank calls for a cylindrical part in the middle, with hemispheres at each end. If the hemispheres are twice as expensive per unit area as the cylindrical part, find the radius and height of the cylindrical part so the cost of manufacturing the tank will be minimal. Give your answers correct to the nearest centimetre.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 15,
+    "quiz_entry_id": "56107",
+    "item_id": "63137",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n A rectangular piece of land is to be fenced using two kinds of fencing. Two opposite sides will be fenced using standard fencing that costs $6/m, while the other two sides will require heavy-duty fencing that costs $9/m. What are the dimensions of the rectangular lot of greatest area that can be fenced for a cost of $9000?",
+    "prompt_html": "<p>[A]</p><p>A rectangular piece of land is to be fenced using two kinds of fencing. Two opposite sides will be fenced using standard fencing that costs $6/m, while the other two sides will require heavy-duty fencing that costs $9/m. What are the dimensions of the rectangular lot of greatest area that can be fenced for a cost of $9000?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 16,
+    "quiz_entry_id": "56107",
+    "item_id": "63139",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n A bus service carries 10 000 people daily between Ajax and Union Station, and the company has space to serve up to 15 000 people per day. The cost to ride the bus is $20. Market research shows that if the fare increases by $0.50, 200 fewer people will ride the bus. What fare should be charged to get the maximum revenue, given that the bus company must have at least $130 000 in fares a day to cover operating costs?",
+    "prompt_html": "<p>[A]</p><p>A bus service carries 10 000 people daily between Ajax and Union Station, and the company has space to serve up to 15 000 people per day. The cost to ride the bus is $20. Market research shows that if the fare increases by $0.50, 200 fewer people will ride the bus. What fare should be charged to get the maximum revenue, given that the bus company must have at least $130 000 in fares a day to cover operating costs?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  }
+]

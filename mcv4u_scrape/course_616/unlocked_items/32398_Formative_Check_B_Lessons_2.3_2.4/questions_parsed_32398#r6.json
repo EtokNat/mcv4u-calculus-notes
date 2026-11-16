@@ -1,0 +1,207 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56025",
+    "item_id": "74778",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] (parts b-d only) An ant colony was treated with an insecticide and the number of survivors, A, in hundreds at t hours is A(t) = -t^3 + 5t + 750.\n a. Find A'(t). A'(t) = \n b. Find the rate of change of the number of living ants in the colony at 5 h: ants/h\n c. How many ants were in the colony before it was treated with the insecticide? ants\n d. How many hours after the insecticide was applied were no ants remaining in the colony? h",
+    "prompt_html": "<p>[A] (parts b-d only) An ant colony was treated with an insecticide and the number of survivors, A, in hundreds at t hours is A(t) = -t^3 + 5t + 750.</p>\n<p>a. Find A'(t). A'(t) = <span id=\"blank_6971aaaa-176d-4f76-8f3f-ba9a664d5c09\"></span></p>\n<p>b. Find the rate of change of the number of living ants in the colony at 5 h: <span id=\"blank_bcf19c54-7598-4f08-a1d2-a862a5f67f2e\"></span> ants/h</p>\n<p>c. How many ants were in the colony before it was treated with the insecticide? <span id=\"blank_7818140a-b161-4045-80bb-2ed1f48cee38\"></span> ants</p>\n<p>d. How many hours after the insecticide was applied were no ants remaining in the colony? <span id=\"blank_1bd6be63-4ff8-4cc6-94b5-4d61001d89da\"></span> h</p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "6971aaaa-176d-4f76-8f3f-ba9a664d5c09"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bcf19c54-7598-4f08-a1d2-a862a5f67f2e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7818140a-b161-4045-80bb-2ed1f48cee38"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1bd6be63-4ff8-4cc6-94b5-4d61001d89da"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56025",
+    "item_id": "74779",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] (part b only) A manufacturer of kitchen appliances experiences revenue of R(x) = 750x - x^2/6 - (2/3)x^3 dollars from the sale of x refrigerators per month.\n a. Find the marginal revenue, R'(x). R'(x) = \n b. Find the marginal revenue when 10 refrigerators per month are sold:",
+    "prompt_html": "<p>[A] (part b only) A manufacturer of kitchen appliances experiences revenue of R(x) = 750x - x^2/6 - (2/3)x^3 dollars from the sale of x refrigerators per month.</p>\n<p>a. Find the marginal revenue, R'(x). R'(x) = <span id=\"blank_24062d3d-869a-48c6-8ca1-8f4e4f19e95c\"></span></p>\n<p>b. Find the marginal revenue when 10 refrigerators per month are sold: <span id=\"blank_c1d977c3-c64c-45df-8606-a4f0e8c0f9c5\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "24062d3d-869a-48c6-8ca1-8f4e4f19e95c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c1d977c3-c64c-45df-8606-a4f0e8c0f9c5"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56025",
+    "item_id": "65017",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "[A] An economist has found that the demand function for a particular new product is given by D(p) = 20/sqrt(p - 1), p > 1. Find the slope of the demand curve at the point (5, 10).",
+    "prompt_html": "<p>[A] An economist has found that the demand function for a particular new product is given by D(p) = 20/sqrt(p - 1), p &gt; 1. Find the slope of the demand curve at the point (5, 10).</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56025",
+    "item_id": "64997",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine the coordinates of the points on the graph of y = x^3 + 2 at which the slope of the tangent is 12.\n Point 1: ( , )\n Point 2: ( , )",
+    "prompt_html": "<p>[K/U] Determine the coordinates of the points on the graph of y = x^3 + 2 at which the slope of the tangent is 12.</p>\n<p>Point 1: (<span id=\"blank_7acb7568-4a04-49c2-b05b-4276970029b9\"></span>, <span id=\"blank_49cd044e-89df-4175-a1c6-98fc2bd8c472\"></span>)</p>\n<p>Point 2: (<span id=\"blank_6da1d1b2-c316-4573-a407-b6464a5d2a50\"></span>, <span id=\"blank_d0844707-d5d8-431f-87e7-20f54aafc96a\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "7acb7568-4a04-49c2-b05b-4276970029b9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "49cd044e-89df-4175-a1c6-98fc2bd8c472"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6da1d1b2-c316-4573-a407-b6464a5d2a50"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d0844707-d5d8-431f-87e7-20f54aafc96a"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56026",
+    "item_id": "65031",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine the equation of the tangent to the graph of each function.\n a. y = -3x^2 + 6x + 4 when x = 1: tangent \n b. y = 3 - 2 sqrt(x) when x = 9: tangent \n c. f(x) = -2x^4 + 4x^3 - 2x^2 - 8x + 9 when x = 3: tangent",
+    "prompt_html": "<p>[K/U] Determine the equation of the tangent to the graph of each function.</p>\n<p>a. y = -3x^2 + 6x + 4 when x = 1: tangent <span id=\"blank_42a1f8a5-f52e-4442-bb13-3b03004d998f\"></span></p>\n<p>b. y = 3 - 2 sqrt(x) when x = 9: tangent <span id=\"blank_dc8144d0-47b9-401a-8909-4623ca822d62\"></span></p>\n<p>c. f(x) = -2x^4 + 4x^3 - 2x^2 - 8x + 9 when x = 3: tangent <span id=\"blank_6f59b7cd-3cfd-4ed4-ba0d-d49622591acc\"></span></p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "42a1f8a5-f52e-4442-bb13-3b03004d998f"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "dc8144d0-47b9-401a-8909-4623ca822d62"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6f59b7cd-3cfd-4ed4-ba0d-d49622591acc"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56026",
+    "item_id": "65032",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine the equation of the tangent to y = (5x^2 + 9x - 2)(-x^2 + 2x + 3) at (1, 48).\n Tangent:",
+    "prompt_html": "<p>[K/U] Determine the equation of the tangent to y = (5x^2 + 9x - 2)(-x^2 + 2x + 3) at (1, 48).</p>\n<p>Tangent: <span id=\"blank_c0ceda18-0cc4-40ab-b42e-6e6232b95880\"></span></p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "c0ceda18-0cc4-40ab-b42e-6e6232b95880"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56026",
+    "item_id": "65025",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[C] When is it not appropriate to use the product rule? Give examples.\n It is not necessary to use the product rule when one factor is a , or when it is easier to the product first and use other rules. For example, f(x) = 3(x^2 + 1) and g(x) = (x + 1)(x - 1).",
+    "prompt_html": "<p>[C] When is it not appropriate to use the product rule? Give examples.</p>\n<p>It is not necessary to use the product rule when one factor is a <span id=\"blank_66951fc8-f098-4623-9331-96629df8284c\"></span>, or when it is easier to <span id=\"blank_b47b7178-955c-46e3-8cc4-f81efd130449\"></span> the product first and use other rules. For example, f(x) = 3(x^2 + 1) and g(x) = (x + 1)(x - 1).</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "66951fc8-f098-4623-9331-96629df8284c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b47b7178-955c-46e3-8cc4-f81efd130449"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56026",
+    "item_id": "65027",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine the value of dy/dx for the given value of x.\n a. y = (2 + 7x)(x - 3), x = 2: dy/dx = \n b. y = (1 - 2x)(1 + 2x), x = 1/2: dy/dx = \n c. y = (3 - 2x - x^2)(x^2 + x - 2), x = -2: dy/dx = \n d. y = x^3 (3x + 7)^2, x = -2: dy/dx = \n e. y = (2x + 1)^5 (3x + 2)^4, x = -1: dy/dx = \n f. y = x(5x - 2)(5x + 2), x = 3: dy/dx =",
+    "prompt_html": "<p>[K/U] Determine the value of dy/dx for the given value of x.</p>\n<p>a. y = (2 + 7x)(x - 3), x = 2: dy/dx = <span id=\"blank_2da320fa-8ee2-417b-962e-1b25fd74fbe7\"></span></p>\n<p>b. y = (1 - 2x)(1 + 2x), x = 1/2: dy/dx = <span id=\"blank_36a0b9ec-61e3-42a5-8cfd-1694b30a1d8b\"></span></p>\n<p>c. y = (3 - 2x - x^2)(x^2 + x - 2), x = -2: dy/dx = <span id=\"blank_272e6f21-bc76-4b1e-8a00-60e60a94a227\"></span></p>\n<p>d. y = x^3 (3x + 7)^2, x = -2: dy/dx = <span id=\"blank_48dab723-2c53-4b46-92c3-707a12f6b092\"></span></p>\n<p>e. y = (2x + 1)^5 (3x + 2)^4, x = -1: dy/dx = <span id=\"blank_99428d62-a3ae-4ece-934f-f59a759f54fa\"></span></p>\n<p>f. y = x(5x - 2)(5x + 2), x = 3: dy/dx = <span id=\"blank_fa07b730-637b-4af8-ae2b-84d351b8d084\"></span></p>",
+    "choices": [],
+    "num_blanks": 6,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "2da320fa-8ee2-417b-962e-1b25fd74fbe7"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "36a0b9ec-61e3-42a5-8cfd-1694b30a1d8b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "272e6f21-bc76-4b1e-8a00-60e60a94a227"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "48dab723-2c53-4b46-92c3-707a12f6b092"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "99428d62-a3ae-4ece-934f-f59a759f54fa"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fa07b730-637b-4af8-ae2b-84d351b8d084"
+        }
+      ]
+    }
+  }
+]

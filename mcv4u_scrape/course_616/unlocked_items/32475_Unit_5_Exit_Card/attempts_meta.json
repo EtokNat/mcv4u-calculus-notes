@@ -1,0 +1,177 @@
+[
+  {
+    "idx": 0,
+    "slug": "essay",
+    "points": 1.0,
+    "prompt": "What is one thing from this unit that finally 'clicked' for you, and one thing you still want to practise?",
+    "prompt_dom": "What is one thing from this unit that finally 'clicked' for you, and one thing you still want to practise?\n\nWhat is one thing from this unit that finally 'clicked' for you, and one thing you still want to practise?\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 1,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "Which topic do you most want to review before the summative?",
+    "prompt_dom": "Which topic do you most want to review before the summative?\n\nDerivatives of e^x and b^x (Lessons 5.1-5.2)\n\nOptimization with exponential functions (Lesson 5.3)\n\nDerivatives of sin x, cos x, tan x (Lessons 5.4-5.5)\n\nGrowth/decay and harmonic motion (Lesson 5.6)",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "d8e68476-0422-483c-ad0e-2a00bba3a7da",
+        "position": 1,
+        "text": "Derivatives of e^x and b^x (Lessons 5.1-5.2)",
+        "html": "<p>Derivatives of e^x and b^x (Lessons 5.1-5.2)</p>"
+      },
+      {
+        "id": "d34d5f7b-1e1a-4f55-9e06-acf9b82e6aae",
+        "position": 2,
+        "text": "Optimization with exponential functions (Lesson 5.3)",
+        "html": "<p>Optimization with exponential functions (Lesson 5.3)</p>"
+      },
+      {
+        "id": "d5d26be0-0e66-4214-9a9e-a060a6b67c58",
+        "position": 3,
+        "text": "Derivatives of sin x, cos x, tan x (Lessons 5.4-5.5)",
+        "html": "<p>Derivatives of sin x, cos x, tan x (Lessons 5.4-5.5)</p>"
+      },
+      {
+        "id": "4312f2c1-809c-44ba-ab6a-3b0c2f0bfc3e",
+        "position": 4,
+        "text": "Growth/decay and harmonic motion (Lesson 5.6)",
+        "html": "<p>Growth/decay and harmonic motion (Lesson 5.6)</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 2,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "I can use these derivatives in applications: optimization with exponentials, growth/decay, and harmonic motion.",
+    "prompt_dom": "I can use these derivatives in applications: optimization with exponentials, growth/decay, and harmonic motion.\n\nStrongly agree\n\nAgree\n\nDisagree\n\nStrongly disagree",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "751669f9-0c3a-4661-920f-71f34180d01f",
+        "position": 1,
+        "text": "Strongly agree",
+        "html": "<p>Strongly agree</p>"
+      },
+      {
+        "id": "08a2e01a-c26e-4fed-b38d-2d82f43ea807",
+        "position": 2,
+        "text": "Agree",
+        "html": "<p>Agree</p>"
+      },
+      {
+        "id": "f7952935-d377-49fa-bec4-28f565da9fb9",
+        "position": 3,
+        "text": "Disagree",
+        "html": "<p>Disagree</p>"
+      },
+      {
+        "id": "9d4f761d-5a3d-4748-a3e7-a1dde574ad6f",
+        "position": 4,
+        "text": "Strongly disagree",
+        "html": "<p>Strongly disagree</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 3,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "I can differentiate sin x, cos x, and tan x (including with the chain rule) without looking up the rules.",
+    "prompt_dom": "I can differentiate sin x, cos x, and tan x (including with the chain rule) without looking up the rules.\n\nStrongly agree\n\nAgree\n\nDisagree\n\nStrongly disagree",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "87d6fc97-d013-4b47-b506-73a6ec16118a",
+        "position": 1,
+        "text": "Strongly agree",
+        "html": "<p>Strongly agree</p>"
+      },
+      {
+        "id": "59e297e5-3ac1-40e5-b103-2d3d961def4e",
+        "position": 2,
+        "text": "Agree",
+        "html": "<p>Agree</p>"
+      },
+      {
+        "id": "aa3ad4cd-36db-45e5-9c17-889bd1ec95b7",
+        "position": 3,
+        "text": "Disagree",
+        "html": "<p>Disagree</p>"
+      },
+      {
+        "id": "8311b8fa-bf49-48eb-86ad-ae92e6336478",
+        "position": 4,
+        "text": "Strongly disagree",
+        "html": "<p>Strongly disagree</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 4,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "I can differentiate e^x and b^x (including with the chain rule) without looking up the rules.",
+    "prompt_dom": "I can differentiate e^x and b^x (including with the chain rule) without looking up the rules.\n\nStrongly agree\n\nAgree\n\nDisagree\n\nStrongly disagree",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "3f7ac284-74c8-4697-8bbb-cf8db1908269",
+        "position": 1,
+        "text": "Strongly agree",
+        "html": "<p>Strongly agree</p>"
+      },
+      {
+        "id": "bceec3a5-2ef3-4368-83e7-b09c3da1dc7d",
+        "position": 2,
+        "text": "Agree",
+        "html": "<p>Agree</p>"
+      },
+      {
+        "id": "940248d6-f075-4672-a9cd-a928a5a73660",
+        "position": 3,
+        "text": "Disagree",
+        "html": "<p>Disagree</p>"
+      },
+      {
+        "id": "985d8110-bc09-4c27-9f42-995343d66272",
+        "position": 4,
+        "text": "Strongly disagree",
+        "html": "<p>Strongly disagree</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  }
+]

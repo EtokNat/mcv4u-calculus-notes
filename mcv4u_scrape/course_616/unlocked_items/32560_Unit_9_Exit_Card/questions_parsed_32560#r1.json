@@ -1,0 +1,263 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "33949",
+    "item_id": "45084",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "How confident are you now writing vector, parametric, and symmetric equations of a line in R3?",
+    "prompt_html": "<p>How confident are you now writing vector, parametric, and symmetric equations of a line in R3?</p>",
+    "choices": [
+      {
+        "id": "0adf18b1-01c4-4720-8bc2-26addea9ab6f",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "a4809b11-2f49-42d0-8f3f-bd4bc75999f4",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "803f5cd2-ff78-4ecd-b411-cb02db78a926",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "dfffc506-e65d-47ba-8e7c-e396a696dc6e",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>Very confident</p>",
+          "id": "0adf18b1-01c4-4720-8bc2-26addea9ab6f",
+          "position": 1
+        },
+        {
+          "item_body": "<p>Somewhat confident</p>",
+          "id": "a4809b11-2f49-42d0-8f3f-bd4bc75999f4",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Not very confident</p>",
+          "id": "803f5cd2-ff78-4ecd-b411-cb02db78a926",
+          "position": 3
+        },
+        {
+          "item_body": "<p>Not confident at all</p>",
+          "id": "dfffc506-e65d-47ba-8e7c-e396a696dc6e",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "33959",
+    "item_id": "45094",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "How confident are you now finding intersections (line-plane, two lines, two/three planes) and distances (point-line, point-plane, skew lines)?",
+    "prompt_html": "<p>How confident are you now finding intersections (line-plane, two lines, two/three planes) and distances (point-line, point-plane, skew lines)?</p>",
+    "choices": [
+      {
+        "id": "511e3b0e-4014-4146-b7b8-fdbe56bdc68d",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "76101b0a-9ce2-40da-9aa1-58bb8d3d5018",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "5210f4c7-88d9-4674-8fe7-fdf48549c5de",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "71981f8f-93a0-4e83-8bae-9acd0ab08b64",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>Very confident</p>",
+          "id": "511e3b0e-4014-4146-b7b8-fdbe56bdc68d",
+          "position": 1
+        },
+        {
+          "item_body": "<p>Somewhat confident</p>",
+          "id": "76101b0a-9ce2-40da-9aa1-58bb8d3d5018",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Not very confident</p>",
+          "id": "5210f4c7-88d9-4674-8fe7-fdf48549c5de",
+          "position": 3
+        },
+        {
+          "item_body": "<p>Not confident at all</p>",
+          "id": "71981f8f-93a0-4e83-8bae-9acd0ab08b64",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "33964",
+    "item_id": "45101",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "Which part of this unit clicked best for you?",
+    "prompt_html": "<p>Which part of this unit clicked best for you?</p>",
+    "choices": [
+      {
+        "id": "d674409d-5144-40c7-8004-2283c3c472fc",
+        "position": 1,
+        "text": "Vector and parametric equations of lines (8.1, 8.3)",
+        "html": "<p>Vector and parametric equations of lines (8.1, 8.3)</p>"
+      },
+      {
+        "id": "a849a3d9-0693-49ce-b516-eefeb9af53db",
+        "position": 2,
+        "text": "Cartesian equations and normals (8.2, 8.5)",
+        "html": "<p>Cartesian equations and normals (8.2, 8.5)</p>"
+      },
+      {
+        "id": "c401ca07-84d7-49d2-87be-561d51369e45",
+        "position": 3,
+        "text": "Intersections of lines and planes (9.1-9.4)",
+        "html": "<p>Intersections of lines and planes (9.1-9.4)</p>"
+      },
+      {
+        "id": "6459507e-d3b7-4b88-ac19-1cbf523f2247",
+        "position": 4,
+        "text": "Distances (9.5, 9.6)",
+        "html": "<p>Distances (9.5, 9.6)</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>Vector and parametric equations of lines (8.1, 8.3)</p>",
+          "id": "d674409d-5144-40c7-8004-2283c3c472fc",
+          "position": 1
+        },
+        {
+          "item_body": "<p>Cartesian equations and normals (8.2, 8.5)</p>",
+          "id": "a849a3d9-0693-49ce-b516-eefeb9af53db",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Intersections of lines and planes (9.1-9.4)</p>",
+          "id": "c401ca07-84d7-49d2-87be-561d51369e45",
+          "position": 3
+        },
+        {
+          "item_body": "<p>Distances (9.5, 9.6)</p>",
+          "id": "6459507e-d3b7-4b88-ac19-1cbf523f2247",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "33976",
+    "item_id": "45112",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "What is still the muddiest point for you?",
+    "prompt_html": "<p>What is still the muddiest point for you?</p>",
+    "choices": [
+      {
+        "id": "44e1d29b-fd64-44bd-b1b2-18e770d210de",
+        "position": 1,
+        "text": "Converting between equation forms",
+        "html": "<p>Converting between equation forms</p>"
+      },
+      {
+        "id": "275b73b3-6737-4211-9387-fbf1ea1c401a",
+        "position": 2,
+        "text": "Classifying intersections (parallel/coincident/skew)",
+        "html": "<p>Classifying intersections (parallel/coincident/skew)</p>"
+      },
+      {
+        "id": "4dec6b9e-ac82-4d53-92bb-bb1347dd0ceb",
+        "position": 3,
+        "text": "Distance formulas",
+        "html": "<p>Distance formulas</p>"
+      },
+      {
+        "id": "2163c238-daae-404b-9409-a9941625db43",
+        "position": 4,
+        "text": "Sketching planes in R3",
+        "html": "<p>Sketching planes in R3</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>Converting between equation forms</p>",
+          "id": "44e1d29b-fd64-44bd-b1b2-18e770d210de",
+          "position": 1
+        },
+        {
+          "item_body": "<p>Classifying intersections (parallel/coincident/skew)</p>",
+          "id": "275b73b3-6737-4211-9387-fbf1ea1c401a",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Distance formulas</p>",
+          "id": "4dec6b9e-ac82-4d53-92bb-bb1347dd0ceb",
+          "position": 3
+        },
+        {
+          "item_body": "<p>Sketching planes in R3</p>",
+          "id": "2163c238-daae-404b-9409-a9941625db43",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "33979",
+    "item_id": "45116",
+    "points": 1.0,
+    "slug": "essay",
+    "prompt_text": "What is one thing you would tell a student starting this unit next term?",
+    "prompt_html": "<p>What is one thing you would tell a student starting this unit next term?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "word_limit_min": null,
+      "word_count": false,
+      "word_limit_max": null,
+      "rce": true,
+      "essay": null,
+      "file_upload": false,
+      "spell_check": false,
+      "word_limit_enabled": false
+    }
+  }
+]

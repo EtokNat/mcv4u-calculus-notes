@@ -1,0 +1,289 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "Great \u2014 I can differentiate confidently",
+            "id": "85ad2938-98d4-4075-80b6-ca7eb7e8b56e",
+            "position": 1
+          },
+          {
+            "item_body": "Good \u2014 I get most of it",
+            "id": "39831e86-0fb0-4721-84cf-f81f6fb38d29",
+            "position": 2
+          },
+          {
+            "item_body": "Okay \u2014 some parts are still shaky",
+            "id": "4253e37a-9a59-4d06-9fc9-aff0e376ae9f",
+            "position": 3
+          },
+          {
+            "item_body": "Rough \u2014 I need to revisit a lot",
+            "id": "3cd4fdb3-bfe2-4025-af09-6e987639cea5",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div><p>Overall, how did Unit 2 go for you?</p></div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45365",
+      "label": null,
+      "title": "Question",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "34211",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "Yes, fully",
+            "id": "77cbba9f-18a6-4ff7-9c3e-149f96d413e9",
+            "position": 1
+          },
+          {
+            "item_body": "Mostly",
+            "id": "9e24d249-9c6b-471a-861a-6d5f1bc8d90a",
+            "position": 2
+          },
+          {
+            "item_body": "Partially",
+            "id": "01197f9c-66dc-4689-b010-e2d340aee9b6",
+            "position": 3
+          },
+          {
+            "item_body": "Not yet",
+            "id": "74f081e8-4a87-440d-99f0-9fe3dc760b1f",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div><p>Did you achieve the goal you set for yourself on the entry card?</p></div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45369",
+      "label": null,
+      "title": "Question",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "34212",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "The lessons (readings and worked examples)",
+            "id": "58427f54-8457-4326-b963-3055cb098b68",
+            "position": 1
+          },
+          {
+            "item_body": "The videos",
+            "id": "63275d03-6f74-4612-a564-477f5a835dd5",
+            "position": 2
+          },
+          {
+            "item_body": "The Desmos explorations",
+            "id": "6e2538ab-382e-4540-8d3e-29a70b594d85",
+            "position": 3
+          },
+          {
+            "item_body": "The formative check feedback",
+            "id": "d794a713-da99-4561-aa52-d0ebe52fe742",
+            "position": 4
+          },
+          {
+            "item_body": "The worked examples in the lessons",
+            "id": "c50b147e-1590-4723-9c1e-ba39a07b7b90",
+            "position": 5
+          }
+        ]
+      },
+      "item_body": "<div><p>What helped you most in this unit?</p></div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45373",
+      "label": null,
+      "title": "Question",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "34214",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "The derivative function (\u00a72.1)",
+            "id": "b183bdca-824f-439f-b55e-6e9ac59da43d",
+            "position": 1
+          },
+          {
+            "item_body": "Constant, power &amp; constant multiple rules (\u00a72.2, part 1)",
+            "id": "be27d935-499b-4bd6-86b0-12a1e7aacaea",
+            "position": 2
+          },
+          {
+            "item_body": "Sum &amp; difference rules / differentiating polynomials (\u00a72.2, part 2)",
+            "id": "8f544691-a3ef-4ed9-a52c-6475f00dfe04",
+            "position": 3
+          },
+          {
+            "item_body": "The product rule (\u00a72.3)",
+            "id": "c84b5c44-c92c-4233-96a3-8c8c16864c02",
+            "position": 4
+          },
+          {
+            "item_body": "The quotient rule (\u00a72.4)",
+            "id": "7e647246-e830-41bb-9caf-cb72ea3a3f09",
+            "position": 5
+          },
+          {
+            "item_body": "The chain rule (\u00a72.5)",
+            "id": "ceb17915-5886-4ad6-845b-7f984ed77d6e",
+            "position": 6
+          },
+          {
+            "item_body": "Nothing \u2014 I feel solid on all of it",
+            "id": "95931e46-ac69-4209-9146-407aacb3ca45",
+            "position": 7
+          }
+        ]
+      },
+      "item_body": "<div><p>What remains unclear for you?</p></div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45378",
+      "label": null,
+      "title": "Question",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "34216",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "48054912-2c5e-4de6-9b39-55b280b8cc2e"
+          }
+        ]
+      },
+      "item_body": "<div><p>Unit 3 applies derivatives to real problems (motion, maximum/minimum values, optimization). What support would help you most heading into it?</p></div><span id=\"blank_48054912-2c5e-4de6-9b39-55b280b8cc2e\"></span>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45381",
+      "label": null,
+      "title": "Question",
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "34219",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  }
+]

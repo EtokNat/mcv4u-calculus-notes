@@ -1,0 +1,353 @@
+Skip To Content
+Dashboard
+Account
+Dashboard
+Courses
+Calendar
+10 unread messages.
+10
+Inbox
+History
+Help
+MCV4U
+Home
+Grades
+97
+Modules
+Notebook
+Skip To Quiz Content
+Return
+Unit 9 Summative Assignment
+vincent Teacher
+Due Date
+No due date
+Time Limit
+No time limit
+Number of Questions
+19
+4 questions require grading
+Assessment Statistics
+3%
+3 out of 100 points
+3
+Out of 100 points
+Time for this attempt: 19 seconds
+19 seconds
+00:19
+Time for this attempt
+Your Answers:
+Results for question 1.
+1
+0 / 3 points
+Fill in the Blank
+
+The line through P(2, -4) and Q(-6, 8) has vector equation r = (2, -4) + t(a, b), where (a, b) is the direction vector PQ. Enter (1) the value of a, (2) the value of b. 
+Incorrect answer:
+(no answer)
+ 
+Incorrect answer:
+(no answer)
+.
+
+Results for question 2.
+2
+3 / 3 points
+Multiple Choice
+
+A student writes the "symmetric equations" of the line r = (0, 1, -3) + t(2, 5, 0) as x/2 = (y - 1)/5 = (z + 3)/0. What is the error?
+
+Correct answer:
+The z direction number is 0, so z = -3 must be written separately: x/2 = (y - 1)/5, z = -3.
+The anchor point should be (2, 5, 0).
+, Not Selected
+The direction vector should be (0, 1, -3).
+, Not Selected
+There is no error - this is correct.
+, Not Selected
+Results for question 3.
+3
+0 / 3 points
+Numeric
+
+The line through A(2, 1, -3) and B(-4, 5, 3) crosses the xy-plane (z = 0) at one point. Enter the x-coordinate of that crossing point.
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+-1.0
+Results for question 4.
+4
+0 / 3 points
+Multiple Choice
+
+The symmetric equations of the line through (2, 5, -1) with direction vector (3, -2, 4) are
+
+Incorrect answer:
+(x + 2)/3 = (y + 5)/(-2) = (z - 1)/4
+Correct Answer:
+(x - 2)/3 = (y - 5)/(-2) = (z + 1)/4
+(x - 2)/3 = (y - 5)/2 = (z + 1)/4
+, Not Selected
+(x - 2)/3 = (y - 5)/(-2) = (z + 1)/4
+, Not Selected
+(x - 2)/2 = (y - 5)/(-2) = (z + 1)/3
+, Not Selected
+Results for question 5.
+5
+0 / 3 points
+Multiple Choice
+
+The parametric equations of the line with symmetric equations (x + 1)/(-2) = (y - 3)/4 = (z - 2)/1 are
+
+Incorrect answer:
+x = 1 + 2t, y = -3 - 4t, z = -2 - t
+Correct Answer:
+x = -1 - 2t, y = 3 + 4t, z = 2 + t
+x = -1 - 2t, y = 3 + 4t, z = 2 - t
+, Not Selected
+x = -1 - 2t, y = 3 + 4t, z = 2 + t
+, Not Selected
+x = -2 - t, y = 4 + 3t, z = 1 + 2t
+, Not Selected
+Results for question 6.
+6
+0 / 2 points
+True or False
+
+True or false: two lines in R3 with direction vectors (1, 2, 3) and (2, 4, 6) must be the same line.
+
+Incorrect answer:
+True
+Correct Answer:
+False
+False
+Results for question 7.
+7
+15 points possible
+Essay
+
+Find the Cartesian equation of the plane that contains the point P(1, -2, 0) and the line L: r = (0, 1, 1) + t(1, 2, -1), t in R.
+
+ 
+
+(a) Explain, in words, how you will obtain a normal vector to the plane, then carry out the calculation.
+
+(b) Write the Cartesian (scalar) equation of the plane.
+
+(c) Verify, with a calculation, that both the point P and at least one point on the line L satisfy your equation.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 8.
+8
+0 / 3 points
+Fill in the Blank
+
+The distance from P(1, 1, 5) to the plane z = 2 is 
+Incorrect answer:
+(no answer)
+ .
+
+Results for question 9.
+9
+0 / 2 points
+Ordering
+Put these steps for finding the distance between two skew lines in the correct order.
+Pick one point on each line, P1 and P2Form the vector P1P2Compute the common perpendicular n = m1 x m2Evaluate |n . P1P2| / |n|
+Put these steps for finding the distance between two skew lines in the correct order.
+Incorrect answer:
+(no answer)
+Correct Answer:
+Pick one point on each line, P1 and P2
+Incorrect answer:
+(no answer)
+Correct Answer:
+Form the vector P1P2
+Incorrect answer:
+(no answer)
+Correct Answer:
+Compute the common perpendicular n = m1 x m2
+Incorrect answer:
+(no answer)
+Correct Answer:
+Evaluate |n . P1P2| / |n|
+Results for question 10.
+10
+0 / 3 points
+Numeric
+
+The line x = 4 - 5t, y = -2 + 3t passes through Q(-6, 4) for one value of t. Enter that value of t.
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+2.0
+Results for question 11.
+11
+0 / 3 points
+Numeric
+
+For the line (x - 3)/2 = (y + 1)/(-4) = (z - 5)/1, the point with x-coordinate 9 has y-coordinate ___. Enter that y-coordinate.
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+-13.0
+Results for question 12.
+12
+0 / 3 points
+Numeric
+
+The line of intersection of the planes 2x + y - z = 3 and x - y + 2z = 1 is parallel to a direction vector (a, b, c) with a = 1. Enter the exact value of c.
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+-3.0
+Results for question 13.
+13
+15 points possible
+Essay
+
+A line in R2 passes through the point A(-3, 4) with direction vector d = (2, -5).
+
+ 
+
+(a) Write the vector equation of the line.
+
+(b) Write the parametric equations of the line.
+
+(c) Write the symmetric equations of the line (if possible; if not, explain why).
+
+(d) Write the Cartesian (scalar) equation of the line in the form ax + by + c = 0, and verify, with a calculation, that the point A satisfies your equation.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 14.
+14
+0 / 3 points
+Multiple Choice
+
+The planes x + 2y - z = 4 and 2x + 4y - 2z = 8 are
+
+Incorrect answer:
+perpendicular
+Correct Answer:
+coincident
+coincident
+, Not Selected
+parallel and distinct
+, Not Selected
+intersecting in a line
+, Not Selected
+Results for question 15.
+15
+0 / 2 points
+True or False
+
+True or false: the vectors a = (2, -1, 3) and b = (4, -2, 6) can serve as the two direction vectors in a plane's vector equation.
+
+Incorrect answer:
+True
+Correct Answer:
+False
+False
+Results for question 16.
+16
+15 points possible
+Essay
+
+Consider the two lines in R3:
+
+L1: x = 1 + t, y = 2 - t, z = 3 + 2t, t in R
+
+L2: x = 2 - s, y = 1 + s, z = -1 + 2s, s in R
+
+ 
+
+(a) Determine, with full algebraic working, whether the lines are parallel, intersecting, or skew. Show every step of your reasoning.
+
+(b) If the lines intersect, find the point of intersection and verify it lies on both lines. If the lines are skew, explain in a full sentence what it means for two lines to be skew, and show how your algebra confirms this classification.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 17.
+17
+0 / 2 points
+Matching
+Match each line description to its vector equation.  c: r = (1, 1, 1) + t(1, 1, 1); a: r = (2, -5, 1) + t(0, 4, -2); d: r = (-1, 3) + t(-2, 0); b: r = (0, 0) + t(3, 1)
+Through (0, 0) with direction (3, 1)Through (2, -5, 1) with direction (0, 4, -2)Through (-1, 3) with direction (-2, 0)Through (1, 1, 1) with direction (1, 1, 1)badc
+Match each line description to its vector equation.  c: r = (1, 1, 1) + t(1, 1, 1); a: r = (2, -5, 1) + t(0, 4, -2); d: r = (-1, 3) + t(-2, 0); b: r = (0, 0) + t(3, 1)
+Through (2, -5, 1) with direction (0, 4, -2)
+Incorrect answer:
+(no answer)
+Correct Answer:
+a
+Through (-1, 3) with direction (-2, 0)
+Incorrect answer:
+(no answer)
+Correct Answer:
+d
+Through (1, 1, 1) with direction (1, 1, 1)
+Incorrect answer:
+(no answer)
+Correct Answer:
+c
+Through (0, 0) with direction (3, 1)
+Incorrect answer:
+(no answer)
+Correct Answer:
+b
+Results for question 18.
+18
+15 points possible
+Essay
+
+Consider the two lines in R3:
+
+L1: r = (1, 0, 1) + t(1, 0, 0), t in R
+
+L2: r = (0, 2, 0) + s(0, 1, 1), s in R
+
+ 
+
+(a) Show, with full algebraic working, that L1 and L2 are skew lines.
+
+(b) Find the distance between L1 and L2, showing every step of your calculation.
+
+(c) In one or two full sentences, explain what this distance represents geometrically.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 19.
+19
+0 / 2 points
+Multiple Answer
+
+A student computes the distance from P(4, 1, -2) to the plane 3x - 2y + z = 8. Which of the following steps are correct?
+
+Incorrect answer:
+The denominator is sqrt(9 + 4 + 1) = sqrt(14)
+Missed Option - Incorrect
+Incorrect answer:
+The distance is 0
+Missed Option - Incorrect
+Incorrect answer:
+The numerator is |3(4) - 2(1) + (-2) - 8| = 0
+Missed Option - Incorrect
+Answer,
+The distance is 8/sqrt(14)
+Incorrect answer:
+(no answer)

@@ -1,0 +1,144 @@
+[
+  {
+    "idx": 0,
+    "slug": "numeric",
+    "points": 12.5,
+    "prompt": "[K/U] Determine the slope of the tangent to the curve y = x^3/(x^2 - 6) at point (3, 9).",
+    "prompt_dom": "[K/U] Determine the slope of the tangent to the curve y = x^3/(x^2 - 6) at point (3, 9).\n\nAnswer\n\n[K/U] Determine the slope of the tangent to the curve y = x^3/(x^2 - 6) at point (3, 9).",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "slope_tangent",
+    "ok": true,
+    "answers": [
+      "-9"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 60.41666666666666
+  },
+  {
+    "idx": 1,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Determine dy/dx at the given value of x.\n a. y = (3x + 2)/(x + 5), x = -3: dy/dx = \n b. y = x^3/(x^2 + 9), x = 1: dy/dx = \n c. y = (x^2 - 25)/(x^2 + 25), x = 2: dy/dx = \n d. y = [(x + 1)(x + 2)]/[(x - 1)(x - 2)], x = 4: dy/dx =",
+    "prompt_dom": "[K/U] Determine dy/dx at the given value of x.\n\na. y = (3x + 2)/(x + 5), x = -3: dy/dx = \nQuestion Blank 1 of 4\n\nb. y = x^3/(x^2 + 9), x = 1: dy/dx = \nQuestion Blank 2 of 4\n\nc. y = (x^2 - 25)/(x^2 + 25), x = 2: dy/dx = \nQuestion Blank 3 of 4\n\nd. y = [(x + 1)(x + 2)]/[(x - 1)(x - 2)], x = 4: dy/dx = \nQuestion Blank 4 of 4",
+    "num_blanks": 4,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "13/4",
+      "7/25",
+      "200/841",
+      "-7/3"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 60.41666666666666
+  },
+  {
+    "idx": 2,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Determine the equation of the tangent to the curve y = (x^2 - 1)/(3x) at x = 2.\n Tangent:",
+    "prompt_dom": "[K/U] Determine the equation of the tangent to the curve y = (x^2 - 1)/(3x) at x = 2.\n\nTangent: \nQuestion Blank 1 of 1",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "y = (5/12)x - 1/3"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 60.41666666666666
+  },
+  {
+    "idx": 3,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Use the quotient rule to differentiate each function. Simplify your answers.\n a. h(x) = x/(x + 1): h'(x) = \n b. h(t) = (2t - 3)/(t + 5): h'(t) = \n c. h(x) = x^3/(2x^2 - 1): h'(x) = \n d. h(x) = 1/(x^2 + 3): h'(x) = \n e. y = x(3x + 5)/(1 - x^2): dy/dx = \n f. y = (x^2 - x + 1)/(x^2 + 3): dy/dx =",
+    "prompt_dom": "[K/U] Use the quotient rule to differentiate each function. Simplify your answers.\n\na. h(x) = x/(x + 1): h'(x) = \nQuestion Blank 1 of 6\n\nb. h(t) = (2t - 3)/(t + 5): h'(t) = \nQuestion Blank 2 of 6\n\nc. h(x) = x^3/(2x^2 - 1): h'(x) = \nQuestion Blank 3 of 6\n\nd. h(x) = 1/(x^2 + 3): h'(x) = \nQuestion Blank 4 of 6\n\ne. y = x(3x + 5)/(1 - x^2): dy/dx = \nQuestion Blank 5 of 6\n\nf. y = (x^2 - x + 1)/(x^2 + 3): dy/dx = \nQuestion Blank 6 of 6",
+    "num_blanks": 6,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "1/(x + 1)^2",
+      "13/(t + 5)^2",
+      "(2x^4 - 3x^2)/(2x^2 - 1)^2",
+      "-2x/(x^2 + 3)^2",
+      "(5x^2 + 6x + 5)/(1 - x^2)^2",
+      "(x^2 + 4x - 3)/(x^2 + 3)^2"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 60.41666666666666
+  },
+  {
+    "idx": 4,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[A] The amount of pollution in a certain lake is P(t) = (t^(1/4) + 3)^3, where t is measured in years and P is measured in parts per million (ppm). At what rate is the amount of pollution changing after 16 years?\n Rate: ppm/year",
+    "prompt_dom": "[A] The amount of pollution in a certain lake is P(t) = (t^(1/4) + 3)^3, where t is measured in years and P is measured in parts per million (ppm). At what rate is the amount of pollution changing after 16 years?\n\nRate: \nQuestion Blank 1 of 1\n ppm/year",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "75/32"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 60.41666666666666
+  },
+  {
+    "idx": 5,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Determine dy/dx at x = -2 for y = 3u^2 + 2u and u = sqrt(x^2 + 5).dy/dx =",
+    "prompt_dom": "[K/U] Determine dy/dx at x = -2 for y = 3u^2 + 2u and u = sqrt(x^2 + 5).dy/dx = \nQuestion Blank 1 of 1",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "-40/3"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 60.41666666666666
+  },
+  {
+    "idx": 6,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Find the rate of change of each function at the given value of t. Leave your answers as rational numbers.\n a. s(t) = t^(1/3) (4t - 5)^(2/3), t = 8: rate = \n b. s(t) = [(t - pi)/(t - 6 pi)]^(1/3), t = 2 pi",
+    "prompt_dom": "[K/U] Find the rate of change of each function at the given value of t. Leave your answers as rational numbers.\n\na. s(t) = t^(1/3) (4t - 5)^(2/3), t = 8: rate = \nQuestion Blank 1 of 1\n\nb. s(t) = [(t - pi)/(t - 6 pi)]^(1/3), t = 2 pi",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "91/36"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 60.41666666666666
+  },
+  {
+    "idx": 7,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Given f(x) = sqrt(x) and g(x) = x^2 - 1, find the following values:\n a. f(g(1)) = \n b. g(f(1)) = \n c. g(f(0)) = \n d. f(g(-4)) = \n e. f(g(x)) = \n f. g(f(x)) =",
+    "prompt_dom": "[K/U] Given f(x) = sqrt(x) and g(x) = x^2 - 1, find the following values:\n\na. f(g(1)) = \nQuestion Blank 1 of 6\n\nb. g(f(1)) = \nQuestion Blank 2 of 6\n\nc. g(f(0)) = \nQuestion Blank 3 of 6\n\nd. f(g(-4)) = \nQuestion Blank 4 of 6\n\ne. f(g(x)) = \nQuestion Blank 5 of 6\n\nf. g(f(x)) = \nQuestion Blank 6 of 6",
+    "num_blanks": 6,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 60.41666666666666
+  }
+]

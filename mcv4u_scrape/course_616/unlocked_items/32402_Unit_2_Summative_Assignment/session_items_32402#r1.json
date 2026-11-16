@@ -1,0 +1,734 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "fa7ae932-70ae-4d71-9675-6afb2006524c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8b32b461-a049-4ff5-96ca-188334ea3037"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a3bce829-3f4e-4fc7-aacb-6543779fd556"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a67ba6d0-addc-4d56-a727-62d74b53108a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "399262c1-3c49-4721-9b3f-be09b08fd300"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b2a9f82a-5d4e-42f1-ad2c-daa76f7e0f4e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7cb442e8-0ed7-4ac2-a162-c7dcf8d62c7b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "4943c1c4-596d-43a0-adcb-c6fed9377b13"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "71099529-8da1-4dbe-ae68-1fd1388bb818"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "05abed6f-cb78-4418-a575-6200b0142dea"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f8f9182d-9181-41bf-b02d-50045fd5325c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b9b662f7-d472-4151-9a9c-96e4c92df307"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] For each function, find f(a + h) and f(a + h) - f(a).</p>\n<p>a. f(x) = 5x - 2: f(a + h) = <span id=\"blank_fa7ae932-70ae-4d71-9675-6afb2006524c\"></span>; f(a + h) - f(a) = <span id=\"blank_8b32b461-a049-4ff5-96ca-188334ea3037\"></span></p>\n<p>b. f(x) = x^2 + 3x - 1: f(a + h) = <span id=\"blank_a3bce829-3f4e-4fc7-aacb-6543779fd556\"></span>; f(a + h) - f(a) = <span id=\"blank_a67ba6d0-addc-4d56-a727-62d74b53108a\"></span></p>\n<p>c. f(x) = x^3 - 4x + 1: f(a + h) = <span id=\"blank_399262c1-3c49-4721-9b3f-be09b08fd300\"></span>; f(a + h) - f(a) = <span id=\"blank_b2a9f82a-5d4e-42f1-ad2c-daa76f7e0f4e\"></span></p>\n<p>d. f(x) = x^2 + x - 6: f(a + h) = <span id=\"blank_7cb442e8-0ed7-4ac2-a162-c7dcf8d62c7b\"></span>; f(a + h) - f(a) = <span id=\"blank_4943c1c4-596d-43a0-adcb-c6fed9377b13\"></span></p>\n<p>e. f(x) = -7x + 4: f(a + h) = <span id=\"blank_71099529-8da1-4dbe-ae68-1fd1388bb818\"></span>; f(a + h) - f(a) = <span id=\"blank_05abed6f-cb78-4418-a575-6200b0142dea\"></span></p>\n<p>f. f(x) = 4 - 2x - x^2: f(a + h) = <span id=\"blank_f8f9182d-9181-41bf-b02d-50045fd5325c\"></span>; f(a + h) - f(a) = <span id=\"blank_b9b662f7-d472-4151-9a9c-96e4c92df307\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64985",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "11": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 5.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56071",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "6155ff16-206d-4c9f-af6a-4a813b608af9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "98108614-d2f6-4a10-b9db-d797da287fb4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ba821082-923e-4376-983b-bf451d99062c"
+          }
+        ]
+      },
+      "item_body": "<p>[T] Consider the function f(x) = 2x^(5/3) - 5x^(2/3).</p>\n<p>a. Determine the slope of the tangent at the point where the graph crosses the x-axis. The graph crosses the x-axis at x = <span id=\"blank_6155ff16-206d-4c9f-af6a-4a813b608af9\"></span>, and the slope there is <span id=\"blank_98108614-d2f6-4a10-b9db-d797da287fb4\"></span>.</p>\n<p>b. Determine the value of a shown in the graph of f(x) given below. (The graph shows the minimum point labeled (a, f(a)).)</p>\n<p>a = <span id=\"blank_ba821082-923e-4376-983b-bf451d99062c\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65013",
+      "label": null,
+      "title": "Q15 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 5.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56072",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "039ebfad-e978-4b74-8831-1549c9187ae0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "866e34cc-ae16-4ed9-9ad8-6c37b285ac26"
+          }
+        ]
+      },
+      "item_body": "<p>[A] (part b only) An athletic-equipment supplier experiences weekly costs of C(x) = (1/3)x^3 + 40x + 700 in producing x baseball gloves per week.</p>\n<p>a. Find the marginal cost, C'(x). C'(x) = <span id=\"blank_039ebfad-e978-4b74-8831-1549c9187ae0\"></span></p>\n<p>b. Find the production level x at which the marginal cost is $76 per glove: <span id=\"blank_866e34cc-ae16-4ed9-9ad8-6c37b285ac26\"></span> gloves/week</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "74780",
+      "label": null,
+      "title": "Q18 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 5.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56072",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "2da320fa-8ee2-417b-962e-1b25fd74fbe7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "36a0b9ec-61e3-42a5-8cfd-1694b30a1d8b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "272e6f21-bc76-4b1e-8a00-60e60a94a227"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "48dab723-2c53-4b46-92c3-707a12f6b092"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "99428d62-a3ae-4ece-934f-f59a759f54fa"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fa07b730-637b-4af8-ae2b-84d351b8d084"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine the value of dy/dx for the given value of x.</p>\n<p>a. y = (2 + 7x)(x - 3), x = 2: dy/dx = <span id=\"blank_2da320fa-8ee2-417b-962e-1b25fd74fbe7\"></span></p>\n<p>b. y = (1 - 2x)(1 + 2x), x = 1/2: dy/dx = <span id=\"blank_36a0b9ec-61e3-42a5-8cfd-1694b30a1d8b\"></span></p>\n<p>c. y = (3 - 2x - x^2)(x^2 + x - 2), x = -2: dy/dx = <span id=\"blank_272e6f21-bc76-4b1e-8a00-60e60a94a227\"></span></p>\n<p>d. y = x^3 (3x + 7)^2, x = -2: dy/dx = <span id=\"blank_48dab723-2c53-4b46-92c3-707a12f6b092\"></span></p>\n<p>e. y = (2x + 1)^5 (3x + 2)^4, x = -1: dy/dx = <span id=\"blank_99428d62-a3ae-4ece-934f-f59a759f54fa\"></span></p>\n<p>f. y = x(5x - 2)(5x + 2), x = 3: dy/dx = <span id=\"blank_fa07b730-637b-4af8-ae2b-84d351b8d084\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65027",
+      "label": null,
+      "title": "Q5 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 5.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56073",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "69546908-9f1e-498c-9249-608523e86658"
+          }
+        ]
+      },
+      "item_body": "<p>[T] a. Using a graphing calculator, graph the function f(x) = x^3/(x^2 - 6). b. Using the draw function or an equivalent function on your calculator or graphing software, find the equations of the tangents where the slope is zero. c. Setting f'(x) = 0, find the coordinates of the points where the slope is zero. d. Determine the slope of the tangent to the graph at (2, -4): slope = <span id=\"blank_69546908-9f1e-498c-9249-608523e86658\"></span>. Use the graph to verify that your answer is reasonable.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65041",
+      "label": null,
+      "title": "Q14 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 5.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56074",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "b2bb4cb6-81ba-4d63-bf6a-050807ac8da2"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Find the rate of change of each function at the given value of t. Leave your answers as rational numbers.</p>\n<p>a. s(t) = t^(1/3) (4t - 5)^(2/3), t = 8: rate = <span id=\"blank_b2bb4cb6-81ba-4d63-bf6a-050807ac8da2\"></span></p>\n<p>b. s(t) = [(t - pi)/(t - 6 pi)]^(1/3), t = 2 pi</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65044",
+      "label": null,
+      "title": "Q9 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 5.0,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56075",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[A]</p><p>A football is kicked up into the air. Its height, h, above the ground, in metres, at t seconds can be modelled by h(t) = 18t - 4.9t^2.</p><p>a. Determine h'(2).</p><p>b. What does h'(2) represent?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "62909",
+      "label": null,
+      "title": "Q14 [A]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56076",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>a. Sketch the graph of f(x) = x^3.</p><p>b. Calculate the slopes of the tangents to f(x) = x^3 at points with x-coordinates -2, -1, 0, 1, 2.</p><p>c. Sketch the graph of the derivative function f'(x).</p><p>d. Compare the graphs of f(x) and f'(x).</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "62904",
+      "label": null,
+      "title": "Q9 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56076",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[T]</p><p>Tangents are drawn from the point (0, 3) to the parabola y = -3x^2. Find the coordinates of the points at which these tangents touch the curve. Illustrate your answer with a sketch.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "62938",
+      "label": null,
+      "title": "Q23 [T]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 9,
+    "question_number": 9,
+    "quiz_entry_id": "56077",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 9,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[T]</p><p>The tangent to the cubic function that is defined by y = x^3 - 6x^2 + 8x at point A(3, -3) intersects the curve at another point, B. Find the coordinates of point B. Illustrate with a sketch.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "62939",
+      "label": null,
+      "title": "Q24 [T]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 10,
+    "question_number": 10,
+    "quiz_entry_id": "56077",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 10,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[K/U]</p><p>Determine the slope of the tangent to the graph of y = (x^2 + 3x - 2)(7 - 3x) at (1, 8).</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63046",
+      "label": null,
+      "title": "Q5 [K/U]",
+      "properties": {}
+    },
+    "points_possible": 7.0,
+    "position": 11,
+    "question_number": 11,
+    "quiz_entry_id": "56078",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 11,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Determine the derivative of the given function. In some cases, it will save time if you rearrange the function before differentiating.</p><p>a. f(x) = (2x^3 - 1)/x^2</p><p>b. g(x) = sqrt(x) (x^3 - x)</p><p>c. y = x/(3x - 5)</p><p>d. y = sqrt(x - 1) (x + 1)</p><p>e. f(x) = (sqrt(x) + 2)^(-2/3)</p><p>f. y = (x^2 + 5x + 4)/(x + 4)</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63015",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 12,
+    "question_number": 12,
+    "quiz_entry_id": "56078",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 12,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Determine dy/dx at the given value of x.</p><p>a. y = (3x + 2)/(x + 5), x = -3</p><p>b. y = x^3/(x^2 + 9), x = 1</p><p>c. y = (x^2 - 25)/(x^2 + 25), x = 2</p><p>d. y = [(x + 1)(x + 2)]/[(x - 1)(x - 2)], x = 4</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "62980",
+      "label": null,
+      "title": "Q5 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 13,
+    "question_number": 13,
+    "quiz_entry_id": "56079",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 13,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[A]</p><p>The concentration, c, of a drug in the blood t hours after the drug is taken orally is given by c(t) = 5t/(2t^2 + 7). When does the concentration reach its maximum value?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "62990",
+      "label": null,
+      "title": "Q15 [A]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 14,
+    "question_number": 14,
+    "quiz_entry_id": "56079",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 14,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Find the rate of change of each function at the given value of t. Leave your answers as rational numbers, or in terms of roots and the number pi.</p><p>a. s(t) = t^(1/3) (4t - 5)^(2/3), t = 8</p><p>b. s(t) = [(t - pi)/(t - 6 pi)]^(1/3), t = 2 pi</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63001",
+      "label": null,
+      "title": "Q9 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 15,
+    "question_number": 15,
+    "quiz_entry_id": "56080",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 15,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Determine the slope of the tangent at point (1, 4) on the graph of f(x) = (9 - x^2)^(2/3).</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63019",
+      "label": null,
+      "title": "Q8 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 7.0,
+    "position": 16,
+    "question_number": 16,
+    "quiz_entry_id": "56080",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 16,
+    "required": null
+  }
+]

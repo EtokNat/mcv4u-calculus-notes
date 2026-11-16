@@ -1,0 +1,683 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "827f3a4a-caa0-44a2-9295-7cf563b091d6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e04cc0d5-ea7d-4c49-9f34-17717a54499f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fb12c88c-745b-4ac6-9f5b-bf313d3c7258"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "bcebe7c4-e4a6-46ec-96d9-a875641bb7d5"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] For the function f(x) = x^4 - 32x + 4, determine the values of x at which f'(x) = 0, the intervals on which f is increasing and decreasing, and all local extrema. Verify using graphing technology. f'(x) = 0 at x = <span id=\"blank_827f3a4a-caa0-44a2-9295-7cf563b091d6\"></span>; f is increasing on <span id=\"blank_e04cc0d5-ea7d-4c49-9f34-17717a54499f\"></span>; f is decreasing on <span id=\"blank_fb12c88c-745b-4ac6-9f5b-bf313d3c7258\"></span>; the local minimum is <span id=\"blank_bcebe7c4-e4a6-46ec-96d9-a875641bb7d5\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65270",
+      "label": null,
+      "title": "Q11 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56114",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "602f00c7-6971-44e6-a7bf-604f23fa2326"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5ec9de6d-0cda-429d-8162-13dc0f217fb1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "48ba39b6-418a-4778-abb7-a7e620b65a1a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a5e6861a-aec9-47d2-866f-fb8887a103e0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3c339eab-ca27-4120-b8f6-3fbba8778f22"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "09e7a25b-1e5d-4337-9a73-0f33fc24be42"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6b9305b9-98f9-40da-8ab9-e2358f8072fc"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7224a010-f1d6-4af2-9fd4-a99d45bcc152"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "24921391-07ee-41a1-b881-830553d67904"
+          }
+        ]
+      },
+      "item_body": "<p>a. Determine the critical points of the function g(x) = 2x^4 - 8x^3 - x^2 + 6x.</p>\n<p>critical x-values: <span id=\"blank_602f00c7-6971-44e6-a7bf-604f23fa2326\"></span>, <span id=\"blank_5ec9de6d-0cda-429d-8162-13dc0f217fb1\"></span>, <span id=\"blank_48ba39b6-418a-4778-abb7-a7e620b65a1a\"></span></p>\n<p>b. Classify each critical point as a local maximum, a local minimum, or neither.</p>\n<p><span id=\"blank_a5e6861a-aec9-47d2-866f-fb8887a103e0\"></span> is a <span id=\"blank_3c339eab-ca27-4120-b8f6-3fbba8778f22\"></span>; <span id=\"blank_09e7a25b-1e5d-4337-9a73-0f33fc24be42\"></span> is a <span id=\"blank_6b9305b9-98f9-40da-8ab9-e2358f8072fc\"></span>; <span id=\"blank_7224a010-f1d6-4af2-9fd4-a99d45bcc152\"></span> is a <span id=\"blank_24921391-07ee-41a1-b881-830553d67904\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65296",
+      "label": null,
+      "title": "Q2 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56115",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "1afb70c9-3f4d-44ba-8088-6e0cd61292e0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b93a2034-7de3-4e4e-a99a-6015f15ef179"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a709b6d8-60fa-43c5-a18c-10138f2985d9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "cd0fed89-f326-4be8-8523-1caf184a3ed4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "33d2f299-caf9-4c76-ae1d-0bde798bc294"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "d7608fa4-7ea2-4ec5-8089-82cba6ba18cc"
+          }
+        ]
+      },
+      "item_body": "<p>State the equation of the horizontal asymptote of the graph of each function. Does the graph approach the asymptote from above or below, for large negative values of x? For large positive values of x?</p>\n<p>a. y = (3x - 1)/(x + 5); horizontal asymptote: <span id=\"blank_1afb70c9-3f4d-44ba-8088-6e0cd61292e0\"></span>; for large negative x: from <span id=\"blank_b93a2034-7de3-4e4e-a99a-6015f15ef179\"></span>; for large positive x: from <span id=\"blank_a709b6d8-60fa-43c5-a18c-10138f2985d9\"></span></p>\n<p>b. f(x) = (x^2 + 3x - 2)/(x - 1)^2; horizontal asymptote: <span id=\"blank_cd0fed89-f326-4be8-8523-1caf184a3ed4\"></span>; for large negative x: from <span id=\"blank_33d2f299-caf9-4c76-ae1d-0bde798bc294\"></span>; for large positive x: from <span id=\"blank_d7608fa4-7ea2-4ec5-8089-82cba6ba18cc\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65309",
+      "label": null,
+      "title": "Q9 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56116",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>Determine the value of the constant b such that the function f(x) = sqrt(x + 1) + b/x has a point of inflection at x = 3. Give your answer as a decimal or a fraction.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65325",
+      "label": null,
+      "title": "Q11 [T]",
+      "properties": {}
+    },
+    "points_possible": 4.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56117",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "7d3b728b-24f1-4f7f-80b9-b944627d8475"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f3de2970-7556-4dc1-b232-b8be1507c3fc"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "381dd14a-2957-4870-ad1f-6067dc1ebcc6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "853b795d-5ddd-4cc5-a185-6142cfaf72dc"
+          }
+        ]
+      },
+      "item_body": "<p>Determine the horizontal asymptotes of each function.</p>\n<p>a. f(x) = x/sqrt(x^2 + 1): as x -&gt; infinity, y -&gt; <span id=\"blank_7d3b728b-24f1-4f7f-80b9-b944627d8475\"></span>; as x -&gt; -infinity, y -&gt; <span id=\"blank_f3de2970-7556-4dc1-b232-b8be1507c3fc\"></span></p>\n<p>b. g(t) = sqrt(t^2 + 4t) - sqrt(t^2 + t): as t -&gt; infinity, y -&gt; <span id=\"blank_381dd14a-2957-4870-ad1f-6067dc1ebcc6\"></span>; as t -&gt; -infinity, y -&gt; <span id=\"blank_853b795d-5ddd-4cc5-a185-6142cfaf72dc\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65331",
+      "label": null,
+      "title": "Q10 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56118",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[C]</p><p>a. If f'(x) &gt; 0 for all x in a domain, what does it imply about f(x)?</p><p>b. If f'(x) &lt; 0 for all x in a domain, what does it imply about f(x)?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63264",
+      "label": null,
+      "title": "Q11 [C]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56119",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Find all the critical numbers for each function.</p><p>a. y = -2x^2 + 16x - 31</p><p>b. y = x^3 - 27x</p><p>c. y = x^4 - 4x^2</p><p>d. y = 3x^5 - 25x^3 + 60x</p><p>e. y = (x^2 - 1)/(x^2 + 1)</p><p>f. y = x/(x^2 + 2)</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63257",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56120",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[T]</p><p>Let f(x) = 3x^4 + ax^3 + bx^2 + cx + d.</p><p>a. Determine the values of the constants a, b, c, and d so that f has horizontal tangents at the points (-2, -73) and (0, -9).</p><p>b. A third point has a horizontal tangent to the graph of f. Calculate the coordinates of this point.</p><p>c. Classify each of the three points as a local maximum, a local minimum, or neither.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63234",
+      "label": null,
+      "title": "Q15 [T]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56120",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>State the equation of the horizontal asymptote of the graph of each function. Does the graph approach the asymptote from above or from below?</p><p>a. y = (3x - 1)/(x + 5)</p><p>b. f(x) = (x^2 + 3x - 2)/(x - 1)^2</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63262",
+      "label": null,
+      "title": "Q9 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 9,
+    "question_number": 9,
+    "quiz_entry_id": "56121",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 9,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Check each function for discontinuities. State the equation of any vertical asymptote, and use the limit test to describe the behaviour on either side of any vertical asymptote.</p><p>a. y = x/(x + 5)</p><p>b. f(x) = (x + 2)/(x - 2)</p><p>c. s = 1/(t - 3)^2</p><p>d. y = (x^2 - x - 6)/(x - 3)</p><p>e. f(x) = 6/((x + 3)(x - 1))</p><p>f. y = x^2/(x^2 - 1)</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63240",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 10,
+    "question_number": 10,
+    "quiz_entry_id": "56121",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 10,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[T]</p><p>Determine the point of inflection on the graph of y = x^3 + 5. Show that the tangent line at this point crosses the curve.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63301",
+      "label": null,
+      "title": "Q6 [T]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 11,
+    "question_number": 11,
+    "quiz_entry_id": "56122",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 11,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Determine the value of the second derivative at the indicated value. State whether the curve lies above or below the tangent line at that value.</p><p>a. f(x) = 2x^3 - 10x + 3, at x = 2</p><p>b. g(x) = x^2 - 1/x, at x = -1</p><p>c. p(w) = w/sqrt(w^2 + 1), at w = 3</p><p>d. s(t) = 2t/(t - 4), at t = -2</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63274",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 12,
+    "question_number": 12,
+    "quiz_entry_id": "56122",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 12,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[A]</p><p>Determine the values of a, b, c, and d such that the graph of y = ax^3 + bx^2 + cx + d has a local maximum at (2, 4) and a point of inflection at the origin. Sketch the graph.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63290",
+      "label": null,
+      "title": "Q6 [A]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 13,
+    "question_number": 13,
+    "quiz_entry_id": "56123",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 13,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[T]</p><p>Sketch the graph of g(x) = x^(1/3) (x + 3)^(2/3).</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63293",
+      "label": null,
+      "title": "Q9 [T]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 14,
+    "question_number": 14,
+    "quiz_entry_id": "56123",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 14,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[C]</p><p>How many local maximum and local minimum values are possible for a polynomial function of degree three, of degree four, or of degree n? Explain your answer.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63286",
+      "label": null,
+      "title": "Q2 [C]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 15,
+    "question_number": 15,
+    "quiz_entry_id": "56123",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 15,
+    "required": null
+  }
+]

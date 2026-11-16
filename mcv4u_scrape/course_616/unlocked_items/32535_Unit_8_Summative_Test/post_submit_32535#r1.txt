@@ -1,0 +1,307 @@
+Skip To Content
+Dashboard
+Account
+Dashboard
+Courses
+Calendar
+10 unread messages.
+10
+Inbox
+History
+Help
+MCV4U
+Home
+Grades
+91
+Modules
+Notebook
+Skip To Quiz Content
+Return
+Unit 8 Summative Test
+vincent Teacher
+Due Date
+No due date
+Time Limit
+2 hours
+Number of Questions
+18
+4 questions require grading
+Assessment Statistics
+5%
+5 out of 100 points
+5
+Out of 100 points
+Time for this attempt: 18 seconds
+18 seconds
+00:18
+Time for this attempt
+Your Answers:
+Results for question 1.
+1
+0 / 3 points
+Multiple Choice
+
+A ship sails 40 km on a bearing of 120 degrees, then 30 km on a bearing of 030 degrees.  Its distance from the starting point is
+
+Incorrect answer:
+10 km
+Correct Answer:
+50 km
+70 km
+, Not Selected
+35 km
+, Not Selected
+50 km
+, Not Selected
+Results for question 2.
+2
+3 / 3 points
+Multiple Choice
+
+A 300 N box sits on a 30-degree ramp. The coefficient of static friction is 0.5. What happens?
+
+Correct answer:
+It slides - the downslope component (150 N) exceeds the maximum friction (about 130 N)
+It tips over the edge
+, Not Selected
+It stays - friction always matches the downslope pull
+, Not Selected
+It stays - the normal force holds it in place
+, Not Selected
+Results for question 3.
+3
+0 / 3 points
+Multiple Choice
+
+A plane flies 600 km due east to a city and back, at 300 km/h airspeed, with a steady wind from the west at 50 km/h. The total round-trip time is
+
+Incorrect answer:
+4.00 h
+Correct Answer:
+about 4.11 h
+about 3.88 h
+, Not Selected
+4.50 h
+, Not Selected
+about 4.11 h
+, Not Selected
+Results for question 4.
+4
+0 / 3 points
+Numeric
+
+A 40 N picture hangs from two identical vertical cables. The tension in each cable, in N, is
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+20.0
+Results for question 5.
+5
+0 / 3 points
+Numeric
+
+A boat's motor pushes at 18 km/h on a bearing of 030 degrees. The river current is 7 km/h due south. The boat's ground speed, in km/h (1 decimal place), is
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+12.4
+Results for question 6.
+6
+0 / 3 points
+Numeric
+
+A tractor pulls a trailer 450 m with a force of 2500 N at 10 degrees above the horizontal. The work done, in kJ (nearest whole number), is
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+1,108.0
+Results for question 7.
+7
+0 / 3 points
+Fill in the Blank
+
+A plane flies at 400 km/h on a bearing of 150 degrees. The easting component of its air velocity is 
+Incorrect answer:
+(no answer)
+ km/h and the northing component is 
+Incorrect answer:
+(no answer)
+ km/h (1 decimal place).
+
+Results for question 8.
+8
+0 / 3 points
+Fill in the Blank
+
+Two forces act on a post: 50 N due east and 120 N due north. The resultant magnitude is 
+Incorrect answer:
+(no answer)
+ N and its bearing is 
+Incorrect answer:
+(no answer)
+ degrees (1 decimal place).
+
+Results for question 9.
+9
+2 / 2 points
+True or False
+
+True or false: If the force is perpendicular to the displacement, the work done by that force is zero.
+
+Correct answer:
+True
+False
+Results for question 10.
+10
+0 / 2 points
+True or False
+
+True or false: A bearing of 135 degrees points to the northwest.
+
+Incorrect answer:
+True
+Correct Answer:
+False
+False
+Results for question 11.
+11
+0 / 2 points
+Multiple Answer
+
+A plane's air velocity is (0, 300) km/h (x = east, y = north) and the wind velocity is (40, 0) km/h. Which statements are true? Select all that apply.
+
+Incorrect answer:
+The ground velocity is (40, 300) km/h
+Missed Option - Incorrect
+Incorrect answer:
+The plane drifts east of its heading
+Missed Option - Incorrect
+Incorrect answer:
+The ground speed is less than the airspeed
+Missed Option - Incorrect
+Incorrect answer:
+The wind blows from the west
+Missed Option - Incorrect
+Incorrect answer:
+(no answer)
+Results for question 12.
+12
+0 / 2 points
+Multiple Answer
+
+A block rests on an incline of angle theta. Which changes would INCREASE the normal force on the block? Select all that apply.
+
+Incorrect answer:
+increasing the block's mass
+Missed Option - Incorrect
+Answer,
+increasing theta
+Incorrect answer:
+decreasing theta
+Missed Option - Incorrect
+Incorrect answer:
+pushing the block perpendicularly into the incline
+Missed Option - Incorrect
+Incorrect answer:
+(no answer)
+Results for question 13.
+13
+0 / 2 points
+Matching
+Match each navigation term to its meaning.
+bearing 090 degreesground velocityheadingtrackdue eastair velocity + wind velocitydirection of the air-velocity vectoractual path over the grounddrift angle
+Match each navigation term to its meaning.
+track
+Incorrect answer:
+(no answer)
+Correct Answer:
+actual path over the ground
+heading
+Incorrect answer:
+(no answer)
+Correct Answer:
+direction of the air-velocity vector
+bearing 090 degrees
+Incorrect answer:
+(no answer)
+Correct Answer:
+due east
+ground velocity
+Incorrect answer:
+(no answer)
+Correct Answer:
+air velocity + wind velocity
+Results for question 14.
+14
+0 / 2 points
+Ordering
+A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.
+40 km/h headwind (from the north)No wind40 km/h crosswind (from the east)40 km/h tailwind (from the south)
+A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.
+Incorrect answer:
+(no answer)
+Correct Answer:
+40 km/h headwind (from the north)
+Incorrect answer:
+(no answer)
+Correct Answer:
+No wind
+Incorrect answer:
+(no answer)
+Correct Answer:
+40 km/h crosswind (from the east)
+Incorrect answer:
+(no answer)
+Correct Answer:
+40 km/h tailwind (from the south)
+Results for question 15.
+15
+16 points possible
+Essay
+
+A uniform 3.0 m long wooden plank (mass 40 kg) rests horizontally on a pivot located 1.0 m from the plank's left end. A 60 kg child sits on the left end of the plank. (a) Where must a 45 kg child sit on the right side of the pivot so that the plank balances horizontally? Show all steps of your torque calculations. (b) Compute the upward force the pivot must exert on the plank, and explain, in full sentences, why this force must equal the total weight acting on the plank. (c) Explain, in full sentences, why balancing the torques about the pivot is sufficient to guarantee that the system is in equilibrium — that is, what second equilibrium condition must also hold, and how is it satisfied here? (Use g = 9.8 m/s².)
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 16.
+16
+16 points possible
+Essay
+
+A 200 kg crate is pulled 10 m up a 20° incline by a force of 1200 N applied parallel to the incline. The coefficient of kinetic friction between the crate and the ramp is μ = 0.25. (a) Describe the free-body diagram of the crate (list each force and its direction), and compute, showing all steps, the work done by the applied force, the work done by gravity, and the work done by friction. (b) Find the net work done on the crate. (c) Explain, in full sentences, what the sign of the net work tells you about how the crate's speed changes as it moves up the ramp, referring to the work-energy principle.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 17.
+17
+16 points possible
+Essay
+
+A kayaker can paddle at 5 km/h in still water and wants to cross a 1.2 km wide river that flows due east at 3 km/h, landing at the point directly across the river. (a) Determine the heading (the angle upstream from the straight-across direction) that the kayaker must take. Show all steps, including a vector diagram description. (b) How long will the crossing take at that heading? (c) Suppose instead that the kayaker paddles straight across the river with no upstream angle. Compute how far downstream the kayaker lands and the actual ground speed, and explain in full sentences why paddling straight across gives the shortest possible crossing time even though the kayaker misses the target point.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 18.
+18
+16 points possible
+Essay
+
+Two tugboats pull a barge that must be held on a fixed course. Tugboat A exerts a force of 3000 N at 20° above the forward direction, and Tugboat B exerts a force of 2400 N at 35° below the forward direction. (a) Determine the magnitude and direction of the resultant of the two pulling forces, showing all steps of your vector work. (b) A third tugboat must supply a single equilibrant force so that the barge remains in equilibrium. Find the magnitude and direction of this equilibrant. (c) Explain, in full sentences, why the equilibrant must be equal in magnitude but opposite in direction to the resultant you found in part (a), referring to the condition for equilibrium.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade

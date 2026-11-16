@@ -1,0 +1,108 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9172" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 5.1 — Derivatives of Exponential Functions (y = e^x)</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 5</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 5.1</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Derivatives of Exponential Functions (y = e<sup>x</sup>)</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §5.1 — the number e, why e<sup>x</sup> is its own derivative, and the chain rule with exponentials.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Explain why the <strong>power rule does not apply</strong> to y = e<sup>x</sup>, and state the value of <strong>e</strong>.</li>
+<li>Use <strong>d/dx(e<sup>x</sup>) = e<sup>x</sup></strong> — the function is its own derivative — and explain what it means for tangent slopes.</li>
+<li>Apply the <strong>chain rule</strong> to differentiate <strong>e<sup>g(x)</sup></strong>, alone or combined with the product and quotient rules.</li>
+<li>Find <strong>equations of tangent lines</strong> to exponential curves.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>You already know how to differentiate x<sup>3</sup> (power rule: bring down the 3). Now look at e<sup>x</sup>: the <strong>variable is in the exponent</strong>, not the base. The power rule is built for a constant exponent — here the exponent itself changes, so the power rule is the wrong tool entirely. This lesson introduces a brand-new number, e, and a brand-new rule — and the rule turns out to be the simplest one in all of calculus: the derivative of e<sup>x</sup> is e<sup>x</sup> itself.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17373" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17373" data-api-returntype="Assignment">▶ Start the Lesson 5.1 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — the derivative that copies the function</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>Graph <strong><em>y = e^x</em></strong>. Click on the curve at x = −1, 0, 1, and 2 to display the tangent line and its slope at each point. Compare each slope with the y-value of the point. What pattern do you notice?</li>
+<li>On the same axes, graph <strong><em>y = e^(2x)</em></strong>. Its tangent at x = 0 is twice as steep as the tangent to y = e^x at x = 0. Where does that extra factor of 2 come from in the chain rule?</li>
+<li>Graph <strong><em>y = x·e^(−x)</em></strong>. The tangent goes horizontal exactly once — find that x-value, then confirm it by setting the derivative equal to zero.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">Meet e: the natural number</h4>
+<p>The number <strong>e ≈ 2.718</strong> is an irrational number (like π), named Euler's number after the mathematician Leonhard Euler. It is the "natural" base for exponential functions because of one remarkable property: <strong>y = e<sup>x</sup> is its own derivative</strong>. If you tabulate e<sup>x</sup> and its (numerical) derivative at x = −2, −1, 0, 1, 2, 3, the two columns match. Since a derivative is a tangent slope, this says: <strong>the slope of the tangent to y = e<sup>x</sup> at any point equals the value of the function at that point</strong> — at (1, e) the slope is e; at (2, e²) the slope is e²; and so on.</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54820/preview?" alt="Graph of y = e^x showing the tangent line at (1, e) with slope e and the tangent line at (2, e squared) with slope e squared" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54820" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(244, 247, 251); border-width: 2px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0;"><strong style="color:#10284A;">RULE — Derivative of e<sup>x</sup></strong><br>
+If f(x) = e<sup>x</sup>, then f′(x) = e<sup>x</sup>. In Leibniz notation: d/dx(e<sup>x</sup>) = e<sup>x</sup>.</p>
+</div>
+<p>The exponential y = e<sup>x</sup> has a mirror twin: its inverse is y = ln x (the natural logarithm), and their graphs are reflections of each other in the line y = x. Remember the swap: e<sup>x</sup> has domain all real numbers and range y &gt; 0, while ln x has domain x &gt; 0 and range all real numbers.</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54825/preview?" alt="Graphs of y = e^x and y = ln x shown as reflections of each other across the dashed line y = x" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54825" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">The chain rule with e<sup>g(x)</sup></h4>
+<p>Most exponential functions in the wild are composites — the exponent is itself a function. The chain rule gives a clean result: <strong>copy the exponential, then multiply by the derivative of the exponent</strong>.</p>
+<div style="background: rgb(244, 247, 251); border-width: 2px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0;"><strong style="color:#10284A;">RULE — Derivative of e<sup>g(x)</sup></strong><br>
+If f(x) = e<sup>g(x)</sup>, then f′(x) = e<sup>g(x)</sup> · g′(x).</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Determine the derivative of f(x) = e<sup>3x</sup>.</p>
+<p style="margin:0;"><strong>Solution.</strong> Use the chain rule with g(x) = 3x, g′(x) = 3.<br>
+f′(x) = e<sup>3x</sup> · 3 = <strong>3e<sup>3x</sup></strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Determine the derivative of (a) g(x) = e<sup>x²−x</sup> and (b) h(x) = x²e<sup>x</sup>.</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+(a) Chain rule with g(x) = x² − x: g′(x) = e<sup>x²−x</sup> · (2x − 1).<br><br>
+(b) Product rule: h′(x) = (2x)(e<sup>x</sup>) + (x²)(e<sup>x</sup>) = <strong>e<sup>x</sup>(2x + x²)</strong>. Always factor the e<sup>x</sup> out at the end — factored form is what you need for sign analysis and solving f′ = 0 later.</p>
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">Tangents to exponential curves</h4>
+<p>The tangent recipe is unchanged: differentiate for the slope, evaluate the point, write the line. One handy simplification — rewrite a quotient like e<sup>x</sup>/x² as the product x<sup>−2</sup>e<sup>x</sup> before differentiating.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Determine the equation of the line tangent to y = e<sup>x</sup>/x² where x = 2.</p>
+<p style="margin:0;"><strong>Solution.</strong> Rewrite as y = x<sup>−2</sup>e<sup>x</sup>, then use the product rule:<br>
+y′ = (−2x<sup>−3</sup>)(e<sup>x</sup>) + (x<sup>−2</sup>)(e<sup>x</sup>) = [(x − 2)e<sup>x</sup>]/x³.<br><br>
+At x = 2: y = e²/4, and y′ = (0·e²)/8 = 0. The tangent is <strong>horizontal</strong>:<br>
+<strong>y = e²/4</strong>.</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 5.1.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Differentiate y = e<sup>5x</sup>.</summary>
+<p>Chain rule: the exponent's derivative is 5, so y′ = <strong>5e<sup>5x</sup></strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Differentiate f(x) = xe<sup>−x</sup>.</summary>
+<p>Product rule: f′(x) = (1)(e<sup>−x</sup>) + (x)(−e<sup>−x</sup>) = <strong>e<sup>−x</sup>(1 − x)</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — True or false: "The power rule gives d/dx(e<sup>x</sup>) = x·e<sup>x−1</sup>." Justify.</summary>
+<p><strong>False.</strong> The power rule applies when the <em>exponent is constant</em> (x<sup>n</sup> with fixed n). In e<sup>x</sup> the variable is in the exponent, so the rule does not apply — the correct derivative is e<sup>x</sup>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Find the equation of the tangent to y = e<sup>2x</sup> at x = 0.</summary>
+<p>Point: (0, 1). Slope: y′ = 2e<sup>2x</sup>, so y′(0) = 2. Tangent: <strong>y − 1 = 2x</strong>, i.e. y = 2x + 1.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>e ≈ 2.718</strong> is Euler's (natural) number; the power rule cannot differentiate e<sup>x</sup> because the exponent is variable.</li>
+<li><strong>d/dx(e<sup>x</sup>) = e<sup>x</sup></strong> — the tangent slope at any point equals the function's value there.</li>
+<li><strong>d/dx(e<sup>g(x)</sup>) = e<sup>g(x)</sup>·g′(x)</strong> — copy the exponential, multiply by the exponent's derivative.</li>
+<li>Combine with product/quotient rules freely; factor e<sup>(…)</sup> out of the final answer.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>y = e<sup>x</sup> and y = ln x are inverses — reflections in y = x (domains and ranges swap).</li>
+<li>Next: Lesson 5.2 — <strong>derivatives of b<sup>x</sup> for any base b</strong>.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Derivatives of Exponential and Trigonometric Functions</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

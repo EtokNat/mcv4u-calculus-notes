@@ -1,0 +1,689 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65334",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "3768fa84-a9a1-41f8-ac77-231a3adfe231"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9816fe4b-43ee-42a9-afd2-2064e4bea379"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "325af125-d110-4104-95e3-4d39e6d941ce"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c8e62569-d981-4e2a-bd71-5592ee3fe62d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "976710a2-e0b1-4d59-a690-a4a384a99ec7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9e1978c1-2109-4009-a6b8-c4fbb061998d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8a1e8df5-1885-4226-9116-3e978a30cb3b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "09125c30-e2a4-456a-a8b1-4b74dfb1bd60"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ad95bc21-72e7-45ee-af72-c6a0b3e79874"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c8820025-621d-4533-8155-903346b56d13"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "52a55049-85f0-4131-b802-081ac5847f94"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b37620a4-600b-424c-a0ad-ef8f9b1523f4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3dc27d48-0083-462c-b7f4-f6bb9fa713c8"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0e194e3c-c678-482d-912f-874dbed77d9c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "898ac2c1-a453-4491-bc5a-adba5d3a130a"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>For the function f(x) = 5x/(x - 1)^2, show that f'(x) = -5(x + 1)/(x - 1)^3 and f''(x) = 10(x + 2)/(x - 1)^4. Use the function and its derivatives to determine the domain, intercepts, and asymptotes, intervals of increase and decrease, intervals of concavity, local extrema, and points of inflection. Sketch the graph.</p>\n<p>domain: <span id=\"blank_3768fa84-a9a1-41f8-ac77-231a3adfe231\"></span></p>\n<p>x-intercept: <span id=\"blank_9816fe4b-43ee-42a9-afd2-2064e4bea379\"></span></p>\n<p>y-intercept: <span id=\"blank_325af125-d110-4104-95e3-4d39e6d941ce\"></span></p>\n<p>vertical asymptote: <span id=\"blank_c8e62569-d981-4e2a-bd71-5592ee3fe62d\"></span>; as x -&gt; 1 from the left, f(x) -&gt; <span id=\"blank_976710a2-e0b1-4d59-a690-a4a384a99ec7\"></span>; as x -&gt; 1 from the right, f(x) -&gt; <span id=\"blank_9e1978c1-2109-4009-a6b8-c4fbb061998d\"></span></p>\n<p>horizontal asymptote: <span id=\"blank_8a1e8df5-1885-4226-9116-3e978a30cb3b\"></span></p>\n<p>increasing on <span id=\"blank_09125c30-e2a4-456a-a8b1-4b74dfb1bd60\"></span></p>\n<p>decreasing on <span id=\"blank_ad95bc21-72e7-45ee-af72-c6a0b3e79874\"></span></p>\n<p>concave down on <span id=\"blank_c8820025-621d-4533-8155-903346b56d13\"></span></p>\n<p>concave up on <span id=\"blank_52a55049-85f0-4131-b802-081ac5847f94\"></span></p>\n<p>local minimum at (<span id=\"blank_b37620a4-600b-424c-a0ad-ef8f9b1523f4\"></span>, <span id=\"blank_3dc27d48-0083-462c-b7f4-f6bb9fa713c8\"></span>)</p>\n<p>point of inflection at (<span id=\"blank_0e194e3c-c678-482d-912f-874dbed77d9c\"></span>, <span id=\"blank_898ac2c1-a453-4491-bc5a-adba5d3a130a\"></span>)</p>\n<p>Sketch the graph of f(x) = 5x/(x - 1)^2, with a vertical asymptote at x = 1, a horizontal asymptote at y = 0, a local minimum at (-1, -1.25), and a point of inflection at (-2, -1.11).</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              },
+              "11": {
+                "children": null
+              },
+              "12": {
+                "children": null
+              },
+              "13": {
+                "children": null
+              },
+              "14": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q19 [K/U]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56112",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65330",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "64e1a216-24d6-454b-9cd6-87d08ad66dd0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "01f40c4f-1421-4ddf-a1c0-37160c3cbee8"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "209f15bf-8b4b-4df9-82a6-d4eeb31f1ab1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ddc2bd43-218a-4fef-9254-b4ee11a17d32"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Determine the values of a, b, c, and d such that the graph of y = ax^3 + bx^2 + cx + d has a local maximum at (2, 4) and a point of inflection at the origin. Sketch the graph.</p>\n<p>a = <span id=\"blank_64e1a216-24d6-454b-9cd6-87d08ad66dd0\"></span>, b = <span id=\"blank_01f40c4f-1421-4ddf-a1c0-37160c3cbee8\"></span>, c = <span id=\"blank_209f15bf-8b4b-4df9-82a6-d4eeb31f1ab1\"></span>, d = <span id=\"blank_ddc2bd43-218a-4fef-9254-b4ee11a17d32\"></span></p>\n<p>Sketch the graph of y = (-1/4)x^3 + 3x, with a local maximum at (2, 4) and a point of inflection at the origin.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q6 [A]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56112",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65335",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "7831f274-149d-4dbe-aedb-6bb84b035c69"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3151ad3a-eb4f-4ddf-9d55-21893bba2c7e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "35eb4284-c6e3-4903-9c3b-cf60e81ff142"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b4a4ae02-9c9a-4142-a189-b11305b01b6b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "54058538-a178-4874-b483-57c2e3da19fc"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e240f31c-5701-4251-900b-3baed97145f9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e184d78c-d3e0-44ff-b1d7-e13b3ba45937"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "94417b13-25cb-4eab-aff0-9008f99a3262"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "249d4444-e45b-470e-889e-e0c2f4101dd2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "67d00087-9f47-4be4-895b-e139576e4744"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "76853a6b-4694-4046-8aff-225215a26a6f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "82ed6f18-3b92-4a0b-a42f-77a254f47160"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Use at least five curve-sketching techniques to explain how to sketch the graph of f(x) = (2x + 10)/(x^2 - 9). Sketch the graph on graph paper.</p>\n<p>discontinuities (vertical asymptotes): <span id=\"blank_7831f274-149d-4dbe-aedb-6bb84b035c69\"></span></p>\n<p>at x = -3, as x -&gt; -3 from the left, f(x) -&gt; <span id=\"blank_3151ad3a-eb4f-4ddf-9d55-21893bba2c7e\"></span>; as x -&gt; -3 from the right, f(x) -&gt; <span id=\"blank_35eb4284-c6e3-4903-9c3b-cf60e81ff142\"></span></p>\n<p>at x = 3, as x -&gt; 3 from the left, f(x) -&gt; <span id=\"blank_b4a4ae02-9c9a-4142-a189-b11305b01b6b\"></span>; as x -&gt; 3 from the right, f(x) -&gt; <span id=\"blank_54058538-a178-4874-b483-57c2e3da19fc\"></span></p>\n<p>y-intercept: <span id=\"blank_e240f31c-5701-4251-900b-3baed97145f9\"></span></p>\n<p>x-intercept: <span id=\"blank_e184d78c-d3e0-44ff-b1d7-e13b3ba45937\"></span></p>\n<p>local minimum at (<span id=\"blank_94417b13-25cb-4eab-aff0-9008f99a3262\"></span>, <span id=\"blank_249d4444-e45b-470e-889e-e0c2f4101dd2\"></span>)</p>\n<p>local maximum at (<span id=\"blank_67d00087-9f47-4be4-895b-e139576e4744\"></span>, <span id=\"blank_76853a6b-4694-4046-8aff-225215a26a6f\"></span>)</p>\n<p>horizontal asymptote: <span id=\"blank_82ed6f18-3b92-4a0b-a42f-77a254f47160\"></span></p>\n<p>Sketch the graph of f(x) = (2x + 10)/(x^2 - 9), with vertical asymptotes at x = -3 and x = 3, a horizontal asymptote at y = 0, a y-intercept of -10/9, an x-intercept at -5, a local minimum at (-9, -1/9), and a local maximum at (-1, -1).</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              },
+              "11": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q6 [C]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56112",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65331",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "7d3b728b-24f1-4f7f-80b9-b944627d8475"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f3de2970-7556-4dc1-b232-b8be1507c3fc"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "381dd14a-2957-4870-ad1f-6067dc1ebcc6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "853b795d-5ddd-4cc5-a185-6142cfaf72dc"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Determine the horizontal asymptotes of each function.</p>\n<p>a. f(x) = x/sqrt(x^2 + 1): as x -&gt; infinity, y -&gt; <span id=\"blank_7d3b728b-24f1-4f7f-80b9-b944627d8475\"></span>; as x -&gt; -infinity, y -&gt; <span id=\"blank_f3de2970-7556-4dc1-b232-b8be1507c3fc\"></span></p>\n<p>b. g(t) = sqrt(t^2 + 4t) - sqrt(t^2 + t): as t -&gt; infinity, y -&gt; <span id=\"blank_381dd14a-2957-4870-ad1f-6067dc1ebcc6\"></span>; as t -&gt; -infinity, y -&gt; <span id=\"blank_853b795d-5ddd-4cc5-a185-6142cfaf72dc\"></span></p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q10 [T]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56112",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65324",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "757df334-b5e5-4783-be14-01bb510f16f2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6a07417a-cef3-458d-9f07-c17287ff5302"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "174fb522-a3dd-421d-8624-8aaee49df2e4"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Determine the values of constants a, b, and c such that f(x) = ax^3 + bx^2 + c has a local extremum at (2, 11) and a point of inflection at (1, 5). Then sketch the graph.</p>\n<p>a = <span id=\"blank_757df334-b5e5-4783-be14-01bb510f16f2\"></span>, b = <span id=\"blank_6a07417a-cef3-458d-9f07-c17287ff5302\"></span>, c = <span id=\"blank_174fb522-a3dd-421d-8624-8aaee49df2e4\"></span></p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q10 [T]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56113",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65328",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "2130eafa-3995-496f-99ba-70339cbcfbcf"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a00678de-f8f7-4874-85e9-c94e6a5d6607"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "87a5bb9b-1735-4cab-aebb-290645e824d2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "60b62dd0-e895-4aa5-b34a-ecf213ed82ed"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "26ccb289-a039-4f9b-800c-135c3c45d8c1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c432b46e-98ab-4642-81e8-797c24e824d4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a96af61b-74cd-462f-a526-58471495f35c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "562d2e76-3087-41b0-8087-f4a52f8fd51a"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Use the second derivative test to identify all maximum and minimum values of f(x) = x^3 + (3/2)x^2 - 7x + 5 on the interval -4 &lt;= x &lt;= 3.</p>\n<p>local maximum at (<span id=\"blank_2130eafa-3995-496f-99ba-70339cbcfbcf\"></span>, <span id=\"blank_a00678de-f8f7-4874-85e9-c94e6a5d6607\"></span>)</p>\n<p>local minimum at (<span id=\"blank_87a5bb9b-1735-4cab-aebb-290645e824d2\"></span>, <span id=\"blank_60b62dd0-e895-4aa5-b34a-ecf213ed82ed\"></span>)</p>\n<p>absolute maximum at (<span id=\"blank_26ccb289-a039-4f9b-800c-135c3c45d8c1\"></span>, <span id=\"blank_c432b46e-98ab-4642-81e8-797c24e824d4\"></span>)</p>\n<p>absolute minimum at (<span id=\"blank_a96af61b-74cd-462f-a526-58471495f35c\"></span>, <span id=\"blank_562d2e76-3087-41b0-8087-f4a52f8fd51a\"></span>)</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q14 [K/U]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56113",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65323",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "d52f02db-6da0-49ea-a686-a9dba6f0e6a5"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5bba08eb-e685-48d5-bab6-c7b13331fa81"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "4dc13ae3-3670-4025-9af3-e2235873ed99"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fb9f6096-2284-4551-a00e-75d1aec4e9f8"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "d0d10911-80bb-4ee6-9729-4617afb3f9a2"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>For each of the following functions, determine any points of inflection. Then use the results, along with the revised algorithm (from question 7), to sketch each function.</p>\n<p>a. f(x) = x^4 + 4x: <span id=\"blank_d52f02db-6da0-49ea-a686-a9dba6f0e6a5\"></span></p>\n<p>b. g(w) = (4w^2 - 3)/w^3: points of inflection (<span id=\"blank_5bba08eb-e685-48d5-bab6-c7b13331fa81\"></span>, <span id=\"blank_4dc13ae3-3670-4025-9af3-e2235873ed99\"></span>) and (<span id=\"blank_fb9f6096-2284-4551-a00e-75d1aec4e9f8\"></span>, <span id=\"blank_d0d10911-80bb-4ee6-9729-4617afb3f9a2\"></span>)</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q8 [K/U]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56113",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "65327",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "aa124063-daba-43bb-9b4e-f69aab4e905c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c96f410e-07bf-4846-9ce6-fc6852e3bffb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f3a05034-51e0-4a68-949a-bed3f2c18531"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "dd62d485-fed0-4e6e-adce-a271e3fc57c4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7a40b670-e087-41f1-a410-a2fd94a4539b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "acb22f53-46da-4749-a6c1-fd7f7a154728"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>Each graph is the graph of g''(x) for some function g(x). For each graph, determine i. the intervals on which the graph of g(x) is concave up and the intervals on which it is concave down; ii. the x-coordinates of all points of inflection of g(x); iii. a rough sketch of a possible graph of g(x), assuming that g(0) = -3.</p>\n<p><img id=\"55755\" src=\"https://inst-fs-iad-prod.inscloudgate.net/files/0b2ca5d9-4f2a-4ea5-8408-fa45e26aa022/rev_q8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy8wYjJjYTVkOS00ZjJhLTRlYTUtODQwOC1mYTQ1ZTI2YWEwMjIvcmV2X3E4LnBuZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay8yNDI2MDAwMDAwMDAwMDUwOSJ9LCJleHAiOjE3OTQ3OTIyMjIsImlhdCI6MTc5NDc0NTQyMiwiaXNzIjoibmV3LXF1aXp6ZXMiLCJhdWQiOiJodHRwczovL2luc3QtZnMtaWFkLXByb2QuaW5zY2xvdWRnYXRlLm5ldCJ9.w9p9mvI1JWstIjy6JrlXsSuau0L1TF_FRSbFx1frwf0FFcONgTPQX8rAZNK3mCVQij8WmgaiXSnlBPWqGvIODw\" alt=\"rev_q8.png\" data-old-link=\"/courses/905/files/55755/preview\"></p>\n<p>a. i. concave up on <span id=\"blank_aa124063-daba-43bb-9b4e-f69aab4e905c\"></span>; concave down on <span id=\"blank_c96f410e-07bf-4846-9ce6-fc6852e3bffb\"></span></p>\n<p>a. ii. points of inflection at <span id=\"blank_f3a05034-51e0-4a68-949a-bed3f2c18531\"></span></p>\n<p>a. iii. Sketch a possible graph of g(x) with g(0) = -3, concave up on -1 &lt; x &lt; 3 and concave down on x &lt; -1 and x &gt; 3, with inflection points at x = -1 and x = 3.</p>\n<p>b. i. concave up on <span id=\"blank_dd62d485-fed0-4e6e-adce-a271e3fc57c4\"></span>; concave down on <span id=\"blank_7a40b670-e087-41f1-a410-a2fd94a4539b\"></span></p>\n<p>b. ii. points of inflection at <span id=\"blank_acb22f53-46da-4749-a6c1-fd7f7a154728\"></span></p>\n<p>b. iii. Sketch a possible graph of g(x) with g(0) = -3, concave up on -4.5 &lt; x &lt; 1 and x &gt; 5 and concave down on x &lt; -4.5 and 1 &lt; x &lt; 5, with inflection points at x = -4.5, x = 1, and x = 5.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              }
+            }
+          }
+        }
+      },
+      "title": "Q8 [K/U]",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56113",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

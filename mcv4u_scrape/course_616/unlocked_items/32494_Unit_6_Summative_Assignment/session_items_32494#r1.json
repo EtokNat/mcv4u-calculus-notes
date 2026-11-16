@@ -1,0 +1,605 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "69507",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "624cbac2-cf1a-496d-9e88-22cba6e056a6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fbc51240-e9ac-47a4-956f-0f1038923123"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "85e19bc7-39f6-474c-bce5-aeabf6190ba2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "53181fbf-704e-4971-9dda-af3ebb28c55e"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>[C] For each of the following vectors, describe the opposite vector. a. An airplane flies due north at 400 km/h. The opposite vector is <span id=\"blank_624cbac2-cf1a-496d-9e88-22cba6e056a6\"></span>. b. A car travels in a northeasterly direction at 70 km/h. The opposite vector is <span id=\"blank_fbc51240-e9ac-47a4-956f-0f1038923123\"></span>. c. A bicyclist pedals in a northwesterly direction at 30 km/h. The opposite vector is <span id=\"blank_85e19bc7-39f6-474c-bce5-aeabf6190ba2\"></span>. d. A boat travels due west at 25 km/h. The opposite vector is <span id=\"blank_53181fbf-704e-4971-9dda-af3ebb28c55e\"></span>.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      },
+      "title": "Exercise 6.1 Q8 - Auto",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 4.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56708",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "69519",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "84f972a4-9c7d-4daa-a827-d2a343989be0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f8ab08ed-7ef2-48d6-9461-5140bef392c6"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>[K/U] Two vectors, a and b, have a common starting point with an angle of 120 degrees between them. The vectors are such that |a| = 3 and |b| = 4. a. Calculate |a + b|. |a + b| = <span id=\"blank_84f972a4-9c7d-4daa-a827-d2a343989be0\"></span>. b. Calculate the angle between a and a + b. The angle is <span id=\"blank_f8ab08ed-7ef2-48d6-9461-5140bef392c6\"></span> degrees.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      },
+      "title": "Mid-Chapter Review Q3 - Auto",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 4.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56709",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "69551",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "e3aabe71-1d91-471c-8eb1-3a8598a0f741"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "941d671f-0ccc-4307-aba5-bf8d1b28ce94"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "d75c50fa-d944-4fb0-9060-00ebaf9df6a9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a9b57ff7-397c-4e85-9a3e-129e7fa4e3db"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9d35f487-5a28-4dfc-95fa-47ef5991fdbb"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>[K/U] a. If 3x - 2y = a and 5x - 3y = b, express the vectors x and y in terms of a and b. (Here a and b are the two given vectors.) x = <span id=\"blank_e3aabe71-1d91-471c-8eb1-3a8598a0f741\"></span>, y = <span id=\"blank_941d671f-0ccc-4307-aba5-bf8d1b28ce94\"></span> b. Solve for a, b, and c: (2, -1, c) + (a, b, 1) - 3(2, a, 4) = (-3, 1, 2c). a = <span id=\"blank_d75c50fa-d944-4fb0-9060-00ebaf9df6a9\"></span>, b = <span id=\"blank_a9b57ff7-397c-4e85-9a3e-129e7fa4e3db\"></span>, c = <span id=\"blank_9d35f487-5a28-4dfc-95fa-47ef5991fdbb\"></span></p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      },
+      "title": "Chapter 6 Test Q4 - Auto",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 4.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56710",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "69569",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "44f1e192-d74f-4355-beb0-030172025955"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "856b0d37-09a3-47a1-902e-d8b7019d1312"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "edf04622-3c74-4bb0-89e7-4cf4480d7f3a"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>[K/U] Given x = 2i - j and y = -i + 5j, find a vector equivalent to each of the following: a. 3x - y = <span id=\"blank_44f1e192-d74f-4355-beb0-030172025955\"></span>. b. -(x + 2y) + 3(-x - 3y) = <span id=\"blank_856b0d37-09a3-47a1-902e-d8b7019d1312\"></span>. c. 2(x + 3y) - 3(y + 5x) = <span id=\"blank_edf04622-3c74-4bb0-89e7-4cf4480d7f3a\"></span>.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      },
+      "title": "Exercise 6.6 Q7 - Auto",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 4.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56711",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "69606",
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "09d84efa-5b61-48b9-a9fe-9fcd051a360b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1e7bb369-2c3c-4530-b7bd-1d71843cea97"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "600f5463-95dd-4486-9dff-5488e9b76267"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "08e3b23f-ecbd-463b-b3b0-5383d5847bb4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ba6186fd-1342-4d35-8870-5f886d49f33b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "239eb248-2a2b-4592-be8e-8b7f7dd86447"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1f4837a2-11ea-49b9-ac93-4ed38b7a2b6b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e4e04678-4acd-4de2-bc0f-de37f088fe5b"
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "13",
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank"
+      },
+      "item_body": "<p>[K/U] a. For the pair of vectors {(2, -1), (-1, 1)}, find formulas for the coefficients a and b in terms of x and y such that a(2, -1) + b(-1, 1) = (x, y). a = <span id=\"blank_09d84efa-5b61-48b9-a9fe-9fcd051a360b\"></span>, b = <span id=\"blank_1e7bb369-2c3c-4530-b7bd-1d71843cea97\"></span>. b. Write each of the following as a linear combination of that set. (2, -3) = <span id=\"blank_600f5463-95dd-4486-9dff-5488e9b76267\"></span>(2, -1) + <span id=\"blank_08e3b23f-ecbd-463b-b3b0-5383d5847bb4\"></span>(-1, 1). (124, -5) = <span id=\"blank_ba6186fd-1342-4d35-8870-5f886d49f33b\"></span>(2, -1) + <span id=\"blank_239eb248-2a2b-4592-be8e-8b7f7dd86447\"></span>(-1, 1). (4, -11) = <span id=\"blank_1f4837a2-11ea-49b9-ac93-4ed38b7a2b6b\"></span>(2, -1) + <span id=\"blank_e4e04678-4acd-4de2-bc0f-de37f088fe5b\"></span>(-1, 1).</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      },
+      "title": "Exercise 6.8 Q12 - Auto",
+      "user_response_type": "MultipleResponse"
+    },
+    "points_possible": 4.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56712",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "63488",
+      "interaction_data": {
+        "rce": true
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>[K/U]</p><p>For each of the following, state whether the quantity is a scalar or a vector and give a brief explanation why: height, temperature, weight, mass, area, volume, distance, displacement, speed, force, and velocity.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "Q2 [K/U]",
+      "user_response_type": "Text"
+    },
+    "points_possible": 8.0,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56713",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "63584",
+      "interaction_data": {
+        "rce": true
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>[A]</p><p>An airplane is heading due south at a speed of 500 km/h when it encounters a head wind from the south at 40 km/h. What is the resultant ground velocity of the airplane?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "Q12 [A]",
+      "user_response_type": "Text"
+    },
+    "points_possible": 8.0,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56714",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "63663",
+      "interaction_data": {
+        "rce": true
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>[K/U]</p><p>The vectors a, b, and c are as shown (a points right, b points up, and c points left).</p><p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/853a8e3f-782e-4e4d-bf32-5318629a758f/review_q8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy84NTNhOGUzZi03ODJlLTRlNGQtYmYzMi01MzE4NjI5YTc1OGYvcmV2aWV3X3E4LnBuZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay8yNDI2MDAwMDAwMDAwMDUyNyJ9LCJleHAiOjE3OTQ4MzQyMDMsImlhdCI6MTc5NDc4NzQwMywiaXNzIjoibmV3LXF1aXp6ZXMiLCJhdWQiOiJodHRwczovL2luc3QtZnMtaWFkLXByb2QuaW5zY2xvdWRnYXRlLm5ldCJ9.mlLZK0O9Xdb13ZIvLSIIjtARszkKTXC1lpo4wutmz0T5sdwsOtCX4Xx2n-S3mkPFNJvpEwSOkThSzXzdwYa-EQ\" alt=\"Nelson Calculus and Vectors 12, Ch 6, p. 345 - Review Exercise, Question 8: vectors a, b, c\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55815/preview\"></p><p>a. Construct the vector a - b + c.</p><p>b. If the vectors a and b are perpendicular, and if |a| = 4 and |b| = 3, determine |a + b|.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "Q8 [K/U]",
+      "user_response_type": "Text"
+    },
+    "points_possible": 8.0,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56714",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "63550",
+      "interaction_data": {
+        "rce": true
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>[K/U]</p><p>Two vectors, a and b, are such that 2a = -3b. Draw a possible sketch of these two vectors. What is the value of m, if |b| = m|a|?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "Q12 [K/U]",
+      "user_response_type": "Text"
+    },
+    "points_possible": 8.0,
+    "position": 9,
+    "question_number": 9,
+    "quiz_entry_id": "56715",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 9,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "63586",
+      "interaction_data": {
+        "rce": true
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>[K/U]</p><p>The vectors a and b are given below. Use these vectors to sketch each of the following.</p><p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/e44df995-45fb-49fa-b296-87e59f9d22aa/mcr_q14.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9lNDRkZjk5NS00NWZiLTQ5ZmEtYjI5Ni04N2U1OWY5ZDIyYWEvbWNyX3ExNC5wbmciLCJ0ZW5hbnRfYXV0aCI6eyJsb2NhdGlvbiI6ImJhbmsvMjQyNjAwMDAwMDAwMDA1MjgifSwiZXhwIjoxNzk0ODM2NDk2LCJpYXQiOjE3OTQ3ODk2OTYsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLWlhZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.LLtrrmnc-ncrdQ0G4LycXT5oWc_8NtHre8cMvwNEeXnLWtOJoYlJa9RtPI5wXTXiYfYdt6jBKn-S-k8KENHl0A\" alt=\"Nelson Calculus and Vectors 12, Ch 6, p. 309 - Mid-Chapter Review, Question 14: vectors a and b\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55812/preview\"></p><p>a. (1/3)a + b</p><p>b. (3/2)a - 2b</p><p>c. -b + a</p><p>d. (b + a)/2</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "Q14 [K/U]",
+      "user_response_type": "Text"
+    },
+    "points_possible": 8.0,
+    "position": 10,
+    "question_number": 10,
+    "quiz_entry_id": "56715",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 10,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "63598",
+      "interaction_data": {
+        "rce": true
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>[K/U]</p><p>Name the vector associated with each point in question 10, express it in component form, and show the vectors associated with each of the points in the diagrams.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "Q11 [K/U]",
+      "user_response_type": "Text"
+    },
+    "points_possible": 8.0,
+    "position": 11,
+    "question_number": 11,
+    "quiz_entry_id": "56716",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 11,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "63600",
+      "interaction_data": {
+        "rce": true
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>[K/U]</p><p>Each of the points P(x, y, 0), Q(x, 0, z), and R(0, y, z) represent general points on three different planes. Name the three planes to which each corresponds.</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "Q13 [K/U]",
+      "user_response_type": "Text"
+    },
+    "points_possible": 8.0,
+    "position": 12,
+    "question_number": 12,
+    "quiz_entry_id": "56716",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 12,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "63627",
+      "interaction_data": {
+        "rce": true
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>[K/U]</p><p>For the vectors OA = (-3, 4, 12) and OB = (2, 2, -1), determine the following:</p><p>a. the components of vector OP, where OP = OA + OB</p><p>b. |OA|, |OB|, and |OP|</p><p>c. AB and |AB|. What does AB represent?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "Q4 [K/U]",
+      "user_response_type": "Text"
+    },
+    "points_possible": 8.0,
+    "position": 13,
+    "question_number": 13,
+    "quiz_entry_id": "56717",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 13,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "63630",
+      "interaction_data": {
+        "rce": true
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>[K/U]</p><p>If m = 2i - k and n = -2i + j + 2k, calculate each of the following:</p><p>a. |m - n|</p><p>b. |m + n|</p><p>c. |2m + 3n|</p><p>d. |-5m|</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "Q7 [K/U]",
+      "user_response_type": "Text"
+    },
+    "points_possible": 8.0,
+    "position": 14,
+    "question_number": 14,
+    "quiz_entry_id": "56717",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 14,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "63649",
+      "interaction_data": {
+        "rce": true
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>[K/U]</p><p>Write the vector (-10, -34) as a linear combination of the vectors (-1, 3) and (1, 5).</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": "Q11 [K/U]",
+      "user_response_type": "Text"
+    },
+    "points_possible": 8.0,
+    "position": 15,
+    "question_number": 15,
+    "quiz_entry_id": "56718",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 15,
+    "required": null
+  }
+]

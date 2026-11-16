@@ -1,0 +1,96 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9199" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 9.4 — Planes: Vector, Parametric, and Cartesian Equations</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family: 'Segoe UI',Arial,sans-serif; color: #1a1a1a; line-height: 1.7; max-width: 900px; margin: 0 auto;">
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 4px; border-bottom: 4px solid #F8660A;"><img style="height: 56px; width: auto;" src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy"> <span style="color: #10284a; font-size: 14px;">MCV4U &nbsp;•&nbsp; UNIT 9</span></div>
+<div style="background: #10284A; color: #ffffff; padding: 26px 28px; margin: 22px 0 6px; border-radius: 8px;">
+<div style="color: #f8660a; font-size: 13px;">LESSON 9.4</div>
+<h2 style="margin: 6px 0 4px; font-size: 26px;">Vector, Parametric, and Cartesian Equations of a Plane</h2>
+<p style="margin: 0; color: #c9d4e6; font-size: 14px;"><em>Nelson Calculus and Vectors 12</em> §§8.4–8.6 — two direction vectors pin down a plane; one normal vector gives its Cartesian equation.</p>
+</div>
+<div style="background: #F4F7FB; border-left: 6px solid #10284A; border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 18px 0;">
+<h3 style="color: #10284a; margin: 0 0 8px; font-size: 17px;">🎯 Learning Goals</h3>
+<p style="margin: 0;">By the end of this lesson, you can:</p>
+<ul style="margin: 8px 0 0;">
+<li>Write the <strong>vector and parametric equations</strong> of a plane from a point and two noncollinear direction vectors.</li>
+<li>Write the <strong>Cartesian equation</strong> Ax + By + Cz + D = 0 from a point and a normal vector (built via the cross product).</li>
+<li>Convert between forms, find the <strong>angle between two planes</strong>, and <strong>sketch planes</strong> from their Cartesian equations.</li>
+</ul>
+</div>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">💡 Minds On</h3>
+<p>A line is one-dimensional: one parameter t generates every point. A plane is <strong>two-dimensional</strong>, so it needs <strong>two parameters</strong> and two direction vectors. Given a point P<sub>0</sub> (position vector r<sub>0</sub>) and two noncollinear direction vectors a and b, every point P of the plane satisfies P<sub>0</sub>P = sa + tb — the vector equation r = r<sub>0</sub> + sa + tb, s, t ∈ R. If the two "direction vectors" were collinear, sa + tb would only ever trace a line — the equation would collapse to a line, not a plane. There is no symmetric form for a plane.</p>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17400" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17400" data-api-returntype="Assignment">▶ Start the Lesson 9.4 Interactive Video Check</a></p> <h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">🔍 Explore — two parameters, one plane</h3>
+<iframe style="border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" title="Desmos graphing calculator" src="https://www.desmos.com/calculator?embed" width="100%" height="520" loading="lazy"></iframe>
+<ol>
+<li>A plane's trace on the xy-plane behaves like a line. Graph <strong><em>2x + 3y = 12</em></strong> (the trace of 3x + 4y = 12 extended in z). Read two direction vectors of that vertical plane from the graph.</li>
+<li>Graph the plane <strong><em>2x + 3y − z = 4</em></strong> — Desmos will solve for z. Find its x-, y-, and z-intercepts by setting the other two variables to 0.</li>
+<li>Verify: does the point <strong><em>(2, 0, 0)</em></strong> satisfy the equation? Does <strong><em>(0, 0, 4)</em></strong>? What do the three intercepts tell you about the plane's tilt?</li>
+</ol>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">📖 Learn — step by step</h3>
+<h4 style="color: #10284a; margin: 16px 0 6px;">Vector and parametric equations of a plane</h4>
+<p>With r<sub>0</sub> = (x<sub>0</sub>, y<sub>0</sub>, z<sub>0</sub>), a = (a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>), b = (b<sub>1</sub>, b<sub>2</sub>, b<sub>3</sub>):</p>
+<p style="text-align: center; background: #F4F7FB; border-radius: 8px; padding: 10px 14px;"><strong>r = r<sub>0</sub> + sa + tb, &nbsp;s, t ∈ R</strong><br><strong>x = x<sub>0</sub> + sa<sub>1</sub> + tb<sub>1</sub>, &nbsp;y = y<sub>0</sub> + sa<sub>2</sub> + tb<sub>2</sub>, &nbsp;z =z<sub>0</sub> + sa<sub>3</sub> + tb<sub>3</sub></strong></p>
+<h4 style="color: #10284a; margin: 16px 0 6px;">The Cartesian equation of a plane</h4>
+<p>A <strong>normal</strong> n = (A, B, C) to the plane can be built as n = a × b from any two noncollinear direction vectors. For P(x, y, z) and P<sub>0</sub>(x<sub>0</sub>, y<sub>0</sub>, z<sub>0</sub>) on the plane, P<sub>0</sub>P is perpendicular to n, so n · P<sub>0</sub>P = 0 expands to:</p>
+<p style="text-align: center; background: #F4F7FB; border-radius: 8px; padding: 10px 14px;"><strong>Ax + By + Cz + D = 0</strong>, with D = −Ax<sub>0</sub> − By<sub>0</sub> − Cz<sub>0</sub></p>
+<p>Two planes with normals n<sub>1</sub>, n<sub>2</sub> are <strong>parallel</strong> if n<sub>1</sub> = kn<sub>2</sub> (k ≠ 0) and <strong>perpendicular</strong> if n<sub>1</sub> · n<sub>2</sub> = 0. The <strong>angle between planes</strong> is the angle between their normals: θ = cos⁻¹((n<sub>1</sub> · n<sub>2</sub>)/(|n<sub>1</sub>||n<sub>2</sub>|)), reported as the acute angle.</p>
+<p style="text-align: center;"><img style="max-width: 480px; width: 100%; height: auto; border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" src="https://bronston.instructure.com/courses/616/files/54877/preview?" alt="3D plane with normal vector n = a cross b drawn perpendicular to the plane" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54877" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color: #10284a; margin: 16px 0 6px;">Sketching planes in R3</h4>
+<p>From Ax + By + Cz + D = 0: <strong>Case 1</strong> (one variable, e.g. x = 5): a plane parallel to a coordinate plane. <strong>Case 2</strong> (two variables, e.g. 2x − 5y = 10): if D = 0 the plane contains the missing-variable axis; otherwise find two intercepts and draw parallel to the missing axis. <strong>Case 3</strong> (three variables, e.g. 2x + 3y − z = 4): if D = 0 use the origin plus two points; otherwise find the three intercepts and join them into a triangle.</p>
+<p style="text-align: center;"><img style="max-width: 480px; width: 100%; height: auto; border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" src="https://bronston.instructure.com/courses/616/files/54885/preview?" alt="Three 3D sketches: the planes x = 5, y = 6, and z = 6, each parallel to a coordinate plane" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54885" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-radius: 8px; padding: 14px 18px; margin: 12px 0px; border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10);">
+<p style="margin: 0 0 6px;"><strong style="color: #10284a;">Example 1</strong> — Write vector and parametric equations of the plane through A(−1, 3, 8), B(−1, 1, 0), and C(4, 1, 1). Is P(14, 1, 3) on the plane? Is Q(14, 1, 5)?</p>
+<p style="margin: 0;"><strong>Solution.</strong> <em>(Direction vectors.)</em> AB = (0, −2, −8) = −2(0, 1, 4), so use a = <strong>(0, 1, 4)</strong>. AC = (5, −2, −7)… instead use BC = (5, 0, 1) = b. (Check: a and b are not collinear ✓.)<br><em>(Vector equation, anchored at A.)</em> r = (−1, 3, 8) + s(0, 1, 4) + t(5, 0, 1), &nbsp;s, t ∈ R.<br><em>(Parametric.)</em> x = −1 + 5t, &nbsp;y = 3 + s, &nbsp;z = 8 + 4s + t.<br><em>(Test P(14, 1, 3).)</em> From y: 3 + s = 1 → s = −2. From x: −1 + 5t = 14 → t = 3. Check z: 8 + 4(−2) + 3 = 3 ✓. <strong>P is on the plane</strong> (s = −2, t = 3).<br><em>(Test Q(14, 1, 5).)</em> Same s = −2, t = 3 gives z = 3 ≠ 5. <strong>Q is not on the plane.</strong><br><strong>Answer: r = (−1, 3, 8) + s(0, 1, 4) + t(5, 0, 1); x = −1 + 5t, y = 3 + s, z = 8 + 4s + t. P is on the plane; Q is not.</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-radius: 8px; padding: 14px 18px; margin: 12px 0px; border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10);">
+<p style="margin: 0 0 6px;"><strong style="color: #10284a;">Example 2</strong> — Find the Cartesian equation of the plane through A(1, 2, 2) with normal n = (−1, 2, 6).</p>
+<p style="margin: 0;"><strong>Solution.</strong> <em>(Dot product method.)</em> For P(x, y, z) on the plane, AP = (x − 1, y − 2, z − 2) and n · AP = 0:<br>(−1, 2, 6) · (x − 1, y − 2, z − 2) = 0 → −(x − 1) + 2(y − 2) + 6(z − 2) = 0 → −x + 2y + 6z − 15 = 0.<br><em>(Convention.)</em> Multiply by −1 so the x-coefficient is positive and the integers stay simple:<br><strong>Answer: x − 2y − 6z + 15 = 0.</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-radius: 8px; padding: 14px 18px; margin: 12px 0px; border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10);">
+<p style="margin: 0 0 6px;"><strong style="color: #10284a;">Example 3</strong> — Find the Cartesian equation of the plane through A(−1, 2, 5), B(3, 2, 4), and C(−2, −3, 6).</p>
+<p style="margin: 0;"><strong>Solution.</strong> <em>(Direction vectors.)</em> AB = (4, 0, −1); AC = (−1, −5, 1).<br><em>(Normal via cross product.)</em> n = AB × AC = |i j k; 4 0 −1; −1 −5 1| = i(0·1 − (−1)(−5)) − j(4·1 − (−1)(−1)) + k(4(−5) − 0(−1)) = (−5, −3, −20). Use the parallel normal <strong>(5, 3, 20)</strong>.<br><em>(Cartesian equation through A.)</em> 5x + 3y + 20z + D = 0 with 5(−1) + 3(2) + 20(5) + D = 0 → −5 + 6 + 100 + D = 0 → D = −101.<br><strong>Answer: 5x + 3y + 20z − 101 = 0.</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-radius: 8px; padding: 14px 18px; margin: 12px 0px; border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10);">
+<p style="margin: 0 0 6px;"><strong style="color: #10284a;">Example 4</strong> — Find the acute angle between π<sub>1</sub>: x − y − 2z + 3 = 0 and π<sub>2</sub>: 2x + y − z + 2 = 0. Then sketch the plane 2x + 3y − z = 4.</p>
+<p style="margin: 0;"><strong>Solution.</strong> <em>(Angle from normals.)</em> n<sub>1</sub> = (1, −1, −2), n<sub>2</sub> = (2, 1, −1).<br>cos θ = (n<sub>1</sub> · n<sub>2</sub>)/(|n<sub>1</sub>||n<sub>2</sub>|) = (2 − 1 + 2)/(√6 · √6) = 3/6 = 1/2 = 0.5 → θ = <strong>60°</strong> (acute).<br><em>(Sketch: three intercepts.)</em> x-intercept: 2x = 4 → (2, 0, 0). y-intercept: 3y = 4 → (0, 4/3, 0). z-intercept: −z = 4 → (0, 0, −4). Join the three points into a triangle — that triangle represents the plane.</p>
+<p style="text-align: center;"><img style="max-width: 480px; width: 100%; height: auto; border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" src="https://bronston.instructure.com/courses/616/files/54866/preview?" alt="3D sketch of the plane 2x + 3y - z = 4 with its intercept triangle on (2,0,0), (0,4/3,0), (0,0,-4)" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54866" data-api-returntype="File" loading="lazy"></p>
+<p style="text-align: center;"><img style="max-width: 480px; width: 100%; height: auto; border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" src="https://bronston.instructure.com/courses/616/files/54894/preview?" alt="Two intersecting planes with normal vectors n1 and n2 and the angle theta between the normals marked" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54894" data-api-returntype="File" loading="lazy"></p>
+<p style="margin: 0;"><strong>Answer: 60°. The plane 2x + 3y − z = 4 has intercepts (2, 0, 0), (0, 4/3, 0), (0, 0, −4).</strong></p>
+</div>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercises 8.4–8.6.</p>
+<details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 1</strong> — Explain why r = (−1, 0, 1) + s(2, 3, −4) + t(4, 6, −8) is NOT the equation of a plane. What does it represent?</summary>
+<p>The two "direction vectors" (2, 3, −4) and (4, 6, −8) = <strong>2(2, 3, −4)</strong> are collinear. So sa + tb = (s + 2t)(2, 3, −4) always points along a single direction — the equation describes a <strong>line</strong> through (−1, 0, 1) with direction (2, 3, −4), not a plane.</p>
+</details><details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 2</strong> — Write the Cartesian equation of the plane through P(−1, 2, 1), Q(3, 1, 4), and R(−2, 3, 5).</summary>
+<p>PQ = (4, −1, 3), PR = (−1, 1, 4). n = PQ × PR = |i j k; 4 −1 3; −1 1 4| = (−4 − 3, −(16 + 3), 4 − 1) = <strong>(−7, −19, 3)</strong>, or (7, 19, −3). Through P: 7x + 19y − 3z + D = 0 → 7(−1) + 19(2) − 3(1) + D = 0 → −7 + 38 − 3 + D = 0 → D = −28. <strong>Answer: 7x + 19y − 3z − 28 = 0.</strong></p>
+</details><details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 3</strong> — For the planes π<sub>1</sub>: 4x + ky − 2z + 1 = 0 and π<sub>2</sub>: 2x + 4y − z + 4 = 0: (a) find k so they are parallel; (b) find k so they are perpendicular.</summary>
+<p>(a) Parallel ⇔ normals are multiples: (4, k, −2) = m(2, 4, −1). From the x-components m = 2, so k = 2·4 = <strong>8</strong>. (The constants 1 and 4 are not in ratio 2, so the planes are parallel and distinct.)<br>(b) Perpendicular ⇔ (4, k, −2) · (2, 4, −1) = 0 → 8 + 4k + 2 = 0 → <strong>k = −5/2</strong>.</p>
+</details><details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 4</strong> — Sketch the plane 2x − 5y = 10. Which axis is it parallel to, and why?</summary>
+<p>Intercepts: x-intercept (5, 0, 0); y-intercept (0, −2, 0). Setting x = y = 0 gives 0 = 10 — impossible, so there is <strong>no z-intercept</strong>. The plane is <strong>parallel to the z-axis</strong> because the equation contains no z term: changing z never affects whether a point satisfies the equation.</p>
+</details>
+<div style="background: #10284A; color: #ffffff; border-radius: 8px; padding: 16px 20px; margin: 18px 0;">
+<h3 style="margin: 0 0 8px; font-size: 17px; color: #f8660a;">📝 Lesson Summary</h3>
+<p style="margin: 0 0 6px;"><strong style="color: #f8660a;">Key ideas</strong></p>
+<ul style="margin: 0 0 10px;">
+<li><strong>Vector/parametric plane:</strong> r = r<sub>0</sub> + sa + tb (two parameters, two <em>noncollinear</em> direction vectors).</li>
+<li><strong>Cartesian plane:</strong> Ax + By + Cz + D = 0, with normal n = (A, B, C) = a × b.</li>
+<li>Angle between planes: angle between normals (acute). Parallel ⇔ normals are multiples; perpendicular ⇔ normals' dot product is 0.</li>
+<li><strong>Sketching:</strong> 1 variable → parallel to a coordinate plane; 2 variables → parallel to the missing axis; 3 variables → intercept triangle.</li>
+</ul>
+<p style="margin: 0 0 6px;"><strong style="color: #f8660a;">Need to know</strong></p>
+<ul style="margin: 0;">
+<li>Cartesian → vector: set two variables as parameters (s, t) and solve for the third; or use three points.</li>
+<li>Next: Lesson 9.5 — <strong>intersections</strong>: line with a plane, and two lines (including skew lines).</li>
+</ul>
+</div>
+<div style="text-align: center; color: #8a94a6; font-size: 12px; padding: 10px 0 4px; border-top: 2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Lines and Planes</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

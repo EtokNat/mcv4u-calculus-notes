@@ -1,0 +1,156 @@
+[
+  {
+    "idx": 0,
+    "slug": "numeric",
+    "points": 12.5,
+    "prompt": "[K/U] Determine the local maximum point on the curve y = 2x - tan x, where -pi/2 < x < pi/2. What is the y-value of the local maximum point? Express your answer to two decimal places.",
+    "prompt_dom": "[K/U] Determine the local maximum point on the curve y = 2x - tan x, where -pi/2 < x < pi/2. What is the y-value of the local maximum point? Express your answer to two decimal places.\n\nAnswer\n\n[K/U] Determine the local maximum point on the curve y = 2x - tan x, where -pi/2 < x < pi/2. What is the y-value of the local maximum point? Express your answer to two decimal places.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "0.57"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 1,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Determine the absolute extreme values of f(x) = sin^2 x, where x in [0, pi]. Absolute maximum: Absolute minimum:",
+    "prompt_dom": "[K/U] Determine the absolute extreme values of f(x) = sin^2 x, where x in [0, pi]. Absolute maximum: \nQuestion Blank 1 of 2\n Absolute minimum: \nQuestion Blank 2 of 2",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "1",
+      "0"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 2,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Solve the following equations, where x in [0, 2pi]. a. 3 sin x = sin x + 1, so x = or . b. cos x - 1 = -cos x, so x = or .",
+    "prompt_dom": "[K/U] Solve the following equations, where x in [0, 2pi]. a. 3 sin x = sin x + 1, so x = \nQuestion Blank 1 of 4\n or \nQuestion Blank 2 of 4\n. b. cos x - 1 = -cos x, so x = \nQuestion Blank 3 of 4\n or \nQuestion Blank 4 of 4\n.",
+    "num_blanks": 4,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "pi/6",
+      "5pi/6",
+      "pi/3",
+      "5pi/3"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 3,
+    "slug": "numeric",
+    "points": 12.5,
+    "prompt": "[A] An object moves along a line so that, at time t, its position is s = sin t/(3 + cos 2t), where s is the displacement in metres. Calculate the object's velocity at t = pi/4. Express your answer to four decimal places.",
+    "prompt_dom": "[A] An object moves along a line so that, at time t, its position is s = sin t/(3 + cos 2t), where s is the displacement in metres. Calculate the object's velocity at t = pi/4. Express your answer to four decimal places.\n\nAnswer\n\n[A] An object moves along a line so that, at time t, its position is s = sin t/(3 + cos 2t), where s is the displacement in metres. Calculate the object's velocity at t = pi/4. Express your answer to four decimal places.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "0.3928"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 4,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "Convert the following angles to radian measure: a. 360 degrees = ; b. 45 degrees = ; c. -90 degrees = ; d. 30 degrees = ; e. 270 degrees = ; f. -120 degrees = ; g. 225 degrees = ; h. 330 degrees =",
+    "prompt_dom": "Convert the following angles to radian measure: a. 360 degrees = \nQuestion Blank 1 of 8\n; b. 45 degrees = \nQuestion Blank 2 of 8\n; c. -90 degrees = \nQuestion Blank 3 of 8\n; d. 30 degrees = \nQuestion Blank 4 of 8\n; e. 270 degrees = \nQuestion Blank 5 of 8\n; f. -120 degrees = \nQuestion Blank 6 of 8\n; g. 225 degrees = \nQuestion Blank 7 of 8\n; h. 330 degrees = \nQuestion Blank 8 of 8",
+    "num_blanks": 8,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "2pi",
+      "pi/4",
+      "-pi/2",
+      "pi/6",
+      "3pi/2",
+      "-2pi/3",
+      "5pi/4",
+      "11pi/6"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 5,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Determine all the values of x, 0 <= x <= 2pi, for which the slope of the tangent to f(x) = sin x tan x is zero. x = , ,",
+    "prompt_dom": "[K/U] Determine all the values of x, 0 <= x <= 2pi, for which the slope of the tangent to f(x) = sin x tan x is zero. x = \nQuestion Blank 1 of 3\n, \nQuestion Blank 2 of 3\n, \nQuestion Blank 3 of 3",
+    "num_blanks": 3,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "0",
+      "pi",
+      "2pi"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 6,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[A] The position of a particle is given by s = 5 cos(2t + pi/4) at time t. What are the maximum values of the displacement, the velocity, and the acceleration? Displacement: Velocity: Acceleration:",
+    "prompt_dom": "[A] The position of a particle is given by s = 5 cos(2t + pi/4) at time t. What are the maximum values of the displacement, the velocity, and the acceleration? Displacement: \nQuestion Blank 1 of 3\n Velocity: \nQuestion Blank 2 of 3\n Acceleration: \nQuestion Blank 3 of 3",
+    "num_blanks": 3,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "5",
+      "10",
+      "20"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 7,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "[K/U] Evaluate each of the following: a. 3^-2 = b. 32^(2/5) = c. 27^(-2/3) = d. (2/3)^-2 =",
+    "prompt_dom": "[K/U] Evaluate each of the following: a. 3^-2 = \nQuestion Blank 1 of 4\n b. 32^(2/5) = \nQuestion Blank 2 of 4\n c. 27^(-2/3) = \nQuestion Blank 3 of 4\n d. (2/3)^-2 = \nQuestion Blank 4 of 4",
+    "num_blanks": 4,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "1/9",
+      "4",
+      "1/9",
+      "9/4"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  }
+]

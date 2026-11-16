@@ -1,0 +1,120 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9166" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 4.1 — Increasing/Decreasing Functions and the First Derivative Test</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 4</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 4.1</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Increasing/Decreasing Functions and the First Derivative Test</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §4.1 — where f′ is positive the graph rises, where f′ is negative it falls; the first derivative test classifies critical points.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Use the sign of <strong>f′(x)</strong> to find the <strong>intervals where f increases or decreases</strong>.</li>
+<li>Find <strong>critical numbers</strong> (where f′(c) = 0 or f′(c) is undefined) and build a <strong>sign chart</strong>.</li>
+<li>Apply the <strong>first derivative test</strong> to identify local maxima, local minima, or neither.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Imagine hiking a trail: when the slope under your feet is positive you are climbing, when it is negative you are descending, and when it is zero you are on flat ground — possibly at the top of a hill or the bottom of a valley. A function's derivative <strong>is</strong> that slope. In this lesson you will turn the sign of f′(x) into a complete map of where a graph rises and falls, and you will learn to spot its hills and valleys exactly.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17367" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17367" data-api-returntype="Assignment">▶ Start the Lesson 4.1 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — the derivative as a slope map</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, graph <strong><em>y = x^3 - 3x^2</em></strong> and, on the same axes, its derivative <strong><em>y = 3x^2 - 6x</em></strong>. For x-values where the derivative's graph sits <em>above</em> the x-axis, what is the original curve doing? Where the derivative sits <em>below</em>?</li>
+<li>Graph <strong><em>y = x/(x^2 + 1)</em></strong> and <strong><em>y = (1 - x^2)/(x^2 + 1)^2</em></strong>. Confirm that the function rises exactly where its derivative is positive, and locate the peak and valley at x = ±1.</li>
+<li>Graph <strong><em>y = x^3</em></strong>. Its derivative is zero at x = 0 — but is (0, 0) a hill or a valley? What does this tell you about critical numbers?</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">The sign of f′ controls rise and fall</h4>
+<p>The derivative f′(x) is the slope of the tangent line at each point. A positive slope means the curve is heading upward as x increases; a negative slope means it is heading downward. So:</p>
+<ul>
+<li>If <strong>f′(x) &gt; 0</strong> on an interval, then f is <strong>increasing</strong> there (the graph rises left to right).</li>
+<li>If <strong>f′(x) &lt; 0</strong> on an interval, then f is <strong>decreasing</strong> there (the graph falls left to right).</li>
+</ul>
+<p>The places where f′ can change sign are the <strong>critical numbers</strong>: interior points c of the domain where <strong>f′(c) = 0</strong> or where <strong>f′(c) is undefined</strong>. These numbers split the domain into intervals. Because f′ cannot change sign without passing through zero (or a break), testing <em>one</em> x-value in each interval tells you the sign on the whole interval. A <strong>sign chart</strong> organizes this work.</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54839/preview?" alt="Graph of f(x) = x^3 - 3x^2 with increasing intervals shaded blue where f prime is positive and the decreasing interval shaded orange where f prime is negative; local max at (0,0) and local min at (2,-4) marked" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54839" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Find the intervals on which f(x) = x³ − 3x² is increasing or decreasing.</p>
+<p style="margin:0;"><strong>Solution.</strong> Differentiate and find the critical numbers.<br>
+f′(x) = 3x² − 6x = 3x(x − 2)<br>
+f′(x) = 0 when x = 0 or x = 2. These split the domain into (−∞, 0), (0, 2), (2, ∞).<br><br>
+Test one value in each interval:<br>
+• x = −1: f′(−1) = 3(−1)(−3) = 9 &gt; 0 → <strong>increasing</strong> on (−∞, 0)<br>
+• x = 1: f′(1) = 3(1)(−1) = −3 &lt; 0 → <strong>decreasing</strong> on (0, 2)<br>
+• x = 3: f′(3) = 3(3)(1) = 9 &gt; 0 → <strong>increasing</strong> on (2, ∞)</p>
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">The first derivative test</h4>
+<p>A critical number is only a <em>candidate</em> for a local extremum. The <strong>first derivative test</strong> looks at how the sign of f′ changes at the critical number c:</p>
+<ul>
+<li>f′ changes <strong>+ → −</strong> at c → f has a <strong>local maximum</strong> at c.</li>
+<li>f′ changes <strong>− → +</strong> at c → f has a <strong>local minimum</strong> at c.</li>
+<li>f′ does <strong>not</strong> change sign at c → <strong>neither</strong> (the graph keeps rising or keeps falling through c).</li>
+</ul>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54850/preview?" alt="Two panels showing the first derivative test: a local maximum where f prime changes from positive to negative, and a local minimum where f prime changes from negative to positive" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54850" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Find the intervals of increase/decrease of f(x) = x/(x² + 1) and classify its local extrema.</p>
+<p style="margin:0;"><strong>Solution.</strong> Use the quotient rule.<br>
+f′(x) = [(1)(x² + 1) − x(2x)]/(x² + 1)² = (1 − x²)/(x² + 1)²<br>
+The denominator is always positive, so the sign of f′ is the sign of 1 − x². Critical numbers: x = −1, x = 1.<br><br>
+• On (−∞, −1): 1 − x² &lt; 0 → <strong>decreasing</strong><br>
+• On (−1, 1): 1 − x² &gt; 0 → <strong>increasing</strong><br>
+• On (1, ∞): 1 − x² &lt; 0 → <strong>decreasing</strong><br><br>
+First derivative test: at x = −1 the sign changes − → + → <strong>local minimum</strong>, f(−1) = −1/2. At x = 1 the sign changes + → − → <strong>local maximum</strong>, f(1) = 1/2.</p>
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">Critical does not always mean extremum</h4>
+<p>Two warnings worth memorizing. First, a horizontal tangent is not enough: for y = x³, f′(0) = 0, yet the sign of f′ = 3x² is positive on both sides — the graph climbs straight through (0, 0). Second, critical numbers also occur where the derivative is <em>undefined</em>: y = x^(2/3) has a sharp <strong>cusp</strong> at x = 0 (f′ undefined there), and (0, 0) is a local minimum.</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54842/preview?" alt="Two panels: y = x cubed has a horizontal tangent at the origin but no extremum; y = x to the two-thirds has a cusp at the origin where the derivative is undefined, giving a local minimum" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54842" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Find and classify the critical points of f(x) = x⁴ − 8x³ + 18x².</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+f′(x) = 4x³ − 24x² + 36x = 4x(x² − 6x + 9) = 4x(x − 3)²<br>
+Critical numbers: x = 0 and x = 3. Note (x − 3)² ≥ 0 for all x, so the sign of f′ is the sign of 4x:<br><br>
+• On (−∞, 0): f′ &lt; 0 → decreasing<br>
+• On (0, 3) and (3, ∞): f′ &gt; 0 → increasing<br><br>
+At x = 0 the sign changes − → + → <strong>local minimum</strong>, f(0) = 0.<br>
+At x = 3 the sign does <em>not</em> change (+ → +) → <strong>neither</strong> a max nor a min, even though f′(3) = 0. (The graph flattens momentarily at (3, 27) and keeps rising.)</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 4.1.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Find the intervals of increase/decrease of f(x) = x² − 4x + 3.</summary>
+<p>f′(x) = 2x − 4 = 0 at x = 2. Sign chart: f′ &lt; 0 on (−∞, 2), f′ &gt; 0 on (2, ∞). So f is <strong>decreasing on (−∞, 2)</strong> and <strong>increasing on (2, ∞)</strong>, with a local minimum at (2, −1).</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Find the intervals of increase/decrease of f(x) = x³ − 12x + 2, and classify its local extrema.</summary>
+<p>f′(x) = 3x² − 12 = 3(x − 2)(x + 2); critical numbers x = −2, 2. Sign: + on (−∞, −2), − on (−2, 2), + on (2, ∞). <strong>Increasing on (−∞, −2) and (2, ∞); decreasing on (−2, 2).</strong> Local maximum at (−2, 18); local minimum at (2, −14).</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — True or false: "If f′(c) = 0 then f has a local extremum at x = c." Justify.</summary>
+<p><strong>False.</strong> Counterexample: f(x) = x³ has f′(0) = 0, but f′ = 3x² ≥ 0 on both sides of x = 0 — no sign change, so (0, 0) is neither a max nor a min. A critical number is only a <em>candidate</em>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Find the intervals of increase/decrease of f(x) = (x − 1)/(x + 2).</summary>
+<p>f′(x) = [(1)(x + 2) − (x − 1)(1)]/(x + 2)² = 3/(x + 2)², which is <strong>positive wherever f is defined</strong>. So f is <strong>increasing on (−∞, −2) and on (−2, ∞)</strong> and never decreasing. (Note x = −2 is not a critical number — it isn't in the domain at all.)</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>f′(x) &gt; 0 → f increasing;</strong> <strong>f′(x) &lt; 0 → f decreasing.</strong> The sign chart of f′ maps every rise and fall.</li>
+<li><strong>Critical numbers:</strong> interior domain points where f′(c) = 0 or f′(c) is undefined.</li>
+<li><strong>First derivative test:</strong> + → − gives a local max; − → + gives a local min; no sign change gives neither.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>Always include points where f′ is undefined <em>and</em> points where f itself is undefined as dividers in your sign chart.</li>
+<li>Next: Lesson 4.2 — <strong>concavity and the second derivative test</strong>.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Curve Sketching</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

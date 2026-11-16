@@ -1,0 +1,434 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "33896",
+    "item_id": "45026",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "The scalar projection of a = (3, -4) onto b = (1, 1) is...",
+    "prompt_html": "<p>The scalar projection of a = (3, -4) onto b = (1, 1) is...</p>",
+    "choices": [
+      {
+        "id": "2148180e-b99f-4148-8c69-bf29244d8f3b",
+        "position": 1,
+        "text": "sqrt(2)/2",
+        "html": "<p>sqrt(2)/2</p>"
+      },
+      {
+        "id": "3372d5c8-ac95-4f5c-91e0-b67518a473fd",
+        "position": 2,
+        "text": "-1",
+        "html": "<p>-1</p>"
+      },
+      {
+        "id": "b129eb25-8fb1-4cbf-998d-33a29c30a0b4",
+        "position": 3,
+        "text": "-sqrt(2)/2",
+        "html": "<p>-sqrt(2)/2</p>"
+      },
+      {
+        "id": "10141ec6-259f-451e-9ec3-f3ff140b975c",
+        "position": 4,
+        "text": "-1/2",
+        "html": "<p>-1/2</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>sqrt(2)/2</p>",
+          "id": "2148180e-b99f-4148-8c69-bf29244d8f3b",
+          "position": 1
+        },
+        {
+          "item_body": "<p>-1</p>",
+          "id": "3372d5c8-ac95-4f5c-91e0-b67518a473fd",
+          "position": 2
+        },
+        {
+          "item_body": "<p>-sqrt(2)/2</p>",
+          "id": "b129eb25-8fb1-4cbf-998d-33a29c30a0b4",
+          "position": 3
+        },
+        {
+          "item_body": "<p>-1/2</p>",
+          "id": "10141ec6-259f-451e-9ec3-f3ff140b975c",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "33930",
+    "item_id": "45062",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "Your right hand's fingers curl from a toward b, and your thumb points straight up. Which vector points up?",
+    "prompt_html": "<p>Your right hand's fingers curl from a toward b, and your thumb points straight up. Which vector points up?</p>",
+    "choices": [
+      {
+        "id": "e2655e99-de6b-409a-b2dc-90a9e3d66f9e",
+        "position": 1,
+        "text": "a.b",
+        "html": "<p>a.b</p>"
+      },
+      {
+        "id": "86766b09-1680-467a-b700-85f29c53ec6e",
+        "position": 2,
+        "text": "b x a",
+        "html": "<p>b x a</p>"
+      },
+      {
+        "id": "a3e180a6-ff33-4471-8cbc-3c0c2908afb8",
+        "position": 3,
+        "text": "Neither - the thumb is meaningless",
+        "html": "<p>Neither - the thumb is meaningless</p>"
+      },
+      {
+        "id": "ef5ec2c9-9ba9-4e99-b2b6-3f4f01dc644a",
+        "position": 4,
+        "text": "a x b",
+        "html": "<p>a x b</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>a.b</p>",
+          "id": "e2655e99-de6b-409a-b2dc-90a9e3d66f9e",
+          "position": 1
+        },
+        {
+          "item_body": "<p>b x a</p>",
+          "id": "86766b09-1680-467a-b700-85f29c53ec6e",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Neither - the thumb is meaningless</p>",
+          "id": "a3e180a6-ff33-4471-8cbc-3c0c2908afb8",
+          "position": 3
+        },
+        {
+          "item_body": "<p>a x b</p>",
+          "id": "ef5ec2c9-9ba9-4e99-b2b6-3f4f01dc644a",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "33907",
+    "item_id": "45040",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "The angle between a = (2, 3) and b = (5, -1), to the nearest degree, is...",
+    "prompt_html": "<p>The angle between a = (2, 3) and b = (5, -1), to the nearest degree, is...</p>",
+    "choices": [
+      {
+        "id": "ccc87678-7c26-46a2-b0db-e9b74713b288",
+        "position": 1,
+        "text": "45 degrees",
+        "html": "<p>45 degrees</p>"
+      },
+      {
+        "id": "d21aaf90-9490-4277-b205-21f9bc444855",
+        "position": 2,
+        "text": "68 degrees",
+        "html": "<p>68 degrees</p>"
+      },
+      {
+        "id": "a7b68070-4c77-498b-abf4-0d3d146ade29",
+        "position": 3,
+        "text": "22 degrees",
+        "html": "<p>22 degrees</p>"
+      },
+      {
+        "id": "bd0898fa-9c28-44d0-ae05-dfcb9675c6ce",
+        "position": 4,
+        "text": "112 degrees",
+        "html": "<p>112 degrees</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>45 degrees</p>",
+          "id": "ccc87678-7c26-46a2-b0db-e9b74713b288",
+          "position": 1
+        },
+        {
+          "item_body": "<p>68 degrees</p>",
+          "id": "d21aaf90-9490-4277-b205-21f9bc444855",
+          "position": 2
+        },
+        {
+          "item_body": "<p>22 degrees</p>",
+          "id": "a7b68070-4c77-498b-abf4-0d3d146ade29",
+          "position": 3
+        },
+        {
+          "item_body": "<p>112 degrees</p>",
+          "id": "bd0898fa-9c28-44d0-ae05-dfcb9675c6ce",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "33918",
+    "item_id": "45050",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "For u = (2, -1, 3) and v = (0, 4, -2), the cross product u x v is...",
+    "prompt_html": "<p>For u = (2, -1, 3) and v = (0, 4, -2), the cross product u x v is...</p>",
+    "choices": [
+      {
+        "id": "185b4037-2cef-4f4d-968e-e3abfe972a16",
+        "position": 1,
+        "text": "(14, 4, 8)",
+        "html": "<p>(14, 4, 8)</p>"
+      },
+      {
+        "id": "132cf00e-4ed3-423b-8046-1d02dcdec637",
+        "position": 2,
+        "text": "(-10, -4, 8)",
+        "html": "<p>(-10, -4, 8)</p>"
+      },
+      {
+        "id": "28164cc9-ef6b-4cd9-b70e-763f7cb07de0",
+        "position": 3,
+        "text": "(-10, 4, 8)",
+        "html": "<p>(-10, 4, 8)</p>"
+      },
+      {
+        "id": "e3a62091-8e08-4e92-ab1c-d1b034305aaa",
+        "position": 4,
+        "text": "(10, -4, -8)",
+        "html": "<p>(10, -4, -8)</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>(14, 4, 8)</p>",
+          "id": "185b4037-2cef-4f4d-968e-e3abfe972a16",
+          "position": 1
+        },
+        {
+          "item_body": "<p>(-10, -4, 8)</p>",
+          "id": "132cf00e-4ed3-423b-8046-1d02dcdec637",
+          "position": 2
+        },
+        {
+          "item_body": "<p>(-10, 4, 8)</p>",
+          "id": "28164cc9-ef6b-4cd9-b70e-763f7cb07de0",
+          "position": 3
+        },
+        {
+          "item_body": "<p>(10, -4, -8)</p>",
+          "id": "e3a62091-8e08-4e92-ab1c-d1b034305aaa",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "33902",
+    "item_id": "45036",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "The vector projection of a = (3, -4) onto b = (1, 1) is...",
+    "prompt_html": "<p>The vector projection of a = (3, -4) onto b = (1, 1) is...</p>",
+    "choices": [
+      {
+        "id": "9d5ece4f-78dd-4a49-bf36-bde81e9377b6",
+        "position": 1,
+        "text": "(-1, -1)",
+        "html": "<p>(-1, -1)</p>"
+      },
+      {
+        "id": "3485ab57-025d-44f3-957b-38c6a867d2b2",
+        "position": 2,
+        "text": "(-sqrt(2)/2, -sqrt(2)/2)",
+        "html": "<p>(-sqrt(2)/2, -sqrt(2)/2)</p>"
+      },
+      {
+        "id": "ae9f3b86-3ab5-49a2-8e05-82935104c99a",
+        "position": 3,
+        "text": "(-1/2, -1/2)",
+        "html": "<p>(-1/2, -1/2)</p>"
+      },
+      {
+        "id": "468ef9f5-31ea-4b0d-a864-dece52946e7a",
+        "position": 4,
+        "text": "(1/2, 1/2)",
+        "html": "<p>(1/2, 1/2)</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>(-1, -1)</p>",
+          "id": "9d5ece4f-78dd-4a49-bf36-bde81e9377b6",
+          "position": 1
+        },
+        {
+          "item_body": "<p>(-sqrt(2)/2, -sqrt(2)/2)</p>",
+          "id": "3485ab57-025d-44f3-957b-38c6a867d2b2",
+          "position": 2
+        },
+        {
+          "item_body": "<p>(-1/2, -1/2)</p>",
+          "id": "ae9f3b86-3ab5-49a2-8e05-82935104c99a",
+          "position": 3
+        },
+        {
+          "item_body": "<p>(1/2, 1/2)</p>",
+          "id": "468ef9f5-31ea-4b0d-a864-dece52946e7a",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "33923",
+    "item_id": "45057",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "If a x b = (2, -3, 5), then b x a equals...",
+    "prompt_html": "<p>If a x b = (2, -3, 5), then b x a equals...</p>",
+    "choices": [
+      {
+        "id": "8decc7ba-741f-422d-83ab-21e5c5b9ca94",
+        "position": 1,
+        "text": "(2, -3, 5)",
+        "html": "<p>(2, -3, 5)</p>"
+      },
+      {
+        "id": "ee2d1045-b05b-4423-979e-4cf38f579bd2",
+        "position": 2,
+        "text": "(5, -3, 2)",
+        "html": "<p>(5, -3, 2)</p>"
+      },
+      {
+        "id": "a67b9422-eefd-4fb4-a4c1-ee6df0ae591f",
+        "position": 3,
+        "text": "(-5, 3, -2)",
+        "html": "<p>(-5, 3, -2)</p>"
+      },
+      {
+        "id": "e9fc6a3f-ca5f-4ae7-9039-dc0cc03fadab",
+        "position": 4,
+        "text": "(-2, 3, -5)",
+        "html": "<p>(-2, 3, -5)</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>(2, -3, 5)</p>",
+          "id": "8decc7ba-741f-422d-83ab-21e5c5b9ca94",
+          "position": 1
+        },
+        {
+          "item_body": "<p>(5, -3, 2)</p>",
+          "id": "ee2d1045-b05b-4423-979e-4cf38f579bd2",
+          "position": 2
+        },
+        {
+          "item_body": "<p>(-5, 3, -2)</p>",
+          "id": "a67b9422-eefd-4fb4-a4c1-ee6df0ae591f",
+          "position": 3
+        },
+        {
+          "item_body": "<p>(-2, 3, -5)</p>",
+          "id": "e9fc6a3f-ca5f-4ae7-9039-dc0cc03fadab",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "33942",
+    "item_id": "45078",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "The value of i x j is...",
+    "prompt_html": "<p>The value of i x j is...</p>",
+    "choices": [
+      {
+        "id": "6f4cd64f-f471-4c78-81f6-0a28b9d6418f",
+        "position": 1,
+        "text": "-k",
+        "html": "<p>-k</p>"
+      },
+      {
+        "id": "01e1f4e2-5862-4642-8c8b-d2b763f0b401",
+        "position": 2,
+        "text": "1",
+        "html": "<p>1</p>"
+      },
+      {
+        "id": "c9281f1e-296e-4f34-8628-ace0c77e80e1",
+        "position": 3,
+        "text": "k",
+        "html": "<p>k</p>"
+      },
+      {
+        "id": "fc63806b-0812-48f1-8a71-ce212b52abbc",
+        "position": 4,
+        "text": "0",
+        "html": "<p>0</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>-k</p>",
+          "id": "6f4cd64f-f471-4c78-81f6-0a28b9d6418f",
+          "position": 1
+        },
+        {
+          "item_body": "<p>1</p>",
+          "id": "01e1f4e2-5862-4642-8c8b-d2b763f0b401",
+          "position": 2
+        },
+        {
+          "item_body": "<p>k</p>",
+          "id": "c9281f1e-296e-4f34-8628-ace0c77e80e1",
+          "position": 3
+        },
+        {
+          "item_body": "<p>0</p>",
+          "id": "fc63806b-0812-48f1-8a71-ce212b52abbc",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "33935",
+    "item_id": "45070",
+    "points": 12.0,
+    "slug": "numeric",
+    "prompt_text": "|a| = 4, |b| = 7, and the angle between them is 30 degrees. The value of |a x b| is...",
+    "prompt_html": "<p>|a| = 4, |b| = 7, and the angle between them is 30 degrees. The value of |a x b| is...</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  }
+]

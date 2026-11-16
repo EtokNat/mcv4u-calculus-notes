@@ -1,0 +1,112 @@
+Skip To Content
+Dashboard
+Account
+Dashboard
+Courses
+Calendar
+10 unread messages.
+10
+Inbox
+History
+Help
+MCV4U
+Home
+Grades
+66
+Modules
+Notebook
+Skip To Quiz Content
+Return
+Unit 6 Exit Card
+vincent Teacher — 1st Attempt
+Due Date
+No due date
+Time Limit
+No time limit
+Number of Questions
+5
+This quiz does not count toward the final grade
+Assessment Statistics
+Time for this attempt: 16 seconds
+16 seconds
+00:16
+Time for this attempt
+This survey has unlimited submissions.
+Take Now
+Attempt History
+Attempt History
+Results
+Attempt 1
+Your Answers:
+Results for question 1.
+1
+Multiple Choice
+
+I can explain the difference between a scalar and a vector, and identify equal and opposite vectors.
+
+Strongly agree
+
+Agree
+
+, Not Selected
+
+Disagree
+
+, Not Selected
+
+Strongly disagree
+
+, Not Selected
+Results for question 2.
+2
+Multiple Choice
+
+I can add and subtract vectors both geometrically (triangle/parallelogram laws) and algebraically (component form in R² and R³).
+
+Strongly agree
+
+Agree
+
+, Not Selected
+
+Disagree
+
+, Not Selected
+
+Strongly disagree
+
+, Not Selected
+Results for question 3.
+3
+Multiple Choice
+
+I can write a vector as a linear combination of other vectors and decide whether a set of vectors spans R², R³, or a plane.
+
+Strongly agree
+
+Agree
+
+, Not Selected
+
+Disagree
+
+, Not Selected
+
+Strongly disagree
+
+, Not Selected
+Results for question 4.
+4
+Essay
+
+What is one idea from this unit that finally 'clicked' for you — and what helped it click (a diagram, a worked example, the Desmos exploration, the video)?
+
+Completed for unit progression.
+
+Results for question 5.
+5
+Essay
+
+What is one topic from this unit you still want to review before the test — and what specifically about it feels shaky?
+
+Completed for unit progression.

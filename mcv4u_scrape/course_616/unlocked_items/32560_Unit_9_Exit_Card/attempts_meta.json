@@ -1,0 +1,177 @@
+[
+  {
+    "idx": 0,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "How confident are you now writing vector, parametric, and symmetric equations of a line in R3?",
+    "prompt_dom": "How confident are you now writing vector, parametric, and symmetric equations of a line in R3?\n\nVery confident\n\nSomewhat confident\n\nNot very confident\n\nNot confident at all",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "0adf18b1-01c4-4720-8bc2-26addea9ab6f",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "a4809b11-2f49-42d0-8f3f-bd4bc75999f4",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "803f5cd2-ff78-4ecd-b411-cb02db78a926",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "dfffc506-e65d-47ba-8e7c-e396a696dc6e",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 1,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "How confident are you now finding intersections (line-plane, two lines, two/three planes) and distances (point-line, point-plane, skew lines)?",
+    "prompt_dom": "How confident are you now finding intersections (line-plane, two lines, two/three planes) and distances (point-line, point-plane, skew lines)?\n\nVery confident\n\nSomewhat confident\n\nNot very confident\n\nNot confident at all",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "511e3b0e-4014-4146-b7b8-fdbe56bdc68d",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "76101b0a-9ce2-40da-9aa1-58bb8d3d5018",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "5210f4c7-88d9-4674-8fe7-fdf48549c5de",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "71981f8f-93a0-4e83-8bae-9acd0ab08b64",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 2,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "Which part of this unit clicked best for you?",
+    "prompt_dom": "Which part of this unit clicked best for you?\n\nVector and parametric equations of lines (8.1, 8.3)\n\nCartesian equations and normals (8.2, 8.5)\n\nIntersections of lines and planes (9.1-9.4)\n\nDistances (9.5, 9.6)",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "d674409d-5144-40c7-8004-2283c3c472fc",
+        "position": 1,
+        "text": "Vector and parametric equations of lines (8.1, 8.3)",
+        "html": "<p>Vector and parametric equations of lines (8.1, 8.3)</p>"
+      },
+      {
+        "id": "a849a3d9-0693-49ce-b516-eefeb9af53db",
+        "position": 2,
+        "text": "Cartesian equations and normals (8.2, 8.5)",
+        "html": "<p>Cartesian equations and normals (8.2, 8.5)</p>"
+      },
+      {
+        "id": "c401ca07-84d7-49d2-87be-561d51369e45",
+        "position": 3,
+        "text": "Intersections of lines and planes (9.1-9.4)",
+        "html": "<p>Intersections of lines and planes (9.1-9.4)</p>"
+      },
+      {
+        "id": "6459507e-d3b7-4b88-ac19-1cbf523f2247",
+        "position": 4,
+        "text": "Distances (9.5, 9.6)",
+        "html": "<p>Distances (9.5, 9.6)</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 3,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "What is still the muddiest point for you?",
+    "prompt_dom": "What is still the muddiest point for you?\n\nConverting between equation forms\n\nClassifying intersections (parallel/coincident/skew)\n\nDistance formulas\n\nSketching planes in R3",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "44e1d29b-fd64-44bd-b1b2-18e770d210de",
+        "position": 1,
+        "text": "Converting between equation forms",
+        "html": "<p>Converting between equation forms</p>"
+      },
+      {
+        "id": "275b73b3-6737-4211-9387-fbf1ea1c401a",
+        "position": 2,
+        "text": "Classifying intersections (parallel/coincident/skew)",
+        "html": "<p>Classifying intersections (parallel/coincident/skew)</p>"
+      },
+      {
+        "id": "4dec6b9e-ac82-4d53-92bb-bb1347dd0ceb",
+        "position": 3,
+        "text": "Distance formulas",
+        "html": "<p>Distance formulas</p>"
+      },
+      {
+        "id": "2163c238-daae-404b-9409-a9941625db43",
+        "position": 4,
+        "text": "Sketching planes in R3",
+        "html": "<p>Sketching planes in R3</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 4,
+    "slug": "essay",
+    "points": 1.0,
+    "prompt": "What is one thing you would tell a student starting this unit next term?",
+    "prompt_dom": "What is one thing you would tell a student starting this unit next term?\n\nWhat is one thing you would tell a student starting this unit next term?\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  }
+]

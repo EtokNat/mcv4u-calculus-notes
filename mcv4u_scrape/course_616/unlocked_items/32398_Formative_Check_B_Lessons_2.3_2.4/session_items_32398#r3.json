@@ -1,0 +1,492 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>[C] A classmate says, 'The derivative of a cubic polynomial function is a quadratic polynomial function.' Is the statement always true, sometimes true, or never true? Defend your choice in words, and provide two examples to support your argument.</p>\n<p>For a cubic f(x) = ax^3 + bx^2 + cx + d (a != 0), the derivative is f'(x) = .</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "76092",
+      "label": null,
+      "title": "Q14 [C]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "b1c46890-b7d7-4b60-bdfe-f6fb4327a2fc"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ee512cd6-46ab-4cb4-a6d7-f8668abd8246"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "be014cfa-d2ae-413b-9a97-d5aed558732e"
+          }
+        ]
+      },
+      "item_body": "<p>[A] An object drops from a cliff that is 150 m high. The distance, d, in metres, that the object has dropped at t seconds is modelled by d(t) = 4.9t^2.</p>\n<p>a. Find the average rate of change of distance with respect to time from 2 s to 5 s: <span id=\"blank_b1c46890-b7d7-4b60-bdfe-f6fb4327a2fc\"></span> m/s</p>\n<p>b. Find the instantaneous rate of change of distance with respect to time at 4 s: <span id=\"blank_ee512cd6-46ab-4cb4-a6d7-f8668abd8246\"></span> m/s</p>\n<p>c. Find the rate at which the object hits the ground to the nearest tenth: <span id=\"blank_be014cfa-d2ae-413b-9a97-d5aed558732e\"></span> m/s</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65000",
+      "label": null,
+      "title": "Q20 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "280a7f86-f78d-42c2-8d29-c5a7ff5a8c51"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6cee063d-ef7f-4ae0-8676-f56ace825f97"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b18005a4-6642-4ebd-94e7-8f382bf1039d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c15e6b1d-3c88-4136-9628-a29ab66f16ea"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b65cdbf5-775a-4432-a594-033d7c10cd5f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "380e2094-31b6-4eeb-aa2b-8b968cbcbd7a"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine f'(x) for each of the following functions.</p>\n<p>a. f(x) = 4x - 7: f'(x) = <span id=\"blank_280a7f86-f78d-42c2-8d29-c5a7ff5a8c51\"></span></p>\n<p>b. f(x) = x^3 - x^2: f'(x) = <span id=\"blank_6cee063d-ef7f-4ae0-8676-f56ace825f97\"></span></p>\n<p>c. f(x) = -x^2 + 5x + 8: f'(x) = <span id=\"blank_b18005a4-6642-4ebd-94e7-8f382bf1039d\"></span></p>\n<p>d. f(x) = cubert(x): f'(x) = <span id=\"blank_c15e6b1d-3c88-4136-9628-a29ab66f16ea\"></span></p>\n<p>e. f(x) = (x/2)^4: f'(x) = <span id=\"blank_b65cdbf5-775a-4432-a594-033d7c10cd5f\"></span></p>\n<p>f. f(x) = x^-3: f'(x) = <span id=\"blank_380e2094-31b6-4eeb-aa2b-8b968cbcbd7a\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64993",
+      "label": null,
+      "title": "Q2 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "7acb7568-4a04-49c2-b05b-4276970029b9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "49cd044e-89df-4175-a1c6-98fc2bd8c472"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6da1d1b2-c316-4573-a407-b6464a5d2a50"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "d0844707-d5d8-431f-87e7-20f54aafc96a"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine the coordinates of the points on the graph of y = x^3 + 2 at which the slope of the tangent is 12.</p>\n<p>Point 1: (<span id=\"blank_7acb7568-4a04-49c2-b05b-4276970029b9\"></span>, <span id=\"blank_49cd044e-89df-4175-a1c6-98fc2bd8c472\"></span>)</p>\n<p>Point 2: (<span id=\"blank_6da1d1b2-c316-4573-a407-b6464a5d2a50\"></span>, <span id=\"blank_d0844707-d5d8-431f-87e7-20f54aafc96a\"></span>)</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64997",
+      "label": null,
+      "title": "Q15 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "59f6a184-f300-4f49-9950-fa1ba6a040c9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "deb639b6-1b9a-4b65-babc-0c256a39570a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3b71b133-a514-496d-b79f-c0f2e03b9236"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3ed9371e-1b4b-44a2-9645-c07c3dbff5b3"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine the point(s) where the tangent to the curve is horizontal.</p>\n<p>a. y = 2(x - 29)(x + 1): point (<span id=\"blank_59f6a184-f300-4f49-9950-fa1ba6a040c9\"></span>, <span id=\"blank_deb639b6-1b9a-4b65-babc-0c256a39570a\"></span>)</p>\n<p>b. y = (x^2 + 2x + 1)(x^2 + 2x + 1): point (<span id=\"blank_3b71b133-a514-496d-b79f-c0f2e03b9236\"></span>, <span id=\"blank_3ed9371e-1b4b-44a2-9645-c07c3dbff5b3\"></span>)</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65028",
+      "label": null,
+      "title": "Q7 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "be8f9567-8f69-4b7a-948a-add9a249518f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ffc6069b-b50d-4df0-92e6-2628fc4487da"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3ab97c2a-a3fd-49bc-8fa0-2abb86aa46aa"
+          }
+        ]
+      },
+      "item_body": "<p>[C] Show that the line 4x - y + 11 = 0 is tangent to the curve y = 16/x^2 - 1.</p>\n<p>dy/dx = <span id=\"blank_be8f9567-8f69-4b7a-948a-add9a249518f\"></span></p>\n<p>Point of tangency: (<span id=\"blank_ffc6069b-b50d-4df0-92e6-2628fc4487da\"></span>, <span id=\"blank_3ab97c2a-a3fd-49bc-8fa0-2abb86aa46aa\"></span>)</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65030",
+      "label": null,
+      "title": "Q14 [C]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "66951fc8-f098-4623-9331-96629df8284c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b47b7178-955c-46e3-8cc4-f81efd130449"
+          }
+        ]
+      },
+      "item_body": "<p>[C] When is it not appropriate to use the product rule? Give examples.</p>\n<p>It is not necessary to use the product rule when one factor is a <span id=\"blank_66951fc8-f098-4623-9331-96629df8284c\"></span>, or when it is easier to <span id=\"blank_b47b7178-955c-46e3-8cc4-f81efd130449\"></span> the product first and use other rules. For example, f(x) = 3(x^2 + 1) and g(x) = (x + 1)(x - 1).</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65025",
+      "label": null,
+      "title": "Q3 [C]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "2da320fa-8ee2-417b-962e-1b25fd74fbe7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "36a0b9ec-61e3-42a5-8cfd-1694b30a1d8b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "272e6f21-bc76-4b1e-8a00-60e60a94a227"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "48dab723-2c53-4b46-92c3-707a12f6b092"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "99428d62-a3ae-4ece-934f-f59a759f54fa"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fa07b730-637b-4af8-ae2b-84d351b8d084"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine the value of dy/dx for the given value of x.</p>\n<p>a. y = (2 + 7x)(x - 3), x = 2: dy/dx = <span id=\"blank_2da320fa-8ee2-417b-962e-1b25fd74fbe7\"></span></p>\n<p>b. y = (1 - 2x)(1 + 2x), x = 1/2: dy/dx = <span id=\"blank_36a0b9ec-61e3-42a5-8cfd-1694b30a1d8b\"></span></p>\n<p>c. y = (3 - 2x - x^2)(x^2 + x - 2), x = -2: dy/dx = <span id=\"blank_272e6f21-bc76-4b1e-8a00-60e60a94a227\"></span></p>\n<p>d. y = x^3 (3x + 7)^2, x = -2: dy/dx = <span id=\"blank_48dab723-2c53-4b46-92c3-707a12f6b092\"></span></p>\n<p>e. y = (2x + 1)^5 (3x + 2)^4, x = -1: dy/dx = <span id=\"blank_99428d62-a3ae-4ece-934f-f59a759f54fa\"></span></p>\n<p>f. y = x(5x - 2)(5x + 2), x = 3: dy/dx = <span id=\"blank_fa07b730-637b-4af8-ae2b-84d351b8d084\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65027",
+      "label": null,
+      "title": "Q5 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

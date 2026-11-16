@@ -1,0 +1,275 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "rising",
+            "id": "11111800-220f-43a1-899f-af9c873f41b6",
+            "position": 1
+          },
+          {
+            "item_body": "falling",
+            "id": "12bca9d3-d829-4e45-b8cb-de7935b49cda",
+            "position": 2
+          },
+          {
+            "item_body": "flat",
+            "id": "83cb6640-a370-4b94-b390-55252869877a",
+            "position": 3
+          },
+          {
+            "item_body": "impossible to tell",
+            "id": "703c6d8c-fec0-4af7-8d3b-b2b2fbdb4f52",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div>If the derivative f\u2032(x) is positive on an interval, the graph of f on that interval is\u2026</div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45396",
+      "label": null,
+      "title": "EQ1",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "34232",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "2",
+            "id": "ba961fc6-74cd-4102-bcb5-7bffd7cb57b1",
+            "position": 1
+          },
+          {
+            "item_body": "1",
+            "id": "05ff9e3a-0834-4fe5-91df-3ed927d5e92b",
+            "position": 2
+          },
+          {
+            "item_body": "0",
+            "id": "abb3438b-279b-416d-ba91-dd52d06a8d9e",
+            "position": 3
+          },
+          {
+            "item_body": "4",
+            "id": "512656f0-ea01-4f30-bc67-4d27ce423a26",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div>The slope of the tangent line to y = x\u00b2 at x = 1 is\u2026</div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45402",
+      "label": null,
+      "title": "EQ2",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "34235",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "Very confident",
+            "id": "8e9abdb0-f925-4061-a870-4b19b94ff22a",
+            "position": 1
+          },
+          {
+            "item_body": "Somewhat confident",
+            "id": "48ec8cab-6adc-4b5b-ba71-590397bdfb23",
+            "position": 2
+          },
+          {
+            "item_body": "Not very confident",
+            "id": "d8bc7f2f-d562-46a8-b064-70cd661ccfc8",
+            "position": 3
+          },
+          {
+            "item_body": "Not confident at all",
+            "id": "402b30f7-c163-4d88-abec-62e75a6e6d76",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div>How confident are you finding derivatives with the power, product, and quotient rules?</div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45404",
+      "label": null,
+      "title": "EQ3",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "34236",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "Very confident",
+            "id": "55dd439f-ce46-45a4-8cb7-934c6af19c74",
+            "position": 1
+          },
+          {
+            "item_body": "Somewhat confident",
+            "id": "b6207b38-37b2-4d84-8f33-cac2b190419c",
+            "position": 2
+          },
+          {
+            "item_body": "Not very confident",
+            "id": "e0cee9f9-c0a3-45eb-9110-91974922f3e1",
+            "position": 3
+          },
+          {
+            "item_body": "Not confident at all",
+            "id": "6c211eb0-d838-4078-8a39-920889e144d8",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div>How confident are you reading key features (peaks, valleys, steepness) from a graph?</div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45405",
+      "label": null,
+      "title": "EQ4",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "34238",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false,
+        "userResponse": {
+          "value": {}
+        }
+      },
+      "item_body": "<div>What is one goal you have for this unit on curve sketching?</div>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45406",
+      "label": null,
+      "title": "EQ5",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "34239",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  }
+]

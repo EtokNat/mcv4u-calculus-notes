@@ -1,0 +1,222 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56699",
+    "item_id": "69507",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[C] For each of the following vectors, describe the opposite vector. a. An airplane flies due north at 400 km/h. The opposite vector is . b. A car travels in a northeasterly direction at 70 km/h. The opposite vector is . c. A bicyclist pedals in a northwesterly direction at 30 km/h. The opposite vector is . d. A boat travels due west at 25 km/h. The opposite vector is .",
+    "prompt_html": "<p>[C] For each of the following vectors, describe the opposite vector. a. An airplane flies due north at 400 km/h. The opposite vector is <span id=\"blank_624cbac2-cf1a-496d-9e88-22cba6e056a6\"></span>. b. A car travels in a northeasterly direction at 70 km/h. The opposite vector is <span id=\"blank_fbc51240-e9ac-47a4-956f-0f1038923123\"></span>. c. A bicyclist pedals in a northwesterly direction at 30 km/h. The opposite vector is <span id=\"blank_85e19bc7-39f6-474c-bce5-aeabf6190ba2\"></span>. d. A boat travels due west at 25 km/h. The opposite vector is <span id=\"blank_53181fbf-704e-4971-9dda-af3ebb28c55e\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "624cbac2-cf1a-496d-9e88-22cba6e056a6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fbc51240-e9ac-47a4-956f-0f1038923123"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "85e19bc7-39f6-474c-bce5-aeabf6190ba2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "53181fbf-704e-4971-9dda-af3ebb28c55e"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56699",
+    "item_id": "69510",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] (Part a only) ABCD is a parallelogram, and |PD| = |DA|. a. Determine which vectors (if any) are equal to AB, BA, AD, CB, and AP. The vector equal to AB is . The vector equal to BA is . The vector equal to AD is . The vector equal to CB is . The vector equal to AP is .",
+    "prompt_html": "<p>[K/U] (Part a only) ABCD is a parallelogram, and |PD| = |DA|. a. Determine which vectors (if any) are equal to AB, BA, AD, CB, and AP. The vector equal to AB is <span id=\"blank_4ff829ae-9382-4a96-8322-3f96e9f6541e\"></span>. The vector equal to BA is <span id=\"blank_95e86467-213c-49e2-8552-fd603ec4e434\"></span>. The vector equal to AD is <span id=\"blank_109889f6-dade-4516-aacb-b0cd606e4bf4\"></span>. The vector equal to CB is <span id=\"blank_7748b34b-861e-46e4-bb36-5115ddde0010\"></span>. The vector equal to AP is <span id=\"blank_80feaee2-b745-4081-bf18-35dbd2f17f82\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 5,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "4ff829ae-9382-4a96-8322-3f96e9f6541e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "95e86467-213c-49e2-8552-fd603ec4e434"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "109889f6-dade-4516-aacb-b0cd606e4bf4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7748b34b-861e-46e4-bb36-5115ddde0010"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "80feaee2-b745-4081-bf18-35dbd2f17f82"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56700",
+    "item_id": "69528",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] An airplane is headed south at speed 400 km/h. The airplane encounters a wind from the east blowing at 100 km/h. a. How far will the airplane travel in 3 h? The airplane will travel km. b. What is the direction of the airplane? The direction is degrees west of south.",
+    "prompt_html": "<p>[A] An airplane is headed south at speed 400 km/h. The airplane encounters a wind from the east blowing at 100 km/h. a. How far will the airplane travel in 3 h? The airplane will travel <span id=\"blank_70ae6fbc-9526-4d54-a4a3-fa5448925276\"></span> km. b. What is the direction of the airplane? The direction is <span id=\"blank_6d8c9410-7922-4af8-a939-e2a2f5b62645\"></span> degrees west of south.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "70ae6fbc-9526-4d54-a4a3-fa5448925276"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6d8c9410-7922-4af8-a939-e2a2f5b62645"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56700",
+    "item_id": "69521",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] ABCD is a parallelogram. If AB = x and DA = y, express BC, DC, BD, and AC in terms of x and y. BC = . DC = . BD = . AC = .",
+    "prompt_html": "<p>[K/U] ABCD is a parallelogram. If AB = x and DA = y, express BC, DC, BD, and AC in terms of x and y. BC = <span id=\"blank_48a0c019-01ee-4e4e-88b1-0a0347e8483a\"></span>. DC = <span id=\"blank_fd192fee-15a3-4322-a78f-73a09f040434\"></span>. BD = <span id=\"blank_f0b69219-7a23-4857-92fe-9c4379da1097\"></span>. AC = <span id=\"blank_2da0d692-0ce4-47a0-afdb-075033a53b62\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "48a0c019-01ee-4e4e-88b1-0a0347e8483a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fd192fee-15a3-4322-a78f-73a09f040434"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f0b69219-7a23-4857-92fe-9c4379da1097"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "2da0d692-0ce4-47a0-afdb-075033a53b62"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56700",
+    "item_id": "69512",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Each of the following vector expressions can be simplified and written as a single vector. Write the single vector corresponding to each expression. a. PQ - RQ + RS = . b. PS + RQ - RS - PQ = .",
+    "prompt_html": "<p>[K/U] Each of the following vector expressions can be simplified and written as a single vector. Write the single vector corresponding to each expression. a. PQ - RQ + RS = <span id=\"blank_2c67ca50-d37d-4d23-ac05-0daf5de1d8f7\"></span>. b. PS + RQ - RS - PQ = <span id=\"blank_0bae28ac-d23e-4957-8cf0-3804f9698263\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "2c67ca50-d37d-4d23-ac05-0daf5de1d8f7"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0bae28ac-d23e-4957-8cf0-3804f9698263"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56701",
+    "item_id": "69536",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] Let PQR be a triangle in which M is the midpoint of PQ and N is the midpoint of PR. If PM = a and PN = b, find vector expressions for MN and QR in terms of a and b. MN = . QR = .",
+    "prompt_html": "<p>[T] Let PQR be a triangle in which M is the midpoint of PQ and N is the midpoint of PR. If PM = a and PN = b, find vector expressions for MN and QR in terms of a and b. MN = <span id=\"blank_6db5ae95-3401-49ae-8283-ef00c84db74a\"></span>. QR = <span id=\"blank_98aae674-31d3-4f89-a954-96edd284780b\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "6db5ae95-3401-49ae-8283-ef00c84db74a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "98aae674-31d3-4f89-a954-96edd284780b"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56701",
+    "item_id": "69532",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] If the vectors a and b are noncollinear, determine which of the following pairs of vectors are collinear and which are not. a. 2a, -3a: . b. 2a, 3b: . c. 5a, -(3/2)b: . d. -b, 2b: .",
+    "prompt_html": "<p>[K/U] If the vectors a and b are noncollinear, determine which of the following pairs of vectors are collinear and which are not. a. 2a, -3a: <span id=\"blank_75876ab6-bc9d-40a0-a835-e4529be3fadc\"></span>. b. 2a, 3b: <span id=\"blank_a8a20e17-bdda-458f-8861-ee4f836a0012\"></span>. c. 5a, -(3/2)b: <span id=\"blank_bc586ff2-b96f-49d5-b6fa-7ca12e22cb35\"></span>. d. -b, 2b: <span id=\"blank_c4e6ab24-ba6f-42ea-b0de-5a8a3346fee3\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "75876ab6-bc9d-40a0-a835-e4529be3fadc"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a8a20e17-bdda-458f-8861-ee4f836a0012"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bc586ff2-b96f-49d5-b6fa-7ca12e22cb35"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c4e6ab24-ba6f-42ea-b0de-5a8a3346fee3"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56701",
+    "item_id": "69535",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] The vectors x and y are unit vectors that make an angle of 30 degrees with each other. Calculate the value of |2x + y| and the direction of 2x + y. |2x + y| = , and the direction of 2x + y makes an angle of degrees with x.",
+    "prompt_html": "<p>[K/U] The vectors x and y are unit vectors that make an angle of 30 degrees with each other. Calculate the value of |2x + y| and the direction of 2x + y. |2x + y| = <span id=\"blank_53746628-1509-474e-9b1c-16833a87cb5d\"></span>, and the direction of 2x + y makes an angle of <span id=\"blank_fa2c7938-ff84-4dc3-82f3-6621d3e2448c\"></span> degrees with x.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "53746628-1509-474e-9b1c-16833a87cb5d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fa2c7938-ff84-4dc3-82f3-6621d3e2448c"
+        }
+      ]
+    }
+  }
+]

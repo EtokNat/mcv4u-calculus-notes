@@ -1,0 +1,274 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[K/U] Suppose that the monthly revenue in thousands of dollars, for the sale of x hundred units of an electronic item is given by the function R(x) = 40x^2 e^(-0.4x) + 30, where the maximum capacity of the plant is 800 units. Determine the number of units to produce in order to maximize revenue.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69488",
+      "label": null,
+      "title": "Exercise 5.3 Q5 - Auto",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56181",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "491fc273-6305-48ce-9251-d1f2ca20a197"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ef3095e8-a890-49d2-9e76-60c18174fb64"
+          }
+        ]
+      },
+      "item_body": "<p>[A] The net monthly profit, in dollars, from the sale of a certain item is given by the formula P(x) = 10^6[1 + (x - 1)e^(-0.001x)], where x is the number of items sold. a. Determine the number of items that yield the maximum profit. <span id=\"blank_491fc273-6305-48ce-9251-d1f2ca20a197\"></span> At full capacity, the factory can produce 2000 items per month. b. Repeat part a, assuming that, at most, 500 items can be produced per month. <span id=\"blank_ef3095e8-a890-49d2-9e76-60c18174fb64\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69487",
+      "label": null,
+      "title": "Exercise 5.3 Q4 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56181",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[A] A certain radioactive material decays exponentially. The percent, P, of the material left after t years is given by P(t) = 100(1.2)^(-t). Determine the half-life of the substance, in years, to two decimal places.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69485",
+      "label": null,
+      "title": "Exercise 5.2 Q6 - Auto",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56183",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "780acb73-d135-4500-856d-2e54a2e57474"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "34fe4df8-71d2-4443-9c87-c5af1eb06060"
+          }
+        ]
+      },
+      "item_body": "<p>[A] A rumour spreads through a population in such a way that t hours after the rumour starts, the percent of people involved in passing it on is given by P(t) = 100(e^(-t) - e^(-4t)). What is the highest percent of people involved in spreading the rumour within the first 3 h? <span id=\"blank_780acb73-d135-4500-856d-2e54a2e57474\"></span> When does this occur? <span id=\"blank_34fe4df8-71d2-4443-9c87-c5af1eb06060\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69489",
+      "label": null,
+      "title": "Exercise 5.3 Q6 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56181",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "19f4f1c5-c689-448c-ab7f-981e0bde1231"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "18e80d60-43c2-4dd1-b871-410f583e709a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9d8eca05-0f97-42fb-920d-8158d9e25228"
+          }
+        ]
+      },
+      "item_body": "<p>If you have ever travelled in an airplane, you probably noticed that the air pressure in the airplane varied. The atmospheric pressure, y, varies with the altitude, x kilometres, above Earth. For altitudes up to 10 km, the pressure in millimetres of mercury (mm Hg) is given by y = 760e^(-0.125x). What is the atmospheric pressure at each distance above Earth? a. 5 km: <span id=\"blank_19f4f1c5-c689-448c-ab7f-981e0bde1231\"></span> b. 7 km: <span id=\"blank_18e80d60-43c2-4dd1-b871-410f583e709a\"></span> c. 9 km: <span id=\"blank_9d8eca05-0f97-42fb-920d-8158d9e25228\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69483",
+      "label": null,
+      "title": "Mid-Chapter Review Q10 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56182",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[K/U] Calculate the slope of the tangent line that passes through y = 5^x, where x = 2. Express your answer to two decimal places.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69486",
+      "label": null,
+      "title": "Chapter 5 Test Q7 - Auto",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56183",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[A] A drug is injected into the body in such a way that the concentration, C, in the blood at time t hours is given by the function C(t) = 10(e^(-2t) - e^(-3t)). At what time does the highest concentration occur within the first 5 h? Express your answer to two decimal places.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69490",
+      "label": null,
+      "title": "Mid-Chapter Review Q7 - Auto",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56181",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "3bac7b84-771b-4f1d-9a6d-3c068168e055"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9995f078-6a08-4cf3-9687-341a43e92d58"
+          }
+        ]
+      },
+      "item_body": "<p>[A] The number of bacteria in a culture, N, at time t is given by N(t) = 2000[30 + te^(-t/20)]. a. When is the rate of change of the number of bacteria equal to zero? t = <span id=\"blank_3bac7b84-771b-4f1d-9a6d-3c068168e055\"></span> b. If the bacterial culture is placed in a colony of mice, the number of mice that become infected, M, is related to the number of bacteria present by the equation M(t) = (N + 1000)^(1/3). After 10 days, how many mice are infected per day? <span id=\"blank_9995f078-6a08-4cf3-9687-341a43e92d58\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69484",
+      "label": null,
+      "title": "Review Exercise Q11 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56182",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

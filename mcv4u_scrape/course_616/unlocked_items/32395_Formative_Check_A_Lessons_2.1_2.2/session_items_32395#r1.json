@@ -1,0 +1,484 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "862e4e54-3c81-4159-a238-7dbe652a29e8"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine an equation of the line that is tangent to the graph of f(x) = sqrt(x + 1) and parallel to x - 6y + 4 = 0.</p>\n<p>Equation: <span id=\"blank_862e4e54-3c81-4159-a238-7dbe652a29e8\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64987",
+      "label": null,
+      "title": "Q11 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56023",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "4a7a4156-524e-467d-9e79-3e2b14803e50"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "25229d64-912d-4e44-b6b8-9dd1045bb5ce"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fe13a445-6fa2-4a3c-b5aa-059ffd55aefb"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] In each case, find the derivative dy/dx from first principles.</p>\n<p>a. y = 6 - 7x: dy/dx = <span id=\"blank_4a7a4156-524e-467d-9e79-3e2b14803e50\"></span></p>\n<p>b. y = (x + 1)/(x - 1): dy/dx = <span id=\"blank_25229d64-912d-4e44-b6b8-9dd1045bb5ce\"></span></p>\n<p>c. y = 3x^2: dy/dx = <span id=\"blank_fe13a445-6fa2-4a3c-b5aa-059ffd55aefb\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64986",
+      "label": null,
+      "title": "Q7 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56023",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>[K/U] a. Determine the equation of the tangent to the curve y = x^2 - 4x + 3 at x = 1.</p>\n<p>Tangent equation:</p>\n<p>b. Sketch the graph of the function and the tangent.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "75976",
+      "label": null,
+      "title": "Q3 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56023",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "fa7ae932-70ae-4d71-9675-6afb2006524c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8b32b461-a049-4ff5-96ca-188334ea3037"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a3bce829-3f4e-4fc7-aacb-6543779fd556"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a67ba6d0-addc-4d56-a727-62d74b53108a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "399262c1-3c49-4721-9b3f-be09b08fd300"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b2a9f82a-5d4e-42f1-ad2c-daa76f7e0f4e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7cb442e8-0ed7-4ac2-a162-c7dcf8d62c7b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "4943c1c4-596d-43a0-adcb-c6fed9377b13"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "71099529-8da1-4dbe-ae68-1fd1388bb818"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "05abed6f-cb78-4418-a575-6200b0142dea"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f8f9182d-9181-41bf-b02d-50045fd5325c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b9b662f7-d472-4151-9a9c-96e4c92df307"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] For each function, find f(a + h) and f(a + h) - f(a).</p>\n<p>a. f(x) = 5x - 2: f(a + h) = <span id=\"blank_fa7ae932-70ae-4d71-9675-6afb2006524c\"></span>; f(a + h) - f(a) = <span id=\"blank_8b32b461-a049-4ff5-96ca-188334ea3037\"></span></p>\n<p>b. f(x) = x^2 + 3x - 1: f(a + h) = <span id=\"blank_a3bce829-3f4e-4fc7-aacb-6543779fd556\"></span>; f(a + h) - f(a) = <span id=\"blank_a67ba6d0-addc-4d56-a727-62d74b53108a\"></span></p>\n<p>c. f(x) = x^3 - 4x + 1: f(a + h) = <span id=\"blank_399262c1-3c49-4721-9b3f-be09b08fd300\"></span>; f(a + h) - f(a) = <span id=\"blank_b2a9f82a-5d4e-42f1-ad2c-daa76f7e0f4e\"></span></p>\n<p>d. f(x) = x^2 + x - 6: f(a + h) = <span id=\"blank_7cb442e8-0ed7-4ac2-a162-c7dcf8d62c7b\"></span>; f(a + h) - f(a) = <span id=\"blank_4943c1c4-596d-43a0-adcb-c6fed9377b13\"></span></p>\n<p>e. f(x) = -7x + 4: f(a + h) = <span id=\"blank_71099529-8da1-4dbe-ae68-1fd1388bb818\"></span>; f(a + h) - f(a) = <span id=\"blank_05abed6f-cb78-4418-a575-6200b0142dea\"></span></p>\n<p>f. f(x) = 4 - 2x - x^2: f(a + h) = <span id=\"blank_f8f9182d-9181-41bf-b02d-50045fd5325c\"></span>; f(a + h) - f(a) = <span id=\"blank_b9b662f7-d472-4151-9a9c-96e4c92df307\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64985",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "11": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56023",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>[A] The relative percent of carbon dioxide, C, in a carbonated soft drink at t minutes can be modelled by C(t) = 100/t, where t &gt; 2. Determine C'(t) and interpret the results at 5 min, 50 min, and 100 min. Explain what is happening.</p>\n<p>C'(t) =</p>\n<p>C'(5) =</p>\n<p>C'(50) =</p>\n<p>C'(100) =</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "76220",
+      "label": null,
+      "title": "Q18 [A]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56024",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "5197ba87-370e-4b2b-a5ee-530776361156"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6febd18c-beda-4dc5-9ee0-3cf421bd8c87"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0ff21b3f-84ee-456c-b0e8-a570cec7047a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a72a1433-bed2-41cb-ac18-630c99d2274f"
+          }
+        ]
+      },
+      "item_body": "<p>[T] Tangents are drawn from the point (0, 3) to the parabola y = -3x^2. Find the coordinates of the points at which these tangents touch the curve. Illustrate your answer with a sketch.</p>\n<p>Point 1: (<span id=\"blank_5197ba87-370e-4b2b-a5ee-530776361156\"></span>, <span id=\"blank_6febd18c-beda-4dc5-9ee0-3cf421bd8c87\"></span>)</p>\n<p>Point 2: (<span id=\"blank_0ff21b3f-84ee-456c-b0e8-a570cec7047a\"></span>, <span id=\"blank_a72a1433-bed2-41cb-ac18-630c99d2274f\"></span>)</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65003",
+      "label": null,
+      "title": "Q23 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56024",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "6234c4a6-2ca5-4e9f-870b-81ebe334b9b7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "295e89a3-1f7d-4ce7-9460-b5844ccab6d9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "913f783c-b465-478c-8667-49627a38757d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "822cd0de-6d23-4002-94ed-4b241b35cb04"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine the slope of the tangent to each of the curves at the given point.</p>\n<p>a. y = 3x^4, (1, 3): slope = <span id=\"blank_6234c4a6-2ca5-4e9f-870b-81ebe334b9b7\"></span></p>\n<p>b. y = 1/x^-5, (-1, -1): slope = <span id=\"blank_295e89a3-1f7d-4ce7-9460-b5844ccab6d9\"></span></p>\n<p>c. y = 2/x, (-2, -1): slope = <span id=\"blank_913f783c-b465-478c-8667-49627a38757d\"></span></p>\n<p>d. y = sqrt(16x^3), (4, 32): slope = <span id=\"blank_822cd0de-6d23-4002-94ed-4b241b35cb04\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64996",
+      "label": null,
+      "title": "Q7 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56024",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "9882e705-544e-4dd6-bf53-d73313ae6edb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7705660f-7ad8-4f4e-923a-20be3b1968e7"
+          }
+        ]
+      },
+      "item_body": "<p>[T] The tangent to the cubic function that is defined by y = x^3 - 6x^2 + 8x at point A(3, -3) intersects the curve at another point, B. Find the coordinates of point B. Illustrate with a sketch.</p>\n<p>Point B: (<span id=\"blank_9882e705-544e-4dd6-bf53-d73313ae6edb\"></span>, <span id=\"blank_7705660f-7ad8-4f4e-923a-20be3b1968e7\"></span>)</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65004",
+      "label": null,
+      "title": "Q24 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56024",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

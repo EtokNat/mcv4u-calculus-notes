@@ -1,0 +1,176 @@
+[
+  {
+    "idx": 0,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = , a(2) = ; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = .",
+    "prompt_dom": "An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = \nQuestion Blank 1 of 3\n, a(2) = \nQuestion Blank 2 of 3\n; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = \nQuestion Blank 3 of 3\n.",
+    "num_blanks": 3,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "0",
+      "10",
+      "1.2"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 86.45833333333333
+  },
+  {
+    "idx": 1,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "Determine the absolute extreme values of each function on the given interval, using the algorithm for maximum and minimum values: a. f(x) = x^3 + 3x^2 + 1, -2 <= x <= 2: maximum at x = , minimum at x = ; b. f(x) = (x + 2)^2, -3 <= x <= 3: maximum at x = , minimum at x = ; c. f(x) = 1/x - 1/x^3, x in [1, 5]: maximum at x = , minimum at x = .",
+    "prompt_dom": "Determine the absolute extreme values of each function on the given interval, using the algorithm for maximum and minimum values: a. f(x) = x^3 + 3x^2 + 1, -2 <= x <= 2: maximum \nQuestion Blank 1 of 12\n at x = \nQuestion Blank 2 of 12\n, minimum \nQuestion Blank 3 of 12\n at x = \nQuestion Blank 4 of 12\n; b. f(x) = (x + 2)^2, -3 <= x <= 3: maximum \nQuestion Blank 5 of 12\n at x = \nQuestion Blank 6 of 12\n, minimum \nQuestion Blank 7 of 12\n at x = \nQuestion Blank 8 of 12\n; c. f(x) = 1/x - 1/x^3, x in [1, 5]: maximum \nQuestion Blank 9 of 12\n at x = \nQuestion Blank 10 of 12\n, minimum \nQuestion Blank 11 of 12\n at x = \nQuestion Blank 12 of 12\n.",
+    "num_blanks": 12,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "21",
+      "2",
+      "1",
+      "0",
+      "25",
+      "3",
+      "0",
+      "-2",
+      "2sqrt(3)/9",
+      "sqrt(3)",
+      "0",
+      "1"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 86.45833333333333
+  },
+  {
+    "idx": 2,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = ; b. When is its velocity zero? t = .",
+    "prompt_dom": "Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = \nQuestion Blank 1 of 2\n; b. When is its velocity zero? t = \nQuestion Blank 2 of 2\n.",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "2t - 6",
+      "3"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 86.45833333333333
+  },
+  {
+    "idx": 3,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "Calculate the total surface area and volume for cubes with the following side lengths: a. 3 cm - surface area cm^2, volume cm^3; b. sqrt(5) cm - surface area cm^2, volume cm^3; c. 2sqrt(3) cm - surface area cm^2, volume cm^3; d. 2k cm - surface area cm^2, volume cm^3.",
+    "prompt_dom": "Calculate the total surface area and volume for cubes with the following side lengths: a. 3 cm - surface area \nQuestion Blank 1 of 8\n cm^2, volume \nQuestion Blank 2 of 8\n cm^3; b. sqrt(5) cm - surface area \nQuestion Blank 3 of 8\n cm^2, volume \nQuestion Blank 4 of 8\n cm^3; c. 2sqrt(3) cm - surface area \nQuestion Blank 5 of 8\n cm^2, volume \nQuestion Blank 6 of 8\n cm^3; d. 2k cm - surface area \nQuestion Blank 7 of 8\n cm^2, volume \nQuestion Blank 8 of 8\n cm^3.",
+    "num_blanks": 8,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "54",
+      "27",
+      "30",
+      "5sqrt(5)",
+      "72",
+      "24sqrt(3)",
+      "24k^2",
+      "8k^3"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 86.45833333333333
+  },
+  {
+    "idx": 4,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "Express each set of numbers using interval notation. a. {x in R | x > 3} - ; b. {x in R | x <= -2} - ; c. {x in R | x < 0} - ; d. {x in R | x >= -5} - ; e. {x in R | -2 < x <= 8} - ; f. {x in R | -4 < x < 4} - .",
+    "prompt_dom": "Express each set of numbers using interval notation. a. {x in R | x > 3} - \nQuestion Blank 1 of 6\n; b. {x in R | x <= -2} - \nQuestion Blank 2 of 6\n; c. {x in R | x < 0} - \nQuestion Blank 3 of 6\n; d. {x in R | x >= -5} - \nQuestion Blank 4 of 6\n; e. {x in R | -2 < x <= 8} - \nQuestion Blank 5 of 6\n; f. {x in R | -4 < x < 4} - \nQuestion Blank 6 of 6\n.",
+    "num_blanks": 6,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "(3,\u221e)",
+      "(-\u221e,-2]",
+      "(-\u221e,0)",
+      "[-5,\u221e)",
+      "(-2,8]",
+      "(-4,4)"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 86.45833333333333
+  },
+  {
+    "idx": 5,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "Use graphing technology to graph each function and determine its maximum and/or minimum values. a. f(x) = x^2 - 5: maximum (none), minimum at x = ; b. f(x) = -x^2 - 10x: maximum at x = , minimum (none); c. f(x) = 3x^2 - 30x + 82: maximum (none), minimum at x = ; d. f(x) = |x| - 1: maximum (none), minimum at x = ; e. f(x) = 3 sin x + 2: maximum , minimum ; f. f(x) = -2 cos 2x - 5: maximum , minimum .",
+    "prompt_dom": "Use graphing technology to graph each function and determine its maximum and/or minimum values. a. f(x) = x^2 - 5: maximum (none), minimum \nQuestion Blank 1 of 12\n at x = \nQuestion Blank 2 of 12\n; b. f(x) = -x^2 - 10x: maximum \nQuestion Blank 3 of 12\n at x = \nQuestion Blank 4 of 12\n, minimum (none); c. f(x) = 3x^2 - 30x + 82: maximum (none), minimum \nQuestion Blank 5 of 12\n at x = \nQuestion Blank 6 of 12\n; d. f(x) = |x| - 1: maximum (none), minimum \nQuestion Blank 7 of 12\n at x = \nQuestion Blank 8 of 12\n; e. f(x) = 3 sin x + 2: maximum \nQuestion Blank 9 of 12\n, minimum \nQuestion Blank 10 of 12\n; f. f(x) = -2 cos 2x - 5: maximum \nQuestion Blank 11 of 12\n, minimum \nQuestion Blank 12 of 12\n.",
+    "num_blanks": 12,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "-5",
+      "0",
+      "25",
+      "-5",
+      "7",
+      "5",
+      "-1",
+      "0",
+      "5",
+      "-1",
+      "-3",
+      "-7"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 86.45833333333333
+  },
+  {
+    "idx": 6,
+    "slug": "numeric",
+    "points": 12.5,
+    "prompt": "A swimming pool is treated periodically to control the growth of bacteria. Suppose that t days after a treatment, the number of bacteria per cubic centimetre is N(t) = 30t^2 - 240t + 500. Determine the lowest number of bacteria during the first week after the treatment.",
+    "prompt_dom": "A swimming pool is treated periodically to control the growth of bacteria. Suppose that t days after a treatment, the number of bacteria per cubic centimetre is N(t) = 30t^2 - 240t + 500. Determine the lowest number of bacteria during the first week after the treatment.\n\nAnswer\n\nA swimming pool is treated periodically to control the growth of bacteria. Suppose that t days after a treatment, the number of bacteria per cubic centimetre is N(t) = 30t^2 - 240t + 500. Determine the lowest number of bacteria during the first week after the treatment.",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "20"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 86.45833333333333
+  },
+  {
+    "idx": 7,
+    "slug": "rich-fill-blank",
+    "points": 12.5,
+    "prompt": "A net enclosure for practising golf shots is open at one end, as shown. Find the dimensions that will minimize the amount of netting needed and give a volume of 144 m^3. (Netting is required only on the sides, the top, and the far end.) The square end has side m, and the length is m.",
+    "prompt_dom": "A net enclosure for practising golf shots is open at one end, as shown. Find the dimensions that will minimize the amount of netting needed and give a volume of 144 m^3. (Netting is required only on the sides, the top, and the far end.) The square end has side \nQuestion Blank 1 of 2\n m, and the length is \nQuestion Blank 2 of 2\n m.",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "6",
+      "4"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 86.45833333333333
+  }
+]

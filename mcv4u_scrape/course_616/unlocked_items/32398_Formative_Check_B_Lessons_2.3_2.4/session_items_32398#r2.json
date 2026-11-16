@@ -1,0 +1,395 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "d9fb8243-2834-4772-9556-147351404268"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "4b3821e0-05fd-450a-9a9c-859109b5944b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a77e4e96-4078-490a-ba3f-0ff3c0530c51"
+          }
+        ]
+      },
+      "item_body": "<p>[T] The line y = 8x + b is tangent to the curve y = 2x^2. Determine the point of tangency and the value of b.</p>\n<p>Point of tangency: (<span id=\"blank_d9fb8243-2834-4772-9556-147351404268\"></span>, <span id=\"blank_4b3821e0-05fd-450a-9a9c-859109b5944b\"></span>)</p>\n<p>b = <span id=\"blank_a77e4e96-4078-490a-ba3f-0ff3c0530c51\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65012",
+      "label": null,
+      "title": "Q13 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "92405e4a-54b4-4fcb-80a8-1276a679c67c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f7d55e60-509d-4614-ba5b-64923f359888"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "d9f3fa20-4737-4270-a1b1-745bce111ab1"
+          }
+        ]
+      },
+      "item_body": "<p>[A] A tank holds 500 L of liquid, which takes 90 min to drain from a hole in the bottom of the tank. The volume, V, remaining in the tank after t minutes is V(t) = 500(1 - t/90)^2, where 0 &lt;= t &lt;= 90.</p>\n<p>a. How much liquid remains in the tank at 1 h? <span id=\"blank_92405e4a-54b4-4fcb-80a8-1276a679c67c\"></span> L</p>\n<p>b. What is the average rate of change of volume with respect to time from 0 min to 60 min? <span id=\"blank_f7d55e60-509d-4614-ba5b-64923f359888\"></span> L/min</p>\n<p>c. How fast is the liquid draining at 30 min? <span id=\"blank_d9f3fa20-4737-4270-a1b1-745bce111ab1\"></span> L/min</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65008",
+      "label": null,
+      "title": "Q12 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "9882e705-544e-4dd6-bf53-d73313ae6edb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7705660f-7ad8-4f4e-923a-20be3b1968e7"
+          }
+        ]
+      },
+      "item_body": "<p>[T] The tangent to the cubic function that is defined by y = x^3 - 6x^2 + 8x at point A(3, -3) intersects the curve at another point, B. Find the coordinates of point B. Illustrate with a sketch.</p>\n<p>Point B: (<span id=\"blank_9882e705-544e-4dd6-bf53-d73313ae6edb\"></span>, <span id=\"blank_7705660f-7ad8-4f4e-923a-20be3b1968e7\"></span>)</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65004",
+      "label": null,
+      "title": "Q24 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "24062d3d-869a-48c6-8ca1-8f4e4f19e95c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c1d977c3-c64c-45df-8606-a4f0e8c0f9c5"
+          }
+        ]
+      },
+      "item_body": "<p>[A] (part b only) A manufacturer of kitchen appliances experiences revenue of R(x) = 750x - x^2/6 - (2/3)x^3 dollars from the sale of x refrigerators per month.</p>\n<p>a. Find the marginal revenue, R'(x). R'(x) = <span id=\"blank_24062d3d-869a-48c6-8ca1-8f4e4f19e95c\"></span></p>\n<p>b. Find the marginal revenue when 10 refrigerators per month are sold: <span id=\"blank_c1d977c3-c64c-45df-8606-a4f0e8c0f9c5\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "74779",
+      "label": null,
+      "title": "Q19 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "66951fc8-f098-4623-9331-96629df8284c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b47b7178-955c-46e3-8cc4-f81efd130449"
+          }
+        ]
+      },
+      "item_body": "<p>[C] When is it not appropriate to use the product rule? Give examples.</p>\n<p>It is not necessary to use the product rule when one factor is a <span id=\"blank_66951fc8-f098-4623-9331-96629df8284c\"></span>, or when it is easier to <span id=\"blank_b47b7178-955c-46e3-8cc4-f81efd130449\"></span> the product first and use other rules. For example, f(x) = 3(x^2 + 1) and g(x) = (x + 1)(x - 1).</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65025",
+      "label": null,
+      "title": "Q3 [C]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "1b21008b-ce7d-4212-ad9e-6be9e244c7bc"
+          }
+        ]
+      },
+      "item_body": "<p>[A] A 75 L gas tank has a leak. After t hours, the remaining volume, V, in litres is V(t) = 75(1 - t/24)^2, 0 &lt;= t &lt;= 24. Use the product rule to determine how quickly the gas is leaking from the tank when the tank is 60% full of gas.</p>\n<p>Leaking rate: <span id=\"blank_1b21008b-ce7d-4212-ad9e-6be9e244c7bc\"></span> L/h</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65029",
+      "label": null,
+      "title": "Q9 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "8fb34aea-ea7c-4ef4-99d4-7fac55766383"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Let F(x) = [b(x)][c(x)]. Express F'(x) in terms of b(x) and c(x).</p>\n<p>F'(x) = <span id=\"blank_8fb34aea-ea7c-4ef4-99d4-7fac55766383\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65026",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "c0ceda18-0cc4-40ab-b42e-6e6232b95880"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine the equation of the tangent to y = (5x^2 + 9x - 2)(-x^2 + 2x + 3) at (1, 48).</p>\n<p>Tangent: <span id=\"blank_c0ceda18-0cc4-40ab-b42e-6e6232b95880\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65032",
+      "label": null,
+      "title": "Q9 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

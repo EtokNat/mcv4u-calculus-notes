@@ -1,0 +1,201 @@
+[
+  {
+    "idx": 0,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "What clicked best for you in this unit?",
+    "prompt_dom": "What clicked best for you in this unit?\n\nForces in equilibrium (resultant, equilibrant, hanging masses)\n\nVelocity and navigation (wind, river crossings, headings)\n\nWork problems (ramps, pushers, friction)\n\nTorque problems (wrenches, doors, seesaws)\n\nProjections and geometric applications (ramps, areas, volumes)",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "a2bb9f5f-0cdc-4c36-b6c8-03d0c3bc5bb2",
+        "position": 1,
+        "text": "Forces in equilibrium (resultant, equilibrant, hanging masses)",
+        "html": "<p>Forces in equilibrium (resultant, equilibrant, hanging masses)</p>"
+      },
+      {
+        "id": "08b5080e-abf4-4b3e-94a8-3cd86d93c0e1",
+        "position": 2,
+        "text": "Velocity and navigation (wind, river crossings, headings)",
+        "html": "<p>Velocity and navigation (wind, river crossings, headings)</p>"
+      },
+      {
+        "id": "422ba40d-5b12-40d3-8041-f0ecc0bd7e4c",
+        "position": 3,
+        "text": "Work problems (ramps, pushers, friction)",
+        "html": "<p>Work problems (ramps, pushers, friction)</p>"
+      },
+      {
+        "id": "6657bebc-8abe-4d39-baa4-125370ca9638",
+        "position": 4,
+        "text": "Torque problems (wrenches, doors, seesaws)",
+        "html": "<p>Torque problems (wrenches, doors, seesaws)</p>"
+      },
+      {
+        "id": "38083705-b9a7-48ea-83f6-bec4c46248ed",
+        "position": 5,
+        "text": "Projections and geometric applications (ramps, areas, volumes)",
+        "html": "<p>Projections and geometric applications (ramps, areas, volumes)</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 1,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "What is still muddy for you?",
+    "prompt_dom": "What is still muddy for you?\n\nForces in equilibrium (resultant, equilibrant, hanging masses)\n\nVelocity and navigation (wind, river crossings, headings)\n\nWork problems (ramps, pushers, friction)\n\nTorque problems (wrenches, doors, seesaws)\n\nProjections and geometric applications (ramps, areas, volumes)\n\nNothing \u2014 I feel solid on all of it",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "a2bb9f5f-0cdc-4c36-b6c8-03d0c3bc5bb2",
+        "position": 1,
+        "text": "Forces in equilibrium (resultant, equilibrant, hanging masses)",
+        "html": "<p>Forces in equilibrium (resultant, equilibrant, hanging masses)</p>"
+      },
+      {
+        "id": "08b5080e-abf4-4b3e-94a8-3cd86d93c0e1",
+        "position": 2,
+        "text": "Velocity and navigation (wind, river crossings, headings)",
+        "html": "<p>Velocity and navigation (wind, river crossings, headings)</p>"
+      },
+      {
+        "id": "422ba40d-5b12-40d3-8041-f0ecc0bd7e4c",
+        "position": 3,
+        "text": "Work problems (ramps, pushers, friction)",
+        "html": "<p>Work problems (ramps, pushers, friction)</p>"
+      },
+      {
+        "id": "6657bebc-8abe-4d39-baa4-125370ca9638",
+        "position": 4,
+        "text": "Torque problems (wrenches, doors, seesaws)",
+        "html": "<p>Torque problems (wrenches, doors, seesaws)</p>"
+      },
+      {
+        "id": "38083705-b9a7-48ea-83f6-bec4c46248ed",
+        "position": 5,
+        "text": "Projections and geometric applications (ramps, areas, volumes)",
+        "html": "<p>Projections and geometric applications (ramps, areas, volumes)</p>"
+      },
+      {
+        "id": "19d2a8e4-67f4-4199-96f4-71057f5930f8",
+        "position": 6,
+        "text": "Nothing \u2014 I feel solid on all of it",
+        "html": "<p>Nothing \u2014 I feel solid on all of it</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 2,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "Compared to the start of the unit, my confidence solving applied vector word problems is now\u2026",
+    "prompt_dom": "Compared to the start of the unit, my confidence solving applied vector word problems is now\u2026\n\nMuch higher\n\nSomewhat higher\n\nAbout the same\n\nLower",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "e057c698-ea84-498c-b3b9-8e0d9c1ac2d6",
+        "position": 1,
+        "text": "Much higher",
+        "html": "<p>Much higher</p>"
+      },
+      {
+        "id": "f28ddde1-059f-4352-b71d-57480ba8f4f6",
+        "position": 2,
+        "text": "Somewhat higher",
+        "html": "<p>Somewhat higher</p>"
+      },
+      {
+        "id": "95dcba4f-0d11-41aa-919e-62abc09f7899",
+        "position": 3,
+        "text": "About the same",
+        "html": "<p>About the same</p>"
+      },
+      {
+        "id": "ba5a076c-62bf-46d8-86fa-cbdcd910240c",
+        "position": 4,
+        "text": "Lower",
+        "html": "<p>Lower</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 3,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "What kind of help would be most useful to you before the summative assessment?",
+    "prompt_dom": "What kind of help would be most useful to you before the summative assessment?\n\nMore worked examples\n\nMore practice problems\n\nA video walkthrough of the tricky parts\n\nA one-on-one check-in with my teacher\n\nI'm good for now",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "a26ac6d4-fc75-4870-8ffc-7a9a1b4607ec",
+        "position": 1,
+        "text": "More worked examples",
+        "html": "<p>More worked examples</p>"
+      },
+      {
+        "id": "0b84b62f-c003-4592-8d5b-5dff5fd612c7",
+        "position": 2,
+        "text": "More practice problems",
+        "html": "<p>More practice problems</p>"
+      },
+      {
+        "id": "5c95be28-0413-4b5a-bfa6-a3d665235690",
+        "position": 3,
+        "text": "A video walkthrough of the tricky parts",
+        "html": "<p>A video walkthrough of the tricky parts</p>"
+      },
+      {
+        "id": "f752ea59-5005-4032-af91-40a2681c2ab3",
+        "position": 4,
+        "text": "A one-on-one check-in with my teacher",
+        "html": "<p>A one-on-one check-in with my teacher</p>"
+      },
+      {
+        "id": "2672007a-2520-4cfc-aab7-4ac779c4bf4a",
+        "position": 5,
+        "text": "I'm good for now",
+        "html": "<p>I'm good for now</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 4,
+    "slug": "essay",
+    "points": 1.0,
+    "prompt": "Anything else you'd like me to know before the summative assessment? (Questions, concerns, or topics you'd like revisited.)",
+    "prompt_dom": "Anything else you'd like me to know before the summative assessment? (Questions, concerns, or topics you'd like revisited.)\n\nAnything else you'd like me to know before the summative assessment? (Questions, concerns, or topics you'd like revisited.)\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  }
+]

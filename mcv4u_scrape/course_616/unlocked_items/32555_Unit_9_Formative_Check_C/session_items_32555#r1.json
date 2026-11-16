@@ -1,0 +1,427 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Parallel to the plane (no intersection)</p>",
+            "id": "8bcd0dce-0298-44f6-b1ce-b6917d0c4ce3",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Lying on the plane</p>",
+            "id": "fb667922-11d6-4208-bb1e-5c36d81cdd26",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Perpendicular to the plane</p>",
+            "id": "b0bbe149-46b9-4ac5-8c7e-dc800b7af883",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Intersecting the plane at one point</p>",
+            "id": "3da8753a-e334-4e8a-bd9f-0241ffa42ffb",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Substituting a parametric line into a plane's equation gives 0 = -19. This means the line is...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45198",
+      "label": null,
+      "title": "C1",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "34057",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Parallel</p>",
+            "id": "986e3aa3-9ade-4cf6-819b-d554e0dc98e8",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Intersecting</p>",
+            "id": "6b451ed3-f4be-491c-9222-cdb03db362de",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Skew</p>",
+            "id": "913efe62-941a-49f2-8688-45ae4d8489d1",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Coincident</p>",
+            "id": "73bd951d-789f-4bf5-8b5a-21b09c843ab7",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Two lines in R3 have nonparallel direction vectors, and solving two coordinate equations gives t = 2, s = -2, but the third coordinate equation fails. The lines are...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45206",
+      "label": null,
+      "title": "C2",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "34064",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>A single point</p>",
+            "id": "f16de405-22c2-407a-9bf0-da84b77f857d",
+            "position": 1
+          },
+          {
+            "item_body": "<p>There is no line - the planes are parallel and distinct</p>",
+            "id": "414c37b7-3c68-4677-bab2-540abae9443a",
+            "position": 2
+          },
+          {
+            "item_body": "<p>x = 1 - t, y = t, z = 0</p>",
+            "id": "901f2daf-9685-4c37-8045-285d16294652",
+            "position": 3
+          },
+          {
+            "item_body": "<p>The two planes are coincident</p>",
+            "id": "f293f774-cfe6-4c84-9d01-34c0419d93dc",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>The line of intersection of p1: x + y + z = 1 and p2: 2x + 2y + 2z = 5 is...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45214",
+      "label": null,
+      "title": "C3",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "34073",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Meeting at a single point</p>",
+            "id": "a1c5ae44-7758-43ba-bb80-43ad817c9e1f",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Inconsistent - no common point</p>",
+            "id": "476d3e97-4458-40b4-815e-342f19e58dcc",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Intersecting in a line</p>",
+            "id": "e024a9fd-ee3b-4bfd-8876-0ff031083079",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Coincident</p>",
+            "id": "5f9be40e-0344-4021-903b-2f249703c5e1",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Three planes with a 3x3 system that reduces to 0 = 4 are...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45222",
+      "label": null,
+      "title": "C4",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 13.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "34076",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>The distance from P(2, 3) to the line 3x - 4y + 5 = 0 is d. Enter d as a decimal.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45227",
+      "label": null,
+      "title": "C5",
+      "properties": {}
+    },
+    "points_possible": 12.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "34084",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>2/3</p>",
+            "id": "ddd24dcf-c23b-4348-ac23-9c17c80e4f80",
+            "position": 1
+          },
+          {
+            "item_body": "<p>8/3</p>",
+            "id": "c430bfd3-35cd-4be6-86b2-29a703d6c29b",
+            "position": 2
+          },
+          {
+            "item_body": "<p>0</p>",
+            "id": "64a7aee4-d1b3-490e-a949-131d383284e1",
+            "position": 3
+          },
+          {
+            "item_body": "<p>2</p>",
+            "id": "0444783c-d776-49b6-8d02-55921a6d9efc",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>The distance from P(1, 2, 3) to the plane 2x - y + 2z = 4 is...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45237",
+      "label": null,
+      "title": "C6",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "34100",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>0</p>",
+            "id": "ab6e72fe-e6e1-4f6c-af98-2d0bb474aa2d",
+            "position": 1
+          },
+          {
+            "item_body": "<p>1</p>",
+            "id": "04516c2f-2cd2-4570-a4f4-49e2130d4540",
+            "position": 2
+          },
+          {
+            "item_body": "<p>sqrt(3)</p>",
+            "id": "0b086336-62a1-4aa7-9647-a04fd7ac4550",
+            "position": 3
+          },
+          {
+            "item_body": "<p>sqrt(3)/3</p>",
+            "id": "c19cc9f6-fbc3-4b34-ba44-edb69c9bd506",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>The distance between the skew lines L1: r = (1, 0, 0) + t(1, 1, 0) and L2: r = (0, 1, 1) + s(0, 1, 1) is...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45254",
+      "label": null,
+      "title": "C7",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "34107",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>|PQ|</p>",
+            "id": "1d7d2aeb-7c9d-49e9-97e4-4a115f9d85ff",
+            "position": 1
+          },
+          {
+            "item_body": "<p>|n . PQ| / |n|</p>",
+            "id": "8641695a-3a43-4d71-9b4f-7b479d66261d",
+            "position": 2
+          },
+          {
+            "item_body": "<p>|n . PQ|</p>",
+            "id": "85558ac0-728c-4a9d-9e14-372afe9e965b",
+            "position": 3
+          },
+          {
+            "item_body": "<p>|n x PQ| / |n|</p>",
+            "id": "c3f6bd12-0635-45a1-90e6-b7532b401f06",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Which formula gives the distance from a point P to a plane with normal n, where Q is any point on the plane?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45261",
+      "label": null,
+      "title": "C8",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": true,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 12.0,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "34115",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": false
+  }
+]

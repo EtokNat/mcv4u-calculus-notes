@@ -1,0 +1,122 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9200" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 9.5 — Intersections: a Line with a Plane, and Two Lines</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 9</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 9.5</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Intersections: a Line with a Plane, and Two Lines</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §§9.1–9.2 — substitution turns geometry into algebra: solving systems reveals the picture.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Find the <strong>intersection point of a line and a plane</strong> (or recognize parallel / line-on-plane cases).</li>
+<li>Classify two lines in R3 as <strong>parallel, intersecting, or skew</strong>, and find the intersection point when it exists.</li>
+<li>Solve <strong>2×2 and 3×3 systems of equations</strong> by elimination using the three elementary operations.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>A line and a plane in R3 have exactly three possible relationships: they meet at <strong>one point</strong>, they never meet (the line is <strong>parallel</strong> to the plane), or the line lies entirely <strong>on</strong> the plane (infinitely many intersection points). The trick is substitution: write the line in parametric form, plug its x, y, z into the plane's Cartesian equation, and solve for the parameter. What the parameter equation says tells you which case you're in: a single value → one point; an impossible equation like 0 = −19 → parallel; an identity like 0 = 0 → the line is on the plane. Two lines in R3 add a fourth possibility — <strong>skew</strong> lines, which are neither parallel nor intersecting.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17401" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17401" data-api-returntype="Assignment">▶ Start the Lesson 9.5 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — solving tells the story</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>The line x = 1 + 3t, y = −2 − 2t meets the plane x + 2y − 3z = −1. Graph the plane's trace <strong><em>3z = x + 2y + 1</em></strong> at the line's xy-shadow <strong><em>(1 + 3t, −2 − 2t)</em></strong>. Solve for t by hand, then check the point in Desmos.</li>
+<li>Try the system <strong><em>2x + 3y = 12</em></strong> and <strong><em>4x + 6y = 11</em></strong>. Graph both. What does elimination give? What does the graph show?</li>
+<li>Try <strong><em>3x − 2y = 8</em></strong> and <strong><em>6x − 4y = 16</em></strong>. Graph both. How does this picture differ from the one in prompt 2?</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">Line meets plane: substitute and solve</h4>
+<p>Write the line parametrically: x = x<sub>0</sub> + ta, y = y<sub>0</sub> + tb, z = z<sub>0</sub> + tc. Substitute into the plane's Cartesian equation Ax + By + Cz + D = 0 and solve for t:</p>
+<ul>
+<li><strong>One value of t</strong> → the line pierces the plane at a single point (substitute t back to find it).</li>
+<li><strong>Impossible equation</strong> (e.g. 0 = −19) → no solution: the line is <strong>parallel</strong> to the plane. Quick check: direction vector · normal = 0.</li>
+<li><strong>Identity</strong> (e.g. 0 = 0) → every t works: the line <strong>lies on</strong> the plane.</li>
+</ul>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54857/preview?" alt="A line piercing a plane at one point, and a second line running parallel to the plane" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54857" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">Two lines in R3: parallel, intersecting, or skew</h4>
+<p>Compare the direction vectors first: parallel directions mean the lines are parallel (check a point from one on the other to separate "same line" from "parallel distinct"). Otherwise, equate coordinates with <strong>different parameters</strong> (t for line 1, s for line 2), solve two of the three equations, and test the solution in the third: if it checks out, the lines <strong>intersect</strong> at one point; if not, they are <strong>skew</strong>.</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54867/preview?" alt="Two skew lines in 3D: nonparallel lines that never meet" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54867" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">Systems of equations by elimination</h4>
+<p>Intersections are systems of equations in disguise. The three <strong>elementary operations</strong> produce equivalent systems: (1) multiply an equation by a nonzero constant; (2) add a multiple of one equation to another; (3) interchange two equations. For a 3×3 system, eliminate one variable to get a 2×2 system, then eliminate again to get one equation in one unknown — then back-substitute.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Find the intersection of the line (x − 1)/3 = (y + 2)/(−2) = z − 5 with the plane x + 2y − 3z = −1.</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(Parametric form of the line.)</em> Let the common value be t: x = 1 + 3t, y = −2 − 2t, z = 5 + t.<br>
+<em>(Substitute into the plane.)</em> (1 + 3t) + 2(−2 − 2t) − 3(5 + t) = −1 → 1 + 3t − 4 − 4t − 15 − 3t = −1 → −18 − 4t = −1 → −4t = 17 → <strong>t = −17/4</strong>.<br>
+<em>(Point.)</em> x = 1 + 3(−17/4) = 1 − 51/4 = <strong>−47/4</strong>; y = −2 − 2(−17/4) = −2 + 17/2 = <strong>13/2</strong>; z = 5 − 17/4 = <strong>3/4</strong>.<br>
+<strong>Answer: (−47/4, 13/2, 3/4).</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Describe the intersection of:<br>
+(a) the line (x − 1)/3 = (y + 2)/1 = (z − 5)/2 with the plane x + 2y + 3z = 1;<br>
+(b) the line x = −2 + t, y = 5 + 2t, z = 1 + t with the plane x − 2y + 2z = 0.</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(a) Substitute.</em> x = 1 + 3t, y = −2 + t, z = 5 + 2t into x + 2y + 3z = 1:<br>
+(1 + 3t) + 2(−2 + t) + 3(5 + 2t) = 1 → 1 + 3t − 4 + 2t + 15 + 6t = 1 → 12 + 11t = 1 → 11t = −11 → t = −1.<br>
+Point: x = 1 − 3 = <strong>−2</strong>; y = −2 − 1 = <strong>−3</strong>; z = 5 − 2 = <strong>3</strong>. <strong>One intersection: (−2, −3, 3).</strong><br>
+<em>(b) Substitute.</em> (−2 + t) − 2(5 + 2t) + 2(1 + t) = 0 → −2 + t − 10 − 4t + 2 + 2t = 0 → −10 − t = 0 → <strong>t = −10</strong>.<br>
+Point: x = −2 − 10 = <strong>−12</strong>; y = 5 + 2(−10) = <strong>−15</strong>; z = 1 − 10 = <strong>−9</strong>. <strong>One intersection: (−12, −15, −9).</strong><br>
+<em>(Reading the algebra.)</em> In general: if substitution reduces to <strong>0 = 0</strong> (every coefficient of t cancels and the constants match), the <strong>line lies on the plane</strong> — infinitely many intersections. If it reduces to something impossible like <strong>0 = 5</strong>, the line is <strong>parallel</strong> to the plane (and the quick check d · n = 0 confirms it).<br>
+<strong>Answer: (a) single point (−2, −3, 3); (b) single point (−12, −15, −9). The 0 = 0 vs 0 = nonzero test separates "line on plane" from "parallel".</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Determine whether L<sub>1</sub>: x = 1 − 2t, y = 5 + t, z = 2 + 3t and L<sub>2</sub>: (x − 2)/3 = (y − 1)/(−2) = (z − 1)/2 intersect, are parallel, or are skew.</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(Directions.)</em> m<sub>1</sub> = (−2, 1, 3), m<sub>2</sub> = (3, −2, 2): not scalar multiples → not parallel.<br>
+<em>(Equate with different parameters.)</em> L<sub>2</sub> in parametric form: x = 2 + 3s, y = 1 − 2s, z = 1 + 2s. Set equal to L<sub>1</sub>:<br>
+1 − 2t = 2 + 3s …(i); &nbsp;5 + t = 1 − 2s …(ii); &nbsp;2 + 3t = 1 + 2s …(iii).<br>
+<em>(Solve (i) and (ii).)</em> From (ii): t = −4 − 2s. Into (i): 1 − 2(−4 − 2s) = 2 + 3s → 1 + 8 + 4s = 2 + 3s → s = −7, t = −4 − 2(−7) = 10.<br>
+<em>(Test in (iii).)</em> LHS: 2 + 3(10) = 32; RHS: 1 + 2(−7) = −13. 32 ≠ −13 — the third equation fails → <strong>skew lines</strong>.<br>
+<strong>Answer: the lines are skew (not parallel, no common point).</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 4</strong> — Solve the system x + y + z = 3, 2x − y + z = 0, x − 2y − z = −4 by elimination.</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(Eliminate z: add equations strategically.)</em> Label (1), (2), (3).<br>
+(1) + (3): (x + y + z) + (x − 2y − z) = 3 + (−4) → 2x − y = −1 …(4).<br>
+(2) + (3): (2x − y + z) + (x − 2y − z) = 0 + (−4) → 3x − 3y = −4 …(5).<br>
+<em>(2×2 system.)</em> From (4): y = 2x + 1. Into (5): 3x − 3(2x + 1) = −4 → 3x − 6x − 3 = −4 → −3x = −1 → <strong>x = 1/3</strong>. Then y = 2(1/3) + 1 = <strong>5/3</strong>. From (1): z = 3 − 1/3 − 5/3 = 3 − 2 = <strong>1</strong>.<br>
+<em>(Verify in (2).)</em> 2(1/3) − 5/3 + 1 = 2/3 − 5/3 + 1 = 0 ✓.<br>
+<strong>Answer: (1/3, 5/3, 1).</strong></p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54887/preview?" alt="Two lines in 3D crossing at a single intersection point, with parameters t and s marked" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54887" data-api-returntype="File" loading="lazy"></p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercises 9.1–9.2.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Find the intersection point of the line x = 2 + t, y = 1 − t, z = 3 + 2t with the plane 2x − y + z = 9.</summary>
+<p>Substitute: 2(2 + t) − (1 − t) + (3 + 2t) = 9 → 4 + 2t − 1 + t + 3 + 2t = 9 → 6 + 5t = 9 → t = 3/5. Point: x = 2 + 3/5 = <strong>13/5</strong>, y = 1 − 3/5 = <strong>2/5</strong>, z = 3 + 6/5 = <strong>21/5</strong>. <strong>Answer: (13/5, 2/5, 21/5).</strong></p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Show that the line r = (1, 0, 2) + t(2, 1, −1) is parallel to the plane 2x + y + 3z = 5, and confirm they never meet.</summary>
+<p>Direction d = (2, 1, −1), normal n = (2, 1, 3): d · n = 4 + 1 − 3 = 2 ≠ 0 — so actually NOT parallel! Substitute: x = 1 + 2t, y = t, z = 2 − t → 2(1 + 2t) + t + 3(2 − t) = 5 → 2 + 4t + t + 6 − 3t = 5 → 8 + 2t = 5 → t = −3/2. <strong>The line pierces the plane at (−2, −3/2, 7/2).</strong> (Moral: always check d · n before assuming.)</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Classify the system 2x + 3y = 5, 4x + 6y = 11. What does the graph show?</summary>
+<p>Multiply the first equation by 2: 4x + 6y = 10. Subtracting from the second gives <strong>0 = 1</strong> — impossible. <strong>No solution: the lines are parallel and distinct</strong> (same normal (2, 3), different constants).</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Explain why the parameters must satisfy all three coordinate equations for two lines to intersect.</summary>
+<p>An intersection point must lie on <strong>both</strong> lines simultaneously — its x, y, and z coordinates must each match. Solving only two of the three equations finds parameter values that agree in two coordinates; if the third coordinate disagrees, the "points" are actually two different points (one on each line) that merely share two coordinates — the hallmark of <strong>skew</strong> lines.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>Line ∩ plane:</strong> substitute the parametric line into the plane equation. One t → one point; 0 = nonzero → parallel; 0 = 0 → line on plane.</li>
+<li><strong>Two lines:</strong> parallel directions → parallel (test a point); otherwise equate coordinates with different parameters — a consistent solution in all three coordinates means <strong>intersecting</strong>, otherwise <strong>skew</strong>.</li>
+<li><strong>Systems:</strong> three elementary operations (scale, add multiples, swap) preserve solutions; reduce 3×3 → 2×2 → 1×1, then back-substitute.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>Use different parameters (t and s) for the two lines — reusing one letter causes false solutions.</li>
+<li>Next: Lesson 9.6 — <strong>intersections of planes</strong> and <strong>distances</strong> (point–line, point–plane, skew lines).</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Lines and Planes</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

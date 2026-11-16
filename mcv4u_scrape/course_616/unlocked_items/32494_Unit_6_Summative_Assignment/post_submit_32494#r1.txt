@@ -1,0 +1,342 @@
+Skip To Content
+Dashboard
+Account
+Dashboard
+Courses
+Calendar
+10 unread messages.
+10
+Inbox
+History
+Help
+MCV4U
+Home
+Grades
+64
+Modules
+Notebook
+Skip To Quiz Content
+Return
+Unit 6 Summative Assignment
+vincent Teacher — 1st Attempt
+Due Date
+No due date
+Time Limit
+No time limit
+Number of Questions
+15
+10 questions require grading
+Assessment Statistics
+6.4%
+6.4 out of 100 points
+6.4
+Out of 100 points
+Time for this attempt: 27 seconds
+27 seconds
+00:27
+Time for this attempt
+This assessment has unlimited attempts.
+Take Now
+Attempt History
+Attempt History
+Results	Points	Score	(Highest score is kept)
+Attempt 1	6.4 of 100	6.4%	(Highest score)
+Your Answers:
+Results for question 1.
+1
+0 / 4 points
+Fill in the Blank
+
+[C] For each of the following vectors, describe the opposite vector. a. An airplane flies due north at 400 km/h. The opposite vector is 
+Incorrect answer:
+400 km/h due south
+Correct Answer:
+due south at 400 km/h
+. b. A car travels in a northeasterly direction at 70 km/h. The opposite vector is 
+Incorrect answer:
+70 km/h southwest
+Correct Answer:
+southwesterly at 70 km/h
+. c. A bicyclist pedals in a northwesterly direction at 30 km/h. The opposite vector is 
+Incorrect answer:
+30 km/h southeast
+Correct Answer:
+southeasterly at 30 km/h
+. d. A boat travels due west at 25 km/h. The opposite vector is 
+Incorrect answer:
+25 km/h due east
+Correct Answer:
+due east at 25 km/h
+.
+
+Results for question 2.
+2
+0 / 4 points
+Fill in the Blank
+
+[K/U] Two vectors, a and b, have a common starting point with an angle of 120 degrees between them. The vectors are such that |a| = 3 and |b| = 4. a. Calculate |a + b|. |a + b| = 
+Incorrect answer:
+(no answer)
+Correct Answer:
+3.61
+. b. Calculate the angle between a and a + b. The angle is 
+Incorrect answer:
+(no answer)
+Correct Answer:
+73.9
+ degrees.
+
+Results for question 3.
+3
+2.4 / 4 points
+Fill in the Blank
+
+[K/U] a. If 3x - 2y = a and 5x - 3y = b, express the vectors x and y in terms of a and b. (Here a and b are the two given vectors.) x = 
+Incorrect answer:
+-3a + 2b
+Correct Answer:
+2b - 3a
+, y = 
+Incorrect answer:
+-5a + 3b
+Correct Answer:
+3b - 5a
+ b. Solve for a, b, and c: (2, -1, c) + (a, b, 1) - 3(2, a, 4) = (-3, 1, 2c). a = 
+Correct answer:
+1
+, b = 
+Correct answer:
+5
+, c = 
+Correct answer:
+-11
+
+Results for question 4.
+4
+4 / 4 points
+Fill in the Blank
+
+[K/U] Given x = 2i - j and y = -i + 5j, find a vector equivalent to each of the following: a. 3x - y = 
+Correct answer:
+7i - 8j
+. b. -(x + 2y) + 3(-x - 3y) = 
+Correct answer:
+3i - 51j
+. c. 2(x + 3y) - 3(y + 5x) = 
+Correct answer:
+-29i + 28j
+.
+
+Results for question 5.
+5
+0 / 4 points
+Fill in the Blank
+
+[K/U] a. For the pair of vectors {(2, -1), (-1, 1)}, find formulas for the coefficients a and b in terms of x and y such that a(2, -1) + b(-1, 1) = (x, y). a = 
+Incorrect answer:
+(no answer)
+Correct Answer:
+x + y
+, b = 
+Incorrect answer:
+(no answer)
+Correct Answer:
+x + 2y
+. b. Write each of the following as a linear combination of that set. (2, -3) = 
+Incorrect answer:
+(no answer)
+Correct Answer:
+-1
+(2, -1) + 
+Incorrect answer:
+(no answer)
+Correct Answer:
+-4
+(-1, 1). (124, -5) = 
+Incorrect answer:
+(no answer)
+Correct Answer:
+119
+(2, -1) + 
+Incorrect answer:
+(no answer)
+Correct Answer:
+114
+(-1, 1). (4, -11) = 
+Incorrect answer:
+(no answer)
+Correct Answer:
+-7
+(2, -1) + 
+Incorrect answer:
+(no answer)
+Correct Answer:
+-18
+(-1, 1).
+
+Results for question 6.
+6
+8 points possible
+Essay
+
+[K/U]
+
+For each of the following, state whether the quantity is a scalar or a vector and give a brief explanation why: height, temperature, weight, mass, area, volume, distance, displacement, speed, force, and velocity.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 7.
+7
+8 points possible
+Essay
+
+[A]
+
+An airplane is heading due south at a speed of 500 km/h when it encounters a head wind from the south at 40 km/h. What is the resultant ground velocity of the airplane?
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 8.
+8
+8 points possible
+Essay
+
+[K/U]
+
+The vectors a, b, and c are as shown (a points right, b points up, and c points left).
+
+a. Construct the vector a - b + c.
+
+b. If the vectors a and b are perpendicular, and if |a| = 4 and |b| = 3, determine |a + b|.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 9.
+9
+8 points possible
+Essay
+
+[K/U]
+
+Two vectors, a and b, are such that 2a = -3b. Draw a possible sketch of these two vectors. What is the value of m, if |b| = m|a|?
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 10.
+10
+8 points possible
+Essay
+
+[K/U]
+
+The vectors a and b are given below. Use these vectors to sketch each of the following.
+
+a. (1/3)a + b
+
+b. (3/2)a - 2b
+
+c. -b + a
+
+d. (b + a)/2
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 11.
+11
+8 points possible
+Essay
+
+[K/U]
+
+Name the vector associated with each point in question 10, express it in component form, and show the vectors associated with each of the points in the diagrams.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 12.
+12
+8 points possible
+Essay
+
+[K/U]
+
+Each of the points P(x, y, 0), Q(x, 0, z), and R(0, y, z) represent general points on three different planes. Name the three planes to which each corresponds.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 13.
+13
+8 points possible
+Essay
+
+[K/U]
+
+For the vectors OA = (-3, 4, 12) and OB = (2, 2, -1), determine the following:
+
+a. the components of vector OP, where OP = OA + OB
+
+b. |OA|, |OB|, and |OP|
+
+c. AB and |AB|. What does AB represent?
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 14.
+14
+8 points possible
+Essay
+
+[K/U]
+
+If m = 2i - k and n = -2i + j + 2k, calculate each of the following:
+
+a. |m - n|
+
+b. |m + n|
+
+c. |2m + 3n|
+
+d. |-5m|
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 15.
+15
+8 points possible
+Essay
+
+[K/U]
+
+Write the vector (-10, -34) as a linear combination of the vectors (-1, 3) and (1, 5).
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade

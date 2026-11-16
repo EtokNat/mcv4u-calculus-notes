@@ -1,0 +1,103 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9186" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 7.3 — Angles Between Vectors and Scalar/Vector Projections</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 7</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 7.3</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Angles Between Vectors and Scalar/Vector Projections</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §§7.3–7.5 — reading the angle, then splitting a vector into a shadow and a remainder.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Find the <strong>angle between any two vectors</strong> (always 0° to 180°) and classify it as <strong>acute, right, or obtuse</strong>.</li>
+<li>Compute the <strong>scalar projection</strong> of a onto b: <strong>(a·b)/|b| = |a|cosθ</strong> (a signed length).</li>
+<li>Compute the <strong>vector projection</strong> of a onto b: <strong>((a·b)/|b|²) b</strong> (the "shadow" vector).</li>
+<li>Split any vector a into a <strong>parallel part</strong> (its projection) and a <strong>perpendicular remainder</strong>.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>At noon a flagpole's shadow is a dot; at sunset it stretches long across the lawn. The shadow is the pole <em>projected</em> onto the ground — its length depends on the sun's angle. The dot product does the same thing for vectors: it projects one vector onto another, telling you exactly how much of the first vector "lies along" the second.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17387" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17387" data-api-returntype="Assignment">▶ Start the Lesson 7.3 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — project a onto b</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>Define <strong><em>a=(2,3)</em></strong> and <strong><em>b=(5,-1)</em></strong> as lists. Compute <strong><em>d=a[1]b[1]+a[2]b[2]</em></strong> (you should get 7) and <strong><em>m=sqrt(b[1]^2+b[2]^2)</em></strong> (≈ 5.099).</li>
+<li>The scalar projection of a onto b is <strong><em>s=d/m</em></strong> (≈ 1.373). Now form the vector projection <strong><em>p=(d/m^2)*b</em></strong> and plot it alongside a and b: <strong><em>(0,0)+p</em></strong>.</li>
+<li>Check the leftover: define <strong><em>r=(a[1]-p[1],a[2]-p[2])</em></strong> and compute <strong><em>r[1]b[1]+r[2]b[2]</em></strong> — it equals 0. <strong>Conclusion:</strong> every vector splits into a part <em>along</em> b (the projection) and a part <em>perpendicular</em> to b.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">The angle between vectors</h4>
+<p>From a·b = |a||b|cosθ comes the angle formula:</p>
+<p style="text-align: center; font-size: 19px; background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 14px; margin: 14px 0px;"><strong>θ = cos⁻¹( (a·b) / (|a| |b|) )</strong>, &nbsp;&nbsp;0° ≤ θ ≤ 180°</p>
+<p>Because the inverse cosine always returns a value between 0° and 180°, this is <em>the</em> angle between the vectors — no sign ambiguity. The classification is instant:</p>
+<ul>
+<li><strong>a·b &gt; 0</strong> → θ acute (0° &lt; θ &lt; 90°)</li>
+<li><strong>a·b = 0</strong> → θ = 90° (perpendicular)</li>
+<li><strong>a·b &lt; 0</strong> → θ obtuse (90° &lt; θ &lt; 180°)</li>
+</ul>
+<h4 style="color:#10284A;margin:16px 0 6px;">Scalar projection: how much of a lies along b</h4>
+<p>Drop a perpendicular from the tip of a onto the line of b (tails together). The signed length of the resulting "shadow" along b is the <strong>scalar projection</strong> of a onto b. From the right triangle, that length is |a|cosθ — and dividing a·b = |a||b|cosθ by |b| gives it directly:</p>
+<p style="text-align: center; font-size: 19px; background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 14px; margin: 14px 0px;"><strong>scalar projection of a onto b = (a·b) / |b| = |a| cosθ</strong></p>
+<p>It is <strong>signed</strong>: positive when θ is acute (the shadow falls the same way b points), negative when θ is obtuse (the shadow falls the opposite way), and zero when the vectors are perpendicular. Note the asymmetry: projecting a onto b is generally different from projecting b onto a — the answer is always measured <em>along the second vector</em>.</p>
+<h4 style="color:#10284A;margin:16px 0 6px;">Vector projection: the shadow as a vector</h4>
+<p>The shadow itself, as a vector pointing along b, is the <strong>vector projection</strong>. Take the scalar projection (a length) and aim it along b by multiplying by the unit vector in b's direction, b̂ = b/|b|:</p>
+<p style="text-align: center; font-size: 19px; background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 14px; margin: 14px 0px;"><strong>proj<sub>b</sub> a = ( (a·b) / |b|² ) b</strong></p>
+<p>This is the parallel part of a relative to b. Everything left over, a − proj<sub>b</sub> a, is perpendicular to b — a fact you can verify with one dot product. So every vector splits cleanly: <strong>a = (parallel part) + (perpendicular part)</strong>.</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54873/preview?" alt="Vector a projected onto vector b: the scalar projection is the signed length along b, and the vector projection is the shadow vector along b" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54873" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Find the angle between a = (2, 3) and b = (5, −1), to the nearest 0.1°, and classify it.</p>
+<p style="margin:0;">a·b = (2)(5) + (3)(−1) = 10 − 3 = 7. |a| = √13 ≈ 3.606; |b| = √26 ≈ 5.099. cosθ = 7/(√13·√26) = 7/√338 ≈ 0.3809, so θ ≈ <strong>67.6°</strong> — <strong>acute</strong>, consistent with the positive dot product.</p>
+</div>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Find the scalar and vector projections of a = (2, 3) onto b = (5, −1).</p>
+<p style="margin:0;">Scalar projection = (a·b)/|b| = 7/√26 ≈ <strong>1.373</strong>. Vector projection = ((a·b)/|b|²) b = (7/26)(5, −1) = <strong>(35/26, −7/26)</strong> ≈ (1.346, −0.269).</p>
+</div>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Split a = (2, 3) into parts parallel and perpendicular to b = (5, −1), and verify the split.</p>
+<p style="margin:0;">Parallel part = proj<sub>b</sub> a = (35/26, −7/26). Perpendicular remainder = a − proj<sub>b</sub> a = (2 − 35/26, 3 + 7/26) = (17/26, 85/26). Check: (17/26)(5) + (85/26)(−1) = 85/26 − 85/26 = 0, so the remainder is <strong>perpendicular</strong> to b, as required. And (35/26 + 17/26, −7/26 + 85/26) = (52/26, 78/26) = (2, 3) = a. ✓</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on §7.5-style projection problems.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Find the angle between u = (1, 0, −1) and v = (0, 1, 1), to the nearest degree.</summary>
+<p>u·v = 0 + 0 − 1 = −1; |u| = √2; |v| = √2. cosθ = −1/2, so θ = <strong>120°</strong> (obtuse).</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Find the scalar projection of a = (3, −4) onto b = (1, 1).</summary>
+<p>a·b = 3 − 4 = −1; |b| = √2. Scalar projection = −1/√2 = <strong>−√2/2 ≈ −0.707</strong>. The negative sign says the shadow falls opposite to b's direction.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Find the vector projection of a = (3, −4) onto b = (1, 1).</summary>
+<p>proj<sub>b</sub> a = ((a·b)/|b|²) b = (−1/2)(1, 1) = <strong>(−1/2, −1/2)</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — True or false: the scalar projection of a onto b is always positive.</summary>
+<p><strong>False.</strong> It is |a|cosθ, which is negative when θ is obtuse (see Question 2) and zero when the vectors are perpendicular.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>θ = cos⁻¹((a·b)/(|a||b|))</strong> — the angle, always 0° to 180°; its type follows the sign of a·b.</li>
+<li><strong>Scalar projection</strong> (signed length): (a·b)/|b| = |a|cosθ.</li>
+<li><strong>Vector projection</strong> (the shadow vector): ((a·b)/|b|²) b.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>Projection is <strong>not symmetric</strong>: projecting a onto b differs from projecting b onto a.</li>
+<li>Every vector splits: a = proj<sub>b</sub> a + (a − proj<sub>b</sub> a), parallel part plus perpendicular remainder.</li>
+<li>Next: Lesson 7.4 introduces a second product — the <strong>cross product</strong>.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Dot and Cross Products</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

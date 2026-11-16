@@ -1,0 +1,100 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9151" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 1.4 — The Limit of a Function</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 1</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 1.4</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">The Limit of a Function</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §1.4 — the precise idea behind every "lim<sub>h→0</sub>" you have written so far.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>State the intuitive meaning of <strong>lim<sub>x→a</sub> f(x) = L</strong>.</li>
+<li>Estimate limits from <strong>graphs</strong> and <strong>tables of values</strong>, including one-sided limits.</li>
+<li>Decide whether a limit <strong>exists</strong> — and explain why the value f(a) does not settle the question.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>The notation <strong>lim<sub>x→a</sub> f(x) = L</strong> is read "the limit of f(x) as x approaches <em>a</em> equals <em>L</em>". It means the value of f(x) can be made <strong>arbitrarily close to <em>L</em></strong> by choosing x sufficiently close to <em>a</em> (but <em>not</em> equal to <em>a</em>). And here is the key test you will use all unit: <strong>lim<sub>x→a</sub> f(x) exists if and only if the limiting value from the left equals the limiting value from the right.</strong> (Note: this is an intuitive explanation. A more precise definition using inequalities belongs to advanced work and is not needed here.)</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17352" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17352" data-api-returntype="Assignment">▶ Start the Lesson 1.4 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — complete the table</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>Investigation 1 asks for lim<sub>x→2</sub> (x² − 1). In Desmos, graph <strong><em>y = x^2 - 1</em></strong> and make a table with x = 1, 1.5, 1.9, 1.99, 1.999, 2, 2.001, 2.01, 2.1, 2.5, 3.</li>
+<li>As x approaches 2 <strong>from the left</strong> (starting at x = 1), what value does y approach? As x approaches 2 <strong>from the right</strong> (starting at x = 3), what value does y approach?</li>
+<li>Explain why the limit exists here, and give its value. (Answer: both sides approach 3, so the limit is 3.)</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Determine lim<sub>x→1</sub> (x² − 1)/(x − 1) by graphing.</p>
+<p style="margin:0;"><strong>Solution.</strong> On a graphing calculator, display f(x) = (x² − 1)/(x − 1), x ≠ 1. The graph looks like the line f(x) = x + 1 — but it is really that line with the point (1, 2) deleted. Using TRACE near x = 1: at X = 0.9, Y = 1.9; at X = 1, Y has <em>no value</em>; at X = 1.1, Y = 2.1.<br>
+We estimate lim<sub>x→1</sub> f(x). As x approaches 1 <strong>from the left</strong> (written x → 1⁻), f(x) approaches 2 <strong>from below</strong>. As x approaches 1 <strong>from the right</strong> (x → 1⁺), f(x) approaches 2 <strong>from above</strong>.<br>
+We say the limit at x = 1 exists only if the value approached from the left is the same as the value approached from the right. Here both are 2, so <strong>lim<sub>x→1</sub> (x² − 1)/(x − 1) = 2</strong> — even though f(1) itself is undefined.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54819/preview?" alt="Graph of (x^2-1)/(x-1) showing the deleted point at (1, 2)" style="max-width: 420px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54819" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Determine lim<sub>x→1</sub> (x² − 1)/(x − 1) using a table.</p>
+<p style="margin:0;"><strong>Solution.</strong> Choose sequences for x → 1⁻ and x → 1⁺:</p>
+<table style="border-collapse:collapse;margin:10px 0;font-size:14px;">
+<tbody><tr><th style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px; background: rgb(244, 247, 251);">x → 1⁻</th><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">0</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">0.5</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">0.9</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">0.99</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">0.999</td></tr>
+<tr><th style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px; background: rgb(244, 247, 251);">f(x)</th><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">1</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">1.5</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">1.9</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">1.99</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">1.999</td></tr>
+<tr><th style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px; background: rgb(244, 247, 251);">x → 1⁺</th><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">2</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">1.5</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">1.1</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">1.01</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">1.001</td></tr>
+<tr><th style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px; background: rgb(244, 247, 251);">f(x)</th><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">3</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">2.5</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">2.1</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">2.01</td><td style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); padding: 6px 10px;">2.001</td></tr>
+</tbody></table>
+<p style="margin:0;">f(x) approaches 2 from below on the left and from above on the right — the same pattern as the graph in Example 1, confirming <strong>lim<sub>x→1</sub> (x² − 1)/(x − 1) = 2</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Sketch the piecewise function f(x) = { x − 1, if x &lt; 1; 1, if x = 1; 2 + √(x − 1), if x &gt; 1 }. Determine lim<sub>x→1</sub> f(x).</p>
+<p style="margin:0;"><strong>Solution.</strong> The graph consists of the line y = x − 1 for x &lt; 1, the single point (1, 1), and the square-root branch y = 2 + √(x − 1) for x &gt; 1.<br>
+As x → 1⁻, f(x) approaches 0 from below: lim<sub>x→1⁻</sub> f(x) = lim<sub>x→1⁻</sub> (x − 1) = 0.<br>
+As x → 1⁺, f(x) approaches 2 from above: lim<sub>x→1⁺</sub> f(x) = lim<sub>x→1⁺</sub> (2 + √(x − 1)) = 2.<br>
+Since the left-hand and right-hand limits are <strong>not the same</strong>, f(x) does not approach a single value as x → 1. We say <strong>"the limit of f(x) as x → 1 does not exist"</strong> — and this stays true even though f(1) = 1 <em>is</em> defined. The value of the function at the point never decides a limit; only the behaviour <em>near</em> the point matters.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54778/preview?" alt="Piecewise graph with left limit 0 and right limit 2 at x = 1" style="max-width: 420px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54778" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 2px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 14px 0px;">
+<strong style="color:#10284A;">Limits and Their Existence.</strong> We say that the number <em>L</em> is the limit of y = f(x) as x approaches <em>a</em>, written <strong>lim<sub>x→a</sub> f(x) = L</strong>, if <strong>lim<sub>x→a⁻</sub> f(x) = L = lim<sub>x→a⁺</sub> f(x)</strong>. Otherwise, <strong>lim<sub>x→a</sub> f(x) does not exist</strong>.
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 1.4.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Write a concise description of: (a) a right-sided limit, (b) a left-sided limit, (c) a (two-sided) limit.</summary>
+<p>(a) The value f(x) approaches as x nears <em>a</em> from values <strong>greater</strong> than <em>a</em>. (b) From values <strong>less</strong> than <em>a</em>. (c) The common value both one-sided limits approach — which exists only when they agree.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Let f(x) = 1 when x ≠ 4 and f(4) = −1. Determine lim<sub>x→4</sub> f(x).</summary>
+<p>Near x = 4 (but not at x = 4), f(x) is constantly 1, so the limit is <strong>1</strong> — the odd value at x = 4 itself is irrelevant.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Evaluate lim<sub>x→−1</sub> (9 − x)².</summary>
+<p>As x → −1, (9 − x) → 10, so the limit is <strong>100</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — If lim<sub>x→a⁻</sub> f(x) = 3 and lim<sub>x→a⁺</sub> f(x) = 3, what is lim<sub>x→a</sub> f(x)? What if the right-hand limit were 5 instead?</summary>
+<p><strong>3</strong> — the two sides agree. If the right-hand limit were 5, the two-sided limit would <strong>not exist</strong>.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key idea</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>lim<sub>x→a</sub> f(x) = L</strong> means f(x) approaches <em>L</em> as x approaches <em>a</em> from <strong>both</strong> the left and the right side.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li><strong>lim<sub>x→a</sub> f(x) may exist even if f(a) is not defined</strong> (Example 1).</li>
+<li><strong>lim<sub>x→a</sub> f(x) can equal f(a)</strong> — then the graph passes through the point (a, f(a)).</li>
+<li>If lim<sub>x→a⁻</sub> f(x) = L and lim<sub>x→a⁺</sub> f(x) = L, then <em>L</em> is the limit as x → a.</li>
+<li>Next: Lesson 1.5 gives you <strong>algebraic tools</strong> for evaluating limits.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Introduction to Calculus</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

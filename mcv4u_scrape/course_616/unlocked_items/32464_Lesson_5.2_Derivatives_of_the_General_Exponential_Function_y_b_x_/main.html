@@ -1,0 +1,108 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9173" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 5.2 — Derivatives of the General Exponential Function (y = b^x)</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 5</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 5.2</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Derivatives of the General Exponential Function (y = b<sup>x</sup>)</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §5.2 — why the derivative of b<sup>x</sup> is a stretched copy of b<sup>x</sup>, and where the constant ln b comes from.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Explain why <strong>f′(x)/f(x) is constant</strong> for f(x) = b<sup>x</sup>, and identify that constant as <strong>ln b</strong>.</li>
+<li>Use <strong>d/dx(b<sup>x</sup>) = b<sup>x</sup>·ln b</strong> and the chain-rule form <strong>d/dx(b<sup>g(x)</sup>) = b<sup>g(x)</sup>·ln b·g′(x)</strong>.</li>
+<li>Recover the e<sup>x</sup> rule as a special case (since ln e = 1).</li>
+<li>Model <strong>exponential growth and decay</strong> (population, radioactivity) and interpret the sign of the derivative.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>We now know d/dx(e<sup>x</sup>) = e<sup>x</sup>. But what about 2<sup>x</sup>, 10<sup>x</sup>, or 5<sup>x</sup>? Imagine graphing f(x) = 2<sup>x</sup> and its derivative side by side: the derivative has exactly the same shape — just <strong>vertically squashed</strong> (about 0.69 times as tall). For 3<sup>x</sup>, the derivative is the same shape but <strong>stretched</strong> (about 1.10 times as tall). There is a special constant hiding in each base that controls the stretch. This lesson finds it.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17374" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17374" data-api-returntype="Assignment">▶ Start the Lesson 5.2 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — the constant stretch factor</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>Graph <strong><em>y = 2^x</em></strong> and <strong><em>y = 0.693·2^x</em></strong>. Then click on y = 2^x at several x-values and compare the displayed tangent slope with the second graph's height at that x. What is 0.693 a rounded version of?</li>
+<li>Graph <strong><em>y = (0.5)^x</em></strong>. Sketch what its derivative should look like, then graph <strong><em>y = ln(0.5)·(0.5)^x</em></strong> to check. Why is this derivative negative everywhere?</li>
+<li>Graph <strong><em>y = e^x</em></strong> and <strong><em>y = 1·e^x</em></strong> together — why does the e<sup>x</sup> rule from Lesson 5.1 emerge as a special case of this lesson's rule?</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">The derivative is a stretched copy of the original</h4>
+<p>Tabulating f(x) = 2<sup>x</sup> and its numerical derivative shows a striking pattern: the ratio <strong>f′(x)/f(x) ≈ 0.69 at every x</strong>. So f′(x) ≈ 0.69·2<sup>x</sup> — the derivative is a vertically compressed copy of the original. For f(x) = 3<sup>x</sup> the same ratio is ≈ 1.10, so f′(x) ≈ 1.10·3<sup>x</sup> — a vertically stretched copy.</p>
+<p style="text-align:center;">
+<img src="https://bronston.instructure.com/courses/616/files/54843/preview?" alt="Graph of f(x) = 2^x with its derivative f'(x) = 0.69 times 2^x, a vertically compressed copy" style="max-width: 380px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; margin: 4px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54843" data-api-returntype="File" loading="lazy">
+<img src="https://bronston.instructure.com/courses/616/files/54845/preview?" alt="Graph of f(x) = 3^x with its derivative f'(x) = 1.10 times 3^x, a vertically stretched copy" style="max-width: 380px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; margin: 4px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54845" data-api-returntype="File" loading="lazy">
+</p>
+<h4 style="color:#10284A;margin:16px 0 6px;">Where the constant comes from</h4>
+<p>Start from the definition of the derivative:<br>
+f′(x) = lim<sub>h→0</sub> [b<sup>x+h</sup> − b<sup>x</sup>]/h = b<sup>x</sup> · lim<sub>h→0</sub> (b<sup>h</sup> − 1)/h.<br>
+The limit in parentheses does <strong>not</strong> involve x — it is a constant determined by the base b alone. That constant is exactly <strong>ln b</strong>: for b = 2 it equals ln 2 ≈ 0.693147; for b = 3 it equals ln 3 ≈ 1.098612 — matching the investigation above.</p>
+<div style="background: rgb(244, 247, 251); border-width: 2px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0;"><strong style="color:#10284A;">RULE — Derivative of b<sup>x</sup></strong><br>
+If f(x) = b<sup>x</sup> (b &gt; 0, b ≠ 1), then f′(x) = b<sup>x</sup> · ln b.<br>
+Chain-rule form: if f(x) = b<sup>g(x)</sup>, then f′(x) = b<sup>g(x)</sup> · ln b · g′(x).<br>
+<em>Check:</em> for b = e, ln e = 1 and the rule reduces to d/dx(e<sup>x</sup>) = e<sup>x</sup> ✓.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Determine the derivative of (a) f(x) = 5<sup>x</sup> and (b) g(x) = 5<sup>3x−2</sup>.</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+(a) f′(x) = <strong>(ln 5)·5<sup>x</sup></strong>.<br><br>
+(b) Chain rule: g′(x) = 5<sup>3x−2</sup> · ln 5 · (3) = <strong>3·5<sup>3x−2</sup>·ln 5</strong>.</p>
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">Growth vs decay: read the sign</h4>
+<p>When 0 &lt; b &lt; 1, the function decreases, and ln b &lt; 0 — so the derivative b<sup>x</sup>·ln b is negative, as it should be. The sign of ln b always matches the direction of change.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — The population of the town of Goldrushtown, t years after 1850, is P(t) = 50,000(0.98)<sup>t</sup>. Find the population after 50 years and the rate of change then.</p>
+<p style="margin:0;"><strong>Solution.</strong> P(50) = 50,000(0.98)<sup>50</sup> ≈ <strong>18,208 people</strong>.<br><br>
+P′(t) = 50,000(0.98)<sup>t</sup>·ln(0.98), so P′(50) ≈ <strong>−367.86 people/year</strong>. The negative sign means the population is <strong>decreasing</strong> by about 368 people per year at t = 50 — exactly what the falling graph shows.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54846/preview?" alt="Decreasing exponential graph of the Goldrushtown population P(t) = 50000(0.98)^t with the annotation that P is decreasing so P'(t) is less than 0" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54846" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Determine the equation of the tangent to y = 10<sup>x</sup> at (1, 10).</p>
+<p style="margin:0;"><strong>Solution.</strong> y′ = 10<sup>x</sup>·ln 10, so the slope at x = 1 is 10·ln 10 ≈ 23.03.<br>
+Tangent: <strong>y − 10 = (10 ln 10)(x − 1)</strong>, or y = (10 ln 10)x + 10 − 10 ln 10.</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 5.2.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Differentiate y = 2<sup>4x</sup>.</summary>
+<p>Chain rule: y′ = 2<sup>4x</sup> · ln 2 · 4 = <strong>4·2<sup>4x</sup>·ln 2</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — For f(x) = 3<sup>x</sup>, evaluate f′(0).</summary>
+<p>f′(x) = 3<sup>x</sup>·ln 3, so f′(0) = 3<sup>0</sup>·ln 3 = <strong>ln 3 ≈ 1.099</strong> — matching the investigation's constant.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — True or false: "d/dx(2<sup>x</sup>) = x·2<sup>x−1</sup>." Justify.</summary>
+<p><strong>False.</strong> That is the power rule applied to a variable exponent — the same mistake as in Lesson 5.1. The correct rule is d/dx(2<sup>x</sup>) = <strong>2<sup>x</sup>·ln 2</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — A bacterial culture has N(t) = 100(1.5)<sup>t</sup> bacteria. Find N′(2) and interpret it.</summary>
+<p>N′(t) = 100(1.5)<sup>t</sup>·ln 1.5, so N′(2) = 100(2.25)(0.4055) ≈ <strong>91 bacteria per hour</strong>: at t = 2 the culture is growing by about 91 bacteria each hour.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li>The derivative of b<sup>x</sup> is a <strong>vertically stretched copy</strong> of b<sup>x</sup>: <strong>d/dx(b<sup>x</sup>) = b<sup>x</sup>·ln b</strong>, and <strong>d/dx(b<sup>g(x)</sup>) = b<sup>g(x)</sup>·ln b·g′(x)</strong>.</li>
+<li>The stretch factor ln b comes from the limit definition: lim<sub>h→0</sub>(b<sup>h</sup> − 1)/h = ln b.</li>
+<li>For 0 &lt; b &lt; 1, ln b &lt; 0 and the derivative is negative — exponential <strong>decay</strong>.</li>
+<li>When b = e, ln e = 1 recovers Lesson 5.1's rule.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>ln 2 ≈ 0.6931 and ln 3 ≈ 1.0986 — the constants from the investigation are logarithms.</li>
+<li>Next: Lesson 5.3 — <strong>optimization problems</strong> with exponential functions.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Derivatives of Exponential and Trigonometric Functions</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

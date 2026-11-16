@@ -1,0 +1,272 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>(4, 8)</p>",
+            "id": "f4d4d3cc-7165-4564-b044-f025847546d0",
+            "position": 1
+          },
+          {
+            "item_body": "<p>(6, 12)</p>",
+            "id": "cc0aeafe-c409-450d-8923-7e5c004883b7",
+            "position": 2
+          },
+          {
+            "item_body": "<p>(-4, -8)</p>",
+            "id": "106fbc41-1ffe-4609-8dcf-ec0ef69a66f7",
+            "position": 3
+          },
+          {
+            "item_body": "<p>(5, 10)</p>",
+            "id": "90cf0599-2f1f-44a9-8c6d-cdff24e704ac",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Before we start equations of lines and planes: the vector from A(1, 2) to B(5, 10) is...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44984",
+      "label": null,
+      "title": "EQ1",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "33855",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>1</p>",
+            "id": "9e9aa622-63c2-4065-b751-cc740d27c4ec",
+            "position": 1
+          },
+          {
+            "item_body": "<p>5</p>",
+            "id": "bbcedb76-517c-4eed-ba45-4da394a964ab",
+            "position": 2
+          },
+          {
+            "item_body": "<p>-1</p>",
+            "id": "49800650-c69a-4114-8207-3885d7c4d24f",
+            "position": 3
+          },
+          {
+            "item_body": "<p>(3, -2)</p>",
+            "id": "92dd997e-66d3-43b1-b4b5-8ef39ec7ff09",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>The dot product (1, 2) \u00b7 (3, -1) equals...</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44990",
+      "label": null,
+      "title": "EQ2",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "33860",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Very confident</p>",
+            "id": "81c9a72f-aa68-4832-ab09-983bd30e1064",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Somewhat confident</p>",
+            "id": "209e4baa-e64c-4d93-b2d8-1ccf82e6e59c",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Not very confident</p>",
+            "id": "2705e924-4c1f-4c4d-9bf4-44e572d10214",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Not confident at all</p>",
+            "id": "fd2d1e86-2641-433b-9734-62bf20d7e4a6",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>How confident are you working with coordinates in 3D (points like (2, -1, 5))?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44993",
+      "label": null,
+      "title": "EQ3",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "33866",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Very confident</p>",
+            "id": "454f9077-595c-4e91-baba-f9f0f6103583",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Somewhat confident</p>",
+            "id": "d12626c1-dbe8-4447-b044-e60a17ca0b4e",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Not very confident</p>",
+            "id": "51c12849-d6aa-416b-a7a9-c03b87670f02",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Not confident at all</p>",
+            "id": "436efc46-cabb-4ff9-8655-21d106973680",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>How confident are you solving a system of equations (for example, 2x + 3y = 7 and x - y = 1)?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45005",
+      "label": null,
+      "title": "EQ4",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "33877",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>What is one goal you have for this unit on equations of lines and planes?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45009",
+      "label": null,
+      "title": "EQ5",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "33879",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  }
+]

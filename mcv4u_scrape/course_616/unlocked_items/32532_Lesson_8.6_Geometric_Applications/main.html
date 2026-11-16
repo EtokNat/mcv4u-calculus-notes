@@ -1,0 +1,102 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9195" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 8.6 — Geometric Applications</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 8</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 8.6</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Geometric Applications</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §7.7 (applied) — surveying distances, land areas, and cargo volumes with vectors.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Find <strong>distances</strong> between points from displacement vectors (surveying, positioning).</li>
+<li>Compute <strong>areas</strong> of parallelogram and triangular land plots with the cross product.</li>
+<li>Compute <strong>volumes</strong> of boxes and crates with the scalar triple product (extension).</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">Minds On</h3>
+<p>A surveyor stakes out an irregular triangular lot — how many square metres is it? A shipping company quotes by the cubic metre — how much cargo fits a container? A drone pilot needs the straight-line distance between two GPS points. The tools are already in your hands: vector <strong>magnitude</strong> for distance, the <strong>cross product</strong> for area, and one new combination — the <strong>scalar triple product</strong> — for volume.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17396" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17396" data-api-returntype="Assignment">▶ Start the Lesson 8.6 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">Explore — area as a cross product</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>Plot <strong><em>O = (0,0)</em></strong>, <strong><em>a = (75, 0)</em></strong>, <strong><em>b = 40·(cos(60°), sin(60°))</em></strong>. Draw the parallelogram with vertices <strong><em>O, a, a+b, b</em></strong> as a polygon.</li>
+<li>Compute <strong><em>|a × b|</em></strong> in 2D as <strong><em>|a_x·b_y − a_y·b_x|</em></strong>. Compare with the worked plot area <strong>≈ 2598 m²</strong>.</li>
+<li>Drag the angle inside <strong><em>b</em></strong>'s definition from 60° down to 0°. What happens to the area — and why does the cross product capture it?</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">Distances from displacement vectors</h4>
+<p>The distance between two points is the magnitude of the displacement vector joining them. Surveyors and navigators work in coordinates: subtract to get the displacement, then take its length.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — A surveyor records two boundary markers at A(2, 3, 7) and B(0, −3, 4) in metres. What is the straight-line distance between them?</p>
+<p style="margin:0;"><strong>Solution.</strong> Displacement AB = B − A = (−2, −6, −3).<br>
+Distance = |AB| = √(4 + 36 + 9) = √49 = <strong>7 m</strong>.</p>
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">Areas: parallelogram and triangular plots</h4>
+<p>For a plot with sides given by vectors a and b: <strong>parallelogram area = |a × b|</strong> and <strong>triangle area = ½|a × b|</strong>. In two dimensions the cross-product magnitude is just |a_x·b_y − a_y·b_x| — the determinant of the side vectors.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — A parallelogram-shaped field has one side 75 m long and an adjacent side 40 m long, meeting at 60°. What is its area?</p>
+<p style="margin:0;"><strong>Solution.</strong> Take a = (75, 0) and b = 40(cos60°, sin60°) = (20, 34.64).<br>
+Area = |a × b| = |75(34.64) − 0(20)| ≈ <strong>2598 m²</strong>.<br>
+Equivalently: 75 × 40 × sin60° ≈ 2598 m².</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54886/preview?" alt="A parallelogram land plot with side vectors a and b and its area computed as the magnitude of the cross product" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54886" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — A triangular building lot has corners at A(0, 0), B(120, 30), and C(40, 100) in metres. What is its area?</p>
+<p style="margin:0;"><strong>Solution.</strong> AB = (120, 30), AC = (40, 100).<br>
+Area = ½|AB × AC| = ½|120(100) − 30(40)| = ½|12000 − 1200| = ½(10800) = <strong>5400 m²</strong>.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54883/preview?" alt="A triangular survey plot with vertices A, B, C and its area computed as half the magnitude of the cross product of AB and AC" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54883" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">Volumes: the scalar triple product (extension)</h4>
+<p>The volume of the box (parallelepiped) spanned by three edge vectors u, v, w is the <strong>absolute value of the scalar triple product</strong>: V = |u · (v × w)|. For a rectangular box this reduces to length × width × height — but the triple product handles <em>any</em> slanted crate.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 4</strong> — A shipping crate has edges u = (4, 0, 0), v = (0, 3, 0), and w = (0, 0, 2.5) in metres. What volume of cargo can it hold?</p>
+<p style="margin:0;"><strong>Solution.</strong> v × w = (3(2.5) − 0(0), 0(0) − 0(2.5), 0(0) − 3(0)) = (7.5, 0, 0).<br>
+V = |u · (v × w)| = |(4, 0, 0) · (7.5, 0, 0)| = |30| = <strong>30 m³</strong> — matching 4 × 3 × 2.5, as expected for a rectangular crate.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54880/preview?" alt="A three-dimensional parallelepiped shipping crate with edge vectors u, v, w and its volume given by the scalar triple product" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54880" data-api-returntype="File" loading="lazy"></p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Applied geometry problems.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Two survey stakes are at P(1, −2, 5) and Q(4, 2, 5) in metres. How far apart are they?</summary>
+<p>PQ = (3, 4, 0); |PQ| = √(9 + 16) = <strong>5 m</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — A triangular garden has vertices (0, 0), (9, 2), and (3, 8) in metres. Find its area.</summary>
+<p>½|(9, 2) × (3, 8)| = ½|9(8) − 2(3)| = ½|72 − 6| = ½(66) = <strong>33 m²</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — A parallelogram billboard frame is spanned by a = (6, 1, 0) and b = (2, 5, 0) in metres. What area of poster fits it?</summary>
+<p>|a × b| = |6(5) − 1(2)| = |30 − 2| = <strong>28 m²</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — A storage box has edges (2, 0, 0), (0, 2, 0), and (0, 0, 3) in metres. Use the scalar triple product to find its volume.</summary>
+<p>(0, 2, 0) × (0, 0, 3) = (6, 0, 0); V = |(2, 0, 0) · (6, 0, 0)| = <strong>12 m³</strong>.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>Distance</strong> between points = magnitude of the displacement vector.</li>
+<li><strong>Area</strong>: parallelogram = <strong>|a × b|</strong>; triangle = <strong>½|a × b|</strong>.</li>
+<li><strong>Volume</strong>: parallelepiped = <strong>|u · (v × w)|</strong>, the scalar triple product.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>In 2D, |a × b| = |a_x·b_y − a_y·b_x| — no 3D machinery needed for flat plots.</li>
+<li>The triple product is zero exactly when the three edges are coplanar (flat box, zero volume).</li>
+<li>This concludes Unit 8 — Applications of Vectors. The summative assignment and test combine everything.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Applications of Vectors</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

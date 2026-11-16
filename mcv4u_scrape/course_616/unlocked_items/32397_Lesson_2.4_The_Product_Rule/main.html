@@ -1,0 +1,137 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9157" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 2.4 — The Product Rule</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 2</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 2.4</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">The Product Rule</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §2.3 — the derivative of a product is not the product of the derivatives.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Explain why <strong>(fg)′ ≠ f′g′</strong> with a counterexample.</li>
+<li>Apply the <strong>product rule</strong>, the <strong>extended product rule</strong>, and the <strong>power of a function rule</strong> (integer exponents).</li>
+<li>Choose between <strong>expanding first</strong> and using the product rule.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>You might suspect that the derivative of a product of two functions is simply the product of the separate derivatives. An example shows this is <strong>not</strong> so — and the correct rule is one of the most used in calculus.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17358" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17358" data-api-returntype="Assignment">▶ Start the Lesson 2.4 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — expand vs. the rule</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, graph <strong><em>y = (x^2 - 3x)(x^5 + 2)</em></strong> (Example 2 below).</li>
+<li>Graph its derivative <strong><em>y = 7x^6 - 18x^5 + 4x - 6</em></strong>. Use a tangent line to check the slope at x = 1 on the first graph against the value of the second graph at x = 1.</li>
+<li>Now try <strong><em>y = (x^2 + 9)(x^3 + 5)^4</em></strong>. Expanding this would be miserable — this is exactly when the product rule earns its keep.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Let p(x) = f(x)g(x), where f(x) = x² + 2 and g(x) = x + 5. Show that p′(x) ≠ f′(x)g′(x).</p>
+<p style="margin:0;"><strong>Solution.</strong> The expression p(x) can be simplified:<br>
+p(x) = (x² + 2)(x + 5) = x³ + 5x² + 2x + 10, so p′(x) = <strong>3x² + 10x + 2</strong>.<br>
+But f′(x) = 2x and g′(x) = 1, so f′(x)g′(x) = <strong>2x</strong>.<br>
+Since 2x is not the derivative of p(x), we have shown p′(x) ≠ f′(x)g′(x).</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 2px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 14px 0px;">
+<strong style="color:#10284A;">The Product Rule.</strong> If p(x) = f(x)g(x), then <strong>p′(x) = f′(x)g(x) + f(x)g′(x)</strong>. In Leibniz notation, if u and v are functions of x, <strong>d/dx(uv) = (du/dx)v + u(dv/dx)</strong>.<br>
+In words: "the derivative of the product of two functions is the derivative of the first function times the second function plus the first function times the derivative of the second function."<br>
+<em>Proof idea:</em> in the difference quotient for p, subtract and add the same term f(x)g(x + h) in the numerator; regrouping and taking limits gives f′(x)g(x) + f(x)g′(x).
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Differentiate h(x) = (x² − 3x)(x⁵ + 2) using the product rule.</p>
+<p style="margin:0;"><strong>Solution.</strong> h′(x) = d/dx[x² − 3x]·(x⁵ + 2) + (x² − 3x)·d/dx[x⁵ + 2]<br>
+= (2x − 3)(x⁵ + 2) + (x² − 3x)(5x⁴)<br>
+= 2x⁶ − 3x⁵ + 4x − 6 + 5x⁶ − 15x⁵<br>
+= <strong>7x⁶ − 18x⁵ + 4x − 6</strong>.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #F8660A;border-radius:0 8px 8px 0;padding:12px 18px;margin:14px 0;">
+<strong style="color:#10284A;">Working smart.</strong> It is not necessary to simplify when asked for the derivative's value at a point — substitute into the unsimplified derivative instead. And sometimes expanding first is simpler than the product rule (but not for (x² + 9)(x³ + 5)⁴ or (x² + 9)√(x³ + 5)).
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Find h′(−1) for h(x) = (5x³ + 7x² + 3)(2x² + x + 6).</p>
+<p style="margin:0;"><strong>Solution.</strong> By the product rule, h′(x) = (15x² + 14x)(2x² + x + 6) + (5x³ + 7x² + 3)(4x + 1). Substituting x = −1 without simplifying:<br>
+h′(−1) = [15(−1)² + 14(−1)][2(−1)² + (−1) + 6] + [5(−1)³ + 7(−1)² + 3][4(−1) + 1]<br>
+= (1)(7) + (5)(−3)<br>
+= <strong>−8</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 4</strong> — Find an expression for p′(x) if p(x) = f(x)g(x)h(x).</p>
+<p style="margin:0;"><strong>Solution.</strong> Regard f(x)g(x) as a single function and apply the product rule twice:<br>
+p′(x) = [f(x)g(x)]′h(x) + [f(x)g(x)]h′(x) = [f′(x)g(x) + f(x)g′(x)]h(x) + f(x)g(x)h′(x)<br>
+= <strong>f′(x)g(x)h(x) + f(x)g′(x)h(x) + f(x)g(x)h′(x)</strong>.<br>
+This is the <strong>extended product rule</strong> — its symmetrical form extends to four or more functions.</p>
+</div>
+<p>Functions like y = (x² − 3)⁴ or y = (x² + 3x + 5)⁶ have the form y = uⁿ with n a positive integer. Using the product rule on u·u, then u·u·u, suggests a generalization:</p>
+<div style="background: rgb(255, 246, 239); border-width: 2px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 14px 0px;">
+<strong style="color:#10284A;">The Power of a Function Rule (Integers).</strong> If u is a function of x and n is an integer, then <strong>d/dx(uⁿ) = nuⁿ⁻¹·du/dx</strong>. (A special case of the chain rule — see Lesson 2.6.)
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 5</strong> — For h(x) = (x² + 3x + 5)⁶, find h′(x).</p>
+<p style="margin:0;"><strong>Solution.</strong> The "inner" function is g(x) = x² + 3x + 5. By the power of a function rule, h′(x) = <strong>6(x² + 3x + 5)⁵(2x + 3)</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 6</strong> — Differentiate f(x) = (2x + 5)/(3x − 1) by first expressing it as a product, then using the product rule.</p>
+<p style="margin:0;"><strong>Solution.</strong> f(x) = (2x + 5)(3x − 1)⁻¹ &nbsp;&nbsp;<em>(Express f as a product)</em><br>
+f′(x) = d/dx[(2x + 5)]·(3x − 1)⁻¹ + (2x + 5)·d/dx[(3x − 1)⁻¹] &nbsp;&nbsp;<em>(Product rule)</em><br>
+= 2(3x − 1)⁻¹ + (2x + 5)(−1)(3x − 1)⁻²·d/dx(3x − 1) &nbsp;&nbsp;<em>(Power of a function rule)</em><br>
+= 2(3x − 1)⁻¹ − 3(2x + 5)(3x − 1)⁻²<br>
+= 2/(3x − 1) − 3(2x + 5)/(3x − 1)² &nbsp;&nbsp;<em>(Simplify)</em><br>
+= [2(3x − 1) − (6x + 15)]/(3x − 1)²<br>
+= (6x − 2 − 6x − 15)/(3x − 1)²<br>
+= <strong>−17/(3x − 1)²</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 7</strong> — The position <em>s</em>, in centimetres, of an object moving in a straight line is s = t(6 − 3t)⁴, t ≥ 0, with t in seconds. Determine the object's velocity at t = 2.</p>
+<p style="margin:0;"><strong>Solution.</strong> v = ds/dt = d/dt[t(6 − 3t)⁴]<br>
+= (1)(6 − 3t)⁴ + (t)·d/dt[(6 − 3t)⁴] &nbsp;&nbsp;<em>(Product rule)</em><br>
+= (6 − 3t)⁴ + (t)[4(6 − 3t)³(−3)] &nbsp;&nbsp;<em>(Power of a function rule)</em><br>
+At t = 2: v = 0 + (2)[4(0)(−3)] = <strong>0</strong>.<br>
+The object is at rest at t = 2 s.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54801/preview?" alt="Two parabolas on a grid: f and f prime" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54801" data-api-returntype="File" loading="lazy"></p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 2.3.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Differentiate x(x − 4) and x²(2x − 1) using the product rule.</summary>
+<p>x(x − 4): (1)(x − 4) + x(1) = <strong>2x − 4</strong>. x²(2x − 1): (2x)(2x − 1) + x²(2) = <strong>6x² − 2x</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Find dy/dx at x = 2 for y = (2 + 7x)(x − 3).</summary>
+<p>y′ = 7(x − 3) + (2 + 7x)(1) = 14x − 19; at x = 2: <strong>9</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — When is the product rule NOT appropriate? Give an example.</summary>
+<p>When the expression is not a product — e.g., a sum like x² + 3x (use the sum rule), or a single power like x⁵ (use the power rule).</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Find the tangent to y = (x³ − 5x + 2)(3x² − 2x) at (1, −2).</summary>
+<p>y′ = (3x² − 5)(3x² − 2x) + (x³ − 5x + 2)(6x − 2); at x = 1: (−2)(1) + (−2)(4) = −10. Tangent: y + 2 = −10(x − 1), or <strong>y = −10x + 8</strong>.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>Product rule:</strong> (fg)′ = f′g + fg′.</li>
+<li><strong>Extended product rule:</strong> (fgh)′ = f′gh + fg′h + fgh′.</li>
+<li><strong>Power of a function (integer n):</strong> d/dx(uⁿ) = nuⁿ⁻¹·du/dx.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>The derivative of a product is <strong>not</strong> the product of the derivatives.</li>
+<li>Expand first when it is easy; use the rule when it is not.</li>
+<li>For a value at a point, substitute into the unsimplified derivative.</li>
+<li>Next: Lesson 2.5 — the <strong>quotient rule</strong>.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Derivatives</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

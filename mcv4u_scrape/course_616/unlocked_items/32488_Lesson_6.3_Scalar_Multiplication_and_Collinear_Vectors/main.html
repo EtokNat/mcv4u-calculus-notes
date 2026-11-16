@@ -1,0 +1,106 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9180" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 6.3 — Scalar Multiplication and Collinear Vectors</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 6</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 6.3</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Scalar Multiplication and Collinear Vectors</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §6.3 (with the laws of §6.4) — stretching, shrinking, and flipping arrows.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Describe how <strong>ka</strong> changes a vector's magnitude and direction for positive, negative, and zero k.</li>
+<li>Test whether vectors are <strong>collinear</strong> and build <strong>unit vectors</strong> in any direction.</li>
+<li>Simplify vector expressions with the <strong>commutative, associative, and distributive laws</strong>.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Double a plane's velocity and it goes twice as fast the same way. Halve it and it crawls along the same heading. Reverse it and it flies the same speed backwards. One operation — multiplying by a plain number — controls length and direction separately. That number is called a <strong>scalar</strong>, and today it becomes a tool.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17381" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17381" data-api-returntype="Assignment">▶ Start the Lesson 6.3 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — one slider, every multiple</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, create a slider <strong><em>k</em></strong> from −3 to 3. Plot the vector <strong>a</strong> with head at <strong><em>(3,2)</em></strong>.</li>
+<li>Plot the head of <strong>ka</strong> at <strong><em>(3k, 2k)</em></strong>. Drag k: at k = 2 the arrow doubles; at k = 0.5 it halves; at k = −1 it flips.</li>
+<li>Watch the length readout: it equals <strong><em>|k| × √(3² + 2²)</em></strong>. <strong>Conclusion:</strong> positive k keeps the direction, negative k reverses it, and |k| always scales the length.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<strong style="color:#10284A;">Key term — Scalar multiplication:</strong> for a nonzero vector a and a real number k, the vector <strong>ka</strong> has magnitude |k|·|a|; it points the <em>same</em> way as a if k &gt; 0 and the <em>opposite</em> way if k &lt; 0.
+</div>
+<ul>
+<li><strong>The four cases.</strong> k &gt; 1 stretches (same direction); 0 &lt; k &lt; 1 shrinks (same direction); k &lt; 0 flips to the opposite direction (shrinking if |k| &lt; 1, stretching if |k| &gt; 1); <strong>k = 0 gives the zero vector</strong>: 0a = 0.</li>
+<li><strong>Collinear vectors.</strong> Vectors that lie on the same straight line (possibly after sliding) are <strong>collinear</strong> — "parallel" means the same thing here. Every scalar multiple of a is collinear with a, and the test runs both ways: <strong>u and v are collinear exactly when u = kv for some nonzero scalar k</strong>.</li>
+<li><strong>Unit vectors.</strong> (1/|x|)·x is the <strong>unit vector</strong> in x's direction: length 1, same heading. It captures "pure direction" — useful whenever only the heading matters.</li>
+<li><strong>The algebra still works.</strong> Vector addition and scalar multiplication obey the familiar laws, so expressions simplify the way number expressions do:
+  <ul>
+  <li>Commutative: a + b = b + a</li>
+  <li>Associative: (a + b) + c = a + (b + c)</li>
+  <li>Distributive: k(a + b) = ka + kb; (m + n)a = ma + na; m(na) = (mn)a; a + 0 = a</li>
+  </ul></li>
+</ul>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54853/preview?" alt="Scalar multiples 2a, a, 0.5a, -0.5a, -a, -2a all collinear on one line" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54853" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Unit vectors x and y make a 30° angle with each other. (a) Find |2x − y|. (b) Find the direction of 2x − y relative to x.</p>
+<p style="margin:0;"><strong>Solution.</strong> Draw 2x and −y head-to-tail.<br>
+(a) Cosine law: |2x − y|² = |2x|² + |−y|² − 2|2x||−y|cos 30° = 4 + 1 − 2(2)(1)(√3/2) = 5 − 2√3.<br>
+So |2x − y| = <strong>√(5 − 2√3) ≈ 1.24</strong>.<br>
+(b) Sine law: sin θ / |−y| = sin 30° / |2x − y| → sin θ = sin 30° / 1.24 ≈ 0.403 → θ ≈ <strong>23.8°</strong>.<br>
+The vector 2x − y points <strong>23.8° clockwise from x</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — |u| = 4, |v| = 5, and the angle between u and v is 120°. Find the unit vector in the direction of u + v.</p>
+<p style="margin:0;"><strong>Solution.</strong> First the length: |u + v|² = 16 + 25 − 2(4)(5)cos 60° = 41 − 20 = 21, so |u + v| = <strong>√21</strong> (the triangle angle is the 60° supplement).<br>
+The unit vector is (1/|u + v|)(u + v) = <strong>(1/√21)(u + v)</strong> — same direction, length exactly 1.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Simplify 3(2a + b + c) − (a + 3b − 2c).</p>
+<p style="margin:0;"><strong>Solution.</strong> Distribute, then commute and collect:<br>
+= 6a + 3b + 3c − a − 3b + 2c <em>(distributive)</em><br>
+= 6a − a + 3b − 3b + 3c + 2c <em>(commutative)</em><br>
+= <strong>5a + 5c</strong> <em>(collect like terms)</em>.</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercises 6.3–6.4.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Vector v has |v| = 2. Describe −(2/3)v: direction and magnitude.</summary>
+<p>Negative scalar → <strong>opposite direction</strong>; magnitude |−2/3| × 2 = <strong>4/3</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Are 2a and −3a collinear? Are 2a and 3b (a, b noncollinear) collinear?</summary>
+<p><strong>2a and −3a are collinear</strong> — both are scalar multiples of a (one is (−3/2) times the other). <strong>2a and 3b are not</strong> — no nonzero scalar turns a into b when a and b aren't collinear.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Explain why the equation a = 2|b| is meaningless.</summary>
+<p>The left side is a <strong>vector</strong> (has direction); the right side is a <strong>scalar</strong> (just a number). A vector can never equal a plain number — it's a type mismatch.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Simplify 2(a − 3b) − 3(−2a − 7b).</summary>
+<p>= 2a − 6b + 6a + 21b = <strong>8a + 15b</strong>.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>ka</strong>: |k| scales the length; k &gt; 0 keeps direction, k &lt; 0 reverses it, k = 0 gives the zero vector.</li>
+<li><strong>Collinear</strong> ⟺ one is a nonzero scalar multiple of the other. <strong>Unit vector</strong> in x's direction: (1/|x|)x.</li>
+<li>Vector algebra obeys the <strong>commutative, associative, and distributive laws</strong> — simplify freely.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>Never equate a vector with a scalar — |b| is a number, b is an arrow.</li>
+<li>Next: Lesson 6.4 puts vectors on <strong>coordinate axes</strong> — algebraic vectors in R² and R³.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Vectors</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

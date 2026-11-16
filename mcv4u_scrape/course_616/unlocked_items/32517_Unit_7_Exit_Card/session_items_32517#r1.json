@@ -1,0 +1,292 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44964",
+      "interaction_data": {
+        "choices": [
+          {
+            "id": "38a1e931-e3f7-4e09-bbbe-5740100f5052",
+            "item_body": "<p>The geometric dot product and its sign (acute/right/obtuse)</p>",
+            "position": 1
+          },
+          {
+            "id": "ce2a9d4a-9faf-4798-87da-3e7ec57b53ac",
+            "item_body": "<p>The algebraic dot product and the angle formula</p>",
+            "position": 2
+          },
+          {
+            "id": "6ef441a0-c67f-443d-b3bf-bc6ddc5d6d28",
+            "item_body": "<p>Scalar and vector projections</p>",
+            "position": 3
+          },
+          {
+            "id": "37da33ac-b9ea-4332-b05c-1c0018e1b657",
+            "item_body": "<p>The cross product and the right-hand rule</p>",
+            "position": 4
+          },
+          {
+            "id": "982a9bd8-f5da-4132-8ea6-1e42e3d93661",
+            "item_body": "<p>Areas, work, and torque applications</p>",
+            "position": 5
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "1",
+        "name": "Multiple Choice",
+        "slug": "choice"
+      },
+      "item_body": "<p>What clicked best for you in this unit?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        },
+        "vary_points_by_answer": false
+      },
+      "title": null,
+      "user_response_type": "Uuid"
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "33835",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44967",
+      "interaction_data": {
+        "choices": [
+          {
+            "id": "a5e2943a-4d35-4275-ba32-50da4c917bce",
+            "item_body": "<p>The geometric dot product and its sign (acute/right/obtuse)</p>",
+            "position": 1
+          },
+          {
+            "id": "8b9aeb89-8a2e-499b-8c9d-c9b47ea34a87",
+            "item_body": "<p>The algebraic dot product and the angle formula</p>",
+            "position": 2
+          },
+          {
+            "id": "22eb488f-8410-443f-b375-1ba8ff582a9f",
+            "item_body": "<p>Scalar and vector projections</p>",
+            "position": 3
+          },
+          {
+            "id": "8cfed921-69c3-4427-98b7-0f6d7fe7bdf5",
+            "item_body": "<p>The cross product and the right-hand rule</p>",
+            "position": 4
+          },
+          {
+            "id": "068182f5-8e12-4d99-a761-5d51842963b2",
+            "item_body": "<p>Areas, work, and torque applications</p>",
+            "position": 5
+          },
+          {
+            "id": "a5786694-af8b-4652-bd28-2cdce28a9d5b",
+            "item_body": "<p>Nothing - I feel solid on all of it</p>",
+            "position": 6
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "1",
+        "name": "Multiple Choice",
+        "slug": "choice"
+      },
+      "item_body": "<p>What is still muddy for you?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        },
+        "vary_points_by_answer": false
+      },
+      "title": null,
+      "user_response_type": "Uuid"
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "33843",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44983",
+      "interaction_data": {
+        "choices": [
+          {
+            "id": "75127722-af19-4939-9a34-fff36fc063b7",
+            "item_body": "<p>Much higher</p>",
+            "position": 1
+          },
+          {
+            "id": "6c61e520-caf2-4c5a-a322-23ec20fc6fbf",
+            "item_body": "<p>Somewhat higher</p>",
+            "position": 2
+          },
+          {
+            "id": "6ca73deb-111f-4ec3-bf94-7b6b51031868",
+            "item_body": "<p>About the same</p>",
+            "position": 3
+          },
+          {
+            "id": "d74ca84f-56c2-463e-93f4-dad2e08e5ec0",
+            "item_body": "<p>Lower</p>",
+            "position": 4
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "1",
+        "name": "Multiple Choice",
+        "slug": "choice"
+      },
+      "item_body": "<p>Compared to the start of the unit, my confidence with dot and cross products is now...</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        },
+        "vary_points_by_answer": false
+      },
+      "title": null,
+      "user_response_type": "Uuid"
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "33858",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "44996",
+      "interaction_data": {
+        "choices": [
+          {
+            "id": "ddf61f8e-aa84-4ea0-aec1-5308d5358ff5",
+            "item_body": "<p>More worked examples</p>",
+            "position": 1
+          },
+          {
+            "id": "1602bc61-5dad-4243-9e85-8614daf4cd0e",
+            "item_body": "<p>More practice problems</p>",
+            "position": 2
+          },
+          {
+            "id": "eada97b3-14b6-4c20-87da-bd99a5d2a0bf",
+            "item_body": "<p>A video walkthrough of the tricky parts</p>",
+            "position": 3
+          },
+          {
+            "id": "fa436ad3-ad0f-445e-97b6-cc712bbe4f18",
+            "item_body": "<p>A one-on-one check-in with my teacher</p>",
+            "position": 4
+          },
+          {
+            "id": "bbecbd61-3715-408d-a96d-eb760c58f054",
+            "item_body": "<p>I'm good for now</p>",
+            "position": 5
+          }
+        ]
+      },
+      "interaction_type": {
+        "id": "1",
+        "name": "Multiple Choice",
+        "slug": "choice"
+      },
+      "item_body": "<p>What kind of help would be most useful to you next?</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        },
+        "vary_points_by_answer": false
+      },
+      "title": null,
+      "user_response_type": "Uuid"
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "33869",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "id": "45002",
+      "interaction_data": {
+        "essay": null,
+        "file_upload": false,
+        "rce": true,
+        "spell_check": false,
+        "word_count": false,
+        "word_limit_enabled": false,
+        "word_limit_max": null,
+        "word_limit_min": null
+      },
+      "interaction_type": {
+        "id": "9",
+        "name": "Essay",
+        "slug": "essay"
+      },
+      "item_body": "<p>Anything else you'd like me to know before the summative assessment? (Questions, concerns, or topics you'd like revisited.)</p>",
+      "label": null,
+      "outcome_alignment_set_guid": null,
+      "properties": {
+        "rich_content_editor": false,
+        "show_word_count": false,
+        "spell_check": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "word_limit_min": 0
+      },
+      "title": null,
+      "user_response_type": "Text"
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "33875",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  }
+]

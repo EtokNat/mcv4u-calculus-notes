@@ -1,0 +1,250 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56702",
+    "item_id": "69550",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] In terms of a, b, c, and 0, find a vector expression for each of the following. In the diagram of the prism, F is the origin corner, with FG = a, FI = b, and FJ = c; the remaining corners are K = a + c, H = a + b, M = b + c, and L = a + b + c. a. FL = b. MK = c. HJ = d. IH + KJ = e. IK - IH =",
+    "prompt_html": "<p>[K/U] In terms of a, b, c, and 0, find a vector expression for each of the following. In the diagram of the prism, F is the origin corner, with FG = a, FI = b, and FJ = c; the remaining corners are K = a + c, H = a + b, M = b + c, and L = a + b + c. a. FL = <span id=\"blank_574f09c2-89ee-486e-bf89-395220e8e350\"></span> b. MK = <span id=\"blank_d4e3e50f-952c-4654-bf77-cbb70c4809ae\"></span> c. HJ = <span id=\"blank_74cd1ba7-cf1e-41b0-bacf-2b3ba6f789fe\"></span> d. IH + KJ = <span id=\"blank_e329d1a9-92b7-4f32-b8ab-b5808f45a629\"></span> e. IK - IH = <span id=\"blank_1661d346-32a2-448d-8951-42316097d5c1\"></span></p>",
+    "choices": [],
+    "num_blanks": 5,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "574f09c2-89ee-486e-bf89-395220e8e350"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d4e3e50f-952c-4654-bf77-cbb70c4809ae"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "74cd1ba7-cf1e-41b0-bacf-2b3ba6f789fe"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e329d1a9-92b7-4f32-b8ab-b5808f45a629"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1661d346-32a2-448d-8951-42316097d5c1"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56702",
+    "item_id": "69545",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] If a = 3i - 4j + k and b = -2i + 3j - k, express each of the following in terms of i, j, and k. a. 2a - 3b = b. a + 5b = c. 2(a - 3b) - 3(-2a - 7b) =",
+    "prompt_html": "<p>[K/U] If a = 3i - 4j + k and b = -2i + 3j - k, express each of the following in terms of i, j, and k. a. 2a - 3b = <span id=\"blank_443ccc73-049a-480c-809e-0bd2cb7da2cd\"></span> b. a + 5b = <span id=\"blank_4ad0f19b-d4e2-4747-9cb4-2efd30be5e80\"></span> c. 2(a - 3b) - 3(-2a - 7b) = <span id=\"blank_e629a34b-2d53-41b8-b5cb-f4d6a1f425a0\"></span></p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "443ccc73-049a-480c-809e-0bd2cb7da2cd"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "4ad0f19b-d4e2-4747-9cb4-2efd30be5e80"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e629a34b-2d53-41b8-b5cb-f4d6a1f425a0"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56703",
+    "item_id": "69562",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] A rectangular prism measuring 3 by 4 by 5 is drawn on a coordinate axis as shown in the diagram. In the diagram, O is the origin, A(3, 0, 0), B(3, 4, 0), and D(0, 0, 5). a. Determine the coordinates of points C, P, E, and F. C = , P = , E = , F = . b. Determine position vectors for DB and CF. DB = , CF = . c. By drawing the rectangle containing DB and OP, determine the acute angle between these vectors. The angle is degrees. d. Determine the angle between OP and AE. The angle is degrees.",
+    "prompt_html": "<p>[K/U] A rectangular prism measuring 3 by 4 by 5 is drawn on a coordinate axis as shown in the diagram. In the diagram, O is the origin, A(3, 0, 0), B(3, 4, 0), and D(0, 0, 5). a. Determine the coordinates of points C, P, E, and F. C = <span id=\"blank_bddc2842-07e6-48e8-ba31-bc8463e61255\"></span>, P = <span id=\"blank_ea6b90a2-fa86-4231-8d67-fc93d7b9f8b6\"></span>, E = <span id=\"blank_cb57be4a-f636-42be-8d7f-19248a255a6a\"></span>, F = <span id=\"blank_e72af919-5618-4bc6-9328-2786f152facb\"></span>. b. Determine position vectors for DB and CF. DB = <span id=\"blank_f0acc224-0e04-4f5a-a4d1-c5e8f2b52a78\"></span>, CF = <span id=\"blank_19848efa-eea2-4a17-a760-7d15f4706ce4\"></span>. c. By drawing the rectangle containing DB and OP, determine the acute angle between these vectors. The angle is <span id=\"blank_e3e6565e-c4e8-47c6-8d2b-d5005b985e9e\"></span> degrees. d. Determine the angle between OP and AE. The angle is <span id=\"blank_a23bd848-4f7c-4d77-b9a5-684890d5f4ca\"></span> degrees.</p>",
+    "choices": [],
+    "num_blanks": 8,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "bddc2842-07e6-48e8-ba31-bc8463e61255"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ea6b90a2-fa86-4231-8d67-fc93d7b9f8b6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "cb57be4a-f636-42be-8d7f-19248a255a6a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e72af919-5618-4bc6-9328-2786f152facb"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f0acc224-0e04-4f5a-a4d1-c5e8f2b52a78"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "19848efa-eea2-4a17-a760-7d15f4706ce4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e3e6565e-c4e8-47c6-8d2b-d5005b985e9e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a23bd848-4f7c-4d77-b9a5-684890d5f4ca"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56703",
+    "item_id": "69556",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Each of the points P(x, y, 0), Q(x, 0, z), and R(0, y, z) represent general points on three different planes. Name the three planes to which each corresponds. P corresponds to , Q corresponds to , R corresponds to .",
+    "prompt_html": "<p>[K/U] Each of the points P(x, y, 0), Q(x, 0, z), and R(0, y, z) represent general points on three different planes. Name the three planes to which each corresponds. P corresponds to <span id=\"blank_59d16187-55a5-40e4-8fbd-2525ecfa4e21\"></span>, Q corresponds to <span id=\"blank_d976f6e1-f84c-4382-8a9f-50b4292b422b\"></span>, R corresponds to <span id=\"blank_9f53320f-3a5d-4e1a-8361-f75b5c9983df\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "59d16187-55a5-40e4-8fbd-2525ecfa4e21"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d976f6e1-f84c-4382-8a9f-50b4292b422b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9f53320f-3a5d-4e1a-8361-f75b5c9983df"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56704",
+    "item_id": "69579",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] Parallelogram OPQR is such that OP = (-7, 24) and OR = (-8, -1). a. Determine the angle between the vectors OR and OP. The angle is degrees. b. Determine the acute angle between the diagonals OQ and RP. The angle is degrees.",
+    "prompt_html": "<p>[T] Parallelogram OPQR is such that OP = (-7, 24) and OR = (-8, -1). a. Determine the angle between the vectors OR and OP. The angle is <span id=\"blank_a25d8b99-0699-49a1-997b-92175da233d9\"></span> degrees. b. Determine the acute angle between the diagonals OQ and RP. The angle is <span id=\"blank_9b398195-b2dc-44db-867c-846c07fa5646\"></span> degrees.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "a25d8b99-0699-49a1-997b-92175da233d9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9b398195-b2dc-44db-867c-846c07fa5646"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56704",
+    "item_id": "69574",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[T] (Part c only) A parallelogram has three of its vertices at A(-1, 2), B(7, -2), and C(2, 8). c. Determine all possible coordinates for the fourth point that would make a parallelogram with points A, B, and C. The possible coordinates are , , and .",
+    "prompt_html": "<p>[T] (Part c only) A parallelogram has three of its vertices at A(-1, 2), B(7, -2), and C(2, 8). c. Determine all possible coordinates for the fourth point that would make a parallelogram with points A, B, and C. The possible coordinates are <span id=\"blank_77783d5e-6751-41ae-9a61-abd8ab054881\"></span>, <span id=\"blank_7e63fcc4-3e95-413c-9671-0fe49f3af455\"></span>, and <span id=\"blank_1c6493f9-e1db-49a1-99bd-38e77739952d\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "77783d5e-6751-41ae-9a61-abd8ab054881"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7e63fcc4-3e95-413c-9671-0fe49f3af455"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1c6493f9-e1db-49a1-99bd-38e77739952d"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56705",
+    "item_id": "69589",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Given A(-2, -6, 3) and B(3, -4, 12), determine each of the following. a. |OA| = . b. |OB| = . c. AB = . d. |AB| = . e. BA = . f. |BA| = .",
+    "prompt_html": "<p>[K/U] Given A(-2, -6, 3) and B(3, -4, 12), determine each of the following. a. |OA| = <span id=\"blank_f933a32a-5718-4d21-9502-e30238eb43ab\"></span>. b. |OB| = <span id=\"blank_b00f61e1-5aee-40a5-82b5-5ee56a06b0a6\"></span>. c. AB = <span id=\"blank_78c3ef5c-4b02-461e-8277-890cb1068268\"></span>. d. |AB| = <span id=\"blank_f916f24c-cd65-4365-8f0e-212071bc7f39\"></span>. e. BA = <span id=\"blank_7877c0b7-3524-454e-a5b7-5741b7f86cb8\"></span>. f. |BA| = <span id=\"blank_9a140226-71bc-420c-b250-d51b20db1f07\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 6,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "f933a32a-5718-4d21-9502-e30238eb43ab"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b00f61e1-5aee-40a5-82b5-5ee56a06b0a6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "78c3ef5c-4b02-461e-8277-890cb1068268"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f916f24c-cd65-4365-8f0e-212071bc7f39"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7877c0b7-3524-454e-a5b7-5741b7f86cb8"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9a140226-71bc-420c-b250-d51b20db1f07"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56705",
+    "item_id": "69595",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Given X(-1, 2, 6) and Y(5, 5, 12), determine each of the following. a. A position vector equivalent to YX is . b. A unit vector in the same direction as YX is .",
+    "prompt_html": "<p>[K/U] Given X(-1, 2, 6) and Y(5, 5, 12), determine each of the following. a. A position vector equivalent to YX is <span id=\"blank_a9be15bf-074f-4386-948d-49dc41f95451\"></span>. b. A unit vector in the same direction as YX is <span id=\"blank_d9f3db06-7142-46d6-9684-3a6b64d073a6\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "a9be15bf-074f-4386-948d-49dc41f95451"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d9f3db06-7142-46d6-9684-3a6b64d073a6"
+        }
+      ]
+    }
+  }
+]

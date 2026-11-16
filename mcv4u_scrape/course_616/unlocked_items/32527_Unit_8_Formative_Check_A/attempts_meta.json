@@ -1,0 +1,294 @@
+[
+  {
+    "idx": 0,
+    "slug": "choice",
+    "points": 13.0,
+    "prompt": "A dock worker pulls a crate with 6 N due east and 8 N due north. The resultant pull has magnitude\u2026",
+    "prompt_dom": "A dock worker pulls a crate with 6 N due east and 8 N due north. The resultant pull has magnitude\u2026\n\n10 N\n\n48 N\n\n2 N\n\n14 N",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "b75c4399-f786-45ea-9023-14aef392380b",
+        "position": 1,
+        "text": "10 N",
+        "html": "<p>10 N</p>"
+      },
+      {
+        "id": "62ce3847-2ff5-4d87-9fb9-24d8606e944e",
+        "position": 2,
+        "text": "48 N",
+        "html": "<p>48 N</p>"
+      },
+      {
+        "id": "dea48c30-4237-4998-b745-1e537558fa5e",
+        "position": 3,
+        "text": "2 N",
+        "html": "<p>2 N</p>"
+      },
+      {
+        "id": "8456caae-ecf4-441d-a3d8-43ae88ccee2d",
+        "position": 4,
+        "text": "14 N",
+        "html": "<p>14 N</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "10 N"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 1,
+    "slug": "numeric",
+    "points": 13.0,
+    "prompt": "A 100 N sign hangs from two identical cables, each making 60\u00b0 with the horizontal. The tension in each cable is\u2026 (N)",
+    "prompt_dom": "A 100 N sign hangs from two identical cables, each making 60\u00b0 with the horizontal. The tension in each cable is\u2026 (N)\n\nAnswer\n\nA 100 N sign hangs from two identical cables, each making 60\u00b0 with the horizontal. The tension in each cable is\u2026 (N)",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "57.74"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 2,
+    "slug": "choice",
+    "points": 12.0,
+    "prompt": "An 8 kg crate (weight 78.4 N) rests on a 25\u00b0 ramp. The force parallel to the ramp needed to hold it is\u2026",
+    "prompt_dom": "An 8 kg crate (weight 78.4 N) rests on a 25\u00b0 ramp. The force parallel to the ramp needed to hold it is\u2026\n\n78.4 N\n\n\u2248 19.6 N\n\n\u2248 70.9 N\n\n\u2248 33.1 N",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "e0bc8db8-f142-4b72-a4e7-f7ecec5ae8dd",
+        "position": 1,
+        "text": "78.4 N",
+        "html": "<p>78.4 N</p>"
+      },
+      {
+        "id": "2c56b316-6d11-401d-959e-99cf85e3ee55",
+        "position": 2,
+        "text": "\u2248 19.6 N",
+        "html": "<p>\u2248 19.6 N</p>"
+      },
+      {
+        "id": "3c7fd34c-8f9c-42d1-b870-db1a74e0cf54",
+        "position": 3,
+        "text": "\u2248 70.9 N",
+        "html": "<p>\u2248 70.9 N</p>"
+      },
+      {
+        "id": "f43894bd-5781-483a-b868-bc1570cdccef",
+        "position": 4,
+        "text": "\u2248 33.1 N",
+        "html": "<p>\u2248 33.1 N</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "\u2248 33.1 N"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 3,
+    "slug": "choice",
+    "points": 13.0,
+    "prompt": "Three cables pull on a pylon with 4 kN, 7 kN, and 12 kN. Can the pylon be in equilibrium?",
+    "prompt_dom": "Three cables pull on a pylon with 4 kN, 7 kN, and 12 kN. Can the pylon be in equilibrium?\n\nYes \u2014 because 12 is the largest\n\nYes \u2014 three forces always balance\n\nOnly if the 12 kN cable is horizontal\n\nNo \u2014 4 + 7 < 12 violates the triangle inequality",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "50170692-15b7-4efe-acd3-586195019dea",
+        "position": 1,
+        "text": "Yes \u2014 because 12 is the largest",
+        "html": "<p>Yes \u2014 because 12 is the largest</p>"
+      },
+      {
+        "id": "cedb8a98-e9b6-45d6-a871-e9a6b9781002",
+        "position": 2,
+        "text": "Yes \u2014 three forces always balance",
+        "html": "<p>Yes \u2014 three forces always balance</p>"
+      },
+      {
+        "id": "dd4d4034-d4c8-41a2-b186-04e01b3e9c35",
+        "position": 3,
+        "text": "Only if the 12 kN cable is horizontal",
+        "html": "<p>Only if the 12 kN cable is horizontal</p>"
+      },
+      {
+        "id": "a5c4d05b-e9cd-40e8-b535-c44541617a14",
+        "position": 4,
+        "text": "No \u2014 4 + 7 < 12 violates the triangle inequality",
+        "html": "<p>No \u2014 4 + 7 &lt; 12 violates the triangle inequality</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "No \u2014 4 + 7 < 12 violates the triangle inequality"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 4,
+    "slug": "choice",
+    "points": 13.0,
+    "prompt": "The equilibrant of a force system is\u2026",
+    "prompt_dom": "The equilibrant of a force system is\u2026\n\nEqual in magnitude and the same direction as the resultant\n\nAlways zero\n\nAlways larger than the resultant\n\nEqual in magnitude and opposite in direction to the resultant",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "8a301a30-56b5-4675-91d8-b798ca4074e3",
+        "position": 1,
+        "text": "Equal in magnitude and the same direction as the resultant",
+        "html": "<p>Equal in magnitude and the same direction as the resultant</p>"
+      },
+      {
+        "id": "fce8cb11-4138-4453-a8aa-650e5fcc314e",
+        "position": 2,
+        "text": "Always zero",
+        "html": "<p>Always zero</p>"
+      },
+      {
+        "id": "e921a592-d017-495d-aab3-2faf9e6b5d1f",
+        "position": 3,
+        "text": "Always larger than the resultant",
+        "html": "<p>Always larger than the resultant</p>"
+      },
+      {
+        "id": "ee243372-1d12-48b8-99b6-76840708ddf8",
+        "position": 4,
+        "text": "Equal in magnitude and opposite in direction to the resultant",
+        "html": "<p>Equal in magnitude and opposite in direction to the resultant</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "Equal in magnitude and opposite in direction to the resultant"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 5,
+    "slug": "choice",
+    "points": 12.0,
+    "prompt": "A ferry crosses a 1.5 km wide river at 12 km/h straight across; the current is 4 km/h. It lands\u2026",
+    "prompt_dom": "A ferry crosses a 1.5 km wide river at 12 km/h straight across; the current is 4 km/h. It lands\u2026\n\n0.5 km downstream after 7.5 min\n\n0.5 km downstream after 30 min\n\nDirectly across after 7.5 min\n\n2 km downstream after 7.5 min",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "8f46492d-97f3-4226-a44c-584b1dc6a8f9",
+        "position": 1,
+        "text": "0.5 km downstream after 7.5 min",
+        "html": "<p>0.5 km downstream after 7.5 min</p>"
+      },
+      {
+        "id": "7af758eb-fbb9-412c-be15-1a6651b4a761",
+        "position": 2,
+        "text": "0.5 km downstream after 30 min",
+        "html": "<p>0.5 km downstream after 30 min</p>"
+      },
+      {
+        "id": "5d70876f-749c-4a19-a216-7338d7f7119f",
+        "position": 3,
+        "text": "Directly across after 7.5 min",
+        "html": "<p>Directly across after 7.5 min</p>"
+      },
+      {
+        "id": "bd39dbef-cafc-4df7-936f-273804324037",
+        "position": 4,
+        "text": "2 km downstream after 7.5 min",
+        "html": "<p>2 km downstream after 7.5 min</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "0.5 km downstream after 7.5 min"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 6,
+    "slug": "choice",
+    "points": 12.0,
+    "prompt": "A plane flies due west at 300 km/h airspeed. The wind blows from the north at 40 km/h. Its ground velocity is\u2026",
+    "prompt_dom": "A plane flies due west at 300 km/h airspeed. The wind blows from the north at 40 km/h. Its ground velocity is\u2026\n\n260 km/h due west\n\n340 km/h due west\n\n\u2248 302.7 km/h, 7.6\u00b0 north of west\n\n\u2248 302.7 km/h, 7.6\u00b0 south of west",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "73871a90-c211-466a-9a2e-fccc14d94df7",
+        "position": 1,
+        "text": "260 km/h due west",
+        "html": "<p>260 km/h due west</p>"
+      },
+      {
+        "id": "7c9fce2f-1774-4d0b-9ff7-77b449f90734",
+        "position": 2,
+        "text": "340 km/h due west",
+        "html": "<p>340 km/h due west</p>"
+      },
+      {
+        "id": "69219414-d244-4958-876b-b8280322965e",
+        "position": 3,
+        "text": "\u2248 302.7 km/h, 7.6\u00b0 north of west",
+        "html": "<p>\u2248 302.7 km/h, 7.6\u00b0 north of west</p>"
+      },
+      {
+        "id": "ad97336e-5893-4b1c-99bf-a05d447123e5",
+        "position": 4,
+        "text": "\u2248 302.7 km/h, 7.6\u00b0 south of west",
+        "html": "<p>\u2248 302.7 km/h, 7.6\u00b0 south of west</p>"
+      }
+    ],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": {
+      "type": "choice",
+      "choice": "\u2248 302.7 km/h, 7.6\u00b0 south of west"
+    },
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  },
+  {
+    "idx": 7,
+    "slug": "numeric",
+    "points": 12.0,
+    "prompt": "A boat moving at 15 km/h in still water must land directly across a river flowing at 5 km/h. It should aim upstream at an angle of\u2026 (degrees)",
+    "prompt_dom": "A boat moving at 15 km/h in still water must land directly across a river flowing at 5 km/h. It should aim upstream at an angle of\u2026 (degrees)\n\nAnswer\n\nA boat moving at 15 km/h in still water must land directly across a river flowing at 5 km/h. It should aim upstream at an angle of\u2026 (degrees)",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": "answer_bank",
+    "ok": true,
+    "answers": [
+      "19.47"
+    ],
+    "reason": null,
+    "filled": true,
+    "this_attempt_score": 100.0
+  }
+]

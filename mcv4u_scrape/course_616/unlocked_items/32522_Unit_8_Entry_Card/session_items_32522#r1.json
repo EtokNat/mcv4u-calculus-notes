@@ -1,0 +1,272 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>I've solved many and I'm comfortable with them</p>",
+            "id": "e4ed652e-f190-42ce-859c-f86390491db8",
+            "position": 1
+          },
+          {
+            "item_body": "<p>I've solved a few and can usually get started</p>",
+            "id": "691dfb0d-3a5c-427a-b7d3-dc66f40a6a7c",
+            "position": 2
+          },
+          {
+            "item_body": "<p>I've seen them but rarely finish them</p>",
+            "id": "afa1b2e4-1a06-40ff-883a-b4e2c780fd8c",
+            "position": 4
+          },
+          {
+            "item_body": "<p>This is mostly new to me</p>",
+            "id": "0766068e-fca9-4a0a-b74c-5085f5bd5bb0",
+            "position": 5
+          }
+        ]
+      },
+      "item_body": "<p>Before this unit, how would you describe your experience with physics-style word problems (forces, motion, ramps)?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44965",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "33837",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Very confident</p>",
+            "id": "39268da9-339f-4a66-8182-9fa35472ea86",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Somewhat confident</p>",
+            "id": "e957412b-1f82-44ee-a6ff-6a8d124372e5",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Not very confident</p>",
+            "id": "f92b355e-8fba-4c82-85f0-653f292ff38b",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Not confident at all</p>",
+            "id": "3a446e85-be0e-40a3-98e3-0fd590ba4c48",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>How confident are you drawing a diagram to represent a word problem (for example, sketching forces or a velocity triangle)?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44969",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "33840",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Very confident</p>",
+            "id": "39268da9-339f-4a66-8182-9fa35472ea86",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Somewhat confident</p>",
+            "id": "e957412b-1f82-44ee-a6ff-6a8d124372e5",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Not very confident</p>",
+            "id": "f92b355e-8fba-4c82-85f0-653f292ff38b",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Not confident at all</p>",
+            "id": "3a446e85-be0e-40a3-98e3-0fd590ba4c48",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>How confident are you breaking a force or velocity into horizontal and vertical components (for example, finding 200\u00b7cos20\u00b0)?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44973",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "33841",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Very confident</p>",
+            "id": "39268da9-339f-4a66-8182-9fa35472ea86",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Somewhat confident</p>",
+            "id": "e957412b-1f82-44ee-a6ff-6a8d124372e5",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Not very confident</p>",
+            "id": "f92b355e-8fba-4c82-85f0-653f292ff38b",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Not confident at all</p>",
+            "id": "3a446e85-be0e-40a3-98e3-0fd590ba4c48",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>How confident are you choosing the right vector tool for a new problem (for example, deciding whether a situation needs a resultant, a projection, or a cross product)?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44976",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "33847",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>What is one real-world vector application you most want to understand by the end of this unit (for example, navigation, construction, sports)?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "44977",
+      "label": null,
+      "title": null,
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "33849",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  }
+]

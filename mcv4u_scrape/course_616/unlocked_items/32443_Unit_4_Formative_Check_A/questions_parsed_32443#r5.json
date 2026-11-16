@@ -1,0 +1,378 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56108",
+    "item_id": "65273",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] A diver jumps from a 3 m springboard. The diver's height above the water, h metres, at time t seconds after jumping is given by h(t) = -4.9t^2 + 9.5t + 2.2. a. The diver's height is increasing on ; the diver's height is decreasing on . b. The diver's velocity is throughout (the acceleration is a constant -9.8 m/s^2).",
+    "prompt_html": "<p>[A] A diver jumps from a 3 m springboard. The diver's height above the water, h metres, at time t seconds after jumping is given by h(t) = -4.9t^2 + 9.5t + 2.2. a. The diver's height is increasing on <span id=\"blank_ed27c94b-ae47-43d4-abb7-2fd77d07f743\"></span>; the diver's height is decreasing on <span id=\"blank_5744bc31-36a2-41e8-8545-a63725fbc789\"></span>. b. The diver's velocity is <span id=\"blank_3ef3ce60-a8d7-4c57-980a-8d6d3052cfa8\"></span> throughout (the acceleration is a constant -9.8 m/s^2).</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "ed27c94b-ae47-43d4-abb7-2fd77d07f743"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5744bc31-36a2-41e8-8545-a63725fbc789"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3ef3ce60-a8d7-4c57-980a-8d6d3052cfa8"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56108",
+    "item_id": "65272",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine where the function g(x) = 2x^3 - 3x^2 - 12x + 15 is increasing and where it is decreasing. g is increasing on ; g is decreasing on .",
+    "prompt_html": "<p>[K/U] Determine where the function g(x) = 2x^3 - 3x^2 - 12x + 15 is increasing and where it is decreasing. g is increasing on <span id=\"blank_a0bcfcdd-6555-4093-a9ca-8e8deaa74f2c\"></span>; g is decreasing on <span id=\"blank_c0b6b585-9380-470b-bf2b-14543899e307\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "a0bcfcdd-6555-4093-a9ca-8e8deaa74f2c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c0b6b585-9380-470b-bf2b-14543899e307"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56108",
+    "item_id": "65265",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine the points at which f'(x) = 0 for each function.\n a. f(x) = x^3 + 6x^2 + 1; the points are and \n b. f(x) = sqrt(x^2 + 4); the point is \n c. f(x) = (2x - 1)^2 (x^2 - 9); the points are , , and \n d. f(x) = 5x/(x^2 + 1); the points are and",
+    "prompt_html": "<p>[K/U] Determine the points at which f'(x) = 0 for each function.</p>\n<p>a. f(x) = x^3 + 6x^2 + 1; the points are <span id=\"blank_cbef1aa5-3ac7-421a-901d-4e6fccad5c9d\"></span> and <span id=\"blank_a1025045-f886-49dd-810e-094c2426d139\"></span></p>\n<p>b. f(x) = sqrt(x^2 + 4); the point is <span id=\"blank_191c5d7d-672a-4b30-b956-e8a5d9348570\"></span></p>\n<p>c. f(x) = (2x - 1)^2 (x^2 - 9); the points are <span id=\"blank_881eb39a-58bd-4760-8c92-337754c37dfe\"></span>, <span id=\"blank_e470f6b6-8af5-449a-a02d-8fe57902b7e0\"></span>, and <span id=\"blank_c676dbae-3399-4ce9-9a90-bb940538dc04\"></span></p>\n<p>d. f(x) = 5x/(x^2 + 1); the points are <span id=\"blank_16876eaf-e5f0-4839-83ad-42fc1326d7e4\"></span> and <span id=\"blank_69a8eace-bef3-4ce0-8635-912b25f7090f\"></span></p>",
+    "choices": [],
+    "num_blanks": 8,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "cbef1aa5-3ac7-421a-901d-4e6fccad5c9d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a1025045-f886-49dd-810e-094c2426d139"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "191c5d7d-672a-4b30-b956-e8a5d9348570"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "881eb39a-58bd-4760-8c92-337754c37dfe"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e470f6b6-8af5-449a-a02d-8fe57902b7e0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c676dbae-3399-4ce9-9a90-bb940538dc04"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "16876eaf-e5f0-4839-83ad-42fc1326d7e4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "69a8eace-bef3-4ce0-8635-912b25f7090f"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56108",
+    "item_id": "65275",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] For each graph, determine i. the interval(s) on which the function is increasing; ii. the interval(s) on which the function is decreasing; iii. the point(s) at which the tangent to the graph is horizontal.\n a. graph a: increasing ; decreasing ; horizontal-tangent point \n b. graph b: increasing ; decreasing ; horizontal-tangent points and",
+    "prompt_html": "<p>[K/U] For each graph, determine i. the interval(s) on which the function is increasing; ii. the interval(s) on which the function is decreasing; iii. the point(s) at which the tangent to the graph is horizontal.</p>\n<p><img id=\"55753\" src=\"https://inst-fs-iad-prod.inscloudgate.net/files/9bbba44a-7c90-4d9f-b343-3b9e16f9016a/rev_q1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy85YmJiYTQ0YS03YzkwLTRkOWYtYjM0My0zYjllMTZmOTAxNmEvcmV2X3ExLnBuZyIsInRlbmFudF9hdXRoIjp7ImxvY2F0aW9uIjoiYmFuay8yNDI2MDAwMDAwMDAwMDUwNiJ9LCJleHAiOjE3OTQ3OTIyMjIsImlhdCI6MTc5NDc0NTQyMiwiaXNzIjoibmV3LXF1aXp6ZXMiLCJhdWQiOiJodHRwczovL2luc3QtZnMtaWFkLXByb2QuaW5zY2xvdWRnYXRlLm5ldCJ9.zWsZKNeMtFHDrkieTigSMio9ZcGK9zCdxxHM4gNbjAOL1N59pnBYuFeol0LUcVI9VETLi-p79NrTAN2QHbVdlA\" alt=\"rev_q1.png\" data-old-link=\"/courses/905/files/55753/preview\"></p>\n<p>a. graph a: increasing <span id=\"blank_98b2ff4d-a6cc-452b-bb9b-189111e19f59\"></span>; decreasing <span id=\"blank_bfd115d7-559f-42a4-a47e-e6b92c96d357\"></span>; horizontal-tangent point <span id=\"blank_f7afd4ca-2aa2-4a1e-9f2d-704881f18df2\"></span></p>\n<p>b. graph b: increasing <span id=\"blank_d7460b62-14d4-4367-bb4c-e96a02a30a6a\"></span>; decreasing <span id=\"blank_f2b2a2b9-a7db-48e6-86b1-dbba6edd98a5\"></span>; horizontal-tangent points <span id=\"blank_2d47d373-3fc7-4c0e-a50f-cdbcf3aab4c5\"></span> and <span id=\"blank_97a6fa14-2e84-4c4a-9a13-ff8cb36488ea\"></span></p>",
+    "choices": [],
+    "num_blanks": 7,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "98b2ff4d-a6cc-452b-bb9b-189111e19f59"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bfd115d7-559f-42a4-a47e-e6b92c96d357"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f7afd4ca-2aa2-4a1e-9f2d-704881f18df2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d7460b62-14d4-4367-bb4c-e96a02a30a6a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f2b2a2b9-a7db-48e6-86b1-dbba6edd98a5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "2d47d373-3fc7-4c0e-a50f-cdbcf3aab4c5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "97a6fa14-2e84-4c4a-9a13-ff8cb36488ea"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56109",
+    "item_id": "65287",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Let f(x) = 3x^4 + ax^3 + bx^2 + cx + d. a. Determine the values of the constants a, b, c, and d so that f has horizontal tangents at the points (-2, -73) and (0, -9). b. A third point has a horizontal tangent to the graph of f. Calculate the coordinates of this point. c. Classify each of the three points as a local maximum, a local minimum, or neither.\n a. a = ; b = ; c = ; d = \n b. the third point is \n c. ( ), ( ), ( )",
+    "prompt_html": "<p>Let f(x) = 3x^4 + ax^3 + bx^2 + cx + d. a. Determine the values of the constants a, b, c, and d so that f has horizontal tangents at the points (-2, -73) and (0, -9). b. A third point has a horizontal tangent to the graph of f. Calculate the coordinates of this point. c. Classify each of the three points as a local maximum, a local minimum, or neither.</p>\n<p>a. a = <span id=\"blank_b5f7ea8b-fc08-4819-9d41-6fe70131db55\"></span>; b = <span id=\"blank_13aa7da4-1857-4789-8422-1f05d9552f52\"></span>; c = <span id=\"blank_ac8888d6-78fa-42a6-8db7-2549e1688cab\"></span>; d = <span id=\"blank_64fde335-41c7-42f5-9cb5-d29cbb4cd673\"></span></p>\n<p>b. the third point is <span id=\"blank_6bcfb15e-3cf5-464b-8368-de8b51e6ef51\"></span></p>\n<p>c. <span id=\"blank_52e9d07e-cdd1-40a3-bca4-d6f6e4b6153a\"></span> (<span id=\"blank_92b07c62-0776-49c8-be53-a80f653b298e\"></span>), <span id=\"blank_c7b092e1-6be8-469f-9ec4-1e7258949e65\"></span> (<span id=\"blank_4c8d462e-db9b-461d-804e-e546ea297278\"></span>), <span id=\"blank_c7438171-732b-4390-88b6-42aee3945ceb\"></span> (<span id=\"blank_070befc4-923c-45d2-8f2c-5ffa4a6e5d93\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 11,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "b5f7ea8b-fc08-4819-9d41-6fe70131db55"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "13aa7da4-1857-4789-8422-1f05d9552f52"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ac8888d6-78fa-42a6-8db7-2549e1688cab"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "64fde335-41c7-42f5-9cb5-d29cbb4cd673"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6bcfb15e-3cf5-464b-8368-de8b51e6ef51"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "52e9d07e-cdd1-40a3-bca4-d6f6e4b6153a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "92b07c62-0776-49c8-be53-a80f653b298e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c7b092e1-6be8-469f-9ec4-1e7258949e65"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "4c8d462e-db9b-461d-804e-e546ea297278"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c7438171-732b-4390-88b6-42aee3945ceb"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "070befc4-923c-45d2-8f2c-5ffa4a6e5d93"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56109",
+    "item_id": "65286",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the values of a, b, c, and d so that the function g(x) = ax^3 + bx^2 + cx + d has a local maximum at (2, 4) and a local minimum at (0, 0).\n a = ; b = ; c = ; d =",
+    "prompt_html": "<p>Determine the values of a, b, c, and d so that the function g(x) = ax^3 + bx^2 + cx + d has a local maximum at (2, 4) and a local minimum at (0, 0).</p>\n<p>a = <span id=\"blank_3d32812e-1e34-4b9c-a4b3-6169e64f8c44\"></span>; b = <span id=\"blank_cad88b47-ed78-4665-bd58-459e563a9784\"></span>; c = <span id=\"blank_577dbe64-7952-49ba-8736-a00b01450a79\"></span>; d = <span id=\"blank_707f15b8-d07f-436c-bd5b-964aceb6f469\"></span></p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "3d32812e-1e34-4b9c-a4b3-6169e64f8c44"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "cad88b47-ed78-4665-bd58-459e563a9784"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "577dbe64-7952-49ba-8736-a00b01450a79"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "707f15b8-d07f-436c-bd5b-964aceb6f469"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56109",
+    "item_id": "65290",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the critical numbers of each function and use the first derivative test to determine any local maximum or minimum values.\n a. g(x) = 2x^3 - 9x^2 + 12x; critical numbers: x = (local ), x = (local )\n b. g(x) = x^3 - 2x^2 - 4x; critical numbers: x = (local ), x = (local )",
+    "prompt_html": "<p>Determine the critical numbers of each function and use the first derivative test to determine any local maximum or minimum values.</p>\n<p>a. g(x) = 2x^3 - 9x^2 + 12x; critical numbers: x = <span id=\"blank_33fdbe76-d515-4ef2-8243-78b762ce993e\"></span> (local <span id=\"blank_fd1cfa8e-0602-4bd4-b111-3e6b36f93283\"></span>), x = <span id=\"blank_ea4c7274-aeb4-42d9-8f67-096dcea331ae\"></span> (local <span id=\"blank_ec330dbd-e97f-4529-8c7e-7731fb2c5e03\"></span>)</p>\n<p>b. g(x) = x^3 - 2x^2 - 4x; critical numbers: x = <span id=\"blank_53607755-bc89-4387-988d-ee2373d020ce\"></span> (local <span id=\"blank_8a21f9d1-1ad2-4312-874c-4493fd90b5cc\"></span>), x = <span id=\"blank_07f6846f-922a-484d-8840-c0154257b7f6\"></span> (local <span id=\"blank_ef639b11-f9e2-493b-abdd-73218fe9b396\"></span>)</p>",
+    "choices": [],
+    "num_blanks": 8,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "33fdbe76-d515-4ef2-8243-78b762ce993e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fd1cfa8e-0602-4bd4-b111-3e6b36f93283"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ea4c7274-aeb4-42d9-8f67-096dcea331ae"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ec330dbd-e97f-4529-8c7e-7731fb2c5e03"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "53607755-bc89-4387-988d-ee2373d020ce"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "8a21f9d1-1ad2-4312-874c-4493fd90b5cc"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "07f6846f-922a-484d-8840-c0154257b7f6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ef639b11-f9e2-493b-abdd-73218fe9b396"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56109",
+    "item_id": "65280",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] For each function, determine the critical points and whether it is a local maximum point or a local minimum point, or neither. Is the tangent to the graph at each point parallel to the horizontal axis?\n a. h(x) = -6x^3 + 18x^2 + 3; critical points: ( ), tangent ; ( ), tangent \n b. g(t) = t^5 + t^3; critical point: ( ), tangent \n c. y = (x - 5)^(1/3); critical point: ( ), tangent \n d. f(x) = (x^2 - 1)^(1/3); critical points: ( ), tangent ; ( ), tangent ; ( ), tangent",
+    "prompt_html": "<p>[K/U] For each function, determine the critical points and whether it is a local maximum point or a local minimum point, or neither. Is the tangent to the graph at each point parallel to the horizontal axis?</p>\n<p>a. h(x) = -6x^3 + 18x^2 + 3; critical points: <span id=\"blank_cff0541b-bb6f-446d-9f0a-e95a6af54d54\"></span> (<span id=\"blank_1fd12a19-4e06-48c8-a971-f51436a85793\"></span>), tangent <span id=\"blank_89a1c962-e7ad-4216-a869-549a7b7931d3\"></span>; <span id=\"blank_a3851c2e-4261-4162-9bf3-4747ce849f8e\"></span> (<span id=\"blank_d02e6ce9-0d92-4141-8b87-b02d0e8aec33\"></span>), tangent <span id=\"blank_ba245554-b87d-412c-9930-0fb59d011881\"></span></p>\n<p>b. g(t) = t^5 + t^3; critical point: <span id=\"blank_26cc4d99-9592-4f17-914c-350f6fc6a726\"></span> (<span id=\"blank_60dbc14b-38d1-4d18-a0cf-3ede8aea8dee\"></span>), tangent <span id=\"blank_b351a011-4f7f-4f3b-b587-dfedd7ff28b0\"></span></p>\n<p>c. y = (x - 5)^(1/3); critical point: <span id=\"blank_05c1964e-ed4f-4dfa-87ab-d83deabeae0a\"></span> (<span id=\"blank_7c1219fd-cd4d-42d5-8a69-801ed3b5553e\"></span>), tangent <span id=\"blank_a0ef3a5d-6fc9-409f-ad72-36e9a1e6e57c\"></span></p>\n<p>d. f(x) = (x^2 - 1)^(1/3); critical points: <span id=\"blank_3766e4b9-9ffd-4ec6-9835-7e02fdf2a424\"></span> (<span id=\"blank_168d3e68-e2d9-42d4-b4f6-316ade77f1c2\"></span>), tangent <span id=\"blank_625ffed2-349f-40b3-afa3-03115463e793\"></span>; <span id=\"blank_4efe077f-6ef7-4746-891e-3468774bb7f0\"></span> (<span id=\"blank_e3e80ab0-2751-4174-91d8-19f6fc47cfb9\"></span>), tangent <span id=\"blank_56ae5777-f6f5-4958-84de-5762eccb6fcb\"></span>; <span id=\"blank_1bf8b384-786c-44f2-82a8-ffef45e5a575\"></span> (<span id=\"blank_1e339947-3a6f-4941-994c-67e4993ce943\"></span>), tangent <span id=\"blank_1b88b4cf-b317-487a-b223-d6c1f7dc5c5b\"></span></p>",
+    "choices": [],
+    "num_blanks": 21,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "cff0541b-bb6f-446d-9f0a-e95a6af54d54"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1fd12a19-4e06-48c8-a971-f51436a85793"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "89a1c962-e7ad-4216-a869-549a7b7931d3"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a3851c2e-4261-4162-9bf3-4747ce849f8e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d02e6ce9-0d92-4141-8b87-b02d0e8aec33"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ba245554-b87d-412c-9930-0fb59d011881"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "26cc4d99-9592-4f17-914c-350f6fc6a726"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "60dbc14b-38d1-4d18-a0cf-3ede8aea8dee"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b351a011-4f7f-4f3b-b587-dfedd7ff28b0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "05c1964e-ed4f-4dfa-87ab-d83deabeae0a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7c1219fd-cd4d-42d5-8a69-801ed3b5553e"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a0ef3a5d-6fc9-409f-ad72-36e9a1e6e57c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3766e4b9-9ffd-4ec6-9835-7e02fdf2a424"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "168d3e68-e2d9-42d4-b4f6-316ade77f1c2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "625ffed2-349f-40b3-afa3-03115463e793"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "4efe077f-6ef7-4746-891e-3468774bb7f0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e3e80ab0-2751-4174-91d8-19f6fc47cfb9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "56ae5777-f6f5-4958-84de-5762eccb6fcb"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1bf8b384-786c-44f2-82a8-ffef45e5a575"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1e339947-3a6f-4941-994c-67e4993ce943"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1b88b4cf-b317-487a-b223-d6c1f7dc5c5b"
+        }
+      ]
+    }
+  }
+]

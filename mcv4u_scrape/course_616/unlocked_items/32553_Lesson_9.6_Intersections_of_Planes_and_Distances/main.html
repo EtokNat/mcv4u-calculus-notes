@@ -1,0 +1,120 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9201" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 9.6 — Intersections of Planes and Distances</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 9</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 9.6</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Intersections of Planes and Distances</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §§9.3–9.6 — two planes meet in a line; three planes tell richer stories; then the shortest distances.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:0 0 0;">
+<li>Find the <strong>line of intersection of two planes</strong> and classify <strong>three-plane configurations</strong> (point, line, coincident, prism, parallel).</li>
+<li>Compute the <strong>distance from a point to a line</strong> (in R2 and R3) and from a <strong>point to a plane</strong>.</li>
+<li>Compute the <strong>distance between skew lines</strong> by two methods.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Two nonparallel planes in R3 always meet in a <strong>line</strong> — solve their two Cartesian equations together, let one variable be a free parameter t, and read off the line's parametric equations. (Its direction vector is n<sub>1</sub> × n<sub>2</sub>, perpendicular to both normals.) Three planes are richer: they can meet at a <strong>single point</strong>, share a <strong>line</strong>, be <strong>coincident</strong> — or be <strong>inconsistent</strong> with no common point at all (a triangular prism, parallel configurations). The algebra tells you which: after elimination, 0 = nonzero means inconsistent; 0 = 0 means dependent (infinitely many solutions).</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17402" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17402" data-api-returntype="Assignment">▶ Start the Lesson 9.6 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — planes crossing planes</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>The planes x + 2y − z = 1 and 2x − y + z = 3 meet in a line. Their traces at z = 0 are <strong><em>x + 2y = 1</em></strong> and <strong><em>2x − y = 3</em></strong> — graph both and find where the traces cross. That crossing point is one point of the 3D intersection line: which parameter value does it correspond to?</li>
+<li>Graph <strong><em>x + y = 1</em></strong> and <strong><em>2x + 2y = 5</em></strong>. What does the picture say about the corresponding planes in R3?</li>
+<li>For the point-to-line formula in R2: graph <strong><em>3x − 4y + 5 = 0</em></strong> and the point <strong><em>(2, 3)</em></strong>. Compute |3(2) − 4(3) + 5|/5 by hand, then measure the perpendicular distance on the graph. Do they agree?</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">The intersection of two planes</h4>
+<p>Two planes: <strong>parallel distinct</strong> (normals are multiples, constants don't match — no intersection), <strong>coincident</strong> (one equation is a multiple of the other — the whole plane), or <strong>intersecting in a line</strong> (normals not parallel). For the line: set one variable (preferably one with coefficient 1 or −1) equal to a parameter t, solve the 2×2 system for the other two, and write the parametric equations.</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54868/preview?" alt="Two planes intersecting along a line, with direction vector n1 cross n2 marked" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54868" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">The intersection of three planes</h4>
+<p>Solve the 3×3 system by elimination (§9.2). <strong>Consistent:</strong> a unique point (three planes through one point), a line (all three contain one line — elimination leaves two independent equations), or the whole plane (all three coincident — 0 = 0 everywhere). <strong>Inconsistent</strong> (0 = nonzero appears): a <strong>triangular prism</strong> (pairwise intersections are three parallel lines), two parallel planes cut by a third, all three parallel, or two coincident with the third parallel.</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54891/preview?" alt="Three planes meeting at a single common point" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54891" data-api-returntype="File" loading="lazy"></p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54872/preview?" alt="Three planes forming a triangular prism with no common point" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54872" data-api-returntype="File" loading="lazy"></p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54870/preview?" alt="Three planes all containing one common line" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54870" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">Distances: point–line, point–plane, skew lines</h4>
+<ul>
+<li><strong>Point to line in R2:</strong> for P(x<sub>0</sub>, y<sub>0</sub>) and Ax + By + C = 0: d = |Ax<sub>0</sub> + By<sub>0</sub> + C| / √(A² + B²).</li>
+<li><strong>Point to line in R3:</strong> for point Q and the line through P with direction m: d = |m × PQ| / |m| — the area of the parallelogram spanned by m and PQ, divided by its base.</li>
+<li><strong>Point to plane:</strong> for P(x<sub>0</sub>, y<sub>0</sub>, z<sub>0</sub>) and Ax + By + Cz + D = 0: d = |Ax<sub>0</sub> + By<sub>0</sub> + Cz<sub>0</sub> + D| / √(A² + B² + C²).</li>
+<li><strong>Skew lines</strong> — two methods: (1) build parallel planes, one containing each line, and take the distance between the planes; (2) project the connecting vector onto the common perpendicular: d = |(m<sub>1</sub> × m<sub>2</sub>) · P<sub>1</sub>P<sub>2</sub>| / |m<sub>1</sub> × m<sub>2</sub>|.</li>
+</ul>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54858/preview?" alt="Point Q off a line with the perpendicular segment from Q to its foot F on the line" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54858" data-api-returntype="File" loading="lazy"></p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54865/preview?" alt="Point P above a plane with the perpendicular segment from P to the plane along the normal vector n" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54865" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Find the line of intersection of π<sub>1</sub>: x + 2y − z = 1 and π<sub>2</sub>: 2x − y + z = 3.</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(Check normals.)</em> n<sub>1</sub> = (1, 2, −1), n<sub>2</sub> = (2, −1, 1): not scalar multiples → the planes intersect in a line.<br>
+<em>(Set z = t — it has coefficient ±1 in both.)</em> Then x + 2y = 1 + t and 2x − y = 3 − t.<br>
+<em>(Solve.)</em> From the first: x = 1 + t − 2y. Substitute: 2(1 + t − 2y) − y = 3 − t → 2 + 2t − 5y = 3 − t → 5y = −1 + 3t → <strong>y = −1/5 + 3t/5</strong>. Then x = 1 + t − 2(−1/5 + 3t/5) = 1 + t + 2/5 − 6t/5 = <strong>7/5 − t/5</strong>.<br>
+<em>(Check at t = 0.)</em> Point (7/5, −1/5, 0): π<sub>1</sub>: 7/5 − 2/5 = 1 ✓; π<sub>2</sub>: 14/5 + 1/5 = 3 ✓.<br>
+<strong>Answer: x = 7/5 − t/5, y = −1/5 + 3t/5, z = t, t ∈ R.</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Classify the intersection of the three planes π<sub>1</sub>: x + y + z = 1, π<sub>2</sub>: 2x + 2y + 2z = 5, π<sub>3</sub>: x − y + z = 3.</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(Compare π<sub>1</sub> and π<sub>2</sub>.)</em> The normal of π<sub>2</sub>, (2, 2, 2), is 2× the normal of π<sub>1</sub>, (1, 1, 1) — but the constants 5 and 1 are not in ratio 2. So π<sub>1</sub> ∥ π<sub>2</sub>, distinct.<br>
+<em>(Conclusion.)</em> Two of the planes are parallel and distinct, so no point can lie on all three — the system is <strong>inconsistent</strong>: <strong>no common intersection</strong> (two parallel planes cut by a third).<br>
+<strong>Answer: inconsistent — no point lies on all three planes.</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Find the distance from P(1, 2, 3) to the plane 2x − y + 2z = 4, and the coordinates of the closest point on the plane.</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(Formula.)</em> d = |2(1) − (2) + 2(3) − 4| / √(4 + 1 + 4) = |2 − 2 + 6 − 4| / 3 = <strong>2/3</strong>.<br>
+<em>(Closest point: travel along the normal.)</em> The normal is n = (2, −1, 2). The line through P in the normal direction: r = (1, 2, 3) + t(2, −1, 2). Meet it with the plane: 2(1 + 2t) − (2 − t) + 2(3 + 2t) = 4 → 2 + 4t − 2 + t + 6 + 4t = 4 → 6 + 9t = 4 → t = −2/9.<br>
+Point: (1 − 4/9, 2 + 2/9, 3 − 4/9) = <strong>(5/9, 20/9, 23/9)</strong>. (Check: 2(5/9) − 20/9 + 2(23/9) = (10 − 20 + 46)/9 = 36/9 = 4 ✓.)<br>
+<strong>Answer: distance 2/3; closest point (5/9, 20/9, 23/9).</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 4</strong> — Find the distance between the skew lines L<sub>1</sub>: r = (1, 0, 0) + t(1, 1, 0) and L<sub>2</sub>: r = (0, 1, 1) + s(0, 1, 1).</p>
+<p style="margin:0;"><strong>Solution.</strong> <em>(Method 2 — project onto the common perpendicular.)</em> m<sub>1</sub> = (1, 1, 0), m<sub>2</sub> = (0, 1, 1).<br>
+m<sub>1</sub> × m<sub>2</sub> = |i j k; 1 1 0; 0 1 1| = (1·1 − 0·1, −(1·1 − 0·0), 1·1 − 1·0) = <strong>(1, −1, 1)</strong>; |m<sub>1</sub> × m<sub>2</sub>| = √3.<br>
+<em>(Connecting vector.)</em> Take P<sub>1</sub> = (1, 0, 0) on L<sub>1</sub> and P<sub>2</sub> = (0, 1, 1) on L<sub>2</sub>: P<sub>1</sub>P<sub>2</sub> = (−1, 1, 1).<br>
+<em>(Project.)</em> d = |(1, −1, 1) · (−1, 1, 1)| / √3 = |−1 − 1 + 1| / √3 = <strong>1/√3 = √3/3 ≈ 0.577</strong>.<br>
+<em>(Method 1 — parallel planes, check.)</em> A plane containing L<sub>1</sub> with normal (1, −1, 1): x − y + z = 1 (through (1,0,0)). A parallel plane containing L<sub>2</sub>: x − y + z = 0 − 1 + 1 = 0 (through (0,1,1)). Distance between x − y + z = 1 and x − y + z = 0: |1 − 0|/√3 = 1/√3 ✓.<br>
+<strong>Answer: √3/3 ≈ 0.577.</strong></p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54890/preview?" alt="Two skew lines each lying in its own plane, the two planes parallel, with the perpendicular distance segment between them" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54890" data-api-returntype="File" loading="lazy"></p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercises 9.3–9.6.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Find the line of intersection of π<sub>1</sub>: 2x − y + 3z = 5 and π<sub>2</sub>: x + 4y − z = 2.</summary>
+<p>Normals (2, −1, 3) and (1, 4, −1): not multiples → a line. Set z = t: 2x − y = 5 − 3t, x + 4y = 2 + t. From the second: x = 2 + t − 4y. Substitute: 2(2 + t − 4y) − y = 5 − 3t → 4 + 2t − 9y = 5 − 3t → 9y = −1 + 5t → <strong>y = −1/9 + 5t/9</strong>; then x = 2 + t − 4(−1/9 + 5t/9) = 2 + t + 4/9 − 20t/9 = <strong>22/9 − 11t/9</strong>. <strong>Answer: x = 22/9 − 11t/9, y = −1/9 + 5t/9, z = t.</strong></p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — The planes x + y + z = 1, 2x + 2y + 2z = 2, 3x + 3y + 3z = 3: what is their intersection?</summary>
+<p>Each equation is a nonzero multiple of x + y + z = 1 (×2, ×3). All three describe the <strong>same (coincident) plane</strong> — infinitely many common points: the whole plane.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Find the distance from Q(1, 2, 3) to the line r = (1, 0, −1) + t(2, 1, 2).</summary>
+<p>m = (2, 1, 2), |m| = 3. Take P = (1, 0, −1) on the line: PQ = (0, 2, 4). m × PQ = |i j k; 2 1 2; 0 2 4| = (1·4 − 2·2, −(2·4 − 2·0), 2·2 − 1·0) = (0, −8, 4). |m × PQ| = √(0 + 64 + 16) = √80 = 4√5. d = 4√5/3 ≈ <strong>2.98</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Find the distance between the parallel planes 2x − 3y + 6z = 1 and 2x − 3y + 6z = 8.</summary>
+<p>Same normal (2, −3, 6), |n| = √(4 + 9 + 36) = 7. Pick a point on the first plane, e.g. (1/2, 0, 0): d = |2(1/2) − 0 + 0 − 8|/7 = |1 − 8|/7 = <strong>1</strong>.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>Two planes:</strong> parallel distinct / coincident / intersecting in a line (free parameter + 2×2 solve).</li>
+<li><strong>Three planes:</strong> consistent (point, line, coincident) or inconsistent (prism, parallel cases) — elimination's 0 = nonzero vs 0 = 0 tells you.</li>
+<li><strong>Distances:</strong> point–line R2: |Ax<sub>0</sub>+By<sub>0</sub>+C|/√(A²+B²); point–line R3: |m × PQ|/|m|; point–plane: |Ax<sub>0</sub>+By<sub>0</sub>+Cz<sub>0</sub>+D|/√(A²+B²+C²).</li>
+<li><strong>Skew lines:</strong> parallel containing planes, or project onto m<sub>1</sub> × m<sub>2</sub>.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>Always verify an intersection line by plugging a point back into both plane equations.</li>
+<li>Next: Formative Check C, then the Unit 9 summatives — lines and planes complete!</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Lines and Planes</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

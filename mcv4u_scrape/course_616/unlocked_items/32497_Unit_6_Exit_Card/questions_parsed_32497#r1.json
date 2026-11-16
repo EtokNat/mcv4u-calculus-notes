@@ -1,0 +1,224 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "33781",
+    "item_id": "44902",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "I can explain the difference between a scalar and a vector, and identify equal and opposite vectors.",
+    "prompt_html": "<p>I can explain the difference between a scalar and a vector, and identify equal and opposite vectors.</p>",
+    "choices": [
+      {
+        "id": "2634aaff-9a99-47b5-a2de-7e7084c0a604",
+        "position": 1,
+        "text": "Strongly agree",
+        "html": "<p>Strongly agree</p>"
+      },
+      {
+        "id": "caa8d482-1d56-495c-980c-ca42c1f4ec3c",
+        "position": 2,
+        "text": "Agree",
+        "html": "<p>Agree</p>"
+      },
+      {
+        "id": "0327800f-90dc-4ca6-8ceb-41426a89f36e",
+        "position": 3,
+        "text": "Disagree",
+        "html": "<p>Disagree</p>"
+      },
+      {
+        "id": "46851de7-ca13-4a88-b07a-12e160da4935",
+        "position": 4,
+        "text": "Strongly disagree",
+        "html": "<p>Strongly disagree</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "2634aaff-9a99-47b5-a2de-7e7084c0a604",
+          "item_body": "<p>Strongly agree</p>",
+          "position": 1
+        },
+        {
+          "id": "caa8d482-1d56-495c-980c-ca42c1f4ec3c",
+          "item_body": "<p>Agree</p>",
+          "position": 2
+        },
+        {
+          "id": "0327800f-90dc-4ca6-8ceb-41426a89f36e",
+          "item_body": "<p>Disagree</p>",
+          "position": 3
+        },
+        {
+          "id": "46851de7-ca13-4a88-b07a-12e160da4935",
+          "item_body": "<p>Strongly disagree</p>",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "33785",
+    "item_id": "44913",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "I can add and subtract vectors both geometrically (triangle/parallelogram laws) and algebraically (component form in R² and R³).",
+    "prompt_html": "<p>I can add and subtract vectors both geometrically (triangle/parallelogram laws) and algebraically (component form in R² and R³).</p>",
+    "choices": [
+      {
+        "id": "b0f17e60-cc86-403e-856e-c64d0fa69b9a",
+        "position": 1,
+        "text": "Strongly agree",
+        "html": "<p>Strongly agree</p>"
+      },
+      {
+        "id": "d1115b38-d069-406a-b80e-fc4f568dec57",
+        "position": 2,
+        "text": "Agree",
+        "html": "<p>Agree</p>"
+      },
+      {
+        "id": "575db437-fd4b-4108-87bd-b71f0ee8481e",
+        "position": 3,
+        "text": "Disagree",
+        "html": "<p>Disagree</p>"
+      },
+      {
+        "id": "57d8e58d-d60d-4bea-8f3b-e47389c439e3",
+        "position": 4,
+        "text": "Strongly disagree",
+        "html": "<p>Strongly disagree</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "b0f17e60-cc86-403e-856e-c64d0fa69b9a",
+          "item_body": "<p>Strongly agree</p>",
+          "position": 1
+        },
+        {
+          "id": "d1115b38-d069-406a-b80e-fc4f568dec57",
+          "item_body": "<p>Agree</p>",
+          "position": 2
+        },
+        {
+          "id": "575db437-fd4b-4108-87bd-b71f0ee8481e",
+          "item_body": "<p>Disagree</p>",
+          "position": 3
+        },
+        {
+          "id": "57d8e58d-d60d-4bea-8f3b-e47389c439e3",
+          "item_body": "<p>Strongly disagree</p>",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "33790",
+    "item_id": "44917",
+    "points": 1.0,
+    "slug": "choice",
+    "prompt_text": "I can write a vector as a linear combination of other vectors and decide whether a set of vectors spans R², R³, or a plane.",
+    "prompt_html": "<p>I can write a vector as a linear combination of other vectors and decide whether a set of vectors spans R², R³, or a plane.</p>",
+    "choices": [
+      {
+        "id": "458c12d9-2215-4846-8698-569a7fd423c2",
+        "position": 1,
+        "text": "Strongly agree",
+        "html": "<p>Strongly agree</p>"
+      },
+      {
+        "id": "b50d9b39-38d2-462c-8102-b938f0ecbff8",
+        "position": 2,
+        "text": "Agree",
+        "html": "<p>Agree</p>"
+      },
+      {
+        "id": "45a015ff-2fff-4f2e-862c-8c31adb104c7",
+        "position": 3,
+        "text": "Disagree",
+        "html": "<p>Disagree</p>"
+      },
+      {
+        "id": "67947e35-ed7d-4c45-8291-bb9b73635458",
+        "position": 4,
+        "text": "Strongly disagree",
+        "html": "<p>Strongly disagree</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "id": "458c12d9-2215-4846-8698-569a7fd423c2",
+          "item_body": "<p>Strongly agree</p>",
+          "position": 1
+        },
+        {
+          "id": "b50d9b39-38d2-462c-8102-b938f0ecbff8",
+          "item_body": "<p>Agree</p>",
+          "position": 2
+        },
+        {
+          "id": "45a015ff-2fff-4f2e-862c-8c31adb104c7",
+          "item_body": "<p>Disagree</p>",
+          "position": 3
+        },
+        {
+          "id": "67947e35-ed7d-4c45-8291-bb9b73635458",
+          "item_body": "<p>Strongly disagree</p>",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "33795",
+    "item_id": "44922",
+    "points": 1.0,
+    "slug": "essay",
+    "prompt_text": "What is one idea from this unit that finally 'clicked' for you — and what helped it click (a diagram, a worked example, the Desmos exploration, the video)?",
+    "prompt_html": "<p>What is one idea from this unit that finally 'clicked' for you — and what helped it click (a diagram, a worked example, the Desmos exploration, the video)?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "essay": null,
+      "file_upload": false,
+      "rce": true,
+      "spell_check": false,
+      "word_count": false,
+      "word_limit_enabled": false,
+      "word_limit_max": null,
+      "word_limit_min": null
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "33797",
+    "item_id": "44925",
+    "points": 1.0,
+    "slug": "essay",
+    "prompt_text": "What is one topic from this unit you still want to review before the test — and what specifically about it feels shaky?",
+    "prompt_html": "<p>What is one topic from this unit you still want to review before the test — and what specifically about it feels shaky?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "essay": null,
+      "file_upload": false,
+      "rce": true,
+      "spell_check": false,
+      "word_count": false,
+      "word_limit_enabled": false,
+      "word_limit_max": null,
+      "word_limit_min": null
+    }
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56089",
+    "item_id": "65198",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "The landlord of a 50-unit apartment building is planning to increase the rent. Currently, residents pay $850 per month, and all the units are occupied. A real estate agency advises that every $100 increase in rent will result in 10 vacant units. What rent should the landlord charge to maximize revenue? Enter the rent in dollars per month.",
+    "prompt_html": "<p>The landlord of a 50-unit apartment building is planning to increase the rent. Currently, residents pay $850 per month, and all the units are occupied. A real estate agency advises that every $100 increase in rent will result in 10 vacant units. What rent should the landlord charge to maximize revenue? Enter the rent in dollars per month.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56089",
+    "item_id": "65194",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "A professional basketball team plays in an arena that holds 20 000 spectators. Average attendance at each game has been 14 000. The average ticket price is $75. Market research shows that for each $5 reduction in the ticket price, attendance increases by 800. Find the price that will maximize revenue. Enter the price in dollars.",
+    "prompt_html": "<p>A professional basketball team plays in an arena that holds 20 000 spectators. Average attendance at each game has been 14 000. The average ticket price is $75. Market research shows that for each $5 reduction in the ticket price, attendance increases by 800. Find the price that will maximize revenue. Enter the price in dollars.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56089",
+    "item_id": "65193",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "An electronics store is selling personal CD players. The regular price for each CD player is $90. During a typical two weeks, the store sells 50 units. Past sales indicate that for every $1 decrease in price, the store sells five more units during two weeks. Calculate the price that will maximize revenue. Let x be the number of $1 decreases in price. The value of x that maximizes revenue is , and the revenue-maximizing price is dollars.",
+    "prompt_html": "<p>An electronics store is selling personal CD players. The regular price for each CD player is $90. During a typical two weeks, the store sells 50 units. Past sales indicate that for every $1 decrease in price, the store sells five more units during two weeks. Calculate the price that will maximize revenue. Let x be the number of $1 decreases in price. The value of x that maximizes revenue is <span id=\"blank_d0c4b9a8-c151-4b84-820f-04573e8ae832\"></span>, and the revenue-maximizing price is <span id=\"blank_890a3c96-9732-41ba-803f-14ccbf9253ff\"></span> dollars.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "d0c4b9a8-c151-4b84-820f-04573e8ae832"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "890a3c96-9732-41ba-803f-14ccbf9253ff"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56089",
+    "item_id": "65197",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "Find the production level that minimizes the average cost per unit for the cost function C(x) = 0.004x^2 + 40x + 16 000. Show that it is a minimum by using a graphing calculator to sketch the graph of the average cost function. Enter the production level.",
+    "prompt_html": "<p>Find the production level that minimizes the average cost per unit for the cost function C(x) = 0.004x^2 + 40x + 16 000. Show that it is a minimum by using a graphing calculator to sketch the graph of the average cost function. Enter the production level.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56090",
+    "item_id": "65191",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2. The minimal distance is .",
+    "prompt_html": "<p>Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2. The minimal distance is <span id=\"blank_be168eca-a3b0-469c-a576-81efad6c2bee\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "be168eca-a3b0-469c-a576-81efad6c2bee"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56090",
+    "item_id": "65190",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "a. Determine the area of the largest rectangle that can be inscribed in a right triangle if the legs of the triangle are 5 cm and 12 cm and the sides of the rectangle are along the legs of the triangle. The largest area is cm^2. b. Repeat part a. for a right triangle that has sides 8 cm and 15 cm. The largest area is cm^2. c. Hypothesize a conclusion for any right triangle.",
+    "prompt_html": "<p>a. Determine the area of the largest rectangle that can be inscribed in a right triangle if the legs of the triangle are 5 cm and 12 cm and the sides of the rectangle are along the legs of the triangle. The largest area is <span id=\"blank_b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c\"></span> cm^2. b. Repeat part a. for a right triangle that has sides 8 cm and 15 cm. The largest area is <span id=\"blank_c796450d-dc2b-4584-94c5-0144e2253342\"></span> cm^2. c. Hypothesize a conclusion for any right triangle.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c796450d-dc2b-4584-94c5-0144e2253342"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56091",
+    "item_id": "65091",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = , a(2) = ; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = .",
+    "prompt_html": "<p>An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = <span id=\"blank_753d402c-4f24-4194-bb5f-bf368309e939\"></span>, a(2) = <span id=\"blank_405906fc-880a-4005-8de3-948208483ca6\"></span>; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = <span id=\"blank_f80fc07c-75a2-429c-af7d-d4b56163d7ca\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "753d402c-4f24-4194-bb5f-bf368309e939"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "405906fc-880a-4005-8de3-948208483ca6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f80fc07c-75a2-429c-af7d-d4b56163d7ca"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56091",
+    "item_id": "65131",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the absolute extreme values of each function on the given interval, using the algorithm for maximum and minimum values: a. f(x) = x^3 + 3x^2 + 1, -2 <= x <= 2: maximum at x = , minimum at x = ; b. f(x) = (x + 2)^2, -3 <= x <= 3: maximum at x = , minimum at x = ; c. f(x) = 1/x - 1/x^3, x in [1, 5]: maximum at x = , minimum at x = .",
+    "prompt_html": "<p>Determine the absolute extreme values of each function on the given interval, using the algorithm for maximum and minimum values: a. f(x) = x^3 + 3x^2 + 1, -2 &lt;= x &lt;= 2: maximum <span id=\"blank_7a7afe36-f3fd-4610-9ba6-c4d69fd89630\"></span> at x = <span id=\"blank_bf28477c-b12e-4511-82af-0d4a6e55229b\"></span>, minimum <span id=\"blank_c6767cfa-273d-4199-86be-31461a9c6c44\"></span> at x = <span id=\"blank_b436a643-4d0d-4b9a-ad75-849eb0a69d73\"></span>; b. f(x) = (x + 2)^2, -3 &lt;= x &lt;= 3: maximum <span id=\"blank_d41a2283-9311-488d-8175-7e722328c366\"></span> at x = <span id=\"blank_9629088a-64e0-4ba4-8ea8-ecbb9123c797\"></span>, minimum <span id=\"blank_b0748bb8-4115-4136-b892-d7e3b37177bc\"></span> at x = <span id=\"blank_b86ec000-7ba4-4a03-a4a6-1adce4e87eb2\"></span>; c. f(x) = 1/x - 1/x^3, x in [1, 5]: maximum <span id=\"blank_96a9fb7f-c397-4050-b569-1d83a510a404\"></span> at x = <span id=\"blank_ecc0719d-047a-4e6b-bd2d-1c0505285f43\"></span>, minimum <span id=\"blank_81b244cd-6a3d-42eb-887e-aa77bbefe43d\"></span> at x = <span id=\"blank_a5e242ad-7e0a-46cb-9bff-71e49c40efa4\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 12,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "7a7afe36-f3fd-4610-9ba6-c4d69fd89630"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bf28477c-b12e-4511-82af-0d4a6e55229b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c6767cfa-273d-4199-86be-31461a9c6c44"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b436a643-4d0d-4b9a-ad75-849eb0a69d73"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d41a2283-9311-488d-8175-7e722328c366"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9629088a-64e0-4ba4-8ea8-ecbb9123c797"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b0748bb8-4115-4136-b892-d7e3b37177bc"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b86ec000-7ba4-4a03-a4a6-1adce4e87eb2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "96a9fb7f-c397-4050-b569-1d83a510a404"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ecc0719d-047a-4e6b-bd2d-1c0505285f43"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "81b244cd-6a3d-42eb-887e-aa77bbefe43d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a5e242ad-7e0a-46cb-9bff-71e49c40efa4"
+        }
+      ]
+    }
+  }
+]

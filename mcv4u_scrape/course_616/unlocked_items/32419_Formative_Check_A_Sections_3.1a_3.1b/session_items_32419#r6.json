@@ -1,0 +1,595 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "7a7afe36-f3fd-4610-9ba6-c4d69fd89630"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "bf28477c-b12e-4511-82af-0d4a6e55229b"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c6767cfa-273d-4199-86be-31461a9c6c44"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b436a643-4d0d-4b9a-ad75-849eb0a69d73"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "d41a2283-9311-488d-8175-7e722328c366"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9629088a-64e0-4ba4-8ea8-ecbb9123c797"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b0748bb8-4115-4136-b892-d7e3b37177bc"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b86ec000-7ba4-4a03-a4a6-1adce4e87eb2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "96a9fb7f-c397-4050-b569-1d83a510a404"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ecc0719d-047a-4e6b-bd2d-1c0505285f43"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "81b244cd-6a3d-42eb-887e-aa77bbefe43d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a5e242ad-7e0a-46cb-9bff-71e49c40efa4"
+          }
+        ]
+      },
+      "item_body": "<p>Determine the absolute extreme values of each function on the given interval, using the algorithm for maximum and minimum values: a. f(x) = x^3 + 3x^2 + 1, -2 &lt;= x &lt;= 2: maximum <span id=\"blank_7a7afe36-f3fd-4610-9ba6-c4d69fd89630\"></span> at x = <span id=\"blank_bf28477c-b12e-4511-82af-0d4a6e55229b\"></span>, minimum <span id=\"blank_c6767cfa-273d-4199-86be-31461a9c6c44\"></span> at x = <span id=\"blank_b436a643-4d0d-4b9a-ad75-849eb0a69d73\"></span>; b. f(x) = (x + 2)^2, -3 &lt;= x &lt;= 3: maximum <span id=\"blank_d41a2283-9311-488d-8175-7e722328c366\"></span> at x = <span id=\"blank_9629088a-64e0-4ba4-8ea8-ecbb9123c797\"></span>, minimum <span id=\"blank_b0748bb8-4115-4136-b892-d7e3b37177bc\"></span> at x = <span id=\"blank_b86ec000-7ba4-4a03-a4a6-1adce4e87eb2\"></span>; c. f(x) = 1/x - 1/x^3, x in [1, 5]: maximum <span id=\"blank_96a9fb7f-c397-4050-b569-1d83a510a404\"></span> at x = <span id=\"blank_ecc0719d-047a-4e6b-bd2d-1c0505285f43\"></span>, minimum <span id=\"blank_81b244cd-6a3d-42eb-887e-aa77bbefe43d\"></span> at x = <span id=\"blank_a5e242ad-7e0a-46cb-9bff-71e49c40efa4\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65131",
+      "label": null,
+      "title": "Q5 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "11": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56081",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "316c0753-f3e0-4148-8d3c-79b3abc85696"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c053d239-9618-4ac0-981b-c0cbac605c8f"
+          }
+        ]
+      },
+      "item_body": "<p>Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = <span id=\"blank_316c0753-f3e0-4148-8d3c-79b3abc85696\"></span>; b. When is its velocity zero? t = <span id=\"blank_c053d239-9618-4ac0-981b-c0cbac605c8f\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65075",
+      "label": null,
+      "title": "Q7 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56081",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "753d402c-4f24-4194-bb5f-bf368309e939"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "405906fc-880a-4005-8de3-948208483ca6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f80fc07c-75a2-429c-af7d-d4b56163d7ca"
+          }
+        ]
+      },
+      "item_body": "<p>An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = <span id=\"blank_753d402c-4f24-4194-bb5f-bf368309e939\"></span>, a(2) = <span id=\"blank_405906fc-880a-4005-8de3-948208483ca6\"></span>; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = <span id=\"blank_f80fc07c-75a2-429c-af7d-d4b56163d7ca\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65091",
+      "label": null,
+      "title": "Q4 [T]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56081",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "3c1dca8c-d452-4925-ad88-bb20c3c95d82"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "62ec3ddc-ac2e-4d59-bfec-7a43d60f7eda"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6ef35a53-0050-4692-91ef-ca1e025ff035"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b5f42375-da18-4371-8daa-9b63b2c92111"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f5465e54-30d0-49a9-b0f4-064993f08e3a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "eb6c36f3-9850-43bd-b5c3-e1c02c90013e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0d004e78-543e-4ef9-86c9-3df864c1cd28"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "963a3f36-3a66-4af8-92db-29c99cc6c59c"
+          }
+        ]
+      },
+      "item_body": "<p>Calculate the total surface area and volume for cubes with the following side lengths: a. 3 cm - surface area <span id=\"blank_3c1dca8c-d452-4925-ad88-bb20c3c95d82\"></span> cm^2, volume <span id=\"blank_62ec3ddc-ac2e-4d59-bfec-7a43d60f7eda\"></span> cm^3; b. sqrt(5) cm - surface area <span id=\"blank_6ef35a53-0050-4692-91ef-ca1e025ff035\"></span> cm^2, volume <span id=\"blank_b5f42375-da18-4371-8daa-9b63b2c92111\"></span> cm^3; c. 2sqrt(3) cm - surface area <span id=\"blank_f5465e54-30d0-49a9-b0f4-064993f08e3a\"></span> cm^2, volume <span id=\"blank_eb6c36f3-9850-43bd-b5c3-e1c02c90013e\"></span> cm^3; d. 2k cm - surface area <span id=\"blank_0d004e78-543e-4ef9-86c9-3df864c1cd28\"></span> cm^2, volume <span id=\"blank_963a3f36-3a66-4af8-92db-29c99cc6c59c\"></span> cm^3.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65057",
+      "label": null,
+      "title": "Q6 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56082",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "9318a355-5a3e-4f07-8d6a-eca1d0dca54f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "26efa450-78fd-450c-9c5b-7f6d2fedf9ec"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "48ab834a-8c65-49b4-ad25-70fc7f97acd7"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "78afec1d-1a5a-4202-96a8-2f2e6189a0bf"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "616c813d-bb64-42db-8d7a-4de19381b64d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "914593be-7713-47a4-8ea9-39cb4c83df7f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7b4e7988-3c8c-4d44-98d3-01674781fa4a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3dc59b8b-5689-48e0-a0bb-ac3548af5edf"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "4173890e-33dd-4f86-b051-4b53a89af3ed"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a899eb39-8643-4733-9912-bb08e3914fa0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "295628fc-07b8-42ec-b00d-a06f7b171f62"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6c829b56-0a05-436d-8cbd-f29ade9f1b2e"
+          }
+        ]
+      },
+      "item_body": "<p>Use graphing technology to graph each function and determine its maximum and/or minimum values. a. f(x) = x^2 - 5: maximum (none), minimum <span id=\"blank_9318a355-5a3e-4f07-8d6a-eca1d0dca54f\"></span> at x = <span id=\"blank_26efa450-78fd-450c-9c5b-7f6d2fedf9ec\"></span>; b. f(x) = -x^2 - 10x: maximum <span id=\"blank_48ab834a-8c65-49b4-ad25-70fc7f97acd7\"></span> at x = <span id=\"blank_78afec1d-1a5a-4202-96a8-2f2e6189a0bf\"></span>, minimum (none); c. f(x) = 3x^2 - 30x + 82: maximum (none), minimum <span id=\"blank_616c813d-bb64-42db-8d7a-4de19381b64d\"></span> at x = <span id=\"blank_914593be-7713-47a4-8ea9-39cb4c83df7f\"></span>; d. f(x) = |x| - 1: maximum (none), minimum <span id=\"blank_7b4e7988-3c8c-4d44-98d3-01674781fa4a\"></span> at x = <span id=\"blank_3dc59b8b-5689-48e0-a0bb-ac3548af5edf\"></span>; e. f(x) = 3 sin x + 2: maximum <span id=\"blank_4173890e-33dd-4f86-b051-4b53a89af3ed\"></span>, minimum <span id=\"blank_a899eb39-8643-4733-9912-bb08e3914fa0\"></span>; f. f(x) = -2 cos 2x - 5: maximum <span id=\"blank_295628fc-07b8-42ec-b00d-a06f7b171f62\"></span>, minimum <span id=\"blank_6c829b56-0a05-436d-8cbd-f29ade9f1b2e\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65060",
+      "label": null,
+      "title": "Q9 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "11": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              },
+              "6": {
+                "children": null
+              },
+              "7": {
+                "children": null
+              },
+              "8": {
+                "children": null
+              },
+              "9": {
+                "children": null
+              },
+              "10": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56082",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "74f1e2fb-88cd-49a3-9b2e-ab44e18a262a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9caa4eb3-0f69-4881-b9d4-7f334cb50ea8"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8bd11726-24c2-4d90-a971-83327187dec1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6a0780e6-9dd9-4c56-b792-0f385099a4f2"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "89200f65-fde7-4968-ad8d-c1284a0614f1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "22a4c83d-567c-4366-88bf-bed1d43e236d"
+          }
+        ]
+      },
+      "item_body": "<p>Express each set of numbers using interval notation. a. {x in R | x &gt; 3} - <span id=\"blank_74f1e2fb-88cd-49a3-9b2e-ab44e18a262a\"></span>; b. {x in R | x &lt;= -2} - <span id=\"blank_9caa4eb3-0f69-4881-b9d4-7f334cb50ea8\"></span>; c. {x in R | x &lt; 0} - <span id=\"blank_8bd11726-24c2-4d90-a971-83327187dec1\"></span>; d. {x in R | x &gt;= -5} - <span id=\"blank_6a0780e6-9dd9-4c56-b792-0f385099a4f2\"></span>; e. {x in R | -2 &lt; x &lt;= 8} - <span id=\"blank_89200f65-fde7-4968-ad8d-c1284a0614f1\"></span>; f. {x in R | -4 &lt; x &lt; 4} - <span id=\"blank_22a4c83d-567c-4366-88bf-bed1d43e236d\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65059",
+      "label": null,
+      "title": "Q7 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56082",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>A swimming pool is treated periodically to control the growth of bacteria. Suppose that t days after a treatment, the number of bacteria per cubic centimetre is N(t) = 30t^2 - 240t + 500. Determine the lowest number of bacteria during the first week after the treatment.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65148",
+      "label": null,
+      "title": "Q6 [A]",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56083",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "321d4daa-b970-4844-aacc-62b935b84a81"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "c6e9e24b-ceda-4ccb-8a20-61430b31fd64"
+          }
+        ]
+      },
+      "item_body": "<p>A net enclosure for practising golf shots is open at one end, as shown. Find the dimensions that will minimize the amount of netting needed and give a volume of 144 m^3. (Netting is required only on the sides, the top, and the far end.) The square end has side <span id=\"blank_321d4daa-b970-4844-aacc-62b935b84a81\"></span> m, and the length is <span id=\"blank_c6e9e24b-ceda-4ccb-8a20-61430b31fd64\"></span> m.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65168",
+      "label": null,
+      "title": "Q8 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56084",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

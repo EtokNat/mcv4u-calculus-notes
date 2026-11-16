@@ -1,0 +1,244 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56203",
+    "item_id": "69484",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] The number of bacteria in a culture, N, at time t is given by N(t) = 2000[30 + te^(-t/20)]. a. When is the rate of change of the number of bacteria equal to zero? t = b. If the bacterial culture is placed in a colony of mice, the number of mice that become infected, M, is related to the number of bacteria present by the equation M(t) = (N + 1000)^(1/3). After 10 days, how many mice are infected per day?",
+    "prompt_html": "<p>[A] The number of bacteria in a culture, N, at time t is given by N(t) = 2000[30 + te^(-t/20)]. a. When is the rate of change of the number of bacteria equal to zero? t = <span id=\"blank_3bac7b84-771b-4f1d-9a6d-3c068168e055\"></span> b. If the bacterial culture is placed in a colony of mice, the number of mice that become infected, M, is related to the number of bacteria present by the equation M(t) = (N + 1000)^(1/3). After 10 days, how many mice are infected per day? <span id=\"blank_9995f078-6a08-4cf3-9687-341a43e92d58\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "3bac7b84-771b-4f1d-9a6d-3c068168e055"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9995f078-6a08-4cf3-9687-341a43e92d58"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56204",
+    "item_id": "69488",
+    "points": 4.0,
+    "slug": "numeric",
+    "prompt_text": "[K/U] Suppose that the monthly revenue in thousands of dollars, for the sale of x hundred units of an electronic item is given by the function R(x) = 40x^2 e^(-0.4x) + 30, where the maximum capacity of the plant is 800 units. Determine the number of units to produce in order to maximize revenue.",
+    "prompt_html": "<p>[K/U] Suppose that the monthly revenue in thousands of dollars, for the sale of x hundred units of an electronic item is given by the function R(x) = 40x^2 e^(-0.4x) + 30, where the maximum capacity of the plant is 800 units. Determine the number of units to produce in order to maximize revenue.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56205",
+    "item_id": "69491",
+    "points": 4.0,
+    "slug": "numeric",
+    "prompt_text": "[A] An object moves along a line so that, at time t, its position is s = sin t/(3 + cos 2t), where s is the displacement in metres. Calculate the object's velocity at t = pi/4. Express your answer to four decimal places.",
+    "prompt_html": "<p>[A] An object moves along a line so that, at time t, its position is s = sin t/(3 + cos 2t), where s is the displacement in metres. Calculate the object's velocity at t = pi/4. Express your answer to four decimal places.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56206",
+    "item_id": "69494",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine all the values of x, 0 <= x <= 2pi, for which the slope of the tangent to f(x) = sin x tan x is zero. x = , ,",
+    "prompt_html": "<p>[K/U] Determine all the values of x, 0 &lt;= x &lt;= 2pi, for which the slope of the tangent to f(x) = sin x tan x is zero. x = <span id=\"blank_2af1ee0d-9333-46e5-a4e9-1798727423df\"></span>, <span id=\"blank_5636f859-10a3-4d4c-b23a-815aba989f9a\"></span>, <span id=\"blank_fd822b14-876e-45bb-8106-720946606497\"></span></p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "2af1ee0d-9333-46e5-a4e9-1798727423df"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5636f859-10a3-4d4c-b23a-815aba989f9a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fd822b14-876e-45bb-8106-720946606497"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56207",
+    "item_id": "63402",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Determine the derivative of each function.\n a. y = 5e^(-3x)\n b. y = 7e^(x/7)\n c. y = x^3 e^(-2x)\n d. y = (x - 1)^2 e^x\n e. y = (x - e^(-x))^2\n f. y = (e^x - e^(-x))/(e^x + e^(-x))",
+    "prompt_html": "<p>[K/U]</p><p>Determine the derivative of each function.</p><p>a. y = 5e^(-3x)</p><p>b. y = 7e^(x/7)</p><p>c. y = x^3 e^(-2x)</p><p>d. y = (x - 1)^2 e^x</p><p>e. y = (x - e^(-x))^2</p><p>f. y = (e^x - e^(-x))/(e^x + e^(-x))</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56207",
+    "item_id": "63374",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[T]\n For what values of m does the function y = Ae^(mt) satisfy the following equation? d^2y/dx^2 + dy/dx - 6y = 0",
+    "prompt_html": "<p>[T]</p><p>For what values of m does the function y = Ae^(mt) satisfy the following equation? d^2y/dx^2 + dy/dx - 6y = 0</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56207",
+    "item_id": "63407",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n The number of rabbits in a forest at time t, in months, is R(t) = 500[10 + e^(-t/10)].\n a. What is the initial number of rabbits in the forest?\n b. Determine the rate of change of the number of rabbits at time t.\n c. How fast is the number of rabbits changing after one year?\n d. Determine the largest number of rabbits in the forest during the first three years.\n e. Use graphing technology to graph R versus t. Give physical reasons why the population of rabbits might behave this way.",
+    "prompt_html": "<p>[A]</p><p>The number of rabbits in a forest at time t, in months, is R(t) = 500[10 + e^(-t/10)].</p><p>a. What is the initial number of rabbits in the forest?</p><p>b. Determine the rate of change of the number of rabbits at time t.</p><p>c. How fast is the number of rabbits changing after one year?</p><p>d. Determine the largest number of rabbits in the forest during the first three years.</p><p>e. Use graphing technology to graph R versus t. Give physical reasons why the population of rabbits might behave this way.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56208",
+    "item_id": "63406",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Determine the derivative of each function.\n a. y = 8^(2x + 5)\n b. y = 3.2(10)^(0.2x)\n c. f(x) = x^2 2^x\n d. H(x) = 300(5)^(3x - 1)\n e. q(x) = 1.9^x + x^1.9\n f. f(x) = (x - 2)^2 x 4^x",
+    "prompt_html": "<p>[K/U]</p><p>Determine the derivative of each function.</p><p>a. y = 8^(2x + 5)</p><p>b. y = 3.2(10)^(0.2x)</p><p>c. f(x) = x^2 2^x</p><p>d. H(x) = 300(5)^(3x - 1)</p><p>e. q(x) = 1.9^x + x^1.9</p><p>f. f(x) = (x - 2)^2 x 4^x</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 9,
+    "quiz_entry_id": "56208",
+    "item_id": "63414",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Find the equation of the tangent to the curve y = 5^(-x^2) at the point on the curve where x = 1. Graph the curve and the tangent at this point.",
+    "prompt_html": "<p>[K/U]</p><p>Find the equation of the tangent to the curve y = 5^(-x^2) at the point on the curve where x = 1. Graph the curve and the tangent at this point.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 10,
+    "quiz_entry_id": "56209",
+    "item_id": "63394",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n Lorianne is studying for two different exams. Because of the nature of the courses, the measure of study effectiveness on a scale from 0 to 10 for the first course is E_1 = 0.6(9 + te^(-t/20)), while the measure for the second course is E_2 = 0.5(10 + te^(-t/10)), where each t is the time spent on that course. Lorianne is prepared to spend up to 30 h, in total, studying for the exams. The total effectiveness is given by f(t) = E_1 + E_2. How should this time be allocated to maximize total effectiveness?",
+    "prompt_html": "<p>[A]</p><p>Lorianne is studying for two different exams. Because of the nature of the courses, the measure of study effectiveness on a scale from 0 to 10 for the first course is E_1 = 0.6(9 + te^(-t/20)), while the measure for the second course is E_2 = 0.5(10 + te^(-t/10)), where each t is the time spent on that course. Lorianne is prepared to spend up to 30 h, in total, studying for the exams. The total effectiveness is given by f(t) = E_1 + E_2. How should this time be allocated to maximize total effectiveness?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 11,
+    "quiz_entry_id": "56209",
+    "item_id": "63392",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n Small countries trying to develop an industrial economy rapidly often try to achieve their objectives by importing foreign capital and technology. Statistics Canada data show that when Canada attempted this strategy from 1867 to 1967, the amount of U.S. investment in Canada increased from about $15 x 10^6 to $280 305 x 10^6. This increase in foreign investment can be represented by the simple mathematical model C(t) = 0.015 x 10^9 e^(0.07533t), where t represents the number of years (starting with 1867 as zero) and C represents the total capital investment from U.S. sources in dollars.\n a. Graph the curve for the 100-year period.\n b. Compare the growth rate of U.S. investment in 1947 with the rate in 1967.\n c. Determine the growth rate of investment in 1967 as a percent of the amount invested.\n d. If this model is used up to 1977, calculate the total U.S. investment and the growth rate in this year.\n e. Use the Internet to determine the actual total U.S. investment in 1977, and calculate the error in the model.\n f. If the model is used up to 2007, calculate the expected U.S. investment and the expected growth rate.",
+    "prompt_html": "<p>[A]</p><p>Small countries trying to develop an industrial economy rapidly often try to achieve their objectives by importing foreign capital and technology. Statistics Canada data show that when Canada attempted this strategy from 1867 to 1967, the amount of U.S. investment in Canada increased from about $15 x 10^6 to $280 305 x 10^6. This increase in foreign investment can be represented by the simple mathematical model C(t) = 0.015 x 10^9 e^(0.07533t), where t represents the number of years (starting with 1867 as zero) and C represents the total capital investment from U.S. sources in dollars.</p><p>a. Graph the curve for the 100-year period.</p><p>b. Compare the growth rate of U.S. investment in 1947 with the rate in 1967.</p><p>c. Determine the growth rate of investment in 1967 as a percent of the amount invested.</p><p>d. If this model is used up to 1977, calculate the total U.S. investment and the growth rate in this year.</p><p>e. Use the Internet to determine the actual total U.S. investment in 1977, and calculate the error in the model.</p><p>f. If the model is used up to 2007, calculate the expected U.S. investment and the expected growth rate.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 12,
+    "quiz_entry_id": "56209",
+    "item_id": "63397",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Find the maximum and minimum values of each function. Graph each function.\n a. y = e^x + 2\n b. y = xe^x + 3\n c. y = 2xe^(2x)\n d. y = 3xe^(-x) + x",
+    "prompt_html": "<p>[K/U]</p><p>Find the maximum and minimum values of each function. Graph each function.</p><p>a. y = e^x + 2</p><p>b. y = xe^x + 3</p><p>c. y = 2xe^(2x)</p><p>d. y = 3xe^(-x) + x</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 13,
+    "quiz_entry_id": "56210",
+    "item_id": "63423",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n A particle moves along a line so that, at time t, its position is s(t) = 8 sin 2t.\n a. For what values of t does the particle change direction?\n b. What is the particle's maximum velocity?",
+    "prompt_html": "<p>[A]</p><p>A particle moves along a line so that, at time t, its position is s(t) = 8 sin 2t.</p><p>a. For what values of t does the particle change direction?</p><p>b. What is the particle's maximum velocity?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 14,
+    "quiz_entry_id": "56210",
+    "item_id": "63450",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Determine the equation of the tangent to the curve y = x sin x at the point where x = pi/2.",
+    "prompt_html": "<p>[K/U]</p><p>Determine the equation of the tangent to the curve y = x sin x at the point where x = pi/2.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 15,
+    "quiz_entry_id": "56211",
+    "item_id": "63469",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Determine f''(x).\n a. f(x) = cos^2 x\n b. f(x) = cos x cot x",
+    "prompt_html": "<p>[K/U]</p><p>Determine f''(x).</p><p>a. f(x) = cos^2 x</p><p>b. f(x) = cos x cot x</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 16,
+    "quiz_entry_id": "56211",
+    "item_id": "63436",
+    "points": 7.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n Determine the local maximum point on the curve y = 2x - tan x, where -pi/2 < x < pi/2.",
+    "prompt_html": "<p>[K/U]</p><p>Determine the local maximum point on the curve y = 2x - tan x, where -pi/2 &lt; x &lt; pi/2.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  }
+]

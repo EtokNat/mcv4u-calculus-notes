@@ -1,0 +1,177 @@
+[
+  {
+    "idx": 0,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "How do you feel about starting a unit on vectors (arrows with magnitude and direction, used for forces, velocities, and 3D geometry)?",
+    "prompt_dom": "How do you feel about starting a unit on vectors (arrows with magnitude and direction, used for forces, velocities, and 3D geometry)?\n\nExcited \u2014 I like visual, geometric math\n\nCurious, but a little nervous\n\nNeutral \u2014 I'll see how it goes\n\nDreading it \u2014 3D thinking stresses me out",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "76c3c9f3-9abe-428d-af33-3bde113c9594",
+        "position": 1,
+        "text": "Excited \u2014 I like visual, geometric math",
+        "html": "<p>Excited \u2014 I like visual, geometric math</p>"
+      },
+      {
+        "id": "fa57ecef-28a3-4313-8e6b-0cfa141adc43",
+        "position": 2,
+        "text": "Curious, but a little nervous",
+        "html": "<p>Curious, but a little nervous</p>"
+      },
+      {
+        "id": "27c1cc2b-57d7-4625-9b6c-c7590c0e0d54",
+        "position": 3,
+        "text": "Neutral \u2014 I'll see how it goes",
+        "html": "<p>Neutral \u2014 I'll see how it goes</p>"
+      },
+      {
+        "id": "24f53144-8c32-4f17-966d-60f7399f4483",
+        "position": 4,
+        "text": "Dreading it \u2014 3D thinking stresses me out",
+        "html": "<p>Dreading it \u2014 3D thinking stresses me out</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 1,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "What would make this unit feel successful for you?",
+    "prompt_dom": "What would make this unit feel successful for you?\n\nBeing able to picture vectors and their sums/differences geometrically\n\nGetting the component calculations (addition, magnitudes) right every time\n\nUnderstanding what vectors *mean* in context (forces, velocities, \u2026)\n\nBeing able to explain my reasoning clearly in writing",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "5f09d696-49a3-497b-9aaa-2b151d159981",
+        "position": 1,
+        "text": "Being able to picture vectors and their sums/differences geometrically",
+        "html": "<p>Being able to picture vectors and their sums/differences geometrically</p>"
+      },
+      {
+        "id": "de0886a2-57f9-4cc7-ba1b-23a54b80d911",
+        "position": 2,
+        "text": "Getting the component calculations (addition, magnitudes) right every time",
+        "html": "<p>Getting the component calculations (addition, magnitudes) right every time</p>"
+      },
+      {
+        "id": "2c63cb28-8919-4208-9329-21678942211a",
+        "position": 3,
+        "text": "Understanding what vectors *mean* in context (forces, velocities, \u2026)",
+        "html": "<p>Understanding what vectors *mean* in context (forces, velocities, \u2026)</p>"
+      },
+      {
+        "id": "08855980-431c-49b9-9b39-663e9473be9f",
+        "position": 4,
+        "text": "Being able to explain my reasoning clearly in writing",
+        "html": "<p>Being able to explain my reasoning clearly in writing</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 2,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "How confident are you with the Pythagorean theorem and coordinate geometry (for example, finding the distance between (\u22124, 2) and (\u22121, 3))?",
+    "prompt_dom": "How confident are you with the Pythagorean theorem and coordinate geometry (for example, finding the distance between (\u22124, 2) and (\u22121, 3))?\n\nVery confident\n\nSomewhat confident\n\nNot very confident\n\nNot confident at all",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "55c77e16-13fd-4551-9bd4-3d72dd04484a",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "86b0072d-1b42-4e50-a8e5-76e04fb7c89e",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "bb2a02c1-869e-4098-bd0c-322c5c5547ab",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "39e528ea-622c-422e-9bf2-e36ab65a6f08",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 3,
+    "slug": "choice",
+    "points": 1.0,
+    "prompt": "How confident are you with right-triangle trigonometry (SOH-CAH-TOA, e.g. finding an angle from tan \u03b8 = 1/3)?",
+    "prompt_dom": "How confident are you with right-triangle trigonometry (SOH-CAH-TOA, e.g. finding an angle from tan \u03b8 = 1/3)?\n\nVery confident\n\nSomewhat confident\n\nNot very confident\n\nNot confident at all",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "9b4e772f-48c6-4311-9def-15134127f6c7",
+        "position": 1,
+        "text": "Very confident",
+        "html": "<p>Very confident</p>"
+      },
+      {
+        "id": "798f7a3f-54bf-405d-bff0-e902ac6bd56c",
+        "position": 2,
+        "text": "Somewhat confident",
+        "html": "<p>Somewhat confident</p>"
+      },
+      {
+        "id": "129162d6-283d-49dd-8c06-bbe0159581a9",
+        "position": 3,
+        "text": "Not very confident",
+        "html": "<p>Not very confident</p>"
+      },
+      {
+        "id": "c5f6c04f-06e0-4804-a8e3-43f7d13a13f8",
+        "position": 4,
+        "text": "Not confident at all",
+        "html": "<p>Not confident at all</p>"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  },
+  {
+    "idx": 4,
+    "slug": "essay",
+    "points": 1.0,
+    "prompt": "What is one goal you have for this unit on vectors?",
+    "prompt_dom": "What is one goal you have for this unit on vectors?\n\nWhat is one goal you have for this unit on vectors?\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 0.0
+  }
+]

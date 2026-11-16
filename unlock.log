@@ -1,0 +1,30 @@
+Output root: /home/runner/work/mcv4u-calculus-notes/mcv4u-calculus-notes/mcv4u_scrape
+Previous completions: 243
+Logging in...
+
+######## PASS 1/35 ########
+Fetching modules...
+
+## Module 2: Unit 1 — Introduction to Calculus (id=3177, state=completed)
+  [Assignment] Formative Check A — Sections 1.1 & 1.2 (id=32373)
+    [NET 32373#cap] 200 on.quiz-api-iad-prod.instructure.com/api/quiz_sessions/12964 -> {"id":"12964","account_uuid":"ff3adafe-ef27-43d4-b822-5e7ce993ccb3","due_at":null,"end_at":null,"start_at":null,"status":"pending","accepted_student_access_code":false,"attempt":4,"disable_timer":false,"extra_time_in_seconds":0,"timer_multi
+    [NET 32373#cap] 200 iz-api-iad-prod.instructure.com/api/quiz_sessions/12964/take -> {"id":"12964","account_uuid":"ff3adafe-ef27-43d4-b822-5e7ce993ccb3","due_at":null,"end_at":null,"start_at":"2026-11-16T05:35:16.845Z","status":"starting","accepted_student_access_code":false,"attempt":4,"disable_timer":false,"extra_time_in_
+    [NET 32373#cap] 200 on.quiz-api-iad-prod.instructure.com/api/quiz_sessions/12964 -> {"id":"12964","account_uuid":"ff3adafe-ef27-43d4-b822-5e7ce993ccb3","due_at":null,"end_at":null,"start_at":"2026-11-16T05:35:16.845Z","status":"in_progress","accepted_student_access_code":false,"attempt":4,"disable_timer":false,"extra_time_
+    -> quiz_lti_already_passed:62.5
+  [Assignment] Formative Check B — Sections 1.3 & 1.4 (id=32376)
+    [NET 32376#cap] 200 on.quiz-api-iad-prod.instructure.com/api/quiz_sessions/13090 -> {"id":"13090","account_uuid":"ff3adafe-ef27-43d4-b822-5e7ce993ccb3","due_at":null,"end_at":null,"start_at":null,"status":"pending","accepted_student_access_code":false,"attempt":33,"disable_timer":false,"extra_time_in_seconds":0,"timer_mult
+    [NET 32376#cap] 200 iz-api-iad-prod.instructure.com/api/quiz_sessions/13090/take -> {"id":"13090","account_uuid":"ff3adafe-ef27-43d4-b822-5e7ce993ccb3","due_at":null,"end_at":null,"start_at":"2026-11-16T05:35:38.180Z","status":"starting","accepted_student_access_code":false,"attempt":33,"disable_timer":false,"extra_time_in
+    [NET 32376#cap] 200 on.quiz-api-iad-prod.instructure.com/api/quiz_sessions/13090 -> {"id":"13090","account_uuid":"ff3adafe-ef27-43d4-b822-5e7ce993ccb3","due_at":null,"end_at":null,"start_at":"2026-11-16T05:35:38.180Z","status":"creating_session_items","accepted_student_access_code":false,"attempt":33,"disable_timer":false,
+    [NET 32376#cap] 200 on.quiz-api-iad-prod.instructure.com/api/quiz_sessions/13090 -> {"id":"13090","account_uuid":"ff3adafe-ef27-43d4-b822-5e7ce993ccb3","due_at":null,"end_at":null,"start_at":"2026-11-16T05:35:38.180Z","status":"in_progress","accepted_student_access_code":false,"attempt":33,"disable_timer":false,"extra_time
+    -> quiz_lti_already_passed:66.66666666666666
+  [Assignment] Formative Check C — Sections 1.5 & 1.6 (id=32379)
+    [NET 32379#cap] 200 on.quiz-api-iad-prod.instructure.com/api/quiz_sessions/13139 -> {"id":"13139","account_uuid":"ff3adafe-ef27-43d4-b822-5e7ce993ccb3","due_at":null,"end_at":null,"start_at":null,"status":"pending","accepted_student_access_code":false,"attempt":14,"disable_timer":false,"extra_time_in_seconds":0,"timer_mult
+    [NET 32379#cap] 200 iz-api-iad-prod.instructure.com/api/quiz_sessions/13139/take -> {"id":"13139","account_uuid":"ff3adafe-ef27-43d4-b822-5e7ce993ccb3","due_at":null,"end_at":null,"start_at":"2026-11-16T05:35:59.511Z","status":"starting","accepted_student_access_code":false,"attempt":14,"disable_timer":false,"extra_time_in
+    [NET 32379#cap] 200 on.quiz-api-iad-prod.instructure.com/api/quiz_sessions/13139 -> {"id":"13139","account_uuid":"ff3adafe-ef27-43d4-b822-5e7ce993ccb3","due_at":null,"end_at":null,"start_at":"2026-11-16T05:35:59.511Z","status":"creating_session_items","accepted_student_access_code":false,"attempt":14,"disable_timer":false,
+    [NET 32379#cap] 200 on.quiz-api-iad-prod.instructure.com/api/quiz_sessions/13139 -> {"id":"13139","account_uuid":"ff3adafe-ef27-43d4-b822-5e7ce993ccb3","due_at":null,"end_at":null,"start_at":"2026-11-16T05:35:59.511Z","status":"in_progress","accepted_student_access_code":false,"attempt":14,"disable_timer":false,"extra_time
+    -> quiz_lti_already_passed:61.45833333333333
+
+=== After pass 1: terminal=243, LOCKED=0 ===
+All items unlocked!
+
+Done.

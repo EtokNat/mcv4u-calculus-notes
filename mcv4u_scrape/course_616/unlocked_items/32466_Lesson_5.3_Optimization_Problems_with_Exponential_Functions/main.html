@@ -1,0 +1,106 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9174" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 5.3 — Optimization Problems with Exponential Functions</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 5</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 5.3</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Optimization Problems with Exponential Functions</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §5.3 — the Chapter 3 extreme-value algorithm applied to exponential models: study effectiveness, advertising profit, drug concentration.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Run the <strong>extreme-value algorithm</strong> (domain → critical numbers → compare values → answer → confirm) on exponential functions.</li>
+<li>Exploit the fact that <strong>e<sup>u</sup> is never zero</strong> when solving f′ = 0.</li>
+<li>Solve equations like <strong>e<sup>u</sup> = k</strong> with natural logarithms.</li>
+<li>Interpret maxima/minima in applied contexts (study time, advertising budget, drug timing).</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Studying longer usually helps — but only up to a point. Fatigue sets in, and the extra hours start paying back less and less. That "rise then fall" shape is a <strong>maximum problem</strong>, and exponential models produce it naturally. The good news: the optimization recipe from Chapter 3 is exactly the same. The only new twist is that exponential equations need <strong>logarithms</strong> to solve.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17375" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17375" data-api-returntype="Assignment">▶ Start the Lesson 5.3 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — read the maximum off the graph first</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>Graph <strong><em>E(t) = 0.5(10 + t·e^(−t/20))</em></strong> with the domain restriction <strong><em>{0 &lt;= t &lt;= 30}</em></strong> (add it after the formula). Click the highest point of the curve — what t-value and E-value do you read?</li>
+<li>Graph <strong><em>E'(t) = 0.5·e^(−t/20)·(1 − t/20)</em></strong>. Where does it cross zero, and how does that x-value connect to your answer in part 1?</li>
+<li>Graph <strong><em>C(t) = 10(e^(−2t) − e^(−3t))</em></strong> on <strong><em>{0 &lt;= t &lt;= 5}</em></strong> (a drug-concentration model). Estimate the time of maximum concentration, then compute it exactly in the next section.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">The algorithm (unchanged from Chapter 3)</h4>
+<div style="background: rgb(244, 247, 251); border-width: 2px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0;"><strong style="color:#10284A;">NEED TO KNOW — Optimization strategy</strong></p>
+<ol style="margin:6px 0 0;">
+<li>Understand the problem and state the domain.</li>
+<li>Find the critical numbers (solve f′ = 0).</li>
+<li>Evaluate the function at the critical numbers and the endpoints; compare.</li>
+<li>Identify the optimum and answer the question in context.</li>
+<li>Confirm with a graph.</li>
+</ol>
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">The exponential shortcut: e<sup>u</sup> never vanishes</h4>
+<p>Because e<sup>u</sup> &gt; 0 for every u, any equation of the form e<sup>(…)</sup> · (something) = 0 reduces to <strong>something = 0</strong>. And when you need to solve e<sup>u</sup> = k, take natural logs of both sides: <strong>u = ln k</strong>.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — A student's study effectiveness t hours into a session is E(t) = 0.5[10 + te<sup>−t/20</sup>], for 0 ≤ t ≤ 30. When is effectiveness greatest?</p>
+<p style="margin:0;"><strong>Solution.</strong> Differentiate with the product rule:<br>
+E′(t) = 0.5[e<sup>−t/20</sup> + t(−1/20)e<sup>−t/20</sup>] = 0.5e<sup>−t/20</sup>(1 − t/20).<br><br>
+Since e<sup>−t/20</sup> is never zero, set the other factor to zero: 1 − t/20 = 0 → <strong>t = 20</strong> (the only critical number).<br><br>
+Compare: E(0) = 5, E(20) ≈ 8.7, E(30) ≈ 8.3. <strong>Maximum effectiveness ≈ 8.7 after 20 hours of study.</strong> The graph confirms the maximum point (20, 8.7).</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54834/preview?" alt="Graph of study effectiveness E(t) = 0.5(10 + t e^(-t/20)) showing the maximum point at (20, 8.7)" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54834" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — An ad campaign costs $5,000 per day plus a $30,000 setup. A fraction f(t) = 0.7(1 − e<sup>−0.2t</sup>) of the population responds after t days, and each responder is worth $7 of profit. The budget allows at most 34 days. How long should the campaign run to maximize profit?</p>
+<p style="margin:0;"><strong>Solution.</strong> Profit: P(t) = 7,000,000·f(t) − 30,000 − 5,000t = 4.9×10<sup>6</sup>(1 − e<sup>−0.2t</sup>) − 30,000 − 5,000t, for 0 ≤ t ≤ 34.<br><br>
+P′(t) = 980,000e<sup>−0.2t</sup> − 5,000 = 0 → e<sup>−0.2t</sup> ≈ 0.005102 → take ln: −0.2t ≈ −5.278 → <strong>t ≈ 26.4 days</strong>.<br><br>
+Compare: P(0) = −$30,000; P(26) ≈ $4,713,000; P(34) ≈ $4,695,000. <strong>Run the campaign about 26 days for a maximum profit of ≈ $4,713,000.</strong> (After 7 days, by the way: f(7) ≈ 53% responding and profit ≈ $3,627,000.)</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54840/preview?" alt="Graph of advertising profit P(t) showing the maximum point at (26, 4,713,000)" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54840" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — A drug's concentration in the blood is C(t) = 10(e<sup>−2t</sup> − e<sup>−3t</sup>), t in hours. When is the concentration highest in the first 5 hours?</p>
+<p style="margin:0;"><strong>Solution.</strong> C′(t) = 10(−2e<sup>−2t</sup> + 3e<sup>−3t</sup>) = 0 → 3e<sup>−3t</sup> = 2e<sup>−2t</sup> → 3/2 = e<sup>t</sup> → <strong>t = ln(3/2) ≈ 0.405 h</strong> (≈ 24 minutes).<br><br>
+The endpoints give C(0) = 0 and C(5) ≈ 0, while C(0.405) ≈ 1.85 — so the <strong>maximum occurs about 24 minutes after injection</strong>.</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 5.3.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Find the critical numbers of f(x) = xe<sup>−x</sup>.</summary>
+<p>f′(x) = e<sup>−x</sup> − xe<sup>−x</sup> = e<sup>−x</sup>(1 − x). Since e<sup>−x</sup> ≠ 0, the only critical number is <strong>x = 1</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Find the absolute maximum of f(x) = xe<sup>−x</sup> on [0, 3].</summary>
+<p>f(0) = 0; f(1) = 1/e ≈ 0.368; f(3) = 3e<sup>−3</sup> ≈ 0.149. The absolute maximum is <strong>1/e at x = 1</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — True or false: "The equation e<sup>−t/20</sup> = 0 has a solution." Justify.</summary>
+<p><strong>False.</strong> e<sup>u</sup> &gt; 0 for every real u — an exponential expression can never equal zero, which is exactly why critical-number equations always reduce to the other factor.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — A rumour spreads with P(t) = 100(e<sup>−t</sup> − e<sup>−4t</sup>) percent. When is the spread rate zero (t &lt; 3), and what is the maximum percentage?</summary>
+<p>P′(t) = 100(−e<sup>−t</sup> + 4e<sup>−4t</sup>) = 0 → 4 = e<sup>3t</sup> → t = (ln 4)/3 ≈ <strong>0.462 h</strong> (≈ 28 min). P(0.462) ≈ 100(0.6299 − 0.1575) ≈ <strong>47.2%</strong> — the maximum spread.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li>Optimization follows the same 5-step algorithm as Chapter 3 — only the functions are exponential now.</li>
+<li>Since <strong>e<sup>u</sup> &gt; 0 always</strong>, f′ = 0 reduces to the other factor equal to zero.</li>
+<li>Solve <strong>e<sup>u</sup> = k</strong> with natural logs: <strong>u = ln k</strong>.</li>
+<li>Always answer in context (hours, days, dollars) and confirm with a graph.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>Don't forget the endpoints when the domain is a closed interval — the optimum may sit there.</li>
+<li>Next: Lesson 5.4 — <strong>derivatives of sine and cosine</strong>.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Derivatives of Exponential and Trigonometric Functions</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

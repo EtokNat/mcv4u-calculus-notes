@@ -1,0 +1,303 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56092",
+    "item_id": "65075",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = ; b. When is its velocity zero? t = .",
+    "prompt_html": "<p>Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = <span id=\"blank_316c0753-f3e0-4148-8d3c-79b3abc85696\"></span>; b. When is its velocity zero? t = <span id=\"blank_c053d239-9618-4ac0-981b-c0cbac605c8f\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "316c0753-f3e0-4148-8d3c-79b3abc85696"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c053d239-9618-4ac0-981b-c0cbac605c8f"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56092",
+    "item_id": "65131",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the absolute extreme values of each function on the given interval, using the algorithm for maximum and minimum values: a. f(x) = x^3 + 3x^2 + 1, -2 <= x <= 2: maximum at x = , minimum at x = ; b. f(x) = (x + 2)^2, -3 <= x <= 3: maximum at x = , minimum at x = ; c. f(x) = 1/x - 1/x^3, x in [1, 5]: maximum at x = , minimum at x = .",
+    "prompt_html": "<p>Determine the absolute extreme values of each function on the given interval, using the algorithm for maximum and minimum values: a. f(x) = x^3 + 3x^2 + 1, -2 &lt;= x &lt;= 2: maximum <span id=\"blank_7a7afe36-f3fd-4610-9ba6-c4d69fd89630\"></span> at x = <span id=\"blank_bf28477c-b12e-4511-82af-0d4a6e55229b\"></span>, minimum <span id=\"blank_c6767cfa-273d-4199-86be-31461a9c6c44\"></span> at x = <span id=\"blank_b436a643-4d0d-4b9a-ad75-849eb0a69d73\"></span>; b. f(x) = (x + 2)^2, -3 &lt;= x &lt;= 3: maximum <span id=\"blank_d41a2283-9311-488d-8175-7e722328c366\"></span> at x = <span id=\"blank_9629088a-64e0-4ba4-8ea8-ecbb9123c797\"></span>, minimum <span id=\"blank_b0748bb8-4115-4136-b892-d7e3b37177bc\"></span> at x = <span id=\"blank_b86ec000-7ba4-4a03-a4a6-1adce4e87eb2\"></span>; c. f(x) = 1/x - 1/x^3, x in [1, 5]: maximum <span id=\"blank_96a9fb7f-c397-4050-b569-1d83a510a404\"></span> at x = <span id=\"blank_ecc0719d-047a-4e6b-bd2d-1c0505285f43\"></span>, minimum <span id=\"blank_81b244cd-6a3d-42eb-887e-aa77bbefe43d\"></span> at x = <span id=\"blank_a5e242ad-7e0a-46cb-9bff-71e49c40efa4\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 12,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "7a7afe36-f3fd-4610-9ba6-c4d69fd89630"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bf28477c-b12e-4511-82af-0d4a6e55229b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c6767cfa-273d-4199-86be-31461a9c6c44"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b436a643-4d0d-4b9a-ad75-849eb0a69d73"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "d41a2283-9311-488d-8175-7e722328c366"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9629088a-64e0-4ba4-8ea8-ecbb9123c797"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b0748bb8-4115-4136-b892-d7e3b37177bc"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b86ec000-7ba4-4a03-a4a6-1adce4e87eb2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "96a9fb7f-c397-4050-b569-1d83a510a404"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ecc0719d-047a-4e6b-bd2d-1c0505285f43"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "81b244cd-6a3d-42eb-887e-aa77bbefe43d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a5e242ad-7e0a-46cb-9bff-71e49c40efa4"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56093",
+    "item_id": "65148",
+    "points": 4.0,
+    "slug": "numeric",
+    "prompt_text": "A swimming pool is treated periodically to control the growth of bacteria. Suppose that t days after a treatment, the number of bacteria per cubic centimetre is N(t) = 30t^2 - 240t + 500. Determine the lowest number of bacteria during the first week after the treatment.",
+    "prompt_html": "<p>A swimming pool is treated periodically to control the growth of bacteria. Suppose that t days after a treatment, the number of bacteria per cubic centimetre is N(t) = 30t^2 - 240t + 500. Determine the lowest number of bacteria during the first week after the treatment.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56094",
+    "item_id": "65191",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2. The minimal distance is .",
+    "prompt_html": "<p>Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2. The minimal distance is <span id=\"blank_be168eca-a3b0-469c-a576-81efad6c2bee\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "be168eca-a3b0-469c-a576-81efad6c2bee"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56094",
+    "item_id": "65190",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "a. Determine the area of the largest rectangle that can be inscribed in a right triangle if the legs of the triangle are 5 cm and 12 cm and the sides of the rectangle are along the legs of the triangle. The largest area is cm^2. b. Repeat part a. for a right triangle that has sides 8 cm and 15 cm. The largest area is cm^2. c. Hypothesize a conclusion for any right triangle.",
+    "prompt_html": "<p>a. Determine the area of the largest rectangle that can be inscribed in a right triangle if the legs of the triangle are 5 cm and 12 cm and the sides of the rectangle are along the legs of the triangle. The largest area is <span id=\"blank_b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c\"></span> cm^2. b. Repeat part a. for a right triangle that has sides 8 cm and 15 cm. The largest area is <span id=\"blank_c796450d-dc2b-4584-94c5-0144e2253342\"></span> cm^2. c. Hypothesize a conclusion for any right triangle.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c796450d-dc2b-4584-94c5-0144e2253342"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56095",
+    "item_id": "65196",
+    "points": 4.0,
+    "slug": "numeric",
+    "prompt_text": "Suppose that the cost, in dollars, of manufacturing x items is approximated by C(x) = 625 + 15x + 0.01x^2, for 1 <= x <= 500. The unit cost (the cost of manufacturing one item) would then be U(x) = C(x)/x. How many items should be manufactured to ensure that the unit cost is minimized? Enter the number of items.",
+    "prompt_html": "<p>Suppose that the cost, in dollars, of manufacturing x items is approximated by C(x) = 625 + 15x + 0.01x^2, for 1 &lt;= x &lt;= 500. The unit cost (the cost of manufacturing one item) would then be U(x) = C(x)/x. How many items should be manufactured to ensure that the unit cost is minimized? Enter the number of items.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56095",
+    "item_id": "65195",
+    "points": 4.0,
+    "slug": "rich-fill-blank",
+    "prompt_text": "During a cough, the diameter of the trachea decreases. The velocity, v, of air in the trachea during a cough may be modelled by the formula v(r) = Ar^2(r0 - r), where A is a constant, r is the radius of the trachea during the cough, and r0 is the radius of the trachea in a relaxed state. Find the radius of the trachea when the velocity is the greatest, and find the associated maximum velocity of air. Note that the domain for the problem is 0 <= r <= r0. The radius of the trachea when the velocity is greatest is , and the associated maximum velocity of air is .",
+    "prompt_html": "<p>During a cough, the diameter of the trachea decreases. The velocity, v, of air in the trachea during a cough may be modelled by the formula v(r) = Ar^2(r0 - r), where A is a constant, r is the radius of the trachea during the cough, and r0 is the radius of the trachea in a relaxed state. Find the radius of the trachea when the velocity is the greatest, and find the associated maximum velocity of air. Note that the domain for the problem is 0 &lt;= r &lt;= r0. The radius of the trachea when the velocity is greatest is <span id=\"blank_0c008f64-e8db-424d-9c0c-47d7f6ee3be4\"></span>, and the associated maximum velocity of air is <span id=\"blank_1f503c7a-c6ce-405c-96f1-8213de8847db\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "0c008f64-e8db-424d-9c0c-47d7f6ee3be4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1f503c7a-c6ce-405c-96f1-8213de8847db"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56096",
+    "item_id": "63066",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[C]\n Explain and discuss the difference in velocity at times t = 1 and t = 5 for v(t) = 2t - t^2.",
+    "prompt_html": "<p>[C]</p><p>Explain and discuss the difference in velocity at times t = 1 and t = 5 for v(t) = 2t - t^2.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 9,
+    "quiz_entry_id": "56096",
+    "item_id": "63101",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n A ball is thrown upward. Its motion can be described by h(t) = -4.9t^2 + 6t + 2, where the height, h, is measured in metres at t seconds.\n a. Determine the initial velocity.\n b. When does the ball reach its maximum height?\n c. When does the ball hit the ground?\n d. What is the velocity of the ball when it hits the ground?\n e. What is the acceleration of the ball on the way up? What is its acceleration on the way down?",
+    "prompt_html": "<p>[A]</p><p>A ball is thrown upward. Its motion can be described by h(t) = -4.9t^2 + 6t + 2, where the height, h, is measured in metres at t seconds.</p><p>a. Determine the initial velocity.</p><p>b. When does the ball reach its maximum height?</p><p>c. When does the ball hit the ground?</p><p>d. What is the velocity of the ball when it hits the ground?</p><p>e. What is the acceleration of the ball on the way up? What is its acceleration on the way down?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 10,
+    "quiz_entry_id": "56097",
+    "item_id": "63091",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n The concentration C(t), in milligrams per cubic centimetre, of a certain medicine in a patient's bloodstream is given by C(t) = 0.1t/(t + 3)^2, where t is the number of hours after the medicine is taken. Determine the maximum and minimum concentrations between the first and sixth hours after the medicine is taken.",
+    "prompt_html": "<p>[A]</p><p>The concentration C(t), in milligrams per cubic centimetre, of a certain medicine in a patient's bloodstream is given by C(t) = 0.1t/(t + 3)^2, where t is the number of hours after the medicine is taken. Determine the maximum and minimum concentrations between the first and sixth hours after the medicine is taken.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 11,
+    "quiz_entry_id": "56097",
+    "item_id": "63093",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n A truck travelling at x km/h, where 30 <= x <= 120, uses gasoline at the rate of r(x) L/100 km, where r(x) = (1/4)(4900/x + x). If fuel costs $1.15/L, what speed will result in the lowest fuel cost for a trip of 200 km? What is the lowest total cost for the trip?",
+    "prompt_html": "<p>[A]</p><p>A truck travelling at x km/h, where 30 &lt;= x &lt;= 120, uses gasoline at the rate of r(x) L/100 km, where r(x) = (1/4)(4900/x + x). If fuel costs $1.15/L, what speed will result in the lowest fuel cost for a trip of 200 km? What is the lowest total cost for the trip?</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 12,
+    "quiz_entry_id": "56098",
+    "item_id": "63117",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n A net enclosure for practising golf shots is open at one end, as shown. Find the dimensions that will minimize the amount of netting needed and give a volume of 144 m^3. (Netting is required only on the sides, the top, and the far end.)",
+    "prompt_html": "<p>[A]</p><p>A net enclosure for practising golf shots is open at one end, as shown. Find the dimensions that will minimize the amount of netting needed and give a volume of 144 m^3. (Netting is required only on the sides, the top, and the far end.)</p><p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/aedf2d6c-5d9c-4a14-804e-a69ac2226f9c/fig_33q8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy9hZWRmMmQ2Yy01ZDljLTRhMTQtODA0ZS1hNjlhYzIyMjZmOWMvZmlnXzMzcTgucG5nIiwidGVuYW50X2F1dGgiOnsibG9jYXRpb24iOiJiYW5rLzI0MjYwMDAwMDAwMDAwNDkxIn0sImV4cCI6MTc5NDc5MzA0NiwiaWF0IjoxNzk0NzQ2MjQ2LCJpc3MiOiJuZXctcXVpenplcyIsImF1ZCI6Imh0dHBzOi8vaW5zdC1mcy1pYWQtcHJvZC5pbnNjbG91ZGdhdGUubmV0In0.jushAZhpPzO-YZQjWHm0TrYZrYfhPCUkxelr74DrfOESvL8cKqndYRkdp_yWYKwWAz3LLy69CJM3oOdv_gvFDQ\" alt=\"Nelson Calculus and Vectors 12, Ch 3, p. 145 - Exercise 3.3, Question 8: net enclosure with square cross-section x by x and length y\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55734/preview\"></p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 13,
+    "quiz_entry_id": "56098",
+    "item_id": "63132",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n The base of a rectangle lies along the x-axis, and the upper two vertices are on the curve defined by y = k^2 - x^2. Determine the dimensions of the rectangle with the maximum area.",
+    "prompt_html": "<p>[A]</p><p>The base of a rectangle lies along the x-axis, and the upper two vertices are on the curve defined by y = k^2 - x^2. Determine the dimensions of the rectangle with the maximum area.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 14,
+    "quiz_entry_id": "56098",
+    "item_id": "63176",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n Two towns, Ancaster and Dundas, are 4 km and 6 km, respectively, from an old railroad line that has been made into a bike trail. Points C and D on the trail are the closest points to the two towns, respectively. These points are 8 km apart. Where should a rest stop be built to minimize the length of new trail that must be built from both towns to the rest stop?",
+    "prompt_html": "<p>[A]</p><p>Two towns, Ancaster and Dundas, are 4 km and 6 km, respectively, from an old railroad line that has been made into a bike trail. Points C and D on the trail are the closest points to the two towns, respectively. These points are 8 km apart. Where should a rest stop be built to minimize the length of new trail that must be built from both towns to the rest stop?</p><p><img src=\"https://inst-fs-iad-prod.inscloudgate.net/files/448d4af4-fc70-4d32-a7af-4672d3542f9b/fig_revq25.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy80NDhkNGFmNC1mYzcwLTRkMzItYTdhZi00NjcyZDM1NDJmOWIvZmlnX3JldnEyNS5wbmciLCJ0ZW5hbnRfYXV0aCI6eyJsb2NhdGlvbiI6ImJhbmsvMjQyNjAwMDAwMDAwMDA0OTEifSwiZXhwIjoxNzk0NzkzNjE0LCJpYXQiOjE3OTQ3NDY4MTQsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLWlhZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.K1Ob-kBqneoj5NUWtjZH2Iz1GDR1lx3jIrMH3t90ccKUTykAZ_sV-qRn4Sz2eNIR7meDuzwjuKqMRj5w-MiCqw\" alt=\"Nelson Calculus and Vectors 12, Ch 3, p. 158 - Review Exercise, Question 25: Ancaster and Dundas relative to trail points C and D\" data-old-link=\"https://bronston.instructure.com/courses/905/files/55738/preview\"></p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 15,
+    "quiz_entry_id": "56099",
+    "item_id": "63161",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[K/U]\n For each of the following cost functions, determine\n i. the cost of producing 400 items\n ii. the average cost of each of the first 400 items produced\n iii. the marginal cost when x = 400, as well as the cost of producing the 401st item\n a. C(x) = 3x + 1000\n b. C(x) = 0.004x^2 + 40x + 8000\n c. C(x) = sqrt(x) + 5000\n d. C(x) = 100x^(-1/2) + 5x + 700",
+    "prompt_html": "<p>[K/U]</p><p>For each of the following cost functions, determine</p><p>i. the cost of producing 400 items</p><p>ii. the average cost of each of the first 400 items produced</p><p>iii. the marginal cost when x = 400, as well as the cost of producing the 401st item</p><p>a. C(x) = 3x + 1000</p><p>b. C(x) = 0.004x^2 + 40x + 8000</p><p>c. C(x) = sqrt(x) + 5000</p><p>d. C(x) = 100x^(-1/2) + 5x + 700</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  },
+  {
+    "position": 16,
+    "quiz_entry_id": "56099",
+    "item_id": "63143",
+    "points": 8.0,
+    "slug": "essay",
+    "prompt_text": "[A]\n Your neighbours operate a successful bake shop. One of their specialties is a very rich whipped-cream-covered cake. They buy the cakes from a supplier who charges $6.00 per cake, and they sell 200 cakes weekly at $10.00 each. Research shows that profit from the cake sales can be increased by increasing the price. Unfortunately, for every increase of $0.50, sales will drop by seven cakes.\n a. What is the optimal retail price for a cake to obtain a maximum weekly profit?\n b. The supplier, unhappy with reduced sales, informs the owners that if they purchase fewer than 165 cakes weekly, the cost per cake will increase to $7.50. Now what is the optimal retail price per cake, and what is the bake shop's total weekly profit?\n c. Situations like this occur regularly in retail trade. Discuss the implications of reduced sales with increased total profit versus greater sales with smaller profits. For example, a drop in the number of customers could mean fewer sales of associated products.",
+    "prompt_html": "<p>[A]</p><p>Your neighbours operate a successful bake shop. One of their specialties is a very rich whipped-cream-covered cake. They buy the cakes from a supplier who charges $6.00 per cake, and they sell 200 cakes weekly at $10.00 each. Research shows that profit from the cake sales can be increased by increasing the price. Unfortunately, for every increase of $0.50, sales will drop by seven cakes.</p><p>a. What is the optimal retail price for a cake to obtain a maximum weekly profit?</p><p>b. The supplier, unhappy with reduced sales, informs the owners that if they purchase fewer than 165 cakes weekly, the cost per cake will increase to $7.50. Now what is the optimal retail price per cake, and what is the bake shop's total weekly profit?</p><p>c. Situations like this occur regularly in retail trade. Discuss the implications of reduced sales with increased total profit versus greater sales with smaller profits. For example, a drop in the number of customers could mean fewer sales of associated products.</p>",
+    "choices": [],
+    "num_blanks": 0,
+    "interaction_data": {
+      "rce": true
+    }
+  }
+]

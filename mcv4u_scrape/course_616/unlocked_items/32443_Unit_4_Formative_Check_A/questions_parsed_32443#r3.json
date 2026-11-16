@@ -1,0 +1,290 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56108",
+    "item_id": "65273",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] A diver jumps from a 3 m springboard. The diver's height above the water, h metres, at time t seconds after jumping is given by h(t) = -4.9t^2 + 9.5t + 2.2. a. The diver's height is increasing on ; the diver's height is decreasing on . b. The diver's velocity is throughout (the acceleration is a constant -9.8 m/s^2).",
+    "prompt_html": "<p>[A] A diver jumps from a 3 m springboard. The diver's height above the water, h metres, at time t seconds after jumping is given by h(t) = -4.9t^2 + 9.5t + 2.2. a. The diver's height is increasing on <span id=\"blank_ed27c94b-ae47-43d4-abb7-2fd77d07f743\"></span>; the diver's height is decreasing on <span id=\"blank_5744bc31-36a2-41e8-8545-a63725fbc789\"></span>. b. The diver's velocity is <span id=\"blank_3ef3ce60-a8d7-4c57-980a-8d6d3052cfa8\"></span> throughout (the acceleration is a constant -9.8 m/s^2).</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "ed27c94b-ae47-43d4-abb7-2fd77d07f743"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5744bc31-36a2-41e8-8545-a63725fbc789"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3ef3ce60-a8d7-4c57-980a-8d6d3052cfa8"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56108",
+    "item_id": "65272",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Determine where the function g(x) = 2x^3 - 3x^2 - 12x + 15 is increasing and where it is decreasing. g is increasing on ; g is decreasing on .",
+    "prompt_html": "<p>[K/U] Determine where the function g(x) = 2x^3 - 3x^2 - 12x + 15 is increasing and where it is decreasing. g is increasing on <span id=\"blank_a0bcfcdd-6555-4093-a9ca-8e8deaa74f2c\"></span>; g is decreasing on <span id=\"blank_c0b6b585-9380-470b-bf2b-14543899e307\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "a0bcfcdd-6555-4093-a9ca-8e8deaa74f2c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c0b6b585-9380-470b-bf2b-14543899e307"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56108",
+    "item_id": "65274",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] The concentration of a drug in a patient's bloodstream is given by C(t) = t/4 + 2t^-2, where t is the time, in hours, after the drug is injected. Determine when the concentration of the drug is increasing and when it is decreasing. The concentration is increasing for ; the concentration is decreasing for .",
+    "prompt_html": "<p>[A] The concentration of a drug in a patient's bloodstream is given by C(t) = t/4 + 2t^-2, where t is the time, in hours, after the drug is injected. Determine when the concentration of the drug is increasing and when it is decreasing. The concentration is increasing for <span id=\"blank_00cd4243-2b9c-4e69-a991-ec1e84e38bfa\"></span>; the concentration is decreasing for <span id=\"blank_0ec3f7cd-050c-419d-897a-72df3b4c69a0\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "00cd4243-2b9c-4e69-a991-ec1e84e38bfa"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0ec3f7cd-050c-419d-897a-72df3b4c69a0"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56108",
+    "item_id": "65276",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Each graph is the graph of the derivative f'(x) of a function f(x). For each graph, determine i. the interval(s) on which f is increasing; ii. the interval(s) on which f is decreasing; iii. the x-coordinate(s) of any local extrema of f. Then, assuming f(0) = 2, make a rough sketch of f.\n a. graph a: f is increasing on ; f is decreasing on ; local extremum at x = \n b. graph b: f is increasing on ; f is decreasing on ; local extrema at x = and \n c. graph c: f is increasing on ; f is decreasing on ; local extrema at x = and \n d. graph d: f is increasing on ; f is decreasing on ; local extremum at x =",
+    "prompt_html": "<p>[K/U] Each graph is the graph of the derivative f'(x) of a function f(x). For each graph, determine i. the interval(s) on which f is increasing; ii. the interval(s) on which f is decreasing; iii. the x-coordinate(s) of any local extrema of f. Then, assuming f(0) = 2, make a rough sketch of f.</p>\n<p><img id=\"55741\" src=\"https://inst-fs-iad-prod.inscloudgate.net/files/7839b232-12b8-4ff0-b2e7-ceb57936f38c/ex41_q9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6Im5ldy1xdWl6emVzL21haW4ifQ.eyJyZXNvdXJjZSI6Ii9maWxlcy83ODM5YjIzMi0xMmI4LTRmZjAtYjJlNy1jZWI1NzkzNmYzOGMvZXg0MV9xOS5wbmciLCJ0ZW5hbnRfYXV0aCI6eyJsb2NhdGlvbiI6ImJhbmsvMjQyNjAwMDAwMDAwMDA1MDYifSwiZXhwIjoxNzk0NzkyMjc4LCJpYXQiOjE3OTQ3NDU0NzgsImlzcyI6Im5ldy1xdWl6emVzIiwiYXVkIjoiaHR0cHM6Ly9pbnN0LWZzLWlhZC1wcm9kLmluc2Nsb3VkZ2F0ZS5uZXQifQ.sS5ZLWN_sgvs3t3zpH63p_-XsmFyoNsdgrsFQc45Ea2o2RUFXKdWS4XibLju6lPNybpQJEZ99Ue40W9qITZk9g\" alt=\"ex41_q9.png\" data-old-link=\"/courses/905/files/55741/preview\"></p>\n<p>a. graph a: f is increasing on <span id=\"blank_3818dbf0-cb2e-46e5-84dc-bb52ca611cf3\"></span>; f is decreasing on <span id=\"blank_8960b56a-6054-4567-b878-34d5283115b1\"></span>; local extremum at x = <span id=\"blank_7663d34c-879d-42fa-befb-b4e256b4fbb5\"></span></p>\n<p>b. graph b: f is increasing on <span id=\"blank_a8babafc-c0ff-41ed-9349-b252ba4d9ee5\"></span>; f is decreasing on <span id=\"blank_5e5ad41c-f9c2-4431-80d6-1550af62e160\"></span>; local extrema at x = <span id=\"blank_267195f5-8a7e-4037-934c-c9dc2b59ff31\"></span> and <span id=\"blank_1e6de521-5b35-4291-a862-9516b125180a\"></span></p>\n<p>c. graph c: f is increasing on <span id=\"blank_6531e858-4c3d-4692-b501-cc5957f46a18\"></span>; f is decreasing on <span id=\"blank_2c142aa6-d685-4f72-87d8-af3edeee304a\"></span>; local extrema at x = <span id=\"blank_5f9bd3b8-597f-42fb-8bf8-43c1ee222bac\"></span> and <span id=\"blank_1a0dd179-c861-4f6b-ad84-0f19d128eab2\"></span></p>\n<p>d. graph d: f is increasing on <span id=\"blank_fd1c2441-75b0-4b91-af34-74ecae24122b\"></span>; f is decreasing on <span id=\"blank_4e61a3a7-b263-4c89-be16-69a26cf83f05\"></span>; local extremum at x = <span id=\"blank_bd104121-3813-49c1-bf60-25531b84ef72\"></span></p>",
+    "choices": [],
+    "num_blanks": 14,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "3818dbf0-cb2e-46e5-84dc-bb52ca611cf3"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "8960b56a-6054-4567-b878-34d5283115b1"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "7663d34c-879d-42fa-befb-b4e256b4fbb5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a8babafc-c0ff-41ed-9349-b252ba4d9ee5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5e5ad41c-f9c2-4431-80d6-1550af62e160"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "267195f5-8a7e-4037-934c-c9dc2b59ff31"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1e6de521-5b35-4291-a862-9516b125180a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "6531e858-4c3d-4692-b501-cc5957f46a18"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "2c142aa6-d685-4f72-87d8-af3edeee304a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "5f9bd3b8-597f-42fb-8bf8-43c1ee222bac"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1a0dd179-c861-4f6b-ad84-0f19d128eab2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "fd1c2441-75b0-4b91-af34-74ecae24122b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "4e61a3a7-b263-4c89-be16-69a26cf83f05"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bd104121-3813-49c1-bf60-25531b84ef72"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56109",
+    "item_id": "65286",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the values of a, b, c, and d so that the function g(x) = ax^3 + bx^2 + cx + d has a local maximum at (2, 4) and a local minimum at (0, 0).\n a = ; b = ; c = ; d =",
+    "prompt_html": "<p>Determine the values of a, b, c, and d so that the function g(x) = ax^3 + bx^2 + cx + d has a local maximum at (2, 4) and a local minimum at (0, 0).</p>\n<p>a = <span id=\"blank_3d32812e-1e34-4b9c-a4b3-6169e64f8c44\"></span>; b = <span id=\"blank_cad88b47-ed78-4665-bd58-459e563a9784\"></span>; c = <span id=\"blank_577dbe64-7952-49ba-8736-a00b01450a79\"></span>; d = <span id=\"blank_707f15b8-d07f-436c-bd5b-964aceb6f469\"></span></p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "3d32812e-1e34-4b9c-a4b3-6169e64f8c44"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "cad88b47-ed78-4665-bd58-459e563a9784"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "577dbe64-7952-49ba-8736-a00b01450a79"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "707f15b8-d07f-436c-bd5b-964aceb6f469"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56109",
+    "item_id": "65284",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Let f(x) = x^2 + px + q. Find the values of p and q such that f(1) = 5 is an extremum of f on the interval 0 <= x <= 2. Is this extremum a maximum or a minimum? Explain.\n p = ; q = ; the extremum is a .",
+    "prompt_html": "<p>Let f(x) = x^2 + px + q. Find the values of p and q such that f(1) = 5 is an extremum of f on the interval 0 &lt;= x &lt;= 2. Is this extremum a maximum or a minimum? Explain.</p>\n<p>p = <span id=\"blank_871032d9-7d21-4207-8bf9-0e5760eabcaa\"></span>; q = <span id=\"blank_e0aa9dc7-634b-4186-b53d-7ffa8e45531d\"></span>; the extremum is a <span id=\"blank_c31e6ffc-3714-4dfc-91ab-144c95915c8b\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "871032d9-7d21-4207-8bf9-0e5760eabcaa"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "e0aa9dc7-634b-4186-b53d-7ffa8e45531d"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c31e6ffc-3714-4dfc-91ab-144c95915c8b"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56109",
+    "item_id": "65279",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[K/U] Find the x- and y-intercepts of each function below. Then sketch each function.\n a. y = x^4 - 8x^2; x-intercepts: , , ; y-intercept: \n b. f(x) = 2x/(x^2 + 9); x-intercept: ; y-intercept: \n c. y = x^3 + 3x^2 + 1; x-intercept: about ; y-intercept:",
+    "prompt_html": "<p>[K/U] Find the x- and y-intercepts of each function below. Then sketch each function.</p>\n<p>a. y = x^4 - 8x^2; x-intercepts: <span id=\"blank_8cb8662f-c7fc-4c7c-8ab8-76219dd21d34\"></span>, <span id=\"blank_9d9612ba-8e0d-4292-8520-348377d48115\"></span>, <span id=\"blank_97ed854d-e0c2-4f67-96cf-396bdd798761\"></span>; y-intercept: <span id=\"blank_bd4bd5bf-a8d5-4a1f-94c9-e59ff7d8c298\"></span></p>\n<p>b. f(x) = 2x/(x^2 + 9); x-intercept: <span id=\"blank_a9e59131-b0ec-4c6b-b9e5-aa63643d8e9a\"></span>; y-intercept: <span id=\"blank_48ae6eac-aec5-4c88-89a3-08f6b996c7b4\"></span></p>\n<p>c. y = x^3 + 3x^2 + 1; x-intercept: about <span id=\"blank_800dd541-dbbd-4114-8fc3-7b60fbad9f80\"></span>; y-intercept: <span id=\"blank_70554fbb-4566-4373-b6b5-94bb10b26d59\"></span></p>",
+    "choices": [],
+    "num_blanks": 8,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "8cb8662f-c7fc-4c7c-8ab8-76219dd21d34"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9d9612ba-8e0d-4292-8520-348377d48115"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "97ed854d-e0c2-4f67-96cf-396bdd798761"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bd4bd5bf-a8d5-4a1f-94c9-e59ff7d8c298"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a9e59131-b0ec-4c6b-b9e5-aa63643d8e9a"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "48ae6eac-aec5-4c88-89a3-08f6b996c7b4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "800dd541-dbbd-4114-8fc3-7b60fbad9f80"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "70554fbb-4566-4373-b6b5-94bb10b26d59"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56109",
+    "item_id": "65282",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "[A] Given that f'(x) = (x + 1)(x - 2)(x + 6), find all the critical numbers of f. Classify each as a point where f has a local maximum, a local minimum, or neither.\n The critical numbers are x = ( ), x = ( ), and x = ( ).",
+    "prompt_html": "<p>[A] Given that f'(x) = (x + 1)(x - 2)(x + 6), find all the critical numbers of f. Classify each as a point where f has a local maximum, a local minimum, or neither.</p>\n<p>The critical numbers are x = <span id=\"blank_1fef58b8-eb04-4037-8927-9ac487df9f72\"></span> (<span id=\"blank_9bb5da70-27cc-4567-952a-967b1d76205b\"></span>), x = <span id=\"blank_f696c592-e852-4743-bbcc-af1621393f8c\"></span> (<span id=\"blank_98dcf6e2-6546-4fd4-8dc5-604ae085ea9b\"></span>), and x = <span id=\"blank_974664e0-be17-4333-acc6-3c2d39618af9\"></span> (<span id=\"blank_67441365-d8b8-4ea1-8e20-54c5eb2a65b6\"></span>).</p>",
+    "choices": [],
+    "num_blanks": 6,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "1fef58b8-eb04-4037-8927-9ac487df9f72"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "9bb5da70-27cc-4567-952a-967b1d76205b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f696c592-e852-4743-bbcc-af1621393f8c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "98dcf6e2-6546-4fd4-8dc5-604ae085ea9b"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "974664e0-be17-4333-acc6-3c2d39618af9"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "67441365-d8b8-4ea1-8e20-54c5eb2a65b6"
+        }
+      ]
+    }
+  }
+]

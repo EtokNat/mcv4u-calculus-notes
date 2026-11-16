@@ -1,0 +1,88 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9196" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 9.1 — Vector and Parametric Equations of a Line in R2</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family: 'Segoe UI',Arial,sans-serif; color: #1a1a1a; line-height: 1.7; max-width: 900px; margin: 0 auto;">
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 4px; border-bottom: 4px solid #F8660A;"><img style="height: 56px; width: auto;" src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy"> <span style="color: #10284a; font-size: 14px;">MCV4U &nbsp;•&nbsp; UNIT 9</span></div>
+<div style="background: #10284A; color: #ffffff; padding: 26px 28px; margin: 22px 0 6px; border-radius: 8px;">
+<div style="color: #f8660a; font-size: 13px;">LESSON 9.1</div>
+<h2 style="margin: 6px 0 4px; font-size: 26px;">Vector and Parametric Equations of a Line in R2</h2>
+<p style="margin: 0; color: #c9d4e6; font-size: 14px;"><em>Nelson Calculus and Vectors 12</em> §8.1 — one anchor point plus one direction vector generates every point on a line.</p>
+</div>
+<div style="background: #F4F7FB; border-left: 6px solid #10284A; border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 18px 0;">
+<h3 style="color: #10284a; margin: 0 0 8px; font-size: 17px;">🎯 Learning Goals</h3>
+<p style="margin: 0;">By the end of this lesson, you can:</p>
+<ul style="margin: 8px 0 0;">
+<li>Write the <strong>vector equation</strong> r = r<sub>0</sub> + tm of a line in R2 from a point and a direction vector.</li>
+<li>Write the matching <strong>parametric equations</strong> x = x<sub>0</sub> + ta, y = y<sub>0</sub> + tb.</li>
+<li>Test whether a point lies on a line, find intercepts, and recognize equivalent forms of the same line.</li>
+</ul>
+</div>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">💡 Minds On</h3>
+<p>A line in R2 is completely pinned down by just two pieces of information: one point it passes through and one <strong>direction vector</strong> m = (a, b) — a nonzero vector pointing along the line. The components of m are called its <strong>direction numbers</strong>. Because stretching a direction vector (multiplying it by any nonzero scalar) doesn't change the direction it points, <em>every</em> nonzero scalar multiple of a direction vector is also a valid direction vector — but the zero vector is never allowed, since it would give the line no direction at all. Game programmers (the chapter's Career Link) use exactly this idea: one anchor point plus a direction describes the path of a bouncing ball.</p>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17397" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17397" data-api-returntype="Assignment">▶ Start the Lesson 9.1 Interactive Video Check</a></p> <h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">🔍 Explore — the parameter t at work</h3>
+<iframe style="border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" title="Desmos graphing calculator" src="https://www.desmos.com/calculator?embed" width="100%" height="520" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, add a slider <strong><em>t</em></strong> from −10 to 10, then plot the point <strong><em>(1 − 3t, 4 + 3t)</em></strong>. Drag the slider: what does the point trace? What does the point's position at t = 0 represent?</li>
+<li>Test the points <strong><em>Q(−21, 23)</em></strong> and <strong><em>R(−29, 34)</em></strong>: is there a slider value t that lands the moving point on each one? What does it mean if there isn't?</li>
+<li>Now use the simpler direction vector (−1, 1): plot <strong><em>(1 − s, 4 + s)</em></strong> with a slider s. Compare the two traces. Are they the same line?</li>
+</ol>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">📖 Learn — step by step</h3>
+<h4 style="color: #10284a; margin: 16px 0 6px;">The vector equation of a line</h4>
+<p>Let P<sub>0</sub>(x<sub>0</sub>, y<sub>0</sub>) be a known point on the line with position vector r<sub>0</sub>, and let P(x, y) be any general point on the line with position vector r. The vector from P<sub>0</sub> to P points along the line, so it must be a scalar multiple of the direction vector m: P<sub>0</sub>P = tm. Adding vectors tip-to-tail (the triangle law) gives OP = OP<sub>0</sub> + P<sub>0</sub>P, that is, the <strong>vector equation</strong></p>
+<p style="text-align: center; background: #F4F7FB; border-radius: 8px; padding: 10px 14px;"><strong>r = r<sub>0</sub> + tm, &nbsp;t ∈ R</strong></p>
+<p>Every value of the <strong>parameter</strong> t produces a different point of the line; as t sweeps over all real numbers, r sweeps over the entire line.</p>
+<p style="text-align: center;"><img style="max-width: 480px; width: 100%; height: auto; border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" src="https://bronston.instructure.com/courses/616/files/54882/preview?" alt="Triangle-law diagram showing r = r0 + tm with origin O, points P0 and P" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54882" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color: #10284a; margin: 16px 0 6px;">The parametric equations of a line</h4>
+<p>Writing r = (x, y), r<sub>0</sub> = (x<sub>0</sub>, y<sub>0</sub>), and m = (a, b) component-wise gives the <strong>parametric equations</strong></p>
+<p style="text-align: center; background: #F4F7FB; border-radius: 8px; padding: 10px 14px;"><strong>x = x<sub>0</sub> + ta, &nbsp;y = y<sub>0</sub> + tb, &nbsp;t ∈ R</strong></p>
+<p>It is often convenient to simplify a direction vector first — dividing out common factors or clearing fractions keeps the arithmetic clean, since any nonzero scalar multiple works.</p>
+<p style="text-align: center;"><img style="max-width: 480px; width: 100%; height: auto; border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" src="https://bronston.instructure.com/courses/616/files/54871/preview?" alt="Line through P(4,3) with direction vector m = (-7,1) drawn with its tail at the origin" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54871" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-radius: 8px; padding: 14px 18px; margin: 12px 0px; border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10);">
+<p style="margin: 0 0 6px;"><strong style="color: #10284a;">Example 1</strong> — Write the vector and parametric equations of the line through A(1, 4) with direction vector m = (−3, 3). Use the equations to decide whether Q(−21, 23) and R(−29, 34) lie on the line.</p>
+<p style="margin: 0;"><strong>Solution.</strong> With r<sub>0</sub> = (1, 4) and m = (−3, 3), the vector equation is<br>r = (1, 4) + t(−3, 3), &nbsp;t ∈ R.<br>Component-wise, the parametric equations are<br>x = 1 − 3t, &nbsp;y = 4 + 3t, &nbsp;t ∈ R.<br><em>(Simplify the direction vector.)</em> Since (−3, 3) = −3(1, −1) = 3(−1, 1), a neater equivalent form uses m = (−1, 1):<br>r = (1, 4) + s(−1, 1), &nbsp;s ∈ R, &nbsp; i.e. &nbsp;x = 1 − s, &nbsp;y = 4 + s.<br><em>(Test Q(−21, 23).)</em> From x = 1 − s = −21 we get s = 22, but then y = 4 + 22 = 26 ≠ 23. The two equations give <strong>inconsistent</strong> parameter values, so Q is <strong>not</strong> on the line.<br><em>(Test R(−29, 34).)</em> From x = 1 − s = −29 we get s = 30, and y = 4 + 30 = 34 ✓. Both equations agree (s = 30), so R <strong>is</strong> on the line.<br><strong>Answer: r = (1, 4) + t(−3, 3); x = 1 − 3t, y = 4 + 3t. R is on the line (t-equivalent s = 30); Q is not.</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-radius: 8px; padding: 14px 18px; margin: 12px 0px; border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10);">
+<p style="margin: 0 0 6px;"><strong style="color: #10284a;">Example 2</strong> — Write vector and parametric equations of the line through E(−1, 5) and F(6, 11), and find its x-intercept.</p>
+<p style="margin: 0;"><strong>Solution.</strong> <em>(Direction vector.)</em> EF = (6 − (−1), 11 − 5) = <strong>(7, 6)</strong>.<br>With r<sub>0</sub> = (−1, 5):<br>r = (−1, 5) + s(7, 6), &nbsp;s ∈ R; &nbsp; x = −1 + 7s, &nbsp;y = 5 + 6s.<br><em>(x-intercept: set y = 0.)</em> 5 + 6s = 0 → s = −5/6. Then x = −1 + 7(−5/6) = −1 − 35/6 = <strong>−41/6</strong>.<br><strong>Answer: r = (−1, 5) + s(7, 6); x = −1 + 7s, y = 5 + 6s. The x-intercept is (−41/6, 0).</strong></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-radius: 8px; padding: 14px 18px; margin: 12px 0px; border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10);">
+<p style="margin: 0 0 6px;"><strong style="color: #10284a;">Example 3</strong> — Write a vector equation of the line through P(6, 5) that is perpendicular to the line r = (4, 1) + s(−3, 2).</p>
+<p style="margin: 0;"><strong>Solution.</strong> <em>(Find a perpendicular direction.)</em> The given line has direction (−3, 2). A vector (a, b) perpendicular to it satisfies (−3, 2)·(a, b) = 0, i.e. −3a + 2b = 0. Choosing a = 2 gives b = 3, so <strong>(2, 3)</strong> is a perpendicular direction vector.<br><em>(Anchor at P.)</em> r = (6, 5) + t(2, 3), &nbsp;t ∈ R.<br><strong>Answer: r = (6, 5) + t(2, 3).</strong></p>
+</div>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 8.1.</p>
+<details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 1</strong> — Write a vector equation and the parametric equations of the line through A(2, 1) and B(−3, 5).</summary>
+<p>Direction vector: AB = (−3 − 2, 5 − 1) = <strong>(−5, 4)</strong>. Vector equation: <strong>r = (2, 1) + t(−5, 4)</strong>, t ∈ R. Parametric: <strong>x = 2 − 5t, y = 1 + 4t</strong>.</p>
+</details><details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 2</strong> — Does P(−14, 15) lie on the line x = 1 + 3t, y = 5 − 2t?</summary>
+<p>From x: 1 + 3t = −14 → t = −5. Check y: 5 − 2(−5) = 15 ✓. Both equations agree, so <strong>yes, P is on the line (t = −5)</strong>.</p>
+</details><details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 3 - Explain why (-2, -1), (2, 1), and (7, 7/2) are all acceptable direction vectors for the line r = (12, 34) + s(2, 1).<br><br></strong>The given line has direction vector (2, 1). Any nonzero scalar multiple of a direction vector is also a direction vector for the same line: (-2, -1) = -1(2, 1) and (7, 7/2) = (7/2)(2, 1), so each points along the same line.</summary>
+</details><details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 4</strong> — A student "simplifies" r = (1/3, 1/7) + p(−2, 3) by multiplying the point (1/3, 1/7) by 21 to get r = (7, 3) + p(−2, 3). Explain the error.</summary>
+<p>Multiplying the <strong>anchor point</strong> by 21 changes the point itself — (7, 3) is not the same point as (1/3, 1/7), and it is not on the original line (check: (1/3, 1/7) + p(−2, 3) = (7, 3) would need p = −10/3 from the x-coordinate but p = 20/21 from the y-coordinate). Only the <strong>direction vector</strong> may be scaled by a nonzero constant; the anchor point must stay put.</p>
+</details>
+<div style="background: #10284A; color: #ffffff; border-radius: 8px; padding: 16px 20px; margin: 18px 0;">
+<h3 style="margin: 0 0 8px; font-size: 17px; color: #f8660a;">📝 Lesson Summary</h3>
+<p style="margin: 0 0 6px;"><strong style="color: #f8660a;">Key ideas</strong></p>
+<ul style="margin: 0 0 10px;">
+<li>A line in R2 needs one point (position vector r<sub>0</sub>) and one nonzero direction vector m = (a, b).</li>
+<li><strong>Vector equation:</strong> r = r<sub>0</sub> + tm, t ∈ R. <strong>Parametric equations:</strong> x = x<sub>0</sub> + ta, y = y<sub>0</sub> + tb.</li>
+<li>Any nonzero scalar multiple of m is also a direction vector; the zero vector is never allowed.</li>
+<li>To test a point: solve for the parameter in both parametric equations — consistent values mean the point is on the line.</li>
+</ul>
+<p style="margin: 0 0 6px;"><strong style="color: #f8660a;">Need to know</strong></p>
+<ul style="margin: 0;">
+<li>Simplify direction vectors (integer components, common factors removed) before doing arithmetic.</li>
+<li>Different-looking equations can describe the same line — check shared points and parallel directions.</li>
+<li>Next: Lesson 9.2 — the <strong>Cartesian (scalar) equation</strong> Ax + By + C = 0.</li>
+</ul>
+</div>
+<div style="text-align: center; color: #8a94a6; font-size: 12px; padding: 10px 0 4px; border-top: 2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Lines and Planes</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

@@ -1,0 +1,263 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "Excited \u2014 I like seeing math used in real situations",
+            "id": "9e38a34b-4d02-4930-896b-4eff6f9c8559",
+            "position": 1
+          },
+          {
+            "item_body": "Curious, but a little nervous",
+            "id": "bea4d937-c34f-4a94-9204-8f2a3ddc8fe3",
+            "position": 2
+          },
+          {
+            "item_body": "Neutral \u2014 I'll see how it goes",
+            "id": "3ea8ad24-58c9-4b56-8df1-c367bdabdb02",
+            "position": 3
+          },
+          {
+            "item_body": "Dreading it \u2014 word problems stress me out",
+            "id": "58e53007-0f65-4762-b157-0e79569d4644",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div><p>How do you feel about starting a unit on real-world applications of derivatives (motion, maximizing profit, minimizing cost)?</p></div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45389",
+      "label": null,
+      "title": "Q1: Feelings about the unit",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "34225",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "Feeling confident turning word problems into math models",
+            "id": "9065529f-e0db-4f4c-ab84-81c828c43b9d",
+            "position": 1
+          },
+          {
+            "item_body": "Getting the computations (derivatives, algebra) right every time",
+            "id": "856355a5-a3b9-406a-8f84-18775db66a60",
+            "position": 2
+          },
+          {
+            "item_body": "Understanding what derivatives <em>mean</em> in context (velocity, marginal cost, \u2026)",
+            "id": "58dbafe8-2714-4ffc-a418-2f90087a1d8b",
+            "position": 3
+          },
+          {
+            "item_body": "Being able to explain my reasoning clearly in writing",
+            "id": "57cce788-50be-432d-bbc1-e3b1a7ffbb96",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div><p>What would make this unit feel successful for you?</p></div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45392",
+      "label": null,
+      "title": "Q2: What would make this unit successful",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "34228",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false,
+        "userResponse": {
+          "value": {}
+        }
+      },
+      "item_body": "<div><p>What is one specific goal you have for this unit on derivatives and their applications?</p></div>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45394",
+      "label": null,
+      "title": "Q3: Personal goal for the unit",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "34231",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false,
+        "userResponse": {
+          "value": {}
+        }
+      },
+      "item_body": "<div><p>Is there anything you'd like your teacher to know before this unit begins? (For example: topics you find tricky, how you learn best, or anything going on that might affect your work.)</p></div>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45398",
+      "label": null,
+      "title": "Q4: Note for the teacher",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "34234",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "Very confident",
+            "id": "1b7be940-f7c9-49db-94ff-5c6959c7bd10",
+            "position": 1
+          },
+          {
+            "item_body": "Somewhat confident",
+            "id": "d57df4ac-6356-47a5-95cb-0dd041a908e5",
+            "position": 2
+          },
+          {
+            "item_body": "Not very confident",
+            "id": "ee90218d-a874-4a1c-9465-4fc76b067483",
+            "position": 3
+          },
+          {
+            "item_body": "Not confident at all",
+            "id": "121e3461-bd0f-4e42-8e9e-7b1b85609b91",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<div><p>How confident are you with word problems \u2014 reading a situation and setting up the math model yourself?</p></div>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45400",
+      "label": null,
+      "title": "Q5: Confidence with word problems",
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "34237",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  }
+]

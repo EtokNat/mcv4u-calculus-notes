@@ -1,0 +1,203 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "55993",
+    "item_id": "64922",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Calculate the product of each radical expression and its corresponding conjugate.\n a. √5 - √2 \n b. 3√5 + 2√2 \n c. 9 + 2√5 \n d. 3√5 - 2√10",
+    "prompt_html": "<p>Calculate the product of each radical expression and its corresponding conjugate.</p>\n<p>a. √5 - √2 <span id=\"blank_e7bd5f0d-582f-4e1b-ab29-73573dde1461\"></span></p>\n<p>b. 3√5 + 2√2 <span id=\"blank_de7e186e-6e00-41e8-8d19-31e68529f8d3\"></span></p>\n<p>c. 9 + 2√5 <span id=\"blank_70be1f92-9ee8-41e2-a7f7-555ee61469b5\"></span></p>\n<p>d. 3√5 - 2√10 <span id=\"blank_1dd81f09-ef6a-4481-a665-03a79b6ef92b\"></span></p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "e7bd5f0d-582f-4e1b-ab29-73573dde1461"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "de7e186e-6e00-41e8-8d19-31e68529f8d3"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "70be1f92-9ee8-41e2-a7f7-555ee61469b5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "1dd81f09-ef6a-4481-a665-03a79b6ef92b"
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "55994",
+    "item_id": "64925",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the slope of the tangent to each curve at the given value of x.\n a. y = 3x², x = -2 \n b. y = x² - x, x = 3 \n c. y = x³, x = -2",
+    "prompt_html": "<p>Determine the slope of the tangent to each curve at the given value of x.</p>\n<p>a. y = 3x², x = -2 <span id=\"blank_575ad890-0825-4978-ab65-7cd54a5c6be0\"></span></p>\n<p>b. y = x² - x, x = 3 <span id=\"blank_2bb1710d-c114-4826-850c-211eeadb1ac2\"></span></p>\n<p>c. y = x³, x = -2 <span id=\"blank_ebe32f5a-5425-4423-b021-c72da4e32f5a\"></span></p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "575ad890-0825-4978-ab65-7cd54a5c6be0"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "2bb1710d-c114-4826-850c-211eeadb1ac2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ebe32f5a-5425-4423-b021-c72da4e32f5a"
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "55994",
+    "item_id": "64927",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the slope of the tangent to each curve at the given value of x.\n a. y = 8/x, x = 2 \n b. y = 8/(3 + x), x = 1 \n c. y = 1/(x + 2), x = 3",
+    "prompt_html": "<p>Determine the slope of the tangent to each curve at the given value of x.</p>\n<p>a. y = 8/x, x = 2 <span id=\"blank_115183de-9b62-4180-92d7-f2e92b172fdd\"></span></p>\n<p>b. y = 8/(3 + x), x = 1 <span id=\"blank_48545415-acc0-4993-83b4-346e6db902bc\"></span></p>\n<p>c. y = 1/(x + 2), x = 3 <span id=\"blank_bc5967f2-9dff-4b8b-8619-ccca65644849\"></span></p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "115183de-9b62-4180-92d7-f2e92b172fdd"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "48545415-acc0-4993-83b4-346e6db902bc"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "bc5967f2-9dff-4b8b-8619-ccca65644849"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "55994",
+    "item_id": "64935",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Evaluate the limit of each difference quotient. Interpret the limit as the slope of the tangent to a curve at a specific point.\n a. lim(h→0) [(5 + h)² - 25]/h \n b. lim(h→0) [√(4 + h) - 2]/h \n c. lim(h→0) [(1/(4 + h) - 1/4)]/h",
+    "prompt_html": "<p>Evaluate the limit of each difference quotient. Interpret the limit as the slope of the tangent to a curve at a specific point.</p>\n<p>a. lim(h→0) [(5 + h)² - 25]/h <span id=\"blank_1c6c3a55-e3fe-4d8c-9a69-3fd6b94d9bc2\"></span></p>\n<p>b. lim(h→0) [√(4 + h) - 2]/h <span id=\"blank_373c7acd-c6f5-47a2-b796-7497f55b7fe8\"></span></p>\n<p>c. lim(h→0) [(1/(4 + h) - 1/4)]/h <span id=\"blank_3d511be1-f542-49c3-92e9-83c794fc6c9b\"></span></p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "1c6c3a55-e3fe-4d8c-9a69-3fd6b94d9bc2"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "373c7acd-c6f5-47a2-b796-7497f55b7fe8"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "3d511be1-f542-49c3-92e9-83c794fc6c9b"
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "55994",
+    "item_id": "64936",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "Consider the graph of the function f(x) = 5x² - 8x. Calculate the slope of the secant that joins the points on the graph given by x = -2 and x = 1.",
+    "prompt_html": "<p>Consider the graph of the function f(x) = 5x² - 8x. Calculate the slope of the secant that joins the points on the graph given by x = -2 and x = 1.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "55994",
+    "item_id": "64934",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Calculate the slope of the graph of f(x) = {4 - x², if x ≤ 1; 2x + 1, if x > 1} at each of the following points:\n a. P(-1, 3) \n b. P(2, 5)",
+    "prompt_html": "<p>Calculate the slope of the graph of f(x) = {4 - x², if x ≤ 1; 2x + 1, if x &gt; 1} at each of the following points:</p>\n<p>a. P(-1, 3) <span id=\"blank_5a2286e3-a158-4d8b-980b-e29a5c21dd6c\"></span></p>\n<p>b. P(2, 5) <span id=\"blank_285dd3ff-31e6-4a19-93b8-dff7f798df9a\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "5a2286e3-a158-4d8b-980b-e29a5c21dd6c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "285dd3ff-31e6-4a19-93b8-dff7f798df9a"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "55994",
+    "item_id": "64931",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Find the coordinates of the point on the curve f(x) = 3x² - 4x where the tangent is parallel to the line y = 8x.\n x = \n y =",
+    "prompt_html": "<p>Find the coordinates of the point on the curve f(x) = 3x² - 4x where the tangent is parallel to the line y = 8x.</p>\n<p>x = <span id=\"blank_2c801a67-98fd-4fcc-9a13-cbd2336870c4\"></span></p>\n<p>y = <span id=\"blank_0f1d7428-4a43-4fe0-a379-ea9647fd46b4\"></span></p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "2c801a67-98fd-4fcc-9a13-cbd2336870c4"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "0f1d7428-4a43-4fe0-a379-ea9647fd46b4"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "55994",
+    "item_id": "64933",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Calculate the slope of the tangent to the given function at the given point or value of x.\n a. f(x) = 3/(x + 1), P(2, 1) \n b. g(x) = √(x + 2), P(-1, 1) \n c. h(x) = 2/√(x + 5), P(4, 2/3) \n d. f(x) = 5/(x - 2), P(4, 5/2)",
+    "prompt_html": "<p>Calculate the slope of the tangent to the given function at the given point or value of x.</p>\n<p>a. f(x) = 3/(x + 1), P(2, 1) <span id=\"blank_b8e7373f-2a92-458d-95d6-e73651af9b02\"></span></p>\n<p>b. g(x) = √(x + 2), P(-1, 1) <span id=\"blank_b98ad469-2c0c-4eb0-97b6-f0b05fa23762\"></span></p>\n<p>c. h(x) = 2/√(x + 5), P(4, 2/3) <span id=\"blank_a9b145c0-a620-41bf-b5ba-2a057f1a35f8\"></span></p>\n<p>d. f(x) = 5/(x - 2), P(4, 5/2) <span id=\"blank_617e0298-f534-4708-b1ee-5c93423880b7\"></span></p>",
+    "choices": [],
+    "num_blanks": 4,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "b8e7373f-2a92-458d-95d6-e73651af9b02"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "b98ad469-2c0c-4eb0-97b6-f0b05fa23762"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "a9b145c0-a620-41bf-b5ba-2a057f1a35f8"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "617e0298-f534-4708-b1ee-5c93423880b7"
+        }
+      ]
+    }
+  }
+]

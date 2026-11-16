@@ -1,0 +1,89 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9163" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 3.4 — Optimization in Action: Area, Volume, and Distance</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family: 'Segoe UI',Arial,sans-serif; color: #1a1a1a; line-height: 1.7; max-width: 900px; margin: 0 auto;">
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 4px; border-bottom: 4px solid #F8660A;"><img style="height: 56px; width: auto;" src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy"> <span style="color: #10284a; font-size: 14px;">MCV4U &nbsp;•&nbsp; UNIT 3</span></div>
+<div style="background: #10284A; color: #ffffff; padding: 26px 28px; margin: 22px 0 6px; border-radius: 8px;">
+<div style="color: #f8660a; font-size: 13px;">LESSON 3.4</div>
+<h2 style="margin: 6px 0 4px; font-size: 26px;">Optimization in Action: Area, Volume, and Distance</h2>
+<p style="margin: 0; color: #c9d4e6; font-size: 14px;"><em>Nelson Calculus and Vectors 12</em> §3.3 — build a one-variable model, then let the extreme-value algorithm do the work.</p>
+</div>
+<div style="background: #F4F7FB; border-left: 6px solid #10284A; border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 18px 0;">
+<h3 style="color: #10284a; margin: 0 0 8px; font-size: 17px;">🎯 Learning Goals</h3>
+<p style="margin: 0;">By the end of this lesson, you can:</p>
+<ul style="margin: 8px 0 0;">
+<li>Follow the five-step <strong>optimization algorithm</strong>.</li>
+<li>Set up area, volume, and distance models with a <strong>labelled diagram</strong> and a correct <strong>domain</strong>.</li>
+<li>Interpret endpoints that give <strong>impossible</strong> results.</li>
+</ul>
+</div>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">💡 Minds On</h3>
+<p>We frequently encounter situations in which we are asked to do the best we can — minimize cost, maximize area. Such a procedure is called <strong>optimization</strong>: realizing the best possible outcome, subject to a set of restrictions. Because of the restrictions, the domain of the function is usually restricted — and the maximum or minimum might occur at the ends of the restricted domain.</p>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17364" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17364" data-api-returntype="Assignment">▶ Start the Lesson 3.4 Interactive Video Check</a></p> <h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">🔍 Explore — the fence problem live</h3>
+<iframe style="border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" title="Desmos graphing calculator" src="https://www.desmos.com/calculator?embed" width="100%" height="520" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, graph the area function from Example 1: <strong><em>A(x) = x(800 - 2x)</em></strong> for 0 &lt; x &lt; 400.</li>
+<li>Where is the peak? Read off the x-value and the maximum area.</li>
+<li>Drag a point along the curve: at the endpoints the "field" collapses to zero area. Why does the interior critical point win here?</li>
+</ol>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">📖 Learn — step by step</h3>
+<div style="background: rgb(255, 246, 239); border-radius: 8px; padding: 14px 18px; margin: 14px 0px; border-width: 2px; border-style: solid; border-color: rgb(248, 102, 10);"><strong style="color: #10284a;">Algorithm for Solving Optimization Problems.</strong>
+<ol style="margin: 8px 0 0;">
+<li>Understand the problem; identify what varies. Write the quantity to optimize as a <strong>function of one variable</strong>.</li>
+<li>Whenever possible, <strong>draw a diagram</strong>, labelling the given and required quantities.</li>
+<li>Determine the <strong>domain</strong> of the function from the given information.</li>
+<li>Apply the <strong>extreme-value algorithm</strong> to find the absolute maximum or minimum in the domain.</li>
+<li>Use the result to <strong>answer the original problem</strong>.</li>
+</ol>
+</div>
+<div style="background: rgb(255, 246, 239); border-radius: 8px; padding: 14px 18px; margin: 12px 0px; border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10);">
+<p style="margin: 0 0 6px;"><strong style="color: #10284a;">Example 1</strong> — A farmer has 800 m of fencing and wishes to enclose a rectangular field. One side of the field is against a country road that is already fenced, so the farmer needs to fence only the remaining three sides. The farmer wants the maximum possible area using all the fencing. What dimensions achieve this?</p>
+<p style="text-align: center;"><img style="max-width: 420px; width: 100%; height: auto; border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" src="https://bronston.instructure.com/courses/616/files/54786/preview?" alt="Fence diagram: rectangle with road along the fourth side" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54786" data-api-returntype="File" loading="lazy"></p>
+<p style="margin: 0;"><strong>Solution.</strong> Let the width of the enclosed area be x metres. Then the length is (800 − 2x) m, and the area is<br>A(x) = x(800 − 2x) = 800x − 2x².<br>The domain is <strong>0 &lt; x &lt; 400</strong>, since the fencing totals 800 m. To find extreme values, A′(x) = 800 − 4x. Setting A′(x) = 0 gives x = 200.<br>The minimum and maximum can occur at x = 200 or at the ends x = 0 and x = 400:<br>A(0) = 0; &nbsp; A(200) = 200(800 − 400) = 80 000; &nbsp; A(400) = 400(800 − 800) = 0.<br>Sometimes the ends of the domain produce impossible results — here x = 200 gives the maximum, while the ends give zero-area "rectangles" that are not possible dimensions.<br>The maximum area is <strong>80 000 m²</strong>, in a field <strong>200 m by 400 m</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-radius: 8px; padding: 14px 18px; margin: 12px 0px; border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10);">
+<p style="margin: 0 0 6px;"><strong style="color: #10284a;">Example 2</strong> — A piece of sheet metal, 60 cm by 30 cm, is to be used to make a rectangular box with an open top. Determine the dimensions that give the box with the largest volume.</p>
+<p style="text-align: center;"><img style="max-width: 480px; width: 100%; height: auto; border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" src="https://bronston.instructure.com/courses/616/files/54797/preview?" alt="Sheet metal with corner squares cut out, and the folded open box" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54797" data-api-returntype="File" loading="lazy"></p>
+<p style="margin: 0;"><strong>Solution.</strong> Cut corner squares of side x cm and fold up the sides. Then height = x, length = 60 − 2x, width = 30 − 2x. Since all dimensions are positive, <strong>0 &lt; x &lt; 15</strong>.<br>V(x) = x(60 − 2x)(30 − 2x) = 4x³ − 180x² + 1800x.<br>For extreme values, set V′(x) = 0: V′(x) = 12x² − 360x + 1800 = 12(x² − 30x + 150). Solving x² − 30x + 150 = 0 by the quadratic formula:<br>x = [30 ± √300]/2 = 15 ± 5√3, so x ≈ 23.7 or x ≈ <strong>6.3</strong>.<br>Since 0 &lt; x &lt; 15, only x = 15 − 5√3 ≈ 6.3 is in the interval. V(6.3) = 4(6.3)³ − 180(6.3)² + 1800(6.3) ≈ <strong>5196</strong>.<br>The endpoints need no test — x = 0 or x = 15 makes no box at all.<br>Maximum volume comes from corner squares of side <strong>6.3 cm</strong>: the box is about <strong>47.4 cm × 17.4 cm × 6.3 cm</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-radius: 8px; padding: 14px 18px; margin: 12px 0px; border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10);">
+<p style="margin: 0 0 6px;"><strong style="color: #10284a;">Example 3</strong> — Ian and Ada are training for a marathon. Ian's house is 20 km north of Ada's house. At 9:00 a.m. one Saturday, Ian leaves home jogging south at 8 km/h while Ada leaves home jogging east at 6 km/h. When are Ian and Ada closest together, if they both run for 2.5 h?</p>
+<p style="text-align: center;"><img style="max-width: 400px; width: 100%; height: auto; border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);" src="https://bronston.instructure.com/courses/616/files/54803/preview?" alt="Right triangle diagram: Ian south, Ada east, separation s" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54803" data-api-returntype="File" loading="lazy"></p>
+<p style="margin: 0;"><strong>Solution.</strong> After t hours, Ian has jogged IJ = 8t km south, so JA = (20 − 8t) km; Ada has jogged AB = 6t km east. Their separation is s = JB, with<br>s(t) = √(JA² + AB²) = √((20 − 8t)² + (6t)²) = √(100t² − 320t + 400) = (100t² − 320t + 400)^(1/2).<br>The domain is <strong>0 ≤ t ≤ 2.5</strong>. Differentiating,<br>s′(t) = (1/2)(100t² − 320t + 400)^(−1/2)(200t − 320) = (100t − 160)/√(100t² − 320t + 400).<br>Setting s′(t) = 0 gives 100t − 160 = 0, so t = <strong>1.6</strong>. Applying the extreme-value algorithm:<br>s(0) = √400 = 20; &nbsp; s(1.6) = √(100(1.6)² − 320(1.6) + 400) = 12; &nbsp; s(2.5) = √225 = 15.<br>The minimum separation is <strong>12 km</strong>, at t = 1.6 h — that is, at <strong>10:36 a.m.</strong></p>
+</div>
+<h3 style="color: #10284a; font-size: 19px; border-bottom: 3px solid #F8660A; display: inline-block; padding-bottom: 4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 3.3.</p>
+<details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 1</strong> — A 100 cm wire is bent into a rectangle. What dimensions give the maximum area?</summary>
+<p>Let one side be x: A = x(50 − x); A′ = 50 − 2x = 0 → x = 25. A <strong>25 cm × 25 cm square</strong> (625 cm²).</p>
+</details><details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 2</strong> — A rectangle has perimeter 440 cm. What dimensions maximize its area?</summary>
+<p>A = x(220 − x); A′ = 220 − 2x = 0 → x = 110. A <strong>110 cm × 110 cm square</strong>.</p>
+</details><details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 3</strong> — A rectangle has area 64 m². What dimensions give the smallest perimeter?</summary>
+<p>P = 2x + 128/x; P′ = 2 − 128/x² = 0 → x = 8. An <strong>8 m × 8 m square</strong> (perimeter 32 m).</p>
+</details><details style="background: rgb(255, 255, 255); border-radius: 8px; padding: 12px 16px; margin: 10px 0px; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227);">
+<summary style="cursor: pointer; color: #10284a;"><strong>Question 4</strong> — A farmer has 600 m of fence beside a river (3 sides fenced). What dimensions maximize the area?</summary>
+<p>A = x(600 − 2x); A′ = 600 − 4x = 0 → x = 150. <strong>150 m × 300 m</strong> (45 000 m²).</p>
+</details>
+<div style="background: #10284A; color: #ffffff; border-radius: 8px; padding: 16px 20px; margin: 18px 0;">
+<h3 style="margin: 0 0 8px; font-size: 17px; color: #f8660a;">📝 Lesson Summary</h3>
+<p style="margin: 0 0 6px;"><strong style="color: #f8660a;">Key ideas</strong></p>
+<ul style="margin: 0 0 10px;">
+<li>In an optimization problem, determine the <strong>maximum or minimum value of a quantity</strong>.</li>
+<li>Solve it with a <strong>mathematical model</strong> built from the problem's information — the numerical solution is the extreme value of the model.</li>
+</ul>
+<p style="margin: 0 0 6px;"><strong style="color: #f8660a;">Need to know — the algorithm</strong></p>
+<ul style="margin: 0;">
+<li>One-variable function → labelled diagram → domain from the constraints → extreme-value algorithm → answer the original question.</li>
+<li>Endpoints can hold the optimum — but check they are physically possible.</li>
+<li>Next: Lesson 3.5 — <strong>maximizing revenue and profit</strong>.</li>
+</ul>
+</div>
+<div style="text-align: center; color: #8a94a6; font-size: 12px; padding: 10px 0 4px; border-top: 2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Applications of Derivatives</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

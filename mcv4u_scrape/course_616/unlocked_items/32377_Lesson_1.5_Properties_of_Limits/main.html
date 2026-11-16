@@ -1,0 +1,153 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9152" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 1.5 — Properties of Limits</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 1</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 1.5</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Properties of Limits</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §1.5 — the algebraic toolbox: substitution, factoring, rationalizing, and more.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Evaluate limits using the <strong>seven limit properties</strong> (including direct substitution for polynomials).</li>
+<li>Recognize the <strong>indeterminate form 0/0</strong> and resolve it by <strong>factoring</strong>, <strong>rationalizing</strong>, or a <strong>change of variable</strong>.</li>
+<li>Use <strong>one-sided limits</strong> to show a limit does not exist.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Saying <strong>lim<sub>x→a</sub> f(x) = L</strong> means the values of f(x) get closer and closer to <em>L</em> as x gets closer and closer to <em>a</em> — from either side, with x ≠ a. When finding a limit there is <strong>no need to consider x = a</strong>; in fact, f(a) need not even be defined. <strong>The only thing that matters is the behaviour of f(x) near x = a.</strong></p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17353" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17353" data-api-returntype="Assignment">▶ Start the Lesson 1.5 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — guess, then verify</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, graph <strong><em>y = (x^2 - 2x - 3)/(x - 3)</em></strong>. What happens at x = 3? Zoom in near x = 3 — what y-value does the graph approach?</li>
+<li>Now graph <strong><em>y = x + 1</em></strong> on the same axes. Compare the two graphs everywhere <em>except</em> x = 3.</li>
+<li><strong>Conclusion:</strong> the two functions agree for all x ≠ 3, so they share the same limit as x → 3. Simplifying to an <em>equivalent function</em> is the whole strategy of this lesson.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Find lim<sub>x→2</sub> (3x² + 4x − 1).</p>
+<p style="margin:0;"><strong>Solution.</strong> It seems clear that when x is close to 2, 3x² is close to 12, and 4x is close to 8. Therefore, it appears that lim<sub>x→2</sub> (3x² + 4x − 1) = 12 + 8 − 1 = <strong>19</strong>.</p>
+</div>
+<p>In Example 1 the limit was found intuitively. Limits can also be evaluated with the following <strong>properties of limits</strong> (provable from the formal definition — the proofs belong to more advanced courses). For any real number <em>a</em>, suppose f and g both have limits that exist at x = a:</p>
+<div style="background: rgb(255, 246, 239); border-width: 2px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 14px 0px;">
+<strong style="color:#10284A;">Properties of Limits.</strong>
+<ol style="margin:8px 0 0;">
+<li>lim<sub>x→a</sub> k = k, for any constant k</li>
+<li>lim<sub>x→a</sub> x = a</li>
+<li>lim<sub>x→a</sub> [f(x) ± g(x)] = lim<sub>x→a</sub> f(x) ± lim<sub>x→a</sub> g(x)</li>
+<li>lim<sub>x→a</sub> [c f(x)] = c[lim<sub>x→a</sub> f(x)], for any constant c</li>
+<li>lim<sub>x→a</sub> [f(x) g(x)] = [lim<sub>x→a</sub> f(x)][lim<sub>x→a</sub> g(x)]</li>
+<li>lim<sub>x→a</sub> f(x)/g(x) = [lim<sub>x→a</sub> f(x)]/[lim<sub>x→a</sub> g(x)], provided lim<sub>x→a</sub> g(x) ≠ 0</li>
+<li>lim<sub>x→a</sub> [f(x)]<sup>n</sup> = [lim<sub>x→a</sub> f(x)]<sup>n</sup>, for any rational number n</li>
+</ol>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Evaluate lim<sub>x→2</sub> (3x² + 4x − 1) using the limit properties.</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+lim<sub>x→2</sub> (3x² + 4x − 1) = lim<sub>x→2</sub> (3x²) + lim<sub>x→2</sub> (4x) − lim<sub>x→2</sub> (1)<br>
+= 3 lim<sub>x→2</sub> (x²) + 4 lim<sub>x→2</sub> (x) − 1<br>
+= 3[lim<sub>x→2</sub> x]² + 4(2) − 1<br>
+= 3(2)² + 8 − 1<br>
+= <strong>19</strong>.<br>
+<em>Note: if f is a polynomial function, then lim<sub>x→a</sub> f(x) = f(a).</em></p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Evaluate lim<sub>x→−1</sub> (x² − 5x + 2)/(2x³ + 3x + 1).</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+lim<sub>x→−1</sub> (x² − 5x + 2)/(2x³ + 3x + 1) = [lim<sub>x→−1</sub> (x² − 5x + 2)]/[lim<sub>x→−1</sub> (2x³ + 3x + 1)]<br>
+= [(−1)² − 5(−1) + 2]/[2(−1)³ + 3(−1) + 1]<br>
+= 8/(−4)<br>
+= <strong>−2</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 4</strong> — Evaluate lim<sub>x→5</sub> √(x²/(x − 1)).</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+lim<sub>x→5</sub> √(x²/(x − 1)) = √[lim<sub>x→5</sub> x²/(x − 1)]<br>
+= √[(lim<sub>x→5</sub> x²)/(lim<sub>x→5</sub> (x − 1))]<br>
+= √(25/4)<br>
+= <strong>5/2</strong>.</p>
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">When substitution gives 0/0</h4>
+<p>Sometimes lim<sub>x→a</sub> f(x) cannot be found by direct substitution — particularly when substitution produces the <strong>indeterminate form 0/0</strong>. In such cases, look for an <strong>equivalent function</strong> that agrees with f for all values except at x = a, then substitute into that.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 5</strong> — Evaluate lim<sub>x→3</sub> (x² − 2x − 3)/(x − 3) by factoring.</p>
+<p style="margin:0;"><strong>Solution.</strong> Substitution produces the indeterminate form 0/0. Simplify by factoring and reducing:<br>
+lim<sub>x→3</sub> (x² − 2x − 3)/(x − 3) = lim<sub>x→3</sub> (x + 1)(x − 3)/(x − 3) = lim<sub>x→3</sub> (x + 1).<br>
+The reduction is valid only if x ≠ 3 — but a limit only cares about x <em>approaching</em> 3, not x = 3. Therefore lim<sub>x→3</sub> (x² − 2x − 3)/(x − 3) = lim<sub>x→3</sub> (x + 1) = <strong>4</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 6</strong> — Evaluate lim<sub>x→0</sub> (√(x + 1) − 1)/x by rationalizing.</p>
+<p style="margin:0;"><strong>Solution.</strong> Rationalizing the numerator (or denominator) can turn an indeterminate form into one that is not. Substitution gives 0/0, so we rationalize:<br>
+lim<sub>x→0</sub> (√(x + 1) − 1)/x = lim<sub>x→0</sub> [(√(x + 1) − 1)/x] × [(√(x + 1) + 1)/(√(x + 1) + 1)] &nbsp;&nbsp;<em>(rationalize the numerator)</em><br>
+= lim<sub>x→0</sub> [(x + 1) − 1]/[x(√(x + 1) + 1)]<br>
+= lim<sub>x→0</sub> x/[x(√(x + 1) + 1)] &nbsp;&nbsp;<em>(simplify)</em><br>
+= lim<sub>x→0</sub> 1/[√(x + 1) + 1] &nbsp;&nbsp;<em>(evaluate)</em><br>
+= <strong>1/2</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 7</strong> — Evaluate lim<sub>x→0</sub> [(x + 8)<sup>1/3</sup> − 2]/x by a change of variable.</p>
+<p style="margin:0;"><strong>Solution.</strong> This quotient is indeterminate (0/0) when x = 0, and rationalizing (x + 8)<sup>1/3</sup> − 2 is not easy. Instead, substitute: let u = (x + 8)<sup>1/3</sup>. Then u³ = x + 8 and x = u³ − 8. As x → 0, u → 2. The limit becomes<br>
+lim<sub>x→0</sub> [(x + 8)<sup>1/3</sup> − 2]/x = lim<sub>u→2</sub> (u − 2)/(u³ − 8) &nbsp;&nbsp;<em>(factor)</em><br>
+= lim<sub>u→2</sub> (u − 2)/[(u − 2)(u² + 2u + 4)] &nbsp;&nbsp;<em>(simplify)</em><br>
+= lim<sub>u→2</sub> 1/(u² + 2u + 4) &nbsp;&nbsp;<em>(evaluate)</em><br>
+= <strong>1/12</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 8</strong> — Evaluate lim<sub>x→2</sub> |x − 2|/(x − 2), with a graph.</p>
+<p style="margin:0;"><strong>Solution.</strong> Write the function piecewise: |x − 2|/(x − 2) equals 1 when x &gt; 2 and −1 when x &lt; 2 (f(2) is undefined). The graph is two horizontal rays at heights 1 and −1.<br>
+lim<sub>x→2⁻</sub> f(x) = lim<sub>x→2⁻</sub> (−1) = −1; &nbsp; lim<sub>x→2⁺</sub> f(x) = lim<sub>x→2⁺</sub> (1) = 1.<br>
+Since the left-hand and right-hand limits are not the same, <strong>lim<sub>x→2</sub> |x − 2|/(x − 2) does not exist</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 9</strong> — a. Evaluate lim<sub>x→3⁻</sub> √(9 − x²). b. Explain why the limit as x → 3⁺ cannot be determined. c. What can you conclude about lim<sub>x→3</sub> √(9 − x²)?</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+a. The graph of f(x) = √(9 − x²) is the semicircle below. From the graph, the left-hand limit at x → 3 is 0: <strong>lim<sub>x→3⁻</sub> √(9 − x²) = 0</strong>.<br>
+b. The function is <strong>not defined for x &gt; 3</strong>.<br>
+c. lim<sub>x→3</sub> √(9 − x²) <strong>does not exist</strong>, because the function is not defined on both sides of 3.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54779/preview?" alt="Semicircle y = sqrt(9 - x^2)" style="max-width: 420px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54779" data-api-returntype="File" loading="lazy"></p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 1.5.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Evaluate lim<sub>x→−1</sub> (x⁴ + x³ + x²).</summary>
+<p>Polynomial — substitute: 1 − 1 + 1 = <strong>1</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Evaluate lim<sub>x→2</sub> (4 − x²)/(2 − x).</summary>
+<p>0/0 — factor: (2 − x)(2 + x)/(2 − x) = 2 + x → <strong>4</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Evaluate lim<sub>x→4</sub> (√x − 2)/(x − 4).</summary>
+<p>Rationalize the numerator: [(√x − 2)(√x + 2)]/[(x − 4)(√x + 2)] = 1/(√x + 2) → <strong>1/4</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Evaluate lim<sub>x→5⁻</sub> |x − 5|/(x − 5).</summary>
+<p>For x &lt; 5, |x − 5| = −(x − 5), so the quotient is <strong>−1</strong>.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li>If f is a <strong>polynomial</strong>, then <strong>lim<sub>x→a</sub> f(x) = f(a)</strong> — just substitute.</li>
+<li>If substituting x = a gives the <strong>indeterminate form 0/0</strong>, find an <strong>equivalent function</strong> that matches f everywhere except at x = a, then substitute into that.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know — algebraic techniques</strong></p>
+<ul style="margin:0;">
+<li><strong>Direct substitution</strong> · <strong>factoring</strong> · <strong>rationalizing</strong> · <strong>one-sided limits</strong> · <strong>change of variable</strong>.</li>
+<li>A graph or table of values can always check your result.</li>
+<li>Next: Lesson 1.6 — <strong>continuity</strong>.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Introduction to Calculus</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

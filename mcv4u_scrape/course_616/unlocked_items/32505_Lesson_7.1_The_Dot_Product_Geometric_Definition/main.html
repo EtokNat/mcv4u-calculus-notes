@@ -1,0 +1,112 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9184" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 7.1 — The Dot Product: Geometric Definition</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 7</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 7.1</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">The Dot Product — Geometric Definition</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §7.3 — multiplying two vectors to get a number.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Compute the <strong>dot product</strong> a·b = |a||b|cosθ from two magnitudes and the angle between them (vectors placed <strong>tail to tail</strong>).</li>
+<li>Read the <strong>sign</strong> of the dot product to tell whether the angle is acute, right, or obtuse.</li>
+<li>Use the fact that <strong>nonzero vectors are perpendicular exactly when their dot product is zero</strong>.</li>
+<li>Apply the four dot-product properties: <strong>commutative</strong>, <strong>distributive</strong>, <strong>a·a = |a|²</strong>, and <strong>(ka)·b = k(a·b)</strong>.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Imagine a tug-of-war team pulling a rope that is not quite pointing where they want to go. Only the part of the pull <em>along</em> the rope's direction actually does anything. The dot product is the mathematical version of that idea: it combines two vectors and the angle between them into a single number — a <strong>scalar</strong> — that measures how much the two vectors "agree" with each other.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17385" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17385" data-api-returntype="Assignment">▶ Start the Lesson 7.1 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — the angle decides the sign</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>Type <strong><em>a=(4,0)</em></strong> and add a slider <strong><em>t=0.8</em></strong>. Then type <strong><em>b=(3cos(t),3sin(t))</em></strong> — so |b| = 3 and t is the angle of b in radians. Define <strong><em>d=b1*a1+b2*a2</em></strong> (this equals |a||b|cosθ, as you will prove in Lesson 7.2).</li>
+<li>Drag the slider t from 0 to π (about 3.14). Watch d: it is largest at t = 0, shrinks to zero at t = π/2, and goes negative afterward. At what angle does d hit zero? What is d at t = π?</li>
+<li><strong>Conclusion:</strong> the dot product is positive when the vectors point "mostly the same way" (acute angle), zero when they are perpendicular, and negative when they point "mostly opposite ways" (obtuse angle).</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">The geometric definition</h4>
+<p>A <strong>geometric vector</strong> is a vector with no coordinate system attached — just a length and a direction. For any two vectors a and b, the <strong>dot product</strong> is defined by</p>
+<p style="text-align: center; font-size: 19px; background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 14px; margin: 14px 0px;"><strong>a · b = |a| |b| cosθ</strong>, &nbsp;&nbsp;0° ≤ θ ≤ 180°</p>
+<p>where θ is the angle between the vectors <strong>when they are placed tail to tail</strong> — their starting points together. The angle θ is always taken between 0° and 180° (measuring in degrees or radians both work). The figure below shows the convention:</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54848/preview?" alt="Two vectors a and b placed tail to tail with the angle theta between them" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54848" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">A scalar, not a vector</h4>
+<p>Every quantity on the right-hand side — |a|, |b|, and cosθ — is just a number, so their product is just a number. The dot product is therefore a <strong>scalar</strong>, which is why it is also called the <strong>scalar product</strong>. Two very different-looking calculations can give the same scalar.</p>
+<h4 style="color:#10284A;margin:16px 0 6px;">The sign of the dot product</h4>
+<p>Because |a| and |b| are always positive (for nonzero vectors), the sign of a·b is entirely decided by cosθ:</p>
+<ul>
+<li><strong>0° &lt; θ &lt; 90°</strong> — cosθ &gt; 0, so <strong>a·b &gt; 0</strong> (the vectors lean the same way).</li>
+<li><strong>θ = 90°</strong> — cosθ = 0, so <strong>a·b = 0</strong> (the vectors are perpendicular).</li>
+<li><strong>90° &lt; θ ≤ 180°</strong> — cosθ &lt; 0, so <strong>a·b &lt; 0</strong> (the vectors lean opposite ways).</li>
+</ul>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54878/preview?" alt="Three cases: acute angle gives a positive dot product, right angle gives zero, obtuse angle gives a negative dot product" style="max-width: 560px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54878" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<strong style="color:#10284A;">Key term — Perpendicular test:</strong> two <strong>nonzero</strong> vectors are perpendicular if and only if their dot product is zero. (The "nonzero" matters: the zero vector has a zero dot product with everything, but we do not call it perpendicular to anything.)
+</div>
+<h4 style="color:#10284A;margin:16px 0 6px;">Properties of the dot product</h4>
+<p>Four rules make the dot product behave like ordinary multiplication in most ways — but note what is missing: there is no way to "divide" by a vector, and a·(b·c) is meaningless (b·c is a scalar, and you cannot dot a vector with a scalar).</p>
+<ul>
+<li><strong>Commutative:</strong> a·b = b·a. (The definition multiplies |a||b|cosθ — scalars multiply in any order.)</li>
+<li><strong>Distributive:</strong> a·(b + c) = a·b + a·c.</li>
+<li><strong>Magnitudes property:</strong> a·a = |a|². (Because θ = 0° and cos0° = 1.) This lets you recover a length from a dot product: |a| = √(a·a).</li>
+<li><strong>Scalar factor:</strong> (ka)·b = a·(kb) = k(a·b) — a scalar factor can move freely in and out.</li>
+</ul>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — Two vectors a and b are placed tail to tail with magnitudes 3 and 5, respectively, and an angle of 120° between them. Calculate a·b.</p>
+<p style="margin:0;">a·b = |a||b|cosθ = (3)(5)cos120°. Since cos120° = −0.5, a·b = 15(−0.5) = <strong>−7.5</strong>. The negative sign makes sense: 120° is obtuse, so the vectors lean opposite ways.</p>
+</div>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — If |a| = 2|b|, and the vectors a + 3b and 4a − b are perpendicular, determine the angle between the nonzero vectors a and b (nearest 0.1°).</p>
+<p style="margin:0;">Perpendicular vectors have a zero dot product, so (a + 3b)·(4a − b) = 0. Expanding with the distributive property: 4(a·a) − a·b + 12(b·a) − 3(b·b) = 0. Using commutativity (b·a = a·b) and the magnitudes property: 4|a|² + 11(a·b) − 3|b|² = 0.<br>
+Since |a| = 2|b|, we have |a|² = 4|b|², and a·b = |a||b|cosθ = 2|b|²cosθ. Substituting: 4(4|b|²) + 11(2|b|²cosθ) − 3|b|² = 0, i.e. 13|b|² + 22|b|²cosθ = 0. Dividing by |b|² (b is nonzero): cosθ = −13/22 ≈ −0.5909, so θ ≈ <strong>126.2°</strong>.</p>
+</div>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — If |x + y| = |x − y|, prove that the nonzero vectors x and y are perpendicular.</p>
+<p style="margin:0;">Square both sides: |x + y|² = |x − y|². The left side is (x + y)·(x + y) = |x|² + 2(x·y) + |y|²; the right side is (x − y)·(x − y) = |x|² − 2(x·y) + |y|². Equating: |x|² + 2(x·y) + |y|² = |x|² − 2(x·y) + |y|², which simplifies to 4(x·y) = 0, so x·y = 0. Since x and y are nonzero, a zero dot product means they are <strong>perpendicular</strong>.</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 7.3.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — |p| = 4, |q| = 8, and the angle between them (tail to tail) is 60°. Find p·q.</summary>
+<p>p·q = (4)(8)cos60° = 32(0.5) = <strong>16</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — If a·b = 0, are a and b necessarily perpendicular? Explain.</summary>
+<p><strong>Not necessarily</strong> — you need both vectors to be nonzero. If a = 0, then a·b = 0 no matter what b is, but the zero vector is not called perpendicular to anything.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Two unit vectors point in exactly opposite directions. What is their dot product?</summary>
+<p>θ = 180°, so a·b = (1)(1)cos180° = <strong>−1</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Simplify (a + 5b)·(2a − 3b) using the dot-product properties.</summary>
+<p>Distribute: 2(a·a) − 3(a·b) + 10(b·a) − 15(b·b) = <strong>2|a|² + 7(a·b) − 15|b|²</strong> (using commutativity to combine the middle terms).</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>a·b = |a||b|cosθ</strong> with θ measured tail to tail, 0° ≤ θ ≤ 180° — the result is a scalar.</li>
+<li>Sign of a·b: <strong>positive</strong> (acute), <strong>zero</strong> (right), <strong>negative</strong> (obtuse).</li>
+<li><strong>Nonzero vectors are perpendicular ⟺ a·b = 0.</strong></li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>Four properties: commutative, distributive, <strong>a·a = |a|²</strong>, scalar-factor rule.</li>
+<li>You cannot take the dot product of a vector with a scalar — (a·b)·c is meaningless.</li>
+<li>Next: Lesson 7.2 computes the dot product from <strong>components</strong>.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Dot and Cross Products</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

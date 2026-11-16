@@ -1,0 +1,308 @@
+Skip To Content
+Dashboard
+Account
+Dashboard
+Courses
+Calendar
+10 unread messages.
+10
+Inbox
+History
+Help
+MCV4U
+Home
+Grades
+78
+Modules
+Notebook
+Skip To Quiz Content
+Return
+Unit 7 Summative Test
+vincent Teacher
+Due Date
+No due date
+Time Limit
+2 hours
+Number of Questions
+18
+4 questions require grading
+Assessment Statistics
+2%
+2 out of 100 points
+2
+Out of 100 points
+Time for this attempt: 17 seconds
+17 seconds
+00:17
+Time for this attempt
+Your Answers:
+Results for question 1.
+1
+0 / 3 points
+Multiple Choice
+
+|u| = 3 and |v| = 4. The largest possible value of u . v is...
+
+Incorrect answer:
+7
+Correct Answer:
+12
+-12
+, Not Selected
+24
+, Not Selected
+12
+, Not Selected
+Results for question 2.
+2
+0 / 3 points
+Multiple Choice
+
+A force F = (2, -1, 4) N acts on an object. For which displacement d is the work done by F equal to zero?
+
+Incorrect answer:
+d = (0, 2, 1) m
+Correct Answer:
+d = (2, 4, 0) m
+d = (2, 4, 0) m
+, Not Selected
+d = (3, 1, 0) m
+, Not Selected
+d = (1, 1, 2) m
+, Not Selected
+Results for question 3.
+3
+0 / 3 points
+Multiple Choice
+
+For u = (k, 3, -1) and v = (2, -4, 5), the value of k that makes u . v = 20 is...
+
+Incorrect answer:
+28.5
+Correct Answer:
+18.5
+8.5
+, Not Selected
+-8.5
+, Not Selected
+18.5
+, Not Selected
+Results for question 4.
+4
+0 / 3 points
+Numeric
+
+|u| = 3, |v| = 5, and the angle between them is 120 degrees. The value of |u x v|, to 3 significant figures, is ______.
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+13.0
+Results for question 5.
+5
+0 / 3 points
+Numeric
+
+Vectors u and v satisfy |u| = 5, |v| = 8, and the angle between them (tail to tail) is 135 degrees. The value of u . v, to 3 significant figures, is ______.
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+-28.3
+Results for question 6.
+6
+0 / 3 points
+Numeric
+
+The scalar projection of a onto b is -2 and |b| = 5. Then a . b = (1) .
+
+Incorrect answer:
+(no answer)
+Correct Answer:
+-10
+Results for question 7.
+7
+0 / 3 points
+Fill in the Blank
+
+For u = (1, 2, -2) and v = (3, 0, 1): |u x v|, to 3 significant figures, is 
+Incorrect answer:
+(no answer)
+, and the area of the triangle with sides u and v, to 3 significant figures, is 
+Incorrect answer:
+(no answer)
+.
+
+Results for question 8.
+8
+0 / 3 points
+Fill in the Blank
+
+For u = (2, -3, 1) and v = (0, 4, -2), the cross product u x v has x-component 2. Its y-component is 
+Incorrect answer:
+(no answer)
+ and its z-component is 
+Incorrect answer:
+(no answer)
+.
+
+Results for question 9.
+9
+0 / 2 points
+True or False
+
+The cross product is defined for vectors in R2.
+
+Incorrect answer:
+True
+Correct Answer:
+False
+False
+Results for question 10.
+10
+2 / 2 points
+True or False
+
+If a and b are nonzero and the vector projection of a onto b is the zero vector, then a is perpendicular to b.
+
+Correct answer:
+True
+False
+Results for question 11.
+11
+0 / 2 points
+Multiple Answer
+
+Select ALL statements that are always true about torque tau = r x F.
+
+Incorrect answer:
+tau = 0 when F is parallel to r
+Missed Option - Incorrect
+Incorrect answer:
+|tau| = |r||F| sin(theta), where theta is the angle between r and F
+Missed Option - Incorrect
+Incorrect answer:
+tau is perpendicular to both r and F
+Missed Option - Incorrect
+Answer,
+tau is parallel to r
+Incorrect answer:
+(no answer)
+Results for question 12.
+12
+0 / 2 points
+Multiple Answer
+
+Select ALL the statements that are always true for vectors a, b, c.
+
+Incorrect answer:
+(a + b) . c = a . c + b . c
+Missed Option - Incorrect
+Incorrect answer:
+(2a) . (3b) = 6(a . b)
+Missed Option - Incorrect
+Incorrect answer:
+a . a = |a|^2
+Missed Option - Incorrect
+Answer,
+a . b is a vector
+Incorrect answer:
+(no answer)
+Results for question 13.
+13
+0 / 2 points
+Matching
+Match each expression to its value, given |u| = 3 and u . v = -4.
+u . (2u)(2u) . (2v)u . 0(-u) . (-v)18-160-4
+Match each expression to its value, given |u| = 3 and u . v = -4.
+(2u) . (2v)
+Incorrect answer:
+(no answer)
+Correct Answer:
+-16
+(-u) . (-v)
+Incorrect answer:
+(no answer)
+Correct Answer:
+-4
+u . 0
+Incorrect answer:
+(no answer)
+Correct Answer:
+0
+u . (2u)
+Incorrect answer:
+(no answer)
+Correct Answer:
+18
+Results for question 14.
+14
+0 / 2 points
+Ordering
+|r| = 2 m and |F| = 10 N. Order the resulting torque magnitudes from SMALLEST to LARGEST for the given angles between r and F.
+theta = 30 degreestheta = 45 degreestheta = 60 degreestheta = 90 degrees
+|r| = 2 m and |F| = 10 N. Order the resulting torque magnitudes from SMALLEST to LARGEST for the given angles between r and F.
+Incorrect answer:
+(no answer)
+Correct Answer:
+theta = 30 degrees
+Incorrect answer:
+(no answer)
+Correct Answer:
+theta = 45 degrees
+Incorrect answer:
+(no answer)
+Correct Answer:
+theta = 60 degrees
+Incorrect answer:
+(no answer)
+Correct Answer:
+theta = 90 degrees
+Results for question 15.
+15
+16 points possible
+Essay
+
+A gardener pulls a wheelbarrow with a force of 60 N at an angle of 30 degrees above the horizontal, moving it 25 m horizontally. (a) Compute the work done, showing all steps. (b) Find the scalar and vector projections of the force onto the horizontal direction, and explain in full sentences what each projection represents physically in this situation.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 16.
+16
+16 points possible
+Essay
+
+Simplify (a + b) x (a - b) using only the algebraic properties of the cross product. Do not use components. State each property you use by name. Then, assuming |a| = |b|, show that (a + b) dot (a - b) = 0 and explain in full sentences what this means geometrically for the parallelogram with sides a and b.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 17.
+17
+16 points possible
+Essay
+
+Find the area of the triangle with vertices P(2, 1, 0), Q(5, 3, 2), and R(1, 4, 1). Show every step, including how you form the edge vectors and why the cross product gives the area. Give your answer to 2 decimal places.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade
+Results for question 18.
+18
+16 points possible
+Essay
+
+For each situation below, state whether you would use the dot product or the cross product, and justify your choice in full sentences. (a) Finding the work done by a constant force acting on an object displaced along a straight line. (b) Finding a vector perpendicular to the plane containing two given vectors. (c) Determining whether two nonzero vectors are perpendicular. In each case, write the relevant formula and explain why the other product would not serve.
+
+Waiting for grade
+
+Completed for unit progression.
+
+Waiting for grade

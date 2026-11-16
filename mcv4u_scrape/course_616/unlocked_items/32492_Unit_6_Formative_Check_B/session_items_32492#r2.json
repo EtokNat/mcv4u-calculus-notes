@@ -1,0 +1,394 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "73bcccc0-4e92-4b08-b1c8-b6517de5a618"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b65e9034-3e20-4fe7-928d-b02036a251f6"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] (Parts a and b only) ABCDEFGH is a rectangular prism, as shown in the diagram. a. Write a single vector that is equivalent to EG + GH + HD + DC: <span id=\"blank_73bcccc0-4e92-4b08-b1c8-b6517de5a618\"></span> b. Write a vector that is equivalent to EG + GD + DE: <span id=\"blank_b65e9034-3e20-4fe7-928d-b02036a251f6\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69543",
+      "label": null,
+      "title": "Exercise 6.4 Q6 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56702",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "b9f9b173-8ab6-4a73-a0bc-a6e2d4702f6c"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Write the following vector in simplified form: 3(a - 2b - 5c) - 3(2a - 4b + 2c) - (a - 3b + 3c) = <span id=\"blank_b9f9b173-8ab6-4a73-a0bc-a6e2d4702f6c\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69544",
+      "label": null,
+      "title": "Exercise 6.4 Q7 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56702",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "b90e7ba9-8cc7-4e68-8f47-e6cc534ca6f5"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "87c10e95-9443-470b-a72e-a0be5fc99eba"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a46afee2-43a5-4de0-831b-216a5a73e273"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "07b01d12-b614-4242-9209-ab02a62d39be"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0b750090-3fa1-41b7-911f-b1d2c849d805"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fdbc03a2-0dfb-4b94-a9fc-f812e5ebd24a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "40cfa8d1-7772-4fda-b881-6203012b4b98"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7f47b168-75f3-4c96-80fc-fd2c00c5479f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3212a0e4-a106-4ca3-a11e-51259e358092"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "02f043ef-f9c9-4b44-a028-bd7b07697f9c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0afb7750-a4b1-490e-8310-c45d74c8e431"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e634d745-64c4-439b-8068-6c6927d6e25a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1b15a1f3-1409-40b6-8259-e7e8c5f72f5c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "30460020-b315-43cc-a466-df5fdd8675d2"
+          }
+        ]
+      },
+      "item_body": "<p>[A] (Parts a-d only) The point P(-2, 4, -7) is located in R^3 as shown on the coordinate axes below. a. Determine the coordinates of points A, B, C, D, E, and F. A = <span id=\"blank_b90e7ba9-8cc7-4e68-8f47-e6cc534ca6f5\"></span>, B = <span id=\"blank_87c10e95-9443-470b-a72e-a0be5fc99eba\"></span>, C = <span id=\"blank_a46afee2-43a5-4de0-831b-216a5a73e273\"></span>, D = <span id=\"blank_07b01d12-b614-4242-9209-ab02a62d39be\"></span>, E = <span id=\"blank_0b750090-3fa1-41b7-911f-b1d2c849d805\"></span>, F = <span id=\"blank_fdbc03a2-0dfb-4b94-a9fc-f812e5ebd24a\"></span>. b. What are the vectors associated with each of the points in part a.? OA = <span id=\"blank_40cfa8d1-7772-4fda-b881-6203012b4b98\"></span>, OB = <span id=\"blank_7f47b168-75f3-4c96-80fc-fd2c00c5479f\"></span>, OC = <span id=\"blank_3212a0e4-a106-4ca3-a11e-51259e358092\"></span>, OD = <span id=\"blank_02f043ef-f9c9-4b44-a028-bd7b07697f9c\"></span>, OE = <span id=\"blank_0afb7750-a4b1-490e-8310-c45d74c8e431\"></span>, OF = <span id=\"blank_e634d745-64c4-439b-8068-6c6927d6e25a\"></span>. c. How far below the xy-plane is the rectangle DEPF? <span id=\"blank_1b15a1f3-1409-40b6-8259-e7e8c5f72f5c\"></span> units. d. What is the equation of the plane containing the points B, C, E, and P? The plane is y = <span id=\"blank_30460020-b315-43cc-a466-df5fdd8675d2\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69558",
+      "label": null,
+      "title": "Exercise 6.5 Q15 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56703",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "a4ba7c56-9649-4f2b-af40-d1ff8be151d1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "585514c0-c25c-4cc0-b97f-88da70475d47"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e39422c0-b873-446b-8696-daf18fcd2d5b"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] If OP = (-2, 3, 6) and B(4, -2, 8), determine the coordinates of point A such that OP = AB. A = (<span id=\"blank_a4ba7c56-9649-4f2b-af40-d1ff8be151d1\"></span>, <span id=\"blank_585514c0-c25c-4cc0-b97f-88da70475d47\"></span>, <span id=\"blank_e39422c0-b873-446b-8696-daf18fcd2d5b\"></span>).</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69560",
+      "label": null,
+      "title": "Exercise 6.5 Q19 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56703",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "21c56d01-60a7-4139-a997-5d58c833a1b0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6863de7d-f664-48c0-9f90-d1a792af232d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e3c5a81f-3b9f-4f70-9b54-8de7f825e2d9"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e8cdf6a1-618f-409d-ade6-d94752cd9873"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine the value of x and y in each of the following: a. 3(x, 1) - 5(2, 3y) = (11, 33). In a, x = <span id=\"blank_21c56d01-60a7-4139-a997-5d58c833a1b0\"></span> and y = <span id=\"blank_6863de7d-f664-48c0-9f90-d1a792af232d\"></span>. b. -2(x, x + y) - 3(6, y) = (6, 4). In b, x = <span id=\"blank_e3c5a81f-3b9f-4f70-9b54-8de7f825e2d9\"></span> and y = <span id=\"blank_e8cdf6a1-618f-409d-ade6-d94752cd9873\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69575",
+      "label": null,
+      "title": "Exercise 6.6 Q13 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56704",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "43461dd2-cc87-46d9-bd14-74ae5968ba52"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6bb8ca6d-525f-41d5-b64d-ec87fd72578e"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Find the components of the unit vector in the direction opposite to PQ, where OP = (11, 19) and OQ = (2, -21). The unit vector is (<span id=\"blank_43461dd2-cc87-46d9-bd14-74ae5968ba52\"></span>, <span id=\"blank_6bb8ca6d-525f-41d5-b64d-ec87fd72578e\"></span>).</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69578",
+      "label": null,
+      "title": "Exercise 6.6 Q16 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56704",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "187bf16c-e04d-49bd-a78a-0ea0016ffb04"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7f890d79-f2fd-4aaf-8e9a-64c4511a5fee"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a089c712-bc00-4899-8474-e722c64ccb84"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Given 2x + y - 2z = 0, x = (-1, b, c), y = (a, -2, c), and z = (-a, 6, c), determine a, b, and c. a = <span id=\"blank_187bf16c-e04d-49bd-a78a-0ea0016ffb04\"></span>, b = <span id=\"blank_7f890d79-f2fd-4aaf-8e9a-64c4511a5fee\"></span>, c = <span id=\"blank_a089c712-bc00-4899-8474-e722c64ccb84\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69590",
+      "label": null,
+      "title": "Exercise 6.7 Q12 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56705",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "63c8ab4a-ac71-43cc-afa1-1cefaedcb30c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e454429f-abfc-42ed-8224-a96fc130b8ac"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "639b97ae-c438-4fae-a167-5337f3e944bd"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] (Parts b-d only) Triangle ABC has vertices A(-1, 1, 1), B(2, 0, 3), and C(3, 3, -4). b. Determine the area of the triangle. The area is <span id=\"blank_63c8ab4a-ac71-43cc-afa1-1cefaedcb30c\"></span> square units. c. Determine the perimeter. The perimeter is <span id=\"blank_e454429f-abfc-42ed-8224-a96fc130b8ac\"></span> units. d. Determine the fourth vertex D that completes the rectangle. D = <span id=\"blank_639b97ae-c438-4fae-a167-5337f3e944bd\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69598",
+      "label": null,
+      "title": "Review Exercise Q7 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56705",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

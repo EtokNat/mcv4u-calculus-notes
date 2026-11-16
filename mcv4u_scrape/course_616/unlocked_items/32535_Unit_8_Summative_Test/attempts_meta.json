@@ -1,0 +1,428 @@
+[
+  {
+    "idx": 0,
+    "slug": "choice",
+    "points": 3.0,
+    "prompt": "A ship sails 40 km on a bearing of 120 degrees, then 30 km on a bearing of 030 degrees.\nIts distance from the starting point is",
+    "prompt_dom": "A ship sails 40 km on a bearing of 120 degrees, then 30 km on a bearing of 030 degrees.  Its distance from the starting point is\n\n10 km\n70 km\n35 km\n50 km",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "3dbafe4a-5edc-42fc-8dd2-1ceabf7109b6",
+        "position": 1,
+        "text": "10 km",
+        "html": "10 km"
+      },
+      {
+        "id": "5db655b8-b553-4e2d-8ea0-f41bbed4bd74",
+        "position": 2,
+        "text": "70 km",
+        "html": "70 km"
+      },
+      {
+        "id": "5de62b17-f130-4965-872e-3f9e6f9c82c9",
+        "position": 3,
+        "text": "35 km",
+        "html": "35 km"
+      },
+      {
+        "id": "3e547431-ea65-4fc2-bedd-8a076834ae06",
+        "position": 4,
+        "text": "50 km",
+        "html": "50 km"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 1,
+    "slug": "choice",
+    "points": 3.0,
+    "prompt": "A 300 N box sits on a 30-degree ramp. The coefficient of static friction is 0.5. What happens?",
+    "prompt_dom": "A 300 N box sits on a 30-degree ramp. The coefficient of static friction is 0.5. What happens?\n\nIt slides - the downslope component (150 N) exceeds the maximum friction (about 130 N)\nIt tips over the edge\nIt stays - friction always matches the downslope pull\nIt stays - the normal force holds it in place",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "dcc61628-3bc0-4cf4-a42c-f142c6d44ae4",
+        "position": 1,
+        "text": "It slides - the downslope component (150 N) exceeds the maximum friction (about 130 N)",
+        "html": "It slides - the downslope component (150 N) exceeds the maximum friction (about 130 N)"
+      },
+      {
+        "id": "f5abb32e-2191-41f8-9d6d-acaa4d0087fb",
+        "position": 2,
+        "text": "It tips over the edge",
+        "html": "It tips over the edge"
+      },
+      {
+        "id": "1584d7be-c43e-40e1-a62b-458373267827",
+        "position": 3,
+        "text": "It stays - friction always matches the downslope pull",
+        "html": "It stays - friction always matches the downslope pull"
+      },
+      {
+        "id": "93164169-e29d-4a6d-bf63-422660ac5807",
+        "position": 4,
+        "text": "It stays - the normal force holds it in place",
+        "html": "It stays - the normal force holds it in place"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 2,
+    "slug": "choice",
+    "points": 3.0,
+    "prompt": "A plane flies 600 km due east to a city and back, at 300 km/h airspeed, with a steady wind from the west at 50 km/h. The total round-trip time is",
+    "prompt_dom": "A plane flies 600 km due east to a city and back, at 300 km/h airspeed, with a steady wind from the west at 50 km/h. The total round-trip time is\n\n4.00 h\nabout 3.88 h\n4.50 h\nabout 4.11 h",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "3f5a185a-fd1f-4574-82b2-8fc61829866e",
+        "position": 1,
+        "text": "4.00 h",
+        "html": "4.00 h"
+      },
+      {
+        "id": "f273b815-e198-45c4-8e48-c552842da782",
+        "position": 2,
+        "text": "about 3.88 h",
+        "html": "about 3.88 h"
+      },
+      {
+        "id": "d6bd3831-80fa-4a70-8ae0-68f184c710f0",
+        "position": 3,
+        "text": "4.50 h",
+        "html": "4.50 h"
+      },
+      {
+        "id": "5c1d8db8-0e1e-45eb-960d-66c745091ff0",
+        "position": 4,
+        "text": "about 4.11 h",
+        "html": "about 4.11 h"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_choice_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 3,
+    "slug": "numeric",
+    "points": 3.0,
+    "prompt": "A 40 N picture hangs from two identical vertical cables. The tension in each cable, in N, is",
+    "prompt_dom": "A 40 N picture hangs from two identical vertical cables. The tension in each cable, in N, is\n\nAnswer\n\nA 40 N picture hangs from two identical vertical cables. The tension in each cable, in N, is",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 4,
+    "slug": "numeric",
+    "points": 3.0,
+    "prompt": "A boat's motor pushes at 18 km/h on a bearing of 030 degrees. The river current is 7 km/h due south. The boat's ground speed, in km/h (1 decimal place), is",
+    "prompt_dom": "A boat's motor pushes at 18 km/h on a bearing of 030 degrees. The river current is 7 km/h due south. The boat's ground speed, in km/h (1 decimal place), is\n\nAnswer\n\nA boat's motor pushes at 18 km/h on a bearing of 030 degrees. The river current is 7 km/h due south. The boat's ground speed, in km/h (1 decimal place), is",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 5,
+    "slug": "numeric",
+    "points": 3.0,
+    "prompt": "A tractor pulls a trailer 450 m with a force of 2500 N at 10 degrees above the horizontal. The work done, in kJ (nearest whole number), is",
+    "prompt_dom": "A tractor pulls a trailer 450 m with a force of 2500 N at 10 degrees above the horizontal. The work done, in kJ (nearest whole number), is\n\nAnswer\n\nA tractor pulls a trailer 450 m with a force of 2500 N at 10 degrees above the horizontal. The work done, in kJ (nearest whole number), is",
+    "num_blanks": 1,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 6,
+    "slug": "rich-fill-blank",
+    "points": 3.0,
+    "prompt": "A plane flies at 400 km/h on a bearing of 150 degrees. The easting component of its air velocity is km/h and the northing component is km/h (1 decimal place).",
+    "prompt_dom": "A plane flies at 400 km/h on a bearing of 150 degrees. The easting component of its air velocity is \nQuestion Blank 1 of 2\n km/h and the northing component is \nQuestion Blank 2 of 2\n km/h (1 decimal place).",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 7,
+    "slug": "rich-fill-blank",
+    "points": 3.0,
+    "prompt": "Two forces act on a post: 50 N due east and 120 N due north. The resultant magnitude is N and its bearing is degrees (1 decimal place).",
+    "prompt_dom": "Two forces act on a post: 50 N due east and 120 N due north. The resultant magnitude is \nQuestion Blank 1 of 2\n N and its bearing is \nQuestion Blank 2 of 2\n degrees (1 decimal place).",
+    "num_blanks": 2,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 8,
+    "slug": "true-false",
+    "points": 2.0,
+    "prompt": "True or false: If the force is perpendicular to the displacement, the work done by that force is zero.",
+    "prompt_dom": "True or false: If the force is perpendicular to the displacement, the work done by that force is zero.\n\nTrue\nFalse",
+    "num_blanks": 0,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_true-false_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 9,
+    "slug": "true-false",
+    "points": 2.0,
+    "prompt": "True or false: A bearing of 135 degrees points to the northwest.",
+    "prompt_dom": "True or false: A bearing of 135 degrees points to the northwest.\n\nTrue\nFalse",
+    "num_blanks": 0,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_true-false_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 10,
+    "slug": "multi-answer",
+    "points": 2.0,
+    "prompt": "A plane's air velocity is (0, 300) km/h (x = east, y = north) and the wind velocity is (40, 0) km/h. Which statements are true? Select all that apply.",
+    "prompt_dom": "A plane's air velocity is (0, 300) km/h (x = east, y = north) and the wind velocity is (40, 0) km/h. Which statements are true? Select all that apply.\n\nThe ground velocity is (40, 300) km/h\nThe plane drifts east of its heading\nThe ground speed is less than the airspeed\nThe wind blows from the west",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "4a5664ff-87e4-4bc4-b57e-c626de9b3946",
+        "position": 1,
+        "text": "The ground velocity is (40, 300) km/h",
+        "html": "The ground velocity is (40, 300) km/h"
+      },
+      {
+        "id": "b28153dc-c92d-4e71-b242-42b3470f5cf8",
+        "position": 2,
+        "text": "The plane drifts east of its heading",
+        "html": "The plane drifts east of its heading"
+      },
+      {
+        "id": "9cb6acab-2424-4f2d-a7ce-ccbf7fa137ff",
+        "position": 3,
+        "text": "The ground speed is less than the airspeed",
+        "html": "The ground speed is less than the airspeed"
+      },
+      {
+        "id": "0d36c6d4-319a-4a0a-bc91-e88d6d6c40d1",
+        "position": 4,
+        "text": "The wind blows from the west",
+        "html": "The wind blows from the west"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_multi-answer_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 11,
+    "slug": "multi-answer",
+    "points": 2.0,
+    "prompt": "A block rests on an incline of angle theta. Which changes would INCREASE the normal force on the block? Select all that apply.",
+    "prompt_dom": "A block rests on an incline of angle theta. Which changes would INCREASE the normal force on the block? Select all that apply.\n\nincreasing the block's mass\nincreasing theta\ndecreasing theta\npushing the block perpendicularly into the incline",
+    "num_blanks": 0,
+    "choices": [
+      {
+        "id": "01e1fb16-49b4-4128-a61b-0dbd35d8c719",
+        "position": 1,
+        "text": "increasing the block's mass",
+        "html": "increasing the block's mass"
+      },
+      {
+        "id": "0f3c0532-abbf-409b-806e-c046506a6da6",
+        "position": 2,
+        "text": "increasing theta",
+        "html": "increasing theta"
+      },
+      {
+        "id": "4f7a6268-464d-4f50-b6f6-459145edea94",
+        "position": 3,
+        "text": "decreasing theta",
+        "html": "decreasing theta"
+      },
+      {
+        "id": "4693ac46-d3da-4e7e-b51b-f3f560e207b4",
+        "position": 4,
+        "text": "pushing the block perpendicularly into the incline",
+        "html": "pushing the block perpendicularly into the incline"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_multi-answer_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 12,
+    "slug": "matching",
+    "points": 2.0,
+    "prompt": "Match each navigation term to its meaning. bearing 090 degreesground velocityheadingtrackdue eastair velocity + wind velocitydirection of the air-velocity vectoractual path over the grounddrift angle Match each navigation term to its meaning.",
+    "prompt_dom": "Match each navigation term to its meaning.\nbearing 090 degreesground velocityheadingtrackdue eastair velocity + wind velocitydirection of the air-velocity vectoractual path over the grounddrift angle\nMatch each navigation term to its meaning.\nPrompt 1\ntrack\nAnswer for prompt 1 track\nPrompt 2\nheading\nAnswer for prompt 2 heading\nPrompt 3\nbearing 090 degrees\nAnswer for prompt 3 bearing 090 degrees\nPrompt 4\nground velocity\nAnswer for prompt 4 ground velocity",
+    "num_blanks": 4,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_matching_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 13,
+    "slug": "ordering",
+    "points": 2.0,
+    "prompt": "A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST. 40 km/h headwind (from the north)No wind40 km/h crosswind (from the east)40 km/h tailwind (from the south) A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.",
+    "prompt_dom": "A plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.\n40 km/h headwind (from the north)No wind40 km/h crosswind (from the east)40 km/h tailwind (from the south)\nA plane flies due north at 300 km/h airspeed under four wind conditions. Order the ground speeds from SMALLEST to LARGEST.\nposition 1\n1\nPosition 1. Reorder Choice: 40 km/h crosswind (from the east)\n40 km/h crosswind (from the east)\nposition 2\n2\nPosition 2. Reorder Choice: 40 km/h headwind (from the north)\n40 km/h headwind (from the north)\nposition 3\n3\nPosition 3. Reorder Choice: 40 km/h tailwind (from the south)\n40 km/h tailwind (from the south)\nposition 4\n4\nPosition 4. Reorder Choice: No wind\nNo wind",
+    "num_blanks": 4,
+    "choices": [
+      {
+        "id": "bee92555-71c2-4373-aed0-b34adf653c0f",
+        "position": null,
+        "text": "40 km/h crosswind (from the east)",
+        "html": "40 km/h crosswind (from the east)"
+      },
+      {
+        "id": "5e581917-70c3-49c7-9694-90ec2aba9703",
+        "position": null,
+        "text": "40 km/h headwind (from the north)",
+        "html": "40 km/h headwind (from the north)"
+      },
+      {
+        "id": "2c484e91-2838-425a-9e2e-0f199958d6c9",
+        "position": null,
+        "text": "40 km/h tailwind (from the south)",
+        "html": "40 km/h tailwind (from the south)"
+      },
+      {
+        "id": "482697c5-e3eb-4d9f-bd50-49742086bd76",
+        "position": null,
+        "text": "No wind",
+        "html": "No wind"
+      }
+    ],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "no_pattern_match",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 14,
+    "slug": "essay",
+    "points": 16.0,
+    "prompt": "A uniform 3.0 m long wooden plank (mass 40 kg) rests horizontally on a pivot located 1.0 m from the plank's left end. A 60 kg child sits on the left end of the plank. (a) Where must a 45 kg child sit on the right side of the pivot so that the plank balances horizontally? Show all steps of your torque calculations. (b) Compute the upward force the pivot must exert on the plank, and explain, in full sentences, why this force must equal the total weight acting on the plank. (c) Explain, in full sentences, why balancing the torques about the pivot is sufficient to guarantee that the system is in equilibrium \u2014 that is, what second equilibrium condition must also hold, and how is it satisfied here? (Use g = 9.8 m/s\u00b2.)",
+    "prompt_dom": "A uniform 3.0 m long wooden plank (mass 40 kg) rests horizontally on a pivot located 1.0 m from the plank's left end. A 60 kg child sits on the left end of the plank. (a) Where must a 45 kg child sit on the right side of the pivot so that the plank balances horizontally? Show all steps of your torque calculations. (b) Compute the upward force the pivot must exert on the plank, and explain, in full sentences, why this force must equal the total weight acting on the plank. (c) Explain, in full sentences, why balancing the torques about the pivot is sufficient to guarantee that the system is in equilibrium \u2014 that is, what second equilibrium condition must also hold, and how is it satisfied here? (Use g = 9.8 m/s\u00b2.)\n\nA uniform 3.0 m long wooden plank (mass 40 kg) rests horizontally on a pivot located 1.0 m from the plank's left end. A 60 kg child sits on the left end of the plank. (a) Where must a 45 kg child sit on the right side of the pivot so that the plank balances horizontally? Show all steps of your torque calculations. (b) Compute the upward force the pivot must exert on the plank, and explain, in full sentences, why this force must equal the total weight acting on the plank. (c) Explain, in full sentences, why balancing the torques about the pivot is sufficient to guarantee that the system is in equilibrium \u2014 that is, what second equilibrium condition must also hold, and how is it satisfied here? (Use g = 9.8 m/s\u00b2.)\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 15,
+    "slug": "essay",
+    "points": 16.0,
+    "prompt": "A 200 kg crate is pulled 10 m up a 20\u00b0 incline by a force of 1200 N applied parallel to the incline. The coefficient of kinetic friction between the crate and the ramp is \u03bc = 0.25. (a) Describe the free-body diagram of the crate (list each force and its direction), and compute, showing all steps, the work done by the applied force, the work done by gravity, and the work done by friction. (b) Find the net work done on the crate. (c) Explain, in full sentences, what the sign of the net work tells you about how the crate's speed changes as it moves up the ramp, referring to the work-energy principle.",
+    "prompt_dom": "A 200 kg crate is pulled 10 m up a 20\u00b0 incline by a force of 1200 N applied parallel to the incline. The coefficient of kinetic friction between the crate and the ramp is \u03bc = 0.25. (a) Describe the free-body diagram of the crate (list each force and its direction), and compute, showing all steps, the work done by the applied force, the work done by gravity, and the work done by friction. (b) Find the net work done on the crate. (c) Explain, in full sentences, what the sign of the net work tells you about how the crate's speed changes as it moves up the ramp, referring to the work-energy principle.\n\nA 200 kg crate is pulled 10 m up a 20\u00b0 incline by a force of 1200 N applied parallel to the incline. The coefficient of kinetic friction between the crate and the ramp is \u03bc = 0.25. (a) Describe the free-body diagram of the crate (list each force and its direction), and compute, showing all steps, the work done by the applied force, the work done by gravity, and the work done by friction. (b) Find the net work done on the crate. (c) Explain, in full sentences, what the sign of the net work tells you about how the crate's speed changes as it moves up the ramp, referring to the work-energy principle.\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 16,
+    "slug": "essay",
+    "points": 16.0,
+    "prompt": "A kayaker can paddle at 5 km/h in still water and wants to cross a 1.2 km wide river that flows due east at 3 km/h, landing at the point directly across the river. (a) Determine the heading (the angle upstream from the straight-across direction) that the kayaker must take. Show all steps, including a vector diagram description. (b) How long will the crossing take at that heading? (c) Suppose instead that the kayaker paddles straight across the river with no upstream angle. Compute how far downstream the kayaker lands and the actual ground speed, and explain in full sentences why paddling straight across gives the shortest possible crossing time even though the kayaker misses the target point.",
+    "prompt_dom": "A kayaker can paddle at 5 km/h in still water and wants to cross a 1.2 km wide river that flows due east at 3 km/h, landing at the point directly across the river. (a) Determine the heading (the angle upstream from the straight-across direction) that the kayaker must take. Show all steps, including a vector diagram description. (b) How long will the crossing take at that heading? (c) Suppose instead that the kayaker paddles straight across the river with no upstream angle. Compute how far downstream the kayaker lands and the actual ground speed, and explain in full sentences why paddling straight across gives the shortest possible crossing time even though the kayaker misses the target point.\n\nA kayaker can paddle at 5 km/h in still water and wants to cross a 1.2 km wide river that flows due east at 3 km/h, landing at the point directly across the river. (a) Determine the heading (the angle upstream from the straight-across direction) that the kayaker must take. Show all steps, including a vector diagram description. (b) How long will the crossing take at that heading? (c) Suppose instead that the kayaker paddles straight across the river with no upstream angle. Compute how far downstream the kayaker lands and the actual ground speed, and explain in full sentences why paddling straight across gives the shortest possible crossing time even though the kayaker misses the target point.\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  },
+  {
+    "idx": 17,
+    "slug": "essay",
+    "points": 16.0,
+    "prompt": "Two tugboats pull a barge that must be held on a fixed course. Tugboat A exerts a force of 3000 N at 20\u00b0 above the forward direction, and Tugboat B exerts a force of 2400 N at 35\u00b0 below the forward direction. (a) Determine the magnitude and direction of the resultant of the two pulling forces, showing all steps of your vector work. (b) A third tugboat must supply a single equilibrant force so that the barge remains in equilibrium. Find the magnitude and direction of this equilibrant. (c) Explain, in full sentences, why the equilibrant must be equal in magnitude but opposite in direction to the resultant you found in part (a), referring to the condition for equilibrium.",
+    "prompt_dom": "Two tugboats pull a barge that must be held on a fixed course. Tugboat A exerts a force of 3000 N at 20\u00b0 above the forward direction, and Tugboat B exerts a force of 2400 N at 35\u00b0 below the forward direction. (a) Determine the magnitude and direction of the resultant of the two pulling forces, showing all steps of your vector work. (b) A third tugboat must supply a single equilibrant force so that the barge remains in equilibrium. Find the magnitude and direction of this equilibrant. (c) Explain, in full sentences, why the equilibrant must be equal in magnitude but opposite in direction to the resultant you found in part (a), referring to the condition for equilibrium.\n\nTwo tugboats pull a barge that must be held on a fixed course. Tugboat A exerts a force of 3000 N at 20\u00b0 above the forward direction, and Tugboat B exerts a force of 2400 N at 35\u00b0 below the forward direction. (a) Determine the magnitude and direction of the resultant of the two pulling forces, showing all steps of your vector work. (b) A third tugboat must supply a single equilibrant force so that the barge remains in equilibrium. Find the magnitude and direction of this equilibrant. (c) Explain, in full sentences, why the equilibrant must be equal in magnitude but opposite in direction to the resultant you found in part (a), referring to the condition for equilibrium.\n\nView keyboard shortcuts\nEdit\nView\nInsert\nFormat\nTools\nTable\n12pt\nParagraph\np\nView keyboard shortcuts\nAccessibility Checker\nSwitch to the html editor\nFullscreen",
+    "num_blanks": 0,
+    "choices": [],
+    "pattern": null,
+    "ok": false,
+    "answers": null,
+    "reason": "slug_essay_not_in_bank",
+    "filled": false,
+    "this_attempt_score": 5.0
+  }
+]

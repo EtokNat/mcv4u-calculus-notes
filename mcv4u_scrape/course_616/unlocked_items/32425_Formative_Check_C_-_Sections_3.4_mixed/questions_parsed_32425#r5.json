@@ -1,0 +1,153 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "56089",
+    "item_id": "65194",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "A professional basketball team plays in an arena that holds 20 000 spectators. Average attendance at each game has been 14 000. The average ticket price is $75. Market research shows that for each $5 reduction in the ticket price, attendance increases by 800. Find the price that will maximize revenue. Enter the price in dollars.",
+    "prompt_html": "<p>A professional basketball team plays in an arena that holds 20 000 spectators. Average attendance at each game has been 14 000. The average ticket price is $75. Market research shows that for each $5 reduction in the ticket price, attendance increases by 800. Find the price that will maximize revenue. Enter the price in dollars.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "56089",
+    "item_id": "65198",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "The landlord of a 50-unit apartment building is planning to increase the rent. Currently, residents pay $850 per month, and all the units are occupied. A real estate agency advises that every $100 increase in rent will result in 10 vacant units. What rent should the landlord charge to maximize revenue? Enter the rent in dollars per month.",
+    "prompt_html": "<p>The landlord of a 50-unit apartment building is planning to increase the rent. Currently, residents pay $850 per month, and all the units are occupied. A real estate agency advises that every $100 increase in rent will result in 10 vacant units. What rent should the landlord charge to maximize revenue? Enter the rent in dollars per month.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "56089",
+    "item_id": "65192",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "A bus service carries 10 000 people daily between Ajax and Union Station, and the company has space to serve up to 15 000 people per day. The cost to ride the bus is $20. Market research shows that if the fare increases by $0.50, 200 fewer people will ride the bus. What fare should be charged to get the maximum revenue, given that the bus company must have at least $130 000 in fares a day to cover operating costs? The revenue-maximizing fare is dollars, and the maximum revenue is dollars per day.",
+    "prompt_html": "<p>A bus service carries 10 000 people daily between Ajax and Union Station, and the company has space to serve up to 15 000 people per day. The cost to ride the bus is $20. Market research shows that if the fare increases by $0.50, 200 fewer people will ride the bus. What fare should be charged to get the maximum revenue, given that the bus company must have at least $130 000 in fares a day to cover operating costs? The revenue-maximizing fare is <span id=\"blank_64bc0536-f87c-40c8-8323-7f640d7308f5\"></span> dollars, and the maximum revenue is <span id=\"blank_ef54f9a9-9681-45f8-afb2-49c954a872a5\"></span> dollars per day.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "64bc0536-f87c-40c8-8323-7f640d7308f5"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "ef54f9a9-9681-45f8-afb2-49c954a872a5"
+        }
+      ]
+    }
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "56089",
+    "item_id": "65196",
+    "points": 12.5,
+    "slug": "numeric",
+    "prompt_text": "Suppose that the cost, in dollars, of manufacturing x items is approximated by C(x) = 625 + 15x + 0.01x^2, for 1 <= x <= 500. The unit cost (the cost of manufacturing one item) would then be U(x) = C(x)/x. How many items should be manufactured to ensure that the unit cost is minimized? Enter the number of items.",
+    "prompt_html": "<p>Suppose that the cost, in dollars, of manufacturing x items is approximated by C(x) = 625 + 15x + 0.01x^2, for 1 &lt;= x &lt;= 500. The unit cost (the cost of manufacturing one item) would then be U(x) = C(x)/x. How many items should be manufactured to ensure that the unit cost is minimized? Enter the number of items.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "56090",
+    "item_id": "65190",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "a. Determine the area of the largest rectangle that can be inscribed in a right triangle if the legs of the triangle are 5 cm and 12 cm and the sides of the rectangle are along the legs of the triangle. The largest area is cm^2. b. Repeat part a. for a right triangle that has sides 8 cm and 15 cm. The largest area is cm^2. c. Hypothesize a conclusion for any right triangle.",
+    "prompt_html": "<p>a. Determine the area of the largest rectangle that can be inscribed in a right triangle if the legs of the triangle are 5 cm and 12 cm and the sides of the rectangle are along the legs of the triangle. The largest area is <span id=\"blank_b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c\"></span> cm^2. b. Repeat part a. for a right triangle that has sides 8 cm and 15 cm. The largest area is <span id=\"blank_c796450d-dc2b-4584-94c5-0144e2253342\"></span> cm^2. c. Hypothesize a conclusion for any right triangle.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "b0fecc1e-e250-4bb8-a4bd-03dcec5f6b9c"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c796450d-dc2b-4584-94c5-0144e2253342"
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "56090",
+    "item_id": "65191",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2. The minimal distance is .",
+    "prompt_html": "<p>Determine the minimal distance from point (-3, 3) to the curve given by y = (x - 3)^2. The minimal distance is <span id=\"blank_be168eca-a3b0-469c-a576-81efad6c2bee\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "be168eca-a3b0-469c-a576-81efad6c2bee"
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "56091",
+    "item_id": "65091",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = , a(2) = ; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = .",
+    "prompt_html": "<p>An object is moving horizontally. The object's displacement, s, in metres at t seconds is described by s(t) = 4t - 7t^2 + 2t^3. a. Determine the velocity and acceleration at t = 2. v(2) = <span id=\"blank_753d402c-4f24-4194-bb5f-bf368309e939\"></span>, a(2) = <span id=\"blank_405906fc-880a-4005-8de3-948208483ca6\"></span>; b. When is the object stationary? Describe the motion immediately before and after these times. c. At what time, to the nearest tenth of a second, is the acceleration equal to 0? t = <span id=\"blank_f80fc07c-75a2-429c-af7d-d4b56163d7ca\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 3,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "753d402c-4f24-4194-bb5f-bf368309e939"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "405906fc-880a-4005-8de3-948208483ca6"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "f80fc07c-75a2-429c-af7d-d4b56163d7ca"
+        }
+      ]
+    }
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "56091",
+    "item_id": "65075",
+    "points": 12.5,
+    "slug": "rich-fill-blank",
+    "prompt_text": "Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = ; b. When is its velocity zero? t = .",
+    "prompt_html": "<p>Starting at t = 0, a particle moves along a line so that its position after t seconds is s(t) = t^2 - 6t + 8. a. What is its velocity at time t? v(t) = <span id=\"blank_316c0753-f3e0-4148-8d3c-79b3abc85696\"></span>; b. When is its velocity zero? t = <span id=\"blank_c053d239-9618-4ac0-981b-c0cbac605c8f\"></span>.</p>",
+    "choices": [],
+    "num_blanks": 2,
+    "interaction_data": {
+      "blanks": [
+        {
+          "answer_type": "openEntry",
+          "id": "316c0753-f3e0-4148-8d3c-79b3abc85696"
+        },
+        {
+          "answer_type": "openEntry",
+          "id": "c053d239-9618-4ac0-981b-c0cbac605c8f"
+        }
+      ]
+    }
+  }
+]

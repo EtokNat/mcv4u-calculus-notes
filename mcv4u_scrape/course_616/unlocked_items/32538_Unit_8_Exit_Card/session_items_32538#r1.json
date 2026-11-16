@@ -1,0 +1,292 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Forces in equilibrium (resultant, equilibrant, hanging masses)</p>",
+            "id": "a2bb9f5f-0cdc-4c36-b6c8-03d0c3bc5bb2",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Velocity and navigation (wind, river crossings, headings)</p>",
+            "id": "08b5080e-abf4-4b3e-94a8-3cd86d93c0e1",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Work problems (ramps, pushers, friction)</p>",
+            "id": "422ba40d-5b12-40d3-8041-f0ecc0bd7e4c",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Torque problems (wrenches, doors, seesaws)</p>",
+            "id": "6657bebc-8abe-4d39-baa4-125370ca9638",
+            "position": 4
+          },
+          {
+            "item_body": "<p>Projections and geometric applications (ramps, areas, volumes)</p>",
+            "id": "38083705-b9a7-48ea-83f6-bec4c46248ed",
+            "position": 5
+          }
+        ]
+      },
+      "item_body": "<p>What clicked best for you in this unit?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45175",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "34036",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Forces in equilibrium (resultant, equilibrant, hanging masses)</p>",
+            "id": "a2bb9f5f-0cdc-4c36-b6c8-03d0c3bc5bb2",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Velocity and navigation (wind, river crossings, headings)</p>",
+            "id": "08b5080e-abf4-4b3e-94a8-3cd86d93c0e1",
+            "position": 2
+          },
+          {
+            "item_body": "<p>Work problems (ramps, pushers, friction)</p>",
+            "id": "422ba40d-5b12-40d3-8041-f0ecc0bd7e4c",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Torque problems (wrenches, doors, seesaws)</p>",
+            "id": "6657bebc-8abe-4d39-baa4-125370ca9638",
+            "position": 4
+          },
+          {
+            "item_body": "<p>Projections and geometric applications (ramps, areas, volumes)</p>",
+            "id": "38083705-b9a7-48ea-83f6-bec4c46248ed",
+            "position": 5
+          },
+          {
+            "item_body": "<p>Nothing \u2014 I feel solid on all of it</p>",
+            "id": "19d2a8e4-67f4-4199-96f4-71057f5930f8",
+            "position": 6
+          }
+        ]
+      },
+      "item_body": "<p>What is still muddy for you?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45183",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "34044",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>Much higher</p>",
+            "id": "e057c698-ea84-498c-b3b9-8e0d9c1ac2d6",
+            "position": 1
+          },
+          {
+            "item_body": "<p>Somewhat higher</p>",
+            "id": "f28ddde1-059f-4352-b71d-57480ba8f4f6",
+            "position": 2
+          },
+          {
+            "item_body": "<p>About the same</p>",
+            "id": "95dcba4f-0d11-41aa-919e-62abc09f7899",
+            "position": 3
+          },
+          {
+            "item_body": "<p>Lower</p>",
+            "id": "ba5a076c-62bf-46d8-86fa-cbdcd910240c",
+            "position": 4
+          }
+        ]
+      },
+      "item_body": "<p>Compared to the start of the unit, my confidence solving applied vector word problems is now\u2026</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45192",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "34051",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "choices": [
+          {
+            "item_body": "<p>More worked examples</p>",
+            "id": "a26ac6d4-fc75-4870-8ffc-7a9a1b4607ec",
+            "position": 1
+          },
+          {
+            "item_body": "<p>More practice problems</p>",
+            "id": "0b84b62f-c003-4592-8d5b-5dff5fd612c7",
+            "position": 2
+          },
+          {
+            "item_body": "<p>A video walkthrough of the tricky parts</p>",
+            "id": "5c95be28-0413-4b5a-bfa6-a3d665235690",
+            "position": 3
+          },
+          {
+            "item_body": "<p>A one-on-one check-in with my teacher</p>",
+            "id": "f752ea59-5005-4032-af91-40a2681c2ab3",
+            "position": 4
+          },
+          {
+            "item_body": "<p>I'm good for now</p>",
+            "id": "2672007a-2520-4cfc-aab7-4ac779c4bf4a",
+            "position": 5
+          }
+        ]
+      },
+      "item_body": "<p>What kind of help would be most useful to you before the summative assessment?</p>",
+      "user_response_type": "Uuid",
+      "interaction_type": {
+        "name": "Multiple Choice",
+        "slug": "choice",
+        "id": "1"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45197",
+      "label": null,
+      "title": null,
+      "properties": {
+        "vary_points_by_answer": false,
+        "shuffle_rules": {
+          "choices": {
+            "shuffled": false,
+            "to_lock": []
+          }
+        }
+      }
+    },
+    "points_possible": 1.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "34055",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": false
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>Anything else you'd like me to know before the summative assessment? (Questions, concerns, or topics you'd like revisited.)</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "45201",
+      "label": null,
+      "title": null,
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 1.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "34060",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": false
+  }
+]

@@ -1,0 +1,554 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "19f4f1c5-c689-448c-ab7f-981e0bde1231"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "18e80d60-43c2-4dd1-b871-410f583e709a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9d8eca05-0f97-42fb-920d-8158d9e25228"
+          }
+        ]
+      },
+      "item_body": "<p>If you have ever travelled in an airplane, you probably noticed that the air pressure in the airplane varied. The atmospheric pressure, y, varies with the altitude, x kilometres, above Earth. For altitudes up to 10 km, the pressure in millimetres of mercury (mm Hg) is given by y = 760e^(-0.125x). What is the atmospheric pressure at each distance above Earth? a. 5 km: <span id=\"blank_19f4f1c5-c689-448c-ab7f-981e0bde1231\"></span> b. 7 km: <span id=\"blank_18e80d60-43c2-4dd1-b871-410f583e709a\"></span> c. 9 km: <span id=\"blank_9d8eca05-0f97-42fb-920d-8158d9e25228\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69483",
+      "label": null,
+      "title": "Mid-Chapter Review Q10 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56193",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[K/U] Calculate the slope of the tangent line that passes through y = 5^x, where x = 2. Express your answer to two decimal places.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69486",
+      "label": null,
+      "title": "Chapter 5 Test Q7 - Auto",
+      "properties": {}
+    },
+    "points_possible": 4.0,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56194",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "780acb73-d135-4500-856d-2e54a2e57474"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "34fe4df8-71d2-4443-9c87-c5af1eb06060"
+          }
+        ]
+      },
+      "item_body": "<p>[A] A rumour spreads through a population in such a way that t hours after the rumour starts, the percent of people involved in passing it on is given by P(t) = 100(e^(-t) - e^(-4t)). What is the highest percent of people involved in spreading the rumour within the first 3 h? <span id=\"blank_780acb73-d135-4500-856d-2e54a2e57474\"></span> When does this occur? <span id=\"blank_34fe4df8-71d2-4443-9c87-c5af1eb06060\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69489",
+      "label": null,
+      "title": "Exercise 5.3 Q6 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56195",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "afcd79b3-2e03-49b2-bca5-11e858791272"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "de5e9b6c-3135-44b8-8d3f-b99c9acd5299"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "9ebbb7bb-8d70-4f4e-ab70-157a83430c6e"
+          }
+        ]
+      },
+      "item_body": "<p>[A] The position of a particle is given by s = 5 cos(2t + pi/4) at time t. What are the maximum values of the displacement, the velocity, and the acceleration? Displacement: <span id=\"blank_afcd79b3-2e03-49b2-bca5-11e858791272\"></span> Velocity: <span id=\"blank_de5e9b6c-3135-44b8-8d3f-b99c9acd5299\"></span> Acceleration: <span id=\"blank_9ebbb7bb-8d70-4f4e-ab70-157a83430c6e\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69492",
+      "label": null,
+      "title": "Review Exercise Q18 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56196",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "2af1ee0d-9333-46e5-a4e9-1798727423df"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "5636f859-10a3-4d4c-b23a-815aba989f9a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fd822b14-876e-45bb-8106-720946606497"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine all the values of x, 0 &lt;= x &lt;= 2pi, for which the slope of the tangent to f(x) = sin x tan x is zero. x = <span id=\"blank_2af1ee0d-9333-46e5-a4e9-1798727423df\"></span>, <span id=\"blank_5636f859-10a3-4d4c-b23a-815aba989f9a\"></span>, <span id=\"blank_fd822b14-876e-45bb-8106-720946606497\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69494",
+      "label": null,
+      "title": "Exercise 5.5 Q5 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 4.0,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56197",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Determine the second derivative of each of the following:</p><p>a. y = xe^x - e^x</p><p>b. y = xe^(10x)</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63447",
+      "label": null,
+      "title": "Q6 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56198",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[C]</p><p>Why can you not use the power rule for derivatives to differentiate y = e^x?</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63338",
+      "label": null,
+      "title": "Q1 [C]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56198",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[T]</p><p>Historical data show that the amount of money sent out of Canada for interest and dividend payments during the period from 1967 to 1979 can be approximated by the model P = (5 x 10^8)e^(0.20015t), where t is measured in years (t = 0 in 1967) and P is the total payment in Canadian dollars.</p><p>a. Determine and compare the rates of increase for the years 1968 and 1978.</p><p>b. Assuming this trend continues, compare the rate of increase for 1988 with the rate of increase for 1998.</p><p>c. Check the Statistics Canada website to see if the rates of increase predicted by this model were accurate for 1988 and 1998.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63383",
+      "label": null,
+      "title": "Q7 [T]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56199",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Differentiate.</p><p>a. y = 5^x</p><p>b. y = (0.47)^x</p><p>c. y = (52)^(2x)</p><p>d. y = 5(2)^x</p><p>e. y = 4(e)^x</p><p>f. y = -2(10)^(3x)</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63455",
+      "label": null,
+      "title": "Q14 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 9,
+    "question_number": 9,
+    "quiz_entry_id": "56199",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 9,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[A]</p><p>The squirrel population in a small self-contained forest was studied by a biologist. The biologist found that the squirrel population, P, measured in hundreds, is a function of time, t, where t is measured in weeks. The function is P(t) = 20/(1 + 3e^(-0.02t)).</p><p>a. Determine the population at the start of the study, when t = 0.</p><p>b. The largest population the forest can sustain is represented mathematically by the limit as t -&gt; infinity. Determine this limit.</p><p>c. Determine the point of inflection.</p><p>d. Graph the function.</p><p>e. Explain the meaning of the point of inflection in terms of squirrel population growth.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63388",
+      "label": null,
+      "title": "Q3 [A]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 10,
+    "question_number": 10,
+    "quiz_entry_id": "56200",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 10,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[A]</p><p>Although it is true that many animal populations grow exponentially for a period of time, it must be remembered that the food available to sustain the population is limited and the population will level off because of this. One mathematical model to describe a population that grows exponentially at the beginning and then levels off to a limiting value, L, is the logistic model. The equation for this model is P = aL/[a + (L - a)e^(-kLt)], where t represents time, P represents the size of the population, a is the size of the population at t = 0, L is the limiting value, and k is a mathematical constant.</p><p>a. Suppose that a biologist starts a cell colony with 100 cells and finds that the limiting size of the colony is 10 000 cells. If the constant k = 0.0001, draw a graph to illustrate this population, where t is in days.</p><p>b. At what point in time does the cell colony stop growing exponentially? How large is the colony at this point?</p><p>c. Compare the growth rate of the colony at the end of day 3 with the growth rate at the end of day 8. Explain what is happening.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63401",
+      "label": null,
+      "title": "Q16 [A]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 11,
+    "question_number": 11,
+    "quiz_entry_id": "56200",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 11,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Determine dy/dx for each of the following:</p><p>a. y = sin 2x</p><p>b. y = 2 cos 3x</p><p>c. y = sin(x^3 - 2x + 4)</p><p>d. y = 2 cos(-4x)</p><p>e. y = sin 3x - cos 4x</p><p>f. y = 2^x + 2 sin x - 2 cos x</p><p>g. y = sin(e^x)</p><p>h. y = 3 sin(3x + 2pi)</p><p>i. y = x^2 + cos x + sin(pi/4)</p><p>j. y = sin(1/x)</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63417",
+      "label": null,
+      "title": "Q1 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 12,
+    "question_number": 12,
+    "quiz_entry_id": "56201",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 12,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Determine the equation of the tangent to the curve y = cos x at (pi/2, 0).</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63457",
+      "label": null,
+      "title": "Q16 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 13,
+    "question_number": 13,
+    "quiz_entry_id": "56201",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 13,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Determine f''(x), where f(x) = cot 4x.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63441",
+      "label": null,
+      "title": "Q11 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 14,
+    "question_number": 14,
+    "quiz_entry_id": "56202",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 14,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "rce": true
+      },
+      "item_body": "<p>[K/U]</p><p>Determine all the values of x, 0 &lt;= x &lt;= 2pi, for which the slope of the tangent to f(x) = sin x tan x is zero.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "63435",
+      "label": null,
+      "title": "Q5 [K/U]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 8.0,
+    "position": 15,
+    "question_number": 15,
+    "quiz_entry_id": "56202",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 15,
+    "required": null
+  }
+]

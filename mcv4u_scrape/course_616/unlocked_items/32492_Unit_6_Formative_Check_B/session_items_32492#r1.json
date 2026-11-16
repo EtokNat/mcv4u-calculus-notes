@@ -1,0 +1,391 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "78932cac-750e-4bb1-a604-e28a09affa02"
+          }
+        ]
+      },
+      "item_body": "<p>[T] In the trapezoid TXYZ, TX = 2 ZY. If the diagonals meet at O, find an expression for TO in terms of TX and TZ. TO = <span id=\"blank_78932cac-750e-4bb1-a604-e28a09affa02\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69548",
+      "label": null,
+      "title": "Exercise 6.4 Q12 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56702",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "73bcccc0-4e92-4b08-b1c8-b6517de5a618"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "b65e9034-3e20-4fe7-928d-b02036a251f6"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] (Parts a and b only) ABCDEFGH is a rectangular prism, as shown in the diagram. a. Write a single vector that is equivalent to EG + GH + HD + DC: <span id=\"blank_73bcccc0-4e92-4b08-b1c8-b6517de5a618\"></span> b. Write a vector that is equivalent to EG + GD + DE: <span id=\"blank_b65e9034-3e20-4fe7-928d-b02036a251f6\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69543",
+      "label": null,
+      "title": "Exercise 6.4 Q6 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56702",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "bddc2842-07e6-48e8-ba31-bc8463e61255"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ea6b90a2-fa86-4231-8d67-fc93d7b9f8b6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "cb57be4a-f636-42be-8d7f-19248a255a6a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e72af919-5618-4bc6-9328-2786f152facb"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "f0acc224-0e04-4f5a-a4d1-c5e8f2b52a78"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "19848efa-eea2-4a17-a760-7d15f4706ce4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e3e6565e-c4e8-47c6-8d2b-d5005b985e9e"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a23bd848-4f7c-4d77-b9a5-684890d5f4ca"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] A rectangular prism measuring 3 by 4 by 5 is drawn on a coordinate axis as shown in the diagram. In the diagram, O is the origin, A(3, 0, 0), B(3, 4, 0), and D(0, 0, 5). a. Determine the coordinates of points C, P, E, and F. C = <span id=\"blank_bddc2842-07e6-48e8-ba31-bc8463e61255\"></span>, P = <span id=\"blank_ea6b90a2-fa86-4231-8d67-fc93d7b9f8b6\"></span>, E = <span id=\"blank_cb57be4a-f636-42be-8d7f-19248a255a6a\"></span>, F = <span id=\"blank_e72af919-5618-4bc6-9328-2786f152facb\"></span>. b. Determine position vectors for DB and CF. DB = <span id=\"blank_f0acc224-0e04-4f5a-a4d1-c5e8f2b52a78\"></span>, CF = <span id=\"blank_19848efa-eea2-4a17-a760-7d15f4706ce4\"></span>. c. By drawing the rectangle containing DB and OP, determine the acute angle between these vectors. The angle is <span id=\"blank_e3e6565e-c4e8-47c6-8d2b-d5005b985e9e\"></span> degrees. d. Determine the angle between OP and AE. The angle is <span id=\"blank_a23bd848-4f7c-4d77-b9a5-684890d5f4ca\"></span> degrees.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69562",
+      "label": null,
+      "title": "Review Exercise Q15 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56703",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "b90e7ba9-8cc7-4e68-8f47-e6cc534ca6f5"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "87c10e95-9443-470b-a72e-a0be5fc99eba"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "a46afee2-43a5-4de0-831b-216a5a73e273"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "07b01d12-b614-4242-9209-ab02a62d39be"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0b750090-3fa1-41b7-911f-b1d2c849d805"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fdbc03a2-0dfb-4b94-a9fc-f812e5ebd24a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "40cfa8d1-7772-4fda-b881-6203012b4b98"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "7f47b168-75f3-4c96-80fc-fd2c00c5479f"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "3212a0e4-a106-4ca3-a11e-51259e358092"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "02f043ef-f9c9-4b44-a028-bd7b07697f9c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "0afb7750-a4b1-490e-8310-c45d74c8e431"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e634d745-64c4-439b-8068-6c6927d6e25a"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "1b15a1f3-1409-40b6-8259-e7e8c5f72f5c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "30460020-b315-43cc-a466-df5fdd8675d2"
+          }
+        ]
+      },
+      "item_body": "<p>[A] (Parts a-d only) The point P(-2, 4, -7) is located in R^3 as shown on the coordinate axes below. a. Determine the coordinates of points A, B, C, D, E, and F. A = <span id=\"blank_b90e7ba9-8cc7-4e68-8f47-e6cc534ca6f5\"></span>, B = <span id=\"blank_87c10e95-9443-470b-a72e-a0be5fc99eba\"></span>, C = <span id=\"blank_a46afee2-43a5-4de0-831b-216a5a73e273\"></span>, D = <span id=\"blank_07b01d12-b614-4242-9209-ab02a62d39be\"></span>, E = <span id=\"blank_0b750090-3fa1-41b7-911f-b1d2c849d805\"></span>, F = <span id=\"blank_fdbc03a2-0dfb-4b94-a9fc-f812e5ebd24a\"></span>. b. What are the vectors associated with each of the points in part a.? OA = <span id=\"blank_40cfa8d1-7772-4fda-b881-6203012b4b98\"></span>, OB = <span id=\"blank_7f47b168-75f3-4c96-80fc-fd2c00c5479f\"></span>, OC = <span id=\"blank_3212a0e4-a106-4ca3-a11e-51259e358092\"></span>, OD = <span id=\"blank_02f043ef-f9c9-4b44-a028-bd7b07697f9c\"></span>, OE = <span id=\"blank_0afb7750-a4b1-490e-8310-c45d74c8e431\"></span>, OF = <span id=\"blank_e634d745-64c4-439b-8068-6c6927d6e25a\"></span>. c. How far below the xy-plane is the rectangle DEPF? <span id=\"blank_1b15a1f3-1409-40b6-8259-e7e8c5f72f5c\"></span> units. d. What is the equation of the plane containing the points B, C, E, and P? The plane is y = <span id=\"blank_30460020-b315-43cc-a466-df5fdd8675d2\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69558",
+      "label": null,
+      "title": "Exercise 6.5 Q15 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56703",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "71330850-3979-462d-9011-0301e995b108"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "6715e5c8-2042-4ada-9931-7d085ce86106"
+          }
+        ]
+      },
+      "item_body": "<p>[C] (Coordinates only) Rectangle ABCD has vertices at A(2, 3), B(-6, 9), C(x, y), and D(8, 11). Determine the coordinates of point C. C = (<span id=\"blank_71330850-3979-462d-9011-0301e995b108\"></span>, <span id=\"blank_6715e5c8-2042-4ada-9931-7d085ce86106\"></span>).</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69576",
+      "label": null,
+      "title": "Exercise 6.6 Q14 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56704",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[K/U] For the vector OA = 3i - 4j, calculate |OA|.</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69565",
+      "label": null,
+      "title": "Exercise 6.6 Q3 - Auto",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56704",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "63c8ab4a-ac71-43cc-afa1-1cefaedcb30c"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "e454429f-abfc-42ed-8224-a96fc130b8ac"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "639b97ae-c438-4fae-a167-5337f3e944bd"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] (Parts b-d only) Triangle ABC has vertices A(-1, 1, 1), B(2, 0, 3), and C(3, 3, -4). b. Determine the area of the triangle. The area is <span id=\"blank_63c8ab4a-ac71-43cc-afa1-1cefaedcb30c\"></span> square units. c. Determine the perimeter. The perimeter is <span id=\"blank_e454429f-abfc-42ed-8224-a96fc130b8ac\"></span> units. d. Determine the fourth vertex D that completes the rectangle. D = <span id=\"blank_639b97ae-c438-4fae-a167-5337f3e944bd\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69598",
+      "label": null,
+      "title": "Review Exercise Q7 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56705",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "20bff3ed-af03-47df-9d61-3fc6a34364fc"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "59d06f7a-cf88-4fe4-be12-d83c5c5b8df6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "fc80854a-d74d-4d41-82c4-28dcc98c8a13"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Given A(-2, 3, -5) and B(6, 7, 3), determine each of the following. a. AB = <span id=\"blank_20bff3ed-af03-47df-9d61-3fc6a34364fc\"></span>. b. |AB| = <span id=\"blank_59d06f7a-cf88-4fe4-be12-d83c5c5b8df6\"></span>. c. A unit vector in the direction of BA is <span id=\"blank_fc80854a-d74d-4d41-82c4-28dcc98c8a13\"></span>.</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "69603",
+      "label": null,
+      "title": "Chapter 6 Test Q2 - Auto",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {}
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56705",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

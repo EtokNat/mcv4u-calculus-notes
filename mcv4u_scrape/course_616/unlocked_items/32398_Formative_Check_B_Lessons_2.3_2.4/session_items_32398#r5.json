@@ -1,0 +1,376 @@
+[
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "b1c46890-b7d7-4b60-bdfe-f6fb4327a2fc"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "ee512cd6-46ab-4cb4-a6d7-f8668abd8246"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "be014cfa-d2ae-413b-9a97-d5aed558732e"
+          }
+        ]
+      },
+      "item_body": "<p>[A] An object drops from a cliff that is 150 m high. The distance, d, in metres, that the object has dropped at t seconds is modelled by d(t) = 4.9t^2.</p>\n<p>a. Find the average rate of change of distance with respect to time from 2 s to 5 s: <span id=\"blank_b1c46890-b7d7-4b60-bdfe-f6fb4327a2fc\"></span> m/s</p>\n<p>b. Find the instantaneous rate of change of distance with respect to time at 4 s: <span id=\"blank_ee512cd6-46ab-4cb4-a6d7-f8668abd8246\"></span> m/s</p>\n<p>c. Find the rate at which the object hits the ground to the nearest tenth: <span id=\"blank_be014cfa-d2ae-413b-9a97-d5aed558732e\"></span> m/s</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65000",
+      "label": null,
+      "title": "Q20 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 1,
+    "question_number": 1,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 1,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "b164f778-9ea4-480c-b6e4-299367135ee4"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "28791ce0-e312-41b3-a94d-9a2706a31be1"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "4fbe1ff0-8f8c-440f-b1d0-1ba98688cbf0"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "05c2feb6-524e-4a57-b3fb-9cca0bb8f94d"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "8fa3227b-e801-45f0-b2a6-882626af2dc6"
+          },
+          {
+            "answer_type": "openEntry",
+            "id": "d571a5da-c9e8-46e4-86a1-3f60b5ce51c4"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Apply the differentiation rules you learned in this section to find the derivatives of the following functions.</p>\n<p>a. y = 3x^(5/3): dy/dx = <span id=\"blank_b164f778-9ea4-480c-b6e4-299367135ee4\"></span></p>\n<p>b. y = 4x^(-1/2) - 6/x: dy/dx = <span id=\"blank_28791ce0-e312-41b3-a94d-9a2706a31be1\"></span></p>\n<p>c. y = 6/x^3 + 2/x^2 - 3: dy/dx = <span id=\"blank_4fbe1ff0-8f8c-440f-b1d0-1ba98688cbf0\"></span></p>\n<p>d. y = 9x^-2 + 3 sqrt(x): dy/dx = <span id=\"blank_05c2feb6-524e-4a57-b3fb-9cca0bb8f94d\"></span></p>\n<p>e. y = sqrt(x) + 6 sqrt(x^3) + sqrt(2): dy/dx = <span id=\"blank_8fa3227b-e801-45f0-b2a6-882626af2dc6\"></span></p>\n<p>f. y = (1 + sqrt(x))/x: dy/dx = <span id=\"blank_d571a5da-c9e8-46e4-86a1-3f60b5ce51c4\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "64994",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              },
+              "1": {
+                "children": null
+              },
+              "2": {
+                "children": null
+              },
+              "3": {
+                "children": null
+              },
+              "4": {
+                "children": null
+              },
+              "5": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 2,
+    "question_number": 2,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 2,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>[A] The relative percent of carbon dioxide, C, in a carbonated soft drink at t minutes can be modelled by C(t) = 100/t, where t &gt; 2. Determine C'(t) and interpret the results at 5 min, 50 min, and 100 min. Explain what is happening.</p>\n<p>C'(t) =</p>\n<p>C'(5) =</p>\n<p>C'(50) =</p>\n<p>C'(100) =</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "76220",
+      "label": null,
+      "title": "Q18 [A]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 12.5,
+    "position": 3,
+    "question_number": 3,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 3,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "word_limit_min": null,
+        "word_count": false,
+        "word_limit_max": null,
+        "rce": true,
+        "essay": null,
+        "file_upload": false,
+        "spell_check": false,
+        "word_limit_enabled": false
+      },
+      "item_body": "<p>[C] A classmate says, 'The derivative of a cubic polynomial function is a quadratic polynomial function.' Is the statement always true, sometimes true, or never true? Defend your choice in words, and provide two examples to support your argument.</p>\n<p>For a cubic f(x) = ax^3 + bx^2 + cx + d (a != 0), the derivative is f'(x) = .</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Essay",
+        "slug": "essay",
+        "id": "9"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "76092",
+      "label": null,
+      "title": "Q14 [C]",
+      "properties": {
+        "word_limit_min": 0,
+        "show_word_count": false,
+        "word_limit": false,
+        "word_limit_max": 0,
+        "rich_content_editor": false,
+        "spell_check": false
+      }
+    },
+    "points_possible": 12.5,
+    "position": 4,
+    "question_number": 4,
+    "quiz_entry_id": "56025",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 4,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "1b21008b-ce7d-4212-ad9e-6be9e244c7bc"
+          }
+        ]
+      },
+      "item_body": "<p>[A] A 75 L gas tank has a leak. After t hours, the remaining volume, V, in litres is V(t) = 75(1 - t/24)^2, 0 &lt;= t &lt;= 24. Use the product rule to determine how quickly the gas is leaking from the tank when the tank is 60% full of gas.</p>\n<p>Leaking rate: <span id=\"blank_1b21008b-ce7d-4212-ad9e-6be9e244c7bc\"></span> L/h</p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65029",
+      "label": null,
+      "title": "Q9 [A]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 5,
+    "question_number": 5,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 5,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {},
+      "item_body": "<p>[K/U] Determine the slope of the tangent to the graph of y = (x^2 + 3x - 2)(7 - 3x) at (1, 8).</p>",
+      "user_response_type": "Text",
+      "interaction_type": {
+        "name": "Numeric",
+        "slug": "numeric",
+        "id": "4"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65033",
+      "label": null,
+      "title": "Q5 [K/U]",
+      "properties": {}
+    },
+    "points_possible": 12.5,
+    "position": 6,
+    "question_number": 6,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 6,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "8fb34aea-ea7c-4ef4-99d4-7fac55766383"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Let F(x) = [b(x)][c(x)]. Express F'(x) in terms of b(x) and c(x).</p>\n<p>F'(x) = <span id=\"blank_8fb34aea-ea7c-4ef4-99d4-7fac55766383\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65026",
+      "label": null,
+      "title": "Q4 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 7,
+    "question_number": 7,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 7,
+    "required": null
+  },
+  {
+    "calculator_type": "none",
+    "item": {
+      "interaction_data": {
+        "blanks": [
+          {
+            "answer_type": "openEntry",
+            "id": "c0ceda18-0cc4-40ab-b42e-6e6232b95880"
+          }
+        ]
+      },
+      "item_body": "<p>[K/U] Determine the equation of the tangent to y = (5x^2 + 9x - 2)(-x^2 + 2x + 3) at (1, 48).</p>\n<p>Tangent: <span id=\"blank_c0ceda18-0cc4-40ab-b42e-6e6232b95880\"></span></p>",
+      "user_response_type": "MultipleResponse",
+      "interaction_type": {
+        "name": "Rich Fill in the Blank",
+        "slug": "rich-fill-blank",
+        "id": "13"
+      },
+      "outcome_alignment_set_guid": null,
+      "id": "65032",
+      "label": null,
+      "title": "Q9 [K/U]",
+      "properties": {
+        "shuffle_rules": {
+          "blanks": {
+            "children": {
+              "0": {
+                "children": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_possible": 12.5,
+    "position": 8,
+    "question_number": 8,
+    "quiz_entry_id": "56026",
+    "stimulus": null,
+    "stimulus_key": null,
+    "bola_position": 8,
+    "required": null
+  }
+]

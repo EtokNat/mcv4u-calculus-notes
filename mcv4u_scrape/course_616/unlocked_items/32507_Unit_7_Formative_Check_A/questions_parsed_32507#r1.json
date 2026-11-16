@@ -1,0 +1,386 @@
+[
+  {
+    "position": 1,
+    "quiz_entry_id": "34011",
+    "item_id": "45152",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "A student writes a.(b + c) = a.b + a.c. This is...",
+    "prompt_html": "<p>A student writes a.(b + c) = a.b + a.c. This is...</p>",
+    "choices": [
+      {
+        "id": "72e2f549-bee7-434d-816e-c1582e69f6b9",
+        "position": 1,
+        "text": "Correct - the distributive property of the dot product",
+        "html": "<p>Correct - the distributive property of the dot product</p>"
+      },
+      {
+        "id": "31079a66-fc2f-4231-9748-6061b6c813a9",
+        "position": 2,
+        "text": "Wrong - it should equal (a.b) + c",
+        "html": "<p>Wrong - it should equal (a.b) + c</p>"
+      },
+      {
+        "id": "9ce14df2-9c16-4b11-b96a-647bbfda65ee",
+        "position": 3,
+        "text": "Correct only when a, b, c are unit vectors",
+        "html": "<p>Correct only when a, b, c are unit vectors</p>"
+      },
+      {
+        "id": "e0956296-41f4-4792-886e-771f9164f93d",
+        "position": 4,
+        "text": "Wrong - you cannot dot a vector with a sum",
+        "html": "<p>Wrong - you cannot dot a vector with a sum</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>Correct - the distributive property of the dot product</p>",
+          "id": "72e2f549-bee7-434d-816e-c1582e69f6b9",
+          "position": 1
+        },
+        {
+          "item_body": "<p>Wrong - it should equal (a.b) + c</p>",
+          "id": "31079a66-fc2f-4231-9748-6061b6c813a9",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Correct only when a, b, c are unit vectors</p>",
+          "id": "9ce14df2-9c16-4b11-b96a-647bbfda65ee",
+          "position": 3
+        },
+        {
+          "item_body": "<p>Wrong - you cannot dot a vector with a sum</p>",
+          "id": "e0956296-41f4-4792-886e-771f9164f93d",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 2,
+    "quiz_entry_id": "33969",
+    "item_id": "45105",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "|a| = 3, |b| = 5, and the angle between them (tail to tail) is 120 degrees. The value of a.b is...",
+    "prompt_html": "<p>|a| = 3, |b| = 5, and the angle between them (tail to tail) is 120 degrees. The value of a.b is...</p>",
+    "choices": [
+      {
+        "id": "7b904c9c-1178-4c5f-8db4-4c1d35b1adcf",
+        "position": 1,
+        "text": "7.5",
+        "html": "<p>7.5</p>"
+      },
+      {
+        "id": "30f06846-f132-4bd2-a243-9cdd179c60b7",
+        "position": 2,
+        "text": "15",
+        "html": "<p>15</p>"
+      },
+      {
+        "id": "6ea2e34a-0c55-408b-991f-71dbf0e33664",
+        "position": 3,
+        "text": "-15",
+        "html": "<p>-15</p>"
+      },
+      {
+        "id": "282a51be-ad66-4861-8bf1-a16b8a6ee2e8",
+        "position": 4,
+        "text": "-7.5",
+        "html": "<p>-7.5</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>7.5</p>",
+          "id": "7b904c9c-1178-4c5f-8db4-4c1d35b1adcf",
+          "position": 1
+        },
+        {
+          "item_body": "<p>15</p>",
+          "id": "30f06846-f132-4bd2-a243-9cdd179c60b7",
+          "position": 2
+        },
+        {
+          "item_body": "<p>-15</p>",
+          "id": "6ea2e34a-0c55-408b-991f-71dbf0e33664",
+          "position": 3
+        },
+        {
+          "item_body": "<p>-7.5</p>",
+          "id": "282a51be-ad66-4861-8bf1-a16b8a6ee2e8",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 3,
+    "quiz_entry_id": "33986",
+    "item_id": "45123",
+    "points": 13.0,
+    "slug": "numeric",
+    "prompt_text": "For a = (-1, 2, 4) and b = (3, 4, 3), the value of a.b is...",
+    "prompt_html": "<p>For a = (-1, 2, 4) and b = (3, 4, 3), the value of a.b is...</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 4,
+    "quiz_entry_id": "34004",
+    "item_id": "45141",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "Using the dot-product properties, (a + b).(a - b) simplifies to...",
+    "prompt_html": "<p>Using the dot-product properties, (a + b).(a - b) simplifies to...</p>",
+    "choices": [
+      {
+        "id": "4bd69cbb-f7f4-4e0a-9a5c-5e707f2729bf",
+        "position": 1,
+        "text": "|a|^2 + |b|^2",
+        "html": "<p>|a|^2 + |b|^2</p>"
+      },
+      {
+        "id": "ef919867-61ed-4f04-928b-82106ffd1909",
+        "position": 2,
+        "text": "0",
+        "html": "<p>0</p>"
+      },
+      {
+        "id": "1e922468-543d-421c-9efa-a400a7eb99db",
+        "position": 3,
+        "text": "2(a.b)",
+        "html": "<p>2(a.b)</p>"
+      },
+      {
+        "id": "b54e3436-b64a-4f1e-a59a-846529d33f74",
+        "position": 4,
+        "text": "|a|^2 - |b|^2",
+        "html": "<p>|a|^2 - |b|^2</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>|a|^2 + |b|^2</p>",
+          "id": "4bd69cbb-f7f4-4e0a-9a5c-5e707f2729bf",
+          "position": 1
+        },
+        {
+          "item_body": "<p>0</p>",
+          "id": "ef919867-61ed-4f04-928b-82106ffd1909",
+          "position": 2
+        },
+        {
+          "item_body": "<p>2(a.b)</p>",
+          "id": "1e922468-543d-421c-9efa-a400a7eb99db",
+          "position": 3
+        },
+        {
+          "item_body": "<p>|a|^2 - |b|^2</p>",
+          "id": "b54e3436-b64a-4f1e-a59a-846529d33f74",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 5,
+    "quiz_entry_id": "33981",
+    "item_id": "45115",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "Which pair of vectors is perpendicular?",
+    "prompt_html": "<p>Which pair of vectors is perpendicular?</p>",
+    "choices": [
+      {
+        "id": "aff79dd7-b94e-4678-9798-9cf52b12d655",
+        "position": 1,
+        "text": "(3, 1) and (1, 3)",
+        "html": "<p>(3, 1) and (1, 3)</p>"
+      },
+      {
+        "id": "2f2adfe8-1550-4c6a-b451-865f1a208585",
+        "position": 2,
+        "text": "(2, -1) and (2, 1)",
+        "html": "<p>(2, -1) and (2, 1)</p>"
+      },
+      {
+        "id": "c7a46b7f-8ca3-479f-a55c-d001cbfa4779",
+        "position": 3,
+        "text": "(2, -1) and (1, 2)",
+        "html": "<p>(2, -1) and (1, 2)</p>"
+      },
+      {
+        "id": "1161b622-bcdd-4e3a-96d5-f73e31393e09",
+        "position": 4,
+        "text": "(1, 2) and (2, 1)",
+        "html": "<p>(1, 2) and (2, 1)</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>(3, 1) and (1, 3)</p>",
+          "id": "aff79dd7-b94e-4678-9798-9cf52b12d655",
+          "position": 1
+        },
+        {
+          "item_body": "<p>(2, -1) and (2, 1)</p>",
+          "id": "2f2adfe8-1550-4c6a-b451-865f1a208585",
+          "position": 2
+        },
+        {
+          "item_body": "<p>(2, -1) and (1, 2)</p>",
+          "id": "c7a46b7f-8ca3-479f-a55c-d001cbfa4779",
+          "position": 3
+        },
+        {
+          "item_body": "<p>(1, 2) and (2, 1)</p>",
+          "id": "1161b622-bcdd-4e3a-96d5-f73e31393e09",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 6,
+    "quiz_entry_id": "33988",
+    "item_id": "45130",
+    "points": 12.0,
+    "slug": "choice",
+    "prompt_text": "The angle between u = (1, 0, -1) and v = (0, 1, 1) is...",
+    "prompt_html": "<p>The angle between u = (1, 0, -1) and v = (0, 1, 1) is...</p>",
+    "choices": [
+      {
+        "id": "dc173c5d-621b-4761-8a33-3eac899f966a",
+        "position": 1,
+        "text": "60 degrees",
+        "html": "<p>60 degrees</p>"
+      },
+      {
+        "id": "1b6e3624-4ccc-4c45-b7da-5a5f8fefeb47",
+        "position": 2,
+        "text": "150 degrees",
+        "html": "<p>150 degrees</p>"
+      },
+      {
+        "id": "726ba2b3-975d-498f-96fa-68303a1f5f97",
+        "position": 3,
+        "text": "90 degrees",
+        "html": "<p>90 degrees</p>"
+      },
+      {
+        "id": "fe576f3b-c865-4530-b4d6-e2acab9a7cce",
+        "position": 4,
+        "text": "120 degrees",
+        "html": "<p>120 degrees</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>60 degrees</p>",
+          "id": "dc173c5d-621b-4761-8a33-3eac899f966a",
+          "position": 1
+        },
+        {
+          "item_body": "<p>150 degrees</p>",
+          "id": "1b6e3624-4ccc-4c45-b7da-5a5f8fefeb47",
+          "position": 2
+        },
+        {
+          "item_body": "<p>90 degrees</p>",
+          "id": "726ba2b3-975d-498f-96fa-68303a1f5f97",
+          "position": 3
+        },
+        {
+          "item_body": "<p>120 degrees</p>",
+          "id": "fe576f3b-c865-4530-b4d6-e2acab9a7cce",
+          "position": 4
+        }
+      ]
+    }
+  },
+  {
+    "position": 7,
+    "quiz_entry_id": "33995",
+    "item_id": "45133",
+    "points": 12.0,
+    "slug": "numeric",
+    "prompt_text": "For what value of k are p = (2, k, 1) and q = (1, -1, 3) perpendicular?",
+    "prompt_html": "<p>For what value of k are p = (2, k, 1) and q = (1, -1, 3) perpendicular?</p>",
+    "choices": [],
+    "num_blanks": 1,
+    "interaction_data": {}
+  },
+  {
+    "position": 8,
+    "quiz_entry_id": "33972",
+    "item_id": "45108",
+    "points": 13.0,
+    "slug": "choice",
+    "prompt_text": "Nonzero vectors a and b satisfy a.b = -12. The angle between them must be...",
+    "prompt_html": "<p>Nonzero vectors a and b satisfy a.b = -12. The angle between them must be...</p>",
+    "choices": [
+      {
+        "id": "f16fdfc0-53a0-41ee-a6b4-27c4cfe0655c",
+        "position": 1,
+        "text": "Acute",
+        "html": "<p>Acute</p>"
+      },
+      {
+        "id": "5d906b35-3c0a-42be-ab7d-7140449cb2f7",
+        "position": 2,
+        "text": "Exactly 90 degrees",
+        "html": "<p>Exactly 90 degrees</p>"
+      },
+      {
+        "id": "ba700e87-f46f-4dd4-8958-e658861d65f6",
+        "position": 3,
+        "text": "Impossible to tell",
+        "html": "<p>Impossible to tell</p>"
+      },
+      {
+        "id": "6ae2b243-4ee9-4492-8c76-b8f5b37eb5db",
+        "position": 4,
+        "text": "Obtuse",
+        "html": "<p>Obtuse</p>"
+      }
+    ],
+    "num_blanks": 0,
+    "interaction_data": {
+      "choices": [
+        {
+          "item_body": "<p>Acute</p>",
+          "id": "f16fdfc0-53a0-41ee-a6b4-27c4cfe0655c",
+          "position": 1
+        },
+        {
+          "item_body": "<p>Exactly 90 degrees</p>",
+          "id": "5d906b35-3c0a-42be-ab7d-7140449cb2f7",
+          "position": 2
+        },
+        {
+          "item_body": "<p>Impossible to tell</p>",
+          "id": "ba700e87-f46f-4dd4-8958-e658861d65f6",
+          "position": 3
+        },
+        {
+          "item_body": "<p>Obtuse</p>",
+          "id": "6ae2b243-4ee9-4492-8c76-b8f5b37eb5db",
+          "position": 4
+        }
+      ]
+    }
+  }
+]

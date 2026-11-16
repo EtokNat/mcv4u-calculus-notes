@@ -1,0 +1,92 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9165" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 3.6 — Minimizing Cost in Business and Science</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 3</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 3.6</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Minimizing Cost in Business and Science</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §3.4 (part 2) — the cheapest tank that fits: cost functions with real-world constraints.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Build a <strong>cost function</strong> from per-unit material prices.</li>
+<li>Use a <strong>volume constraint</strong> to reduce to one variable.</li>
+<li>Find the <strong>minimum cost</strong> on a restricted domain and verify feasibility.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Minimizing cost works exactly like maximizing revenue — but the domain restrictions are often physical: a tank must fit inside its warehouse, a price must stay in 10-cent steps. In this lesson the constraint is a <strong>fixed volume</strong> (1000 m³) and the domain comes from the <strong>warehouse dimensions</strong>.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17366" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17366" data-api-returntype="Assignment">▶ Start the Lesson 3.6 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — cost vs. radius</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, graph the cost function from Example 2: <strong><em>C(r) = 150*pi*r^2 + 160000/r</em></strong> for 5.38 ≤ r ≤ 6.</li>
+<li>Find the minimum on this interval. Is it at a critical point or an endpoint?</li>
+<li>What happens to the cost if r gets very large? (The r² term dominates — wide tanks are expensive.)</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — A cylindrical chemical storage tank with a capacity of 1000 m³ is to be built in a warehouse 12 m by 15 m, with a height of 11 m. The base costs $100/m², the top $50/m², and the wall $80/m².<br>
+a. Determine whether a tank of this capacity can fit in the warehouse. If so, state the restrictions on the radius.<br>
+b. If it fits, determine the proportions that minimize the cost of the steel. (Two decimal places.)</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+a. The radius cannot exceed 6 m (half the 12 m width), and the height cannot exceed 11 m. The largest possible tank has volume V = π(6)²(11) ≈ 1244 m³ ≥ 1000 m³, so the tank <strong>fits</strong>.<br>
+Limits on the radius: 0 &lt; r ≤ 6. Also, with h = 11, πr²(11) ≥ 1000 gives r ≥ 5.38. So the radius must satisfy <strong>5.38 ≤ r ≤ 6</strong>.<br>
+b. If the height is h metres and the radius is r metres:<br>
+• cost of the base = $100(πr²),<br>
+• cost of the top = $50(πr²),<br>
+• cost of the wall = $80(2πrh).<br>
+Total cost: C = 150πr² + 160πrh. Since V = πr²h = 1000, h = 1000/(πr²). Substituting:<br>
+C(r) = 150πr² + 160πr(1000/(πr²)) = <strong>150πr² + 160 000/r</strong>, on 5.38 ≤ r ≤ 6.<br>
+Set C′(r) = 0: 300πr − 160 000/r² = 0 → 300πr = 160 000/r² → r³ = 1600/(3π) → r ≈ <strong>5.54</strong>.<br>
+This is inside the domain, so apply the extreme-value algorithm:<br>
+C(5.38) = 150π(5.38)² + 160 000/5.38 ≈ 43 380;<br>
+C(5.54) = 150π(5.54)² + 160 000/5.54 ≈ 43 344;<br>
+C(6) = 150π(6)² + 160 000/6 ≈ 43 631.<br>
+The minimum cost is about <strong>$43 344</strong>, at radius <strong>5.54 m</strong> with height h = 1000/(π(5.54)²) ≈ <strong>10.37 m</strong>.</p>
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54796/preview?" alt="Two position-time graphs for exercise graph reading" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54796" data-api-returntype="File" loading="lazy"></p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 3.4.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Maple-syrup cost is C(x) = 75√(x − 10) dollars, x ≥ 400 L. (a) Average cost of 625 L. (b) Marginal cost at 1225 L. (c) Production level for marginal cost $0.50/L.</summary>
+<p>(a) C(625)/625 = 75√615/625 ≈ <strong>$2.98/L</strong>. (b) C′(x) = 75/(2√(x − 10)); C′(1225) ≈ <strong>$1.08/L</strong> — the expected cost of one more litre. (c) 75/(2√(x − 10)) = 0.50 → √(x − 10) = 75 → x = <strong>5635 L</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — A laptop maker sells x thousand units at (2000 − 5x) dollars each; cost is C(x) = 15 000 000 + 1 800 000x + 75x² dollars. What sales level maximizes profit?</summary>
+<p>R(x) = x(2000 − 5x) thousand dollars = 2000x − 5x² (in thousands). P(x) = R − C (in thousands) = −5x² + 200x − 15 000 − 1800x − 0.075x²... working in dollars: R = 1000x(2000 − 5x) = 2 000 000x − 5000x². P′ = 2 000 000 − 10 000x − 1 800 000 − 150x = 200 000 − 10 150x = 0 → x ≈ <strong>19.7 thousand units</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Antacid level is L(t) = 6t/(t² + 2t + 1), t minutes after the tablet. At what t is L′(t) = 0, and what is L(t) there?</summary>
+<p>L′(t) = [6(t² + 2t + 1) − 6t(2t + 2)]/(t² + 2t + 1)² = (6 − 6t²)/(t + 1)⁴ = 0 → <strong>t = 1 min</strong>; L(1) = 6/4 = <strong>1.5</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — What does it mean for marginal cost to equal $0.50/L at some production level?</summary>
+<p>Producing <strong>one more litre</strong> at that level is expected to cost about <strong>$0.50</strong> — marginal cost is the instantaneous rate of change of total cost.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li>Build the <strong>cost function</strong> from per-unit prices; use the fixed-volume (or fixed-area) constraint to get <strong>one variable</strong>.</li>
+<li>Check <strong>feasibility first</strong> — the domain comes from the real-world container, not just the math.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>Apply the extreme-value algorithm on the restricted domain; compare critical points <strong>and</strong> endpoints.</li>
+<li>Round only at the end; keep full precision through the algebra.</li>
+<li>Next: the Unit 3 <strong>Formative Checks</strong>, then the summative assignment and test.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Applications of Derivatives</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

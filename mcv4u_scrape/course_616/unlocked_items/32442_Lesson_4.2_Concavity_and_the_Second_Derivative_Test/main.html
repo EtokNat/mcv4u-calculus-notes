@@ -1,0 +1,112 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9167" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 4.2 — Concavity and the Second Derivative Test</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 4</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 4.2</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Concavity and the Second Derivative Test</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §4.4 (part 1) — the sign of f″ tells how the curve bends; the second derivative test classifies critical points.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Determine <strong>concavity</strong> (up/down) from the sign of <strong>f″(x)</strong>.</li>
+<li>Relate concavity to whether the <strong>tangent slopes are increasing or decreasing</strong>.</li>
+<li>Apply the <strong>second derivative test</strong> to classify local maxima and minima.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>In Lesson 4.1 the first derivative told you whether the graph climbs or falls. But two graphs can both be climbing while bending in opposite ways — one curving upward like a bowl, the other arching over like a dome. The <strong>second derivative</strong> measures that bending. Today you will read concavity straight from the sign of f″, and you will gain a faster way to classify maxima and minima.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17368" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17368" data-api-returntype="Assignment">▶ Start the Lesson 4.2 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — watching the bend</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, graph <strong><em>y = x^2</em></strong>. Slide a tangent line along the curve (click the curve, or graph tangent lines at several x-values). As x increases, do the tangent slopes increase or decrease? The curve is <strong>concave up</strong>.</li>
+<li>Graph <strong><em>f(x) = x^3 - 3x^2 - 9x + 10</em></strong> and its second derivative <strong><em>y = 6x - 6</em></strong>. Where the second derivative is above the x-axis, how does f bend? Mark x = −1 and x = 3 — which point is the peak and which is the valley?</li>
+<li>Graph <strong><em>y = x^4</em></strong> and <strong><em>y = 12x^2</em></strong>. Both touch zero at x = 0, yet the origin is a minimum. Why can't the second derivative test decide this one?</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">Concave up vs concave down</h4>
+<p>Think of the tangent slopes as you move left to right. If the slopes are <strong>increasing</strong> (e.g. −3, −1, 0, 2, 5), the curve bends upward — it is <strong>concave up</strong>, shaped like a bowl that "holds water". If the slopes are <strong>decreasing</strong>, the curve bends downward — it is <strong>concave down</strong>, shaped like a dome that "spills water".</p>
+<p>The second derivative f″ measures exactly this: it is the rate of change of the slopes. So:</p>
+<ul>
+<li>If <strong>f″(x) &gt; 0</strong> on an interval, f is <strong>concave up</strong> there (the graph lies <em>above</em> its tangent lines).</li>
+<li>If <strong>f″(x) &lt; 0</strong> on an interval, f is <strong>concave down</strong> there (the graph lies <em>below</em> its tangent lines).</li>
+</ul>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54841/preview?" alt="Two panels: y = x squared is concave up with tangent slopes increasing, and y = negative x squared plus 4 is concave down with tangent slopes decreasing" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54841" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">The second derivative test</h4>
+<p>Suppose c is a critical number with f′(c) = 0 (a horizontal tangent). Zoom in: if the curve is concave up at c, it must lie above its horizontal tangent — so (c, f(c)) is a <strong>local minimum</strong>. If concave down, it lies below its tangent — a <strong>local maximum</strong>. This gives the <strong>second derivative test</strong>:</p>
+<ul>
+<li>If f′(c) = 0 and <strong>f″(c) &gt; 0</strong> → <strong>local minimum</strong> at c.</li>
+<li>If f′(c) = 0 and <strong>f″(c) &lt; 0</strong> → <strong>local maximum</strong> at c.</li>
+<li>If <strong>f″(c) = 0</strong> → the test is <strong>inconclusive</strong> (it could be a max, a min, or neither — use the first derivative test instead).</li>
+</ul>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54838/preview?" alt="Two panels illustrating the second derivative test: with f double-prime positive the curve lies above its tangent giving a local minimum; with f double-prime negative the curve lies below its tangent giving a local maximum" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54838" data-api-returntype="File" loading="lazy"></p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — For f(x) = x³ − 3x² − 9x + 10, find the concavity intervals and classify the local extrema with the second derivative test.</p>
+<p style="margin:0;"><strong>Solution.</strong> Differentiate twice.<br>
+f′(x) = 3x² − 6x − 9 = 3(x − 3)(x + 1) → critical numbers x = −1 and x = 3.<br>
+f″(x) = 6x − 6 = 6(x − 1).<br><br>
+Concavity: f″(x) &gt; 0 when x &gt; 1 → <strong>concave up on (1, ∞)</strong>; f″(x) &lt; 0 when x &lt; 1 → <strong>concave down on (−∞, 1)</strong>.<br><br>
+Second derivative test:<br>
+• f″(−1) = −12 &lt; 0 → <strong>local maximum</strong> at x = −1; f(−1) = −1 − 3 + 9 + 10 = <strong>15</strong>.<br>
+• f″(3) = 12 &gt; 0 → <strong>local minimum</strong> at x = 3; f(3) = 27 − 27 − 27 + 10 = <strong>−17</strong>.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Classify the critical point of f(x) = x⁴ at x = 0.</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+f′(x) = 4x³ = 0 at x = 0, so x = 0 is a critical number.<br>
+f″(x) = 12x², so f″(0) = 0 → the second derivative test is <strong>inconclusive</strong>.<br>
+Fall back to the first derivative test: f′(x) = 4x³ is negative for x &lt; 0 and positive for x &gt; 0. The sign changes − → + → <strong>local minimum</strong> at (0, 0). (Indeed it is the absolute minimum.)<br><br>
+<em>Lesson:</em> f″(c) = 0 tells you nothing by itself — always have the first derivative test ready as a backup.</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Use the second derivative test on f(x) = 2x³ − 9x² + 12x − 5.</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+f′(x) = 6x² − 18x + 12 = 6(x − 1)(x − 2) → critical numbers x = 1 and x = 2.<br>
+f″(x) = 12x − 18.<br>
+• f″(1) = −6 &lt; 0 → <strong>local maximum</strong> at x = 1; f(1) = 2 − 9 + 12 − 5 = <strong>0</strong>.<br>
+• f″(2) = 6 &gt; 0 → <strong>local minimum</strong> at x = 2; f(2) = 16 − 36 + 24 − 5 = <strong>−1</strong>.</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 4.4 (concavity portion).</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — Find the concavity intervals of f(x) = x³ − 3x.</summary>
+<p>f′(x) = 3x² − 3; f″(x) = 6x. f″ &gt; 0 when x &gt; 0, f″ &lt; 0 when x &lt; 0. <strong>Concave down on (−∞, 0); concave up on (0, ∞).</strong></p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Classify the critical point of f(x) = −x² + 4x − 1 with the second derivative test.</summary>
+<p>f′(x) = −2x + 4 = 0 at x = 2. f″(x) = −2 &lt; 0 always → <strong>local maximum</strong> at x = 2; f(2) = −4 + 8 − 1 = <strong>3</strong>. (The parabola opens downward, as expected.)</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — For f(x) = x⁵, the second derivative test fails at x = 0. Classify (0, 0) anyway.</summary>
+<p>f′(x) = 5x⁴, f″(x) = 20x³, so f″(0) = 0 — inconclusive. But f′(x) = 5x⁴ ≥ 0 on both sides of 0: <strong>no sign change → neither</strong> a max nor a min at (0, 0).</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — If f′(c) = 0 and f″(c) &gt; 0, what does the graph look like near (c, f(c))? Explain in words.</summary>
+<p>The tangent is horizontal and the curve is concave up there, so the graph lies <strong>above</strong> its tangent near c — a bowl shape with <strong>(c, f(c)) as a local minimum</strong>.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>f″(x) &gt; 0 → concave up</strong> (bowl, holds water, slopes increasing); <strong>f″(x) &lt; 0 → concave down</strong> (dome, spills water, slopes decreasing).</li>
+<li><strong>Second derivative test:</strong> at a critical number with f′(c) = 0 — f″(c) &gt; 0 gives a local min, f″(c) &lt; 0 gives a local max, f″(c) = 0 is inconclusive.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>When the second derivative test fails (f″(c) = 0), use the <strong>first derivative test</strong> instead.</li>
+<li>Next: Lesson 4.3 — <strong>points of inflection</strong>, where the bending itself changes.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Curve Sketching</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

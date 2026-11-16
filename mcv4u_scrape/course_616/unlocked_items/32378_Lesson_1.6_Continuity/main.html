@@ -1,0 +1,98 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9153" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 1.6 — Continuity</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 1</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 1.6</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Continuity</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §1.6 — when can a graph be drawn without lifting the pencil?</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Test whether a function is <strong>continuous at a point</strong> using the two conditions.</li>
+<li>Identify the three discontinuity types: <strong>point (hole)</strong>, <strong>jump</strong>, and <strong>infinite (vertical asymptote)</strong>.</li>
+<li>Use the facts that polynomials are continuous everywhere and rationals are continuous where defined.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Informally, <strong>continuity</strong> is the idea of being able to draw a graph <strong>without lifting your pencil</strong> — the graph has "no breaks or jumps or gaps". When we say a function is continuous <em>at a point</em>, we mean the graph passes through the point without a break. A graph that fails this has a <strong>break of some type</strong> at the point. Compare the four graphs below — A is continuous everywhere in its domain, while B, C, and D each break at x = 1 in a different way:</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54780/preview?" alt="Four graphs: A continuous, B point discontinuity, C jump discontinuity, D infinite discontinuity" style="max-width: 560px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54780" data-api-returntype="File" loading="lazy"></p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17354" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17354" data-api-returntype="Assignment">▶ Start the Lesson 1.6 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — find the breaks</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>In Desmos, graph <strong><em>y = (x^2 - x - 2)/(x - 2)</em></strong>. Zoom in at x = 2. Is there a point on the graph there? What happens to y as x approaches 2 from each side?</li>
+<li>Now graph <strong><em>y = 1/(x - 2)^2</em></strong>. What happens near x = 2? Compare this break with the first one.</li>
+<li><strong>Conclusion:</strong> both functions break at x = 2, but in different ways — one has a <em>hole</em> (a missing point), the other blows up. These are two of the three discontinuity types.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<p>What conditions must hold for a function <em>f</em> to be continuous at <em>a</em>? <strong>First, f(a) must be defined.</strong> In figures B and D above, the curves are not continuous at x = 1 precisely because they are not defined at x = 1.</p>
+<p><strong>Second, the function must make no jumps there</strong> — if "x is close to <em>a</em>", then "f(x) must be close to f(a)". That condition is satisfied when <strong>lim<sub>x→a</sub> f(x) = f(a)</strong>. In figure C, lim<sub>x→1</sub> f(x) does not exist, so the function is not continuous at x = 1.</p>
+<div style="background: rgb(255, 246, 239); border-width: 2px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 14px 0px;">
+<strong style="color:#10284A;">Continuity at a Point.</strong> The function f(x) is <strong>continuous at x = a</strong> if <strong>f(a) is defined</strong> and if <strong>lim<sub>x→a</sub> f(x) = f(a)</strong>. Otherwise, f(x) is <strong>discontinuous</strong> at x = a.
+</div>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54781/preview?" alt="Points (x, f(x)) converging to (a, f(a))" style="max-width: 420px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54781" data-api-returntype="File" loading="lazy"></p>
+<p>The geometrical meaning: as x → a, the points (x, f(x)) on the graph <strong>converge at the point (a, f(a))</strong>, so the graph is unbroken there.</p>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — a. Graph f(x) = { x² − 3, if x ≤ −1; x − 1, if x &gt; −1 }. b. Determine lim<sub>x→−1</sub> f(x). c. Determine f(−1). d. Is f continuous at x = −1? Explain.</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+a. (The graph joins the parabola y = x² − 3 for x ≤ −1 to the line y = x − 1 for x &gt; −1, meeting at (−1, −2).)<br>
+b. From the graph, lim<sub>x→−1</sub> f(x) = −2. <em>Note: both the left-hand and right-hand limits are equal.</em><br>
+c. f(−1) = −2.<br>
+d. Therefore, f(x) is <strong>continuous at x = −1</strong>, since f(−1) = lim<sub>x→−1</sub> f(x).</p>
+</div>
+<div style="background: rgb(255, 246, 239); border-width: 1px; border-style: solid; border-color: rgb(248, 102, 10); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — Test the continuity of each function at x = 2. If a function is not continuous, give a reason why.<br>
+a. f(x) = x³ − x &nbsp; b. g(x) = (x² − x − 2)/(x − 2) &nbsp; c. h(x) = (x² − x − 2)/(x − 2) if x ≠ 2, and h(2) = 3 &nbsp; d. F(x) = 1/(x − 2)² &nbsp; e. G(x) = { 4 − x², if x &lt; 2; 3, if x ≥ 2 }</p>
+<p style="margin:0;"><strong>Solution.</strong><br>
+a. f is continuous at x = 2 since f(2) = 6 = lim<sub>x→2</sub> f(x). <em>(Polynomial functions are continuous at all real values of x.)</em><br>
+b. g is <strong>not continuous</strong> at x = 2 because g is <strong>not defined</strong> at this value.<br>
+c. lim<sub>x→2</sub> (x² − x − 2)/(x − 2) = lim<sub>x→2</sub> (x − 2)(x + 1)/(x − 2) = lim<sub>x→2</sub> (x + 1) = 3 = h(2). Therefore, h(x) is <strong>continuous</strong> at x = 2 — filling the hole repaired it.<br>
+d. F is <strong>not continuous</strong> at x = 2 because F(2) is <strong>not defined</strong>.<br>
+e. lim<sub>x→2⁻</sub> G(x) = lim<sub>x→2⁻</sub> (4 − x²) = 0 and lim<sub>x→2⁺</sub> G(x) = lim<sub>x→2⁺</sub> (3) = 3. Since lim<sub>x→2</sub> G(x) does not exist, G is <strong>not continuous</strong> at x = 2 (a jump).</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on Exercise 1.6.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — How can looking at a graph tell you where a function is continuous?</summary>
+<p>Look for breaks: <strong>holes</strong> (missing points), <strong>jumps</strong> (the graph leaps), and <strong>vertical asymptotes</strong> (the graph shoots off). Where none occur, the function is continuous.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Is f(x) = (x² − x − 6)/(x − 3) continuous at x = 3?</summary>
+<p><strong>No</strong> — f(3) is undefined (0/0), so the first continuity condition fails. (The limit exists: it equals 5.)</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — Sketch h(x) = { x − 1, if x &lt; 3; 5 − x, if x ≥ 3 }. Is h continuous everywhere? Explain.</summary>
+<p>lim<sub>x→3⁻</sub> h(x) = 2 and lim<sub>x→3⁺</sub> h(x) = 2 = h(3), so <strong>yes</strong> — the two pieces meet at (3, 2) with no break.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — Name the three discontinuity types and give an example of each.</summary>
+<p><strong>Point (removable):</strong> (x² − 4)/(x − 2) at x = 2 (hole). <strong>Jump:</strong> a piecewise function whose one-sided limits differ. <strong>Infinite:</strong> 1/(x − 2)² at x = 2 (vertical asymptote).</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li>A function f is <strong>continuous at x = a</strong> if: <strong>f(a) is defined</strong> · <strong>lim<sub>x→a</sub> f(x) exists</strong> · <strong>lim<sub>x→a</sub> f(x) = f(a)</strong>.</li>
+<li>A function that is not continuous has some type of <strong>break</strong> in its graph: a <strong>hole</strong>, a <strong>jump</strong>, or a <strong>vertical asymptote</strong>.</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li><strong>All polynomial functions are continuous for all real numbers.</strong></li>
+<li>A rational function h(x) = f(x)/g(x) is continuous at x = a if <strong>g(a) ≠ 0</strong>; in simplified form it has a discontinuity at the zeros of the denominator.</li>
+<li>When the one-sided limits are not equal, the limit does not exist and the function is not continuous there.</li>
+<li>Next: the Unit 1 <strong>Formative Check</strong>, then the summative assignment and test.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Introduction to Calculus</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>

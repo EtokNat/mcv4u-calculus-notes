@@ -1,0 +1,102 @@
+
+<div class="show-content user_content clearfix enhanced" data-resource-type="wiki_page.body" data-resource-id="9189" data-lti-page-content="true">
+  <h1 class="page-title">Lesson 7.6 — Mixed Applications of Dot and Cross Products</h1>
+  <div id="todo-date-mount-point"></div>
+      <div style="font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;line-height:1.7;max-width:900px;margin:0 auto;">
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 4px;border-bottom:4px solid #F8660A;">
+<img src="https://bronston.instructure.com/courses/616/files/54789/preview?" alt="Bronston Canadian Academy" style="height:56px;width:auto;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54789" data-api-returntype="File" loading="lazy">
+<span style="color:#10284A;font-size:14px;">MCV4U &nbsp;•&nbsp; UNIT 7</span>
+</div>
+<div style="background:#10284A;color:#ffffff;padding:26px 28px;margin:22px 0 6px;border-radius:8px;">
+<div style="color:#F8660A;font-size:13px;">LESSON 7.6</div>
+<h2 style="margin:6px 0 4px;font-size:26px;">Mixed Applications of Dot and Cross Products</h2>
+<p style="margin:0;color:#c9d4e6;font-size:14px;"><em>Nelson Calculus and Vectors 12</em> §7.7 — work, torque, and area in real situations.</p>
+</div>
+<div style="background:#F4F7FB;border-left:6px solid #10284A;border-radius:0 8px 8px 0;padding:16px 20px;margin:18px 0;">
+<h3 style="color:#10284A;margin:0 0 8px;font-size:17px;">🎯 Learning Goals</h3>
+<p style="margin:0;">By the end of this lesson, you can:</p>
+<ul style="margin:8px 0 0;">
+<li>Compute <strong>work</strong> as W = F·d and interpret its sign.</li>
+<li>Compute <strong>torque</strong> as τ = r × F — magnitude |r||F|sinθ and direction from the right-hand rule.</li>
+<li>Solve <strong>area problems</strong> with the cross product.</li>
+<li><strong>Choose</strong> the right product for a situation: dot for a scalar answer, cross for a vector (or area) answer.</li>
+</ul>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">💡 Minds On</h3>
+<p>Push a lawnmower handle straight down and nothing moves forward — all effort, no work. Push it at a shallow angle and it glides. Work is not just "force" — it is force <em>in the direction of motion</em>. That is a dot product. But loosening a bolt needs a <em>twist</em>, not a push — that is a cross product. Today you put both products to work.</p>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">▶️ Watch</h3> <p>Watch the full lesson video here. It pauses at 4 check-in questions — answer each one to keep going. Your answers are recorded as this lesson's Interactive Video Check.</p> <p><a href="https://bronston.instructure.com/courses/616/assignments/17390" style="display: inline-block; background-color: rgb(248, 102, 10); color: rgb(255, 255, 255); border-width: 2px; border-style: solid; border-color: navy; border-radius: 8px; padding: 10px 18px; text-decoration: none;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/assignments/17390" data-api-returntype="Assignment">▶ Start the Lesson 7.6 Interactive Video Check</a></p> <h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">🔍 Explore — only the along-part works</h3>
+<iframe src="https://www.desmos.com/calculator?embed" width="100%" height="520" style="border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" title="Desmos graphing calculator" loading="lazy"></iframe>
+<ol>
+<li>A force of 10 N pushes a crate along a horizontal displacement of 8 m, but the push is angled 30° above the horizontal. Define <strong><em>F=(10cos(30°),10sin(30°))</em></strong> and <strong><em>d=(8,0)</em></strong>. Compute the work <strong><em>W=F[1]d[1]+F[2]d[2]</em></strong> — you should get ≈ 69.28 J.</li>
+<li>Now change the angle: edit F to use <strong><em>80°</em></strong> instead of 30°. The work drops to ≈ 13.9 J. At 90° it becomes 0 — all push, no progress.</li>
+<li><strong>Conclusion:</strong> work = F·d = |F||d|cosθ; only the force component <em>along</em> the displacement does work. The cross product, by contrast, measures the <em>twisting</em> the force would cause.</li>
+</ol>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">📖 Learn — step by step</h3>
+<h4 style="color:#10284A;margin:16px 0 6px;">Work: the dot product in physics</h4>
+<p>When a constant force F moves an object through a displacement d, the <strong>work</strong> done is</p>
+<p style="text-align: center; font-size: 19px; background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 14px; margin: 14px 0px;"><strong>W = F · d = |F| |d| cosθ</strong> &nbsp;(joules)</p>
+<p>Only the component of F along d counts — which is exactly what the dot product computes. The sign tells a story: <strong>positive</strong> work means the force helps the motion; <strong>negative</strong> work means the force opposes it (friction does negative work); <strong>zero</strong> work means the force is perpendicular to the motion.</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54860/preview?" alt="Force F applied at angle theta to displacement d; work equals the force times displacement times cosine theta" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54860" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">Torque: the cross product in physics</h4>
+<p>When a force F is applied at a position r from a pivot, the <strong>torque</strong> (the turning effect) is</p>
+<p style="text-align: center; font-size: 19px; background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 14px; margin: 14px 0px;"><strong>τ = r × F</strong>, &nbsp;&nbsp; |τ| = |r| |F| sinθ &nbsp;(newton-metres)</p>
+<p>The magnitude is biggest when the force is perpendicular to the lever arm (θ = 90°) and zero when the force points along the arm. The <strong>direction</strong> — given by the right-hand rule — tells you the axis of rotation and the sense of turning (for example, "out of the page" = counterclockwise when viewed from that side).</p>
+<p style="text-align:center;"><img src="https://bronston.instructure.com/courses/616/files/54895/preview?" alt="Lever arm r from a pivot with force F applied at right angles; the torque tau equals r cross F, pointing out of the page" style="max-width: 480px; width: 100%; height: auto; border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px;" data-api-endpoint="https://bronston.instructure.com/api/v1/courses/616/files/54895" data-api-returntype="File" loading="lazy"></p>
+<h4 style="color:#10284A;margin:16px 0 6px;">Which product? A decision guide</h4>
+<ul>
+<li><strong>Want a number?</strong> Use the <strong>dot product</strong>: work, angles, projections, testing perpendicularity.</li>
+<li><strong>Want a perpendicular vector or an area?</strong> Use the <strong>cross product</strong>: torque, areas of parallelograms and triangles, a vector normal to two others.</li>
+<li><strong>Zero test:</strong> a·b = 0 (nonzero) means perpendicular; a × b = 0 (nonzero) means parallel.</li>
+<li><strong>Order:</strong> the dot product commutes; the cross product flips sign when you swap the order.</li>
+</ul>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 1</strong> — A force F = (4, −2, 3) N displaces an object by d = (2, 5, −1) m. Find the work done and interpret the sign.</p>
+<p style="margin:0;">W = F·d = (4)(2) + (−2)(5) + (3)(−1) = 8 − 10 − 3 = <strong>−5 J</strong>. The negative work means the force <strong>opposes</strong> the displacement overall — it is taking energy out of the motion rather than adding it.</p>
+</div>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 2</strong> — A wrench applies a force F = (0, 20, 0) N at a point r = (0.5, 0, 0) m from the bolt. Find the torque vector and its magnitude.</p>
+<p style="margin:0;">τ = r × F = ((0)(0) − (0)(20), (0)(0) − (0.5)(0), (0.5)(20) − (0)(0)) = <strong>(0, 0, 10) N·m</strong>. The torque points along +z (out of the page in the diagram), and its magnitude 10 N·m matches |r||F|sin90° = (0.5)(20)(1) = 10.</p>
+</div>
+<div style="background: rgb(244, 247, 251); border-width: 1px; border-style: solid; border-color: rgb(16, 40, 74); border-radius: 8px; padding: 14px 18px; margin: 12px 0px;">
+<p style="margin:0 0 6px;"><strong style="color:#10284A;">Example 3</strong> — Find the area of the triangle with vertices A(2, 1, 0), B(5, 3, 1), and C(1, 4, 2).</p>
+<p style="margin:0;">Build edge vectors from A: AB = (3, 2, 1) and AC = (−1, 3, 2). AB × AC = ((2)(2) − (1)(3), (1)(−1) − (3)(2), (3)(3) − (2)(−1)) = (4 − 3, −1 − 6, 9 + 2) = (1, −7, 11). Magnitude = √(1 + 49 + 121) = √171 ≈ 13.077. Triangle area = √171/2 ≈ <strong>6.54 square units</strong>.</p>
+</div>
+<h3 style="color:#10284A;font-size:19px;border-bottom:3px solid #F8660A;display:inline-block;padding-bottom:4px;">✅ Check Your Understanding</h3>
+<p>Try these on paper first, then reveal. Modelled on §7.7 application problems.</p>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 1</strong> — A force F = (6, 2, −1) N moves an object through d = (3, −4, 2) m. Find the work.</summary>
+<p>W = (6)(3) + (2)(−4) + (−1)(2) = 18 − 8 − 2 = <strong>8 J</strong>.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 2</strong> — Find the torque τ = r × F for r = (2, 0, 0) m and F = (0, −5, 0) N. Which way does it point?</summary>
+<p>τ = ((0)(0) − (0)(−5), (0)(2) − (2)(0), (2)(−5) − (0)(0)) = <strong>(0, 0, −10) N·m</strong> — along −z (into the page), magnitude 10 N·m.</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 3</strong> — You need a vector perpendicular to both u = (1, 2, 0) and v = (0, 1, 3). Dot product or cross product — and why?</summary>
+<p><strong>Cross product.</strong> The dot product returns a scalar; the cross product returns a <strong>vector perpendicular to both</strong> — exactly what is asked for. u × v = ((2)(3) − (0)(1), (0)(0) − (1)(3), (1)(1) − (2)(0)) = (6, −3, 1).</p>
+</details>
+<details style="background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(208, 215, 227); border-radius: 8px; padding: 12px 16px; margin: 10px 0px;">
+<summary style="cursor:pointer;color:#10284A;"><strong>Question 4</strong> — A 50 N force pushes a box 12 m horizontally, angled 40° above the horizontal. How much work is done?</summary>
+<p>W = |F||d|cosθ = (50)(12)cos40° ≈ 600(0.766) ≈ <strong>459.6 J</strong>.</p>
+</details>
+<div style="background:#10284A;color:#ffffff;border-radius:8px;padding:16px 20px;margin:18px 0;">
+<h3 style="margin:0 0 8px;font-size:17px;color:#F8660A;">📝 Lesson Summary</h3>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Key ideas</strong></p>
+<ul style="margin:0 0 10px;">
+<li><strong>Work W = F·d</strong> — a scalar; positive helps the motion, negative opposes it, zero is perpendicular.</li>
+<li><strong>Torque τ = r × F</strong> — a vector; magnitude |r||F|sinθ, direction from the right-hand rule.</li>
+<li><strong>Area</strong> comes from |a × b| (parallelogram) or half of it (triangle).</li>
+</ul>
+<p style="margin:0 0 6px;"><strong style="color:#F8660A;">Need to know</strong></p>
+<ul style="margin:0;">
+<li>Dot product → number (work, angle, projection, perpendicularity test). Cross product → vector or area (torque, parallel test).</li>
+<li>The cross product's sign flip (a × b = −b × a) means direction answers must respect order.</li>
+<li>Next: the Unit 7 Summative Assignment and Test.</li>
+</ul>
+</div>
+<div style="text-align:center;color:#8a94a6;font-size:12px;padding:10px 0 4px;border-top:2px solid #F8660A;">Bronston Canadian Academy &nbsp;•&nbsp; MCV4U — Dot and Cross Products</div>
+</div>
+<div class="bronston-ai-tutor-block" style="margin: 10px 0 14px 0; font-size: 13px; color: #10284A;">🤖 Need help with this lesson? <a href="https://aitutor.bronston.ca/ai-tutor/enter/144?key=X64T71zA0wnfG8YaoC4KcEZz9uDNve0maq90KBM6" target="_blank" style="color: #f8660a; text-decoration: none;" rel="noreferrer noopener" class="external"><span><strong><span style="text-decoration: underline;">Ask the Bronston AI Tutor</span></strong></span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg name="IconExternalLink" viewBox="0 0 1920 1920" rotate="0" data-cid="InlineSVG SVGIcon" style="width:1em; height:1em; vertical-align:middle; fill:currentColor" width="1em" height="1em" aria-hidden="true" role="presentation" focusable="false" class="css-1xnn9jb-inlineSVG-svgIcon"><g role="presentation"><path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path></g></svg><span class="screenreader-only">Links to an external site.</span></span></a></div>
+<div id="assign-to-mount-point"></div>
+<div id="choose-editor-mount-point"></div>
+</div>
