@@ -1571,6 +1571,47 @@ ENTRIES = [
         _has("|a| = 3, |b| = 5", "angle between them (tail to tail) is 120 degrees"),
         {"type": "choice", "choice": "-7.5"},
     ),
+    # --- Unit 7 Formative Check B (14543) ------------------------------
+    (
+        # U7 FC B: scalar projection of a=(3,-4) onto b=(1,1) -> -sqrt(2)/2
+        _has("scalar projection of a = (3, -4) onto b = (1, 1)"),
+        {"type": "choice", "choice": "-sqrt(2)/2"},
+    ),
+    (
+        # U7 FC B: cross product (2,-1,3) x (0,4,-2) = (-10, 4, 8)
+        _has("u = (2, -1, 3) and v = (0, 4, -2)", "cross product"),
+        {"type": "choice", "choice": "(-10, 4, 8)"},
+    ),
+    (
+        # U7 FC B: vector projection of a=(3,-4) onto b=(1,1) -> (-1/2, -1/2)
+        _has("vector projection of a = (3, -4) onto b = (1, 1)"),
+        {"type": "choice", "choice": "(-1/2, -1/2)"},
+    ),
+    (
+        # U7 FC B: i x j = k
+        _has("value of i x j is"),
+        {"type": "choice", "choice": "k"},
+    ),
+    (
+        # U7 FC B: right-hand rule from a toward b -> a x b
+        _has("fingers curl from a toward b"),
+        {"type": "choice", "choice": "a x b"},
+    ),
+    (
+        # U7 FC B: a x b = (2, -3, 5) -> b x a = (-2, 3, -5)
+        _has("a x b = (2, -3, 5)", "b x a equals"),
+        {"type": "choice", "choice": "(-2, 3, -5)"},
+    ),
+    (
+        # U7 FC B: |a|=4, |b|=7, 30 deg -> |a x b| = 14
+        _has("|a| = 4, |b| = 7", "30 degrees", "|a x b|"),
+        ["14"],
+    ),
+    (
+        # U7 FC B: angle between a=(2,3) and b=(5,-1) -> 68 degrees
+        _has("a = (2, 3) and b = (5, -1)", "nearest degree"),
+        {"type": "choice", "choice": "68 degrees"},
+    ),
 ]
 
 
