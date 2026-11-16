@@ -1776,6 +1776,47 @@ ENTRIES = [
         _has("vertices (0, 0), (10, 3), and (4, 9)"),
         ["39"],
     ),
+    # --- Unit 9 Formative Check A (14556) ------------------------------
+    (
+        # U9 FC A: Cartesian equation through A(4,-2), n=(5,3) -> 5x + 3y - 14 = 0
+        _has("through A(4, -2) with normal n = (5, 3)"),
+        {"type": "choice", "choice": "5x + 3y - 14 = 0"},
+    ),
+    (
+        # U9 FC A: 2x + 3y = 7 and 4x + 6y = 14 coincident -> True
+        _has("2x + 3y = 7 and 4x + 6y = 14 are coincident"),
+        {"type": "choice", "choice": "True"},
+    ),
+    (
+        # U9 FC A: perpendicular to 3x - 4y + 1 = 0 -> 4x + 3y - 2 = 0
+        _has("perpendicular to 3x - 4y + 1 = 0"),
+        {"type": "choice", "choice": "4x + 3y - 2 = 0"},
+    ),
+    (
+        # U9 FC A: parametric through P(4,-1), m=(2,3) -> x = 4 + 2t, y = -1 + 3t
+        _has("through P(4, -1) with direction vector m = (2, 3)"),
+        {"type": "choice", "choice": "x = 4 + 2t, y = -1 + 3t"},
+    ),
+    (
+        # U9 FC A: Q(-21, 23) NOT on r = (1, 4) + s(-1, 1) -> inconsistent s (22 and 19)
+        _has("Q(-21, 23) NOT on the line r = (1, 4) + s(-1, 1)"),
+        {"type": "choice", "choice": "The two parametric equations give inconsistent values of s (22 and 19)"},
+    ),
+    (
+        # U9 FC A: x = 1 - 3t, y = 4 + 3t passes through R(-29, 34) -> t = 10
+        _has("x = 1 - 3t, y = 4 + 3t passes through R(-29, 34)"),
+        ["10"],
+    ),
+    (
+        # U9 FC A: NOT a valid direction vector for r = (2, 5) + t(3, -1) -> (0, 0)
+        _has("NOT a valid direction vector", "r = (2, 5) + t(3, -1)"),
+        {"type": "choice", "choice": "(0, 0)"},
+    ),
+    (
+        # U9 FC A: acute angle between (-1, 3) and (3, 4) -> 55.3 deg
+        _has("direction vectors (-1, 3) and (3, 4)", "nearest tenth"),
+        ["55.3"],
+    ),
 ]
 
 
