@@ -1735,6 +1735,47 @@ ENTRIES = [
         _has("rope pulls a crate with 200 N at 30", "moves 12 m"),
         {"type": "choice", "choice": "≈ 2078 J"},
     ),
+    # --- Unit 8 Formative Check C (14551) ------------------------------
+    (
+        # U8 FC C: 12 kg toolbox (117.6 N) on 20 deg ramp -> ≈ 40.2 N
+        _has("12 kg toolbox (weight 117.6 N)", "20° ramp"),
+        {"type": "choice", "choice": "≈ 40.2 N"},
+    ),
+    (
+        # U8 FC C: rope pulls wagon 150 N at 25 deg -> ≈ 135.9 N
+        _has("pulls a wagon with 150 N at 25"),
+        {"type": "choice", "choice": "≈ 135.9 N"},
+    ),
+    (
+        # U8 FC C: distance between A(1, 2, -1) and B(4, 6, 3) -> sqrt(41) = 6.40
+        _has("A(1, 2, −1) and B(4, 6, 3)", "distance between them"),
+        ["6.40"],
+    ),
+    (
+        # U8 FC C: parallelogram (8, 0) and (5, 5) -> 40 m²
+        _has("a = (8, 0) and b = (5, 5)", "area is"),
+        {"type": "choice", "choice": "40 m²"},
+    ),
+    (
+        # U8 FC C: plane north, wind east 60 km/h -> 0 km/h
+        _has("plane heads due north", "wind blows from the west at 60 km/h"),
+        {"type": "choice", "choice": "0 km/h — it causes pure drift, no headwind or tailwind"},
+    ),
+    (
+        # U8 FC C: storage crate (3,0,0), (0,2,0), (0,0,4) -> 24 m³
+        _has("edges (3, 0, 0), (0, 2, 0), and (0, 0, 4)"),
+        {"type": "choice", "choice": "24 m³"},
+    ),
+    (
+        # U8 FC C: scalar projection negative -> Obtuse
+        _has("scalar projection of vector a onto vector b is negative"),
+        {"type": "choice", "choice": "Obtuse"},
+    ),
+    (
+        # U8 FC C: triangle (0,0), (10,3), (4,9) -> 39
+        _has("vertices (0, 0), (10, 3), and (4, 9)"),
+        ["39"],
+    ),
 ]
 
 
