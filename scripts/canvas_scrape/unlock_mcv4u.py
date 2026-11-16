@@ -187,7 +187,13 @@ def parse_session_items(raw_items):
         slug_val = itype.get("slug") or "unknown"
         idata = item.get("interaction_data") or {}
         choices = []
-        for c in (idata.get("choices") or []):
+        raw_choices = idata.get("choices") or []
+        if isinstance(raw_choices, dict):
+            order = idata.get("shuffled_order") or list(raw_choices.keys())
+            raw_choices = [raw_choices[k] for k in order if k in raw_choices]
+        for c in raw_choices:
+            if not isinstance(c, dict):
+                continue
             choices.append({
                 "id": c.get("id"),
                 "position": c.get("position"),
