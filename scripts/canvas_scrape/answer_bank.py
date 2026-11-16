@@ -1027,6 +1027,117 @@ ENTRIES = [
         _has("f(x) = sin x tan x", "slope of the tangent to f(x)"),
         ["0", "pi", "2pi"],
     ),
+    # --- Unit 6 Formative Check A (14535) ------------------------------
+    (
+        # U6 FC A: parallelogram ABCD, |PD| = |DA|
+        _has("ABCD is a parallelogram, and |PD| = |DA|", "vector equal to AP"),
+        ["DC", "CD", "BC", "DA", "none"],
+    ),
+    (
+        # U6 FC A: T/F vector statements
+        _has("If two vectors have the same magnitude, then they are equal", "parallel, then they are either equal or opposite"),
+        ["false", "true", "false", "false"],
+    ),
+    (
+        # U6 FC A: airplane 400 km/h south, wind from east 100 km/h
+        _has("airplane is headed south at speed 400 km/h", "wind from the east blowing at 100 km/h"),
+        ["1236.9", "14.0"],
+    ),
+    (
+        # U6 FC A: Maria paddles 7 km/h, current 4 km/h
+        _has("Maria can paddle at the rate of 7 km/h", "speed of 4 km/h"),
+        ["11", "3"],
+    ),
+    (
+        # U6 FC A: |x| = |y| = 3, |x + y| = sqrt(17) -> |x - y| = sqrt(19)
+        _has("|x| = |y| = 3", "|x + y| = sqrt(17)"),
+        ["sqrt(19)"],
+    ),
+    (
+        # U6 FC A: PQR triangle midpoints M, N: PM = a, PN = b -> MN = b - a, QR = 2(b - a)
+        _has("M is the midpoint of PQ and N is the midpoint of PR", "PM = a and PN = b"),
+        ["b - a", "2(b - a)"],
+    ),
+    (
+        # U6 FC A: noncollinear a, b -> collinear pairs
+        _has("vectors a and b are noncollinear", "2a, -3a", "5a, -(3/2)b"),
+        ["collinear", "not collinear", "not collinear", "collinear"],
+    ),
+    (
+        # U6 FC A: regular hexagon ABCDEF, AB = a, BC = b -> CD = b - a
+        _has("ABCDEF is a regular hexagon", "AB = a and BC = b"),
+        ["b - a"],
+    ),
+    (
+        # U6 FC A: opposite vectors
+        _has("describe the opposite vector", "due north at 400 km/h", "due west at 25 km/h"),
+        ["400 km/h due south", "70 km/h southwest", "30 km/h southeast", "25 km/h due east"],
+    ),
+    (
+        # U6 FC A: unit p, q angle 60 -> |2p - q| = sqrt(3)
+        _has("vectors p and q are distinct unit vectors", "angle of 60 degrees", "|2p - q|"),
+        ["sqrt(3)"],
+    ),
+    (
+        # U6 FC A: triangle ABC vector equivalents
+        _has("Given triangle ABC", "BC + CA =", "-BC + BA ="),
+        ["BA", "0", "CB", "CA"],
+    ),
+    (
+        # U6 FC A: perpendicular a, b magnitudes
+        _has("vectors a and b are perpendicular to each other", "|2a + 3b| ="),
+        ["sqrt(|a|^2 + |b|^2)", "sqrt(|a|^2 + |b|^2)", "sqrt(4|a|^2 + 9|b|^2)"],
+    ),
+    (
+        # U6 FC A: length of x = t y is 4|y| -> t = 4 or t = -4
+        _has("length of the vector x = t y is 4|y|"),
+        ["4", "-4"],
+    ),
+    (
+        # U6 FC A: |u|=8, |v|=10, 60 deg
+        _has("|u| = 8 and |v| = 10", "angle between vectors u and v is 60 degrees"),
+        ["2sqrt(21)", "70.9", "(u + v)/(2sqrt(61))", "20sqrt(7)"],
+    ),
+    (
+        # U6 FC A: AB tail (-4, 2) head (-1, 3) (7 blanks)
+        _has("tail is at (-4, 2) and whose head is at (-1, 3)"),
+        ["sqrt(10)", "-3", "1", "0", "-3", "0", "0"],
+    ),
+    (
+        # U6 FC A: parallelogram ABCD, AB = x, DA = y
+        _has("ABCD is a parallelogram. If AB = x and DA = y"),
+        ["-y", "x", "-x - y", "x - y"],
+    ),
+    (
+        # U6 FC A: PQ - RQ + RS = PS; PS + RQ - RS - PQ = 0
+        _has("PQ - RQ + RS =", "PS + RQ - RS - PQ ="),
+        ["PS", "0"],
+    ),
+    (
+        # U6 FC A: pentagon PQRST
+        _has("PQRST is a pentagon", "PQ + QR + RT =", "PR - (PT - ST) ="),
+        ["PT", "PT", "SR"],
+    ),
+    (
+        # U6 FC A: unit x, y angle 90 -> |2x + y| = sqrt(5), 26.6 deg
+        _has("vectors x and y are unit vectors", "angle of 90 degrees"),
+        ["sqrt(5)", "26.6"],
+    ),
+    (
+        # U6 FC A: unit AB, AC angle 150 -> |AB + AC| = sqrt(2 - sqrt(3))
+        _has("AB and AC are two unit vectors", "angle of 150 degrees"),
+        ["sqrt(2 - sqrt(3))"],
+    ),
+    (
+        # U6 FC A: unit x, y angle 30 -> |2x + y| = sqrt(5 + 2sqrt(3)), 9.9 deg
+        _has("vectors x and y are unit vectors", "angle of 30 degrees"),
+        ["sqrt(5 + 2sqrt(3))", "9.9"],
+    ),
+    (
+        # U6 FC A: |v| = 2 scalar multiples (5 blanks)
+        _has("vector v has magnitude 2, i.e., |v| = 2"),
+        ["2v", "(1/2)v", "-(2/3)v", "-2v", "(1/2)v"],
+    ),
 ]
 
 
