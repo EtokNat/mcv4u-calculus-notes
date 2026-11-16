@@ -1612,6 +1612,47 @@ ENTRIES = [
         _has("a = (2, 3) and b = (5, -1)", "nearest degree"),
         {"type": "choice", "choice": "68 degrees"},
     ),
+    # --- Unit 7 Formative Check C (14544) ------------------------------
+    (
+        # U7 FC C: area of triangle with same two sides as C1 -> 3*sqrt(5) ≈ 6.71
+        _has("area of the triangle with the same two sides as C1"),
+        {"type": "choice", "choice": "3*sqrt(5) ≈ 6.71"},
+    ),
+    (
+        # U7 FC C: work is -5 J -> opposes the displacement overall
+        _has("work is -5 J", "This means"),
+        {"type": "choice", "choice": "The force opposes the displacement overall"},
+    ),
+    (
+        # U7 FC C: nonzero p, q with p x q = 0 -> parallel
+        _has("Nonzero vectors p and q satisfy p × q = 0"),
+        {"type": "choice", "choice": "p and q are parallel"},
+    ),
+    (
+        # U7 FC C: F=(6,2,-1), d=(3,-4,2) -> W = 8
+        _has("F = (6, 2, -1) N", "d = (3, -4, 2) m", "work done"),
+        ["8"],
+    ),
+    (
+        # U7 FC C: parallelogram area u=(2,-1,3), v=(0,4,-2) -> sqrt(180) ≈ 13.42
+        _has("u = (2, -1, 3) and v = (0, 4, -2)", "area of the parallelogram"),
+        {"type": "choice", "choice": "sqrt(180) ≈ 13.42"},
+    ),
+    (
+        # U7 FC C: r=(0.5,0,0), F=(0,20,0) -> (0, 0, 10) N·m
+        _has("r = (0.5, 0, 0) m", "F = (0, 20, 0) N"),
+        {"type": "choice", "choice": "(0, 0, 10) N·m"},
+    ),
+    (
+        # U7 FC C: perpendicular to both u and v -> cross product
+        _has("perpendicular to both u = (1, 2, 0) and v = (0, 1, 3)"),
+        {"type": "choice", "choice": "The cross product — it returns a vector perpendicular to both"},
+    ),
+    (
+        # U7 FC C: (a + b) × (a - b) = -2(a × b)
+        _has("(a + b) × (a - b) equals"),
+        {"type": "choice", "choice": "-2(a × b)"},
+    ),
 ]
 
 
