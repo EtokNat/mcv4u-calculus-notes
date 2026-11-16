@@ -1817,6 +1817,47 @@ ENTRIES = [
         _has("direction vectors (-1, 3) and (3, 4)", "nearest tenth"),
         ["55.3"],
     ),
+    # --- Unit 9 Formative Check B (14557) ------------------------------
+    (
+        # U9 FC B: parameter-free form of a line in R3 -> Symmetric equations
+        _has("form of a line in R3 is parameter-free"),
+        {"type": "choice", "choice": "Symmetric equations"},
+    ),
+    (
+        # U9 FC B: plane through A(1,2,2), normal (-1,2,6) -> -x + 2y + 6z - 15 = 0
+        _has("through A(1, 2, 2) with normal n = (-1, 2, 6)"),
+        {"type": "choice", "choice": "-x + 2y + 6z - 15 = 0"},
+    ),
+    (
+        # U9 FC B: plane 2x - 5y = 10 parallel to z-axis
+        _has("plane 2x - 5y = 10 is parallel to"),
+        {"type": "choice", "choice": "The z-axis"},
+    ),
+    (
+        # U9 FC B: L1 & L2 -> The same line
+        _has("L1: r = (-1, 0, 4) + s(-1, 2, 5)", "L2: r = (4, -10, -21) + m(-2, 4, 10)"),
+        {"type": "choice", "choice": "The same line"},
+    ),
+    (
+        # U9 FC B: line through A(-1,2,4), B(3,-3,5) -> b = -5
+        _has("A(-1, 2, 4) and B(3, -3, 5)", "(y - 2)/b"),
+        ["-5"],
+    ),
+    (
+        # U9 FC B: why r = r0 + sa + tb needs noncollinear a, b
+        _has("r = r0 + sa + tb need the vectors a and b to be NONcollinear"),
+        {"type": "choice", "choice": "If a and b were collinear, sa + tb would only trace a line, not a plane"},
+    ),
+    (
+        # U9 FC B: symmetric equations through P(-2,3,1) and Q(4,3,-5)
+        _has("P(-2, 3, 1) and Q(4, 3, -5)", "symmetric equations"),
+        {"type": "choice", "choice": "(x + 2)/1 = (z - 1)/(-1), y = 3"},
+    ),
+    (
+        # U9 FC B: acute angle between x - y - 2z + 3 = 0 and 2x + y - z + 2 = 0 -> 60
+        _has("x - y - 2z + 3 = 0 and 2x + y - z + 2 = 0"),
+        ["60"],
+    ),
 ]
 
 
