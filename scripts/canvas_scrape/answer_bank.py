@@ -1525,6 +1525,52 @@ ENTRIES = [
         _has("x + y = -i + 2j + 5k", "x - y = 3i + 6j - 7k"),
         ["i + 4j - k", "-2i - 2j + 6k"],
     ),
+    (
+        # U6 FC C: p=(-11,7), q=(-3,1), r=(-1,2) linear combinations
+        _has("p = (-11, 7), q = (-3, 1), and r = (-1, 2)"),
+        ["3q + 2r", "(1/3)p - (2/3)r", "(1/2)p - (3/2)q"],
+    ),
+    # --- Unit 7 Formative Check A (14542) ------------------------------
+    (
+        # U7 FC A: a.b = -12 -> Obtuse
+        _has("satisfy a.b = -12", "angle between them must be"),
+        {"type": "choice", "choice": "Obtuse"},
+    ),
+    (
+        # U7 FC A: (a + b).(a - b) = |a|^2 - |b|^2
+        _has("(a + b).(a - b) simplifies to"),
+        {"type": "choice", "choice": "|a|^2 - |b|^2"},
+    ),
+    (
+        # U7 FC A: perpendicular pair -> (2, -1) and (1, 2)
+        _has("Which pair of vectors is perpendicular?"),
+        {"type": "choice", "choice": "(2, -1) and (1, 2)"},
+    ),
+    (
+        # U7 FC A: angle between u=(1,0,-1) and v=(0,1,1) -> 120 degrees
+        _has("angle between u = (1, 0, -1) and v = (0, 1, 1)"),
+        {"type": "choice", "choice": "120 degrees"},
+    ),
+    (
+        # U7 FC A: p=(2,k,1) perp to q=(1,-1,3) -> k = 5
+        _has("p = (2, k, 1) and q = (1, -1, 3) perpendicular"),
+        ["5"],
+    ),
+    (
+        # U7 FC A: distributive property a.(b + c) = a.b + a.c
+        _has("a.(b + c) = a.b + a.c"),
+        {"type": "choice", "choice": "Correct - the distributive property of the dot product"},
+    ),
+    (
+        # U7 FC A: a=(-1,2,4), b=(3,4,3) -> a.b = 17
+        _has("a = (-1, 2, 4) and b = (3, 4, 3)"),
+        ["17"],
+    ),
+    (
+        # U7 FC A: |a|=3, |b|=5, 120 deg -> -7.5
+        _has("|a| = 3, |b| = 5", "angle between them (tail to tail) is 120 degrees"),
+        {"type": "choice", "choice": "-7.5"},
+    ),
 ]
 
 
