@@ -1288,13 +1288,83 @@ ENTRIES = [
     ),
     (
         # U6 FC B: x=2i-j, y=-i+5j
-        _has("x = 2i - j and y = -i + 5j"),
+        _has("x = 2i - j and y = -i + 5j", "3x - y ="),
         ["7i - 8j", "3i - 51j", "-29i + 28j"],
     ),
     (
         # U6 FC B: A(-2,3,-5), B(6,7,3) -> AB=(8,4,8), |AB|=12, unit BA=(-2/3,-1/3,-2/3)
         _has("A(-2, 3, -5) and B(6, 7, 3)"),
         ["(8, 4, 8)", "12", "(-2/3, -1/3, -2/3)"],
+    ),
+    (
+        # U6 FC B: 3(a - 2b - 5c) - 3(2a - 4b + 2c) - (a - 3b + 3c)
+        _has("3(a - 2b - 5c) - 3(2a - 4b + 2c) - (a - 3b + 3c)"),
+        ["-4a + 9b - 24c"],
+    ),
+    (
+        # U6 FC B: P(2, a - c, a) = Q(2, 6, 11)
+        _has("P(2, a - c, a) and Q(2, 6, 11)"),
+        ["11", "5", "yes"],
+    ),
+    (
+        # U6 FC B: A(-1, 3), B(2, 5) -> AB, BA, |OA|, |OB|, |AB|, |BA|
+        _has("For A(-1, 3) and B(2, 5)"),
+        ["(3, 2)", "(-3, -2)", "sqrt(10)", "sqrt(29)", "sqrt(13)", "sqrt(13)"],
+    ),
+    (
+        # U6 FC B: a=(-60, 11), b=(-40, -9)
+        _has("a = (-60, 11) and b = (-40, -9)"),
+        ["61", "41", "2sqrt(2501)", "20sqrt(2)"],
+    ),
+    (
+        # U6 FC B: equidistant from A(2, -1, 3) and B(1, 2, -3)
+        _has("equidistant from A(2, -1, 3) and B(1, 2, -3)"),
+        ["x - 3y + 6z = 0"],
+    ),
+    (
+        # U6 FC B: x = 2i - j, y = -i + 5j magnitudes
+        _has("x = 2i - j and y = -i + 5j", "|2x - 3y| ="),
+        ["sqrt(17)", "3sqrt(5)", "13sqrt(2)", "13sqrt(2)"],
+    ),
+    (
+        # U6 FC B: Rectangle ABCD A(2, 3), B(-6, 9), D(8, 11) -> C(0, 17)
+        _has("A(2, 3), B(-6, 9), C(x, y), and D(8, 11)"),
+        ["0", "17"],
+    ),
+    (
+        # U6 FC B: OA = (-1, 2, 4) -> -i + 2j + 4k, sqrt(21)
+        _has("OA = (-1, 2, 4)"),
+        ["-i + 2j + 4k", "sqrt(21)"],
+    ),
+    (
+        # U6 FC B: fourth vertex of parallelogram A(-1, 2), B(7, -2), C(2, 8)
+        _has("A(-1, 2), B(7, -2), and C(2, 8)"),
+        ["(4, -8)", "(-6, 12)", "(10, 4)"],
+    ),
+    (
+        # U6 FC B: unit vector opposite M(2,3,5) to N(8,1,2)
+        _has("M(2, 3, 5) to N(8, 1, 2)"),
+        ["(-6/7, 2/7, 3/7)"],
+    ),
+    (
+        # U6 FC B: 2x + y - 2z = 0, x=(-1,b,c), y=(a,-2,c), z=(-a,6,c)
+        _has("2x + y - 2z = 0", "x = (-1, b, c)"),
+        ["2/3", "7", "0"],
+    ),
+    (
+        # U6 FC B: x=2a-3b-4c, y=-2a+3b+3c, z=2a-3b+5c
+        _has("x = 2a - 3b - 4c", "y = -2a + 3b + 3c"),
+        ["20a - 30b + 8c", "2a - 3b - 3c"],
+    ),
+    (
+        # U6 FC B: P(x, y, 0), Q(x, 0, z), R(0, y, z) planes
+        _has("P(x, y, 0), Q(x, 0, z), and R(0, y, z)"),
+        ["xy-plane", "xz-plane", "yz-plane"],
+    ),
+    (
+        # U6 FC B: X(-1, 2, 6), Y(5, 5, 12) -> YX=(-6, -3, -6), unit=(-2/3, -1/3, -2/3)
+        _has("X(-1, 2, 6) and Y(5, 5, 12)"),
+        ["(-6, -3, -6)", "(-2/3, -1/3, -2/3)"],
     ),
 ]
 
