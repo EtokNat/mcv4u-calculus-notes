@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="MCV4U · Calculus and Vectors">
+  <title>Lesson 3.4 — Optimization in Action: Area, Volume, and Distance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css" id="theme">
+  <link rel="stylesheet" href="slides.css">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- 1. TITLE -->
+<section id="title-slide" class="title-slide">
+  <h1 class="title">Optimization in Action<br>Area, Volume, Distance</h1>
+  <p class="subtitle">MCV4U · Unit 3 · Lesson 3.4</p>
+  <p class="author">Nelson Calculus and Vectors 12 §3.3</p>
+  <aside class="notes">Session C, 35 min. Feeds FC B (geometric optimization).</aside>
+</section>
+
+<!-- 2. LEARNING GOALS -->
+<section>
+  <h2>Learning Goals</h2>
+  <p>By the end of this lesson, you can:</p>
+  <ul>
+    <li class="fragment">Follow the <strong>five-step optimization algorithm</strong>.</li>
+    <li class="fragment">Set up area, volume, and distance models with a <strong>labelled diagram</strong> and a correct <strong>domain</strong>.</li>
+    <li class="fragment">Interpret endpoints that give <strong>impossible</strong> results.</li>
+  </ul>
+</section>
+
+<!-- 3. MINDS ON -->
+<section>
+  <h2>Minds On</h2>
+  <p>We frequently need to do the best we can — <strong>minimize cost</strong>, <strong>maximize area</strong>, minimize distance. This is <em>optimization</em>: the best outcome subject to a set of restrictions.</p>
+  <p class="fragment">Restrictions give the function a <em>restricted domain</em> — the maximum or minimum can occur in the interior <strong>or at the endpoints</strong>.</p>
+</section>
+
+<!-- 4. PART 1 DIVIDER -->
+<section><h2 class="divider">Part 1 — The algorithm</h2></section>
+
+<!-- 5. THE ALGORITHM -->
+<section>
+  <h2>Algorithm for Solving Optimization Problems</h2>
+  <div class="rulebox">
+    <ol>
+      <li class="fragment">Identify what varies. Write the quantity to optimize as a <strong>function of one variable</strong>.</li>
+      <li class="fragment">Whenever possible, <strong>draw a labelled diagram</strong>.</li>
+      <li class="fragment">Determine the <strong>domain</strong> from the constraints.</li>
+      <li class="fragment">Apply the <strong>extreme-value algorithm</strong> on the domain.</li>
+      <li class="fragment"><strong>Answer the original question</strong> (not just the critical \(x\)).</li>
+    </ol>
+  </div>
+</section>
+
+<!-- 6. PART 2 DIVIDER -->
+<section><h2 class="divider">Part 2 — Worked example: the fence</h2></section>
+
+<!-- 7. EXAMPLE 1 — SETUP -->
+<section>
+  <h2>Example — 800 m of fencing, 3 sides</h2>
+  <p>A farmer has 800 m of fencing and wants to enclose a rectangular field. One side is along a country road (already fenced). Maximize the area.</p>
+  <p class="fragment"><strong>Step 1 — one variable.</strong> Let the width perpendicular to the road be \(x\) m. Then the length along the road is \(800 - 2x\) m.</p>
+  <p class="fragment"><strong>Step 2 — model.</strong> \(A(x) = x(800 - 2x) = 800x - 2x^{2}.\)</p>
+  <p class="fragment"><strong>Step 3 — domain.</strong> \(0 < x < 400.\)</p>
+</section>
+
+<!-- 8. EXAMPLE 1 — SOLVE -->
+<section>
+  <h2>Example — apply the extreme-value algorithm</h2>
+  <p class="fragment"><strong>Step 4a.</strong> \(A'(x) = 800 - 4x = 0 \Rightarrow x = 200.\)</p>
+  <p class="fragment"><strong>Step 4b — evaluate.</strong></p>
+  <p class="fragment">\(A(0) = 0,\;\; A(200) = 200(400) = 80\,000,\;\; A(400) = 0.\)</p>
+  <p class="fragment"><em>The endpoints give zero-area "rectangles" — physically impossible.</em></p>
+  <div class="fragment answer">
+    <strong>Step 5 — answer.</strong> Maximum area \(= 80\,000\) m², with field <strong>200 m × 400 m</strong>.
+  </div>
+</section>
+
+<!-- 9. CLASSWORK BANNER -->
+<section>
+  <h2 class="task">Classwork</h2>
+  <p>Three questions from Bronston's Check Your Understanding (Lesson 3.4).</p>
+  <aside class="notes">~10 min total. Each practises a different constraint shape.</aside>
+</section>
+
+<!-- 10. C1 -->
+<section>
+  <h2>C1 — Wire bent into a rectangle</h2>
+  <p>A 100 cm wire is bent into a rectangle. What dimensions give the maximum area?</p>
+  <p class="fragment"><strong>Step 1.</strong> Let one side \(= x\). Perimeter \(= 100 \Rightarrow\) other side \(= 50 - x.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(A(x) = x(50 - x).\) Domain \(0 < x < 50.\)</p>
+  <p class="fragment"><strong>Step 3.</strong> \(A'(x) = 50 - 2x = 0 \Rightarrow x = 25.\)</p>
+  <div class="fragment answer"><strong>25 cm × 25 cm square</strong> (area \(= 625\) cm²).</div>
+</section>
+
+<!-- 11. C2 -->
+<section>
+  <h2>C2 — Rectangle of area 64 m², minimum perimeter</h2>
+  <p>A rectangle has area 64 m². What dimensions give the <em>smallest</em> perimeter?</p>
+  <p class="fragment"><strong>Step 1.</strong> Let one side \(= x\). Other side \(= 64/x.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(P(x) = 2x + \dfrac{128}{x}.\) Domain \(x > 0.\)</p>
+  <p class="fragment"><strong>Step 3.</strong> \(P'(x) = 2 - \dfrac{128}{x^{2}} = 0 \Rightarrow x^{2} = 64 \Rightarrow x = 8.\)</p>
+  <div class="fragment answer"><strong>8 m × 8 m square</strong> (perimeter \(= 32\) m).</div>
+</section>
+
+<!-- 12. C3 -->
+<section>
+  <h2>C3 — 600 m of fence beside a river (3 sides)</h2>
+  <p>What dimensions maximize the enclosed area?</p>
+  <p class="fragment"><strong>Step 1.</strong> Width (perpendicular to river) \(= x\); length (parallel) \(= 600 - 2x.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(A(x) = x(600 - 2x).\) Domain \(0 < x < 300.\)</p>
+  <p class="fragment"><strong>Step 3.</strong> \(A'(x) = 600 - 4x = 0 \Rightarrow x = 150.\)</p>
+  <div class="fragment answer"><strong>150 m × 300 m</strong> &nbsp;(max area \(= 45\,000\) m²).</div>
+</section>
+
+<!-- 13. HOMEWORK BANNER -->
+<section>
+  <h2 class="homework">Homework</h2>
+  <p>Bronston Formative Check B — geometric optimization pool.</p>
+  <p>Cover each answer before attempting. Final answers only — show your working in your book.</p>
+</section>
+
+<!-- 14. H1 -->
+<section>
+  <h2>H1 — Bacteria in a pool</h2>
+  <p>A pool is treated for bacteria. \(t\) days after treatment, the count is \(N(t) = 30t^{2} - 240t + 500.\)</p>
+  <p>Determine the lowest number of bacteria during the first week.</p>
+  <div class="fragment answer"><strong>Lowest number \(= 20\) per cm³</strong> (at \(t = 4\) days).</div>
+</section>
+
+<!-- 15. H2 -->
+<section>
+  <h2>H2 — Largest rectangle inscribed in a right triangle</h2>
+  <p>Legs along the \(x\)- and \(y\)-axes; sides of the rectangle lie along the legs.</p>
+  <p>(a) Legs \(5\) cm and \(12\) cm. Largest area \(=\) ? &nbsp;&nbsp; (b) Legs \(8\) cm and \(15\) cm. Largest area \(=\) ?</p>
+  <p>(c) Hypothesize a conclusion for any right triangle.</p>
+  <div class="fragment answer">
+    <strong>(a)</strong> \(15\) cm² &nbsp;&nbsp; <strong>(b)</strong> \(30\) cm²<br>
+    <strong>(c)</strong> The largest rectangle inscribed in a right triangle has area equal to <strong>half</strong> the triangle's area.
+  </div>
+</section>
+
+<!-- 16. H3 -->
+<section>
+  <h2>H3 — Square-based rectangular box, \(V = 1000\) cm³</h2>
+  <p>Minimize the surface area. (All dimensions \(\ge 2\) cm; no waste.)</p>
+  <div class="fragment answer">
+    <strong>The box is a cube with side \(10\) cm.</strong><br>
+    Minimum surface area \(= 600\) cm².
+  </div>
+</section>
+
+<!-- 17. H4 -->
+<section>
+  <h2>H4 — Golf-net enclosure, \(V = 144\) m³</h2>
+  <p>Net on the sides, top, and far end only (open at one end). Square cross-section.</p>
+  <p>Minimize the netting.</p>
+  <div class="fragment answer">
+    <strong>Square end side \(= 6\) m, length \(= 4\) m.</strong>
+  </div>
+</section>
+
+<!-- 18. H5 -->
+<section>
+  <h2>H5 — Minimum distance from \((-3, 3)\) to \(y = (x - 3)^{2}\)</h2>
+  <p>Find the minimum distance from the point to the curve.</p>
+  <div class="fragment answer"><strong>Minimum distance \(= \sqrt{17}\).</strong></div>
+</section>
+
+<!-- 19. WRAP -->
+<section>
+  <h2>Wrap-up — Lesson 3.4</h2>
+  <p><strong>Key ideas</strong></p>
+  <ul>
+    <li>Optimization = extreme-value algorithm applied to a model <em>you</em> build.</li>
+    <li>One variable → labelled diagram → domain → extreme-value algorithm → answer the original question.</li>
+  </ul>
+  <p><strong>Need to know</strong></p>
+  <ul>
+    <li>Endpoints can hold the optimum — but confirm they are physically possible.</li>
+    <li>Next: Lesson 3.5 — <strong>revenue and profit optimization</strong>.</li>
+  </ul>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/math/math.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+
+<script>
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    slideNumber: 'c/t',
+    hash: true,
+    history: true,
+    fragments: true,
+    center: true,
+    transition: 'slide',
+    width: 1280,
+    height: 900,
+    margin: 0.04,
+    math: {
+      mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+      config: 'TeX-AMS_HTML-full',
+      tex2jax: {
+        inlineMath: [['\\(','\\)']],
+        displayMath: [['\\[','\\]']],
+        balanceBraces: true,
+        processEscapes: false,
+        processRefs: true,
+        processEnvironments: true,
+        preview: 'TeX',
+        skipTags: ['script','noscript','style','textarea','pre','code'],
+        ignoreClass: 'tex2jax_ignore',
+        processClass: 'tex2jax_process'
+      }
+    },
+    plugins: [ RevealMath.MathJax3, RevealNotes ]
+  });
+</script>
+</body>
+</html>

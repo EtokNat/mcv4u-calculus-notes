@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="MCV4U · Calculus and Vectors">
+  <title>Lesson 3.1 — Second Derivatives: Notation and Computation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css" id="theme">
+  <link rel="stylesheet" href="slides.css">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- 1. TITLE -->
+<section id="title-slide" class="title-slide">
+  <h1 class="title">Second Derivatives<br>Notation and Computation</h1>
+  <p class="subtitle">MCV4U · Unit 3 · Lesson 3.1</p>
+  <p class="author">Nelson Calculus and Vectors 12 §3.1 (part 1)</p>
+  <aside class="notes">Session A, 35 min. Opens Unit 3 "Derivatives and Their Applications." Feeds FC A.</aside>
+</section>
+
+<!-- 2. LEARNING GOALS -->
+<section>
+  <h2>Learning Goals</h2>
+  <p>By the end of this lesson, you can:</p>
+  <ul>
+    <li class="fragment">Compute <strong>second derivatives</strong> by differentiating twice.</li>
+    <li class="fragment">Use the notations \(f''(x)\), \(y''\), and \(\dfrac{d^{2}y}{dx^{2}}\) correctly.</li>
+    <li class="fragment">Explain why the second derivative is written as \(\dfrac{d}{dx}\!\left(\dfrac{dy}{dx}\right)\).</li>
+  </ul>
+</section>
+
+<!-- 3. MINDS ON -->
+<section>
+  <h2>Minds On</h2>
+  <p>Derivatives arise in the study of motion. The velocity of a car is the rate of change of displacement at a specific point in time.</p>
+  <p class="fragment">We have developed the rules of differentiation — now we extend them to <strong>higher-order derivatives</strong>.</p>
+  <p class="fragment">Differentiating the first derivative gives the <strong>second derivative</strong>, which will describe <em>acceleration</em> and much more.</p>
+</section>
+
+<!-- 4. PART 1 DIVIDER -->
+<section><h2 class="divider">Part 1 — What a second derivative is</h2></section>
+
+<!-- 5. HIGHER-ORDER DERIVATIVES -->
+<section>
+  <h2>Higher-order derivatives</h2>
+  <div class="rulebox">
+    <p>If \(y = f(x)\) has first derivative \(f'(x)\), its <strong>second derivative</strong> is the derivative of \(f'(x)\):</p>
+    <p class="fragment">\[\dfrac{d}{dx}\!\left(\dfrac{dy}{dx}\right) = \dfrac{d^{2}y}{dx^{2}}.\]</p>
+  </div>
+  <p class="fragment"><strong>All these notations mean the same thing:</strong></p>
+  <p class="fragment">\(\dfrac{dy}{dx} = f'(x) = y'\) &nbsp;&nbsp;and&nbsp;&nbsp; \(\dfrac{d^{2}y}{dx^{2}} = f''(x) = y''.\)</p>
+</section>
+
+<!-- 6. QUICK WARMUPS -->
+<section>
+  <h2>Two quick warm-ups</h2>
+  <p class="fragment"><strong>(a)</strong> If \(f(x) = 10x^{4}\), then \(f'(x) = 40x^{3}\) and \(f''(x) = \boxed{120x^{2}}.\)</p>
+  <p class="fragment"><strong>(b)</strong> If \(y = 2x^{3} - 5x^{2}\), then \(\dfrac{dy}{dx} = 6x^{2} - 10x\) and \(\dfrac{d^{2}y}{dx^{2}} = \boxed{12x - 10}.\)</p>
+  <p class="fragment"><em>Rule:</em> differentiate once to get \(f'\), differentiate the result to get \(f''\).</p>
+</section>
+
+<!-- 7. PART 2 DIVIDER -->
+<section><h2 class="divider">Part 2 — Worked example</h2></section>
+
+<!-- 8. EXAMPLE 1 — SETUP -->
+<section>
+  <h2>Example 1 — \(f(x) = \dfrac{x}{1+x}\). Find \(f''(1)\).</h2>
+  <p class="fragment"><strong>Step 1.</strong> Rewrite as a product: \(f(x) = x(x+1)^{-1}.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> Product + power-of-a-function rule:</p>
+  <p class="fragment">\(f'(x) = (1)(x+1)^{-1} + (x)(-1)(x+1)^{-2}(1)\)</p>
+  <p class="fragment">\(= \dfrac{1}{x+1} - \dfrac{x}{(x+1)^{2}}.\)</p>
+</section>
+
+<!-- 9. EXAMPLE 1 — SIMPLIFY f' -->
+<section>
+  <h2>Example 1 — simplify \(f'(x)\) before differentiating again</h2>
+  <p>\(f'(x) = \dfrac{(x+1) - x}{(x+1)^{2}} = \dfrac{1}{(1+x)^{2}}.\)</p>
+  <p class="fragment">Rewrite as a power: \(f'(x) = (1+x)^{-2}.\)</p>
+  <div class="fragment tipbox"><strong>Why simplify first?</strong> A clean \(f'\) saves a mountain of algebra when you differentiate again.</div>
+</section>
+
+<!-- 10. EXAMPLE 1 — COMPUTE f'' -->
+<section>
+  <h2>Example 1 — differentiate again</h2>
+  <p>\(f'(x) = (1+x)^{-2}.\)</p>
+  <p class="fragment"><strong>Power of a function:</strong> \(f''(x) = -2(1+x)^{-3}(1)\)</p>
+  <p class="fragment">\(= \dfrac{-2}{(1+x)^{3}}.\)</p>
+  <p class="fragment">At \(x = 1\): \(f''(1) = \dfrac{-2}{(1+1)^{3}} = \dfrac{-2}{8}.\)</p>
+  <div class="fragment answer"><strong>\(f''(1) = -\dfrac{1}{4}.\)</strong></div>
+</section>
+
+<!-- 11. CLASS TASK BANNER -->
+<section>
+  <h2 class="task">Classwork</h2>
+  <p>Four questions — try each on paper first, then reveal the answer.</p>
+  <p><em>Modelled on Exercise 3.1 from Bronston's lesson page.</em></p>
+  <aside class="notes">Allocate ~10 min total. If student is fast, they finish within the lesson.</aside>
+</section>
+
+<!-- 12. C1 -->
+<section>
+  <h2>C1 — Find \(f''(x)\) for \(f(x) = x^{10} + 3x^{6}\)</h2>
+  <p class="fragment"><strong>Step 1.</strong> \(f'(x) = 10x^{9} + 18x^{5}.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> Differentiate again.</p>
+  <div class="fragment answer"><strong>\(f''(x) = 90x^{8} + 90x^{4}.\)</strong></div>
+</section>
+
+<!-- 13. C2 -->
+<section>
+  <h2>C2 — Find \(f''(x)\) for \(f(x) = \sqrt{x}\)</h2>
+  <p class="fragment"><strong>Step 1.</strong> Rewrite: \(f(x) = x^{1/2}.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(f'(x) = \tfrac{1}{2}x^{-1/2}.\)</p>
+  <p class="fragment"><strong>Step 3.</strong> Differentiate again.</p>
+  <div class="fragment answer"><strong>\(f''(x) = -\dfrac{1}{4}x^{-3/2}.\)</strong></div>
+</section>
+
+<!-- 14. C3 -->
+<section>
+  <h2>C3 — Find \(f''(x)\) for \(f(x) = (1-x)^{2}\)</h2>
+  <p class="fragment"><strong>Step 1.</strong> Expand: \(f(x) = 1 - 2x + x^{2}.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(f'(x) = -2 + 2x.\)</p>
+  <p class="fragment"><strong>Step 3.</strong> Differentiate again.</p>
+  <div class="fragment answer"><strong>\(f''(x) = 2.\)</strong></div>
+  <p class="fragment"><em>A constant — the curve has uniform concavity.</em></p>
+</section>
+
+<!-- 15. C4 -->
+<section>
+  <h2>C4 — Find \(f''(1)\) for \(f(x) = \dfrac{2x}{x+5}\)</h2>
+  <p class="fragment"><strong>Step 1.</strong> Quotient rule, then simplify: \(f'(x) = \dfrac{10}{(x+5)^{2}} = 10(x+5)^{-2}.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(f''(x) = -20(x+5)^{-3}.\)</p>
+  <p class="fragment"><strong>Step 3.</strong> At \(x = 1\): \(f''(1) = -\dfrac{20}{6^{3}} = -\dfrac{20}{216}.\)</p>
+  <div class="fragment answer"><strong>\(f''(1) = -\dfrac{5}{54}.\)</strong></div>
+</section>
+
+<!-- 16. HOMEWORK BANNER -->
+<section>
+  <h2 class="homework">Homework</h2>
+  <p>Bronston Formative Check A — foundation questions.</p>
+  <p>Cover each answer before attempting the question. Final answers only — show your working in your book.</p>
+</section>
+
+<!-- 17. H1 -->
+<section>
+  <h2>H1 — Interval notation</h2>
+  <p>Express each set using interval notation.</p>
+  <p>(a) \(\{x \in \mathbb{R}\mid x &gt; 3\}\) &nbsp;&nbsp; (b) \(\{x \in \mathbb{R}\mid x \le -2\}\) &nbsp;&nbsp; (c) \(\{x \in \mathbb{R}\mid x &lt; 0\}\)</p>
+  <p>(d) \(\{x \in \mathbb{R}\mid x \ge -5\}\) &nbsp;&nbsp; (e) \(\{x \in \mathbb{R}\mid -2 &lt; x \le 8\}\) &nbsp;&nbsp; (f) \(\{x \in \mathbb{R}\mid -4 &lt; x &lt; 4\}\)</p>
+  <div class="fragment answer">
+    <strong>(a)</strong> \((3,\infty)\) &nbsp; <strong>(b)</strong> \((-\infty,-2]\) &nbsp; <strong>(c)</strong> \((-\infty,0)\)<br>
+    <strong>(d)</strong> \([-5,\infty)\) &nbsp; <strong>(e)</strong> \((-2,8]\) &nbsp; <strong>(f)</strong> \((-4,4)\)
+  </div>
+</section>
+
+<!-- 18. H2 -->
+<section>
+  <h2>H2 — Surface area and volume of cubes</h2>
+  <p>Calculate the total surface area and volume for each cube.</p>
+  <p>(a) side \(3\) cm &nbsp;&nbsp; (b) side \(\sqrt{5}\) cm &nbsp;&nbsp; (c) side \(2\sqrt{3}\) cm &nbsp;&nbsp; (d) side \(2k\) cm</p>
+  <div class="fragment answer">
+    <strong>(a)</strong> SA \(= 54\) cm², V \(= 27\) cm³<br>
+    <strong>(b)</strong> SA \(= 30\) cm², V \(= 5\sqrt{5}\) cm³<br>
+    <strong>(c)</strong> SA \(= 72\) cm², V \(= 24\sqrt{3}\) cm³<br>
+    <strong>(d)</strong> SA \(= 24k^{2}\) cm², V \(= 8k^{3}\) cm³
+  </div>
+</section>
+
+<!-- 19. WRAP -->
+<section>
+  <h2>Wrap-up — Lesson 3.1</h2>
+  <p><strong>Key ideas</strong></p>
+  <ul>
+    <li>The <strong>second derivative</strong> is the derivative of the first derivative.</li>
+    <li>Notations: \(f''(x)\), \(y''\), \(\dfrac{d^{2}y}{dx^{2}}\) — the superscript records "derivative of the derivative."</li>
+  </ul>
+  <p><strong>Need to know</strong></p>
+  <ul>
+    <li>Simplify \(f'(x)\) (e.g. rewrite as a power function) <em>before</em> differentiating again.</li>
+    <li>Next: Lesson 3.2 — velocity and acceleration on a line.</li>
+  </ul>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/math/math.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+
+<script>
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    slideNumber: 'c/t',
+    hash: true,
+    history: true,
+    fragments: true,
+    center: true,
+    transition: 'slide',
+    width: 1280,
+    height: 900,
+    margin: 0.04,
+    math: {
+      mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+      config: 'TeX-AMS_HTML-full',
+      tex2jax: {
+        inlineMath: [['\\(','\\)']],
+        displayMath: [['\\[','\\]']],
+        balanceBraces: true,
+        processEscapes: false,
+        processRefs: true,
+        processEnvironments: true,
+        preview: 'TeX',
+        skipTags: ['script','noscript','style','textarea','pre','code'],
+        ignoreClass: 'tex2jax_ignore',
+        processClass: 'tex2jax_process'
+      }
+    },
+    plugins: [ RevealMath.MathJax3, RevealNotes ]
+  });
+</script>
+</body>
+</html>

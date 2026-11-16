@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="MCV4U · Calculus and Vectors">
+  <title>Lessons 3.2 + 3.3 — Motion on a Line & Absolute Extrema</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css" id="theme">
+  <link rel="stylesheet" href="slides.css">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- 1. TITLE -->
+<section id="title-slide" class="title-slide">
+  <h1 class="title">Motion on a Line<br>&amp; Absolute Extrema</h1>
+  <p class="subtitle">MCV4U · Unit 3 · Lessons 3.2 + 3.3</p>
+  <p class="author">Nelson Calculus and Vectors 12 §3.1 (part 2), §3.2</p>
+  <aside class="notes">Session B, 35 min. FC A covers both. Combining within the FC-A seam.</aside>
+</section>
+
+<!-- 2. LEARNING GOALS -->
+<section>
+  <h2>Learning Goals</h2>
+  <p>By the end of this lesson, you can:</p>
+  <ul>
+    <li class="fragment">Relate <strong>position \(s(t)\)</strong>, <strong>velocity \(v(t) = s'(t)\)</strong>, and <strong>acceleration \(a(t) = s''(t)\)</strong>.</li>
+    <li class="fragment">Decide when an object is <strong>speeding up</strong> or <strong>slowing down</strong>.</li>
+    <li class="fragment">Apply the <strong>extreme-value algorithm</strong> on a closed interval.</li>
+    <li class="fragment">Decide when the extreme-value algorithm <strong>does not apply</strong>.</li>
+  </ul>
+</section>
+
+<!-- 3. MINDS ON -->
+<section>
+  <h2>Minds On</h2>
+  <p>Derivatives give us <strong>rates of change</strong> — for motion, that's velocity (first derivative of position) and acceleration (second derivative).</p>
+  <p class="fragment">Next, we'll ask a different question: on a <em>closed interval</em>, where does a function reach its <strong>largest</strong> and <strong>smallest</strong> values? At a peak or valley — or at an endpoint?</p>
+</section>
+
+<!-- 4. PART 1 DIVIDER -->
+<section><h2 class="divider">Part 1 — Motion on a Line</h2></section>
+
+<!-- 5. CORE DEFINITIONS -->
+<section>
+  <h2>Position, velocity, acceleration</h2>
+  <div class="rulebox">
+    <p>For an object moving on a straight line with position \(s(t)\):</p>
+    <p class="fragment">\(v(t) = s'(t) = \dfrac{ds}{dt}\) &nbsp;&nbsp; (velocity)</p>
+    <p class="fragment">\(a(t) = v'(t) = s''(t) = \dfrac{d^{2}s}{dt^{2}}\) &nbsp;&nbsp; (acceleration)</p>
+    <p class="fragment">Speed \(= |v(t)|\).</p>
+  </div>
+  <p class="fragment"><strong>Sign conventions:</strong> \(v>0\) move right; \(v<0\) move left; \(v=0\) at rest.</p>
+  <p class="fragment"><strong>Speeding up</strong> when \(v\) and \(a\) share a sign (\(va > 0\)); <strong>slowing down</strong> when signs differ (\(va < 0\)).</p>
+</section>
+
+<!-- 6. EXAMPLE 3 SETUP -->
+<section>
+  <h2>Example — \(s(t) = 6t^{2} - t^{3}\), &nbsp; \(t \ge 0\)</h2>
+  <p>Position in metres; time in seconds.</p>
+  <p class="fragment">(a) Find \(v(2)\) and \(a(2)\).</p>
+  <p class="fragment">(b) When is the object at rest?</p>
+  <p class="fragment">(c) In which direction is it moving at \(t = 5\)?</p>
+  <p class="fragment">(d) When does it return to its starting position?</p>
+</section>
+
+<!-- 7. EXAMPLE 3 PART A -->
+<section>
+  <h2>Example — part (a)</h2>
+  <p class="fragment"><strong>Step 1.</strong> \(v(t) = s'(t) = 12t - 3t^{2}.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(a(t) = v'(t) = s''(t) = 12 - 6t.\)</p>
+  <p class="fragment"><strong>Step 3.</strong> At \(t=2\): \(v(2) = 12(2) - 3(4) = 24 - 12 = \boxed{12 \text{ m/s}}.\)</p>
+  <p class="fragment">\(a(2) = 12 - 6(2) = \boxed{0 \text{ m/s}^{2}}.\)</p>
+  <p class="fragment"><em>Interpretation:</em> at \(t=2\) the object moves right at 12 m/s with zero acceleration — momentarily constant velocity.</p>
+</section>
+
+<!-- 8. EXAMPLE 3 PARTS B-D -->
+<section>
+  <h2>Example — parts (b), (c), (d)</h2>
+  <p class="fragment"><strong>(b) At rest:</strong> \(v(t)=0 \Rightarrow 3t(4-t)=0 \Rightarrow t=0\) or \(t=4.\)</p>
+  <p class="fragment"><strong>(c) At \(t=5\):</strong> \(v(5) = 60 - 75 = -15.\) Moving <strong>left</strong>.</p>
+  <p class="fragment"><strong>(d) Return to start:</strong> \(s(t)=0 \Rightarrow t^{2}(6-t)=0 \Rightarrow t=0\) or \(t=6.\)</p>
+  <div class="fragment answer"><strong>Returns after 6 s.</strong></div>
+</section>
+
+<!-- 9. CLASSWORK BANNER (motion) -->
+<section>
+  <h2 class="task">Classwork — Motion</h2>
+  <p>Two questions from Bronston's Check Your Understanding (Lesson 3.2).</p>
+  <aside class="notes">~5 min. Verbatim from the lesson page CYU block.</aside>
+</section>
+
+<!-- 10. C1 -->
+<section>
+  <h2>C1 — Particle with \(s(t) = t^{2} - 6t + 8\)</h2>
+  <p>(a) Find the velocity at time \(t\). &nbsp; (b) When is the velocity zero?</p>
+  <p class="fragment"><strong>Step 1.</strong> \(v(t) = s'(t) = 2t - 6.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(2t - 6 = 0 \Rightarrow t = 3.\)</p>
+  <div class="fragment answer">
+    <strong>(a)</strong> \(v(t) = 2t - 6.\) &nbsp;&nbsp; <strong>(b)</strong> \(t = 3\) s.
+  </div>
+</section>
+
+<!-- 11. C2 -->
+<section>
+  <h2>C2 — \(s(t) = 8 + 7t + t^{2}\): velocity and acceleration at \(t = 5\)</h2>
+  <p class="fragment"><strong>Step 1.</strong> \(v(t) = s'(t) = 7 + 2t.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(a(t) = v'(t) = 2.\)</p>
+  <p class="fragment"><strong>Step 3.</strong> \(v(5) = 7 + 10 = 17.\)</p>
+  <div class="fragment answer">
+    <strong>\(v(5) = 17\) m/s</strong> &nbsp;&nbsp; <strong>\(a(5) = 2\) m/s²</strong>
+  </div>
+</section>
+
+<!-- 12. PART 2 DIVIDER -->
+<section><h2 class="divider">Part 2 — Absolute Extrema on an Interval</h2></section>
+
+<!-- 13. THE ALGORITHM -->
+<section>
+  <h2>Algorithm for Absolute Maximum / Minimum</h2>
+  <div class="rulebox">
+    <p>If \(f\) is differentiable on \([a, b]\), calculate \(f(x)\) at:</p>
+    <ul>
+      <li class="fragment">all points in \([a, b]\) where \(f'(x) = 0\),</li>
+      <li class="fragment">the endpoints \(x = a\) and \(x = b\).</li>
+    </ul>
+    <p class="fragment">The <strong>largest</strong> of these values is the maximum; the <strong>smallest</strong> is the minimum.</p>
+  </div>
+  <p class="fragment"><em>The interval must be finite (closed), and \(f\) must have a derivative at every point of it.</em></p>
+</section>
+
+<!-- 14. EXAMPLE 1 — SETUP -->
+<section>
+  <h2>Example — \(f(x) = -2x^{3} + 9x^{2} + 4\) on \([-1, 5]\)</h2>
+  <p class="fragment"><strong>Step 1.</strong> \(f'(x) = -6x^{2} + 18x = -6x(x - 3).\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(f'(x) = 0 \Rightarrow x = 0\) or \(x = 3.\) Both lie in \([-1, 5].\)</p>
+  <p class="fragment"><strong>Step 3.</strong> Evaluate at the critical points <em>and</em> the endpoints.</p>
+</section>
+
+<!-- 15. EXAMPLE 1 — EVALUATE -->
+<section>
+  <h2>Example — evaluate at all four candidates</h2>
+  <p class="fragment">\(f(-1) = -2(-1)^{3} + 9(1) + 4 = 2 + 9 + 4 = 15.\)</p>
+  <p class="fragment">\(f(0) = 4.\)</p>
+  <p class="fragment">\(f(3) = -2(27) + 9(9) + 4 = -54 + 81 + 4 = 31.\)</p>
+  <p class="fragment">\(f(5) = -2(125) + 9(25) + 4 = -250 + 225 + 4 = -21.\)</p>
+  <div class="fragment answer">
+    <strong>Maximum \(f(3) = 31\)</strong> (peak) &nbsp;&nbsp; <strong>Minimum \(f(5) = -21\)</strong> (endpoint)
+  </div>
+  <p class="fragment"><em>Lesson:</em> extrema can occur at a peak/valley <strong>or</strong> at an endpoint — check both.</p>
+</section>
+
+<!-- 16. CLASSWORK BANNER (extrema) -->
+<section>
+  <h2 class="task">Classwork — Extrema</h2>
+  <p>Two questions from Bronston's Check Your Understanding (Lesson 3.3).</p>
+  <aside class="notes">~5 min. Verbatim from the lesson page CYU block.</aside>
+</section>
+
+<!-- 17. C3 -->
+<section>
+  <h2>C3 — Absolute extrema of \(f(x) = x^{2} - 4x + 3\) on \([0, 3]\)</h2>
+  <p class="fragment"><strong>Step 1.</strong> \(f'(x) = 2x - 4 = 0 \Rightarrow x = 2.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> Evaluate at \(x = 0, 2, 3\):</p>
+  <p class="fragment">\(f(0) = 3,\;\; f(2) = -1,\;\; f(3) = 0.\)</p>
+  <div class="fragment answer">
+    <strong>Maximum \(= 3\) at \(x = 0\)</strong> (endpoint) &nbsp;&nbsp; <strong>Minimum \(= -1\) at \(x = 2\)</strong> (valley)
+  </div>
+</section>
+
+<!-- 18. C4 -->
+<section>
+  <h2>C4 — Does the algorithm apply to \(y = \dfrac{3x}{x - 2}\) on \([-1, 3]\)?</h2>
+  <p class="fragment">Check: is \(y\) differentiable at every point of \([-1, 3]\)?</p>
+  <p class="fragment">At \(x = 2\) the denominator is zero — \(y\) is <strong>undefined</strong> (and so has no derivative) there.</p>
+  <p class="fragment">The point \(x = 2\) lies inside \([-1, 3].\)</p>
+  <div class="fragment answer"><strong>No — the algorithm does not apply.</strong> The function must be differentiable at every point of the interval; it fails at \(x = 2.\)</div>
+</section>
+
+<!-- 19. HOMEWORK BANNER -->
+<section>
+  <h2 class="homework">Homework</h2>
+  <p>Bronston Formative Check A — motion &amp; extrema pool.</p>
+  <p>Cover each answer before attempting. Final answers only — show your working in your book.</p>
+</section>
+
+<!-- 20. H1 -->
+<section>
+  <h2>H1 — Object with \(s(t) = 4t - 7t^{2} + 2t^{3}\)</h2>
+  <p>(a) Find \(v(2)\) and \(a(2).\)</p>
+  <p>(b) When is the object stationary? Describe the motion before and after.</p>
+  <p>(c) At what time (to 1 d.p.) is the acceleration \(0\)?</p>
+  <div class="fragment answer">
+    <strong>(a)</strong> \(v(2) = 0,\;\; a(2) = 10.\)<br>
+    <strong>(b)</strong> Stationary when \(v(t) = 4 - 14t + 6t^{2} = 0 \Rightarrow t = \tfrac{1}{3}\) s and \(t = 2\) s.<br>
+    <strong>(c)</strong> \(a(t) = -14 + 12t = 0 \Rightarrow t \approx 1.2\) s.
+  </div>
+</section>
+
+<!-- 21. H2 -->
+<section>
+  <h2>H2 — Particle with \(s(t) = t^{2} - 6t + 8\)</h2>
+  <p>(a) What is its velocity at time \(t\)?</p>
+  <p>(b) When is its velocity zero?</p>
+  <div class="fragment answer">
+    <strong>(a)</strong> \(v(t) = 2t - 6.\)<br>
+    <strong>(b)</strong> \(t = 3.\)
+  </div>
+</section>
+
+<!-- 22. H3 -->
+<section>
+  <h2>H3 — Absolute extrema using the algorithm</h2>
+  <p>(a) \(f(x) = x^{3} + 3x^{2} + 1,\;\; -2 \le x \le 2\)</p>
+  <p>(b) \(f(x) = (x + 2)^{2},\;\; -3 \le x \le 3\)</p>
+  <p>(c) \(f(x) = \dfrac{1}{x} - \dfrac{1}{x^{3}},\;\; x \in [1, 5]\)</p>
+  <div class="fragment answer">
+    <strong>(a)</strong> max \(= 21\) at \(x = 2\); min \(= 1\) at \(x = 0\).<br>
+    <strong>(b)</strong> max \(= 25\) at \(x = 3\); min \(= 0\) at \(x = -2\).<br>
+    <strong>(c)</strong> max \(= \tfrac{2\sqrt{3}}{9}\) at \(x = \sqrt{3}\); min \(= 0\) at \(x = 1\).
+  </div>
+</section>
+
+<!-- 23. H4 -->
+<section>
+  <h2>H4 — Max/min via graphing technology</h2>
+  <p>(a) \(f(x) = x^{2} - 5\) &nbsp; (b) \(f(x) = -x^{2} - 10x\) &nbsp; (c) \(f(x) = 3x^{2} - 30x + 82\)</p>
+  <p>(d) \(f(x) = |x| - 1\) &nbsp; (e) \(f(x) = 3\sin x + 2\) &nbsp; (f) \(f(x) = -2\cos 2x - 5\)</p>
+  <div class="fragment answer">
+    <strong>(a)</strong> min \(= -5\) at \(x = 0\) (no max)<br>
+    <strong>(b)</strong> max \(= 25\) at \(x = -5\) (no min)<br>
+    <strong>(c)</strong> min \(= 7\) at \(x = 5\) (no max)<br>
+    <strong>(d)</strong> min \(= -1\) at \(x = 0\) (no max)<br>
+    <strong>(e)</strong> max \(= 5\), min \(= -1\)<br>
+    <strong>(f)</strong> max \(= -3\), min \(= -7\)
+  </div>
+</section>
+
+<!-- 24. WRAP -->
+<section>
+  <h2>Wrap-up — Lessons 3.2 + 3.3</h2>
+  <p><strong>Key ideas</strong></p>
+  <ul>
+    <li>\(v = s'\), \(a = s''\); speed \(= |v|\); speeding up when \(va > 0\), slowing down when \(va < 0\).</li>
+    <li>On a closed interval, absolute extrema live at points where \(f'(x) = 0\) <em>or</em> at the endpoints.</li>
+  </ul>
+  <p><strong>Need to know</strong></p>
+  <ul>
+    <li>Interval must be finite (closed); function must be differentiable throughout.</li>
+    <li>Next: Lesson 3.4 — building an <strong>optimization framework</strong>.</li>
+  </ul>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/math/math.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+
+<script>
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    slideNumber: 'c/t',
+    hash: true,
+    history: true,
+    fragments: true,
+    center: true,
+    transition: 'slide',
+    width: 1280,
+    height: 900,
+    margin: 0.04,
+    math: {
+      mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+      config: 'TeX-AMS_HTML-full',
+      tex2jax: {
+        inlineMath: [['\\(','\\)']],
+        displayMath: [['\\[','\\]']],
+        balanceBraces: true,
+        processEscapes: false,
+        processRefs: true,
+        processEnvironments: true,
+        preview: 'TeX',
+        skipTags: ['script','noscript','style','textarea','pre','code'],
+        ignoreClass: 'tex2jax_ignore',
+        processClass: 'tex2jax_process'
+      }
+    },
+    plugins: [ RevealMath.MathJax3, RevealNotes ]
+  });
+</script>
+</body>
+</html>

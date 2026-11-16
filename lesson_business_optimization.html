@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="MCV4U · Calculus and Vectors">
+  <title>Lessons 3.5 + 3.6 — Maximizing Revenue &amp; Minimizing Cost</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css" id="theme">
+  <link rel="stylesheet" href="slides.css">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- 1. TITLE -->
+<section id="title-slide" class="title-slide">
+  <h1 class="title">Revenue &amp; Cost<br>Business Optimization</h1>
+  <p class="subtitle">MCV4U · Unit 3 · Lessons 3.5 + 3.6</p>
+  <p class="author">Nelson Calculus and Vectors 12 §3.4</p>
+  <aside class="notes">Session D, 35 min. FC C covers both. Combining within the FC-C seam.</aside>
+</section>
+
+<!-- 2. LEARNING GOALS -->
+<section>
+  <h2>Learning Goals</h2>
+  <p>By the end of this lesson, you can:</p>
+  <ul>
+    <li class="fragment">Build a <strong>revenue function</strong> \(R = (\text{price})(\text{quantity})\) from market research.</li>
+    <li class="fragment">Build a <strong>cost function</strong> from per-unit material prices + a volume constraint.</li>
+    <li class="fragment">Use <strong>marginal revenue</strong> \(R'(x)\) and <strong>marginal cost</strong> \(C'(x)\) to analyze profit.</li>
+    <li class="fragment">Respect <strong>practical domain</strong> constraints (capacity, integer steps, feasibility).</li>
+  </ul>
+</section>
+
+<!-- 3. MINDS ON -->
+<section>
+  <h2>Minds On</h2>
+  <p>In business, we want to <strong>maximize profit</strong> (revenue minus cost). Antagonizing customers with high prices hurts future revenue — so <em>practical</em> constraints matter too.</p>
+  <p class="fragment"><strong>Revenue</strong> \(= (\text{price per unit}) \times (\text{units sold})\).</p>
+  <p class="fragment"><strong>Marginal cost</strong> \(= C'(x)\); <strong>marginal revenue</strong> \(= R'(x)\); profit peaks where \(R'(x) = C'(x).\)</p>
+</section>
+
+<!-- 4. PART 1 DIVIDER -->
+<section><h2 class="divider">Part 1 — Maximizing revenue</h2></section>
+
+<!-- 5. EXAMPLE 1 — SETUP -->
+<section>
+  <h2>Example — Commuter train fare</h2>
+  <p>A train carries <strong>2000 passengers</strong> daily at <strong>$7.00</strong> per person.</p>
+  <ul>
+    <li class="fragment">Each \($0.10\) <em>increase</em> loses 40 passengers.</li>
+    <li class="fragment">Each \($0.10\) <em>decrease</em> gains 40 passengers.</li>
+    <li class="fragment">Capacity \(= 2600\); break-even minimum \(= 1600\) passengers.</li>
+  </ul>
+  <p class="fragment">What fare maximizes daily revenue?</p>
+</section>
+
+<!-- 6. EXAMPLE 1 — MODEL -->
+<section>
+  <h2>Example — build the revenue function</h2>
+  <p class="fragment"><strong>Step 1.</strong> Let \(x\) \(= \) number of \($0.10\) increases (\(x\) can be negative).</p>
+  <p class="fragment"><strong>Step 2.</strong> fare \(= 7 + 0.10x\); passengers \(= 2000 - 40x\).</p>
+  <p class="fragment"><strong>Step 3 — domain.</strong></p>
+  <p class="fragment">\(2000 - 40x \ge 1600 \Rightarrow x \le 10\).</p>
+  <p class="fragment">\(2000 - 40x \le 2600 \Rightarrow x \ge -15\). So \(-15 \le x \le 10\).</p>
+  <p class="fragment"><strong>Step 4.</strong> \(R(x) = (7 + 0.10x)(2000 - 40x) = -4x^{2} - 80x + 14\,000.\)</p>
+</section>
+
+<!-- 7. EXAMPLE 1 — SOLVE -->
+<section>
+  <h2>Example — apply the extreme-value algorithm</h2>
+  <p class="fragment">\(R'(x) = -8x - 80 = 0 \Rightarrow x = -10\) (inside the domain).</p>
+  <p class="fragment">\(R(-15) = 14\,300;\quad R(-10) = 14\,400;\quad R(10) = 12\,800.\)</p>
+  <div class="fragment answer">
+    <strong>Maximum revenue \(= \$14\,400\)</strong> at \(x = -10\): a \(\$1.00\) <em>decrease</em>.<br>
+    New fare: <strong>\$6.00</strong>; passengers: <strong>2400</strong>.
+  </div>
+  <p class="fragment"><em>Counter-intuitive but mathematical:</em> lowering the fare brought in enough extra passengers to beat the higher fare.</p>
+</section>
+
+<!-- 8. CLASSWORK BANNER (revenue) -->
+<section>
+  <h2 class="task">Classwork — Revenue &amp; Profit</h2>
+  <p>Two questions from Bronston's Check Your Understanding (Lesson 3.5).</p>
+  <aside class="notes">~8 min total.</aside>
+</section>
+
+<!-- 9. C1 -->
+<section>
+  <h2>C1 — CD player price</h2>
+  <p>CD players sell at $90 (50 units per 2 weeks). Each $1 price cut sells 5 more units. What price maximizes revenue?</p>
+  <p class="fragment"><strong>Step 1.</strong> Let \(x\) \(= \) number of $1 decreases. Price \(= 90 - x\); units \(= 50 + 5x.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(R(x) = (90 - x)(50 + 5x) = -5x^{2} + 400x + 4500.\)</p>
+  <p class="fragment"><strong>Step 3.</strong> \(R'(x) = -10x + 400 = 0 \Rightarrow x = 40.\)</p>
+  <div class="fragment answer"><strong>Price \(= \$50\)</strong> &nbsp; (units \(= 250\); revenue \(= \$12\,500\)).</div>
+</section>
+
+<!-- 10. C2 -->
+<section>
+  <h2>C2 — MP3 player profit</h2>
+  <p>Store cost \($70\); current price \($100\); 120 sold/month. Each \($2\) <em>increase</em> loses 1 sale. Maximize <strong>profit</strong>.</p>
+  <p class="fragment"><strong>Step 1.</strong> Let \(x\) \(= \) number of $2 increases. Units \(= 120 - x\); profit per unit \(= 30 + 2x.\)</p>
+  <p class="fragment"><strong>Step 2.</strong> \(P(x) = (120 - x)(30 + 2x) = -2x^{2} + 210x + 3600.\)</p>
+  <p class="fragment"><strong>Step 3.</strong> \(P'(x) = -4x + 210 = 0 \Rightarrow x = 52.5.\)</p>
+  <div class="fragment answer"><strong>Price \(= 100 + 2(52.5) = \$205.\)</strong></div>
+</section>
+
+<!-- 11. PART 2 DIVIDER -->
+<section><h2 class="divider">Part 2 — Minimizing cost</h2></section>
+
+<!-- 12. EXAMPLE 2 — SETUP -->
+<section>
+  <h2>Example — Cylindrical storage tank</h2>
+  <p>Capacity \(1000\) m³; warehouse \(12\times 15\times 11\) m.</p>
+  <p>Base \(\$100\)/m², top \(\$50\)/m², wall \(\$80\)/m². Minimize cost.</p>
+  <p class="fragment"><strong>Feasibility.</strong> \(r \le 6\) (half the width); max volume \(\pi(6)^{2}(11) \approx 1244 \ge 1000\). Fits.</p>
+  <p class="fragment"><strong>Radius domain.</strong> With \(h = 11\), \(\pi r^{2}(11) \ge 1000 \Rightarrow r \ge 5.38\). So \(5.38 \le r \le 6.\)</p>
+</section>
+
+<!-- 13. EXAMPLE 2 — MODEL -->
+<section>
+  <h2>Example — build the cost function</h2>
+  <p class="fragment">\(C = 100(\pi r^{2}) + 50(\pi r^{2}) + 80(2\pi r h) = 150\pi r^{2} + 160\pi r h.\)</p>
+  <p class="fragment"><strong>Constraint:</strong> \(V = \pi r^{2} h = 1000 \Rightarrow h = \dfrac{1000}{\pi r^{2}}.\)</p>
+  <p class="fragment">Substitute:</p>
+  <p class="fragment">\(C(r) = 150\pi r^{2} + \dfrac{160\,000}{r},\;\; 5.38 \le r \le 6.\)</p>
+</section>
+
+<!-- 14. EXAMPLE 2 — SOLVE -->
+<section>
+  <h2>Example — solve on \([5.38, 6]\)</h2>
+  <p class="fragment">\(C'(r) = 300\pi r - \dfrac{160\,000}{r^{2}} = 0 \Rightarrow r^{3} = \dfrac{1600}{3\pi} \Rightarrow r \approx 5.54.\)</p>
+  <p class="fragment">Evaluate:</p>
+  <p class="fragment">\(C(5.38) \approx 43\,380;\quad C(5.54) \approx 43\,344;\quad C(6) \approx 43\,631.\)</p>
+  <div class="fragment answer">
+    <strong>Minimum cost \(\approx \$43\,344\)</strong> at \(r \approx 5.54\) m, \(h \approx 10.37\) m.
+  </div>
+</section>
+
+<!-- 15. C3 -->
+<section>
+  <h2>C3 — What does marginal cost mean?</h2>
+  <p>If marginal cost at some production level \(x\) is \(\$0.50\)/L, what does that mean practically?</p>
+  <div class="fragment answer">
+    Producing <strong>one more litre</strong> at that production level is expected to cost about <strong>\$0.50</strong>.
+    Marginal cost \(C'(x)\) is the <em>instantaneous rate of change</em> of total cost.
+  </div>
+</section>
+
+<!-- 16. HOMEWORK BANNER -->
+<section>
+  <h2 class="homework">Homework</h2>
+  <p>Bronston Formative Check C — revenue, cost, and cost-function pool.</p>
+  <p>Cover each answer before attempting. Final answers only — show your working in your book.</p>
+</section>
+
+<!-- 17. H1 -->
+<section>
+  <h2>H1 — Apartment rent</h2>
+  <p>A 50-unit building has rent $850/month; all occupied. Every $100 increase causes 10 vacancies.</p>
+  <p>What rent maximizes revenue?</p>
+  <div class="fragment answer"><strong>Rent \(= \$850\)/month</strong> (the current rent — any increase loses more revenue than it gains).</div>
+</section>
+
+<!-- 18. H2 -->
+<section>
+  <h2>H2 — Basketball arena</h2>
+  <p>Arena holds 20 000; 14 000 attend at $75/ticket. Each $5 cut adds 800 fans.</p>
+  <p>Find the price that maximizes revenue.</p>
+  <div class="fragment answer"><strong>Price \(= \$81.25\)</strong> (the optimum is actually a slight <em>increase</em>).</div>
+</section>
+
+<!-- 19. H3 -->
+<section>
+  <h2>H3 — Unit cost of manufacturing</h2>
+  <p>Cost is \(C(x) = 625 + 15x + 0.01x^{2}\) for \(1 \le x \le 500.\)</p>
+  <p>Unit cost \(U(x) = C(x)/x.\) How many items should be made to minimize \(U(x)\)?</p>
+  <div class="fragment answer"><strong>\(x = 250\)</strong> items.</div>
+</section>
+
+<!-- 20. H4 -->
+<section>
+  <h2>H4 — Minimize average cost</h2>
+  <p>For \(C(x) = 0.004x^{2} + 40x + 16\,000\), find the production level that minimizes the average cost per unit \(\overline{C}(x) = C(x)/x.\)</p>
+  <div class="fragment answer"><strong>\(x = 2000\)</strong> units.</div>
+</section>
+
+<!-- 21. H5 -->
+<section>
+  <h2>H5 — Cough and trachea radius</h2>
+  <p>During a cough the trachea narrows. Air velocity is modelled by \(v(r) = Ar^{2}(r_{0} - r),\) where \(0 \le r \le r_{0}.\)</p>
+  <p>Find the radius giving maximum velocity, and the maximum velocity.</p>
+  <div class="fragment answer">
+    Radius \(= \dfrac{2r_{0}}{3}\); &nbsp; maximum velocity \(= \dfrac{4Ar_{0}^{3}}{27}.\)
+  </div>
+</section>
+
+<!-- 22. WRAP -->
+<section>
+  <h2>Wrap-up — Lessons 3.5 + 3.6</h2>
+  <p><strong>Key ideas</strong></p>
+  <ul>
+    <li>\(R = (\text{price})(\text{quantity})\); \(P = R - C\); \(P' = 0\) when \(R' = C'.\)</li>
+    <li>Cost functions: use the volume (or area) constraint to reduce to one variable before differentiating.</li>
+  </ul>
+  <p><strong>Need to know</strong></p>
+  <ul>
+    <li>Respect practical domain: capacity, feasibility, integer steps.</li>
+    <li>Next: Unit 3 Formative Checks A / B / C, then the Summative Assignment + Test.</li>
+  </ul>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/math/math.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+
+<script>
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    slideNumber: 'c/t',
+    hash: true,
+    history: true,
+    fragments: true,
+    center: true,
+    transition: 'slide',
+    width: 1280,
+    height: 900,
+    margin: 0.04,
+    math: {
+      mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+      config: 'TeX-AMS_HTML-full',
+      tex2jax: {
+        inlineMath: [['\\(','\\)']],
+        displayMath: [['\\[','\\]']],
+        balanceBraces: true,
+        processEscapes: false,
+        processRefs: true,
+        processEnvironments: true,
+        preview: 'TeX',
+        skipTags: ['script','noscript','style','textarea','pre','code'],
+        ignoreClass: 'tex2jax_ignore',
+        processClass: 'tex2jax_process'
+      }
+    },
+    plugins: [ RevealMath.MathJax3, RevealNotes ]
+  });
+</script>
+</body>
+</html>
