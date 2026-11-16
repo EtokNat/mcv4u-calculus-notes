@@ -1653,6 +1653,47 @@ ENTRIES = [
         _has("(a + b) × (a - b) equals"),
         {"type": "choice", "choice": "-2(a × b)"},
     ),
+    # --- Unit 8 Formative Check A (14549) ------------------------------
+    (
+        # U8 FC A: equilibrant of a force system
+        _has("equilibrant of a force system is"),
+        {"type": "choice", "choice": "Equal in magnitude and opposite in direction to the resultant"},
+    ),
+    (
+        # U8 FC A: ferry 1.5 km wide at 12 km/h, current 4 km/h -> 0.5 km downstream after 7.5 min
+        _has("ferry crosses a 1.5 km wide river", "current is 4 km/h"),
+        {"type": "choice", "choice": "0.5 km downstream after 7.5 min"},
+    ),
+    (
+        # U8 FC A: 6 N east, 8 N north -> 10 N
+        _has("6 N due east and 8 N due north"),
+        {"type": "choice", "choice": "10 N"},
+    ),
+    (
+        # U8 FC A: 4 kN, 7 kN, 12 kN equilibrium -> No triangle inequality
+        _has("4 kN, 7 kN, and 12 kN", "equilibrium"),
+        {"type": "choice", "choice": "No — 4 + 7 < 12 violates the triangle inequality"},
+    ),
+    (
+        # U8 FC A: 8 kg crate (78.4 N) on 25 deg ramp -> 78.4*sin(25) ≈ 33.1 N
+        _has("8 kg crate (weight 78.4 N) rests on a 25"),
+        {"type": "choice", "choice": "≈ 33.1 N"},
+    ),
+    (
+        # U8 FC A: boat 15 km/h, river 5 km/h -> arcsin(5/15) = 19.47 deg
+        _has("boat moving at 15 km/h in still water", "river flowing at 5 km/h"),
+        ["19.47"],
+    ),
+    (
+        # U8 FC A: 100 N sign, two cables at 60 deg -> 100/(2*sin(60)) = 57.74 N
+        _has("100 N sign hangs from two identical cables", "60"),
+        ["57.74"],
+    ),
+    (
+        # U8 FC A: plane west 300 km/h, wind from north 40 km/h -> 302.7 km/h, 7.6 south of west
+        _has("plane flies due west at 300 km/h", "wind blows from the north at 40 km/h"),
+        {"type": "choice", "choice": "≈ 302.7 km/h, 7.6° south of west"},
+    ),
 ]
 
 
