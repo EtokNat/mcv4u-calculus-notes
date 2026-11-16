@@ -1694,6 +1694,47 @@ ENTRIES = [
         _has("plane flies due west at 300 km/h", "wind blows from the north at 40 km/h"),
         {"type": "choice", "choice": "≈ 302.7 km/h, 7.6° south of west"},
     ),
+    # --- Unit 8 Formative Check B (14550) ------------------------------
+    (
+        # U8 FC B: 50 N door at 0.80 m and 0.20 m -> 40 N·m and 10 N·m
+        _has("push a door with 50 N perpendicular", "0.80 m from hinges"),
+        {"type": "choice", "choice": "40 N·m and 10 N·m"},
+    ),
+    (
+        # U8 FC B: piano 10 m, 100 N + 80 N at 30 deg -> ≈ 1693 J
+        _has("Two movers push a piano 10 m", "80 N at 30"),
+        {"type": "choice", "choice": "≈ 1693 J"},
+    ),
+    (
+        # U8 FC B: lug nut 80 N·m / 200 N -> 0.4 m
+        _has("lug nut needs 80", "push with 200 N"),
+        ["0.4"],
+    ),
+    (
+        # U8 FC B: winch 5000 J, 250 N over 30 m -> arccos(2/3) = 48.19 deg
+        _has("winch does 5000 J of work", "250 N over 30 m"),
+        ["48.19"],
+    ),
+    (
+        # U8 FC B: 30 N perpendicular to 0.50 m wrench -> 15 N·m
+        _has("30 N force is applied perpendicular to a 0.50 m wrench"),
+        {"type": "choice", "choice": "15 N·m"},
+    ),
+    (
+        # U8 FC B: 800 N crate dragged 6 m, 120 N friction -> -720 J
+        _has("800 N crate is dragged 6 m", "friction of 120 N"),
+        {"type": "choice", "choice": "−720 J"},
+    ),
+    (
+        # U8 FC B: 40 kg at 1.5 m, 24 kg -> 2.5 m
+        _has("40 kg child sits 1.5 m", "24 kg child"),
+        ["2.5"],
+    ),
+    (
+        # U8 FC B: 200 N at 30 deg, 12 m -> ≈ 2078 J
+        _has("rope pulls a crate with 200 N at 30", "moves 12 m"),
+        {"type": "choice", "choice": "≈ 2078 J"},
+    ),
 ]
 
 
